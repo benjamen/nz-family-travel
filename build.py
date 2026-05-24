@@ -58,6 +58,7 @@ def build():
     media        = load("media")
     guides       = load_content_dir("travel-tips")
     tools        = load_content_dir("tools")
+    overseas     = load_content_dir("overseas")
 
     # Attach media to destinations and activities
     for dest in destinations:
@@ -73,6 +74,7 @@ def build():
         campervans=campervans,
         guides=guides,
         tools=tools,
+        overseas=overseas,
     )
 
     print("Building pages...")
@@ -203,6 +205,25 @@ def build():
                guide=guide,
                **ctx)
 
+    # ── Overseas destinations hub ─────────────────────────────────────────────
+    render("hub.html", "overseas/index.html",
+           hub_title="Overseas Family Travel from NZ — Thailand, Bali, Vietnam & More",
+           hub_subtitle="Honest guides for NZ families travelling overseas — real costs, flight times, and what actually works with kids.",
+           hub_type="overseas",
+           items=overseas,
+           item_url_prefix="overseas",
+           item_slug_field="slug",
+           item_name_field="title",
+           item_desc_field="tagline",
+           **ctx)
+
+    # ── Individual overseas destination pages ─────────────────────────────────
+    for dest in overseas:
+        render("overseas.html",
+               f"overseas/{dest['slug']}/index.html",
+               dest=dest,
+               **ctx)
+
     # ── Sitemap ───────────────────────────────────────────────────────────────
     pages = (
         ["", "destinations", "activities", "itineraries", "campervans", "tools", "travel-tips"] +
@@ -212,7 +233,9 @@ def build():
         [f"itineraries/{i['slug']}" for i in itineraries] +
         [f"campervans/{v['slug']}" for v in campervans] +
         [f"tools/{t['slug']}" for t in tools] +
-        [f"travel-tips/{g['slug']}" for g in guides]
+        [f"travel-tips/{g['slug']}" for g in guides] +
+        ["overseas"] +
+        [f"overseas/{d['slug']}" for d in overseas]
     )
     sitemap = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
     for p in pages:

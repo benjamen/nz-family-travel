@@ -1,0 +1,158 @@
+{% extends "base.html" %}
+
+{% block title %}{{ dest.title }}{% endblock %}
+{% block desc %}{{ dest.meta_desc }}{% endblock %}
+{% block canonical %}overseas/{{ dest.slug }}/{% endblock %}
+
+{% block hero %}
+<div class="dest-hero-image" style="background-image:url('{{ dest.hero_image }}')">
+  <div class="dest-hero-overlay">
+    <div class="hero-inner">
+      <div class="breadcrumb" style="color:rgba(255,255,255,.75)"><a href="/" style="color:#fff">Home</a> › <a href="/overseas/" style="color:#fff">Overseas</a> › {{ dest.country }}</div>
+      <div class="dest-hero-meta">
+        <span style="font-size:2rem">{{ dest.flag }}</span>
+        <span class="dest-region" style="color:rgba(255,255,255,.85)">{{ dest.country }}</span>
+      </div>
+      <h1 style="color:#fff;text-shadow:0 2px 8px rgba(0,0,0,.5)">{{ dest.title }}</h1>
+      <p style="color:rgba(255,255,255,.9);font-size:1.1rem;margin-top:.5rem">{{ dest.tagline }}</p>
+    </div>
+  </div>
+</div>
+{% endblock %}
+
+{% block content %}
+
+<!-- Quick facts -->
+<section class="section">
+  <div class="quick-facts-block">
+    <div class="qf-grid">
+      <div class="qf-item"><span class="qf-label">Best ages</span><span class="qf-val">{{ dest.best_ages }}</span></div>
+      <div class="qf-item"><span class="qf-label">Budget (family 4)</span><span class="qf-val">{{ dest.budget_family4_per_day }}/day</span></div>
+      <div class="qf-item"><span class="qf-label">Flight from NZ</span><span class="qf-val">{{ dest.flight_from_nz }}</span></div>
+      <div class="qf-item"><span class="qf-label">Best months</span><span class="qf-val">{{ dest.best_months[0] }}–{{ dest.best_months[-1] }}</span></div>
+      <div class="qf-item"><span class="qf-label">Avoid</span><span class="qf-val">{{ dest.avoid_months[0] if dest.avoid_months else "No bad months" }}–{{ dest.avoid_months[-1] if dest.avoid_months else "" }}</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- Affiliate strip -->
+<div class="affiliate-strip">
+  <div class="aff-strip-inner">
+    <a href="{{ site.affiliates.covermore.url }}" class="aff-strip-item" rel="sponsored" target="_blank">
+      🛡️ <strong>Travel Insurance for {{ dest.country }}</strong> — Cover-More NZ
+    </a>
+    <a href="{{ site.affiliates.booking_com.url }}" class="aff-strip-item" rel="sponsored" target="_blank">
+      🏨 <strong>Hotels in {{ dest.country }}</strong> — Compare on Booking.com
+    </a>
+    <a href="{{ site.affiliates.skyscanner.url }}" class="aff-strip-item" rel="sponsored" target="_blank">
+      ✈️ <strong>Flights from NZ to {{ dest.country }}</strong> — Compare on Skyscanner
+    </a>
+  </div>
+</div>
+
+<!-- Intro + verdict -->
+<section class="section">
+  <h2>Is {{ dest.country }} Good for Families?</h2>
+  <div class="verdict-block">
+    <p class="verdict-text">{{ dest.intro }}</p>
+    <div class="verdict-grid">
+      <div class="verdict-item verdict-good">
+        <strong>Our verdict</strong>
+        <p>{{ dest.verdict }}</p>
+      </div>
+      <div class="verdict-item">
+        <strong>Budget (family of 4)</strong>
+        <p>{{ dest.budget_family4_per_day }}/day all-in — accommodation, food, activities and local transport.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Best destinations in country -->
+<section class="section section-alt">
+  <h2>Best Places in {{ dest.country }} for Families</h2>
+  <div class="itin-grid">
+    {% for place in dest.best_destinations %}
+    <div class="itin-card">
+      <div class="itin-header">
+        <span class="itin-budget">{{ place.cost }}</span>
+      </div>
+      <h3>{{ place.name }}</h3>
+      <p class="itin-subtitle">{{ place.tagline }}</p>
+      <p class="itin-tagline">{{ place.why }}</p>
+      <div class="itin-highlights">
+        {% for thing in place.must_do[:3] %}
+        <span class="itin-highlight">{{ thing }}</span>
+        {% endfor %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+<!-- Practical info -->
+<section class="section">
+  <h2>Practical Info — {{ dest.country }} with NZ Kids</h2>
+  <div class="quick-facts-block">
+    <div class="qf-grid">
+      <div class="qf-item"><span class="qf-label">Currency</span><span class="qf-val" style="font-size:.85rem">{{ dest.practical_info.currency }}</span></div>
+      <div class="qf-item"><span class="qf-label">Health</span><span class="qf-val" style="font-size:.85rem">{{ dest.practical_info.health }}</span></div>
+      <div class="qf-item"><span class="qf-label">SIM card</span><span class="qf-val" style="font-size:.85rem">{{ dest.practical_info.sim_card }}</span></div>
+      <div class="qf-item"><span class="qf-label">Visa</span><span class="qf-val" style="font-size:.85rem">{{ dest.practical_info.visa }}</span></div>
+      <div class="qf-item"><span class="qf-label">Transport</span><span class="qf-val" style="font-size:.85rem">{{ dest.practical_info.transport }}</span></div>
+      <div class="qf-item"><span class="qf-label">Food safety</span><span class="qf-val" style="font-size:.85rem">{{ dest.practical_info.food_safety }}</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- Budget breakdown -->
+<section class="section section-alt">
+  <h2>{{ dest.country }} Family Budget Breakdown</h2>
+  <div class="budget-table">
+    <div class="budget-row"><span>Accommodation per night</span><span>{{ dest.budget_breakdown.accommodation }}</span></div>
+    <div class="budget-row"><span>Food per day</span><span>{{ dest.budget_breakdown.food }}</span></div>
+    <div class="budget-row"><span>Activities per day</span><span>{{ dest.budget_breakdown.activities }}</span></div>
+    <div class="budget-row"><span>Local transport per day</span><span>{{ dest.budget_breakdown.transport }}</span></div>
+  </div>
+  <div class="budget-cta" style="margin-top:1.5rem">
+    <p style="margin-bottom:.75rem;font-size:.9rem;color:var(--gray-600)">{{ dest.nz_affiliate_note }}</p>
+    <div style="display:flex;gap:1rem;flex-wrap:wrap">
+      <a href="{{ site.affiliates.covermore.url }}" class="btn btn-primary" rel="sponsored" target="_blank">Get travel insurance →</a>
+      <a href="{{ site.affiliates.booking_com.url }}" class="btn btn-outline" rel="sponsored" target="_blank">Find accommodation →</a>
+    </div>
+  </div>
+</section>
+
+<!-- Facebook groups -->
+{% if dest.facebook_groups %}
+<section class="section">
+  <h2>Connect with Families Who've Been to {{ dest.country }}</h2>
+  <p class="section-intro">Real advice from NZ parents — trip reports, questions, and recommendations.</p>
+  <div class="fb-groups-grid">
+    {% for group in dest.facebook_groups %}
+    <a href="{{ group.url }}" class="fb-group-card" target="_blank" rel="noopener">
+      <span class="fb-icon">👥</span>
+      <div>
+        <strong>{{ group.name }}</strong>
+        <span>{{ group.description }}</span>
+      </div>
+      <span class="fb-join">Join →</span>
+    </a>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
+
+<!-- NZ destinations link -->
+<section class="section section-alt">
+  <h2>Also Planning a NZ Family Trip?</h2>
+  <div class="dest-link-card">
+    <div>
+      <h3>NZ Family Destinations Guide</h3>
+      <p>Queenstown, Rotorua, Bay of Islands, Taupo and more — with honest costs and real itineraries.</p>
+    </div>
+    <a href="/destinations/" class="btn btn-outline">Explore NZ destinations →</a>
+  </div>
+</section>
+
+{% endblock %}

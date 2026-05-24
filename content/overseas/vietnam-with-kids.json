@@ -1,0 +1,60 @@
+{
+  "slug": "vietnam-with-kids",
+  "country": "Vietnam",
+  "flag": "🇻🇳",
+  "title": "Vietnam with Kids — The Honest NZ Family Guide (2026)",
+  "meta_desc": "Vietnam family holiday guide from NZ. Ha Long Bay, Hoi An, Hanoi with kids — real costs, what works, what doesn't, and the flight options from Auckland.",
+  "tagline": "History, street food, and Ha Long Bay — unforgettable at any age",
+  "hero_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Halong_Bay_Aerial_%281%29.jpg/1200px-Halong_Bay_Aerial_%281%29.jpg",
+  "hero_alt": "Ha Long Bay limestone islands and emerald water, Vietnam",
+  "best_ages": "6+",
+  "budget_family4_per_day": "NZ$140–280",
+  "flight_from_nz": "11–14 hours (Auckland to Hanoi or Ho Chi Minh City, usually 1 stop)",
+  "best_months": ["March", "April", "October", "November", "December"],
+  "avoid_months": ["July", "August"],
+  "intro": "Vietnam is one of the most rewarding family destinations in Asia — a country of spectacular landscapes, 4,000 years of history, extraordinary food, and near-Bali prices. Ha Long Bay is genuinely one of the world's great travel experiences. It takes more planning than Bali but rewards families with richer, more memorable experiences.",
+  "verdict": "Excellent for families with kids 6+. Best suited to families who enjoy history and culture alongside beaches. Best done with a local guide or organised itinerary.",
+  "best_destinations": [
+    {
+      "name": "Ha Long Bay",
+      "tagline": "One of the world's seven natural wonders — absolutely unmissable",
+      "why": "Ha Long Bay is the highlight of any Vietnam trip. 1,600 limestone islands rising from jade-green water — unlike anything else on earth. Book a 2-night cruise on a junk boat (from NZ$250/adult, NZ$160/child). Kids love the kayaking, the floating villages, and sleeping in the cabin as the boat moves.",
+      "must_do": ["2-night junk boat cruise (book through reputable operator — avoid bottom-budget boats)", "Kayaking through limestone caves", "Visiting Sung Sot Cave (most accessible)", "Sunrise from the boat deck"],
+      "cost": "Budget NZ$250–400/day family of 4 during cruise (all-inclusive)"
+    },
+    {
+      "name": "Hoi An",
+      "tagline": "The most beautiful town in Vietnam — lanterns, tailors, and ancient streets",
+      "why": "Hoi An's ancient town is a UNESCO World Heritage site — and genuinely magical at night when thousands of lanterns are lit. The beach (An Bang Beach, 4km away) is excellent. Tailors can make custom kids' clothing overnight for $15–25. The town is compact, car-free in the centre, and very walkable with kids.",
+      "must_do": ["Ancient town by night (lantern festival on the 14th of each month)", "Cooking class — Morning Glory in the market is excellent for families", "An Bang Beach (safe swimming, great cafes)", "Bicycle rides through rice fields", "Make your own lantern activity ($5 per person)"],
+      "cost": "Budget NZ$150–250/day family of 4"
+    },
+    {
+      "name": "Hanoi",
+      "tagline": "Chaotic, historic, and fascinating — the beating heart of Vietnam",
+      "why": "Hanoi is overwhelming at first but incredibly rewarding. The Old Quarter is a living museum — 36 ancient street guilds, each specialising in one trade. Ho Chi Minh's mausoleum, Hoan Kiem Lake, and the Vietnam Museum of Ethnology are all world-class. Best for families with kids 8+ who can handle the chaos.",
+      "must_do": ["Hoan Kiem Lake and Ngoc Son Temple (walk the red bridge to the island)", "Vietnam Museum of Ethnology (NZ$5 entry, extraordinary)", "Ho Chi Minh Mausoleum complex (free, arrive early)", "Old Quarter walking tour with a guide", "Water puppet show ($10 — kids love it)"],
+      "cost": "Budget NZ$140–230/day family of 4"
+    }
+  ],
+  "practical_info": {
+    "currency": "Vietnamese Dong (VND). NZ$1 ≈ 14,500 VND (2026). Use ATMs only — never street money changers.",
+    "health": "Hep A, typhoid, and Japanese encephalitis vaccines recommended for rural areas. Mosquito repellent essential. Stick to cooked food or well-known restaurants.",
+    "food_safety": "Pho, banh mi, and fresh spring rolls from busy local restaurants are generally safe. Avoid ice in street stalls. Look for places with high turnover.",
+    "sim_card": "Viettel or Mobifone SIM at the airport. NZ$10 for 30 days unlimited data.",
+    "visa": "NZ passport holders need an e-visa (US$25, apply online at evisa.xuatnhapcanh.gov.vn). Takes 3 business days.",
+    "transport": "Domestic flights on VietJet or Bamboo Airways are very cheap ($20–60 per person). Night train Hanoi–Da Nang is an adventure with kids. Grab (like Uber) for all city transport."
+  },
+  "budget_breakdown": {
+    "accommodation": "NZ$50–150/night for good family accommodation",
+    "food": "NZ$20–50/day eating local — Vietnam has some of the world's best cheap food",
+    "activities": "NZ$40–100/day including guided tours",
+    "transport": "NZ$20–60/day including domestic flights if needed"
+  },
+  "facebook_groups": [
+    {"name": "Vietnam with Kids and Family", "url": "https://www.facebook.com/groups/search/results/?q=vietnam+with+kids+family+travel", "description": "Families sharing Vietnam trip reports, itineraries and practical advice"},
+    {"name": "Ha Long Bay Cruise Reviews", "url": "https://www.facebook.com/groups/search/results/?q=halong+bay+cruise+family+review", "description": "Honest cruise operator reviews from families who've done Ha Long Bay"},
+    {"name": "NZ Families — Asia Travel", "url": "https://www.facebook.com/groups/search/results/?q=new+zealand+families+asia+travel", "description": "NZ families sharing Asia travel experiences across Thailand, Bali, Vietnam and more"}
+  ],
+  "nz_affiliate_note": "No direct flights Auckland–Vietnam. Best options: Air NZ via Singapore, China Southern via Guangzhou, or Vietnam Airlines via Sydney. Book 3+ months ahead."
+}

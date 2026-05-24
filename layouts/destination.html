@@ -320,6 +320,45 @@
   </div>
 </section>
 
+<!-- Hidden gems -->
+{% if destination.hidden_gems %}
+<section class="section section-alt">
+  <h2>Hidden Gems — {{ destination.name }}</h2>
+  <p class="section-intro">Stuff the guidebooks miss — local knowledge from NZ families who've done it properly.</p>
+  <ul class="tips-list">
+    {% for gem in destination.hidden_gems %}
+    <li>🔍 {{ gem }}</li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
+
+<!-- Facebook community -->
+<section class="section">
+  <h2>Connect with NZ Families — Facebook Groups</h2>
+  <p class="section-intro">Real advice from NZ parents — trip reports, questions, and recommendations. Join before you go.</p>
+  <div class="fb-groups-grid">
+    {% for group in destination.facebook_groups %}
+    <a href="{{ group.url }}" class="fb-group-card" target="_blank" rel="noopener">
+      <span class="fb-icon">👥</span>
+      <div>
+        <strong>{{ group.name }}</strong>
+        <span>{{ group.description }}</span>
+      </div>
+      <span class="fb-join">Join →</span>
+    </a>
+    {% endfor %}
+    <a href="https://www.facebook.com/groups/search/results/?q=new+zealand+family+travel" class="fb-group-card" target="_blank" rel="noopener">
+      <span class="fb-icon">🔍</span>
+      <div>
+        <strong>Find more NZ family groups</strong>
+        <span>Search Facebook for local NZ family travel communities</span>
+      </div>
+      <span class="fb-join">Search →</span>
+    </a>
+  </div>
+</section>
+
 <!-- Nearby destinations -->
 {% if destination.nearby_destinations %}
 <section class="section section-alt">

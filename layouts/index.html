@@ -201,6 +201,35 @@
   </div>
 </section>
 
+<!-- Overseas destinations -->
+<section class="section section-alt">
+  <h2>Overseas Family Travel from NZ</h2>
+  <p class="section-intro">Honest guides for NZ families heading overseas — flight times, real costs, and what actually works with kids.</p>
+  <div class="overseas-grid">
+    {% for dest in overseas %}
+    <a href="/overseas/{{ dest.slug }}/" class="overseas-card">
+      <div class="overseas-card-img" style="background-image:url('{{ dest.hero_image }}')"></div>
+      <div class="overseas-card-body">
+        <span class="overseas-badge">{{ dest.flag }} {{ dest.country }}</span>
+        <h3>{{ dest.title | replace(" — The Honest NZ Family Guide (2026)","") | replace(" — Honest Family Guide (2026)","") }}</h3>
+        <p>{{ dest.tagline }}</p>
+        <div class="overseas-facts">
+          <span>✈️ {{ dest.flight_from_nz.split(",")[0] }}</span>
+          <span>💰 {{ dest.budget_family4_per_day }}/day</span>
+        </div>
+      </div>
+    </a>
+    {% endfor %}
+    <a href="/overseas/" class="overseas-card" style="background:var(--gray-50);border:2px dashed var(--gray-200);display:flex;align-items:center;justify-content:center;min-height:200px">
+      <div style="text-align:center;padding:2rem">
+        <div style="font-size:2rem;margin-bottom:.5rem">🌏</div>
+        <strong>More destinations</strong>
+        <p style="font-size:.85rem;color:var(--gray-600);margin-top:.25rem">Thailand, Bali, Vietnam and more →</p>
+      </div>
+    </a>
+  </div>
+</section>
+
 <!-- FAQ -->
 <section class="section">
   <h2>NZ Family Travel — Common Questions</h2>
