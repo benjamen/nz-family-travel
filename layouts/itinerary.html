@@ -1,5 +1,33 @@
 {% extends "base.html" %}
 
+{% block extra_head %}
+<script type="application/ld+json">
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Home", "item": "{{ site.base_url }}/"},
+      {"@type": "ListItem", "position": 2, "name": "Itineraries", "item": "{{ site.base_url }}/itineraries/"},
+      {"@type": "ListItem", "position": 3, "name": "{{ itinerary.title[:60] }}", "item": "{{ site.base_url }}/itineraries/{{ itinerary.slug }}/"}
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {% for faq in itinerary.faqs %}
+      {
+        "@type": "Question",
+        "name": "{{ faq.q | replace('"', '&quot;') }}",
+        "acceptedAnswer": {"@type": "Answer", "text": "{{ faq.a | replace('"', '&quot;') }}"}
+      }{% if not loop.last %},{% endif %}
+      {% endfor %}
+    ]
+  }
+]
+</script>
+{% endblock %}
 {% block title %}{{ itinerary.title }} — NZ Family Holiday Plan 2026{% endblock %}
 {% block desc %}{{ itinerary.tagline }}. {{ itinerary.duration_days }}-day itinerary for a family of 4, budget {{ itinerary.budget_family4 }}. Day-by-day activities, drive times and honest tips.{% endblock %}
 {% block canonical %}itineraries/{{ itinerary.slug }}/{% endblock %}

@@ -2,20 +2,20 @@
   {
     "slug": "7-day-north-island-family-road-trip",
     "title": "7-Day North Island Family Road Trip",
-    "subtitle": "Auckland → Rotorua → Taupo → Wellington",
-    "tagline": "NZ's classic North Island loop — geothermal parks, lakes, and the capital city",
+    "subtitle": "Auckland \u2192 Rotorua \u2192 Taupo \u2192 Wellington",
+    "tagline": "NZ's classic North Island loop \u2014 geothermal parks, lakes, and the capital city",
     "duration_days": 7,
     "distance_km": 650,
-    "budget_family4": "$4000–6500",
+    "budget_family4": "$4000\u20136500",
     "budget_breakdown": {
-      "accommodation": "$150–350/night",
-      "activities": "$100–250/day",
-      "food": "$80–130/day",
+      "accommodation": "$150\u2013350/night",
+      "activities": "$100\u2013250/day",
+      "food": "$80\u2013130/day",
       "fuel": "~$150 total",
       "transport": "Rental car (included separately)"
     },
     "best_for": "Families with kids 3+, first-time NZ visitors",
-    "best_season": "October–March",
+    "best_season": "October\u2013March",
     "transport": "Rental car (campervan also works well)",
     "commercial_intent_score": 96,
     "highlights": [
@@ -38,7 +38,7 @@
           "Walk the waterfront, dinner at the Viaduct"
         ],
         "accommodation": "Auckland CBD hotel or holiday park",
-        "estimated_cost": "$50–150",
+        "estimated_cost": "$50\u2013150",
         "tips": [
           "Book accommodation near the motorway for easy departure next morning",
           "Countdown supermarkets are cheapest for groceries"
@@ -46,8 +46,8 @@
       },
       {
         "day": 2,
-        "location": "Auckland → Rotorua",
-        "title": "Drive to Rotorua — Hobbiton Option",
+        "location": "Auckland \u2192 Rotorua",
+        "title": "Drive to Rotorua \u2014 Hobbiton Option",
         "drive_from_prev": "2h 30m direct, or 3h 30m via Hobbiton",
         "activities": [
           "Option A: Drive direct to Rotorua (2.5h), check in, afternoon at Te Puia",
@@ -55,9 +55,9 @@
           "Evening: Dinner in Rotorua CBD"
         ],
         "accommodation": "Rotorua (holiday park or hotel)",
-        "estimated_cost": "$120–300",
+        "estimated_cost": "$120\u2013300",
         "tips": [
-          "Hobbiton MUST be pre-booked — often sold out weeks ahead",
+          "Hobbiton MUST be pre-booked \u2014 often sold out weeks ahead",
           "The direct route via Matamata is still beautiful"
         ]
       },
@@ -67,23 +67,23 @@
         "title": "Geothermal & Farm Day",
         "drive_from_prev": null,
         "activities": [
-          "Agrodome Farm Show (9:30am — book ahead)",
+          "Agrodome Farm Show (9:30am \u2014 book ahead)",
           "Lunch break (Eat Streat Rotorua has great cheap options)",
           "Skyline Rotorua Gondola & Luge (afternoon)",
           "Kuirau Park free geothermal walk (evening)"
         ],
         "accommodation": "Rotorua (same)",
-        "estimated_cost": "$180–280",
+        "estimated_cost": "$180\u2013280",
         "tips": [
           "Get the multi-ride luge pass for better value",
-          "Kuirau Park has free footbaths — let the kids put their feet in"
+          "Kuirau Park has free footbaths \u2014 let the kids put their feet in"
         ]
       },
       {
         "day": 4,
-        "location": "Rotorua → Taupo",
+        "location": "Rotorua \u2192 Taupo",
         "title": "Wai-O-Tapu + Drive to Taupo",
-        "drive_from_prev": "1h (via Wai-O-Tapu detour — 30 mins south of Rotorua)",
+        "drive_from_prev": "1h (via Wai-O-Tapu detour \u2014 30 mins south of Rotorua)",
         "activities": [
           "Wai-O-Tapu Thermal Wonderland (arrive by 10am for Lady Knox Geyser at 10:15am)",
           "Drive to Taupo (1h from Wai-O-Tapu)",
@@ -91,10 +91,10 @@
           "Spa Thermal Park evening soak (free natural hot spring)"
         ],
         "accommodation": "Taupo (holiday park or hotel)",
-        "estimated_cost": "$120–200",
+        "estimated_cost": "$120\u2013200",
         "tips": [
-          "Wai-O-Tapu's Lady Knox Geyser erupts at exactly 10:15am — don't miss it",
-          "Spa Thermal Park has no changing rooms — wear togs under clothes"
+          "Wai-O-Tapu's Lady Knox Geyser erupts at exactly 10:15am \u2014 don't miss it",
+          "Spa Thermal Park has no changing rooms \u2014 wear togs under clothes"
         ]
       },
       {
@@ -103,31 +103,31 @@
         "title": "Huka Jet + Lake Day",
         "drive_from_prev": null,
         "activities": [
-          "Huka Jet boat experience (book ahead — 30 mins, leaves from near Huka Falls)",
+          "Huka Jet boat experience (book ahead \u2014 30 mins, leaves from near Huka Falls)",
           "Picnic at Acacia Bay (great swimming beach)",
-          "Aratiatia Rapids (controlled release at 2pm and 4pm in summer — check times)",
+          "Aratiatia Rapids (controlled release at 2pm and 4pm in summer \u2014 check times)",
           "AC Baths thermal pools (affordable family swim)"
         ],
         "accommodation": "Taupo (same)",
-        "estimated_cost": "$200–350",
+        "estimated_cost": "$200\u2013350",
         "tips": [
-          "Buy groceries for your beach picnic — saves $40+ vs eating out",
-          "Aratiatia Rapids release times change seasonally — check the sign at the dam"
+          "Buy groceries for your beach picnic \u2014 saves $40+ vs eating out",
+          "Aratiatia Rapids release times change seasonally \u2014 check the sign at the dam"
         ]
       },
       {
         "day": 6,
-        "location": "Taupo → Wellington",
+        "location": "Taupo \u2192 Wellington",
         "title": "Drive Day to Wellington",
         "drive_from_prev": "4h direct (or split with Tongariro National Park stop)",
         "activities": [
           "Option A: Drive direct to Wellington (4h), check in, walk the waterfront",
-          "Option B: Stop at Tongariro National Park for 1.5h (dramatic volcanic scenery — see the Chateau)",
-          "Cable car up to Kelburn (Wellington — $10 return, great views)",
+          "Option B: Stop at Tongariro National Park for 1.5h (dramatic volcanic scenery \u2014 see the Chateau)",
+          "Cable car up to Kelburn (Wellington \u2014 $10 return, great views)",
           "Dinner on Cuba Street"
         ],
         "accommodation": "Wellington",
-        "estimated_cost": "$30–80",
+        "estimated_cost": "$30\u201380",
         "tips": [
           "The Tongariro/Desert Road (SH1) is dramatic but add 30 mins",
           "Wellington waterfront has great free playgrounds"
@@ -139,13 +139,13 @@
         "title": "Wellington Day + Departure",
         "drive_from_prev": null,
         "activities": [
-          "Te Papa Museum (free, world-class — kids love the earthquake simulator)",
+          "Te Papa Museum (free, world-class \u2014 kids love the earthquake simulator)",
           "Wellington Cable Car (views over the harbour)",
-          "Zealandia (optional — native wildlife sanctuary, 2h)",
+          "Zealandia (optional \u2014 native wildlife sanctuary, 2h)",
           "Return rental car at Wellington Airport"
         ],
         "accommodation": "Fly home or continue to South Island (ferry or flight)",
-        "estimated_cost": "$20–150",
+        "estimated_cost": "$20\u2013150",
         "tips": [
           "Te Papa is free and easily fills 3 hours",
           "Book the Interislander ferry in advance if continuing to South Island"
@@ -176,24 +176,24 @@
       }
     ],
     "packing_tips": [
-      "Rain jacket for everyone — NZ weather changes fast",
+      "Rain jacket for everyone \u2014 NZ weather changes fast",
       "Swimwear and towels (you'll swim multiple times)",
       "Reusable water bottles (save $20+/day vs buying water)",
-      "Snack bag for the car — petrol station food is expensive",
-      "Sunscreen — NZ UV is intense even on cloudy days"
+      "Snack bag for the car \u2014 petrol station food is expensive",
+      "Sunscreen \u2014 NZ UV is intense even on cloudy days"
     ],
     "faqs": [
       {
         "q": "Can we do this itinerary in a campervan?",
-        "a": "Yes, and it works even better. You save on accommodation ($40–80/night vs $150–350) and can cook your own meals. Campervans also carry everything you need. See our campervan comparison."
+        "a": "Yes, and it works even better. You save on accommodation ($40\u201380/night vs $150\u2013350) and can cook your own meals. Campervans also carry everything you need. See our campervan comparison."
       },
       {
         "q": "Is this itinerary suitable for toddlers?",
-        "a": "Yes — most activities on this route work for under-3s. Agrodome, Te Puia, Huka Falls, and Te Papa are all great for toddlers. The Huka Jet requires minimum 3 years/90cm."
+        "a": "Yes \u2014 most activities on this route work for under-3s. Agrodome, Te Puia, Huka Falls, and Te Papa are all great for toddlers. The Huka Jet requires minimum 3 years/90cm."
       },
       {
         "q": "What's the best time of year for this trip?",
-        "a": "December–February (summer) is peak season — warm, long days, everything open. January is school holidays (very busy). November and March are sweet spots — shoulder prices, fewer crowds, still warm."
+        "a": "December\u2013February (summer) is peak season \u2014 warm, long days, everything open. January is school holidays (very busy). November and March are sweet spots \u2014 shoulder prices, fewer crowds, still warm."
       }
     ],
     "seo_keywords": [
@@ -205,20 +205,20 @@
   {
     "slug": "10-day-south-island-family-road-trip",
     "title": "10-Day South Island Family Road Trip",
-    "subtitle": "Christchurch → Kaikoura → Nelson → Westland → Queenstown → Wanaka",
-    "tagline": "NZ's most spectacular drive — glaciers, seals, Alps, and the adventure capital",
+    "subtitle": "Christchurch \u2192 Kaikoura \u2192 Nelson \u2192 Westland \u2192 Queenstown \u2192 Wanaka",
+    "tagline": "NZ's most spectacular drive \u2014 glaciers, seals, Alps, and the adventure capital",
     "duration_days": 10,
     "distance_km": 1400,
-    "budget_family4": "$6500–10000",
+    "budget_family4": "$6500\u201310000",
     "budget_breakdown": {
-      "accommodation": "$150–400/night",
-      "activities": "$150–350/day",
-      "food": "$80–150/day",
+      "accommodation": "$150\u2013400/night",
+      "activities": "$150\u2013350/day",
+      "food": "$80\u2013150/day",
       "fuel": "~$400 total (1400km at NZ fuel prices)",
       "transport": "Rental car or campervan (included separately)"
     },
     "best_for": "Families with kids 5+, those who have done the North Island before",
-    "best_season": "November–March",
+    "best_season": "November\u2013March",
     "transport": "Rental car or campervan (campervan highly recommended)",
     "commercial_intent_score": 95,
     "highlights": [
@@ -232,54 +232,54 @@
       {
         "day": 1,
         "location": "Christchurch",
-        "title": "Arrive Christchurch — Antarctic Centre",
+        "title": "Arrive Christchurch \u2014 Antarctic Centre",
         "drive_from_prev": null,
         "activities": [
           "Pick up rental car/campervan at Christchurch Airport",
-          "International Antarctic Centre (3–4 hours — do this first day, next to airport)",
+          "International Antarctic Centre (3\u20134 hours \u2014 do this first day, next to airport)",
           "Botanic Gardens walk",
           "Dinner in Christchurch CBD"
         ],
         "accommodation": "Christchurch",
-        "estimated_cost": "$130–200",
+        "estimated_cost": "$130\u2013200",
         "tips": [
-          "The Antarctic Centre is 500m from the airport — perfect Day 1 activity",
+          "The Antarctic Centre is 500m from the airport \u2014 perfect Day 1 activity",
           "Book penguin feeding time slot in advance"
         ]
       },
       {
         "day": 2,
-        "location": "Christchurch → Kaikoura",
-        "title": "Drive to Kaikoura — Seals & Seafood",
+        "location": "Christchurch \u2192 Kaikoura",
+        "title": "Drive to Kaikoura \u2014 Seals & Seafood",
         "drive_from_prev": "2h 30m",
         "activities": [
           "Stop at Waipara wineries (30 mins north of Christchurch) for picnic and vineyard visit",
-          "Arrive Kaikoura — walk the Kaikoura Peninsula Walkway (seals everywhere, free)",
-          "Whale watching cruise (book well ahead — operates year-round)",
-          "Fresh crayfish dinner at Nin's Bin (roadside — the cheapest cray in NZ)"
+          "Arrive Kaikoura \u2014 walk the Kaikoura Peninsula Walkway (seals everywhere, free)",
+          "Whale watching cruise (book well ahead \u2014 operates year-round)",
+          "Fresh crayfish dinner at Nin's Bin (roadside \u2014 the cheapest cray in NZ)"
         ],
         "accommodation": "Kaikoura",
-        "estimated_cost": "$200–450",
+        "estimated_cost": "$200\u2013450",
         "tips": [
-          "Kaikoura's crayfish (crayfish/rock lobster) from Nin's Bin is iconic — get there early",
+          "Kaikoura's crayfish (crayfish/rock lobster) from Nin's Bin is iconic \u2014 get there early",
           "Seal colony at the point is free and the seals are very close"
         ]
       },
       {
         "day": 3,
-        "location": "Kaikoura → Nelson",
+        "location": "Kaikoura \u2192 Nelson",
         "title": "Drive to Nelson via Marlborough",
         "drive_from_prev": "3h 30m",
         "activities": [
           "Morning seal colony walk (free)",
-          "Drive via Blenheim — stop at a Marlborough vineyard (kids can explore while adults taste)",
-          "Arrive Nelson — Nelson Markets (Sat morning, world-class)",
+          "Drive via Blenheim \u2014 stop at a Marlborough vineyard (kids can explore while adults taste)",
+          "Arrive Nelson \u2014 Nelson Markets (Sat morning, world-class)",
           "Queens Gardens and Tahuna Beach"
         ],
         "accommodation": "Nelson",
-        "estimated_cost": "$30–80",
+        "estimated_cost": "$30\u201380",
         "tips": [
-          "Nelson has NZ's most sunshine hours — great beach weather",
+          "Nelson has NZ's most sunshine hours \u2014 great beach weather",
           "Rabbit Island (20 mins) is a hidden gem for a swim"
         ]
       },
@@ -295,45 +295,45 @@
           "Return to Nelson for dinner"
         ],
         "accommodation": "Nelson",
-        "estimated_cost": "$200–400",
+        "estimated_cost": "$200\u2013400",
         "tips": [
-          "Abel Tasman is a MUST — the golden sand beaches are unlike anywhere else in NZ",
-          "Book kayak tours well ahead in January–February"
+          "Abel Tasman is a MUST \u2014 the golden sand beaches are unlike anywhere else in NZ",
+          "Book kayak tours well ahead in January\u2013February"
         ]
       },
       {
         "day": 5,
-        "location": "Nelson → Westport → Punakaiki",
-        "title": "West Coast Drive — Pancake Rocks",
+        "location": "Nelson \u2192 Westport \u2192 Punakaiki",
+        "title": "West Coast Drive \u2014 Pancake Rocks",
         "drive_from_prev": "2h 30m to Punakaiki",
         "activities": [
-          "Farewell Spit detour (optional, add 1.5h — incredible sandspit at the top of the South Island)",
-          "Punakaiki Pancake Rocks & Blowholes (free — 30-min walk, spectacular)",
+          "Farewell Spit detour (optional, add 1.5h \u2014 incredible sandspit at the top of the South Island)",
+          "Punakaiki Pancake Rocks & Blowholes (free \u2014 30-min walk, spectacular)",
           "Dolomite Point walk",
           "Overnight at Punakaiki or push on to Greymouth"
         ],
         "accommodation": "Punakaiki or Greymouth",
-        "estimated_cost": "$20–60",
+        "estimated_cost": "$20\u201360",
         "tips": [
-          "Punakaiki blowholes are best at high tide — check tide times before visiting",
-          "The Pancake Rocks are free and spectacular — non-negotiable stop"
+          "Punakaiki blowholes are best at high tide \u2014 check tide times before visiting",
+          "The Pancake Rocks are free and spectacular \u2014 non-negotiable stop"
         ]
       },
       {
         "day": 6,
-        "location": "Punakaiki → Franz Josef",
+        "location": "Punakaiki \u2192 Franz Josef",
         "title": "West Coast to Glacier Country",
         "drive_from_prev": "2h 30m",
         "activities": [
-          "Hokitika Gorge detour (30 mins — stunning turquoise river, suspension bridge)",
+          "Hokitika Gorge detour (30 mins \u2014 stunning turquoise river, suspension bridge)",
           "Hokitika town (jade/pounamu carving workshops)",
-          "Arrive Franz Josef — evening Glacier Valley Walk (free, 1.5h return)"
+          "Arrive Franz Josef \u2014 evening Glacier Valley Walk (free, 1.5h return)"
         ],
         "accommodation": "Franz Josef",
-        "estimated_cost": "$30–100",
+        "estimated_cost": "$30\u2013100",
         "tips": [
-          "Hokitika Gorge is one of NZ's most Instagrammed spots — worth the detour",
-          "Franz Josef is tiny — book accommodation well ahead"
+          "Hokitika Gorge is one of NZ's most Instagrammed spots \u2014 worth the detour",
+          "Franz Josef is tiny \u2014 book accommodation well ahead"
         ]
       },
       {
@@ -342,70 +342,70 @@
         "title": "Glacier Day",
         "drive_from_prev": null,
         "activities": [
-          "Glacier helicopter experience ($300–500/person — NOT cheap but extraordinary)",
-          "OR Glacier Valley Walk (free — as close to the ice face as you can get on foot)",
+          "Glacier helicopter experience ($300\u2013500/person \u2014 NOT cheap but extraordinary)",
+          "OR Glacier Valley Walk (free \u2014 as close to the ice face as you can get on foot)",
           "Peter's Pool Walk (mirror reflection of mountains)",
-          "Lake Matheson (Mirror Lake — Mt Cook/Mt Tasman reflection)"
+          "Lake Matheson (Mirror Lake \u2014 Mt Cook/Mt Tasman reflection)"
         ],
         "accommodation": "Franz Josef or Fox Glacier",
-        "estimated_cost": "$30–500+",
+        "estimated_cost": "$30\u2013500+",
         "tips": [
-          "Helicopter tours require good weather — have a backup plan",
+          "Helicopter tours require good weather \u2014 have a backup plan",
           "The Valley Walk to the glacier face is free and still incredible",
           "Minimum age for helicopter is typically 3"
         ]
       },
       {
         "day": 8,
-        "location": "West Coast → Wanaka",
-        "title": "Haast Pass — Most Dramatic Drive in NZ",
-        "drive_from_prev": "4h (Haast Pass — spectacular mountain road)",
+        "location": "West Coast \u2192 Wanaka",
+        "title": "Haast Pass \u2014 Most Dramatic Drive in NZ",
+        "drive_from_prev": "4h (Haast Pass \u2014 spectacular mountain road)",
         "activities": [
-          "Drive Haast Pass — stop at Thunder Creek Falls and Blue Pools (free walkways)",
-          "Arrive Wanaka — Puzzling World",
+          "Drive Haast Pass \u2014 stop at Thunder Creek Falls and Blue Pools (free walkways)",
+          "Arrive Wanaka \u2014 Puzzling World",
           "Lake Wanaka swim (Glendhu Bay)",
           "Dinner in Wanaka town"
         ],
         "accommodation": "Wanaka",
-        "estimated_cost": "$50–120",
+        "estimated_cost": "$50\u2013120",
         "tips": [
-          "Haast Pass is one of the world's great drives — allow 5 hours minimum with stops",
-          "Blue Pools (near Makarora) have crystal-clear water — swim if warm enough"
+          "Haast Pass is one of the world's great drives \u2014 allow 5 hours minimum with stops",
+          "Blue Pools (near Makarora) have crystal-clear water \u2014 swim if warm enough"
         ]
       },
       {
         "day": 9,
-        "location": "Wanaka → Queenstown",
-        "title": "Drive to Queenstown — Adventure Day",
+        "location": "Wanaka \u2192 Queenstown",
+        "title": "Drive to Queenstown \u2014 Adventure Day",
         "drive_from_prev": "1h (via Crown Range) or 1h 30m (via Cromwell)",
         "activities": [
-          "Crown Range road (highest sealed road in NZ — spectacular views, drive slowly)",
+          "Crown Range road (highest sealed road in NZ \u2014 spectacular views, drive slowly)",
           "Arrive Queenstown",
           "Skyline Gondola & Luge (afternoon)",
           "Queenstown waterfront evening and dinner"
         ],
         "accommodation": "Queenstown",
-        "estimated_cost": "$150–250",
+        "estimated_cost": "$150\u2013250",
         "tips": [
-          "Crown Range is stunning — stop at the viewpoint at the top",
+          "Crown Range is stunning \u2014 stop at the viewpoint at the top",
           "Book gondola online to save queuing"
         ]
       },
       {
         "day": 10,
         "location": "Queenstown",
-        "title": "Final Day — Queenstown Activities + Fly Out",
+        "title": "Final Day \u2014 Queenstown Activities + Fly Out",
         "drive_from_prev": null,
         "activities": [
-          "Jet boat experience (Kawarau or Shotover — book ahead)",
-          "Arrowtown day trip (20 mins — historic gold-rush town, free)",
+          "Jet boat experience (Kawarau or Shotover \u2014 book ahead)",
+          "Arrowtown day trip (20 mins \u2014 historic gold-rush town, free)",
           "Return rental car at Queenstown Airport",
           "Fly home"
         ],
         "accommodation": "Fly out",
-        "estimated_cost": "$150–350",
+        "estimated_cost": "$150\u2013350",
         "tips": [
-          "Return the car with a full tank of fuel — petrol at the airport is overpriced",
+          "Return the car with a full tank of fuel \u2014 petrol at the airport is overpriced",
           "Allow 2h before your flight for the airport"
         ]
       }
@@ -415,7 +415,7 @@
         "type": "campervan",
         "affiliate_key": "discover_cars",
         "cta": "Compare campervans for the South Island",
-        "note": "Campervan HIGHLY recommended for this route — saves $800+ on accommodation"
+        "note": "Campervan HIGHLY recommended for this route \u2014 saves $800+ on accommodation"
       },
       {
         "type": "accommodation",
@@ -430,12 +430,12 @@
       {
         "type": "insurance",
         "affiliate_key": "covermore",
-        "cta": "Get travel insurance — essential for NZ road trips"
+        "cta": "Get travel insurance \u2014 essential for NZ road trips"
       }
     ],
     "packing_tips": [
       "Warm layer for glacier country (Franz Josef can be cold even in summer)",
-      "Sandflies repellent (the West Coast has fierce sandflies — DEET essential)",
+      "Sandflies repellent (the West Coast has fierce sandflies \u2014 DEET essential)",
       "Rain jacket (West Coast gets 7m of rain per year)",
       "Swimwear and quick-dry towel (multiple swimming stops)",
       "Groceries topped up at major towns (Christchurch, Nelson, Hokitika, Queenstown)"
@@ -443,15 +443,15 @@
     "faqs": [
       {
         "q": "Should we do a campervan or rental car for the South Island?",
-        "a": "Campervan, if budget allows. The South Island has world-class holiday parks and freedom camping spots. A 6-berth campervan for a family of 4 saves $600–1200 in accommodation over 10 days. Compare campervan prices above."
+        "a": "Campervan, if budget allows. The South Island has world-class holiday parks and freedom camping spots. A 6-berth campervan for a family of 4 saves $600\u20131200 in accommodation over 10 days. Compare campervan prices above."
       },
       {
         "q": "Is this route suitable for toddlers?",
-        "a": "Yes with modifications. Toddlers will love the animals (seals at Kaikoura, Abel Tasman birds), the beaches, and the playgrounds. Skip the helicopter and jet boat if under 3. The driving days are long — break them with short walks and stops."
+        "a": "Yes with modifications. Toddlers will love the animals (seals at Kaikoura, Abel Tasman birds), the beaches, and the playgrounds. Skip the helicopter and jet boat if under 3. The driving days are long \u2014 break them with short walks and stops."
       },
       {
         "q": "Can we drive this in winter?",
-        "a": "With caution. The Haast Pass and Crown Range can be icy — check road conditions daily at nzta.govt.nz. The West Coast and Westland glaciers are actually spectacular in winter with fresh snow. Carry tyre chains if renting in June–August."
+        "a": "With caution. The Haast Pass and Crown Range can be icy \u2014 check road conditions daily at nzta.govt.nz. The West Coast and Westland glaciers are actually spectacular in winter with fresh snow. Carry tyre chains if renting in June\u2013August."
       }
     ],
     "seo_keywords": [
@@ -464,20 +464,20 @@
   {
     "slug": "queenstown-wanaka-family-weekend",
     "title": "Queenstown & Wanaka Family Long Weekend",
-    "subtitle": "3–4 Days — Adventure + Lakes",
-    "tagline": "The perfect South Island long weekend — adventure in Queenstown, calm in Wanaka",
+    "subtitle": "3\u20134 Days \u2014 Adventure + Lakes",
+    "tagline": "The perfect South Island long weekend \u2014 adventure in Queenstown, calm in Wanaka",
     "duration_days": 4,
     "distance_km": 180,
-    "budget_family4": "$2500–4000",
+    "budget_family4": "$2500\u20134000",
     "budget_breakdown": {
-      "accommodation": "$200–400/night",
-      "activities": "$200–400/day",
-      "food": "$100–160/day",
+      "accommodation": "$200\u2013400/night",
+      "activities": "$200\u2013400/day",
+      "food": "$100\u2013160/day",
       "fuel": "~$60 total",
       "transport": "Rental car (included separately)"
     },
     "best_for": "Families wanting a focused South Island getaway",
-    "best_season": "October–April",
+    "best_season": "October\u2013April",
     "transport": "Rental car (fly into Queenstown)",
     "commercial_intent_score": 90,
     "highlights": [
@@ -490,7 +490,7 @@
       {
         "day": 1,
         "location": "Queenstown",
-        "title": "Arrive Queenstown — Gondola Day",
+        "title": "Arrive Queenstown \u2014 Gondola Day",
         "drive_from_prev": null,
         "activities": [
           "Pick up rental car",
@@ -499,7 +499,7 @@
           "Fergburger dinner (queue early)"
         ],
         "accommodation": "Queenstown",
-        "estimated_cost": "$150–250",
+        "estimated_cost": "$150\u2013250",
         "tips": [
           "Book gondola online to skip queues",
           "Buy multi-ride luge pass"
@@ -517,31 +517,31 @@
           "TSS Earnslaw Steamship sunset cruise"
         ],
         "accommodation": "Queenstown",
-        "estimated_cost": "$250–400",
+        "estimated_cost": "$250\u2013400",
         "tips": [
           "Jet boat minimum age: 3 years. Under that, do the Steamship instead."
         ]
       },
       {
         "day": 3,
-        "location": "Queenstown → Wanaka",
+        "location": "Queenstown \u2192 Wanaka",
         "title": "Crown Range to Wanaka",
         "drive_from_prev": "1h via Crown Range",
         "activities": [
           "Crown Range scenic drive (stop at top viewpoint)",
-          "Arrive Wanaka — Puzzling World",
+          "Arrive Wanaka \u2014 Puzzling World",
           "Lake Wanaka swim at Glendhu Bay",
           "Cinema Paradiso evening (book ahead)"
         ],
         "accommodation": "Wanaka",
-        "estimated_cost": "$60–150",
+        "estimated_cost": "$60\u2013150",
         "tips": [
-          "Crown Range has the best views in the South Island — stop at the top"
+          "Crown Range has the best views in the South Island \u2014 stop at the top"
         ]
       },
       {
         "day": 4,
-        "location": "Wanaka → Queenstown",
+        "location": "Wanaka \u2192 Queenstown",
         "title": "Wanaka Morning + Fly Out",
         "drive_from_prev": "1h to Queenstown Airport",
         "activities": [
@@ -551,9 +551,9 @@
           "Fly home"
         ],
         "accommodation": "Fly out",
-        "estimated_cost": "$30–60",
+        "estimated_cost": "$30\u201360",
         "tips": [
-          "Allow 2h before your flight — Queenstown Airport can be busy"
+          "Allow 2h before your flight \u2014 Queenstown Airport can be busy"
         ]
       }
     ],
@@ -582,7 +582,7 @@
     "faqs": [
       {
         "q": "Is 4 days enough for Queenstown and Wanaka?",
-        "a": "Yes — 2 nights in Queenstown and 1–2 in Wanaka covers the key experiences without rushing. You could add Arrowtown (20 mins from Queenstown) as a free half-day."
+        "a": "Yes \u2014 2 nights in Queenstown and 1\u20132 in Wanaka covers the key experiences without rushing. You could add Arrowtown (20 mins from Queenstown) as a free half-day."
       }
     ],
     "seo_keywords": [
@@ -595,10 +595,10 @@
     "slug": "5-day-wellington-nelson-itinerary",
     "title": "5-Day Wellington to Nelson Family Road Trip",
     "subtitle": "Ferry crossing, NZ's best free museum, and Abel Tasman National Park",
-    "tagline": "Two of NZ's most underrated destinations — linked by the spectacular Interislander ferry",
+    "tagline": "Two of NZ's most underrated destinations \u2014 linked by the spectacular Interislander ferry",
     "duration_days": 5,
     "distance_km": 450,
-    "budget_family4": "NZ$2,800–4,200",
+    "budget_family4": "NZ$2,800\u20134,200",
     "best_for": "Families who want culture and beaches without the Queenstown crowds",
     "best_months": [
       "November",
@@ -619,18 +619,18 @@
         "day": 1,
         "title": "Wellington City",
         "location": "Wellington",
-        "drive": "None — fly or drive in",
+        "drive": "None \u2014 fly or drive in",
         "activities": [
-          "Te Papa Museum (3–4 hours)",
+          "Te Papa Museum (3\u20134 hours)",
           "Wellington Cable Car return",
           "Walk back through Botanical Garden",
           "Waterfront dinner"
         ],
         "accommodation": "Wellington CBD hotel or TOP 10 Holiday Park",
-        "estimated_cost": "$200–350",
+        "estimated_cost": "$200\u2013350",
         "tips": [
           "Book Te Papa night tours in advance",
-          "The cable car runs until 10pm — go at dusk for harbour views"
+          "The cable car runs until 10pm \u2014 go at dusk for harbour views"
         ]
       },
       {
@@ -641,12 +641,12 @@
         "activities": [
           "Zealandia morning visit (book ahead)",
           "Midday Interislander Ferry (3h through Marlborough Sounds)",
-          "Arrive Picton — explore the waterfront"
+          "Arrive Picton \u2014 explore the waterfront"
         ],
         "accommodation": "Picton or Blenheim",
-        "estimated_cost": "$250–400",
+        "estimated_cost": "$250\u2013400",
         "tips": [
-          "Book the ferry well ahead — family compartments book out fast",
+          "Book the ferry well ahead \u2014 family compartments book out fast",
           "Sit outside on the ferry for the Marlborough Sounds scenery",
           "Kids love spotting dolphins from the deck"
         ]
@@ -663,9 +663,9 @@
           "Nelson Saturday Market if weekend"
         ],
         "accommodation": "Nelson city or Tahunanui Beach Holiday Park",
-        "estimated_cost": "$150–250",
+        "estimated_cost": "$150\u2013250",
         "tips": [
-          "Pelorus Bridge swimming hole is one of NZ's best-kept secrets — don't skip it",
+          "Pelorus Bridge swimming hole is one of NZ's best-kept secrets \u2014 don't skip it",
           "Tahunanui Beach has a great playground right on the sand"
         ]
       },
@@ -676,16 +676,16 @@
         "drive": "Nelson to Kaiteriteri (50 min)",
         "activities": [
           "Water taxi from Kaiteriteri to Anchorage Bay",
-          "Beach day — swimming, snorkelling, exploring",
+          "Beach day \u2014 swimming, snorkelling, exploring",
           "Water taxi return",
           "Mapua Wharf dinner (30 min from Nelson)"
         ],
         "accommodation": "Nelson or Kaiteriteri",
-        "estimated_cost": "$300–450",
+        "estimated_cost": "$300\u2013450",
         "tips": [
           "Book water taxi 2+ weeks ahead in peak season",
-          "Bring snorkelling gear — the water is clear enough to see fish",
-          "Mapua Wharf has the best food in the region — fish and chips, craft beer, gelato"
+          "Bring snorkelling gear \u2014 the water is clear enough to see fish",
+          "Mapua Wharf has the best food in the region \u2014 fish and chips, craft beer, gelato"
         ]
       },
       {
@@ -695,13 +695,13 @@
         "drive": "Nelson to airport or continue south",
         "activities": [
           "World of WearableArt museum (allow 2h)",
-          "Or: relaxed morning, café in Nelson",
+          "Or: relaxed morning, caf\u00e9 in Nelson",
           "Fly home from Nelson Airport or continue to Christchurch via SH6 (4h 30m)"
         ],
-        "accommodation": "N/A — departure day",
-        "estimated_cost": "$50–100",
+        "accommodation": "N/A \u2014 departure day",
+        "estimated_cost": "$50\u2013100",
         "tips": [
-          "WoW Museum is excellent and often overlooked — not just fashion",
+          "WoW Museum is excellent and often overlooked \u2014 not just fashion",
           "Nelson to Christchurch via SH6 through Murchison is a beautiful drive if extending your trip"
         ]
       }
@@ -709,32 +709,32 @@
     "affiliate_blocks": [
       {
         "heading": "Getting Around",
-        "text": "A rental car is essential for this itinerary. Pick up in Wellington and drop off in Nelson (one-way fee applies, typically $150–250).",
-        "cta": "Compare rental cars →",
+        "text": "A rental car is essential for this itinerary. Pick up in Wellington and drop off in Nelson (one-way fee applies, typically $150\u2013250).",
+        "cta": "Compare rental cars \u2192",
         "url": "/campervans/"
       },
       {
         "heading": "The Interislander Ferry",
-        "text": "Book the ferry well ahead — family compartments and peak sailings sell out fast. Foot passenger or drive-on are both options.",
-        "cta": "Book travel insurance →",
+        "text": "Book the ferry well ahead \u2014 family compartments and peak sailings sell out fast. Foot passenger or drive-on are both options.",
+        "cta": "Book travel insurance \u2192",
         "url": "https://www.covermore.co.nz/"
       }
     ],
     "packing_tips": [
       "Windproof jacket for Wellington",
       "Snorkelling gear for Abel Tasman",
-      "Sunscreen — Nelson is NZ's sunniest region",
+      "Sunscreen \u2014 Nelson is NZ's sunniest region",
       "Spade hire available at Hot Water Beach",
-      "Reusable water bottles — tap water is excellent throughout"
+      "Reusable water bottles \u2014 tap water is excellent throughout"
     ],
     "faqs": [
       {
         "q": "Is the Interislander Ferry good for kids?",
-        "a": "Kids love it. Three hours through the Marlborough Sounds, with a café, play areas, and the chance to spot dolphins and seals from the deck. One of the highlights of the trip."
+        "a": "Kids love it. Three hours through the Marlborough Sounds, with a caf\u00e9, play areas, and the chance to spot dolphins and seals from the deck. One of the highlights of the trip."
       },
       {
         "q": "Can you do this in reverse (Nelson to Wellington)?",
-        "a": "Yes — just as good. Some families fly into Nelson and take the ferry back to Wellington at the end of the trip."
+        "a": "Yes \u2014 just as good. Some families fly into Nelson and take the ferry back to Wellington at the end of the trip."
       }
     ]
   },
@@ -742,10 +742,10 @@
     "slug": "4-day-coromandel-family-road-trip",
     "title": "4-Day Coromandel Family Road Trip from Auckland",
     "subtitle": "Hot Water Beach, Cathedral Cove, and the most beautiful beaches within reach of Auckland",
-    "tagline": "Auckland's backyard — world-class beaches and geothermal wonders in 4 days",
+    "tagline": "Auckland's backyard \u2014 world-class beaches and geothermal wonders in 4 days",
     "duration_days": 4,
     "distance_km": 350,
-    "budget_family4": "NZ$1,800–2,800",
+    "budget_family4": "NZ$1,800\u20132,800",
     "best_for": "Auckland families, first-time Coromandel visitors, beach lovers",
     "best_months": [
       "December",
@@ -764,25 +764,25 @@
       {
         "day": 1,
         "title": "Auckland to Thames to Coromandel Town",
-        "location": "Auckland → Thames → Coromandel Town",
+        "location": "Auckland \u2192 Thames \u2192 Coromandel Town",
         "drive": "Auckland to Coromandel Town (2h 30m via Thames)",
         "activities": [
-          "Karangahake Gorge windows walk (SH25, 45 min, free — go through the old gold mine tunnels)",
+          "Karangahake Gorge windows walk (SH25, 45 min, free \u2014 go through the old gold mine tunnels)",
           "Arrive Coromandel Town",
           "Driving Creek Railway (book 2pm session)",
           "Coromandel Smoking Company for dinner"
         ],
         "accommodation": "Coromandel Town holiday park or B&B",
-        "estimated_cost": "$150–250",
+        "estimated_cost": "$150\u2013250",
         "tips": [
-          "Don't skip Karangahake Gorge — kids love the mine tunnels and it's free",
+          "Don't skip Karangahake Gorge \u2014 kids love the mine tunnels and it's free",
           "Book Driving Creek Railway before you leave Auckland"
         ]
       },
       {
         "day": 2,
         "title": "Cathedral Cove + Hahei",
-        "location": "Coromandel Town → Hahei",
+        "location": "Coromandel Town \u2192 Hahei",
         "drive": "Coromandel Town to Hahei (1h 30m)",
         "activities": [
           "Cathedral Cove morning (walk 35 min each way or take the boat from Hahei)",
@@ -791,9 +791,9 @@
           "Fish and chips dinner"
         ],
         "accommodation": "Hahei Holiday Resort or Hot Water Beach TOP 10",
-        "estimated_cost": "$150–250",
+        "estimated_cost": "$150\u2013250",
         "tips": [
-          "Cathedral Cove walk opens at 9am — go as early as possible to beat the crowds",
+          "Cathedral Cove walk opens at 9am \u2014 go as early as possible to beat the crowds",
           "The boat from Hahei Wharf ($45 adult/$23 child return) saves the walk if you have young kids"
         ]
       },
@@ -809,16 +809,16 @@
           "Whitianga waterfront and beach"
         ],
         "accommodation": "Hahei or Whitianga",
-        "estimated_cost": "$80–150",
+        "estimated_cost": "$80\u2013150",
         "tips": [
-          "The Whitianga ferry is 5 minutes and $5 — a fun mini adventure for kids",
+          "The Whitianga ferry is 5 minutes and $5 \u2014 a fun mini adventure for kids",
           "Water's Edge restaurant in Whitianga is excellent for a nicer dinner"
         ]
       },
       {
         "day": 4,
         "title": "Drive Back to Auckland",
-        "location": "Hahei → Auckland",
+        "location": "Hahei \u2192 Auckland",
         "drive": "Hahei to Auckland (2h 30m via Thames)",
         "activities": [
           "Morning swim at Hahei if the weather is good",
@@ -826,43 +826,503 @@
           "Or: stop at Thames for lunch and Butterfly and Orchid Garden ($15/adult, $8/child)",
           "Back in Auckland by mid-afternoon"
         ],
-        "accommodation": "N/A — departure day",
-        "estimated_cost": "$60–100",
+        "accommodation": "N/A \u2014 departure day",
+        "estimated_cost": "$60\u2013100",
         "tips": [
-          "Miranda is perfect for birdwatching — tens of thousands of migratory birds from August to March",
-          "The Thames to Auckland stretch can be slow on Sunday afternoons in summer — leave Hahei by 2pm"
+          "Miranda is perfect for birdwatching \u2014 tens of thousands of migratory birds from August to March",
+          "The Thames to Auckland stretch can be slow on Sunday afternoons in summer \u2014 leave Hahei by 2pm"
         ]
       }
     ],
     "affiliate_blocks": [
       {
         "heading": "Getting There",
-        "text": "A car is essential for the Coromandel. Petrol is expensive on the peninsula — fill up in Thames before heading north.",
-        "cta": "Compare rental cars →",
+        "text": "A car is essential for the Coromandel. Petrol is expensive on the peninsula \u2014 fill up in Thames before heading north.",
+        "cta": "Compare rental cars \u2192",
         "url": "/campervans/"
       },
       {
         "heading": "Book activities",
         "text": "Driving Creek Railway and Cathedral Cove boat both book out in peak season. Book before you leave Auckland.",
-        "cta": "Book Coromandel activities →",
+        "cta": "Book Coromandel activities \u2192",
         "url": "https://www.bookme.co.nz/"
       }
     ],
     "packing_tips": [
       "Spade for Hot Water Beach (hire on-site for $5)",
       "Check tide times before you go (hotwatertide.co.nz)",
-      "Sunscreen — Coromandel gets intense summer sun",
+      "Sunscreen \u2014 Coromandel gets intense summer sun",
       "Snorkelling gear for Cathedral Cove marine reserve",
-      "Cash — some smaller cafes are cash-only"
+      "Cash \u2014 some smaller cafes are cash-only"
     ],
     "faqs": [
       {
         "q": "Can you do Hot Water Beach and Cathedral Cove in one day?",
-        "a": "Yes — they're only 10 minutes apart. Do Cathedral Cove in the morning, then Hot Water Beach around low tide in the afternoon. Check tide times the day before."
+        "a": "Yes \u2014 they're only 10 minutes apart. Do Cathedral Cove in the morning, then Hot Water Beach around low tide in the afternoon. Check tide times the day before."
       },
       {
         "q": "Is the Coromandel drive scary?",
-        "a": "Parts of SH25A over the Kopu-Hikuai saddle are steep and winding — take it slowly with a campervan. The main SH25 coastal route is easy. From Thames north to Coromandel Town via SH25 is a beautiful coastal road."
+        "a": "Parts of SH25A over the Kopu-Hikuai saddle are steep and winding \u2014 take it slowly with a campervan. The main SH25 coastal route is easy. From Thames north to Coromandel Town via SH25 is a beautiful coastal road."
+      }
+    ]
+  },
+  {
+    "slug": "3-day-auckland-family-itinerary",
+    "title": "3-Day Auckland Family Itinerary",
+    "subtitle": "Auckland city highlights for families",
+    "tagline": "Make the most of Auckland with kids \u2014 from the waterfront to volcanic peaks",
+    "duration_days": 3,
+    "distance_km": 120,
+    "budget_family4": "$1,200-2,000",
+    "budget_breakdown": {
+      "accommodation": "$180-350/night",
+      "activities": "$80-200/day",
+      "food": "$100-150/day",
+      "fuel": "$40-60 total"
+    },
+    "best_for": "Families arriving or departing via Auckland, short trips, city breaks",
+    "best_season": "October-April",
+    "transport": "Hire car or public transport (AT HOP card)",
+    "highlights": [
+      "Kelly Tarlton's Sea Life Aquarium",
+      "One Tree Hill / Cornwall Park",
+      "West Coast beaches (Piha, Muriwai)",
+      "Auckland Museum",
+      "Waiheke Island day trip"
+    ],
+    "faqs": [
+      {
+        "q": "Is Auckland worth spending 3 days in with kids?",
+        "a": "Yes, if you use the time well. Auckland itself has good family attractions (Kelly Tarlton's, Auckland Museum, Cornwall Park) but the city's best family experiences are the day trips \u2014 Waiheke Island, the West Coast beaches, and Matamata (Hobbiton). 3 days is the right amount of time to do Auckland properly without rushing."
+      },
+      {
+        "q": "Do you need a car in Auckland with kids?",
+        "a": "Yes, for this itinerary. Public transport works well for central Auckland but you need a car to reach the West Coast beaches and West Auckland properly. Hire cars from Auckland Airport are competitive \u2014 book in advance."
+      },
+      {
+        "q": "What is the best Auckland area to stay in for families?",
+        "a": "Newmarket or Remuera (close to Cornwall Park and Auckland Domain), or the Viaduct/Wynyard Quarter (waterfront). Avoid Karangahape Road/Eden Terrace for families. North Shore (Takapuna) is good if you want a beach suburb base."
+      }
+    ],
+    "affiliate_blocks": [
+      {
+        "heading": "Find Auckland Family Accommodation",
+        "text": "Holiday parks near Auckland (Manukau, Papakura) offer great value. Or choose a central hotel for easy access to attractions.",
+        "cta": "Find accommodation in Auckland",
+        "url": "https://www.booking.com/"
+      },
+      {
+        "heading": "Book Activities in Advance",
+        "text": "Kelly Tarlton's, Auckland Museum special exhibitions, and the Waiheke Island ferry can be pre-booked to guarantee entry.",
+        "cta": "Pre-book Auckland activities",
+        "url": "https://www.bookme.co.nz/"
+      }
+    ],
+    "packing_tips": [
+      "Rain jacket \u2014 Auckland gets afternoon rain showers year-round",
+      "Swimwear and towels for Piha or Muriwai beach day",
+      "Reef-safe sunscreen \u2014 West Coast surf beaches reflect UV strongly",
+      "AT HOP card for public transport (buy at airport or convenience stores)"
+    ],
+    "days": [
+      {
+        "day": 1,
+        "location": "Auckland \u2014 City & Waterfront",
+        "title": "Auckland City Highlights",
+        "drive_from_prev": null,
+        "activities": [
+          "Kelly Tarlton's Sea Life Aquarium (allow 2-3 hours \u2014 sharks, penguins, stingrays)",
+          "Walk Mission Bay beach and promenade (free)",
+          "Drive to Devonport via ferry (25-min ferry from downtown, $15 return/adult, stunning views of the harbour and Sky Tower)",
+          "Explore Devonport village and climb North Head volcanic viewpoint",
+          "Return ferry, dinner at the Viaduct Harbour"
+        ],
+        "accommodation": "Auckland CBD or inner suburb",
+        "estimated_cost": "$120-200 (Kelly Tarlton's + ferry)",
+        "tips": [
+          "Book Kelly Tarlton's online \u2014 it's 10-15% cheaper and avoids queuing",
+          "The Devonport ferry is one of Auckland's best value activities \u2014 harbour views are spectacular"
+        ]
+      },
+      {
+        "day": 2,
+        "location": "Auckland \u2014 Volcanic Peaks & Museum",
+        "title": "Volcanoes, Museum, and Markets",
+        "drive_from_prev": null,
+        "activities": [
+          "Auckland Museum (free entry for NZ residents, $25/adult for visitors) \u2014 excellent Maori taonga collection, earthquake simulator, dinosaur gallery",
+          "Walk through Auckland Domain (free parkland surrounding the museum)",
+          "Cornwall Park and One Tree Hill \u2014 drive up or walk, 360-degree Auckland views",
+          "Otara or Avondale Flea Market (Saturday only, 6am-12pm, free entry) \u2014 best multicultural food market in Auckland",
+          "Evening: Auckland waterfront walk or dinner in Ponsonby Road"
+        ],
+        "accommodation": "Auckland (same)",
+        "estimated_cost": "$80-150 (museum + food market lunch)",
+        "tips": [
+          "Auckland Museum has a free volcano and earthquake experience for kids \u2014 worth the visit even if you skip the main galleries",
+          "Ponsonby Road has excellent family-friendly restaurants \u2014 Ima, Little Bird, and The Blue Breeze Inn are all great"
+        ]
+      },
+      {
+        "day": 3,
+        "location": "Auckland \u2014 West Coast Beaches",
+        "title": "West Coast Day Trip \u2014 Piha or Muriwai",
+        "drive_from_prev": "45-60 mins drive from central Auckland",
+        "activities": [
+          "Drive over the Waitakere Ranges to Piha Beach (45 mins) or Muriwai Beach (50 mins)",
+          "Piha: dramatic black sand surf beach, Lion Rock walk (15 mins up, outstanding views)",
+          "Muriwai: gannet colony (September-March) \u2014 10,000+ birds nesting on the cliffs, incredible wildlife experience",
+          "Swim with lifeguards (surf conditions \u2014 stay between the flags)",
+          "Lunch at the Piha Store or Muriwai Beach cafe",
+          "Drive back for evening flight or continue south to Rotorua"
+        ],
+        "accommodation": "Auckland or drive on to next destination",
+        "estimated_cost": "$30-60 (fuel + lunch)",
+        "tips": [
+          "NEVER swim at Piha or Muriwai without lifeguards present \u2014 these are serious surf beaches with rips",
+          "Gannet colony at Muriwai is free to view \u2014 bring binoculars",
+          "The Waitakere Ranges road is narrow and winding \u2014 drive carefully"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "14-day-full-nz-family-road-trip",
+    "title": "14-Day Full NZ Family Road Trip",
+    "subtitle": "Auckland to Queenstown \u2014 North and South Islands",
+    "tagline": "The complete NZ family experience \u2014 geothermal parks, alpine lakes, fiords, and farm shows",
+    "duration_days": 14,
+    "distance_km": 2800,
+    "budget_family4": "$9,000-16,000",
+    "budget_breakdown": {
+      "accommodation": "$180-350/night x 13 nights",
+      "activities": "$120-280/day",
+      "food": "$90-150/day",
+      "fuel": "$600-900 total (both islands)"
+    },
+    "best_for": "Families who want to see all of NZ in one trip, ages 5+",
+    "best_season": "November-March",
+    "transport": "Campervan (strongly recommended) or rental car + accommodation",
+    "highlights": [
+      "Rotorua geothermal parks and farm shows",
+      "Waitomo Glowworm Caves",
+      "Taupo and Huka Falls",
+      "Wellington \u2014 Te Papa Museum",
+      "Marlborough Sounds",
+      "Abel Tasman beaches",
+      "Franz Josef Glacier",
+      "Queenstown adventure activities",
+      "Milford Sound cruise",
+      "Interislander ferry \u2014 Cook Strait crossing"
+    ],
+    "faqs": [
+      {
+        "q": "Is 14 days enough to see both NZ islands with kids?",
+        "a": "14 days is the minimum realistic time to combine North and South Island highlights without feeling rushed. You'll cover 2,800km+ of driving, so a campervan is strongly recommended \u2014 it eliminates the nightly accommodation scramble and significantly reduces costs. This itinerary is designed for families with kids aged 5+ who can handle 2-3 hours of driving between main stops."
+      },
+      {
+        "q": "Should we fly between islands or take the Interislander ferry?",
+        "a": "The Interislander ferry is the right choice for families doing this itinerary with a vehicle. The 3-hour Cook Strait crossing is a genuine experience \u2014 the Marlborough Sounds at the South Island end are stunning. Flying between islands requires leaving your vehicle (or hiring another on the other side), adding cost and complexity. Ferry bookings: 3-4 months ahead for school holiday periods."
+      },
+      {
+        "q": "How much driving is in this itinerary per day?",
+        "a": "Average 2-2.5 hours per day. The longest drives are Auckland to Rotorua (2.5h), Wellington to Picton ferry (1h to ferry terminal), and Christchurch to Queenstown (4.5h on Day 12 \u2014 broken into two days in this itinerary). No single day requires more than 3.5 hours of driving."
+      },
+      {
+        "q": "What is the total cost for a family of 4?",
+        "a": "Budget NZ$9,000-16,000 for 14 nights depending on accommodation choice. A mid-range campervan ($220/day + $50-70/night holiday park) gives total accommodation costs of around $4,000 for 14 nights. A rental car + mid-range motels works out to $5,500-8,000 for the same period. Activities typically add $2,000-4,000. Food in a campervan self-catering: $1,200-1,800."
+      }
+    ],
+    "affiliate_blocks": [
+      {
+        "heading": "Compare Campervans for This Trip",
+        "text": "A 4-berth campervan is the best way to do this 14-day itinerary \u2014 saves $1,500-3,000 on accommodation and eliminates daily packing/unpacking.",
+        "cta": "Compare campervans for 14 days",
+        "url": "https://www.discovercars.com/"
+      },
+      {
+        "heading": "Book the Interislander Ferry",
+        "text": "The Cook Strait ferry (Wellington to Picton, 3 hours) is essential for this itinerary. Book 3-4 months ahead for school holiday travel.",
+        "cta": "Book Interislander ferry",
+        "url": "https://www.booking.com/"
+      },
+      {
+        "heading": "Travel Insurance \u2014 Essential for 2 Weeks",
+        "text": "A 14-day trip across both islands involves mountain roads, adventure activities, and significant investment. Cover-More is NZ's most-recommended family travel insurer.",
+        "cta": "Get travel insurance",
+        "url": "https://www.covermore.co.nz/"
+      }
+    ],
+    "packing_tips": [
+      "Rain gear for the West Coast and Fiordland \u2014 Westland and Fiordland are NZ's wettest regions",
+      "DEET sandfly repellent \u2014 essential West of the Main Divide and in Fiordland",
+      "Reef-safe SPF50+ sunscreen \u2014 NZ UV is extreme in summer",
+      "Warm layers for Queenstown evenings even in summer \u2014 alpine climate",
+      "Walking shoes with ankle support \u2014 many NZ tracks have uneven surfaces",
+      "Offline Google Maps downloaded for each region before leaving urban areas",
+      "Small first aid kit including children's pain relief (Pamol)"
+    ],
+    "days": [
+      {
+        "day": 1,
+        "location": "Auckland",
+        "title": "Arrive Auckland \u2014 Pick Up Campervan",
+        "drive_from_prev": null,
+        "activities": [
+          "Pick up campervan from depot (allow 1-2 hours for handover)",
+          "Drive to Mangere or Papakura holiday park for overnight",
+          "OR if arriving before noon: Kelly Tarlton's Sea Life Aquarium (2-3 hours)",
+          "Stock up at Countdown supermarket before leaving Auckland"
+        ],
+        "accommodation": "Auckland area holiday park",
+        "estimated_cost": "$30-120",
+        "tips": [
+          "Campervan depots are usually 20-40 mins from the airport",
+          "Stock up on 2-3 days of groceries in Auckland \u2014 supermarkets are cheaper here than in smaller towns"
+        ]
+      },
+      {
+        "day": 2,
+        "location": "Auckland \u2192 Waitomo \u2192 Rotorua",
+        "title": "Glowworm Caves and Rotorua",
+        "drive_from_prev": "2h 30m Auckland to Waitomo, then 1h 30m to Rotorua",
+        "activities": [
+          "Waitomo Glowworm Caves (9am or 10am tour, 45 mins in the caves \u2014 book online in advance)",
+          "Lunch at the Waitomo Village Cafe",
+          "Drive to Rotorua (1.5 hours)",
+          "Check in at Rotorua holiday park, evening walk at Kuirau Park (free geothermal, footbaths)"
+        ],
+        "accommodation": "Rotorua TOP 10 Holiday Park",
+        "estimated_cost": "$200-350 (caves + fuel)",
+        "tips": [
+          "Waitomo caves are 45 mins underground \u2014 not suitable for claustrophobic kids",
+          "Book the Waitomo entry online for 10-15% discount"
+        ]
+      },
+      {
+        "day": 3,
+        "location": "Rotorua",
+        "title": "Full Rotorua Day \u2014 Geothermal and Farm Shows",
+        "drive_from_prev": null,
+        "activities": [
+          "Wai-O-Tapu Thermal Wonderland (9:15am Lady Knox Geyser, book morning entry) \u2014 90 min boardwalk",
+          "Lunch at Rotorua CBD (Eat Streat options)",
+          "Agrodome Farm Show (2pm show \u2014 sheep shearing, animal feeding, 75 mins)",
+          "Rotorua Night Markets (Thursday evenings)"
+        ],
+        "accommodation": "Rotorua (same)",
+        "estimated_cost": "$220-320",
+        "tips": [
+          "Wai-O-Tapu is the most spectacular of Rotorua's thermal parks \u2014 worth the full entry price",
+          "The Lady Knox Geyser erupts at 10:15am daily \u2014 arrive by 10am"
+        ]
+      },
+      {
+        "day": 4,
+        "location": "Rotorua \u2192 Taupo",
+        "title": "Rotorua Luge then Drive to Taupo",
+        "drive_from_prev": "1h Rotorua to Taupo",
+        "activities": [
+          "Skyline Rotorua Gondola and Luge (morning \u2014 allow 2-3 hours, get the 5-ride pass)",
+          "Drive to Taupo (1 hour)",
+          "Huka Falls walk (free, 20 mins \u2014 the most powerful waterfall in NZ)",
+          "Afternoon: Lake Taupo beach swim",
+          "Evening: Taupo town waterfront"
+        ],
+        "accommodation": "Taupo holiday park or lakefront",
+        "estimated_cost": "$180-260",
+        "tips": [
+          "Huka Falls is free and unmissable \u2014 the turquoise water and power are stunning",
+          "The luge closes in heavy rain \u2014 check before queuing"
+        ]
+      },
+      {
+        "day": 5,
+        "location": "Taupo",
+        "title": "Taupo Adventure Day",
+        "drive_from_prev": null,
+        "activities": [
+          "Huka Jet boat ride (morning, 30 mins \u2014 adrenaline at 80km/h through the canyon)",
+          "Craters of the Moon geothermal walk (DOC-managed, $10/adult, free under 5s)",
+          "AC Baths Thermal Pools (afternoon, family session)",
+          "Lake Taupo sunset walk"
+        ],
+        "accommodation": "Taupo (same)",
+        "estimated_cost": "$250-380",
+        "tips": [
+          "Huka Jet is the best jet boat experience in NZ \u2014 worth every dollar",
+          "AC Baths is great for younger kids \u2014 warm therapeutic pools at gentle temperatures"
+        ]
+      },
+      {
+        "day": 6,
+        "location": "Taupo \u2192 Wellington",
+        "title": "Drive to Wellington via Tongariro",
+        "drive_from_prev": "4h Taupo to Wellington via Desert Road",
+        "activities": [
+          "Morning: drive south on Desert Road \u2014 spectacular views of Mount Ruapehu and Mount Ngauruhoe (the Tongariro volcanic plateau is extraordinary)",
+          "Stop at National Army Museum in Waiouru (small, interesting, free)",
+          "Afternoon arrival in Wellington",
+          "Evening: Wellington waterfront walk"
+        ],
+        "accommodation": "Wellington holiday park or motel",
+        "estimated_cost": "$100-200 (fuel + lunch)",
+        "tips": [
+          "Desert Road can be closed in winter snow \u2014 usually fine November-April",
+          "The drive through Tongariro National Park is one of NZ's most dramatic \u2014 allow time for photos"
+        ]
+      },
+      {
+        "day": 7,
+        "location": "Wellington",
+        "title": "Wellington City Day",
+        "drive_from_prev": null,
+        "activities": [
+          "Te Papa Museum (free entry \u2014 allow 3-4 hours minimum, the Maori collection alone is world-class)",
+          "Wellington Cable Car (return trip, $13/adult, $7/child) \u2014 great views from the top",
+          "Botanic Garden walk from the cable car summit (free)",
+          "Cuba Street for lunch (NZ's coolest street, great cafes)",
+          "Zealandia Wildlife Sanctuary (optional, $55/adult \u2014 kiwi, tuatara, rare NZ birds)"
+        ],
+        "accommodation": "Wellington (same)",
+        "estimated_cost": "$80-200",
+        "tips": [
+          "Te Papa is genuinely world-class and free \u2014 do not skip it",
+          "Wellington is NZ's most walkable city \u2014 leave the campervan parked"
+        ]
+      },
+      {
+        "day": 8,
+        "location": "Wellington \u2192 Picton (Interislander Ferry) \u2192 Marlborough Sounds",
+        "title": "Cook Strait Crossing",
+        "drive_from_prev": "20 mins Wellington to ferry terminal, then 3h ferry, then 30 mins to accommodation",
+        "activities": [
+          "Morning: Interislander ferry departs Wellington (multiple sailings daily \u2014 check timetable)",
+          "3-hour crossing through Cook Strait \u2014 dramatic scenery as you enter the Marlborough Sounds",
+          "Arrive Picton: explore the main street and foreshore (small, charming)",
+          "Drive to accommodation in Picton or Marlborough Sounds area",
+          "Evening: fresh seafood at a Picton waterfront restaurant (Marlborough green-lipped mussels are unmissable)"
+        ],
+        "accommodation": "Picton holiday park or Marlborough Sounds accommodation",
+        "estimated_cost": "$300-500 (ferry $200-300 for vehicle + family)",
+        "tips": [
+          "Book the Interislander 3-4 months ahead for school holiday periods",
+          "The Marlborough Sounds approach from the sea is stunning \u2014 go to the deck for the last 45 minutes",
+          "If sea-sick prone: take tablets before boarding, not after feeling sick"
+        ]
+      },
+      {
+        "day": 9,
+        "location": "Nelson / Abel Tasman",
+        "title": "Abel Tasman Water Taxi Day",
+        "drive_from_prev": "2h Picton to Nelson/Marahau",
+        "activities": [
+          "Drive to Marahau (Abel Tasman National Park gateway)",
+          "Abel Tasman water taxi \u2014 take the taxi in, swim and explore Bark Bay or Anchorage, taxi out (book ahead)",
+          "The clearest, most beautiful water in New Zealand",
+          "Evening: dinner in Nelson CBD"
+        ],
+        "accommodation": "Nelson or Abel Tasman area",
+        "estimated_cost": "$350-500 (water taxi $75-120/adult, $50/child)",
+        "tips": [
+          "Book the water taxi 2-3 weeks ahead in peak season",
+          "The Abel Tasman coastal water is exceptional for snorkelling \u2014 bring a mask",
+          "Bring lunch from Nelson \u2014 food options inside the park are limited"
+        ]
+      },
+      {
+        "day": 10,
+        "location": "Nelson \u2192 Westport \u2192 Punakaiki",
+        "title": "Over the Ranges to the West Coast",
+        "drive_from_prev": "3h Nelson to Punakaiki via Westport",
+        "activities": [
+          "Drive via Murchison and Buller Gorge (stunning river canyon scenery)",
+          "Pancake Rocks and Blowholes at Punakaiki (free, 30-min loop walk \u2014 spectacular when seas are up)",
+          "Walk Truman Track to beach (10 mins \u2014 hidden gem)",
+          "Afternoon: arrival at Greymouth or Hokitika area"
+        ],
+        "accommodation": "Hokitika or Greymouth holiday park",
+        "estimated_cost": "$80-150",
+        "tips": [
+          "Pancake Rocks are best at high tide \u2014 check tide times and aim to arrive at high tide for blowhole activity",
+          "Sandflies are significant on the West Coast \u2014 DEET repellent is essential before any walk"
+        ]
+      },
+      {
+        "day": 11,
+        "location": "Franz Josef Glacier",
+        "title": "Franz Josef Glacier \u2014 Helicopter or Valley Walk",
+        "drive_from_prev": "2h Hokitika to Franz Josef",
+        "activities": [
+          "Option A: Glacier helicopter flight with snow landing ($300-450/adult, $200-300/child, weather dependent) \u2014 spectacular but expensive",
+          "Option B: Glacier valley walk (free, 2 hours return to terminal face viewpoint)",
+          "Afternoon: geothermal hot pools in Franz Josef village",
+          "Rainforest walks in the Fox/Franz Josef area"
+        ],
+        "accommodation": "Franz Josef village holiday park or motel",
+        "estimated_cost": "$150-600+ depending on helicopter choice",
+        "tips": [
+          "Helicopter flights are weather-dependent \u2014 have a backup plan",
+          "The valley walk is excellent even without the helicopter \u2014 the glacier is genuinely impressive from the valley floor",
+          "Hot pools ($35/adult, $20/child) are a great alternative activity if glacier is weather-cancelled"
+        ]
+      },
+      {
+        "day": 12,
+        "location": "Wanaka",
+        "title": "Drive to Wanaka via Haast Pass",
+        "drive_from_prev": "3h Franz Josef to Wanaka via Haast",
+        "activities": [
+          "Drive the Haast Pass (one of NZ's most spectacular mountain roads)",
+          "Stop at Thunder Creek Falls (5 min walk from road)",
+          "Blue Pools walk in Mount Aspiring National Park (1h return, brilliant blue water, swinging bridge)",
+          "Arrive Wanaka, walk the lakefront, visit the famous Wanaka Tree",
+          "Puzzling World (if time allows, $25/adult, $19/child)"
+        ],
+        "accommodation": "Wanaka holiday park or lakefront accommodation",
+        "estimated_cost": "$100-200",
+        "tips": [
+          "Blue Pools require a shuttle or walk from the car park \u2014 check current access (minor slips can close the track)",
+          "Haast Pass is one of NZ's best drives \u2014 do not rush it"
+        ]
+      },
+      {
+        "day": 13,
+        "location": "Queenstown",
+        "title": "Queenstown Adventure Day",
+        "drive_from_prev": "1h Wanaka to Queenstown",
+        "activities": [
+          "Skyline Queenstown Gondola and Luge (morning \u2014 45km/h descent, allow 2-3 hours)",
+          "Shotover Jet (book online: $149/adult, $99/child \u2014 85km/h through narrow canyon)",
+          "Queenstown waterfront and Steamer Wharf for lunch",
+          "Afternoon: Remarkables lake views drive or Arrowtown village (35 mins, beautiful historic gold rush town)"
+        ],
+        "accommodation": "Queenstown holiday park",
+        "estimated_cost": "$400-700",
+        "tips": [
+          "Buy a Queenstown combo pass if doing multiple activities \u2014 saves 10-15%",
+          "Arrowtown is excellent and free to wander \u2014 the Chinese settlement and autumn trees are beautiful"
+        ]
+      },
+      {
+        "day": 14,
+        "location": "Queenstown \u2192 Milford Sound \u2192 Queenstown",
+        "title": "Milford Sound Day Trip",
+        "drive_from_prev": "2h 45m Queenstown to Milford Sound return 5h 30m",
+        "activities": [
+          "Early start: drive to Milford Sound (2h 45m, stunning road through Homer Tunnel)",
+          "Milford Sound 2-hour cruise (book the earliest departure to avoid tour bus crowds)",
+          "Real Journeys or Go Orange cruises \u2014 both excellent",
+          "Waterfalls cascade directly into the sound \u2014 spectacular even in rain",
+          "Drive back to Queenstown for late afternoon campervan return"
+        ],
+        "accommodation": "Return campervan / fly home from Queenstown",
+        "estimated_cost": "$350-500 (cruise $89/adult, $30/child + fuel)",
+        "tips": [
+          "Milford Sound is spectacular in rain \u2014 the waterfalls triple in size. Do not cancel if it rains.",
+          "Depart Queenstown by 7am to catch the early cruise and avoid the tour bus crowd",
+          "Book the cruise 2-4 weeks ahead \u2014 popular departures sell out"
+        ]
       }
     ]
   }

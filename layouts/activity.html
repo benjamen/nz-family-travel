@@ -1,5 +1,30 @@
 {% extends "base.html" %}
 
+{% block extra_head %}
+<script type="application/ld+json">
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "TouristAttraction",
+    "name": "{{ activity.name }}",
+    "description": "{{ activity.summary }}",
+    "url": "{{ site.base_url }}/activity/{{ activity.slug }}/",
+    "touristType": "Family",
+    "isAccessibleForFree": {{ "true" if activity.price.adult == 0 else "false" }}
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Home", "item": "{{ site.base_url }}/"},
+      {"@type": "ListItem", "position": 2, "name": "Activities", "item": "{{ site.base_url }}/activities/"},
+      {"@type": "ListItem", "position": 3, "name": "{{ activity.destination|title }}", "item": "{{ site.base_url }}/activities/{{ activity.destination }}/"},
+      {"@type": "ListItem", "position": 4, "name": "{{ activity.name }}", "item": "{{ site.base_url }}/activity/{{ activity.slug }}/"}
+    ]
+  }
+]
+</script>
+{% endblock %}
 {% block title %}{{ activity.name }} — Family Review NZ 2026 (Price, Min Age, Tips){% endblock %}
 {% block desc %}{{ activity.name }} review: {% if activity.price.adult > 0 %}${{ activity.price.adult }}/adult, ${{ activity.price.child }}/child{% else %}free entry{% endif %}, ages {{ activity.min_age }}+, {{ activity.duration }}. Is it worth it for families?{% endblock %}
 {% block canonical %}activity/{{ activity.slug }}/{% endblock %}

@@ -1,5 +1,18 @@
 {% extends "base.html" %}
 
+{% block extra_head %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "{{ site.base_url }}/"},
+    {"@type": "ListItem", "position": 2, "name": "Travel Tips", "item": "{{ site.base_url }}/travel-tips/"},
+    {"@type": "ListItem", "position": 3, "name": "{{ guide.short_title }}", "item": "{{ site.base_url }}/travel-tips/{{ guide.slug }}/"}
+  ]
+}
+</script>
+{% endblock %}
 {% block title %}{{ guide.title }} — NZ Family Travel 2026{% endblock %}
 {% block desc %}{{ guide.meta_desc }}{% endblock %}
 {% block canonical %}travel-tips/{{ guide.slug }}/{% endblock %}

@@ -157,6 +157,9 @@ def build():
                itinerary=itin,
                **ctx)
 
+    # ── Interactive NZ Map ───────────────────────────────────────────────────
+    render("nz-map.html", "nz-map/index.html", **ctx)
+
     # ── Campervans hub ────────────────────────────────────────────────────────
     render("campervans.html", "campervans/index.html", **ctx)
 
@@ -234,6 +237,7 @@ def build():
 
     sitemap = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
     sitemap += sm_url("", "1.0", "weekly")
+    sitemap += sm_url("nz-map", "0.7", "monthly")
     for slug in ["destinations", "itineraries", "campervans", "activities", "tools", "travel-tips", "overseas"]:
         sitemap += sm_url(slug, "0.8", "weekly")
     for d in destinations:
