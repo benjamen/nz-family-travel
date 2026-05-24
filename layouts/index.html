@@ -139,6 +139,27 @@
   </div>
 </section>
 
+<!-- Newsletter mid-page CTA -->
+<section class="section newsletter-section">
+  <div class="newsletter-block">
+    <div class="nb-icon">📬</div>
+    <h2>Free NZ Family Holiday Planning Guide</h2>
+    <p>Join NZ families planning their next trip. Get honest destination guides, real budget breakdowns, school holiday booking tips, and hidden gems — straight to your inbox.</p>
+    <ul class="nb-perks">
+      <li>✓ 7-day itinerary templates</li>
+      <li>✓ Packing lists by destination</li>
+      <li>✓ Hidden gems from local parents</li>
+      <li>✓ School holiday booking tips</li>
+    </ul>
+    <form class="nb-form newsletter-form" action="{{ site.newsletter_form_url or '#' }}" method="POST" target="_blank">
+      <input type="hidden" name="tags" value="homepage-midpage">
+      <input type="email" name="EMAIL" placeholder="Enter your email address" required autocomplete="email">
+      <button type="submit" class="btn btn-primary">Get free guide →</button>
+    </form>
+    <p class="nb-note">No spam. Unsubscribe any time.</p>
+  </div>
+</section>
+
 <!-- Activities -->
 <section class="section">
   <h2>Must-Do Family Activities</h2>

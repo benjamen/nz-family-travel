@@ -359,6 +359,19 @@
   </div>
 </section>
 
+<!-- Inline newsletter CTA -->
+<section class="section">
+  <div class="nl-inline-block">
+    <h3>📬 Get our free {{ destination.name }} packing list & travel tips</h3>
+    <p>Join NZ families planning their next holiday — destination tips, real costs, and hidden gems delivered to your inbox.</p>
+    <form class="nl-form newsletter-form" action="{{ site.newsletter_form_url or '#' }}" method="POST" target="_blank">
+      <input type="hidden" name="tags" value="destination-{{ destination.slug }}">
+      <input type="email" name="EMAIL" placeholder="your@email.com" required autocomplete="email">
+      <button type="submit" class="btn btn-primary btn-sm">Get free tips →</button>
+    </form>
+  </div>
+</section>
+
 <!-- Nearby destinations -->
 {% if destination.nearby_destinations %}
 <section class="section section-alt">

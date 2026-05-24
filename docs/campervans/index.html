@@ -367,6 +367,21 @@
     </div>
   </div>
 
+  <!-- Newsletter strip — shown on every page -->
+  <div class="newsletter-strip">
+    <div class="newsletter-strip-inner">
+      <div class="ns-text">
+        <strong>🗺️ Free NZ Family Holiday Planning Guide</strong>
+        <span>Join NZ families planning their next trip — destination tips, real costs, itinerary ideas & packing lists.</span>
+      </div>
+      <form class="ns-form newsletter-form" action="#" method="POST" target="_blank">
+        <input type="hidden" name="tags" value="footer-strip">
+        <input type="email" name="EMAIL" class="ns-input" placeholder="your@email.com" required autocomplete="email">
+        <button type="submit" class="btn ns-btn">Get it free →</button>
+      </form>
+    </div>
+  </div>
+
   <footer class="footer">
     <div class="footer-inner">
       <div class="footer-cols">
@@ -466,5 +481,18 @@
       </div>
     </div>
   </footer>
+  <script>
+  (function(){
+    document.querySelectorAll('.newsletter-form').forEach(function(form){
+      var action = form.getAttribute('action');
+      if(!action || action === '#'){
+        form.addEventListener('submit',function(e){
+          e.preventDefault();
+          form.innerHTML='<p class="nl-success">🎉 Thanks! Newsletter launching soon — we\'ll be in touch.</p>';
+        });
+      }
+    });
+  })();
+  </script>
 </body>
 </html>

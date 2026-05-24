@@ -584,6 +584,19 @@
   </div>
 </section>
 
+<!-- Inline newsletter CTA -->
+<section class="section">
+  <div class="nl-inline-block">
+    <h3>📬 Get our free Bay of Islands packing list & travel tips</h3>
+    <p>Join NZ families planning their next holiday — destination tips, real costs, and hidden gems delivered to your inbox.</p>
+    <form class="nl-form newsletter-form" action="#" method="POST" target="_blank">
+      <input type="hidden" name="tags" value="destination-bay-of-islands-family">
+      <input type="email" name="EMAIL" placeholder="your@email.com" required autocomplete="email">
+      <button type="submit" class="btn btn-primary btn-sm">Get free tips →</button>
+    </form>
+  </div>
+</section>
+
 <!-- Nearby destinations -->
 
 <section class="section section-alt">
@@ -611,6 +624,21 @@
       <a href="https://www.bookme.co.nz/" rel="sponsored" target="_blank" class="sticky-link">🎫 Book Activities & Save</a>
       <a href="https://www.booking.com/" rel="sponsored" target="_blank" class="sticky-link">🏕️ Find Family Accommodation</a>
       <a href="https://www.covermore.co.nz/" rel="sponsored" target="_blank" class="sticky-link">🛡️ Travel Insurance</a>
+    </div>
+  </div>
+
+  <!-- Newsletter strip — shown on every page -->
+  <div class="newsletter-strip">
+    <div class="newsletter-strip-inner">
+      <div class="ns-text">
+        <strong>🗺️ Free NZ Family Holiday Planning Guide</strong>
+        <span>Join NZ families planning their next trip — destination tips, real costs, itinerary ideas & packing lists.</span>
+      </div>
+      <form class="ns-form newsletter-form" action="#" method="POST" target="_blank">
+        <input type="hidden" name="tags" value="footer-strip">
+        <input type="email" name="EMAIL" class="ns-input" placeholder="your@email.com" required autocomplete="email">
+        <button type="submit" class="btn ns-btn">Get it free →</button>
+      </form>
     </div>
   </div>
 
@@ -713,5 +741,18 @@
       </div>
     </div>
   </footer>
+  <script>
+  (function(){
+    document.querySelectorAll('.newsletter-form').forEach(function(form){
+      var action = form.getAttribute('action');
+      if(!action || action === '#'){
+        form.addEventListener('submit',function(e){
+          e.preventDefault();
+          form.innerHTML='<p class="nl-success">🎉 Thanks! Newsletter launching soon — we\'ll be in touch.</p>';
+        });
+      }
+    });
+  })();
+  </script>
 </body>
 </html>
