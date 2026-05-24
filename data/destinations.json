@@ -4,15 +4,15 @@
     "name": "Queenstown",
     "island": "South Island",
     "region": "Otago",
-    "tagline": "Adventure capital of the world — with more family fun than you'd expect",
-    "summary": "Queenstown is famous for extreme adventure, but it's also one of NZ's best family destinations. The gondola and luge alone are worth the trip, the scenery is jaw-dropping, and there's enough to fill a week without spending a fortune — if you plan smart.",
+    "tagline": "Adventure capital of the world \u2014 with more family fun than you'd expect",
+    "summary": "Queenstown is famous for extreme adventure, but it's also one of NZ's best family destinations. The gondola and luge alone are worth the trip, the scenery is jaw-dropping, and there's enough to fill a week without spending a fortune \u2014 if you plan smart.",
     "verdict": "Best NZ destination for families with kids aged 5+. Expensive, but the experiences are world-class.",
     "best_for": "Families with kids 5 and up, especially those who love the outdoors",
     "not_ideal_for": "Toddlers or families on a tight budget",
     "commercial_intent_score": 92,
     "quick_facts": {
       "best_ages": "5+",
-      "budget_family4_per_day": "$350–600",
+      "budget_family4_per_day": "$350\u2013600",
       "best_months": [
         "December",
         "January",
@@ -128,9 +128,9 @@
           "Arrive and check in",
           "Skyline Gondola & Luge (afternoon)",
           "Walk the Queenstown foreshore",
-          "Dinner at Fergburger (iconic, queues are real — go at 5pm)"
+          "Dinner at Fergburger (iconic, queues are real \u2014 go at 5pm)"
         ],
-        "estimated_cost": "$120–180"
+        "estimated_cost": "$120\u2013180"
       },
       "day2": {
         "title": "Lake & Adventure Day",
@@ -140,23 +140,23 @@
           "Jet boat experience on the Kawarau or Dart River",
           "Ice cream on The Mall"
         ],
-        "estimated_cost": "$200–350"
+        "estimated_cost": "$200\u2013350"
       },
       "day3": {
         "title": "Day Trip to Arrowtown or Wanaka",
         "activities": [
-          "Drive to Arrowtown (20 mins) — free gold rush historic town",
+          "Drive to Arrowtown (20 mins) \u2014 free gold rush historic town",
           "Lakes District Museum (kids love the gold panning)",
           "Drive back via Lake Hayes (iconic photo stop)",
           "Or swap for Wanaka: Puzzling World + lake swim"
         ],
-        "estimated_cost": "$40–80"
+        "estimated_cost": "$40\u201380"
       }
     },
     "budget_breakdown": {
-      "accommodation_per_night": "$150–400",
-      "activities_per_day": "$100–300",
-      "food_per_day": "$80–150",
+      "accommodation_per_night": "$150\u2013400",
+      "activities_per_day": "$100\u2013300",
+      "food_per_day": "$80\u2013150",
       "transport_notes": "Rental car recommended. Fuel: ~$50/day if day-tripping."
     },
     "faqs": [
@@ -166,11 +166,11 @@
       },
       {
         "q": "What is the cheapest time to visit Queenstown?",
-        "a": "April–May (autumn) is shoulder season with lower prices and stunning foliage. June–August (winter) is ski season — expensive. July–August is the peak-price period for everything."
+        "a": "April\u2013May (autumn) is shoulder season with lower prices and stunning foliage. June\u2013August (winter) is ski season \u2014 expensive. July\u2013August is the peak-price period for everything."
       },
       {
         "q": "Do I need to book Queenstown activities in advance?",
-        "a": "Yes, especially in December–January. The Skyline and jet boats book out weeks ahead in peak season. Use Bookme for discounts."
+        "a": "Yes, especially in December\u2013January. The Skyline and jet boats book out weeks ahead in peak season. Use Bookme for discounts."
       }
     ],
     "nearby_destinations": [
@@ -185,12 +185,12 @@
     ],
     "hidden_gems": [
       "Kelvin Heights Peninsula loop walk (free, 45 min, stunning lake views, almost no tourists)",
-      "Remarkables Market every Saturday summer — fresh food, local crafts, kids love the atmosphere",
-      "Jack's Point walking track — dramatic views of The Remarkables, free, rarely mentioned in guides",
-      "Arrowtown's Chinese Settlement is free and fascinating — one of the best-preserved Chinese settlements in NZ",
+      "Remarkables Market every Saturday summer \u2014 fresh food, local crafts, kids love the atmosphere",
+      "Jack's Point walking track \u2014 dramatic views of The Remarkables, free, rarely mentioned in guides",
+      "Arrowtown's Chinese Settlement is free and fascinating \u2014 one of the best-preserved Chinese settlements in NZ",
       "Lake Hayes walkway (4km loop, completely flat, great for young kids, free parking at Estate Rd)",
-      "Kawarau Bridge bungee is free to watch — kids love watching others jump from the viewing platform",
-      "Pick cherries at Central Otago orchards in January (Cromwell, 45 min away) — $5–8/kg direct from the orchard"
+      "Kawarau Bridge bungee is free to watch \u2014 kids love watching others jump from the viewing platform",
+      "Pick cherries at Central Otago orchards in January (Cromwell, 45 min away) \u2014 $5\u20138/kg direct from the orchard"
     ],
     "facebook_groups": [
       {
@@ -216,14 +216,14 @@
     "island": "North Island",
     "region": "Bay of Plenty",
     "tagline": "Geothermal wonder, Maori culture, and more activities per square km than anywhere in NZ",
-    "summary": "Rotorua is arguably NZ's best pure family destination. It's affordable, centrally located, packed with activities, and the geothermal parks are genuinely unlike anything kids will have experienced. Budget around $250–400/day for a family of four.",
+    "summary": "Rotorua is arguably NZ's best pure family destination. It's affordable, centrally located, packed with activities, and the geothermal parks are genuinely unlike anything kids will have experienced. Budget around $250\u2013400/day for a family of four.",
     "verdict": "Our #1 pick for first-time NZ family visitors. High activity density, affordable, and unforgettable.",
-    "best_for": "All ages — genuinely excellent for 2-year-olds through teenagers",
+    "best_for": "All ages \u2014 genuinely excellent for 2-year-olds through teenagers",
     "not_ideal_for": "Those sensitive to the sulphur smell (it fades after a day)",
     "commercial_intent_score": 95,
     "quick_facts": {
       "best_ages": "All ages",
-      "budget_family4_per_day": "$250–450",
+      "budget_family4_per_day": "$250\u2013450",
       "best_months": [
         "November",
         "December",
@@ -291,14 +291,14 @@
     "free_activities": [
       "Government Gardens and croquet lawn",
       "Lake Rotorua foreshore walk",
-      "Kuirau Park (free public geothermal park — bubbling mud!)",
+      "Kuirau Park (free public geothermal park \u2014 bubbling mud!)",
       "Sulphur Point Scenic Reserve",
       "Redwood Forest (free walking tracks)"
     ],
     "rainy_day": [
       "Te Puia (most areas covered)",
       "Agrodome (all indoors)",
-      "Polynesian Spa (thermal pools — great in rain)",
+      "Polynesian Spa (thermal pools \u2014 great in rain)",
       "Rotorua Museum (when open)"
     ],
     "where_to_stay": [
@@ -344,7 +344,7 @@
           "Kuirau Park (free bubbling mud pools)",
           "Polynesian Spa at sunset"
         ],
-        "estimated_cost": "$150–250"
+        "estimated_cost": "$150\u2013250"
       },
       "day2": {
         "title": "Farm, Gondola & Zorbing",
@@ -354,7 +354,7 @@
           "OGO zorbing (book ahead)",
           "Burger Wisconsin for dinner"
         ],
-        "estimated_cost": "$200–350"
+        "estimated_cost": "$200\u2013350"
       },
       "day3": {
         "title": "Wai-O-Tapu + Rainbow Springs",
@@ -364,27 +364,27 @@
           "Redwood Forest walk (free, magical)",
           "Depart or relax"
         ],
-        "estimated_cost": "$120–200"
+        "estimated_cost": "$120\u2013200"
       }
     },
     "budget_breakdown": {
-      "accommodation_per_night": "$120–350",
-      "activities_per_day": "$100–250",
-      "food_per_day": "$60–120",
+      "accommodation_per_night": "$120\u2013350",
+      "activities_per_day": "$100\u2013250",
+      "food_per_day": "$60\u2013120",
       "transport_notes": "Rental car or campervan. Most sites within 30 mins. Fuel: ~$20/day."
     },
     "faqs": [
       {
         "q": "Does Rotorua smell bad?",
-        "a": "Yes — the sulphur (rotten egg) smell is real, especially near geothermal areas. Most visitors stop noticing after a few hours. Kids often find it funny. It's not harmful."
+        "a": "Yes \u2014 the sulphur (rotten egg) smell is real, especially near geothermal areas. Most visitors stop noticing after a few hours. Kids often find it funny. It's not harmful."
       },
       {
         "q": "How many days do you need in Rotorua?",
-        "a": "2–3 days covers the highlights. 4 days if you want to do day trips to Wai-O-Tapu and the Hobbiton Movie Set (45 mins away)."
+        "a": "2\u20133 days covers the highlights. 4 days if you want to do day trips to Wai-O-Tapu and the Hobbiton Movie Set (45 mins away)."
       },
       {
         "q": "Is Hobbiton worth it with kids?",
-        "a": "Older kids (8+) who know Lord of the Rings love it. Under-8s may not get much from it. At $49/adult it's a significant cost — prioritise other activities for younger kids."
+        "a": "Older kids (8+) who know Lord of the Rings love it. Under-8s may not get much from it. At $49/adult it's a significant cost \u2014 prioritise other activities for younger kids."
       }
     ],
     "nearby_destinations": [
@@ -398,13 +398,13 @@
       "rotorua family holiday"
     ],
     "hidden_gems": [
-      "Kuirau Park — free geothermal park right in Rotorua. Hot bubbling mud pools, steam vents, and a foot spa. Completely free and often empty of tourists",
-      "Rainbow Springs just outside town has a free kiwi viewing at dusk if you buy the daytime ticket ($42 adult) — includes nocturnal house with real kiwis",
-      "Government Gardens rose beds and croquet lawns are free and beautiful — locals picnic here while tourists pay to enter Te Puia across the road",
-      "Redwood Forest free walking trails — world-class trails through giant coastal redwoods. Free, 10 mins from town",
-      "Lake Rotorua foreshore at sunset — completely free, geothermal steam rising off the lake, otherworldly atmosphere",
-      "Eat at Atticus Finch or Pig & Whistle rather than tourist strip on Fenton St — same quality, 30% cheaper",
-      "Book Wai-O-Tapu early morning (it opens at 8:30am) — Lady Knox Geyser performs at 10:15am sharp and is included in entry"
+      "Kuirau Park \u2014 free geothermal park right in Rotorua. Hot bubbling mud pools, steam vents, and a foot spa. Completely free and often empty of tourists",
+      "Rainbow Springs just outside town has a free kiwi viewing at dusk if you buy the daytime ticket ($42 adult) \u2014 includes nocturnal house with real kiwis",
+      "Government Gardens rose beds and croquet lawns are free and beautiful \u2014 locals picnic here while tourists pay to enter Te Puia across the road",
+      "Redwood Forest free walking trails \u2014 world-class trails through giant coastal redwoods. Free, 10 mins from town",
+      "Lake Rotorua foreshore at sunset \u2014 completely free, geothermal steam rising off the lake, otherworldly atmosphere",
+      "Eat at Atticus Finch or Pig & Whistle rather than tourist strip on Fenton St \u2014 same quality, 30% cheaper",
+      "Book Wai-O-Tapu early morning (it opens at 8:30am) \u2014 Lady Knox Geyser performs at 10:15am sharp and is included in entry"
     ],
     "facebook_groups": [
       {
@@ -429,15 +429,15 @@
     "name": "Taupo",
     "island": "North Island",
     "region": "Waikato",
-    "tagline": "Lake Taupo, Huka Falls, and a relaxed pace — perfect mid-island stop",
-    "summary": "Taupo sits at the centre of the North Island and makes the perfect stopping point on any road trip. The Huka Falls are spectacular and free, Lake Taupo is huge and swimmable, and the town has enough to keep a family busy for 2–3 days without blowing the budget.",
+    "tagline": "Lake Taupo, Huka Falls, and a relaxed pace \u2014 perfect mid-island stop",
+    "summary": "Taupo sits at the centre of the North Island and makes the perfect stopping point on any road trip. The Huka Falls are spectacular and free, Lake Taupo is huge and swimmable, and the town has enough to keep a family busy for 2\u20133 days without blowing the budget.",
     "verdict": "An essential road trip stop. Best as 2 nights between Rotorua and Wellington.",
     "best_for": "All ages, especially great for a relaxed lake holiday",
     "not_ideal_for": "Those wanting non-stop activities (it's a chill destination)",
     "commercial_intent_score": 80,
     "quick_facts": {
       "best_ages": "All ages",
-      "budget_family4_per_day": "$200–350",
+      "budget_family4_per_day": "$200\u2013350",
       "best_months": [
         "December",
         "January",
@@ -551,7 +551,7 @@
           "Swim at Acacia Bay",
           "Spa Thermal Park sunset soak (free)"
         ],
-        "estimated_cost": "$10–30"
+        "estimated_cost": "$10\u201330"
       },
       "day2": {
         "title": "Jet Boat & Town Day",
@@ -561,7 +561,7 @@
           "Walk the Taupo Harbour foreshore",
           "AC Baths thermal pools (afternoon)"
         ],
-        "estimated_cost": "$150–220"
+        "estimated_cost": "$150\u2013220"
       },
       "day3": {
         "title": "Departure or Day Trip",
@@ -570,19 +570,19 @@
           "Drive south to Tongariro (2h) for dramatic volcanic scenery",
           "Or head north back to Rotorua"
         ],
-        "estimated_cost": "$80–150"
+        "estimated_cost": "$80\u2013150"
       }
     },
     "budget_breakdown": {
-      "accommodation_per_night": "$100–300",
-      "activities_per_day": "$50–200",
-      "food_per_day": "$60–100",
+      "accommodation_per_night": "$100\u2013300",
+      "activities_per_day": "$50\u2013200",
+      "food_per_day": "$60\u2013100",
       "transport_notes": "Easy to explore by car. Free parking most attractions."
     },
     "faqs": [
       {
         "q": "Can you swim in Lake Taupo?",
-        "a": "Yes — Acacia Bay and Wharewaka Point are the best family swimming spots. Clean, clear water. Cold outside of December–February."
+        "a": "Yes \u2014 Acacia Bay and Wharewaka Point are the best family swimming spots. Clean, clear water. Cold outside of December\u2013February."
       },
       {
         "q": "Is the Spa Thermal Park really free?",
@@ -604,13 +604,13 @@
       "taupo family activities nz"
     ],
     "hidden_gems": [
-      "Taupo Bungy spectator area is free — kids love watching the bungee jumpers launch out over the Waikato River",
-      "Huka Prawn Park has a FREE prawn feeding area — you only pay if you want to fish",
-      "Acacia Bay is Taupo's best-kept secret — calm swimming, sandy shore, no tourists, 10 min from town centre",
-      "Walk the Huka Falls from upstream — start at Wairakei Park, walk 1km to the falls. Completely free, incredible turquoise water views",
+      "Taupo Bungy spectator area is free \u2014 kids love watching the bungee jumpers launch out over the Waikato River",
+      "Huka Prawn Park has a FREE prawn feeding area \u2014 you only pay if you want to fish",
+      "Acacia Bay is Taupo's best-kept secret \u2014 calm swimming, sandy shore, no tourists, 10 min from town centre",
+      "Walk the Huka Falls from upstream \u2014 start at Wairakei Park, walk 1km to the falls. Completely free, incredible turquoise water views",
       "Craters of the Moon (geothermal walk): adults $10, children free. Less crowded than Te Puia and still spectacular",
-      "Taupo Night Market runs Thursday evenings in summer — $5 hangi ($20 for family of 4), live music, craft stalls",
-      "Wairakei Terraces has a FREE hot stream walking path along the edge of the property — steam, pools, no entry fee"
+      "Taupo Night Market runs Thursday evenings in summer \u2014 $5 hangi ($20 for family of 4), live music, craft stalls",
+      "Wairakei Terraces has a FREE hot stream walking path along the edge of the property \u2014 steam, pools, no entry fee"
     ],
     "facebook_groups": [
       {
@@ -621,7 +621,7 @@
       {
         "name": "NZ Hot Pools and Thermal Springs",
         "url": "https://www.facebook.com/groups/search/results/?q=nz+hot+pools+families",
-        "description": "Reviews of every hot pool in NZ — great for planning a Taupo trip"
+        "description": "Reviews of every hot pool in NZ \u2014 great for planning a Taupo trip"
       },
       {
         "name": "Travelling NZ with Kids",
@@ -635,15 +635,15 @@
     "name": "Christchurch",
     "island": "South Island",
     "region": "Canterbury",
-    "tagline": "Gateway to the South Island — and surprisingly great for families",
+    "tagline": "Gateway to the South Island \u2014 and surprisingly great for families",
     "summary": "Christchurch is the South Island hub and a genuinely underrated family destination. The International Antarctic Centre is world-class, the Gondola has incredible views, and it's one of the most affordable major cities to visit in NZ. Plus it's the base for road trips to Queenstown, Kaikoura and the West Coast.",
-    "verdict": "Underrated family city. 2 nights is ideal — great base for South Island road trips.",
+    "verdict": "Underrated family city. 2 nights is ideal \u2014 great base for South Island road trips.",
     "best_for": "Families using it as a South Island base, or those wanting an affordable city break",
     "not_ideal_for": "Those wanting beach holidays (beaches are cold, not tropical)",
     "commercial_intent_score": 78,
     "quick_facts": {
       "best_ages": "All ages",
-      "budget_family4_per_day": "$200–350",
+      "budget_family4_per_day": "$200\u2013350",
       "best_months": [
         "November",
         "December",
@@ -708,7 +708,7 @@
     "free_activities": [
       "Botanic Gardens (stunning, free)",
       "Hagley Park",
-      "Te Ana Ngāi Tahu Rock Art Centre (free Tue–Fri)",
+      "Te Ana Ng\u0101i Tahu Rock Art Centre (free Tue\u2013Fri)",
       "New Regent Street (restored heritage streetscape)",
       "Avon River Precinct walk"
     ],
@@ -761,7 +761,7 @@
           "Botanic Gardens walk (free)",
           "Punting on the Avon (optional)"
         ],
-        "estimated_cost": "$130–200"
+        "estimated_cost": "$130\u2013200"
       },
       "day2": {
         "title": "Gondola + Wildlife",
@@ -770,7 +770,7 @@
           "Orana Wildlife Park (open range zoo, afternoon)",
           "Dinner in Riccarton"
         ],
-        "estimated_cost": "$140–200"
+        "estimated_cost": "$140\u2013200"
       },
       "day3": {
         "title": "Lyttelton or Departure",
@@ -780,19 +780,19 @@
           "Lyttelton Farmers Market (Sat only)",
           "Depart for Queenstown or Kaikoura"
         ],
-        "estimated_cost": "$20–60"
+        "estimated_cost": "$20\u201360"
       }
     },
     "budget_breakdown": {
-      "accommodation_per_night": "$100–280",
-      "activities_per_day": "$80–200",
-      "food_per_day": "$60–100",
+      "accommodation_per_night": "$100\u2013280",
+      "activities_per_day": "$80\u2013200",
+      "food_per_day": "$60\u2013100",
       "transport_notes": "Car useful for Gondola and Orana Park. City centre walkable."
     },
     "faqs": [
       {
         "q": "Is Christchurch worth visiting after the earthquakes?",
-        "a": "Absolutely. The rebuild has created one of NZ's most interesting city centres — street art, container malls, modern architecture alongside heritage buildings. The 'gap filler' culture is unique."
+        "a": "Absolutely. The rebuild has created one of NZ's most interesting city centres \u2014 street art, container malls, modern architecture alongside heritage buildings. The 'gap filler' culture is unique."
       },
       {
         "q": "What is Christchurch best known for?",
@@ -810,13 +810,13 @@
       "christchurch family holiday"
     ],
     "hidden_gems": [
-      "Canterbury Museum is completely FREE — world-class natural history and Antarctic exhibitions. Kids love the Antarctic section with real gear",
-      "Christchurch Art Gallery is free — rotating exhibitions, kids' programmes, excellent café",
-      "Willowbank Wildlife Reserve in Harewood has the most accessible kiwi viewing in NZ — see kiwis walking around in a semi-dark enclosure at close range ($30 adult, $15 child)",
+      "Canterbury Museum is completely FREE \u2014 world-class natural history and Antarctic exhibitions. Kids love the Antarctic section with real gear",
+      "Christchurch Art Gallery is free \u2014 rotating exhibitions, kids' programmes, excellent caf\u00e9",
+      "Willowbank Wildlife Reserve in Harewood has the most accessible kiwi viewing in NZ \u2014 see kiwis walking around in a semi-dark enclosure at close range ($30 adult, $15 child)",
       "Hagley Park has a free outdoor splash pad and playground near the Antigua Boat Sheds",
-      "Riccarton House and Bush — free walk through native bush in the middle of the city, tui everywhere",
-      "Christchurch's free tram now runs again — take it to see the earthquake rebuild story",
-      "Lane's Emporium in Little High Eatery — 8 food vendors under one roof, $8–15 mains, great for fussy eaters"
+      "Riccarton House and Bush \u2014 free walk through native bush in the middle of the city, tui everywhere",
+      "Christchurch's free tram now runs again \u2014 take it to see the earthquake rebuild story",
+      "Lane's Emporium in Little High Eatery \u2014 8 food vendors under one roof, $8\u201315 mains, great for fussy eaters"
     ],
     "facebook_groups": [
       {
@@ -841,15 +841,15 @@
     "name": "Bay of Islands",
     "island": "North Island",
     "region": "Northland",
-    "tagline": "144 islands, dolphins, sailing, and New Zealand's birthplace — all in one bay",
-    "summary": "The Bay of Islands is NZ's original holiday destination and still one of the best. Paihia is the main family base — from there you can swim with dolphins, sail to deserted islands, visit the Waitangi Treaty Grounds, and enjoy some of the warmest water in the country.",
+    "tagline": "144 islands, dolphins, sailing, and New Zealand's birthplace \u2014 all in one bay",
+    "summary": "The Bay of Islands is NZ's original holiday destination and still one of the best. Paihia is the main family base \u2014 from there you can swim with dolphins, sail to deserted islands, visit the Waitangi Treaty Grounds, and enjoy some of the warmest water in the country.",
     "verdict": "Best NZ beach holiday for families. Come in January for the warmest water. Combine with the Kauri Coast.",
     "best_for": "Beach-loving families, water activities, NZ history",
     "not_ideal_for": "Those wanting to avoid the 3.5-hour drive from Auckland",
     "commercial_intent_score": 82,
     "quick_facts": {
       "best_ages": "All ages",
-      "budget_family4_per_day": "$250–450",
+      "budget_family4_per_day": "$250\u2013450",
       "best_months": [
         "December",
         "January",
@@ -963,7 +963,7 @@
           "Paihia Beach swim",
           "Fish and chips on the wharf for dinner"
         ],
-        "estimated_cost": "$80–140"
+        "estimated_cost": "$80\u2013140"
       },
       "day2": {
         "title": "Dolphin Cruise + Islands",
@@ -972,7 +972,7 @@
           "Russell ferry trip ($15 return) + lunch at historic Duke of Marlborough Hotel",
           "Afternoon beach time"
         ],
-        "estimated_cost": "$200–350"
+        "estimated_cost": "$200\u2013350"
       },
       "day3": {
         "title": "Hole in the Rock or Departure",
@@ -981,13 +981,13 @@
           "Or Haruru Falls walk + Kerikeri exploration",
           "Depart for Auckland"
         ],
-        "estimated_cost": "$100–350"
+        "estimated_cost": "$100\u2013350"
       }
     },
     "budget_breakdown": {
-      "accommodation_per_night": "$120–350",
-      "activities_per_day": "$100–350",
-      "food_per_day": "$70–120",
+      "accommodation_per_night": "$120\u2013350",
+      "activities_per_day": "$100\u2013350",
+      "food_per_day": "$70\u2013120",
       "transport_notes": "Car needed to get there. Once in Paihia, everything is walkable or boat-based."
     },
     "faqs": [
@@ -997,11 +997,11 @@
       },
       {
         "q": "How far is Bay of Islands from Auckland?",
-        "a": "About 3.5 hours by car via SH1. Most families drive up — no direct train. Flights take 40 mins to Kerikeri."
+        "a": "About 3.5 hours by car via SH1. Most families drive up \u2014 no direct train. Flights take 40 mins to Kerikeri."
       },
       {
         "q": "Is Russell worth visiting?",
-        "a": "Yes — take the 10-minute ferry from Paihia ($15 return). Russell is NZ's first European settlement, quiet and historic. Great for lunch."
+        "a": "Yes \u2014 take the 10-minute ferry from Paihia ($15 return). Russell is NZ's first European settlement, quiet and historic. Great for lunch."
       }
     ],
     "nearby_destinations": [
@@ -1014,13 +1014,13 @@
       "northland family holiday"
     ],
     "hidden_gems": [
-      "Haruru Falls — a horseshoe waterfall 10 min from Paihia. Free, easy 20-min walk from the car park, completely off most tourist itineraries",
-      "Waitangi Mangrove boardwalk — free 1km boardwalk through the mangroves behind the Treaty Grounds. Kids love spotting fish and mud crabs",
-      "Russell is 15 min by ferry from Paihia ($8 return) — quieter, historic, better cafes, gorgeous beaches (Long Beach is a 10-min walk from town)",
-      "Urupukapuka Island day trips — DOC-run island with ancient Maori pa sites and stunning beaches. Ferry from Paihia $45 adult, $23 child return",
-      "Poor Knights Islands glass-bottom boat: you don't need to scuba dive — the glass-bottom tours show the underwater world for all ages from Tutukaka",
-      "Paihia Night Market (summer Fridays) — fresh seafood, live music, $5–10 snacks, very family-friendly",
-      "Cape Brett lighthouse walk (experienced hikers only) — 15km return, takes all day, rewards with dramatic coastal views and a possible guided hut overnight"
+      "Haruru Falls \u2014 a horseshoe waterfall 10 min from Paihia. Free, easy 20-min walk from the car park, completely off most tourist itineraries",
+      "Waitangi Mangrove boardwalk \u2014 free 1km boardwalk through the mangroves behind the Treaty Grounds. Kids love spotting fish and mud crabs",
+      "Russell is 15 min by ferry from Paihia ($8 return) \u2014 quieter, historic, better cafes, gorgeous beaches (Long Beach is a 10-min walk from town)",
+      "Urupukapuka Island day trips \u2014 DOC-run island with ancient Maori pa sites and stunning beaches. Ferry from Paihia $45 adult, $23 child return",
+      "Poor Knights Islands glass-bottom boat: you don't need to scuba dive \u2014 the glass-bottom tours show the underwater world for all ages from Tutukaka",
+      "Paihia Night Market (summer Fridays) \u2014 fresh seafood, live music, $5\u201310 snacks, very family-friendly",
+      "Cape Brett lighthouse walk (experienced hikers only) \u2014 15km return, takes all day, rewards with dramatic coastal views and a possible guided hut overnight"
     ],
     "facebook_groups": [
       {
@@ -1045,7 +1045,7 @@
     "name": "Wanaka",
     "island": "South Island",
     "region": "Otago",
-    "tagline": "Queenstown's quieter, more beautiful neighbour — and better for families",
+    "tagline": "Queenstown's quieter, more beautiful neighbour \u2014 and better for families",
     "summary": "Wanaka is what Queenstown was before the crowds arrived. The lake is stunning, the town is relaxed, Puzzling World is a quirky family classic, and Treble Cone offers winter skiing for those with older kids. In summer, it's a beach town with mountains.",
     "verdict": "Better than Queenstown for a relaxed family holiday. Pair both together on a South Island trip.",
     "best_for": "Families who want scenery without Queenstown prices and crowds",
@@ -1053,7 +1053,7 @@
     "commercial_intent_score": 75,
     "quick_facts": {
       "best_ages": "All ages",
-      "budget_family4_per_day": "$250–450",
+      "budget_family4_per_day": "$250\u2013450",
       "best_months": [
         "December",
         "January",
@@ -1070,7 +1070,7 @@
         "from_christchurch": "4h 30m",
         "from_dunedin": "2h 30m"
       },
-      "nearest_airport": "Queenstown Airport (ZQN) — 1h drive",
+      "nearest_airport": "Queenstown Airport (ZQN) \u2014 1h drive",
       "flight_from_auckland": "1h 45m to Queenstown + 1h drive"
     },
     "top_activities": [
@@ -1118,7 +1118,7 @@
     ],
     "rainy_day": [
       "Puzzling World (fully indoor)",
-      "Cinema Paradiso (legendary small cinema — BYO food)",
+      "Cinema Paradiso (legendary small cinema \u2014 BYO food)",
       "Wanaka Beerworks tour"
     ],
     "where_to_stay": [
@@ -1164,7 +1164,7 @@
           "Paddleboard or kayak rental",
           "Dinner at Ritual Coffee (best burgers in town)"
         ],
-        "estimated_cost": "$50–100"
+        "estimated_cost": "$50\u2013100"
       },
       "day2": {
         "title": "Puzzling World + Mt Iron",
@@ -1174,7 +1174,7 @@
           "Mt Iron track (views)",
           "Cinema Paradiso evening (legendary experience)"
         ],
-        "estimated_cost": "$50–100"
+        "estimated_cost": "$50\u2013100"
       },
       "day3": {
         "title": "Queenstown Day Trip",
@@ -1183,14 +1183,14 @@
           "Skyline Gondola & Luge",
           "Return to Wanaka for dinner"
         ],
-        "estimated_cost": "$150–250"
+        "estimated_cost": "$150\u2013250"
       }
     },
     "budget_breakdown": {
-      "accommodation_per_night": "$120–350",
-      "activities_per_day": "$50–200",
-      "food_per_day": "$60–100",
-      "transport_notes": "Car essential. Crown Range road is spectacular but steep — take it slow."
+      "accommodation_per_night": "$120\u2013350",
+      "activities_per_day": "$50\u2013200",
+      "food_per_day": "$60\u2013100",
+      "transport_notes": "Car essential. Crown Range road is spectacular but steep \u2014 take it slow."
     },
     "faqs": [
       {
@@ -1213,13 +1213,13 @@
       "wanaka vs queenstown families"
     ],
     "hidden_gems": [
-      "Diamond Lake and Rocky Mountain track — a 3-hour loop starting 20 min from Wanaka. Stunning views of Lake Wanaka and the Matukituki Valley. Suitable for kids 7+",
-      "Wanaka's famous lone willow tree is best at sunset or early morning — avoid midday when it's packed with photographers",
-      "Mount Iron track (45 min return from near town) — a volcanic dome with 360-degree views. Kids 6+ can handle it",
-      "Glendhu Bay — 12km from Wanaka, a DOC campsite with one of the best lake swimming spots in the South Island. $10/person/night to stay overnight",
-      "Wanaka Beerworks has a child-friendly tap room with non-alcoholic options — a local hangout that's actually relaxed for families",
-      "Stuart Landsborough's Puzzling World: buy the combined illusion room + maze ticket ($18 adult, $13 child). The maze alone takes 45+ minutes — seriously tricky",
-      "Cardona ski field road (don't ski) — drive up the Cardona Valley road in summer for jaw-dropping scenery and alpine meadow walks"
+      "Diamond Lake and Rocky Mountain track \u2014 a 3-hour loop starting 20 min from Wanaka. Stunning views of Lake Wanaka and the Matukituki Valley. Suitable for kids 7+",
+      "Wanaka's famous lone willow tree is best at sunset or early morning \u2014 avoid midday when it's packed with photographers",
+      "Mount Iron track (45 min return from near town) \u2014 a volcanic dome with 360-degree views. Kids 6+ can handle it",
+      "Glendhu Bay \u2014 12km from Wanaka, a DOC campsite with one of the best lake swimming spots in the South Island. $10/person/night to stay overnight",
+      "Wanaka Beerworks has a child-friendly tap room with non-alcoholic options \u2014 a local hangout that's actually relaxed for families",
+      "Stuart Landsborough's Puzzling World: buy the combined illusion room + maze ticket ($18 adult, $13 child). The maze alone takes 45+ minutes \u2014 seriously tricky",
+      "Cardona ski field road (don't ski) \u2014 drive up the Cardona Valley road in summer for jaw-dropping scenery and alpine meadow walks"
     ],
     "facebook_groups": [
       {
@@ -1230,7 +1230,7 @@
       {
         "name": "Wanaka and Queenstown Families",
         "url": "https://www.facebook.com/groups/search/results/?q=wanaka+queenstown+families",
-        "description": "Tips covering both destinations — the most popular South Island family pairing"
+        "description": "Tips covering both destinations \u2014 the most popular South Island family pairing"
       },
       {
         "name": "NZ Campervan Families",
@@ -1244,15 +1244,15 @@
     "name": "Wellington",
     "island": "North Island",
     "region": "Wellington",
-    "tagline": "Te Papa, the coolest little capital in the world, and NZ's best café culture",
-    "summary": "Wellington punches well above its weight as a family destination. Te Papa is the best free museum in NZ, the cable car is a Wellington institution, and the waterfront is brilliant for kids. It's also NZ's windiest city — plan for indoor backup options.",
-    "verdict": "Best NZ city break for families — 2–3 days is perfect. Affordable, compact, world-class museum.",
+    "tagline": "Te Papa, the coolest little capital in the world, and NZ's best caf\u00e9 culture",
+    "summary": "Wellington punches well above its weight as a family destination. Te Papa is the best free museum in NZ, the cable car is a Wellington institution, and the waterfront is brilliant for kids. It's also NZ's windiest city \u2014 plan for indoor backup options.",
+    "verdict": "Best NZ city break for families \u2014 2\u20133 days is perfect. Affordable, compact, world-class museum.",
     "best_for": "Families who love culture, museums, and great food",
-    "not_ideal_for": "Beach holidays — Wellington's beaches are cold and windy",
+    "not_ideal_for": "Beach holidays \u2014 Wellington's beaches are cold and windy",
     "commercial_intent_score": 82,
     "quick_facts": {
       "best_ages": "All ages",
-      "budget_family4_per_day": "$200–380",
+      "budget_family4_per_day": "$200\u2013380",
       "best_months": [
         "December",
         "January",
@@ -1279,7 +1279,7 @@
     "top_activities": [
       {
         "name": "Te Papa Museum",
-        "price_note": "Free (special exhibitions $10–20)",
+        "price_note": "Free (special exhibitions $10\u201320)",
         "min_age": 0,
         "rain_safe": true,
         "must_do": true
@@ -1316,23 +1316,23 @@
     "free_activities": [
       "Te Papa Museum (permanent collection)",
       "Wellington Waterfront and Frank Kitts Park playground",
-      "Botanical Garden (top of cable car — walk back down through the garden)",
-      "Weta Workshop Unleashed — exterior is free to walk around",
-      "Mount Victoria Lookout (drive up for 360° city views)"
+      "Botanical Garden (top of cable car \u2014 walk back down through the garden)",
+      "Weta Workshop Unleashed \u2014 exterior is free to walk around",
+      "Mount Victoria Lookout (drive up for 360\u00b0 city views)"
     ],
     "hidden_gems": [
-      "Kāpiti Island day trips — pre-book DOC permit ($16/adult, $8/child). One of NZ's best conservation successes, teeming with native birds including kiwi",
-      "Makara Beach — 30 min from the CBD, wild west coast, free, almost no tourists. Great rock pooling with kids",
-      "Wellington Night Market (Friday, Chaffers Street) — incredible street food from $5, very family-friendly",
-      "Te Papa's basement Discovery Centres are often overlooked — free interactive zones specifically for kids under 12",
-      "The Weta Cave (free entry) — Weta Workshop's free exhibition. The paid tour ($45/adult) is brilliant for movie-loving kids 8+",
-      "Otari-Wilton's Bush — NZ's only public native botanic garden. Free, beautiful, and usually empty",
-      "Interislander Ferry (Picton to Wellington) — even as a day trip, the Marlborough Sounds passage is spectacular. Book foot passenger return"
+      "K\u0101piti Island day trips \u2014 pre-book DOC permit ($16/adult, $8/child). One of NZ's best conservation successes, teeming with native birds including kiwi",
+      "Makara Beach \u2014 30 min from the CBD, wild west coast, free, almost no tourists. Great rock pooling with kids",
+      "Wellington Night Market (Friday, Chaffers Street) \u2014 incredible street food from $5, very family-friendly",
+      "Te Papa's basement Discovery Centres are often overlooked \u2014 free interactive zones specifically for kids under 12",
+      "The Weta Cave (free entry) \u2014 Weta Workshop's free exhibition. The paid tour ($45/adult) is brilliant for movie-loving kids 8+",
+      "Otari-Wilton's Bush \u2014 NZ's only public native botanic garden. Free, beautiful, and usually empty",
+      "Interislander Ferry (Picton to Wellington) \u2014 even as a day trip, the Marlborough Sounds passage is spectacular. Book foot passenger return"
     ],
     "rainy_day": [
-      "Te Papa Museum — could spend a full day",
+      "Te Papa Museum \u2014 could spend a full day",
       "Carter Observatory planetarium shows",
-      "Queensgate Mall (Lower Hutt) — large mall with cinema 20 min away",
+      "Queensgate Mall (Lower Hutt) \u2014 large mall with cinema 20 min away",
       "Weta Workshop Unleashed (immersive experience, covered)",
       "Reading Cinemas Courtenay Place"
     ],
@@ -1376,12 +1376,12 @@
       "day1": {
         "title": "Te Papa + Waterfront",
         "activities": [
-          "Te Papa Museum (3–4 hours — don't rush)",
+          "Te Papa Museum (3\u20134 hours \u2014 don't rush)",
           "Waterfront walk and Frank Kitts Park",
-          "Cuban Street lunch ($12–15 mains)",
+          "Cuban Street lunch ($12\u201315 mains)",
           "Wellington Cable Car up and walk back through Botanical Garden"
         ],
-        "estimated_cost": "$60–100"
+        "estimated_cost": "$60\u2013100"
       },
       "day2": {
         "title": "Zealandia + City",
@@ -1389,29 +1389,29 @@
           "Zealandia Wildlife Sanctuary (book first entry)",
           "Weta Cave (free)",
           "Mount Victoria Lookout (drive up)",
-          "Courtenay Place for dinner — lots of family options"
+          "Courtenay Place for dinner \u2014 lots of family options"
         ],
-        "estimated_cost": "$80–140"
+        "estimated_cost": "$80\u2013140"
       },
       "day3": {
         "title": "Day Trip Option",
         "activities": [
-          "Option A: Drive to the Wairarapa (1h) — Martinborough wine village, free beaches at Cape Palliser",
+          "Option A: Drive to the Wairarapa (1h) \u2014 Martinborough wine village, free beaches at Cape Palliser",
           "Option B: Interislander ferry day trip to Picton through Marlborough Sounds"
         ],
-        "estimated_cost": "$50–200"
+        "estimated_cost": "$50\u2013200"
       }
     },
     "budget_breakdown": {
-      "accommodation_per_night": "$120–300",
-      "activities_per_day": "$60–140",
-      "food_per_day": "$60–120",
-      "transport_notes": "Compact CBD — walk or use GO Wellington buses. Cable car $12 return."
+      "accommodation_per_night": "$120\u2013300",
+      "activities_per_day": "$60\u2013140",
+      "food_per_day": "$60\u2013120",
+      "transport_notes": "Compact CBD \u2014 walk or use GO Wellington buses. Cable car $12 return."
     },
     "faqs": [
       {
         "q": "Is Wellington worth visiting with kids?",
-        "a": "Absolutely. Te Papa alone justifies the trip — it's free, world-class, and kids can spend 3–4 hours there. Add the cable car, Zealandia, and the waterfront and you have a brilliant 2–3 day family break."
+        "a": "Absolutely. Te Papa alone justifies the trip \u2014 it's free, world-class, and kids can spend 3\u20134 hours there. Add the cable car, Zealandia, and the waterfront and you have a brilliant 2\u20133 day family break."
       },
       {
         "q": "How windy is Wellington really?",
@@ -1419,7 +1419,7 @@
       },
       {
         "q": "Can you do Wellington as a stopover between North and South Island?",
-        "a": "Yes — this is a common itinerary. Fly or drive to Wellington, spend 2 nights, then take the Interislander ferry to Picton for the South Island leg."
+        "a": "Yes \u2014 this is a common itinerary. Fly or drive to Wellington, spend 2 nights, then take the Interislander ferry to Picton for the South Island leg."
       }
     ],
     "nearby_destinations": [
@@ -1450,15 +1450,15 @@
     "name": "Nelson & Abel Tasman",
     "island": "South Island",
     "region": "Nelson-Tasman",
-    "tagline": "NZ's sunniest region — golden beaches, clear water, and the most beautiful coastal walk in the world",
-    "summary": "Nelson is the sunniest city in New Zealand and the gateway to Abel Tasman National Park — a coastline of golden sand beaches, crystal-clear water, and native bush. It's also one of the most relaxed and family-friendly regions in the country.",
-    "verdict": "Criminally underrated by international visitors. NZ families know it — the Abel Tasman coast is spectacular and the region is brilliant for all ages.",
+    "tagline": "NZ's sunniest region \u2014 golden beaches, clear water, and the most beautiful coastal walk in the world",
+    "summary": "Nelson is the sunniest city in New Zealand and the gateway to Abel Tasman National Park \u2014 a coastline of golden sand beaches, crystal-clear water, and native bush. It's also one of the most relaxed and family-friendly regions in the country.",
+    "verdict": "Criminally underrated by international visitors. NZ families know it \u2014 the Abel Tasman coast is spectacular and the region is brilliant for all ages.",
     "best_for": "Beach lovers, kayakers, and families who want stunning scenery without big crowds",
     "not_ideal_for": "Families wanting theme parks or urban entertainment",
     "commercial_intent_score": 78,
     "quick_facts": {
       "best_ages": "All ages",
-      "budget_family4_per_day": "$220–400",
+      "budget_family4_per_day": "$220\u2013400",
       "best_months": [
         "December",
         "January",
@@ -1482,7 +1482,7 @@
     "top_activities": [
       {
         "name": "Abel Tasman Water Taxi + Beach Day",
-        "price_note": "$55–80/adult, $35–55/child return",
+        "price_note": "$55\u201380/adult, $35\u201355/child return",
         "min_age": 0,
         "rain_safe": false,
         "must_do": true
@@ -1517,25 +1517,25 @@
       }
     ],
     "free_activities": [
-      "Tahunanui Beach — Nelson's main beach, safe swimming, playground, holiday park",
+      "Tahunanui Beach \u2014 Nelson's main beach, safe swimming, playground, holiday park",
       "Abel Tasman coastal track sections (walk in from road ends for free)",
-      "Nelson's Centre of New Zealand hill walk (20 min return, 360° views)",
-      "Rabbit Island Recreation Reserve — beautiful beach and bush",
+      "Nelson's Centre of New Zealand hill walk (20 min return, 360\u00b0 views)",
+      "Rabbit Island Recreation Reserve \u2014 beautiful beach and bush",
       "Miyazu Japanese Garden (free, peaceful)"
     ],
     "hidden_gems": [
-      "Tōtaranui Beach (Abel Tasman northern end) — the most spectacular beach in the park, accessible by road (gravel), DOC campsite on-site. Book campsites months ahead",
-      "Kaiteriteri Beach — the main Abel Tasman gateway beach is free to access and one of the best family beaches in NZ. Arrive early in summer",
-      "Mapua Wharf — 30 min from Nelson, boutique food village on the waterfront. Ice cream, fish and chips, gallery. Best evening out in the region",
-      "Golden Bay (over Takaka Hill) — worth the winding road for Pohara Beach and the spectacular Farewell Spit. Far fewer tourists",
-      "Wai-iti Lavender Farm (summer only) — free to walk around, kids love the bees and the colour",
-      "Nelson Saturday Market at Montgomery Square — the best market in NZ's South Island. Local produce, crafts, hot food, always buzzing"
+      "T\u014dtaranui Beach (Abel Tasman northern end) \u2014 the most spectacular beach in the park, accessible by road (gravel), DOC campsite on-site. Book campsites months ahead",
+      "Kaiteriteri Beach \u2014 the main Abel Tasman gateway beach is free to access and one of the best family beaches in NZ. Arrive early in summer",
+      "Mapua Wharf \u2014 30 min from Nelson, boutique food village on the waterfront. Ice cream, fish and chips, gallery. Best evening out in the region",
+      "Golden Bay (over Takaka Hill) \u2014 worth the winding road for Pohara Beach and the spectacular Farewell Spit. Far fewer tourists",
+      "Wai-iti Lavender Farm (summer only) \u2014 free to walk around, kids love the bees and the colour",
+      "Nelson Saturday Market at Montgomery Square \u2014 the best market in NZ's South Island. Local produce, crafts, hot food, always buzzing"
     ],
     "rainy_day": [
       "Nelson Provincial Museum (free, excellent NZ history)",
-      "World of WearableArt museum (Nelson) — $24/adult, $12/child",
+      "World of WearableArt museum (Nelson) \u2014 $24/adult, $12/child",
       "Founders Heritage Park with vintage train rides",
-      "Nelson's café strip on Trafalgar Street"
+      "Nelson's caf\u00e9 strip on Trafalgar Street"
     ],
     "where_to_stay": [
       {
@@ -1582,7 +1582,7 @@
           "Nelson Saturday Market if weekend",
           "Walk up Centre of New Zealand at sunset"
         ],
-        "estimated_cost": "$50–90"
+        "estimated_cost": "$50\u201390"
       },
       "day2": {
         "title": "Abel Tasman Day",
@@ -1592,7 +1592,7 @@
           "Water taxi back",
           "Mapua Wharf for dinner"
         ],
-        "estimated_cost": "$160–280"
+        "estimated_cost": "$160\u2013280"
       },
       "day3": {
         "title": "Golden Bay or Kayaking",
@@ -1600,19 +1600,19 @@
           "Option A: Drive over Takaka Hill to Golden Bay (Pohara Beach)",
           "Option B: Half-day guided sea kayak in Abel Tasman"
         ],
-        "estimated_cost": "$100–200"
+        "estimated_cost": "$100\u2013200"
       }
     },
     "budget_breakdown": {
-      "accommodation_per_night": "$90–250",
-      "activities_per_day": "$100–200",
-      "food_per_day": "$60–100",
+      "accommodation_per_night": "$90\u2013250",
+      "activities_per_day": "$100\u2013200",
+      "food_per_day": "$60\u2013100",
       "transport_notes": "Rental car essential. Water taxis for Abel Tasman from Kaiteriteri or Marahau."
     },
     "faqs": [
       {
         "q": "Do you need to walk the full Abel Tasman track?",
-        "a": "No — the water taxi is the best family option. You hop on, get dropped at a beach, swim and explore, then get picked up later. No multi-day walking required."
+        "a": "No \u2014 the water taxi is the best family option. You hop on, get dropped at a beach, swim and explore, then get picked up later. No multi-day walking required."
       },
       {
         "q": "Is Nelson or Kaiteriteri a better base?",
@@ -1620,7 +1620,7 @@
       },
       {
         "q": "When is Abel Tasman best for families?",
-        "a": "December to March. The water is warmest (18–20°C) and all water taxis and kayak operators are fully running. October and April are quieter and still good."
+        "a": "December to March. The water is warmest (18\u201320\u00b0C) and all water taxis and kayak operators are fully running. October and April are quieter and still good."
       }
     ],
     "nearby_destinations": [
@@ -1652,14 +1652,14 @@
     "island": "North Island",
     "region": "Waikato",
     "tagline": "Hot Water Beach, Cathedral Cove, and some of NZ's most beautiful beaches within 2.5 hours of Auckland",
-    "summary": "The Coromandel Peninsula is Auckland's backyard holiday spot — and for good reason. Hot Water Beach (dig your own hot pool in the sand), Cathedral Cove sea arch, Thames goldfields, and a string of gorgeous beaches make it one of the best NZ family destinations. Best in summer.",
+    "summary": "The Coromandel Peninsula is Auckland's backyard holiday spot \u2014 and for good reason. Hot Water Beach (dig your own hot pool in the sand), Cathedral Cove sea arch, Thames goldfields, and a string of gorgeous beaches make it one of the best NZ family destinations. Best in summer.",
     "verdict": "Essential for Auckland families and any North Island road trip. Hot Water Beach alone makes it worth visiting.",
     "best_for": "Beach holidays, Auckland day trips or overnights, hot spring lovers",
-    "not_ideal_for": "Families wanting theme parks or rainy-day activities — it's very outdoor-focused",
+    "not_ideal_for": "Families wanting theme parks or rainy-day activities \u2014 it's very outdoor-focused",
     "commercial_intent_score": 80,
     "quick_facts": {
       "best_ages": "All ages",
-      "budget_family4_per_day": "$180–320",
+      "budget_family4_per_day": "$180\u2013320",
       "best_months": [
         "December",
         "January",
@@ -1682,7 +1682,7 @@
         "from_rotorua": "2h 30m"
       },
       "nearest_airport": "Auckland Airport (AKL)",
-      "flight_from_auckland": "N/A — drive"
+      "flight_from_auckland": "N/A \u2014 drive"
     },
     "top_activities": [
       {
@@ -1722,19 +1722,19 @@
       }
     ],
     "free_activities": [
-      "Hahei Beach — one of NZ's most beautiful beaches, free",
+      "Hahei Beach \u2014 one of NZ's most beautiful beaches, free",
       "Cathedral Cove walk (35 min each way from car park)",
       "Whitianga waterfront and beach",
       "Thames Estuary and Dickson Holiday Park beach walk",
-      "Cook's Beach — safe swimming, sheltered"
+      "Cook's Beach \u2014 safe swimming, sheltered"
     ],
     "hidden_gems": [
-      "Hot Water Beach at dawn — arrive 90 mins before low tide on a weekday morning. You'll have it almost to yourself vs the chaotic peak-time crowds",
-      "Opito Bay — one of the most stunning beaches on the peninsula, hard to find, rarely crowded. Locals go here instead of Hahei",
-      "Te Whanganui-A-Hei Marine Reserve snorkelling near Cathedral Cove — some of the best snorkelling in NZ, completely free",
-      "Coromandel town (the actual town) — often skipped as people go straight to Hahei. The Coromandel Smoking Company smoked fish and chips are legendary ($15 a serve)",
-      "Karangahake Gorge windows walk (Thames side) — goes through old gold mine tunnels with a torch. Free, very cool for kids",
-      "Long Bay near Whitianga — far less visited than Hahei, beautiful swimming, rarely mentioned in guides"
+      "Hot Water Beach at dawn \u2014 arrive 90 mins before low tide on a weekday morning. You'll have it almost to yourself vs the chaotic peak-time crowds",
+      "Opito Bay \u2014 one of the most stunning beaches on the peninsula, hard to find, rarely crowded. Locals go here instead of Hahei",
+      "Te Whanganui-A-Hei Marine Reserve snorkelling near Cathedral Cove \u2014 some of the best snorkelling in NZ, completely free",
+      "Coromandel town (the actual town) \u2014 often skipped as people go straight to Hahei. The Coromandel Smoking Company smoked fish and chips are legendary ($15 a serve)",
+      "Karangahake Gorge windows walk (Thames side) \u2014 goes through old gold mine tunnels with a torch. Free, very cool for kids",
+      "Long Bay near Whitianga \u2014 far less visited than Hahei, beautiful swimming, rarely mentioned in guides"
     ],
     "rainy_day": [
       "Driving Creek Railway (covered train ride through sculpture park)",
@@ -1782,21 +1782,21 @@
         "title": "Arrive + Cathedral Cove",
         "activities": [
           "Drive from Auckland (2h 30m)",
-          "Cathedral Cove — walk or boat (check tides)",
+          "Cathedral Cove \u2014 walk or boat (check tides)",
           "Hahei Beach afternoon swim",
           "Fish and chips at Hahei"
         ],
-        "estimated_cost": "$60–120"
+        "estimated_cost": "$60\u2013120"
       },
       "day2": {
         "title": "Hot Water Beach",
         "activities": [
-          "Hot Water Beach at low tide — check hotwatertide.co.nz the night before",
+          "Hot Water Beach at low tide \u2014 check hotwatertide.co.nz the night before",
           "Hire spades ($5) and dig your hot pool",
           "Afternoon at Hahei or Cook's Beach",
           "Drive to Whitianga for dinner"
         ],
-        "estimated_cost": "$40–80"
+        "estimated_cost": "$40\u201380"
       },
       "day3": {
         "title": "Driving Creek + Drive Home",
@@ -1805,14 +1805,14 @@
           "Lunch at Coromandel Smoking Company",
           "Drive back to Auckland via Thames"
         ],
-        "estimated_cost": "$100–160"
+        "estimated_cost": "$100\u2013160"
       }
     },
     "budget_breakdown": {
-      "accommodation_per_night": "$100–250",
-      "activities_per_day": "$60–120",
-      "food_per_day": "$50–100",
-      "transport_notes": "Car essential. Fuel up in Thames — petrol is expensive on the peninsula."
+      "accommodation_per_night": "$100\u2013250",
+      "activities_per_day": "$60\u2013120",
+      "food_per_day": "$50\u2013100",
+      "transport_notes": "Car essential. Fuel up in Thames \u2014 petrol is expensive on the peninsula."
     },
     "faqs": [
       {
@@ -1821,11 +1821,11 @@
       },
       {
         "q": "Is Cathedral Cove better by boat or on foot?",
-        "a": "Boat if you have young kids (avoids the 35-min walk each way). On foot if your kids can manage it — the walk is lovely. The sea arch looks the same either way."
+        "a": "Boat if you have young kids (avoids the 35-min walk each way). On foot if your kids can manage it \u2014 the walk is lovely. The sea arch looks the same either way."
       },
       {
         "q": "Can you do Coromandel as a day trip from Auckland?",
-        "a": "Yes — just about. Hot Water Beach + Cathedral Cove is a very long day (5h driving total). Better to stay 1–2 nights and actually enjoy it."
+        "a": "Yes \u2014 just about. Hot Water Beach + Cathedral Cove is a very long day (5h driving total). Better to stay 1\u20132 nights and actually enjoy it."
       }
     ],
     "nearby_destinations": [
@@ -1856,15 +1856,15 @@
     "name": "Fiordland & Milford Sound",
     "island": "South Island",
     "region": "Southland",
-    "tagline": "The most dramatic scenery in New Zealand — Milford Sound will stop your kids mid-sentence",
-    "summary": "Fiordland is remote, dramatic, and genuinely unlike anywhere else on Earth. Milford Sound — sheer 1,500m peaks rising from dark water, waterfalls cascading year-round, dolphins surfing the bow wave of your cruise boat — is a once-in-a-lifetime experience. The drive in from Te Anau is as spectacular as the destination.",
+    "tagline": "The most dramatic scenery in New Zealand \u2014 Milford Sound will stop your kids mid-sentence",
+    "summary": "Fiordland is remote, dramatic, and genuinely unlike anywhere else on Earth. Milford Sound \u2014 sheer 1,500m peaks rising from dark water, waterfalls cascading year-round, dolphins surfing the bow wave of your cruise boat \u2014 is a once-in-a-lifetime experience. The drive in from Te Anau is as spectacular as the destination.",
     "verdict": "Requires a detour and some planning, but Milford Sound is the single most dramatic landscape experience in NZ. Worth every bit of the effort.",
     "best_for": "Families with kids 5+ who appreciate epic scenery. Teenagers are consistently blown away.",
     "not_ideal_for": "Families needing lots of activities or beach time. Milford Sound itself has limited things to do beyond the cruise.",
     "commercial_intent_score": 85,
     "quick_facts": {
       "best_ages": "5+",
-      "budget_family4_per_day": "$280–500",
+      "budget_family4_per_day": "$280\u2013500",
       "best_months": [
         "November",
         "December",
@@ -1888,7 +1888,7 @@
     "top_activities": [
       {
         "name": "Milford Sound Nature Cruise",
-        "price_note": "$80–120/adult, $25–40/child",
+        "price_note": "$80\u2013120/adult, $25\u201340/child",
         "min_age": 0,
         "rain_safe": true,
         "must_do": true
@@ -1923,19 +1923,19 @@
       }
     ],
     "free_activities": [
-      "The Milford Sound highway drive itself (SH94) — one of the world's great drives",
-      "Mirror Lakes stop (10 min from Te Anau) — perfectly still reflections, boardwalk",
+      "The Milford Sound highway drive itself (SH94) \u2014 one of the world's great drives",
+      "Mirror Lakes stop (10 min from Te Anau) \u2014 perfectly still reflections, boardwalk",
       "Lake Te Anau waterfront and lakeside walk",
-      "The Chasm (free, 10-min walk, dramatic gorge — kids love it)",
+      "The Chasm (free, 10-min walk, dramatic gorge \u2014 kids love it)",
       "Monkey Creek and Homer Tunnel viewpoints on SH94"
     ],
     "hidden_gems": [
-      "Cruise in the rain — Milford Sound is famous for waterfalls. Rain creates hundreds of extra waterfalls cascading down the cliffs. A wet day is genuinely the best time to cruise.",
-      "Book the first cruise of the day (earliest departure) — before the tour buses from Queenstown arrive, Milford has a completely different atmosphere",
-      "The Chasm on SH94 is often rushed past — the 10-min return walk to the churning gorge is spectacular and completely free",
-      "Te Anau town is the best base — stay here rather than driving to Milford and back from Queenstown in one day (brutal 8h round trip)",
-      "Mirror Lakes at golden hour (late afternoon) — the reflection only works on calm days and the light is magical in the evening",
-      "Fiordland Cinema in Te Anau plays 'Ata Whenua — Shadowland' (30 min film about Fiordland) for $15 — excellent context before your Milford cruise"
+      "Cruise in the rain \u2014 Milford Sound is famous for waterfalls. Rain creates hundreds of extra waterfalls cascading down the cliffs. A wet day is genuinely the best time to cruise.",
+      "Book the first cruise of the day (earliest departure) \u2014 before the tour buses from Queenstown arrive, Milford has a completely different atmosphere",
+      "The Chasm on SH94 is often rushed past \u2014 the 10-min return walk to the churning gorge is spectacular and completely free",
+      "Te Anau town is the best base \u2014 stay here rather than driving to Milford and back from Queenstown in one day (brutal 8h round trip)",
+      "Mirror Lakes at golden hour (late afternoon) \u2014 the reflection only works on calm days and the light is magical in the evening",
+      "Fiordland Cinema in Te Anau plays 'Ata Whenua \u2014 Shadowland' (30 min film about Fiordland) for $15 \u2014 excellent context before your Milford cruise"
     ],
     "rainy_day": [
       "Milford Sound cruise (rain = more waterfalls = better experience)",
@@ -1985,40 +1985,40 @@
           "Drive Queenstown to Te Anau (2h via SH6)",
           "Lake Te Anau waterfront walk",
           "Te Anau Glowworm Caves (book ahead)",
-          "Dinner at The Fat Duck or Sandfly Café"
+          "Dinner at The Fat Duck or Sandfly Caf\u00e9"
         ],
-        "estimated_cost": "$120–200"
+        "estimated_cost": "$120\u2013200"
       },
       "day2": {
         "title": "Milford Sound Cruise Day",
         "activities": [
-          "Early start — drive SH94 to Milford (2h, stop at Mirror Lakes and The Chasm)",
+          "Early start \u2014 drive SH94 to Milford (2h, stop at Mirror Lakes and The Chasm)",
           "Morning Milford Sound cruise (book earliest available)",
           "Explore Milford after cruise",
           "Drive back to Te Anau"
         ],
-        "estimated_cost": "$280–420"
+        "estimated_cost": "$280\u2013420"
       },
       "day3": {
         "title": "Te Anau + Depart",
         "activities": [
-          "Kepler Track day section (Lake Te Anau lookout, 3–4h return for fit families)",
+          "Kepler Track day section (Lake Te Anau lookout, 3\u20134h return for fit families)",
           "Or relaxed morning in Te Anau",
           "Drive to Queenstown (2h) or Dunedin (4h 30m)"
         ],
-        "estimated_cost": "$40–80"
+        "estimated_cost": "$40\u201380"
       }
     },
     "budget_breakdown": {
-      "accommodation_per_night": "$130–350",
-      "activities_per_day": "$150–300",
-      "food_per_day": "$70–120",
-      "transport_notes": "Own car essential — no public transport to Milford Sound. Fill up with fuel in Te Anau."
+      "accommodation_per_night": "$130\u2013350",
+      "activities_per_day": "$150\u2013300",
+      "food_per_day": "$70\u2013120",
+      "transport_notes": "Own car essential \u2014 no public transport to Milford Sound. Fill up with fuel in Te Anau."
     },
     "faqs": [
       {
         "q": "Is Milford Sound better from Queenstown or Te Anau?",
-        "a": "Always base in Te Anau. Driving from Queenstown is 4h each way — an exhausting 8h round trip that leaves little time at Milford itself. Te Anau is 2h from Milford and a lovely base."
+        "a": "Always base in Te Anau. Driving from Queenstown is 4h each way \u2014 an exhausting 8h round trip that leaves little time at Milford itself. Te Anau is 2h from Milford and a lovely base."
       },
       {
         "q": "What's the best Milford Sound cruise?",
@@ -2026,7 +2026,7 @@
       },
       {
         "q": "Is the drive to Milford Sound safe with kids?",
-        "a": "Yes — SH94 is well-maintained and spectacular. Allow 2h from Te Anau with stops. The Homer Tunnel (1.2km, one lane, traffic lights) is exciting for kids. Check the NZ Transport Agency website for any closures."
+        "a": "Yes \u2014 SH94 is well-maintained and spectacular. Allow 2h from Te Anau with stops. The Homer Tunnel (1.2km, one lane, traffic lights) is exciting for kids. Check the NZ Transport Agency website for any closures."
       }
     ],
     "nearby_destinations": [
@@ -2051,5 +2051,771 @@
       "milford sound cruise children",
       "te anau families"
     ]
+  },
+  {
+    "slug": "northland-cape-reinga-family",
+    "name": "Northland",
+    "island": "North Island",
+    "region": "Northland",
+    "tagline": "Cape Reinga, Ninety Mile Beach, and ancient kauri forests \u2014 NZ's subtropical north",
+    "summary": "Northland is where New Zealand begins \u2014 Cape Reinga at the very tip, Ninety Mile Beach stretching impossibly far, the Bay of Islands (its own destination), and ancient kauri trees that were old when Rome fell. It is warm, uncrowded outside peak season, and full of both Maori history and natural spectacle.",
+    "verdict": "NZ's most underrated family destination. Visitors rush past Northland to get to the Bay of Islands or Rotorua \u2014 which means the rest of Northland is blissfully uncrowded.",
+    "best_for": "Families who love beach walks, history, and genuinely off-the-beaten-track NZ",
+    "not_ideal_for": "Families who need packed activity schedules \u2014 Northland rewards slow travel",
+    "quick_facts": {
+      "best_ages": "4+",
+      "budget_family4_per_day": "$200-380",
+      "best_months": [
+        "November",
+        "December",
+        "January",
+        "February",
+        "March",
+        "April"
+      ],
+      "nearest_airport": "Whangarei (WRE) or Auckland (AKL) + 2h drive",
+      "drive_times": {
+        "Auckland": "2-3h (to Whangarei), 4-5h (to Cape Reinga)",
+        "Whangarei_to_Cape_Reinga": "3h 30m"
+      }
+    },
+    "top_activities": [
+      {
+        "name": "Cape Reinga Lighthouse",
+        "price_note": "Free \u2014 walking track to the tip",
+        "min_age": 3,
+        "rain_safe": false,
+        "must_do": true
+      },
+      {
+        "name": "Ninety Mile Beach sandboarding",
+        "price_note": "$85-120/person via tour",
+        "min_age": 5,
+        "rain_safe": false,
+        "must_do": true
+      },
+      {
+        "name": "Kauri Museum (Matakohe)",
+        "price_note": "$20/adult, $5/child",
+        "min_age": 6,
+        "rain_safe": true,
+        "must_do": false
+      },
+      {
+        "name": "Waitangi Treaty Grounds",
+        "price_note": "$40/adult, free under 15",
+        "min_age": 8,
+        "rain_safe": true,
+        "must_do": true
+      },
+      {
+        "name": "Hokianga Harbour dunes",
+        "price_note": "$30/person ferry + dune walk",
+        "min_age": 5,
+        "rain_safe": false,
+        "must_do": false
+      },
+      {
+        "name": "Waipoua Forest \u2014 Tane Mahuta kauri",
+        "price_note": "Free, guided tours from $60/person",
+        "min_age": 4,
+        "rain_safe": false,
+        "must_do": true
+      }
+    ],
+    "free_activities": [
+      "Cape Reinga walkway \u2014 30-min return to the very tip of NZ (where the Tasman Sea meets the Pacific Ocean)",
+      "Ninety Mile Beach driving (4WD only at most points, but free to walk and watch)",
+      "Mangawhai Heads beach walk and estuary",
+      "Waipoua Forest \u2014 Tane Mahuta (Lord of the Forest kauri tree) is free to walk to",
+      "Rawene village and Hokianga Harbour views",
+      "Opononi and Omapere beaches on Hokianga Harbour"
+    ],
+    "hidden_gems": [
+      "Matai Bay (Karikari Peninsula) \u2014 two beaches facing different directions, protected water perfect for kids, barely signposted",
+      "Tokerau Beach on Karikari Peninsula \u2014 one of NZ's finest beaches, almost deserted outside New Year",
+      "Wenderholm Regional Park \u2014 first regional park south of Whangarei, beautiful beach and pohutukawa trees",
+      "Pukenui wharf \u2014 a humble fishing wharf where locals catch snapper right off the dock, kids can watch or try their luck",
+      "Matauri Bay \u2014 stunning beach where the Rainbow Warrior wreck sits offshore (visible by snorkel)",
+      "Waipu Caves \u2014 glowworm cave you can self-explore with a torch, $5 entry, virtually unknown"
+    ],
+    "rainy_day": [
+      "Kauri Museum in Matakohe \u2014 world's best kauri collection, genuinely fascinating",
+      "Whangarei Museum and Native Bird Recovery Centre",
+      "The Hundertwasser Art Centre in Whangarei \u2014 unique architecture, free entry",
+      "Whangarei Town Basin \u2014 covered walkway, cafes, and the clock museum",
+      "Explore Kerikeri \u2014 charming town, great cafes, Stone Store (NZ's oldest stone building)"
+    ],
+    "where_to_stay": [
+      {
+        "name": "Northland TOP 10 Holiday Parks",
+        "type": "holiday_park",
+        "price_range": "$50-180/night",
+        "family_features": [
+          "Modern facilities",
+          "Playgrounds",
+          "Camp kitchens",
+          "Powered sites"
+        ],
+        "affiliate_key": "top10"
+      },
+      {
+        "name": "Mangawhai Heads holiday park",
+        "type": "holiday_park",
+        "price_range": "$40-140/night",
+        "family_features": [
+          "Beach access",
+          "Estuary swimming",
+          "Family cabins"
+        ],
+        "affiliate_key": "booking_com"
+      }
+    ],
+    "three_day_itinerary": {
+      "day_1": {
+        "title": "Auckland to Northland \u2014 Kauri Forest and Hokianga",
+        "estimated_cost": "$100-180",
+        "activities": [
+          "Drive from Auckland north (2.5h to Waipoua)",
+          "Tane Mahuta walkway \u2014 see the largest living kauri tree in NZ (free, 10-min walk)",
+          "Hokianga Harbour \u2014 ferry to Omapere sand dunes",
+          "Night at Rawene or Opononi"
+        ]
+      },
+      "day_2": {
+        "title": "Far North \u2014 Cape Reinga and Ninety Mile Beach",
+        "estimated_cost": "$120-250",
+        "activities": [
+          "Drive north to Kaitaia (1h 30m from Hokianga)",
+          "Optional: join a Cape Reinga day tour (includes Ninety Mile Beach sandboarding, $85-120/person)",
+          "Cape Reinga lighthouse walk \u2014 30 minutes return, the spiritual departure point of Maori souls",
+          "Te Paki Stream \u2014 body boards down the stream outlet to the beach (bring your own or hire)"
+        ]
+      },
+      "day_3": {
+        "title": "Doubtless Bay and Karikari Peninsula",
+        "estimated_cost": "$50-100",
+        "activities": [
+          "Matai Bay \u2014 double beach, protected water, perfect for young swimmers",
+          "Mangonui fish and chip shop \u2014 one of NZ's most famous fish and chip shops, eat on the wharf",
+          "Drive south back to Auckland or continue to Bay of Islands"
+        ]
+      }
+    },
+    "budget_breakdown": {
+      "accommodation_per_night": "$50-180 (holiday parks and basic motels)",
+      "activities_per_day": "$60-180 (many things are free in Northland)",
+      "food_per_day": "$60-120 (great fish and chips, seafood direct from source)",
+      "transport_notes": "4-5h from Auckland, fuel is the main cost. Some Northland activities (Cape Reinga tours) include transport."
+    },
+    "faqs": [
+      {
+        "q": "Is Cape Reinga worth the drive with kids?",
+        "a": "Yes, genuinely \u2014 but it is a long day from Paihia (4h return driving) or an even longer day from Auckland. The tip of NZ where two oceans meet is a genuinely moving experience, and the Ninety Mile Beach sandboarding on the way back is a family highlight. Join an organised day tour rather than self-driving \u2014 the tour takes the beach route which is only accessible to experienced 4WD drivers."
+      },
+      {
+        "q": "What is the best base for a Northland family holiday?",
+        "a": "Paihia (Bay of Islands) works for the southern Northland attractions. For the Far North (Cape Reinga, Doubtless Bay), base at Kaitaia or Mangonui. For Hokianga and Waipoua Forest, base at Opononi. A 4-5 day Northland loop starting and ending in Auckland covers all the main areas."
+      }
+    ],
+    "nearby_destinations": [
+      "bay-of-islands-family",
+      "coromandel-with-kids"
+    ],
+    "facebook_groups": [
+      {
+        "name": "Northland NZ Family Travel",
+        "url": "https://www.facebook.com/groups/search/results/?q=northland+new+zealand+family+travel",
+        "description": "Families sharing Northland trip tips, accommodation reviews, and hidden beaches"
+      },
+      {
+        "name": "NZ Camping and Holiday Parks",
+        "url": "https://www.facebook.com/groups/search/results/?q=nz+camping+holiday+parks+families",
+        "description": "Holiday park recommendations across Northland and NZ"
+      }
+    ],
+    "seo_keywords": [
+      "northland family holiday",
+      "cape reinga with kids",
+      "ninety mile beach families",
+      "northland new zealand kids",
+      "waipoua forest family"
+    ],
+    "media": {}
+  },
+  {
+    "slug": "tauranga-mount-maunganui-family",
+    "name": "Tauranga / Mount Maunganui",
+    "island": "North Island",
+    "region": "Bay of Plenty",
+    "tagline": "NZ's most popular beach town \u2014 Mount Beach, surf, and the best fish and chips on the coast",
+    "summary": "Tauranga and Mount Maunganui ('the Mount') is where New Zealand families have been going for summer holidays for generations. Mount Beach is NZ's best family beach \u2014 gentle surf, lifeguards, warm water, and excellent town amenities. It is unpretentious, warm, and has everything a family needs within walking distance.",
+    "verdict": "NZ's best all-round family beach town. Not as dramatic as the Coromandel or Bay of Islands, but consistently excellent for families who want reliable beach conditions and good amenities.",
+    "best_for": "Beach holidays, families with kids who want to surf or bodyboard, relaxed summer holidays",
+    "not_ideal_for": "Families who need cultural or activity-heavy itineraries \u2014 it is primarily a beach destination",
+    "quick_facts": {
+      "best_ages": "All ages",
+      "budget_family4_per_day": "$180-380",
+      "best_months": [
+        "December",
+        "January",
+        "February",
+        "March"
+      ],
+      "nearest_airport": "Tauranga (TRG) \u2014 Air NZ from Auckland daily. Or drive 2.5h from Auckland.",
+      "drive_times": {
+        "Auckland": "2h 30m",
+        "Rotorua": "1h",
+        "Coromandel_Town": "2h"
+      }
+    },
+    "top_activities": [
+      {
+        "name": "Mount Beach swimming and surfing",
+        "price_note": "Free \u2014 lifeguards Dec-Feb",
+        "min_age": 0,
+        "rain_safe": false,
+        "must_do": true
+      },
+      {
+        "name": "Walk Mount Maunganui summit",
+        "price_note": "Free \u2014 232m walk, 1-1.5h return",
+        "min_age": 5,
+        "rain_safe": false,
+        "must_do": true
+      },
+      {
+        "name": "Hot Pools at the Mount",
+        "price_note": "$25/adult, $14/child \u2014 therapeutic salt pools",
+        "min_age": 0,
+        "rain_safe": true,
+        "must_do": false
+      },
+      {
+        "name": "Surf lessons",
+        "price_note": "$80-120/person \u2014 multiple schools at the Mount",
+        "min_age": 7,
+        "rain_safe": false,
+        "must_do": false
+      },
+      {
+        "name": "Papamoa Beach",
+        "price_note": "Free \u2014 22km beach, quieter than the Mount",
+        "min_age": 0,
+        "rain_safe": false,
+        "must_do": false
+      },
+      {
+        "name": "WaiAriki Hot Pools Rotorua",
+        "price_note": "$40-60/person \u2014 1h drive away",
+        "min_age": 5,
+        "rain_safe": true,
+        "must_do": false
+      }
+    ],
+    "free_activities": [
+      "Mount Beach \u2014 NZ's best family surf beach, free lifeguards December through February",
+      "Walk to the summit of Mount Maunganui (232m, 1-1.5 hours return, panoramic Bay of Plenty views)",
+      "Papamoa Hills Regional Park \u2014 walks with views over the bay",
+      "Tauranga waterfront \u2014 flat walk along the harbour",
+      "Mount Maunganui main shopping street and cafes",
+      "Pilot Bay \u2014 calm harbour-side beach for toddlers, sheltered from surf"
+    ],
+    "hidden_gems": [
+      "Pilot Bay on the harbour side of the Mount \u2014 completely sheltered from surf, perfect for toddlers learning to swim, almost unknown to tourists",
+      "Omanu Beach (north of Mount Beach) \u2014 same sand, slightly less crowded, popular with local families",
+      "The Strand in Tauranga \u2014 the city's main waterfront, good for an evening walk with excellent cafes",
+      "McLaren Falls Park \u2014 20 mins south of Tauranga, beautiful waterfall and lake, free, rarely visited by tourists",
+      "Waihi Beach \u2014 40 mins north, beautiful and quieter than the Mount with the same sand quality",
+      "Katikati Bird Gardens \u2014 small but excellent, rarely on tourist itineraries"
+    ],
+    "rainy_day": [
+      "The Hot Pools at the Mount \u2014 heated indoor pools, great for a wet day",
+      "Tauranga Historic Village \u2014 open-air museum with working heritage buildings",
+      "Bayfair Shopping Centre \u2014 NZ's best regional mall",
+      "Rotorua (1h away) \u2014 thermal parks operate in all weather",
+      "Waimarino Adventure Park \u2014 kayaking and water activities (partially weather-dependent)"
+    ],
+    "where_to_stay": [
+      {
+        "name": "Mount Maunganui Holiday Park",
+        "type": "holiday_park",
+        "price_range": "$50-250/night",
+        "family_features": [
+          "300m from beach",
+          "Playground",
+          "Powered sites",
+          "Cabins"
+        ],
+        "affiliate_key": "top10"
+      },
+      {
+        "name": "Mount Maunganui motels",
+        "type": "motel",
+        "price_range": "$150-350/night",
+        "family_features": [
+          "Self-contained units",
+          "Walking distance to beach",
+          "Kitchen facilities"
+        ],
+        "affiliate_key": "booking_com"
+      }
+    ],
+    "three_day_itinerary": {
+      "day_1": {
+        "title": "Arrive and Hit the Beach",
+        "estimated_cost": "$50-150",
+        "activities": [
+          "Check in and walk to Mount Beach",
+          "Bodyboard or swim \u2014 bodyboards for hire near the beach",
+          "Surf lesson booking for tomorrow",
+          "Fish and chips dinner on the waterfront \u2014 Little Big Tree or Harbourside is the local favourite"
+        ]
+      },
+      "day_2": {
+        "title": "Surf Lesson and Mountain Summit",
+        "estimated_cost": "$150-280",
+        "activities": [
+          "Morning surf lesson (9am, 2 hours, board and wetsuit included)",
+          "Post-lesson: the Hot Pools to soak tired muscles",
+          "Afternoon: walk to the Mount summit \u2014 1.5 hours return, stunning Bay of Plenty views",
+          "Evening: ice cream on Mount Maunganui main street"
+        ]
+      },
+      "day_3": {
+        "title": "Day Trip \u2014 Rotorua or Waihi Beach",
+        "estimated_cost": "$80-250",
+        "activities": [
+          "Option A: Rotorua day trip (1h) \u2014 Wai-O-Tapu or Agrodome for a geothermal contrast",
+          "Option B: Waihi Beach day trip (40 mins) \u2014 quieter, beautiful beach, then the Waihi goldmine museum",
+          "Return to the Mount for final evening"
+        ]
+      }
+    },
+    "budget_breakdown": {
+      "accommodation_per_night": "$100-250 (holiday park cabin) or $150-350 (motel)",
+      "activities_per_day": "$60-180 (beach is free, surf lessons and hot pools are the main costs)",
+      "food_per_day": "$80-140 (excellent cafes and fish and chip shops, self-catering easy from local supermarkets)",
+      "transport_notes": "2.5h from Auckland. $250-350 in fuel Auckland return. Most activities are walkable from accommodation."
+    },
+    "faqs": [
+      {
+        "q": "Is Mount Maunganui beach safe for young children?",
+        "a": "Mount Beach has lifeguards from December to February and is generally one of NZ's safer surf beaches for families. Pilot Bay on the harbour side of the Mount is completely sheltered and perfect for toddlers. Young children who cannot swim confidently should stick to Pilot Bay or the shallow shore break at Mount Beach between the flags."
+      },
+      {
+        "q": "How far is Tauranga from Rotorua?",
+        "a": "Just under 1 hour (62km). This makes Tauranga an excellent beach base with easy day-trip access to Rotorua's geothermal parks and farm shows. A 5-day trip could combine 3 nights at the Mount (beach focus) with 2 nights in Rotorua."
+      }
+    ],
+    "nearby_destinations": [
+      "rotorua-family-guide",
+      "coromandel-with-kids",
+      "taupo-with-kids"
+    ],
+    "facebook_groups": [
+      {
+        "name": "Mount Maunganui Family Holidays",
+        "url": "https://www.facebook.com/groups/search/results/?q=mount+maunganui+family+holiday",
+        "description": "Families sharing tips for Mount Maunganui \u2014 accommodation, beach conditions, and activities"
+      },
+      {
+        "name": "Bay of Plenty NZ Family Travel",
+        "url": "https://www.facebook.com/groups/search/results/?q=bay+of+plenty+family+travel+nz",
+        "description": "Bay of Plenty families sharing local knowledge and trip recommendations"
+      }
+    ],
+    "seo_keywords": [
+      "mount maunganui family holiday",
+      "tauranga with kids",
+      "mount maunganui beach family",
+      "bay of plenty family travel"
+    ],
+    "media": {}
+  },
+  {
+    "slug": "hawkes-bay-family-guide",
+    "name": "Hawke's Bay",
+    "island": "North Island",
+    "region": "Hawke's Bay",
+    "tagline": "Art Deco Napier, Cape Kidnappers gannets, and NZ's best fruit \u2014 a hidden family gem",
+    "summary": "Hawke's Bay is one of New Zealand's most underrated family destinations. It has Napier \u2014 the world's most complete Art Deco city \u2014 alongside Cape Kidnappers (the world's most accessible mainland gannet colony), excellent beaches, and NZ's warmest, driest climate outside Marlborough. It is cheaper, quieter, and more relaxed than the famous tourist destinations.",
+    "verdict": "Excellent value, genuinely unique (the Art Deco city and gannet colony are world-class), and consistently overlooked by tourists focused on Rotorua and Queenstown. Great for families who want something different.",
+    "best_for": "Families who want unique experiences away from the main tourist circuit, ages 5+",
+    "not_ideal_for": "Families wanting adrenaline activities or mountain scenery",
+    "quick_facts": {
+      "best_ages": "5+",
+      "budget_family4_per_day": "$180-340",
+      "best_months": [
+        "November",
+        "December",
+        "January",
+        "February",
+        "March"
+      ],
+      "nearest_airport": "Hawke's Bay Airport (NPE) \u2014 Air NZ from Auckland and Wellington daily",
+      "drive_times": {
+        "Auckland": "4h",
+        "Wellington": "4h 30m",
+        "Rotorua": "2h 30m",
+        "Taupo": "1h 30m"
+      }
+    },
+    "top_activities": [
+      {
+        "name": "Cape Kidnappers Gannet Colony",
+        "price_note": "$65-95/adult, $35-50/child \u2014 tractor tour or walk",
+        "min_age": 5,
+        "rain_safe": false,
+        "must_do": true
+      },
+      {
+        "name": "Napier Art Deco walk",
+        "price_note": "Free self-guided, $25 guided tour",
+        "min_age": 6,
+        "rain_safe": true,
+        "must_do": true
+      },
+      {
+        "name": "Napier Aquarium",
+        "price_note": "$22/adult, $15/child",
+        "min_age": 0,
+        "rain_safe": true,
+        "must_do": false
+      },
+      {
+        "name": "Ocean Beach / Waimarama Beach swimming",
+        "price_note": "Free",
+        "min_age": 0,
+        "rain_safe": false,
+        "must_do": false
+      },
+      {
+        "name": "Strawberry farm picking",
+        "price_note": "$3-5/punnet self-picked (November-February)",
+        "min_age": 3,
+        "rain_safe": false,
+        "must_do": false
+      },
+      {
+        "name": "Hastings Farmers' Market",
+        "price_note": "Free entry (Sunday mornings)",
+        "min_age": 0,
+        "rain_safe": false,
+        "must_do": false
+      }
+    ],
+    "free_activities": [
+      "Napier Art Deco walking \u2014 the entire CBD is a living museum of 1930s architecture, free to walk",
+      "Marine Parade \u2014 Napier's famous waterfront with sunken gardens, free fountains, skate park",
+      "Waimarama Beach \u2014 30 mins south of Napier, long black sand beach backed by cliffs",
+      "Pekapeka Wetlands \u2014 free bird sanctuary walk, black swans and waterfowl",
+      "Havelock North village \u2014 charming, excellent cafes, free to explore",
+      "Te Mata Peak \u2014 30-min drive from Napier, 399m summit, panoramic Hawke's Bay views, free"
+    ],
+    "hidden_gems": [
+      "Cape Kidnapper tractor trek at low tide (only accessible this way, more dramatic than the walking track) \u2014 book ahead with Gannet Beach Adventures",
+      "Matahiwi Marae near Hastings \u2014 authentic Maori marae with open visits, call ahead",
+      "Fruit stalls along Omahu Road \u2014 direct from orchards, half the supermarket price in season",
+      "Ahuriri suburb in Napier \u2014 waterfront dining and cafes in a converted industrial area, much cheaper than the main Art Deco strip",
+      "Black Reef at Napier \u2014 snorkelling spot known to locals, excellent clear water on calm days",
+      "Dinosaur Museum in Hastings \u2014 small but excellent, very reasonably priced"
+    ],
+    "rainy_day": [
+      "Hawke's Bay Museum and Art Gallery in Napier \u2014 free, excellent Art Deco earthquake exhibition",
+      "Napier Aquarium \u2014 small but good for young kids",
+      "Hawke's Bay Opera House \u2014 check for shows and events",
+      "Indoor swimming at Splash Planet Hastings \u2014 water park, best in rain",
+      "Hastings City Library \u2014 good children's section, free"
+    ],
+    "where_to_stay": [
+      {
+        "name": "Napier TOP 10 Holiday Park",
+        "type": "holiday_park",
+        "price_range": "$45-190/night",
+        "family_features": [
+          "Close to Marine Parade",
+          "Pool",
+          "Playground",
+          "Cabins"
+        ],
+        "affiliate_key": "top10"
+      },
+      {
+        "name": "Napier motels (Marine Parade)",
+        "type": "motel",
+        "price_range": "$130-280/night",
+        "family_features": [
+          "Waterfront location",
+          "Self-contained units",
+          "Easy walk to activities"
+        ],
+        "affiliate_key": "booking_com"
+      }
+    ],
+    "three_day_itinerary": {
+      "day_1": {
+        "title": "Napier Art Deco and Waterfront",
+        "estimated_cost": "$60-120",
+        "activities": [
+          "Art Deco walk through Napier CBD (self-guided, free \u2014 pick up a map from i-SITE)",
+          "Marine Parade waterfront walk \u2014 sunken gardens, fountains, and Ocean Spa",
+          "National Aquarium of New Zealand (small but good for under-10s)",
+          "Dinner in Ahuriri suburb \u2014 better value than the tourist strip"
+        ]
+      },
+      "day_2": {
+        "title": "Cape Kidnappers \u2014 Gannet Colony",
+        "estimated_cost": "$200-380",
+        "activities": [
+          "Cape Kidnappers tractor tour (book well ahead) \u2014 10,000+ gannets nesting at the world's most accessible mainland colony",
+          "Return to Napier via Te Mata Peak (30-min detour, stunning views)",
+          "Havelock North village for lunch",
+          "Afternoon: Waimarama Beach or Ocean Beach swimming"
+        ]
+      },
+      "day_3": {
+        "title": "Orchards, Markets, and Wine",
+        "estimated_cost": "$60-150",
+        "activities": [
+          "Hastings Farmers' Market (Sunday, 8:30am-12:30pm) \u2014 outstanding fresh produce and local food",
+          "Strawberry or apple picking at an Omahu Road orchard (in season)",
+          "Explore Hastings and the twin city of Havelock North",
+          "Drive south towards Wellington or loop back to Taupo and Rotorua"
+        ]
+      }
+    },
+    "budget_breakdown": {
+      "accommodation_per_night": "$45-190 (holiday park) or $130-280 (motel)",
+      "activities_per_day": "$60-200 (Cape Kidnappers tour is the main paid expense)",
+      "food_per_day": "$70-130 (excellent local food direct from orchards, good cafes in Napier and Havelock North)",
+      "transport_notes": "4h from Auckland, 4.5h from Wellington. Napier itself is compact and walkable. Car essential for Cape Kidnappers and beaches."
+    },
+    "faqs": [
+      {
+        "q": "Is Cape Kidnappers worth visiting with young kids?",
+        "a": "Yes, especially the tractor trek. Seeing 10,000+ gannets at close range is genuinely extraordinary for kids of any age. The tractor tour is accessible for ages 5+ and takes about 3 hours return. The walk (6.5km each way) is better for families with older kids (10+) who can handle the distance. Book the tractor tour well in advance \u2014 it sells out frequently in summer."
+      },
+      {
+        "q": "What is the Art Deco connection in Napier?",
+        "a": "Napier was devastated by a massive earthquake in 1931 and rebuilt almost entirely in the Art Deco architectural style popular at the time. The result is one of the world's most complete and intact Art Deco cities. The self-guided walk is free and takes 1-2 hours. Children who are not interested in architecture still enjoy the elaborate facades, the old-fashioned shop fronts, and the Marine Parade waterfront."
+      }
+    ],
+    "nearby_destinations": [
+      "taupo-with-kids",
+      "wellington-with-kids"
+    ],
+    "facebook_groups": [
+      {
+        "name": "Hawke's Bay Family Activities",
+        "url": "https://www.facebook.com/groups/search/results/?q=hawkes+bay+family+activities+napier",
+        "description": "Local and visiting families sharing Hawke's Bay activity tips and recommendations"
+      },
+      {
+        "name": "NZ East Coast Family Travel",
+        "url": "https://www.facebook.com/groups/search/results/?q=nz+east+coast+family+travel",
+        "description": "Families sharing east coast NZ travel tips from Napier to Gisborne"
+      }
+    ],
+    "seo_keywords": [
+      "hawkes bay family holiday",
+      "napier with kids",
+      "cape kidnappers family",
+      "hawkes bay children activities"
+    ],
+    "media": {}
+  },
+  {
+    "slug": "dunedin-family-guide",
+    "name": "Dunedin",
+    "island": "South Island",
+    "region": "Otago",
+    "tagline": "Yellow-eyed penguins, albatross, sea lions, and NZ's most dramatic urban wildlife experience",
+    "summary": "Dunedin is New Zealand's wildlife capital \u2014 the Otago Peninsula is the only place in the world where you can see royal albatross, yellow-eyed penguins, and New Zealand sea lions all within an hour of a city centre. It is also a beautiful Victorian city with excellent cafes, a world-class university, and the world's steepest street (Baldwin Street).",
+    "verdict": "Outstanding for families who love wildlife. The Otago Peninsula wildlife experiences are genuinely world-class and unlike anything else in NZ. Worth a 2-3 day detour for any South Island road trip.",
+    "best_for": "Families who love wildlife and nature, ages 5+ (best for 8+ for the wildlife tours)",
+    "not_ideal_for": "Beach holidays or adventure activities \u2014 Dunedin is cold and grey much of the year",
+    "quick_facts": {
+      "best_ages": "5+",
+      "budget_family4_per_day": "$200-380",
+      "best_months": [
+        "November",
+        "December",
+        "January",
+        "February",
+        "October"
+      ],
+      "nearest_airport": "Dunedin (DUD) \u2014 Air NZ from Auckland, Wellington, and Christchurch daily",
+      "drive_times": {
+        "Queenstown": "3h",
+        "Christchurch": "3h 30m",
+        "Invercargill": "2h 30m"
+      }
+    },
+    "top_activities": [
+      {
+        "name": "Royal Albatross Centre (Taiaroa Head)",
+        "price_note": "$60/adult, $20/child \u2014 guided tour to view nesting albatross",
+        "min_age": 5,
+        "rain_safe": true,
+        "must_do": true
+      },
+      {
+        "name": "Yellow-eyed penguin watching",
+        "price_note": "$60-90/adult, $30-45/child \u2014 guided evening viewing",
+        "min_age": 5,
+        "rain_safe": false,
+        "must_do": true
+      },
+      {
+        "name": "Baldwin Street \u2014 world's steepest street",
+        "price_note": "Free",
+        "min_age": 0,
+        "rain_safe": true,
+        "must_do": true
+      },
+      {
+        "name": "Otago Settlers Museum",
+        "price_note": "Free",
+        "min_age": 5,
+        "rain_safe": true,
+        "must_do": false
+      },
+      {
+        "name": "Speight's Brewery tour",
+        "price_note": "$30/adult, free under 18 (guided tour, not tasting for kids)",
+        "min_age": 0,
+        "rain_safe": true,
+        "must_do": false
+      },
+      {
+        "name": "Dunedin Railway Station photos",
+        "price_note": "Free \u2014 NZ's most photographed building",
+        "min_age": 0,
+        "rain_safe": true,
+        "must_do": false
+      }
+    ],
+    "free_activities": [
+      "Baldwin Street \u2014 walk or run up the world's steepest street (1:2.86 gradient), take the photo",
+      "Dunedin Railway Station exterior \u2014 NZ's most photographed building, stunning Flemish Renaissance architecture",
+      "Otago Settlers Museum \u2014 free, excellent history of European and Maori settlement in Otago",
+      "Dunedin Botanic Garden \u2014 New Zealand's oldest botanic garden, free, with duck ponds and rhododendron garden",
+      "Otago Peninsula scenic drive \u2014 free to drive, stunning views even without stopping at paid attractions",
+      "Aramoana \u2014 30-min drive, peaceful estuary and ocean beach"
+    ],
+    "hidden_gems": [
+      "Larnach Castle \u2014 NZ's only castle, 30 mins from Dunedin CBD, dramatic Gothic architecture, garden, and genuine ghost stories kids love ($30/adult)",
+      "Penguin Place (private conservation reserve) \u2014 the best yellow-eyed penguin viewing in NZ, more intimate than DOC reserves",
+      "Tunnel Beach \u2014 30-minute walk to a hidden sea arch and tunnel carved by the sea (free), dramatically beautiful and almost unknown",
+      "Orokonui Ecosanctuary \u2014 predator-free sanctuary with kiwi, kaka, and tuatara \u2014 underrated alternative to Zealandia",
+      "Chinese Garden in the city centre \u2014 NZ's only authentic Chinese garden, free, unexpectedly beautiful",
+      "St Clair hot saltwater pool \u2014 outdoor ocean pool (heated), $6/adult, locals' secret"
+    ],
+    "rainy_day": [
+      "Otago Museum \u2014 excellent natural history and Pacific collections, free general entry",
+      "Toitu Otago Settlers Museum \u2014 New Zealand's best social history museum, free entry",
+      "Dunedin Public Art Gallery \u2014 free entry, good for older kids",
+      "University of Otago buildings \u2014 free to walk through the beautiful stone campus",
+      "Cadbury World (now closed but chocolate shops remain on Cumberland Street)"
+    ],
+    "where_to_stay": [
+      {
+        "name": "Dunedin Holiday Park",
+        "type": "holiday_park",
+        "price_range": "$40-180/night",
+        "family_features": [
+          "10 mins from city centre",
+          "Playground",
+          "Kitchen facilities",
+          "Cabins available"
+        ],
+        "affiliate_key": "top10"
+      },
+      {
+        "name": "Dunedin city motels",
+        "type": "motel",
+        "price_range": "$120-250/night",
+        "family_features": [
+          "Self-contained units",
+          "Good for 2-3 night stays",
+          "Walking distance to Octagon"
+        ],
+        "affiliate_key": "booking_com"
+      }
+    ],
+    "three_day_itinerary": {
+      "day_1": {
+        "title": "Dunedin City and Iconic Landmarks",
+        "estimated_cost": "$50-100",
+        "activities": [
+          "Baldwin Street \u2014 walk up the world's steepest street",
+          "Dunedin Railway Station \u2014 photo stop",
+          "Otago Settlers Museum (free) \u2014 2 hours",
+          "Dunedin Botanic Garden walk",
+          "Octagon city centre for dinner"
+        ]
+      },
+      "day_2": {
+        "title": "Otago Peninsula \u2014 Albatross and Penguins",
+        "estimated_cost": "$250-450",
+        "activities": [
+          "Morning: Royal Albatross Centre guided tour (10am or 11am \u2014 book ahead)",
+          "Lunch at the Portobello Hotel or packed lunch on the peninsula",
+          "Afternoon: Penguin Place or DOC penguin viewing (evening tour \u2014 penguins return from sea at dusk)",
+          "Look for sea lions on the rocks near Taiaroa Head (free to observe)"
+        ]
+      },
+      "day_3": {
+        "title": "Larnach Castle and Tunnel Beach",
+        "estimated_cost": "$80-150",
+        "activities": [
+          "Larnach Castle (30 mins from city) \u2014 NZ's only castle, spectacular grounds, Gothic architecture",
+          "Tunnel Beach walk (free) \u2014 hidden sea arch and tunnel, 30-min walk each way",
+          "St Clair beach and hot saltwater pool",
+          "Drive south to Queenstown or north to Christchurch"
+        ]
+      }
+    },
+    "budget_breakdown": {
+      "accommodation_per_night": "$40-180 (holiday park) or $120-250 (motel)",
+      "activities_per_day": "$80-200 (wildlife tours are the main expense, much of the city is free)",
+      "food_per_day": "$80-150 (excellent cafes in the Octagon area, good fish and chip shops)",
+      "transport_notes": "3h from Queenstown, 3.5h from Christchurch. City is walkable for many attractions. Car needed for Otago Peninsula and Larnach Castle."
+    },
+    "faqs": [
+      {
+        "q": "What age is suitable for the wildlife experiences in Dunedin?",
+        "a": "The Royal Albatross Centre tour suits ages 5+ (some waiting in a hide). Yellow-eyed penguin viewing is best for ages 8+ as it involves waiting quietly at dusk \u2014 younger kids can find the stillness challenging. Sea lions are free to observe from distance and suit any age. All wildlife experiences require advance booking."
+      },
+      {
+        "q": "Is yellow-eyed penguin viewing worth the cost?",
+        "a": "Yes \u2014 yellow-eyed penguins are one of the world's rarest penguins (approximately 4,000 remaining) and Dunedin is the most accessible place in the world to observe them. Penguin Place ($90/adult) provides the most intimate and conservation-focused experience. DOC viewing hides ($30/adult) are cheaper but less guided. Both are genuinely moving experiences that kids remember."
+      }
+    ],
+    "nearby_destinations": [
+      "queenstown-with-kids",
+      "fiordland-milford-sound-family"
+    ],
+    "facebook_groups": [
+      {
+        "name": "Dunedin Family Activities",
+        "url": "https://www.facebook.com/groups/search/results/?q=dunedin+family+activities+otago",
+        "description": "Dunedin families sharing activities, wildlife tips, and recommendations for visitors with kids"
+      },
+      {
+        "name": "South Island Family Road Trip NZ",
+        "url": "https://www.facebook.com/groups/search/results/?q=south+island+family+road+trip+new+zealand",
+        "description": "Families planning South Island road trips sharing routes, stops, and accommodation tips"
+      }
+    ],
+    "seo_keywords": [
+      "dunedin family holiday",
+      "dunedin with kids",
+      "otago peninsula family",
+      "yellow eyed penguin family viewing",
+      "dunedin wildlife children"
+    ],
+    "media": {}
   }
 ]
