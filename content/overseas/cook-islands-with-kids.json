@@ -1,0 +1,52 @@
+{
+  "slug": "cook-islands-with-kids",
+  "country": "Cook Islands",
+  "flag": "🇨🇰",
+  "title": "Cook Islands with Kids — Honest Family Guide 2026",
+  "meta_desc": "Cook Islands family holiday from NZ: Rarotonga and Aitutaki for families — real costs, best beaches, lagoon tours, and when to go. Updated 2026.",
+  "tagline": "NZ's Pacific backyard — English-speaking, NZ dollar, 3.5 hours from Auckland",
+  "hero_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Aitutaki_Lagoon%2C_Cook_Islands.jpg/1200px-Aitutaki_Lagoon%2C_Cook_Islands.jpg",
+  "hero_alt": "Aitutaki lagoon from above — one of the world's most beautiful lagoons",
+  "best_ages": "All ages",
+  "budget_family4_per_day": "NZ$500–900",
+  "flight_from_nz": "3.5 hours direct (Auckland → Rarotonga). Air New Zealand flies daily. Jetstar seasonal.",
+  "best_months": ["April", "May", "June", "July", "August", "September", "October", "November"],
+  "avoid_months": ["January", "February", "March"],
+  "intro": "The Cook Islands are New Zealand's Pacific territory — English-speaking, using NZ dollars, and full of genuine warmth for visiting kiwi families. Rarotonga (the main island) is mountainous and lush with a stunning lagoon. Aitutaki is a 45-minute prop plane flight away and has one of the most photographed lagoons on earth. The big advantages over Fiji: no currency conversion, no language barrier, and NZ families are genuinely welcomed. The catch: it's not cheap, accommodation is limited, and you need to book well ahead.",
+  "verdict": "The easiest Pacific island trip for NZ families. No language barrier, NZ dollars, extremely safe, and genuinely beautiful. Not as resort-heavy as Fiji — more relaxed and authentic.",
+  "best_destinations": [
+    {
+      "name": "Rarotonga",
+      "tagline": "The main island — jungle interior, gorgeous lagoon, great base for families",
+      "why": "Rarotonga is compact enough to circumnavigate by scooter in an hour, yet varied enough to keep a family busy for 1–2 weeks. The lagoon is calm, warm, and safe for kids. The Cross-Island Trek (2–3 hours) is doable for older kids. The island has excellent snorkelling, kayaking, and glass-bottom boat tours all run by locals. The Punanga Nui Market on Saturday morning is not to be missed — fresh fruit, local food, and craft.",
+      "must_do": ["Muri Beach lagoon snorkelling (calmest, best snorkelling on the island)", "Glass-bottom kayak tours from Muri", "Cross-Island Trek (half day, challenging — 10+ years)", "Punanga Nui Market Saturday morning", "Cultural Village experience — traditional dance and hangi"],
+      "cost": "Budget NZ$500–900/day family of 4 including beachfront accommodation and activities"
+    },
+    {
+      "name": "Aitutaki",
+      "tagline": "The most spectacular lagoon in the Pacific — a must-do day trip or overnight",
+      "why": "Aitutaki's lagoon was named one of the world's most beautiful by CNN Travel. The colour of the water is genuinely unreal. You can fly in from Rarotonga for the day (Air Rarotonga, ~NZ$350 return/adult, cheaper for kids) or stay overnight at a resort. The half-day lagoon cruise stops at multiple motus (tiny coral islands) for snorkelling and a BBQ lunch. Older kids who can snorkel will remember this for life.",
+      "must_do": ["Aitutaki Lagoon Cruise — full or half day", "Snorkelling at Tapuaetai (One Foot Island)", "Collect a stamp in your passport at One Foot Island post office (kids love this)", "Fly over the lagoon in Air Rarotonga's small prop plane"],
+      "cost": "Day trip: NZ$350–500/adult return flights + NZ$120–180/person for lagoon cruise. Overnight adds NZ$400–800/night resort."
+    }
+  ],
+  "practical_info": {
+    "currency": "New Zealand Dollar (NZD) and Cook Islands Dollar (both accepted at 1:1). No currency exchange needed for NZ families. Eftpos widely accepted in Rarotonga but take cash for markets and outer islands.",
+    "health": "No vaccinations required. Medical facilities in Rarotonga are adequate for minor issues. Travel insurance is essential — evacuation to NZ for serious illness is expensive without it. Tap water is safe to drink on Rarotonga.",
+    "food_safety": "Food safety is high by Pacific standards. Island Night buffets (offered at most resorts, NZ$60–80/adult) are a great experience — Polynesian dance show included.",
+    "sim_card": "Buy a Bluesky or Vodafone Cook Islands SIM at the airport (NZ$30 with data). Coverage is good on Rarotonga, limited on outer islands.",
+    "visa": "NZ citizens can stay up to 31 days visa-free. Extendable at the Cook Islands Immigration office for up to 5 months.",
+    "transport": "Rarotonga has a bus (the Cook's Bus) that circles the island anticlockwise and clockwise — flat rate NZ$5. Scooters NZ$30/day (adults only). Taxis/cars from local operators. Inter-island flights via Air Rarotonga."
+  },
+  "budget_breakdown": {
+    "accommodation": "NZ$300–700/night for beachfront or lagoon-view self-contained units. Budget options (backpacker-style) from NZ$120/night but not suited to families who want comfort.",
+    "food": "NZ$100–200/day eating out. Self-catering cuts this in half. Supermarket is well-stocked. Island Night once is a must (NZ$60–80/adult, half price for kids under 12 at most venues).",
+    "activities": "NZ$50–200/day. Snorkelling gear hire NZ$15/day. Lagoon cruises NZ$120–180/person. Aitutaki day trip NZ$350–500/person return flights.",
+    "transport": "Bus pass NZ$20/week. Scooter NZ$30–40/day. Aitutaki flights NZ$350–500/person return."
+  },
+  "facebook_groups": [
+    {"name": "Cook Islands Travel & Tourism", "url": "https://www.facebook.com/groups/search/results/?q=cook+islands+travel+families", "description": "The largest Cook Islands travel group — accommodation tips, activity reviews, and NZ family advice"},
+    {"name": "NZ Families Cook Islands", "url": "https://www.facebook.com/groups/search/results/?q=cook+islands+new+zealand+families", "description": "NZ-specific group sharing Cook Islands trip reports, deals, and booking tips"}
+  ],
+  "nz_affiliate_note": "Air New Zealand flies Auckland–Rarotonga daily. Book early (6+ months out) for the best prices — seats sell fast during school holidays. Jetstar offers cheaper seasonal fares but check the luggage allowances carefully. Book accommodation well in advance: Rarotonga has limited rooms and popular beachfront properties sell out months ahead in July."
+}

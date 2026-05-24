@@ -1,0 +1,52 @@
+{
+  "slug": "samoa-with-kids",
+  "country": "Samoa",
+  "flag": "🇼🇸",
+  "title": "Samoa with Kids — Honest Family Guide 2026",
+  "meta_desc": "Samoa family holiday from NZ: the authentic Pacific experience at half the cost of Fiji. Real costs, best beaches, To Sua Ocean Trench, and what it's really like with kids. 2026.",
+  "tagline": "The real Pacific — authentic, affordable, and genuinely stunning",
+  "hero_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/To_Sua_Ocean_Trench.jpg/1200px-To_Sua_Ocean_Trench.jpg",
+  "hero_alt": "To Sua Ocean Trench — Samoa's most iconic natural attraction",
+  "best_ages": "5+",
+  "budget_family4_per_day": "NZ$300–600",
+  "flight_from_nz": "3–3.5 hours direct (Auckland → Apia). Air New Zealand flies 5x weekly. Samoa Airways also operates.",
+  "best_months": ["May", "June", "July", "August", "September", "October"],
+  "avoid_months": ["January", "February", "March"],
+  "intro": "Samoa is what the rest of the Pacific used to be — genuinely authentic, affordable, and not yet overrun with resort infrastructure. It's roughly half the cost of Fiji and Cook Islands, but you trade luxury resorts for real Samoan culture, incredible natural landscapes, and the warmest welcome in the Pacific. Fa'a Samoa (the Samoan way) means family and hospitality are central to everything. NZ families with Samoan heritage will find this trip particularly moving. For other kiwi families, it's an extraordinary window into a culture that's deeply connected to NZ.",
+  "verdict": "The most authentic and affordable Pacific island trip from NZ. Not for families who need five-star resort infrastructure — but for those who want real Pacific culture, stunning natural attractions, and incredible value, Samoa delivers.",
+  "best_destinations": [
+    {
+      "name": "Upolu Island (Apia, Lalomanu Beach, South Coast)",
+      "tagline": "The main island — cultural capital plus Samoa's most iconic beaches",
+      "why": "Most families base themselves on Upolu. Apia is a compact, manageable capital with good markets, restaurants, and Robert Louis Stevenson's tomb at Vailima. The south coast has Samoa's most famous natural attractions. Lalomanu Beach is often listed as one of the Pacific's most beautiful beaches — palm trees, white sand, and calm lagoon water. The fale accommodation here (open-sided beach huts, NZ$80–120/night/family including meals) is an incredible experience.",
+      "must_do": ["To Sua Ocean Trench (NZ$20 entry — the most spectacular natural pool in the Pacific)", "Lalomanu Beach and overnight fale stay", "Piula Cave Pool (free natural freshwater swimming pool inside a cave)", "Papapapai-Tai Waterfall", "Apia market and central Apia"],
+      "cost": "Budget NZ$280–500/day family of 4 including a beachfront fale or mid-range hotel"
+    },
+    {
+      "name": "Savai'i Island",
+      "tagline": "The big island — untouched, volcanic, for adventurous families",
+      "why": "Savai'i is the largest Polynesian island outside Hawaii, but has almost no tourist infrastructure. It's connected to Upolu by a 2.5-hour ferry. Savai'i is for adventurous families who want to see the real Samoa — lava fields from a 1905 eruption that buried two villages, Dwarf's Cave (the largest lava tube in the Southern Hemisphere), Falealupo rainforest canopy walk, and the ancient Pulemelei Mound (Polynesia's largest ancient pyramid). A 2-night detour from Upolu is worthwhile for families with kids aged 8+.",
+      "must_do": ["Pulemelei Mound — the largest ancient stone structure in Polynesia", "Saleaula Lava Fields — two villages buried by the 1905 eruption (haunting and fascinating)", "Dwarf's Cave (lava tube)", "Falealupo Rainforest canopy walk"],
+      "cost": "Budget NZ$250–400/day on Savai'i. Fewer accommodation options — book well ahead."
+    }
+  ],
+  "practical_info": {
+    "currency": "Samoan Tālā (WST). NZ$1 ≈ 1.85 WST (2026). ATMs in Apia only. Take NZD cash to exchange in Apia — rates are reasonable. Card acceptance is limited outside hotels and main restaurants.",
+    "health": "No vaccinations required but Hep A and typhoid recommended. Dengue fever risk — use DEET repellent. Medical facilities in Apia are adequate but limited. Travel insurance with evacuation cover is essential. Sun is intense — reef-safe SPF50+ every day.",
+    "food_safety": "Food safety is generally good in restaurants. Local markets are excellent — fresh fruit, palusami (taro leaves in coconut cream), and chop suey are staples. Be selective with raw seafood from roadside stalls.",
+    "sim_card": "Buy a Digicel Samoa SIM at the airport in Apia (NZ$15–20 with data). Coverage is good on Upolu, patchy on Savai'i.",
+    "visa": "NZ citizens get a 60-day visa on arrival. No pre-application needed.",
+    "transport": "Car hire is the best way to explore (NZ$80–120/day). Roads on Upolu are paved and manageable. Buses are local and an experience in themselves — cheap but slow. Savai'i ferry (about NZ$15/adult return) runs several times daily from Mulifanua Wharf."
+  },
+  "budget_breakdown": {
+    "accommodation": "NZ$80–150/night at beach fales (basic but memorable, usually include meals). NZ$180–350/night at mid-range hotels/resorts. Aggie Grey's (Apia) is the classic NZ-favourite Samoan hotel.",
+    "food": "NZ$40–100/day — much cheaper than Fiji or Cook Islands. Local restaurants serve large portions for NZ$8–15/person. Markets are incredibly cheap.",
+    "activities": "NZ$20–80/day. Most natural attractions cost NZ$5–20 entry. Village experiences typically NZ$15–30/person.",
+    "transport": "NZ$80–120/day car hire. Budget NZ$50 for the Savai'i ferry if you go. Taxis from Apia airport NZ$25–40."
+  },
+  "facebook_groups": [
+    {"name": "Samoa Travel & Tourism", "url": "https://www.facebook.com/groups/search/results/?q=samoa+travel+families+new+zealand", "description": "Families sharing Samoa trip tips, accommodation reviews, and real costs"},
+    {"name": "NZ Samoan Community Travel", "url": "https://www.facebook.com/groups/search/results/?q=samoa+nz+families+travel+2024", "description": "NZ families with Samoan heritage and visitors sharing travel advice and cultural context"}
+  ],
+  "nz_affiliate_note": "Air New Zealand flies Auckland–Faleolo Airport (Apia) 5 times per week. Book at least 3 months ahead for school holiday travel — the flights are popular and prices jump significantly close to departure. Samoa Airways also operates, sometimes cheaper. Book accommodation directly with beach fales — they're not always on Booking.com but a quick email or Facebook message usually gets a prompt reply."
+}
