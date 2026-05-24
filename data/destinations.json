@@ -1238,5 +1238,818 @@
         "description": "South Island road trips, freedom camping spots, campervan hire tips"
       }
     ]
+  },
+  {
+    "slug": "wellington-with-kids",
+    "name": "Wellington",
+    "island": "North Island",
+    "region": "Wellington",
+    "tagline": "Te Papa, the coolest little capital in the world, and NZ's best café culture",
+    "summary": "Wellington punches well above its weight as a family destination. Te Papa is the best free museum in NZ, the cable car is a Wellington institution, and the waterfront is brilliant for kids. It's also NZ's windiest city — plan for indoor backup options.",
+    "verdict": "Best NZ city break for families — 2–3 days is perfect. Affordable, compact, world-class museum.",
+    "best_for": "Families who love culture, museums, and great food",
+    "not_ideal_for": "Beach holidays — Wellington's beaches are cold and windy",
+    "commercial_intent_score": 82,
+    "quick_facts": {
+      "best_ages": "All ages",
+      "budget_family4_per_day": "$200–380",
+      "best_months": [
+        "December",
+        "January",
+        "February",
+        "March"
+      ],
+      "shoulder_months": [
+        "October",
+        "November",
+        "April"
+      ],
+      "avoid_months": [
+        "June",
+        "July"
+      ],
+      "drive_times": {
+        "from_palmerston_north": "2h",
+        "from_napier": "3h 30m",
+        "from_picton_ferry": "30m"
+      },
+      "nearest_airport": "Wellington Airport (WLG)",
+      "flight_from_auckland": "50 minutes"
+    },
+    "top_activities": [
+      {
+        "name": "Te Papa Museum",
+        "price_note": "Free (special exhibitions $10–20)",
+        "min_age": 0,
+        "rain_safe": true,
+        "must_do": true
+      },
+      {
+        "name": "Wellington Cable Car",
+        "price_note": "$12/adult, $6/child return",
+        "min_age": 0,
+        "rain_safe": true,
+        "must_do": true
+      },
+      {
+        "name": "Zealandia Wildlife Sanctuary",
+        "price_note": "$22/adult, $11/child",
+        "min_age": 0,
+        "rain_safe": false,
+        "must_do": true
+      },
+      {
+        "name": "Carter Observatory",
+        "price_note": "$17.50/adult, $8.50/child",
+        "min_age": 4,
+        "rain_safe": true,
+        "must_do": false
+      },
+      {
+        "name": "Wellington Zoo",
+        "price_note": "$24/adult, $12/child",
+        "min_age": 0,
+        "rain_safe": false,
+        "must_do": false
+      }
+    ],
+    "free_activities": [
+      "Te Papa Museum (permanent collection)",
+      "Wellington Waterfront and Frank Kitts Park playground",
+      "Botanical Garden (top of cable car — walk back down through the garden)",
+      "Weta Workshop Unleashed — exterior is free to walk around",
+      "Mount Victoria Lookout (drive up for 360° city views)"
+    ],
+    "hidden_gems": [
+      "Kāpiti Island day trips — pre-book DOC permit ($16/adult, $8/child). One of NZ's best conservation successes, teeming with native birds including kiwi",
+      "Makara Beach — 30 min from the CBD, wild west coast, free, almost no tourists. Great rock pooling with kids",
+      "Wellington Night Market (Friday, Chaffers Street) — incredible street food from $5, very family-friendly",
+      "Te Papa's basement Discovery Centres are often overlooked — free interactive zones specifically for kids under 12",
+      "The Weta Cave (free entry) — Weta Workshop's free exhibition. The paid tour ($45/adult) is brilliant for movie-loving kids 8+",
+      "Otari-Wilton's Bush — NZ's only public native botanic garden. Free, beautiful, and usually empty",
+      "Interislander Ferry (Picton to Wellington) — even as a day trip, the Marlborough Sounds passage is spectacular. Book foot passenger return"
+    ],
+    "rainy_day": [
+      "Te Papa Museum — could spend a full day",
+      "Carter Observatory planetarium shows",
+      "Queensgate Mall (Lower Hutt) — large mall with cinema 20 min away",
+      "Weta Workshop Unleashed (immersive experience, covered)",
+      "Reading Cinemas Courtenay Place"
+    ],
+    "where_to_stay": [
+      {
+        "name": "Wellington TOP 10 Holiday Park",
+        "type": "holiday_park",
+        "price_range": "$$",
+        "family_features": [
+          "15 min from CBD",
+          "kitchen",
+          "playground",
+          "indoor pool"
+        ],
+        "affiliate_key": "booking_com"
+      },
+      {
+        "name": "CityLife Wellington",
+        "type": "apartment",
+        "price_range": "$$$",
+        "family_features": [
+          "full kitchen",
+          "laundry",
+          "central location"
+        ],
+        "affiliate_key": "booking_com"
+      },
+      {
+        "name": "Copthorne Hotel Wellington",
+        "type": "hotel",
+        "price_range": "$$$",
+        "family_features": [
+          "family rooms",
+          "waterfront location",
+          "restaurant"
+        ],
+        "affiliate_key": "booking_com"
+      }
+    ],
+    "three_day_itinerary": {
+      "day1": {
+        "title": "Te Papa + Waterfront",
+        "activities": [
+          "Te Papa Museum (3–4 hours — don't rush)",
+          "Waterfront walk and Frank Kitts Park",
+          "Cuban Street lunch ($12–15 mains)",
+          "Wellington Cable Car up and walk back through Botanical Garden"
+        ],
+        "estimated_cost": "$60–100"
+      },
+      "day2": {
+        "title": "Zealandia + City",
+        "activities": [
+          "Zealandia Wildlife Sanctuary (book first entry)",
+          "Weta Cave (free)",
+          "Mount Victoria Lookout (drive up)",
+          "Courtenay Place for dinner — lots of family options"
+        ],
+        "estimated_cost": "$80–140"
+      },
+      "day3": {
+        "title": "Day Trip Option",
+        "activities": [
+          "Option A: Drive to the Wairarapa (1h) — Martinborough wine village, free beaches at Cape Palliser",
+          "Option B: Interislander ferry day trip to Picton through Marlborough Sounds"
+        ],
+        "estimated_cost": "$50–200"
+      }
+    },
+    "budget_breakdown": {
+      "accommodation_per_night": "$120–300",
+      "activities_per_day": "$60–140",
+      "food_per_day": "$60–120",
+      "transport_notes": "Compact CBD — walk or use GO Wellington buses. Cable car $12 return."
+    },
+    "faqs": [
+      {
+        "q": "Is Wellington worth visiting with kids?",
+        "a": "Absolutely. Te Papa alone justifies the trip — it's free, world-class, and kids can spend 3–4 hours there. Add the cable car, Zealandia, and the waterfront and you have a brilliant 2–3 day family break."
+      },
+      {
+        "q": "How windy is Wellington really?",
+        "a": "Very. It earns its reputation. Always pack a windproof jacket. The wind doesn't stop you doing anything but it makes outdoor activities less pleasant in winter. Summer winds are actually refreshing in the heat."
+      },
+      {
+        "q": "Can you do Wellington as a stopover between North and South Island?",
+        "a": "Yes — this is a common itinerary. Fly or drive to Wellington, spend 2 nights, then take the Interislander ferry to Picton for the South Island leg."
+      }
+    ],
+    "nearby_destinations": [
+      "rotorua-family-guide",
+      "taupo-with-kids"
+    ],
+    "facebook_groups": [
+      {
+        "name": "Wellington Families",
+        "url": "https://www.facebook.com/groups/search/results/?q=wellington+families+nz",
+        "description": "Local Wellington families sharing activity tips, events and family recommendations"
+      },
+      {
+        "name": "Travelling NZ with Kids",
+        "url": "https://www.facebook.com/groups/search/results/?q=travelling+new+zealand+kids",
+        "description": "15,000+ NZ parents sharing real trip reports and advice"
+      }
+    ],
+    "seo_keywords": [
+      "wellington with kids",
+      "wellington family holiday",
+      "things to do wellington children",
+      "te papa museum kids"
+    ]
+  },
+  {
+    "slug": "nelson-abel-tasman-family",
+    "name": "Nelson & Abel Tasman",
+    "island": "South Island",
+    "region": "Nelson-Tasman",
+    "tagline": "NZ's sunniest region — golden beaches, clear water, and the most beautiful coastal walk in the world",
+    "summary": "Nelson is the sunniest city in New Zealand and the gateway to Abel Tasman National Park — a coastline of golden sand beaches, crystal-clear water, and native bush. It's also one of the most relaxed and family-friendly regions in the country.",
+    "verdict": "Criminally underrated by international visitors. NZ families know it — the Abel Tasman coast is spectacular and the region is brilliant for all ages.",
+    "best_for": "Beach lovers, kayakers, and families who want stunning scenery without big crowds",
+    "not_ideal_for": "Families wanting theme parks or urban entertainment",
+    "commercial_intent_score": 78,
+    "quick_facts": {
+      "best_ages": "All ages",
+      "budget_family4_per_day": "$220–400",
+      "best_months": [
+        "December",
+        "January",
+        "February",
+        "March"
+      ],
+      "shoulder_months": [
+        "October",
+        "November",
+        "April"
+      ],
+      "avoid_months": [],
+      "drive_times": {
+        "from_christchurch": "4h 30m",
+        "from_picton": "2h",
+        "from_queenstown": "6h 30m"
+      },
+      "nearest_airport": "Nelson Airport (NSN)",
+      "flight_from_auckland": "1h"
+    },
+    "top_activities": [
+      {
+        "name": "Abel Tasman Water Taxi + Beach Day",
+        "price_note": "$55–80/adult, $35–55/child return",
+        "min_age": 0,
+        "rain_safe": false,
+        "must_do": true
+      },
+      {
+        "name": "Sea Kayaking Abel Tasman",
+        "price_note": "from $95/adult guided half-day",
+        "min_age": 5,
+        "rain_safe": false,
+        "must_do": true
+      },
+      {
+        "name": "Farewell Spit Tour",
+        "price_note": "$110/adult, $55/child",
+        "min_age": 5,
+        "rain_safe": false,
+        "must_do": false
+      },
+      {
+        "name": "Founders Heritage Park Nelson",
+        "price_note": "$15/adult, $8/child",
+        "min_age": 0,
+        "rain_safe": false,
+        "must_do": false
+      },
+      {
+        "name": "Nelson Saturday Market",
+        "price_note": "Free entry",
+        "min_age": 0,
+        "rain_safe": false,
+        "must_do": false
+      }
+    ],
+    "free_activities": [
+      "Tahunanui Beach — Nelson's main beach, safe swimming, playground, holiday park",
+      "Abel Tasman coastal track sections (walk in from road ends for free)",
+      "Nelson's Centre of New Zealand hill walk (20 min return, 360° views)",
+      "Rabbit Island Recreation Reserve — beautiful beach and bush",
+      "Miyazu Japanese Garden (free, peaceful)"
+    ],
+    "hidden_gems": [
+      "Tōtaranui Beach (Abel Tasman northern end) — the most spectacular beach in the park, accessible by road (gravel), DOC campsite on-site. Book campsites months ahead",
+      "Kaiteriteri Beach — the main Abel Tasman gateway beach is free to access and one of the best family beaches in NZ. Arrive early in summer",
+      "Mapua Wharf — 30 min from Nelson, boutique food village on the waterfront. Ice cream, fish and chips, gallery. Best evening out in the region",
+      "Golden Bay (over Takaka Hill) — worth the winding road for Pohara Beach and the spectacular Farewell Spit. Far fewer tourists",
+      "Wai-iti Lavender Farm (summer only) — free to walk around, kids love the bees and the colour",
+      "Nelson Saturday Market at Montgomery Square — the best market in NZ's South Island. Local produce, crafts, hot food, always buzzing"
+    ],
+    "rainy_day": [
+      "Nelson Provincial Museum (free, excellent NZ history)",
+      "World of WearableArt museum (Nelson) — $24/adult, $12/child",
+      "Founders Heritage Park with vintage train rides",
+      "Nelson's café strip on Trafalgar Street"
+    ],
+    "where_to_stay": [
+      {
+        "name": "Tahunanui Beach Holiday Park",
+        "type": "holiday_park",
+        "price_range": "$$",
+        "family_features": [
+          "beach access",
+          "playground",
+          "pool",
+          "kitchen"
+        ],
+        "affiliate_key": "booking_com"
+      },
+      {
+        "name": "Kaiteriteri Beach Resort",
+        "type": "holiday_park",
+        "price_range": "$$",
+        "family_features": [
+          "Abel Tasman gateway",
+          "beach access",
+          "cafe on-site"
+        ],
+        "affiliate_key": "booking_com"
+      },
+      {
+        "name": "Hotel Nelson",
+        "type": "hotel",
+        "price_range": "$$$",
+        "family_features": [
+          "central Nelson",
+          "family rooms",
+          "restaurant"
+        ],
+        "affiliate_key": "booking_com"
+      }
+    ],
+    "three_day_itinerary": {
+      "day1": {
+        "title": "Nelson City + Tahunanui Beach",
+        "activities": [
+          "Arrive Nelson, settle in",
+          "Tahunanui Beach afternoon swim",
+          "Nelson Saturday Market if weekend",
+          "Walk up Centre of New Zealand at sunset"
+        ],
+        "estimated_cost": "$50–90"
+      },
+      "day2": {
+        "title": "Abel Tasman Day",
+        "activities": [
+          "Water taxi to Anchorage or Bark Bay beach",
+          "Swim, snorkel, beach lunch",
+          "Water taxi back",
+          "Mapua Wharf for dinner"
+        ],
+        "estimated_cost": "$160–280"
+      },
+      "day3": {
+        "title": "Golden Bay or Kayaking",
+        "activities": [
+          "Option A: Drive over Takaka Hill to Golden Bay (Pohara Beach)",
+          "Option B: Half-day guided sea kayak in Abel Tasman"
+        ],
+        "estimated_cost": "$100–200"
+      }
+    },
+    "budget_breakdown": {
+      "accommodation_per_night": "$90–250",
+      "activities_per_day": "$100–200",
+      "food_per_day": "$60–100",
+      "transport_notes": "Rental car essential. Water taxis for Abel Tasman from Kaiteriteri or Marahau."
+    },
+    "faqs": [
+      {
+        "q": "Do you need to walk the full Abel Tasman track?",
+        "a": "No — the water taxi is the best family option. You hop on, get dropped at a beach, swim and explore, then get picked up later. No multi-day walking required."
+      },
+      {
+        "q": "Is Nelson or Kaiteriteri a better base?",
+        "a": "Nelson for more amenities and a broader area; Kaiteriteri for direct Abel Tasman access. Most families base in Nelson and day-trip to Kaiteriteri (50 min drive)."
+      },
+      {
+        "q": "When is Abel Tasman best for families?",
+        "a": "December to March. The water is warmest (18–20°C) and all water taxis and kayak operators are fully running. October and April are quieter and still good."
+      }
+    ],
+    "nearby_destinations": [
+      "wanaka-with-kids",
+      "christchurch-with-kids"
+    ],
+    "facebook_groups": [
+      {
+        "name": "Nelson Families NZ",
+        "url": "https://www.facebook.com/groups/search/results/?q=nelson+families+new+zealand",
+        "description": "Local Nelson families sharing tips, events and holiday recommendations"
+      },
+      {
+        "name": "Abel Tasman NZ Visitors",
+        "url": "https://www.facebook.com/groups/search/results/?q=abel+tasman+national+park+families",
+        "description": "Trip reports and advice for Abel Tasman National Park visitors"
+      }
+    ],
+    "seo_keywords": [
+      "nelson with kids",
+      "abel tasman family holiday",
+      "nelson family activities",
+      "abel tasman water taxi kids"
+    ]
+  },
+  {
+    "slug": "coromandel-with-kids",
+    "name": "Coromandel",
+    "island": "North Island",
+    "region": "Waikato",
+    "tagline": "Hot Water Beach, Cathedral Cove, and some of NZ's most beautiful beaches within 2.5 hours of Auckland",
+    "summary": "The Coromandel Peninsula is Auckland's backyard holiday spot — and for good reason. Hot Water Beach (dig your own hot pool in the sand), Cathedral Cove sea arch, Thames goldfields, and a string of gorgeous beaches make it one of the best NZ family destinations. Best in summer.",
+    "verdict": "Essential for Auckland families and any North Island road trip. Hot Water Beach alone makes it worth visiting.",
+    "best_for": "Beach holidays, Auckland day trips or overnights, hot spring lovers",
+    "not_ideal_for": "Families wanting theme parks or rainy-day activities — it's very outdoor-focused",
+    "commercial_intent_score": 80,
+    "quick_facts": {
+      "best_ages": "All ages",
+      "budget_family4_per_day": "$180–320",
+      "best_months": [
+        "December",
+        "January",
+        "February",
+        "March"
+      ],
+      "shoulder_months": [
+        "October",
+        "November",
+        "April"
+      ],
+      "avoid_months": [
+        "June",
+        "July",
+        "August"
+      ],
+      "drive_times": {
+        "from_auckland": "2h 30m",
+        "from_hamilton": "1h 45m",
+        "from_rotorua": "2h 30m"
+      },
+      "nearest_airport": "Auckland Airport (AKL)",
+      "flight_from_auckland": "N/A — drive"
+    },
+    "top_activities": [
+      {
+        "name": "Hot Water Beach",
+        "price_note": "Free (spade hire $5)",
+        "min_age": 0,
+        "rain_safe": false,
+        "must_do": true
+      },
+      {
+        "name": "Cathedral Cove",
+        "price_note": "Free (boat $45 adult/$23 child or 35-min walk)",
+        "min_age": 0,
+        "rain_safe": false,
+        "must_do": true
+      },
+      {
+        "name": "Driving Creek Railway",
+        "price_note": "$42/adult, $15/child",
+        "min_age": 0,
+        "rain_safe": true,
+        "must_do": true
+      },
+      {
+        "name": "Karangahake Gorge Walk",
+        "price_note": "Free",
+        "min_age": 5,
+        "rain_safe": false,
+        "must_do": false
+      },
+      {
+        "name": "Gold Mine Experience Thames",
+        "price_note": "$20/adult, $10/child",
+        "min_age": 0,
+        "rain_safe": true,
+        "must_do": false
+      }
+    ],
+    "free_activities": [
+      "Hahei Beach — one of NZ's most beautiful beaches, free",
+      "Cathedral Cove walk (35 min each way from car park)",
+      "Whitianga waterfront and beach",
+      "Thames Estuary and Dickson Holiday Park beach walk",
+      "Cook's Beach — safe swimming, sheltered"
+    ],
+    "hidden_gems": [
+      "Hot Water Beach at dawn — arrive 90 mins before low tide on a weekday morning. You'll have it almost to yourself vs the chaotic peak-time crowds",
+      "Opito Bay — one of the most stunning beaches on the peninsula, hard to find, rarely crowded. Locals go here instead of Hahei",
+      "Te Whanganui-A-Hei Marine Reserve snorkelling near Cathedral Cove — some of the best snorkelling in NZ, completely free",
+      "Coromandel town (the actual town) — often skipped as people go straight to Hahei. The Coromandel Smoking Company smoked fish and chips are legendary ($15 a serve)",
+      "Karangahake Gorge windows walk (Thames side) — goes through old gold mine tunnels with a torch. Free, very cool for kids",
+      "Long Bay near Whitianga — far less visited than Hahei, beautiful swimming, rarely mentioned in guides"
+    ],
+    "rainy_day": [
+      "Driving Creek Railway (covered train ride through sculpture park)",
+      "Gold Mine Experience Thames",
+      "Thames Historical Museum",
+      "Miranda Shorebird Centre (45 min from Thames)"
+    ],
+    "where_to_stay": [
+      {
+        "name": "Hahei Holiday Resort",
+        "type": "holiday_park",
+        "price_range": "$$",
+        "family_features": [
+          "walking distance to Cathedral Cove",
+          "pool",
+          "playground"
+        ],
+        "affiliate_key": "booking_com"
+      },
+      {
+        "name": "Hot Water Beach TOP 10",
+        "type": "holiday_park",
+        "price_range": "$$",
+        "family_features": [
+          "5 min walk to Hot Water Beach",
+          "pool",
+          "kitchen"
+        ],
+        "affiliate_key": "booking_com"
+      },
+      {
+        "name": "Whitianga accommodation",
+        "type": "apartment",
+        "price_range": "$$",
+        "family_features": [
+          "central location",
+          "marina views",
+          "ferry to Cooks Beach"
+        ],
+        "affiliate_key": "booking_com"
+      }
+    ],
+    "three_day_itinerary": {
+      "day1": {
+        "title": "Arrive + Cathedral Cove",
+        "activities": [
+          "Drive from Auckland (2h 30m)",
+          "Cathedral Cove — walk or boat (check tides)",
+          "Hahei Beach afternoon swim",
+          "Fish and chips at Hahei"
+        ],
+        "estimated_cost": "$60–120"
+      },
+      "day2": {
+        "title": "Hot Water Beach",
+        "activities": [
+          "Hot Water Beach at low tide — check hotwatertide.co.nz the night before",
+          "Hire spades ($5) and dig your hot pool",
+          "Afternoon at Hahei or Cook's Beach",
+          "Drive to Whitianga for dinner"
+        ],
+        "estimated_cost": "$40–80"
+      },
+      "day3": {
+        "title": "Driving Creek + Drive Home",
+        "activities": [
+          "Driving Creek Railway (Coromandel town, 9am booking)",
+          "Lunch at Coromandel Smoking Company",
+          "Drive back to Auckland via Thames"
+        ],
+        "estimated_cost": "$100–160"
+      }
+    },
+    "budget_breakdown": {
+      "accommodation_per_night": "$100–250",
+      "activities_per_day": "$60–120",
+      "food_per_day": "$50–100",
+      "transport_notes": "Car essential. Fuel up in Thames — petrol is expensive on the peninsula."
+    },
+    "faqs": [
+      {
+        "q": "When is Hot Water Beach best?",
+        "a": "The geothermal seep is only accessible 2 hours either side of low tide. Check hotwatertide.co.nz before you go. Weekday mornings in shoulder season are the least crowded."
+      },
+      {
+        "q": "Is Cathedral Cove better by boat or on foot?",
+        "a": "Boat if you have young kids (avoids the 35-min walk each way). On foot if your kids can manage it — the walk is lovely. The sea arch looks the same either way."
+      },
+      {
+        "q": "Can you do Coromandel as a day trip from Auckland?",
+        "a": "Yes — just about. Hot Water Beach + Cathedral Cove is a very long day (5h driving total). Better to stay 1–2 nights and actually enjoy it."
+      }
+    ],
+    "nearby_destinations": [
+      "rotorua-family-guide",
+      "taupo-with-kids"
+    ],
+    "facebook_groups": [
+      {
+        "name": "Coromandel Families NZ",
+        "url": "https://www.facebook.com/groups/search/results/?q=coromandel+families+holiday",
+        "description": "Trip reports, accommodation tips and activity advice for the Coromandel Peninsula"
+      },
+      {
+        "name": "Auckland Day Trips with Kids",
+        "url": "https://www.facebook.com/groups/search/results/?q=auckland+day+trips+kids+families",
+        "description": "Auckland families sharing day trip and weekend getaway ideas"
+      }
+    ],
+    "seo_keywords": [
+      "coromandel with kids",
+      "hot water beach families",
+      "cathedral cove kids",
+      "coromandel family holiday"
+    ]
+  },
+  {
+    "slug": "fiordland-milford-sound-family",
+    "name": "Fiordland & Milford Sound",
+    "island": "South Island",
+    "region": "Southland",
+    "tagline": "The most dramatic scenery in New Zealand — Milford Sound will stop your kids mid-sentence",
+    "summary": "Fiordland is remote, dramatic, and genuinely unlike anywhere else on Earth. Milford Sound — sheer 1,500m peaks rising from dark water, waterfalls cascading year-round, dolphins surfing the bow wave of your cruise boat — is a once-in-a-lifetime experience. The drive in from Te Anau is as spectacular as the destination.",
+    "verdict": "Requires a detour and some planning, but Milford Sound is the single most dramatic landscape experience in NZ. Worth every bit of the effort.",
+    "best_for": "Families with kids 5+ who appreciate epic scenery. Teenagers are consistently blown away.",
+    "not_ideal_for": "Families needing lots of activities or beach time. Milford Sound itself has limited things to do beyond the cruise.",
+    "commercial_intent_score": 85,
+    "quick_facts": {
+      "best_ages": "5+",
+      "budget_family4_per_day": "$280–500",
+      "best_months": [
+        "November",
+        "December",
+        "January",
+        "February",
+        "March"
+      ],
+      "shoulder_months": [
+        "October",
+        "April"
+      ],
+      "avoid_months": [],
+      "drive_times": {
+        "from_queenstown": "4h",
+        "from_te_anau": "2h",
+        "from_dunedin": "4h 30m"
+      },
+      "nearest_airport": "Queenstown Airport (ZQN)",
+      "flight_from_auckland": "1h 45m to Queenstown"
+    },
+    "top_activities": [
+      {
+        "name": "Milford Sound Nature Cruise",
+        "price_note": "$80–120/adult, $25–40/child",
+        "min_age": 0,
+        "rain_safe": true,
+        "must_do": true
+      },
+      {
+        "name": "Milford Sound Kayaking",
+        "price_note": "from $175/adult guided",
+        "min_age": 8,
+        "rain_safe": false,
+        "must_do": false
+      },
+      {
+        "name": "Underwater Observatory",
+        "price_note": "add-on to cruise ~$20/person",
+        "min_age": 0,
+        "rain_safe": true,
+        "must_do": false
+      },
+      {
+        "name": "Te Anau Glowworm Caves",
+        "price_note": "$58/adult, $22/child",
+        "min_age": 0,
+        "rain_safe": true,
+        "must_do": true
+      },
+      {
+        "name": "Kepler Track day walk",
+        "price_note": "Free (DOC track)",
+        "min_age": 7,
+        "rain_safe": false,
+        "must_do": false
+      }
+    ],
+    "free_activities": [
+      "The Milford Sound highway drive itself (SH94) — one of the world's great drives",
+      "Mirror Lakes stop (10 min from Te Anau) — perfectly still reflections, boardwalk",
+      "Lake Te Anau waterfront and lakeside walk",
+      "The Chasm (free, 10-min walk, dramatic gorge — kids love it)",
+      "Monkey Creek and Homer Tunnel viewpoints on SH94"
+    ],
+    "hidden_gems": [
+      "Cruise in the rain — Milford Sound is famous for waterfalls. Rain creates hundreds of extra waterfalls cascading down the cliffs. A wet day is genuinely the best time to cruise.",
+      "Book the first cruise of the day (earliest departure) — before the tour buses from Queenstown arrive, Milford has a completely different atmosphere",
+      "The Chasm on SH94 is often rushed past — the 10-min return walk to the churning gorge is spectacular and completely free",
+      "Te Anau town is the best base — stay here rather than driving to Milford and back from Queenstown in one day (brutal 8h round trip)",
+      "Mirror Lakes at golden hour (late afternoon) — the reflection only works on calm days and the light is magical in the evening",
+      "Fiordland Cinema in Te Anau plays 'Ata Whenua — Shadowland' (30 min film about Fiordland) for $15 — excellent context before your Milford cruise"
+    ],
+    "rainy_day": [
+      "Milford Sound cruise (rain = more waterfalls = better experience)",
+      "Te Anau Glowworm Caves (underground, weather irrelevant)",
+      "Fiordland Cinema (Te Anau)",
+      "Te Anau cafes and the waterfront walk"
+    ],
+    "where_to_stay": [
+      {
+        "name": "Te Anau TOP 10 Holiday Park",
+        "type": "holiday_park",
+        "price_range": "$$",
+        "family_features": [
+          "lake views",
+          "kitchen",
+          "playground"
+        ],
+        "affiliate_key": "booking_com"
+      },
+      {
+        "name": "Distinction Te Anau Hotel",
+        "type": "hotel",
+        "price_range": "$$$",
+        "family_features": [
+          "family rooms",
+          "restaurant",
+          "central Te Anau"
+        ],
+        "affiliate_key": "booking_com"
+      },
+      {
+        "name": "Milford Sound Lodge",
+        "type": "holiday_park",
+        "price_range": "$$$",
+        "family_features": [
+          "IN Milford Sound itself",
+          "restaurant",
+          "unique location"
+        ],
+        "affiliate_key": "booking_com"
+      }
+    ],
+    "three_day_itinerary": {
+      "day1": {
+        "title": "Queenstown to Te Anau",
+        "activities": [
+          "Drive Queenstown to Te Anau (2h via SH6)",
+          "Lake Te Anau waterfront walk",
+          "Te Anau Glowworm Caves (book ahead)",
+          "Dinner at The Fat Duck or Sandfly Café"
+        ],
+        "estimated_cost": "$120–200"
+      },
+      "day2": {
+        "title": "Milford Sound Cruise Day",
+        "activities": [
+          "Early start — drive SH94 to Milford (2h, stop at Mirror Lakes and The Chasm)",
+          "Morning Milford Sound cruise (book earliest available)",
+          "Explore Milford after cruise",
+          "Drive back to Te Anau"
+        ],
+        "estimated_cost": "$280–420"
+      },
+      "day3": {
+        "title": "Te Anau + Depart",
+        "activities": [
+          "Kepler Track day section (Lake Te Anau lookout, 3–4h return for fit families)",
+          "Or relaxed morning in Te Anau",
+          "Drive to Queenstown (2h) or Dunedin (4h 30m)"
+        ],
+        "estimated_cost": "$40–80"
+      }
+    },
+    "budget_breakdown": {
+      "accommodation_per_night": "$130–350",
+      "activities_per_day": "$150–300",
+      "food_per_day": "$70–120",
+      "transport_notes": "Own car essential — no public transport to Milford Sound. Fill up with fuel in Te Anau."
+    },
+    "faqs": [
+      {
+        "q": "Is Milford Sound better from Queenstown or Te Anau?",
+        "a": "Always base in Te Anau. Driving from Queenstown is 4h each way — an exhausting 8h round trip that leaves little time at Milford itself. Te Anau is 2h from Milford and a lovely base."
+      },
+      {
+        "q": "What's the best Milford Sound cruise?",
+        "a": "Real Journeys and Cruise Milford are the main reputable operators. The 2-hour cruise covers the full fiord. The 'nature cruise' with commentary is better for families than the cheaper scenic cruises."
+      },
+      {
+        "q": "Is the drive to Milford Sound safe with kids?",
+        "a": "Yes — SH94 is well-maintained and spectacular. Allow 2h from Te Anau with stops. The Homer Tunnel (1.2km, one lane, traffic lights) is exciting for kids. Check the NZ Transport Agency website for any closures."
+      }
+    ],
+    "nearby_destinations": [
+      "queenstown-with-kids",
+      "wanaka-with-kids"
+    ],
+    "facebook_groups": [
+      {
+        "name": "Fiordland and Milford Sound Visitors",
+        "url": "https://www.facebook.com/groups/search/results/?q=milford+sound+fiordland+families",
+        "description": "Trip reports and booking tips for Milford Sound cruises and Te Anau"
+      },
+      {
+        "name": "NZ South Island Families",
+        "url": "https://www.facebook.com/groups/search/results/?q=south+island+families+nz",
+        "description": "South Island road trips, holiday parks and family destinations"
+      }
+    ],
+    "seo_keywords": [
+      "milford sound with kids",
+      "fiordland family holiday",
+      "milford sound cruise children",
+      "te anau families"
+    ]
   }
 ]

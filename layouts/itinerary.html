@@ -40,9 +40,13 @@
   <div class="booking-grid">
     {% for block in itinerary.affiliate_blocks %}
     <div class="booking-card">
-      <h3>{{ block.cta }}</h3>
-      {% if block.note %}<p>{{ block.note }}</p>{% endif %}
+      <h3>{{ block.heading if block.heading else block.cta }}</h3>
+      {% if block.text %}<p>{{ block.text }}</p>{% elif block.note %}<p>{{ block.note }}</p>{% endif %}
+      {% if block.url %}
+      <a href="{{ block.url }}" class="btn btn-primary" rel="sponsored" target="_blank">{{ block.cta }} →</a>
+      {% elif block.affiliate_key and site.affiliates[block.affiliate_key] %}
       <a href="{{ site.affiliates[block.affiliate_key].url }}" class="btn btn-primary" rel="sponsored" target="_blank">{{ site.affiliates[block.affiliate_key].cta }} →</a>
+      {% endif %}
     </div>
     {% endfor %}
   </div>
@@ -52,10 +56,12 @@
 <section class="section section-alt">
   <h2>Budget Breakdown</h2>
   <div class="budget-table">
-    <div class="budget-row"><span>Accommodation</span><span>{{ itinerary.budget_breakdown.accommodation }}</span></div>
-    <div class="budget-row"><span>Activities</span><span>{{ itinerary.budget_breakdown.activities }}</span></div>
-    <div class="budget-row"><span>Food</span><span>{{ itinerary.budget_breakdown.food }}</span></div>
-    <div class="budget-row"><span>Fuel</span><span>{{ itinerary.budget_breakdown.fuel }}</span></div>
+    {% if itinerary.budget_breakdown %}
+    {% if itinerary.budget_breakdown.accommodation %}<div class="budget-row"><span>Accommodation</span><span>{{ itinerary.budget_breakdown.accommodation }}</span></div>{% endif %}
+    {% if itinerary.budget_breakdown.activities %}<div class="budget-row"><span>Activities</span><span>{{ itinerary.budget_breakdown.activities }}</span></div>{% endif %}
+    {% if itinerary.budget_breakdown.food %}<div class="budget-row"><span>Food</span><span>{{ itinerary.budget_breakdown.food }}</span></div>{% endif %}
+    {% if itinerary.budget_breakdown.fuel %}<div class="budget-row"><span>Fuel</span><span>{{ itinerary.budget_breakdown.fuel }}</span></div>{% endif %}
+    {% endif %}
     <div class="budget-row budget-total"><span>Estimated total (family 4)</span><span>{{ itinerary.budget_family4 }}</span></div>
   </div>
   <p class="table-note">Budget is indicative. Campervan hire can reduce accommodation and food costs significantly — <a href="/campervans/">compare campervans</a>.</p>

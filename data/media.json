@@ -180,6 +180,77 @@
           "description": "Queenstown's quieter, more beautiful neighbour — Puzzling World, lake swims, and the Crown Range."
         }
       ]
+    },
+    "wellington-with-kids": {
+      "hero_image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Wellington_Harbour%2C_New_Zealand%2C_N.jpg",
+        "alt": "Wellington Harbour and city skyline from above",
+        "credit": "Wikimedia Commons"
+      },
+      "gallery": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Wellington_Harbour%2C_New_Zealand%2C_N.jpg",
+          "alt": "Wellington Harbour panorama",
+          "caption": "Wellington Harbour — NZ's coolest little capital"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Christchurch_Botanic_Gardens_-_panoramio.jpg/320px-Christchurch_Botanic_Gardens_-_panoramio.jpg",
+          "alt": "Wellington Botanic Garden",
+          "caption": "Botanic Garden — reached by cable car, free to wander"
+        }
+      ],
+      "videos": [
+        {
+          "youtube_id": "2Yx5O_RmbBs",
+          "title": "Wellington New Zealand — Family Travel Guide",
+          "description": "Te Papa, the cable car, Zealandia and Wellington's best family experiences."
+        }
+      ]
+    },
+    "nelson-abel-tasman-family": {
+      "hero_image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/AnchorageBayNZDec022024_02.jpg/1200px-AnchorageBayNZDec022024_02.jpg",
+        "alt": "Anchorage Bay in Abel Tasman National Park — golden sand and turquoise water",
+        "credit": "Wikimedia Commons"
+      },
+      "gallery": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/AnchorageBayNZDec022024_02.jpg/1200px-AnchorageBayNZDec022024_02.jpg",
+          "alt": "Anchorage Bay Abel Tasman — perfect golden beach",
+          "caption": "Anchorage Bay — accessible by water taxi, one of NZ's finest beaches"
+        }
+      ],
+      "videos": []
+    },
+    "coromandel-with-kids": {
+      "hero_image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Cathedral_Cove_06.jpg/1200px-Cathedral_Cove_06.jpg",
+        "alt": "Cathedral Cove sea arch, Coromandel Peninsula",
+        "credit": "Wikimedia Commons"
+      },
+      "gallery": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Cathedral_Cove_06.jpg/1200px-Cathedral_Cove_06.jpg",
+          "alt": "Cathedral Cove sea arch",
+          "caption": "Cathedral Cove — one of NZ's most iconic natural landmarks, free entry"
+        }
+      ],
+      "videos": []
+    },
+    "fiordland-milford-sound-family": {
+      "hero_image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Milford_Sound_%28New_Zealand%29.JPG/1200px-Milford_Sound_%28New_Zealand%29.JPG",
+        "alt": "Milford Sound with Mitre Peak rising from the water",
+        "credit": "Wikimedia Commons"
+      },
+      "gallery": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Milford_Sound_%28New_Zealand%29.JPG/1200px-Milford_Sound_%28New_Zealand%29.JPG",
+          "alt": "Milford Sound and Mitre Peak",
+          "caption": "Milford Sound — Mitre Peak rises 1,692m straight from the water"
+        }
+      ],
+      "videos": []
     }
   },
   "activities": {

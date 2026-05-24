@@ -1,0 +1,71 @@
+{
+  "slug": "auckland-day-trips-families",
+  "short_title": "Auckland Day Trips",
+  "title": "Best Auckland Day Trips for Families — Within 2 Hours of the CBD",
+  "meta_desc": "The best Auckland family day trips with drive times, costs, and honest assessments. Waiheke, Piha, Coromandel, Waitomo, Hobbiton, and more.",
+  "intro": "Auckland is a better base than it gets credit for. Within 2 hours you have black sand surf beaches, glowworm caves, Middle-earth movie sets, island escapes, and New Zealand's most dramatic hot springs. Here's what's actually worth the drive with kids.",
+  "updated": "May 2026",
+  "reading_time": 8,
+  "sections": [
+    {
+      "heading": "Day Trips at a Glance",
+      "table": {
+        "headers": ["Destination", "Drive from Auckland", "Best for ages", "Family cost (approx)", "Worth it?"],
+        "rows": [
+          ["Piha Beach", "45 min", "All ages", "$30–60 (fuel + parking)", "Yes — free, spectacular"],
+          ["Waiheke Island", "35 min ferry", "All ages", "$150–250 (ferry + activities)", "Yes — unique day out"],
+          ["Waitomo Caves", "2h 15min", "5+", "$200–350 (tickets + fuel)", "Yes — unmissable"],
+          ["Hobbiton (Matamata)", "2h", "7+", "$280–400 (tickets + fuel)", "Yes, for Tolkien fans"],
+          ["Hot Water Beach", "2h 30min", "All ages", "$60–120 (fuel)", "Yes — unique experience"],
+          ["Coromandel town", "2h 30min", "All ages", "$80–150 (fuel + lunch)", "Yes — beautiful"],
+          ["Tawharanui Beach", "1h 15min", "All ages", "$20–40", "Yes — best north Auckland beach"]
+        ]
+      }
+    },
+    {
+      "heading": "Piha Beach — The Dramatic One",
+      "body": "Piha is Auckland's most famous beach — black iron sand, crashing surf, and Lion Rock jutting from the ocean. It's patrolled in summer and genuinely spectacular. Not ideal for young swimmers (the surf can be fierce) but perfect for rock pooling, bodyboarding, and dramatic photos. Free entry. Allow 2–3 hours including the walk around Lion Rock. Grab a pie from the Piha Store.",
+      "list": [
+        "45 minutes from central Auckland via SH16 then Piha Rd.",
+        "Always swim between the flags — Piha has a strong rip. Non-swimmers stick to the lagoon end.",
+        "Pack snacks. The Piha Store is good but pricey.",
+        "Visit mid-week if possible — weekends in summer are very busy."
+      ]
+    },
+    {
+      "heading": "Waiheke Island — The Island Escape",
+      "body": "Waiheke is 35 minutes by ferry from the Auckland CBD and feels like a different world. Vineyards, galleries, gorgeous beaches (Onetangi is the best family beach), and relaxed villages. Rent e-bikes or take the hop-on-hop-off bus from the ferry terminal. A full family day out costs $150–250 including ferry, bike hire, and lunch.",
+      "list": [
+        "Fullers ferry: adult $44 return, child $22 return. Book online.",
+        "Onetangi Beach: 15 min bus from Matiatia wharf. Flat sand, safe swimming, cafes nearby.",
+        "Kids love the ferry itself — always sit on the upper deck for harbour views.",
+        "Avoid Waiheke in summer on weekends — it's extremely popular with Aucklanders."
+      ]
+    },
+    {
+      "heading": "Waitomo Glowworm Caves — The Must-Do",
+      "body": "Waitomo is the most impressive paid attraction within day-trip distance of Auckland. The glowworm boat ride inside the cave is genuinely magical — 10,000 glowworms reflecting off an underground river. Kids of all ages are mesmerised. The standard cave tour takes 45 minutes and costs $65/adult, $29/child (5–14). Family passes are available. Book online — it sells out in peak season.",
+      "list": [
+        "2h 15min from Auckland via SH1 south then SH3. Avoid school holiday Friday afternoons.",
+        "Also worth: Ruakuri Cave (larger, 2-hour tour, no under-5s) and Black Labyrinth (for adventurous teens).",
+        "Combine with lunch at Waitomo village and the Waitomo Museum of Caves.",
+        "Stay overnight at Waitomo Caves Hotel or YHA — reduces the rush and allows morning cave tours when quieter."
+      ]
+    },
+    {
+      "heading": "Hot Water Beach — The Weird One",
+      "body": "Hot Water Beach on the Coromandel Peninsula is genuinely unique: geothermal water seeps through the sand at low tide, and you dig your own hot pool right on the beach. You hire spades from the surf shop ($5). The catch: it only works 2 hours either side of low tide. Check the tide chart before you go. It's 2h 30min from Auckland — pair it with Hahei and Cathedral Cove for a full day.",
+      "list": [
+        "Check tide times before leaving: hotwatertide.co.nz",
+        "Go at low tide — arriving at high tide means no geothermal seep.",
+        "Cathedral Cove is 10 min away: stunning sea arch, accessible by boat or 35-min walk. Under 13s free.",
+        "Hahei village has good cafes. Stock up before Hot Water Beach — nothing there."
+      ],
+      "cta": {
+        "text": "Plan your Auckland trip — 7-day North Island itinerary →",
+        "url": "/itineraries/7-day-north-island-family-road-trip/",
+        "affiliate": false
+      }
+    }
+  ]
+}

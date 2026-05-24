@@ -225,23 +225,40 @@ def build():
                **ctx)
 
     # ── Sitemap ───────────────────────────────────────────────────────────────
-    pages = (
-        ["", "destinations", "activities", "itineraries", "campervans", "tools", "travel-tips"] +
-        [f"destinations/{d['slug']}" for d in destinations] +
-        [f"activity/{a['slug']}" for a in activities] +
-        [f"activities/{s}" for s in dest_slugs] +
-        [f"itineraries/{i['slug']}" for i in itineraries] +
-        [f"campervans/{v['slug']}" for v in campervans] +
-        [f"tools/{t['slug']}" for t in tools] +
-        [f"travel-tips/{g['slug']}" for g in guides] +
-        ["overseas"] +
-        [f"overseas/{d['slug']}" for d in overseas]
-    )
+    from datetime import date as _date
+    today = _date.today().isoformat()
+
+    def sm_url(path, priority="0.6", changefreq="monthly"):
+        loc = f"{site['base_url']}/{path}" if path else site['base_url']
+        return f'  <url><loc>{loc}</loc><lastmod>{today}</lastmod><changefreq>{changefreq}</changefreq><priority>{priority}</priority></url>\n'
+
     sitemap = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
-    for p in pages:
-        sitemap += f"  <url><loc>{site['base_url']}/{p}</loc></url>\n"
+    sitemap += sm_url("", "1.0", "weekly")
+    for slug in ["destinations", "itineraries", "campervans", "activities", "tools", "travel-tips", "overseas"]:
+        sitemap += sm_url(slug, "0.8", "weekly")
+    for d in destinations:
+        sitemap += sm_url(f"destinations/{d['slug']}", "0.9", "monthly")
+    for i in itineraries:
+        sitemap += sm_url(f"itineraries/{i['slug']}", "0.9", "monthly")
+    for v in campervans:
+        sitemap += sm_url(f"campervans/{v['slug']}", "0.8", "monthly")
+    for a in activities:
+        sitemap += sm_url(f"activity/{a['slug']}", "0.7", "monthly")
+    for s in dest_slugs:
+        sitemap += sm_url(f"activities/{s}", "0.6", "monthly")
+    for t in tools:
+        sitemap += sm_url(f"tools/{t['slug']}", "0.7", "monthly")
+    for g in guides:
+        sitemap += sm_url(f"travel-tips/{g['slug']}", "0.7", "monthly")
+    for o in overseas:
+        sitemap += sm_url(f"overseas/{o['slug']}", "0.7", "monthly")
     sitemap += "</urlset>"
     (OUT / "sitemap.xml").write_text(sitemap)
+
+    # ── robots.txt ────────────────────────────────────────────────────────────
+    (OUT / "robots.txt").write_text(
+        f"User-agent: *\nAllow: /\nSitemap: {site['base_url']}/sitemap.xml\n"
+    )
 
     # ── CNAME ─────────────────────────────────────────────────────────────────
     (OUT / "CNAME").write_text("nzfamilytravel.co.nz")
