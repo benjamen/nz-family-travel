@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+
+{% block title %}{{ hub_title }} — NZ Family Travel 2026{% endblock %}
+{% block desc %}{{ hub_subtitle }}{% endblock %}
+{% block canonical %}{{ hub_type }}/{% endblock %}
+
+{% block hero %}
+<section class="page-hero">
+  <div class="hero-inner">
+    <div class="breadcrumb"><a href="/">Home</a> › {{ hub_title }}</div>
+    <h1>{{ hub_title }}</h1>
+    <p>{{ hub_subtitle }}</p>
+  </div>
+</section>
+{% endblock %}
+
+{% block content %}
+
+<section class="section">
+  <!-- Affiliate bar -->
+  <div class="affiliate-strip" style="margin-bottom:2rem">
+    <div class="aff-strip-inner">
+      <a href="{{ site.affiliates.discover_cars.url }}" class="aff-strip-item" rel="sponsored" target="_blank">🚐 <strong>Compare Campervans</strong></a>
+      <a href="{{ site.affiliates.bookme.url }}" class="aff-strip-item" rel="sponsored" target="_blank">🎫 <strong>Book Activities & Save</strong></a>
+      <a href="{{ site.affiliates.booking_com.url }}" class="aff-strip-item" rel="sponsored" target="_blank">🏕️ <strong>Find Accommodation</strong></a>
+    </div>
+  </div>
+
+  <div class="hub-grid">
+    {% for item in items %}
+    <a href="/{{ item_url_prefix }}/{{ item[item_slug_field] }}/" class="hub-card">
+      <h3>{{ item[item_name_field] }}</h3>
+      <p>{{ item[item_desc_field][:120] }}{% if item[item_desc_field]|length > 120 %}…{% endif %}</p>
+      {% if hub_type == "destinations" %}
+      <div class="hub-card-meta">
+        <span>{{ item.quick_facts.budget_family4_per_day }}/day</span>
+        <span>Ages {{ item.quick_facts.best_ages }}</span>
+        <span>{{ item.island }}</span>
+      </div>
+      {% elif hub_type == "itineraries" %}
+      <div class="hub-card-meta">
+        <span>{{ item.duration_days }} days</span>
+        <span>{{ item.budget_family4 }}</span>
+        <span>{{ item.best_season }}</span>
+      </div>
+      {% elif hub_type == "activities" %}
+      <div class="hub-card-meta">
+        <span>{{ item.destination|title }}</span>
+        <span>Ages {{ item.min_age }}+</span>
+        <span>{% if item.price.adult > 0 %}${{ item.price.adult }}/adult{% else %}Free{% endif %}</span>
+      </div>
+      {% endif %}
+      <span class="hub-link">View details →</span>
+    </a>
+    {% endfor %}
+  </div>
+</section>
+
+{% endblock %}

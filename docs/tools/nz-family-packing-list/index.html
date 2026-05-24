@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en-NZ">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NZ Family Packing List Generator — NZ Family Travel</title>
+  <meta name="description" content="Customised NZ packing lists by destination, season, and ages of your kids. Don't forget the sandfly repellent.">
+  <link rel="canonical" href="https://nzfamilytravel.co.nz/tools/nz-family-packing-list/">
+  <link rel="stylesheet" href="/static/css/style.css">
+  <link rel="icon" href="/static/img/favicon.svg" type="image/svg+xml">
+  
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"NZ Family Travel — NZ's Family Holiday Planning Platform","url":"https://nzfamilytravel.co.nz"}</script>
+  
+<style>
+.tool-container { background: #f9fafb; border: 1px solid #e5e7eb; border-radius: 12px; padding: 2rem; margin: 1.5rem 0; }
+.tool-row { display: flex; gap: 1rem; align-items: center; margin-bottom: 1rem; flex-wrap: wrap; }
+.tool-row label { font-weight: 600; min-width: 180px; }
+.tool-row select, .tool-row input[type="number"] { padding: .5rem .75rem; border: 1px solid #d1d5db; border-radius: 8px; font-size: 1rem; }
+.tool-result { background: #fff; border: 2px solid #2563eb; border-radius: 8px; padding: 1.5rem; margin-top: 1.5rem; }
+.result-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px,1fr)); gap: 1rem; margin-top: 1rem; }
+.result-item { text-align: center; padding: 1rem; background: #f0f4ff; border-radius: 8px; }
+.result-val { display: block; font-size: 1.5rem; font-weight: 800; color: #2563eb; }
+.result-label { font-size: .82rem; color: #6b7280; }
+.btn-calculate { background: #2563eb; color: #fff; border: none; padding: .75rem 2rem; border-radius: 8px; font-size: 1rem; font-weight: 700; cursor: pointer; margin-top: 1rem; }
+.btn-calculate:hover { background: #1d4ed8; }
+.driving-table { width: 100%; border-collapse: collapse; margin-top: 1rem; }
+.driving-table th { background: #1f2937; color: #fff; padding: .6rem 1rem; text-align: left; }
+.driving-table td { padding: .6rem 1rem; border-bottom: 1px solid #f3f4f6; }
+.driving-table tr:nth-child(even) { background: #f9fafb; }
+</style>
+
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="/" class="nav-logo">✈️ NZ Family Travel</a>
+      <div class="nav-links">
+        <a href="/destinations/">Destinations</a>
+        <a href="/itineraries/">Itineraries</a>
+        <a href="/campervans/">Campervans</a>
+        <a href="/activities/">Activities</a>
+        <a href="/tools/">Tools</a>
+        <a href="/travel-tips/">Tips</a>
+      </div>
+    </div>
+  </nav>
+
+  
+<section class="page-hero">
+  <div class="hero-inner">
+    <div class="breadcrumb"><a href="/">Home</a> › <a href="/tools/">Tools</a> › NZ Family Packing List Generator</div>
+    <div class="tool-icon-big">🎒</div>
+    <h1>NZ Family Packing List Generator</h1>
+    <p>Customised NZ packing lists by destination, season, and ages of your kids. Don't forget the sandfly repellent.</p>
+  </div>
+</section>
+
+
+  <main class="main">
+    
+
+<section class="section">
+  <div class='tool-container'><h2 style='margin-top:0'>Build Your NZ Family Packing List</h2><div class='tool-row'><label>Season</label><select id='season' onchange='buildList()'><option value='summer'>Summer (Dec–Feb)</option><option value='autumn'>Autumn (Mar–May)</option><option value='winter'>Winter (Jun–Aug)</option><option value='spring'>Spring (Sep–Nov)</option></select></div><div class='tool-row'><label>Youngest child age</label><select id='youngest' onchange='buildList()'><option value='baby'>Under 2</option><option value='toddler'>2–4</option><option value='school'>5–10</option><option value='teen'>11+</option></select></div><div class='tool-row'><label>Destinations</label><select id='dest' onchange='buildList()'><option value='both'>Both islands</option><option value='north'>North Island only</option><option value='south'>South Island only</option><option value='west_coast'>West Coast / Glaciers</option><option value='beach'>Beach holiday (Bay of Islands)</option></select></div><div class='tool-row'><label>Transport</label><select id='transport' onchange='buildList()'><option value='campervan'>Campervan</option><option value='car'>Rental car + hotels</option><option value='fly'>Flying between cities</option></select></div><div id='packing-result'></div></div><script>const ALWAYS=['NZ power adaptors (Type I — same as Australia)','Reusable water bottles (save $20/day vs buying water)','Rain jackets for everyone (NZ weather is unpredictable)','Sunscreen SPF50+ (NZ UV is intense even on cloudy days)','First aid kit (plasters, antihistamine, paracetamol)','Travel insurance docs (digital + printed)','Passports / ID','NZ road map or offline maps (Google Maps offline NZ)','Snack bag for car trips (muesli bars, fruit, crackers)','Reusable bags for groceries'];const SUMMER=['Swimwear (2 pairs per person — things stay wet in a campervan)','Sun hats','Sunglasses','Light layers for evenings (Queenstown/Wanaka evenings cool even in summer)','Sandals/jandals','Beach towels (quick-dry)'];const WINTER=['Thermal base layers','Fleece or down jackets','Waterproof boots','Warm hats and gloves','Ski gear if skiing (or hire at resort)','Snow chains if driving South Island winter roads'];const AUTUMN=['Mid-layer fleece','Light waterproof jacket','Layers — mornings cool, afternoons warm'];const SPRING=['Rain jacket essential (spring = most changeable weather)','Layers','Light fleece'];const BABY=['Nappies (buy in bulk at Countdown/Pak'nSave)','Baby carrier/sling','Portable cot if holiday parks (most have cots — ask ahead)','Baby food or formula (all available at NZ supermarkets)','Changing mat','Baby sunscreen SPF50+'];const TODDLER=['Reins or wrist strap for busy areas','Snacks, snacks, snacks','Portable potty for road trips','Car seat (check with rental company — usually $10/day extra)','Small backpack with their "own things"'];const SCHOOL=['Activities for long drives (tablets with downloaded shows, headphones)','Their own camera or spare phone','A journal (helps them remember the trip)'];const TEEN=['Headphones','Power bank','Their phone with offline maps downloaded'];const CAMPERVAN_EXTRA=['Microfibre towels (quick-dry)','Sandfly repellent (DEET 30%+ — ESSENTIAL for West Coast)','Collapsible laundry basket','Clothes pegs','Small cutting board and kitchen knife','Coffee plunger','Levelling blocks','Outdoor chairs (not all vans include these)'];const WESTCOAST=['Sandfly repellent — bring MORE than you think','Waterproof everything — pack assume it will rain','Gumboots/wellies for kids'];function buildList(){const season=document.getElementById('season').value;const youngest=document.getElementById('youngest').value;const dest=document.getElementById('dest').value;const transport=document.getElementById('transport').value;let list=[...ALWAYS];if(season==='summer')list=[...list,...SUMMER];else if(season==='winter')list=[...list,...WINTER];else if(season==='autumn')list=[...list,...AUTUMN];else list=[...list,...SPRING];if(youngest==='baby')list=[...list,...BABY];else if(youngest==='toddler')list=[...list,...TODDLER];else if(youngest==='school')list=[...list,...SCHOOL];else list=[...list,...TEEN];if(transport==='campervan')list=[...list,...CAMPERVAN_EXTRA];if(dest==='west_coast'||dest==='south')list=[...list,...WESTCOAST];const div=document.getElementById('packing-result');div.innerHTML='<div class="tool-result"><h3 style="margin-top:0">Your Packing List ('+list.length+' items)</h3><ul style="columns:2;gap:2rem;list-style:none;padding:0">'+list.map(i=>'<li style="margin-bottom:.5rem">☐ '+i+'</li>').join('')+'</ul></div>';} buildList();</script>
+</section>
+
+<!-- Affiliate suggestions from results -->
+<section class="section section-alt">
+  <h2>Based on Your Trip — Useful Links</h2>
+  <div class="mid-aff-grid">
+    <a href="https://www.discovercars.com/" class="mid-aff-card" rel="sponsored" target="_blank">
+      <strong>🚐 Compare Campervan Prices</strong>
+      <span>Jucy, Maui, Britz from $89/day. Saves $600+ on accommodation for 7+ day trips.</span>
+    </a>
+    <a href="https://www.bookme.co.nz/" class="mid-aff-card" rel="sponsored" target="_blank">
+      <strong>🎫 Pre-Book Activities</strong>
+      <span>Up to 40% off NZ attractions via Bookme. Rotorua, Queenstown, Taupo.</span>
+    </a>
+    <a href="https://www.covermore.co.nz/" class="mid-aff-card" rel="sponsored" target="_blank">
+      <strong>🛡️ Travel Insurance</strong>
+      <span>Cover-More — NZ's most trusted travel insurer. Essential for families.</span>
+    </a>
+  </div>
+</section>
+
+<!-- Related tools -->
+<section class="section">
+  <h2>Other Travel Tools</h2>
+  <div class="tools-grid">
+    
+    <a href="/tools/nz-best-month-to-visit/" class="tool-card">
+      <span class="tool-icon">🌤️</span>
+      <h3>Best Month to Visit NZ — Weather, Prices & Crowds by Month</h3>
+      <p>Compare NZ weather, prices, and crowd levels for every month. Find the best time for your family holiday.</p>
+    </a>
+    
+    <a href="/tools/nz-driving-times/" class="tool-card">
+      <span class="tool-icon">🗺️</span>
+      <h3>NZ Driving Times — Family Road Trip Distance Chart</h3>
+      <p>Realistic driving times between NZ cities with recommended kid stops. Plan your road trip with accurate times.</p>
+    </a>
+    
+    <a href="/tools/nz-family-travel-budget-calculator/" class="tool-card">
+      <span class="tool-icon">💰</span>
+      <h3>NZ Family Travel Budget Calculator</h3>
+      <p>Get a realistic cost estimate for your NZ family holiday — accommodation, activities, food, fuel, and campervan hire.</p>
+    </a>
+    
+  </div>
+</section>
+
+
+  </main>
+
+  <!-- Sticky affiliate bar (desktop) -->
+  <div class="sticky-affiliate">
+    <div class="sticky-inner">
+      <a href="https://www.discovercars.com/" rel="sponsored" target="_blank" class="sticky-link">🚐 Compare Campervans</a>
+      <a href="https://www.bookme.co.nz/" rel="sponsored" target="_blank" class="sticky-link">🎫 Book Activities & Save</a>
+      <a href="https://www.booking.com/" rel="sponsored" target="_blank" class="sticky-link">🏕️ Find Family Accommodation</a>
+      <a href="https://www.covermore.co.nz/" rel="sponsored" target="_blank" class="sticky-link">🛡️ Travel Insurance</a>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-cols">
+        <div>
+          <strong>NZ Family Travel</strong>
+          <p>Independent travel planning for New Zealand families. We earn a small commission on some referrals — this never affects our recommendations.</p>
+        </div>
+        <div>
+          <strong>Destinations</strong>
+          <ul>
+            
+            <li><a href="/destinations/queenstown-with-kids/">Queenstown</a></li>
+            
+            <li><a href="/destinations/rotorua-family-guide/">Rotorua</a></li>
+            
+            <li><a href="/destinations/taupo-with-kids/">Taupo</a></li>
+            
+            <li><a href="/destinations/christchurch-with-kids/">Christchurch</a></li>
+            
+            <li><a href="/destinations/bay-of-islands-family/">Bay of Islands</a></li>
+            
+            <li><a href="/destinations/wanaka-with-kids/">Wanaka</a></li>
+            
+          </ul>
+        </div>
+        <div>
+          <strong>Itineraries</strong>
+          <ul>
+            
+            <li><a href="/itineraries/7-day-north-island-family-road-trip/">7 days — 7-Day North Island Family Road Trip…</a></li>
+            
+            <li><a href="/itineraries/10-day-south-island-family-road-trip/">10 days — 10-Day South Island Family Road Trip…</a></li>
+            
+            <li><a href="/itineraries/queenstown-wanaka-family-weekend/">4 days — Queenstown & Wanaka Family Long Weekend…</a></li>
+            
+          </ul>
+          <strong style="margin-top:1rem;display:block">Campervans</strong>
+          <ul>
+            
+            <li><a href="/campervans/jucy-campervan-review/">Jucy Rentals</a></li>
+            
+            <li><a href="/campervans/maui-campervan-review/">Maui Campervans</a></li>
+            
+            <li><a href="/campervans/britz-campervan-review/">Britz Campervans</a></li>
+            
+            <li><a href="/campervans/mighty-campervan-review/">Mighty Campers</a></li>
+            
+            <li><a href="/campervans/apollo-campervan-review/">Apollo Motorhomes</a></li>
+            
+          </ul>
+        </div>
+        <div>
+          <strong>Tools</strong>
+          <ul>
+            
+            <li><a href="/tools/nz-best-month-to-visit/">Best Month to Visit NZ — Weather, Prices & Crowds by Month</a></li>
+            
+            <li><a href="/tools/nz-driving-times/">NZ Driving Times — Family Road Trip Distance Chart</a></li>
+            
+            <li><a href="/tools/nz-family-packing-list/">NZ Family Packing List Generator</a></li>
+            
+            <li><a href="/tools/nz-family-travel-budget-calculator/">NZ Family Travel Budget Calculator</a></li>
+            
+          </ul>
+          <strong style="margin-top:1rem;display:block">Travel Tips</strong>
+          <ul>
+            
+            <li><a href="/travel-tips/nz-campervan-guide-families/">Campervan Guide</a></li>
+            
+            <li><a href="/travel-tips/nz-family-travel-costs/">How Much Does NZ Cost?</a></li>
+            
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 NZ Family Travel · <a href="mailto:hello@nzfamilytravel.co.nz">Contact</a> · Prices are indicative — always confirm with providers directly. Some links are affiliate links.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

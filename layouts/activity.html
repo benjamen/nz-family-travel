@@ -1,0 +1,152 @@
+{% extends "base.html" %}
+
+{% block title %}{{ activity.name }} — Family Review NZ 2026 (Price, Min Age, Tips){% endblock %}
+{% block desc %}{{ activity.name }} review: {% if activity.price.adult > 0 %}${{ activity.price.adult }}/adult, ${{ activity.price.child }}/child{% else %}free entry{% endif %}, ages {{ activity.min_age }}+, {{ activity.duration }}. Is it worth it for families?{% endblock %}
+{% block canonical %}activity/{{ activity.slug }}/{% endblock %}
+
+{% block hero %}
+<section class="page-hero">
+  <div class="hero-inner">
+    <div class="breadcrumb"><a href="/">Home</a> › <a href="/activities/">Activities</a> › <a href="/activities/{{ activity.destination }}/">{{ activity.destination|title }}</a> › {{ activity.name }}</div>
+    <h1>{{ activity.name }}</h1>
+    <p>{{ activity.tagline }}</p>
+    <div class="act-hero-badges">
+      <span class="act-dest-badge">📍 {{ activity.destination|title }}</span>
+      {% if activity.rain_safe %}<span class="badge-rain">☂ Rain-safe</span>{% endif %}
+      {% if activity.price.adult == 0 %}<span class="badge-free">Free entry</span>{% endif %}
+      <span class="badge-age">Ages {{ activity.min_age }}+</span>
+      <span class="badge-duration">⏱ {{ activity.duration }}</span>
+    </div>
+  </div>
+</section>
+{% endblock %}
+
+{% block content %}
+
+<!-- Structured summary (AI-readable) -->
+<section class="section">
+  <div class="quick-facts-block">
+    <div class="qf-grid">
+      <div class="qf-item">
+        <span class="qf-label">Adult price</span>
+        <span class="qf-val">{% if activity.price.adult > 0 %}${{ activity.price.adult }}{% else %}Free{% endif %}</span>
+      </div>
+      <div class="qf-item">
+        <span class="qf-label">Child price</span>
+        <span class="qf-val">{% if activity.price.child > 0 %}${{ activity.price.child }}{% else %}Free{% endif %}</span>
+      </div>
+      <div class="qf-item">
+        <span class="qf-label">Family of 4</span>
+        <span class="qf-val">{% if activity.price.family4 > 0 %}${{ activity.price.family4 }}{% else %}Free{% endif %}</span>
+      </div>
+      <div class="qf-item">
+        <span class="qf-label">Minimum age</span>
+        <span class="qf-val">{{ activity.min_age }}+</span>
+      </div>
+      <div class="qf-item">
+        <span class="qf-label">Duration</span>
+        <span class="qf-val">{{ activity.duration }}</span>
+      </div>
+      <div class="qf-item">
+        <span class="qf-label">Rain-safe</span>
+        <span class="qf-val">{% if activity.rain_safe %}Yes{% else %}No{% endif %}</span>
+      </div>
+      <div class="qf-item">
+        <span class="qf-label">Booking required</span>
+        <span class="qf-val">{% if activity.booking_required %}Yes{% elif activity.booking_recommended %}Recommended{% else %}No{% endif %}</span>
+      </div>
+      <div class="qf-item">
+        <span class="qf-label">Family suitability</span>
+        <span class="qf-val">{{ activity.family_suitability }}/10</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Primary CTA -->
+{% if activity.affiliate_key and site.affiliates[activity.affiliate_key] %}
+<div class="activity-cta-bar">
+  <div class="acb-inner">
+    <div>
+      <strong>{{ activity.name }}</strong>
+      {% if activity.price.adult > 0 %}<span>From ${{ activity.price.adult }}/adult · ${{ activity.price.child }}/child</span>{% else %}<span>Free entry</span>{% endif %}
+    </div>
+    <a href="{{ site.affiliates[activity.affiliate_key].url }}" class="btn btn-primary" rel="sponsored" target="_blank">{{ site.affiliates[activity.affiliate_key].cta }} →</a>
+  </div>
+</div>
+{% endif %}
+
+<!-- Review -->
+<section class="section">
+  <h2>Is {{ activity.name }} Worth It for Families?</h2>
+  <div class="review-block">
+    <p>{{ activity.summary }}</p>
+    {% if activity.price.note %}
+    <p class="price-note-block"><strong>Pricing note:</strong> {{ activity.price.note }}</p>
+    {% endif %}
+  </div>
+</section>
+
+<!-- Features -->
+{% if activity.features %}
+<section class="section">
+  <h2>What's Included</h2>
+  <div class="features-tags">
+    {% for feat in activity.features %}
+    <span class="feature-tag">{{ feat }}</span>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
+
+<!-- Tips -->
+{% if activity.tips %}
+<section class="section section-alt">
+  <h2>Insider Tips</h2>
+  <ul class="tips-list">
+    {% for tip in activity.tips %}
+    <li>💡 {{ tip }}</li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
+
+<!-- Affiliate block -->
+{% if activity.affiliate_key and site.affiliates[activity.affiliate_key] %}
+<div class="mid-affiliate" style="margin:0">
+  <div class="mid-aff-inner">
+    <h3>Book {{ activity.name }}</h3>
+    <div class="mid-aff-grid">
+      <a href="{{ site.affiliates[activity.affiliate_key].url }}" class="mid-aff-card" rel="sponsored" target="_blank">
+        <strong>{{ site.affiliates[activity.affiliate_key].cta }}</strong>
+        <span>{% if activity.booking_recommended %}Booking recommended, especially in peak season.{% else %}Walk-ins usually available.{% endif %}</span>
+      </a>
+      <a href="{{ site.affiliates.booking_com.url }}" class="mid-aff-card" rel="sponsored" target="_blank">
+        <strong>🏕️ Find Nearby Accommodation</strong>
+        <span>Stay close to {{ activity.destination|title }} attractions.</span>
+      </a>
+      <a href="{{ site.affiliates.covermore.url }}" class="mid-aff-card" rel="sponsored" target="_blank">
+        <strong>🛡️ Travel Insurance</strong>
+        <span>Always recommended when travelling NZ with kids.</span>
+      </a>
+    </div>
+  </div>
+</div>
+{% endif %}
+
+<!-- Destination link -->
+{% if dest_obj %}
+<section class="section">
+  <h2>More to Do in {{ dest_obj.name }}</h2>
+  <div class="dest-link-card">
+    <div>
+      <h3><a href="/destinations/{{ dest_obj.slug }}/">{{ dest_obj.name }} Family Guide →</a></h3>
+      <p>{{ dest_obj.tagline }}</p>
+      <p><strong>Budget:</strong> {{ dest_obj.quick_facts.budget_family4_per_day }}/day · <strong>Best ages:</strong> {{ dest_obj.quick_facts.best_ages }}</p>
+    </div>
+    <a href="/destinations/{{ dest_obj.slug }}/" class="btn btn-outline">Full {{ dest_obj.name }} guide →</a>
+  </div>
+</section>
+{% endif %}
+
+{% endblock %}

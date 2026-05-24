@@ -1,0 +1,277 @@
+{% extends "base.html" %}
+
+{% block title %}{{ destination.name }} with Kids NZ 2026 — Family Guide, Prices & Itinerary{% endblock %}
+{% block desc %}{{ destination.name }} family holiday guide: {{ destination.quick_facts.budget_family4_per_day }}/day, best ages {{ destination.quick_facts.best_ages }}, top activities, where to stay, and a 3-day itinerary.{% endblock %}
+{% block canonical %}destinations/{{ destination.slug }}/{% endblock %}
+
+{% block extra_head %}
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"TouristDestination","name":"{{ destination.name }}, New Zealand","description":"{{ destination.tagline }}","touristType":"Family"}</script>
+{% endblock %}
+
+{% block hero %}
+<section class="page-hero dest-hero">
+  <div class="hero-inner">
+    <div class="breadcrumb"><a href="/">Home</a> › <a href="/destinations/">Destinations</a> › {{ destination.name }}</div>
+    <div class="dest-hero-meta">
+      <span class="dest-island island-{{ destination.island|lower|replace(' ','-') }}">{{ destination.island }}</span>
+      <span class="dest-region">{{ destination.region }}</span>
+    </div>
+    <h1>{{ destination.name }} with Kids — 2026 Family Guide</h1>
+    <p>{{ destination.tagline }}</p>
+    <div class="dest-verdict-pill">
+      <span>✓ {{ destination.verdict }}</span>
+    </div>
+  </div>
+</section>
+{% endblock %}
+
+{% block content %}
+
+<!-- Quick facts summary block (AI-readable, SEO structured) -->
+<section class="section">
+  <div class="quick-facts-block">
+    <h2 class="sr-only">Quick Facts</h2>
+    <div class="qf-grid">
+      <div class="qf-item">
+        <span class="qf-label">Best ages</span>
+        <span class="qf-val">{{ destination.quick_facts.best_ages }}</span>
+      </div>
+      <div class="qf-item">
+        <span class="qf-label">Budget (family 4)</span>
+        <span class="qf-val">{{ destination.quick_facts.budget_family4_per_day }}/day</span>
+      </div>
+      <div class="qf-item">
+        <span class="qf-label">Best months</span>
+        <span class="qf-val">{{ destination.quick_facts.best_months[0] }}–{{ destination.quick_facts.best_months[-1] }}</span>
+      </div>
+      <div class="qf-item">
+        <span class="qf-label">Nearest airport</span>
+        <span class="qf-val">{{ destination.quick_facts.nearest_airport }}</span>
+      </div>
+      {% for from_city, drive_time in destination.quick_facts.drive_times.items() %}
+      <div class="qf-item">
+        <span class="qf-label">Drive from {{ from_city|replace('_',' ')|title }}</span>
+        <span class="qf-val">{{ drive_time }}</span>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- Primary affiliate block -->
+<div class="affiliate-strip">
+  <div class="aff-strip-inner">
+    <a href="{{ site.affiliates.discover_cars.url }}" class="aff-strip-item" rel="sponsored" target="_blank">
+      🚐 <strong>Compare Campervans</strong> for {{ destination.name }} — from $89/day
+    </a>
+    <a href="{{ site.affiliates.booking_com.url }}" class="aff-strip-item" rel="sponsored" target="_blank">
+      🏕️ <strong>Find Accommodation</strong> in {{ destination.name }}
+    </a>
+    <a href="{{ site.affiliates.bookme.url }}" class="aff-strip-item" rel="sponsored" target="_blank">
+      🎫 <strong>Book {{ destination.name }} Activities</strong> & save up to 40%
+    </a>
+  </div>
+</div>
+
+<!-- Verdict -->
+<section class="section">
+  <h2>Our Verdict</h2>
+  <div class="verdict-block">
+    <p class="verdict-text">{{ destination.summary }}</p>
+    <div class="verdict-grid">
+      <div class="verdict-item verdict-good">
+        <strong>Best for</strong>
+        <p>{{ destination.best_for }}</p>
+      </div>
+      <div class="verdict-item verdict-bad">
+        <strong>Not ideal for</strong>
+        <p>{{ destination.not_ideal_for }}</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Top activities -->
+<section class="section">
+  <h2>Top {{ destination.name }} Family Activities</h2>
+  <div class="act-table-wrap">
+    <table class="act-table">
+      <thead>
+        <tr><th>Activity</th><th>Price (family 4)</th><th>Min age</th><th>Rain-safe</th><th>Must-do?</th><th></th></tr>
+      </thead>
+      <tbody>
+        {% for act in destination.top_activities %}
+        <tr {% if act.must_do %}class="must-do-row"{% endif %}>
+          <td><strong>{{ act.name }}</strong></td>
+          <td>{{ act.price_note }}</td>
+          <td>{{ act.min_age }}+</td>
+          <td>{% if act.rain_safe %}✓{% else %}—{% endif %}</td>
+          <td>{% if act.must_do %}<span class="badge-green">Yes</span>{% else %}—{% endif %}</td>
+          <td><a href="{{ site.affiliates.bookme.url }}" class="btn btn-sm btn-primary" rel="sponsored" target="_blank">Book</a></td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+  <p class="table-note">Prices are indicative. Book via <a href="{{ site.affiliates.bookme.url }}" rel="sponsored" target="_blank">Bookme.co.nz</a> for discounts up to 40%.</p>
+</section>
+
+<!-- Activities from database -->
+{% if dest_activities %}
+<section class="section">
+  <h2>{{ destination.name }} Activity Reviews</h2>
+  <div class="act-grid">
+    {% for act in dest_activities %}
+    <div class="act-card">
+      <div class="act-header">
+        {% if act.rain_safe %}<span class="act-rain rain-yes">☂ Rain-safe</span>{% endif %}
+        {% if act.price.adult == 0 %}<span class="act-free">Free!</span>{% endif %}
+        {% if act.family_suitability >= 9 %}<span class="act-top">Top pick</span>{% endif %}
+      </div>
+      <h3><a href="/activity/{{ act.slug }}/">{{ act.name }}</a></h3>
+      <p>{{ act.tagline }}</p>
+      <div class="act-meta">
+        {% if act.price.adult > 0 %}
+        <span class="act-price">${{ act.price.adult }}/adult · ${{ act.price.child }}/child</span>
+        {% else %}
+        <span class="act-price free">Free entry</span>
+        {% endif %}
+        <span class="act-age">Ages {{ act.min_age }}+</span>
+        <span class="act-duration">{{ act.duration }}</span>
+      </div>
+      <div class="act-footer">
+        <a href="/activity/{{ act.slug }}/" class="btn btn-sm btn-outline">Full review →</a>
+        {% if act.affiliate_key and site.affiliates[act.affiliate_key] %}
+        <a href="{{ site.affiliates[act.affiliate_key].url }}" class="btn btn-sm btn-primary" rel="sponsored" target="_blank">{{ site.affiliates[act.affiliate_key].cta }}</a>
+        {% endif %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
+
+<!-- Free activities -->
+<section class="section">
+  <h2>Free Things to Do in {{ destination.name }} with Kids</h2>
+  <ul class="free-list">
+    {% for item in destination.free_activities %}
+    <li>✓ {{ item }}</li>
+    {% endfor %}
+  </ul>
+</section>
+
+<!-- Rainy day -->
+<section class="section section-alt">
+  <h2>Rainy Day Options — {{ destination.name }}</h2>
+  <div class="rainy-grid">
+    {% for item in destination.rainy_day %}
+    <div class="rainy-card">
+      <span class="rainy-icon">☂</span>
+      <span>{{ item }}</span>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+<!-- 3-day itinerary -->
+<section class="section">
+  <h2>3-Day {{ destination.name }} Family Itinerary</h2>
+  <p class="section-intro">A structured day-by-day plan — adjust to your pace.</p>
+  <div class="day-plan">
+    {% for day_key, day in destination.three_day_itinerary.items() %}
+    <div class="day-card">
+      <div class="day-header">
+        <span class="day-num">{{ loop.index }}</span>
+        <h3>{{ day.title }}</h3>
+        <span class="day-cost">~{{ day.estimated_cost }}</span>
+      </div>
+      <ul>
+        {% for activity in day.activities %}
+        <li>{{ activity }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endfor %}
+  </div>
+  <div class="itin-cta">
+    <p>Want a longer trip? See our full <a href="/itineraries/">NZ family itineraries</a> with day-by-day plans up to 10 days.</p>
+    <a href="{{ site.affiliates.discover_cars.url }}" class="btn btn-primary" rel="sponsored" target="_blank">Compare Campervans for This Trip →</a>
+  </div>
+</section>
+
+<!-- Where to stay -->
+<section class="section">
+  <h2>Where to Stay in {{ destination.name }} with Kids</h2>
+  <div class="stay-grid">
+    {% for place in destination.where_to_stay %}
+    <div class="stay-card">
+      <div class="stay-header">
+        <h3>{{ place.name }}</h3>
+        <span class="stay-type">{{ place.type|replace('_',' ')|title }}</span>
+        <span class="stay-price">{{ place.price_range }}</span>
+      </div>
+      <ul class="stay-features">
+        {% for feat in place.family_features %}
+        <li>{{ feat }}</li>
+        {% endfor %}
+      </ul>
+      {% if site.affiliates[place.affiliate_key] %}
+      <a href="{{ site.affiliates[place.affiliate_key].url }}" class="btn btn-sm btn-primary" rel="sponsored" target="_blank">{{ site.affiliates[place.affiliate_key].cta }}</a>
+      {% endif %}
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+<!-- Budget breakdown -->
+<section class="section">
+  <h2>{{ destination.name }} Family Holiday Budget</h2>
+  <div class="budget-table">
+    <div class="budget-row"><span>Accommodation per night</span><span>{{ destination.budget_breakdown.accommodation_per_night }}</span></div>
+    <div class="budget-row"><span>Activities per day</span><span>{{ destination.budget_breakdown.activities_per_day }}</span></div>
+    <div class="budget-row"><span>Food per day</span><span>{{ destination.budget_breakdown.food_per_day }}</span></div>
+    <div class="budget-row"><span>Transport notes</span><span>{{ destination.budget_breakdown.transport_notes }}</span></div>
+  </div>
+  <div class="budget-cta">
+    <a href="/tools/nz-family-travel-budget-calculator/" class="btn btn-outline">Use the full budget calculator →</a>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="section">
+  <h2>{{ destination.name }} Family FAQ</h2>
+  <div class="faq-list">
+    {% for faq in destination.faqs %}
+    <details class="faq-item">
+      <summary>{{ faq.q }}</summary>
+      <p>{{ faq.a }}</p>
+    </details>
+    {% endfor %}
+  </div>
+</section>
+
+<!-- Nearby destinations -->
+{% if destination.nearby_destinations %}
+<section class="section section-alt">
+  <h2>Also Consider</h2>
+  <div class="nearby-grid">
+    {% for slug in destination.nearby_destinations %}
+    {% set nearby = destinations | selectattr("slug", "equalto", slug) | first %}
+    {% if nearby %}
+    <a href="/destinations/{{ nearby.slug }}/" class="nearby-card">
+      <h3>{{ nearby.name }}</h3>
+      <p>{{ nearby.tagline }}</p>
+      <span>{{ nearby.quick_facts.budget_family4_per_day }}/day · Ages {{ nearby.quick_facts.best_ages }}</span>
+    </a>
+    {% endif %}
+    {% endfor %}
+    <a href="/destinations/" class="nearby-card nearby-all">
+      <h3>All Destinations →</h3>
+      <p>Compare all {{ destinations|length }} NZ family destinations side by side.</p>
+    </a>
+  </div>
+</section>
+{% endif %}
+
+{% endblock %}

@@ -1,0 +1,412 @@
+[
+  {
+    "slug": "7-day-north-island-family-road-trip",
+    "title": "7-Day North Island Family Road Trip",
+    "subtitle": "Auckland → Rotorua → Taupo → Wellington",
+    "tagline": "NZ's classic North Island loop — geothermal parks, lakes, and the capital city",
+    "duration_days": 7,
+    "distance_km": 650,
+    "budget_family4": "$4000–6500",
+    "budget_breakdown": {
+      "accommodation": "$150–350/night",
+      "activities": "$100–250/day",
+      "food": "$80–130/day",
+      "fuel": "~$150 total",
+      "transport": "Rental car (included separately)"
+    },
+    "best_for": "Families with kids 3+, first-time NZ visitors",
+    "best_season": "October–March",
+    "transport": "Rental car (campervan also works well)",
+    "commercial_intent_score": 96,
+    "highlights": ["Rotorua geothermal parks", "Huka Falls (free)", "Lake Taupo swim", "Te Papa Museum Wellington", "Hobbiton option"],
+    "days": [
+      {
+        "day": 1,
+        "location": "Auckland",
+        "title": "Arrival in Auckland",
+        "drive_from_prev": null,
+        "activities": [
+          "Pick up rental car from Auckland Airport",
+          "Drive into Auckland CBD (45 mins)",
+          "Kelly Tarlton's Sea Life Aquarium (if arriving early)",
+          "Walk the waterfront, dinner at the Viaduct"
+        ],
+        "accommodation": "Auckland CBD hotel or holiday park",
+        "estimated_cost": "$50–150",
+        "tips": ["Book accommodation near the motorway for easy departure next morning", "Countdown supermarkets are cheapest for groceries"]
+      },
+      {
+        "day": 2,
+        "location": "Auckland → Rotorua",
+        "title": "Drive to Rotorua — Hobbiton Option",
+        "drive_from_prev": "2h 30m direct, or 3h 30m via Hobbiton",
+        "activities": [
+          "Option A: Drive direct to Rotorua (2.5h), check in, afternoon at Te Puia",
+          "Option B: Hobbiton Movie Set detour in Matamata (add 1 hour each way, book ahead at $49/adult)",
+          "Evening: Dinner in Rotorua CBD"
+        ],
+        "accommodation": "Rotorua (holiday park or hotel)",
+        "estimated_cost": "$120–300",
+        "tips": ["Hobbiton MUST be pre-booked — often sold out weeks ahead", "The direct route via Matamata is still beautiful"]
+      },
+      {
+        "day": 3,
+        "location": "Rotorua",
+        "title": "Geothermal & Farm Day",
+        "drive_from_prev": null,
+        "activities": [
+          "Agrodome Farm Show (9:30am — book ahead)",
+          "Lunch break (Eat Streat Rotorua has great cheap options)",
+          "Skyline Rotorua Gondola & Luge (afternoon)",
+          "Kuirau Park free geothermal walk (evening)"
+        ],
+        "accommodation": "Rotorua (same)",
+        "estimated_cost": "$180–280",
+        "tips": ["Get the multi-ride luge pass for better value", "Kuirau Park has free footbaths — let the kids put their feet in"]
+      },
+      {
+        "day": 4,
+        "location": "Rotorua → Taupo",
+        "title": "Wai-O-Tapu + Drive to Taupo",
+        "drive_from_prev": "1h (via Wai-O-Tapu detour — 30 mins south of Rotorua)",
+        "activities": [
+          "Wai-O-Tapu Thermal Wonderland (arrive by 10am for Lady Knox Geyser at 10:15am)",
+          "Drive to Taupo (1h from Wai-O-Tapu)",
+          "Check in, then walk to Huka Falls (free, 15 mins from town)",
+          "Spa Thermal Park evening soak (free natural hot spring)"
+        ],
+        "accommodation": "Taupo (holiday park or hotel)",
+        "estimated_cost": "$120–200",
+        "tips": ["Wai-O-Tapu's Lady Knox Geyser erupts at exactly 10:15am — don't miss it", "Spa Thermal Park has no changing rooms — wear togs under clothes"]
+      },
+      {
+        "day": 5,
+        "location": "Taupo",
+        "title": "Huka Jet + Lake Day",
+        "drive_from_prev": null,
+        "activities": [
+          "Huka Jet boat experience (book ahead — 30 mins, leaves from near Huka Falls)",
+          "Picnic at Acacia Bay (great swimming beach)",
+          "Aratiatia Rapids (controlled release at 2pm and 4pm in summer — check times)",
+          "AC Baths thermal pools (affordable family swim)"
+        ],
+        "accommodation": "Taupo (same)",
+        "estimated_cost": "$200–350",
+        "tips": ["Buy groceries for your beach picnic — saves $40+ vs eating out", "Aratiatia Rapids release times change seasonally — check the sign at the dam"]
+      },
+      {
+        "day": 6,
+        "location": "Taupo → Wellington",
+        "title": "Drive Day to Wellington",
+        "drive_from_prev": "4h direct (or split with Tongariro National Park stop)",
+        "activities": [
+          "Option A: Drive direct to Wellington (4h), check in, walk the waterfront",
+          "Option B: Stop at Tongariro National Park for 1.5h (dramatic volcanic scenery — see the Chateau)",
+          "Cable car up to Kelburn (Wellington — $10 return, great views)",
+          "Dinner on Cuba Street"
+        ],
+        "accommodation": "Wellington",
+        "estimated_cost": "$30–80",
+        "tips": ["The Tongariro/Desert Road (SH1) is dramatic but add 30 mins", "Wellington waterfront has great free playgrounds"]
+      },
+      {
+        "day": 7,
+        "location": "Wellington",
+        "title": "Wellington Day + Departure",
+        "drive_from_prev": null,
+        "activities": [
+          "Te Papa Museum (free, world-class — kids love the earthquake simulator)",
+          "Wellington Cable Car (views over the harbour)",
+          "Zealandia (optional — native wildlife sanctuary, 2h)",
+          "Return rental car at Wellington Airport"
+        ],
+        "accommodation": "Fly home or continue to South Island (ferry or flight)",
+        "estimated_cost": "$20–150",
+        "tips": ["Te Papa is free and easily fills 3 hours", "Book the Interislander ferry in advance if continuing to South Island"]
+      }
+    ],
+    "affiliate_blocks": [
+      {"type": "rental_car", "affiliate_key": "discover_cars", "cta": "Compare rental cars for this trip", "note": "Manual/small SUV recommended for 7-day North Island trip"},
+      {"type": "accommodation", "affiliate_key": "booking_com", "cta": "Find hotels on this route"},
+      {"type": "activities", "affiliate_key": "bookme", "cta": "Book Rotorua activities and save"},
+      {"type": "insurance", "affiliate_key": "covermore", "cta": "Get travel insurance for your NZ trip"}
+    ],
+    "packing_tips": [
+      "Rain jacket for everyone — NZ weather changes fast",
+      "Swimwear and towels (you'll swim multiple times)",
+      "Reusable water bottles (save $20+/day vs buying water)",
+      "Snack bag for the car — petrol station food is expensive",
+      "Sunscreen — NZ UV is intense even on cloudy days"
+    ],
+    "faqs": [
+      {"q": "Can we do this itinerary in a campervan?", "a": "Yes, and it works even better. You save on accommodation ($40–80/night vs $150–350) and can cook your own meals. Campervans also carry everything you need. See our campervan comparison."},
+      {"q": "Is this itinerary suitable for toddlers?", "a": "Yes — most activities on this route work for under-3s. Agrodome, Te Puia, Huka Falls, and Te Papa are all great for toddlers. The Huka Jet requires minimum 3 years/90cm."},
+      {"q": "What's the best time of year for this trip?", "a": "December–February (summer) is peak season — warm, long days, everything open. January is school holidays (very busy). November and March are sweet spots — shoulder prices, fewer crowds, still warm."}
+    ],
+    "seo_keywords": ["north island family road trip nz", "7 day north island itinerary family", "rotorua taupo wellington family trip"]
+  },
+  {
+    "slug": "10-day-south-island-family-road-trip",
+    "title": "10-Day South Island Family Road Trip",
+    "subtitle": "Christchurch → Kaikoura → Nelson → Westland → Queenstown → Wanaka",
+    "tagline": "NZ's most spectacular drive — glaciers, seals, Alps, and the adventure capital",
+    "duration_days": 10,
+    "distance_km": 1400,
+    "budget_family4": "$6500–10000",
+    "budget_breakdown": {
+      "accommodation": "$150–400/night",
+      "activities": "$150–350/day",
+      "food": "$80–150/day",
+      "fuel": "~$400 total (1400km at NZ fuel prices)",
+      "transport": "Rental car or campervan (included separately)"
+    },
+    "best_for": "Families with kids 5+, those who have done the North Island before",
+    "best_season": "November–March",
+    "transport": "Rental car or campervan (campervan highly recommended)",
+    "commercial_intent_score": 95,
+    "highlights": ["Antarctic Centre Christchurch", "Kaikoura seals and whale watching", "Franz Josef Glacier walk", "Skyline Queenstown", "Wanaka Puzzling World"],
+    "days": [
+      {
+        "day": 1,
+        "location": "Christchurch",
+        "title": "Arrive Christchurch — Antarctic Centre",
+        "drive_from_prev": null,
+        "activities": [
+          "Pick up rental car/campervan at Christchurch Airport",
+          "International Antarctic Centre (3–4 hours — do this first day, next to airport)",
+          "Botanic Gardens walk",
+          "Dinner in Christchurch CBD"
+        ],
+        "accommodation": "Christchurch",
+        "estimated_cost": "$130–200",
+        "tips": ["The Antarctic Centre is 500m from the airport — perfect Day 1 activity", "Book penguin feeding time slot in advance"]
+      },
+      {
+        "day": 2,
+        "location": "Christchurch → Kaikoura",
+        "title": "Drive to Kaikoura — Seals & Seafood",
+        "drive_from_prev": "2h 30m",
+        "activities": [
+          "Stop at Waipara wineries (30 mins north of Christchurch) for picnic and vineyard visit",
+          "Arrive Kaikoura — walk the Kaikoura Peninsula Walkway (seals everywhere, free)",
+          "Whale watching cruise (book well ahead — operates year-round)",
+          "Fresh crayfish dinner at Nin's Bin (roadside — the cheapest cray in NZ)"
+        ],
+        "accommodation": "Kaikoura",
+        "estimated_cost": "$200–450",
+        "tips": ["Kaikoura's crayfish (crayfish/rock lobster) from Nin's Bin is iconic — get there early", "Seal colony at the point is free and the seals are very close"]
+      },
+      {
+        "day": 3,
+        "location": "Kaikoura → Nelson",
+        "title": "Drive to Nelson via Marlborough",
+        "drive_from_prev": "3h 30m",
+        "activities": [
+          "Morning seal colony walk (free)",
+          "Drive via Blenheim — stop at a Marlborough vineyard (kids can explore while adults taste)",
+          "Arrive Nelson — Nelson Markets (Sat morning, world-class)",
+          "Queens Gardens and Tahuna Beach"
+        ],
+        "accommodation": "Nelson",
+        "estimated_cost": "$30–80",
+        "tips": ["Nelson has NZ's most sunshine hours — great beach weather", "Rabbit Island (20 mins) is a hidden gem for a swim"]
+      },
+      {
+        "day": 4,
+        "location": "Nelson / Abel Tasman",
+        "title": "Abel Tasman National Park Day",
+        "drive_from_prev": "1h to Marahau (Abel Tasman gateway)",
+        "activities": [
+          "Water taxi to Split Apple Rock and beach snorkelling ($80/adult, $45/child)",
+          "Kayak tour of Abel Tasman (half-day from Marahau)",
+          "Totaranui Beach picnic (free, remote golden beach)",
+          "Return to Nelson for dinner"
+        ],
+        "accommodation": "Nelson",
+        "estimated_cost": "$200–400",
+        "tips": ["Abel Tasman is a MUST — the golden sand beaches are unlike anywhere else in NZ", "Book kayak tours well ahead in January–February"]
+      },
+      {
+        "day": 5,
+        "location": "Nelson → Westport → Punakaiki",
+        "title": "West Coast Drive — Pancake Rocks",
+        "drive_from_prev": "2h 30m to Punakaiki",
+        "activities": [
+          "Farewell Spit detour (optional, add 1.5h — incredible sandspit at the top of the South Island)",
+          "Punakaiki Pancake Rocks & Blowholes (free — 30-min walk, spectacular)",
+          "Dolomite Point walk",
+          "Overnight at Punakaiki or push on to Greymouth"
+        ],
+        "accommodation": "Punakaiki or Greymouth",
+        "estimated_cost": "$20–60",
+        "tips": ["Punakaiki blowholes are best at high tide — check tide times before visiting", "The Pancake Rocks are free and spectacular — non-negotiable stop"]
+      },
+      {
+        "day": 6,
+        "location": "Punakaiki → Franz Josef",
+        "title": "West Coast to Glacier Country",
+        "drive_from_prev": "2h 30m",
+        "activities": [
+          "Hokitika Gorge detour (30 mins — stunning turquoise river, suspension bridge)",
+          "Hokitika town (jade/pounamu carving workshops)",
+          "Arrive Franz Josef — evening Glacier Valley Walk (free, 1.5h return)"
+        ],
+        "accommodation": "Franz Josef",
+        "estimated_cost": "$30–100",
+        "tips": ["Hokitika Gorge is one of NZ's most Instagrammed spots — worth the detour", "Franz Josef is tiny — book accommodation well ahead"]
+      },
+      {
+        "day": 7,
+        "location": "Franz Josef",
+        "title": "Glacier Day",
+        "drive_from_prev": null,
+        "activities": [
+          "Glacier helicopter experience ($300–500/person — NOT cheap but extraordinary)",
+          "OR Glacier Valley Walk (free — as close to the ice face as you can get on foot)",
+          "Peter's Pool Walk (mirror reflection of mountains)",
+          "Lake Matheson (Mirror Lake — Mt Cook/Mt Tasman reflection)"
+        ],
+        "accommodation": "Franz Josef or Fox Glacier",
+        "estimated_cost": "$30–500+",
+        "tips": ["Helicopter tours require good weather — have a backup plan", "The Valley Walk to the glacier face is free and still incredible", "Minimum age for helicopter is typically 3"]
+      },
+      {
+        "day": 8,
+        "location": "West Coast → Wanaka",
+        "title": "Haast Pass — Most Dramatic Drive in NZ",
+        "drive_from_prev": "4h (Haast Pass — spectacular mountain road)",
+        "activities": [
+          "Drive Haast Pass — stop at Thunder Creek Falls and Blue Pools (free walkways)",
+          "Arrive Wanaka — Puzzling World",
+          "Lake Wanaka swim (Glendhu Bay)",
+          "Dinner in Wanaka town"
+        ],
+        "accommodation": "Wanaka",
+        "estimated_cost": "$50–120",
+        "tips": ["Haast Pass is one of the world's great drives — allow 5 hours minimum with stops", "Blue Pools (near Makarora) have crystal-clear water — swim if warm enough"]
+      },
+      {
+        "day": 9,
+        "location": "Wanaka → Queenstown",
+        "title": "Drive to Queenstown — Adventure Day",
+        "drive_from_prev": "1h (via Crown Range) or 1h 30m (via Cromwell)",
+        "activities": [
+          "Crown Range road (highest sealed road in NZ — spectacular views, drive slowly)",
+          "Arrive Queenstown",
+          "Skyline Gondola & Luge (afternoon)",
+          "Queenstown waterfront evening and dinner"
+        ],
+        "accommodation": "Queenstown",
+        "estimated_cost": "$150–250",
+        "tips": ["Crown Range is stunning — stop at the viewpoint at the top", "Book gondola online to save queuing"]
+      },
+      {
+        "day": 10,
+        "location": "Queenstown",
+        "title": "Final Day — Queenstown Activities + Fly Out",
+        "drive_from_prev": null,
+        "activities": [
+          "Jet boat experience (Kawarau or Shotover — book ahead)",
+          "Arrowtown day trip (20 mins — historic gold-rush town, free)",
+          "Return rental car at Queenstown Airport",
+          "Fly home"
+        ],
+        "accommodation": "Fly out",
+        "estimated_cost": "$150–350",
+        "tips": ["Return the car with a full tank of fuel — petrol at the airport is overpriced", "Allow 2h before your flight for the airport"]
+      }
+    ],
+    "affiliate_blocks": [
+      {"type": "campervan", "affiliate_key": "discover_cars", "cta": "Compare campervans for the South Island", "note": "Campervan HIGHLY recommended for this route — saves $800+ on accommodation"},
+      {"type": "accommodation", "affiliate_key": "booking_com", "cta": "Find hotels on this route"},
+      {"type": "activities", "affiliate_key": "bookme", "cta": "Book NZ activities and save"},
+      {"type": "insurance", "affiliate_key": "covermore", "cta": "Get travel insurance — essential for NZ road trips"}
+    ],
+    "packing_tips": [
+      "Warm layer for glacier country (Franz Josef can be cold even in summer)",
+      "Sandflies repellent (the West Coast has fierce sandflies — DEET essential)",
+      "Rain jacket (West Coast gets 7m of rain per year)",
+      "Swimwear and quick-dry towel (multiple swimming stops)",
+      "Groceries topped up at major towns (Christchurch, Nelson, Hokitika, Queenstown)"
+    ],
+    "faqs": [
+      {"q": "Should we do a campervan or rental car for the South Island?", "a": "Campervan, if budget allows. The South Island has world-class holiday parks and freedom camping spots. A 6-berth campervan for a family of 4 saves $600–1200 in accommodation over 10 days. Compare campervan prices above."},
+      {"q": "Is this route suitable for toddlers?", "a": "Yes with modifications. Toddlers will love the animals (seals at Kaikoura, Abel Tasman birds), the beaches, and the playgrounds. Skip the helicopter and jet boat if under 3. The driving days are long — break them with short walks and stops."},
+      {"q": "Can we drive this in winter?", "a": "With caution. The Haast Pass and Crown Range can be icy — check road conditions daily at nzta.govt.nz. The West Coast and Westland glaciers are actually spectacular in winter with fresh snow. Carry tyre chains if renting in June–August."}
+    ],
+    "seo_keywords": ["south island family road trip nz", "10 day south island itinerary kids", "south island campervan family trip", "south island with kids nz"]
+  },
+  {
+    "slug": "queenstown-wanaka-family-weekend",
+    "title": "Queenstown & Wanaka Family Long Weekend",
+    "subtitle": "3–4 Days — Adventure + Lakes",
+    "tagline": "The perfect South Island long weekend — adventure in Queenstown, calm in Wanaka",
+    "duration_days": 4,
+    "distance_km": 180,
+    "budget_family4": "$2500–4000",
+    "budget_breakdown": {
+      "accommodation": "$200–400/night",
+      "activities": "$200–400/day",
+      "food": "$100–160/day",
+      "fuel": "~$60 total",
+      "transport": "Rental car (included separately)"
+    },
+    "best_for": "Families wanting a focused South Island getaway",
+    "best_season": "October–April",
+    "transport": "Rental car (fly into Queenstown)",
+    "commercial_intent_score": 90,
+    "highlights": ["Skyline Gondola & Luge", "Jet boat", "Wanaka Puzzling World", "Crown Range drive"],
+    "days": [
+      {
+        "day": 1,
+        "location": "Queenstown",
+        "title": "Arrive Queenstown — Gondola Day",
+        "drive_from_prev": null,
+        "activities": ["Pick up rental car", "Skyline Gondola & Luge (3+ hours)", "Queenstown foreshore walk", "Fergburger dinner (queue early)"],
+        "accommodation": "Queenstown",
+        "estimated_cost": "$150–250",
+        "tips": ["Book gondola online to skip queues", "Buy multi-ride luge pass"]
+      },
+      {
+        "day": 2,
+        "location": "Queenstown",
+        "title": "Jet Boat + Lake Day",
+        "drive_from_prev": null,
+        "activities": ["Jet boat on the Kawarau River (Queenstown Jet)", "Lunch at Frankton Arm", "Queenstown Gardens frisbee golf (free)", "TSS Earnslaw Steamship sunset cruise"],
+        "accommodation": "Queenstown",
+        "estimated_cost": "$250–400",
+        "tips": ["Jet boat minimum age: 3 years. Under that, do the Steamship instead."]
+      },
+      {
+        "day": 3,
+        "location": "Queenstown → Wanaka",
+        "title": "Crown Range to Wanaka",
+        "drive_from_prev": "1h via Crown Range",
+        "activities": ["Crown Range scenic drive (stop at top viewpoint)", "Arrive Wanaka — Puzzling World", "Lake Wanaka swim at Glendhu Bay", "Cinema Paradiso evening (book ahead)"],
+        "accommodation": "Wanaka",
+        "estimated_cost": "$60–150",
+        "tips": ["Crown Range has the best views in the South Island — stop at the top"]
+      },
+      {
+        "day": 4,
+        "location": "Wanaka → Queenstown",
+        "title": "Wanaka Morning + Fly Out",
+        "drive_from_prev": "1h to Queenstown Airport",
+        "activities": ["Lake Wanaka morning walk (That Wanaka Tree photo)", "Brunch at Federal Diner Wanaka", "Drive to Queenstown Airport (1h)", "Fly home"],
+        "accommodation": "Fly out",
+        "estimated_cost": "$30–60",
+        "tips": ["Allow 2h before your flight — Queenstown Airport can be busy"]
+      }
+    ],
+    "affiliate_blocks": [
+      {"type": "rental_car", "affiliate_key": "discover_cars", "cta": "Compare rental cars for Queenstown"},
+      {"type": "accommodation", "affiliate_key": "booking_com", "cta": "Find family accommodation"},
+      {"type": "flights", "affiliate_key": "skyscanner", "cta": "Compare flights to Queenstown"}
+    ],
+    "packing_tips": ["Layers (Queenstown evenings are cool year-round)", "Swimwear", "Walking shoes"],
+    "faqs": [
+      {"q": "Is 4 days enough for Queenstown and Wanaka?", "a": "Yes — 2 nights in Queenstown and 1–2 in Wanaka covers the key experiences without rushing. You could add Arrowtown (20 mins from Queenstown) as a free half-day."}
+    ],
+    "seo_keywords": ["queenstown wanaka family trip", "queenstown wanaka 4 days kids", "queenstown family weekend"]
+  }
+]

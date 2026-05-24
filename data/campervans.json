@@ -1,0 +1,191 @@
+[
+  {
+    "slug": "jucy-campervan-review",
+    "name": "Jucy Rentals",
+    "tagline": "Budget-friendly, compact campervans — great value for families on a budget",
+    "type": "Budget",
+    "best_for": "Couples or families of 3 on a budget",
+    "not_ideal_for": "Families of 4+ needing space",
+    "rating": 3.8,
+    "review_count": 2400,
+    "pricing": {
+      "per_day_low": 89,
+      "per_day_high": 189,
+      "per_day_note": "Varies by season and van type. Summer peak: $150–189/day.",
+      "minimum_days": 5
+    },
+    "vans": [
+      {"name": "Condo (2-berth)", "sleeps": 2, "price_note": "From $89/day", "family_suitable": false},
+      {"name": "Cheeky Camper (4-berth)", "sleeps": 4, "price_note": "From $139/day", "family_suitable": true},
+      {"name": "Big Kahuna (6-berth)", "sleeps": 6, "price_note": "From $169/day", "family_suitable": true}
+    ],
+    "pros": [
+      "Most affordable major campervan brand in NZ",
+      "One-way rentals available (Auckland to Queenstown)",
+      "Good network of pickup locations",
+      "Friendly, young staff"
+    ],
+    "cons": [
+      "Older fleet — some vans showing wear",
+      "Customer service can be inconsistent",
+      "Limited storage in smaller vans",
+      "Not ideal for families of 4 in the 2-berth"
+    ],
+    "verdict": "Best value campervan hire in NZ. The 4-berth Cheeky works for small families; the Big Kahuna gives families of 4 breathing room.",
+    "pickup_locations": ["Auckland", "Wellington", "Christchurch", "Queenstown"],
+    "one_way": true,
+    "affiliate_key": "discover_cars",
+    "website": "https://jucy.co.nz/"
+  },
+  {
+    "slug": "maui-campervan-review",
+    "name": "Maui Campervans",
+    "tagline": "Mid-range to premium campervans with a large, modern fleet",
+    "type": "Mid-range",
+    "best_for": "Families of 4 who want comfort and reliability",
+    "not_ideal_for": "Budget travellers — Maui is 30–50% more expensive than Jucy",
+    "rating": 4.1,
+    "review_count": 3100,
+    "pricing": {
+      "per_day_low": 130,
+      "per_day_high": 280,
+      "per_day_note": "Summer peak: $200–280/day for family vans",
+      "minimum_days": 3
+    },
+    "vans": [
+      {"name": "Spirit (2-berth)", "sleeps": 2, "price_note": "From $130/day", "family_suitable": false},
+      {"name": "Cascade (4-berth)", "sleeps": 4, "price_note": "From $190/day", "family_suitable": true},
+      {"name": "Ultima (6-berth)", "sleeps": 6, "price_note": "From $250/day", "family_suitable": true}
+    ],
+    "pros": [
+      "Newer, more reliable fleet than budget operators",
+      "Better customer support and 24/7 roadside assistance",
+      "More spacious vans with better layouts",
+      "Kitchen equipment included",
+      "One-way rentals available"
+    ],
+    "cons": [
+      "Significantly more expensive than Jucy/Mighty",
+      "Excess insurance can add $20–50/day",
+      "Peak season availability books out fast"
+    ],
+    "verdict": "The best balance of quality and price for families. The Cascade 4-berth is the most popular family choice.",
+    "pickup_locations": ["Auckland", "Wellington", "Christchurch", "Queenstown", "Picton"],
+    "one_way": true,
+    "affiliate_key": "maui",
+    "website": "https://www.maui-rentals.com/en/nz/"
+  },
+  {
+    "slug": "britz-campervan-review",
+    "name": "Britz Campervans",
+    "tagline": "Family-focused campervans with separate sleeping zones",
+    "type": "Family",
+    "best_for": "Families of 4–5 who prioritise space and separate sleeping areas",
+    "not_ideal_for": "Budget travellers or couples",
+    "rating": 4.2,
+    "review_count": 1800,
+    "pricing": {
+      "per_day_low": 150,
+      "per_day_high": 320,
+      "per_day_note": "Summer peak: $250–320/day for the Explorer family van",
+      "minimum_days": 5
+    },
+    "vans": [
+      {"name": "Venturer (4-berth)", "sleeps": 4, "price_note": "From $150/day", "family_suitable": true},
+      {"name": "Explorer (5-berth)", "sleeps": 5, "price_note": "From $210/day", "family_suitable": true},
+      {"name": "Discovery (6-berth)", "sleeps": 6, "price_note": "From $270/day", "family_suitable": true}
+    ],
+    "pros": [
+      "Best-designed family layouts — separate kids sleeping area in Explorer",
+      "Good size kitchen with full facilities",
+      "Reliable, well-maintained fleet",
+      "Strong roadside assistance network",
+      "One-way rentals"
+    ],
+    "cons": [
+      "Most expensive of the main brands",
+      "Fewer pickup locations than Maui",
+      "Peak season prices are very high"
+    ],
+    "verdict": "The #1 choice for families with young children who need separate sleeping spaces. The Explorer's layout genuinely works for families.",
+    "pickup_locations": ["Auckland", "Wellington", "Christchurch", "Queenstown"],
+    "one_way": true,
+    "affiliate_key": "discover_cars",
+    "website": "https://www.britz.co.nz/"
+  },
+  {
+    "slug": "mighty-campervan-review",
+    "name": "Mighty Campers",
+    "tagline": "Value-for-money campervans — older fleet, great price",
+    "type": "Budget",
+    "best_for": "Budget-conscious families who prioritise cost over comfort",
+    "not_ideal_for": "Those who want a premium experience",
+    "rating": 3.6,
+    "review_count": 1200,
+    "pricing": {
+      "per_day_low": 79,
+      "per_day_high": 159,
+      "per_day_note": "Often 10–20% cheaper than Jucy for equivalent vans",
+      "minimum_days": 5
+    },
+    "vans": [
+      {"name": "Mighty Double Up (2-berth)", "sleeps": 2, "price_note": "From $79/day", "family_suitable": false},
+      {"name": "Mighty Highball (4-berth)", "sleeps": 4, "price_note": "From $120/day", "family_suitable": true},
+      {"name": "Mighty Jackpot (6-berth)", "sleeps": 6, "price_note": "From $150/day", "family_suitable": true}
+    ],
+    "pros": [
+      "Cheapest major campervan brand in NZ",
+      "One-way available",
+      "Large fleet with good availability",
+      "Reliable enough for most trips"
+    ],
+    "cons": [
+      "Oldest fleet — expect wear and dated interiors",
+      "Customer service mixed reviews",
+      "Less support infrastructure than Maui/Britz"
+    ],
+    "verdict": "Best price for families on a budget. Don't expect luxury — expect functional. Great if you're spending most of your time outside anyway.",
+    "pickup_locations": ["Auckland", "Wellington", "Christchurch", "Queenstown"],
+    "one_way": true,
+    "affiliate_key": "discover_cars",
+    "website": "https://www.mightycampers.co.nz/"
+  },
+  {
+    "slug": "apollo-campervan-review",
+    "name": "Apollo Motorhomes",
+    "tagline": "Premium motorhomes — best for families who want a home on wheels",
+    "type": "Premium",
+    "best_for": "Families who want maximum comfort on longer trips (14+ days)",
+    "not_ideal_for": "Budget travellers or short trips",
+    "rating": 4.4,
+    "review_count": 900,
+    "pricing": {
+      "per_day_low": 200,
+      "per_day_high": 420,
+      "per_day_note": "The most expensive major operator. Premium justified for long trips.",
+      "minimum_days": 7
+    },
+    "vans": [
+      {"name": "Euro Star (2+1 berth)", "sleeps": 3, "price_note": "From $200/day", "family_suitable": false},
+      {"name": "Euro Deluxe (4-berth)", "sleeps": 4, "price_note": "From $280/day", "family_suitable": true},
+      {"name": "Family Motorhome (5-berth)", "sleeps": 5, "price_note": "From $350/day", "family_suitable": true}
+    ],
+    "pros": [
+      "Newest fleet — vehicles typically less than 3 years old",
+      "Best kitchen facilities including oven",
+      "Superior comfort and interior fit-out",
+      "Excellent 24/7 support and assistance",
+      "Shower, toilet, and heating in all vans"
+    ],
+    "cons": [
+      "Most expensive brand in NZ",
+      "Minimum hire periods often apply",
+      "Large motorhomes harder to park in small towns"
+    ],
+    "verdict": "Worth it for 14+ day trips where the premium daily cost is amortised. For 7-day trips, consider Maui or Britz instead.",
+    "pickup_locations": ["Auckland", "Christchurch", "Queenstown"],
+    "one_way": true,
+    "affiliate_key": "discover_cars",
+    "website": "https://www.apollocamper.com/en-nz/"
+  }
+]

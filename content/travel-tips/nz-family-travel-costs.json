@@ -1,0 +1,86 @@
+{
+  "slug": "nz-family-travel-costs",
+  "short_title": "How Much Does NZ Cost?",
+  "title": "How Much Does a NZ Family Holiday Cost? — 2026 Budget Guide",
+  "meta_desc": "Honest cost breakdown for a NZ family holiday in 2026. Campervan vs hotel, activities, food, flights — full budget for a family of 4.",
+  "intro": "New Zealand is not a cheap destination, but it's not as expensive as most families fear — if you plan right. Here's a detailed 2026 cost breakdown for a family of 4.",
+  "updated": "May 2026",
+  "reading_time": 8,
+  "sections": [
+    {
+      "heading": "Quick Answer — How Much Does a NZ Family Holiday Cost?",
+      "table": {
+        "headers": ["Trip length", "Campervan budget", "Hotel budget", "Premium"],
+        "rows": [
+          ["7 days North Island", "$3,000–4,500", "$4,500–6,500", "$7,000+"],
+          ["10 days South Island", "$5,000–7,000", "$7,000–11,000", "$12,000+"],
+          ["14 days full NZ", "$7,000–10,000", "$10,000–15,000", "$18,000+"],
+          ["Per day (family 4)", "$300–450", "$450–700", "$700+"]
+        ]
+      }
+    },
+    {
+      "heading": "Accommodation Costs",
+      "body": "This is where campervans make the biggest difference. Holiday parks in NZ charge $25–40 per night for a powered site (campervan) vs $150–400 per night for hotel rooms. Over 10 nights, that's a saving of $1,250–3,600.",
+      "table": {
+        "headers": ["Type", "Cost per night", "Notes"],
+        "rows": [
+          ["Campervan holiday park site", "$25–40", "Powered site. Shared facilities."],
+          ["TOP 10 Holiday Park cabin", "$80–140", "Self-contained unit. Good for families."],
+          ["Budget motel/motor lodge", "$120–160", "Basic but clean. Kitchen usually included."],
+          ["Mid-range hotel", "$180–280", "Good location, family rooms."],
+          ["Premium hotel/lodge", "$300–500+", "Luxury. Not necessary for most trips."],
+          ["Airbnb (family home)", "$150–350", "Best for 5+ nights. Cook own meals."]
+        ]
+      }
+    },
+    {
+      "heading": "Activity Costs",
+      "body": "Activities are the biggest wildcard in your NZ budget. Free activities (Huka Falls, Queenstown Gardens, DOC walks) are genuinely excellent. Paid activities range from $14 (Wai-O-Tapu child entry) to $500+ (helicopter at Franz Josef). Budget $100–250/day for activities for a family of 4.",
+      "table": {
+        "headers": ["Activity", "Family 4 cost", "Must-do?"],
+        "rows": [
+          ["Huka Falls, Taupo", "$0", "Yes — free and spectacular"],
+          ["Wai-O-Tapu, Rotorua", "$108", "Yes"],
+          ["Agrodome farm show", "$138", "Yes for young kids"],
+          ["Skyline Gondola + Luge", "$165+", "Yes — Queenstown must-do"],
+          ["Huka Jet boat", "$408", "Great — check minimum age"],
+          ["Helicopter (Franz Josef)", "$1,200–2,000", "Optional — stunning but expensive"],
+          ["Whale watching, Kaikoura", "$400", "Yes for kids 6+"]
+        ]
+      }
+    },
+    {
+      "heading": "Food Costs",
+      "body": "NZ restaurant meals cost $15–25 per main for adults. A family lunch at a café runs $60–100. The savings from cooking your own meals (campervan or self-catering) are significant — $40–80/meal compared to $100–160 eating out.",
+      "list": [
+        "Countdown/Pak'nSave supermarkets: cheapest groceries. Pak'nSave is 10–15% cheaper than Countdown.",
+        "Petrol station pies ($3–5): a NZ institution. Handy on road trips.",
+        "Fergburger, Queenstown: iconic burger. Expect queues — go at 5pm or after 9pm.",
+        "Eat Streat, Rotorua: great affordable food court atmosphere.",
+        "Holiday park communal kitchens: free to use. Shared with other travellers — fine for most meals."
+      ]
+    },
+    {
+      "heading": "Fuel Costs",
+      "body": "NZ petrol prices run $2.40–2.80 per litre in 2026. A 10-day South Island trip covers roughly 1,400km. A rental car averages 8–10L/100km; a campervan averages 12–15L/100km. Budget $300–450 for fuel on a 10-day South Island trip in a campervan.",
+      "cta": {
+        "text": "Calculate your full trip budget →",
+        "url": "/tools/nz-family-travel-budget-calculator/",
+        "affiliate": false
+      }
+    },
+    {
+      "heading": "How to Reduce Your NZ Family Holiday Cost",
+      "list": [
+        "Travel in March or November (shoulder season) — 15–30% cheaper than January.",
+        "Use a campervan for 7+ day trips — saves $800–1500 on accommodation.",
+        "Book activities via Bookme.co.nz — up to 40% discount on many Rotorua/Queenstown activities.",
+        "Cook 70% of your meals — saves $40–80/day for a family of 4.",
+        "Use DOC walks and free attractions — Huka Falls, Queenstown foreshore, Christchurch Botanic Gardens.",
+        "Buy groceries at Pak'nSave rather than New World or Countdown.",
+        "Freedom camp (self-contained campervans only) — saves $25–40/night on park fees."
+      ]
+    }
+  ]
+}

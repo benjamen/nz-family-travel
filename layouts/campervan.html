@@ -1,0 +1,98 @@
+{% extends "base.html" %}
+
+{% block title %}{{ van.name }} NZ Review 2026 — Family Campervan Hire Prices & Verdict{% endblock %}
+{% block desc %}{{ van.name }} NZ campervan review: from ${{ van.pricing.per_day_low }}/day, {{ van.rating }}★ from {{ van.review_count }} reviews. Is it good for families?{% endblock %}
+{% block canonical %}campervans/{{ van.slug }}/{% endblock %}
+
+{% block hero %}
+<section class="page-hero">
+  <div class="hero-inner">
+    <div class="breadcrumb"><a href="/">Home</a> › <a href="/campervans/">Campervans</a> › {{ van.name }}</div>
+    <h1>{{ van.name }} NZ — Family Campervan Review 2026</h1>
+    <p>{{ van.tagline }}</p>
+    <div class="van-hero-badges">
+      <span class="van-type-badge type-{{ van.type|lower }}">{{ van.type }}</span>
+      <span>{{ van.rating }}★ ({{ van.review_count }} reviews)</span>
+      <span>from ${{ van.pricing.per_day_low }}/day</span>
+    </div>
+  </div>
+</section>
+{% endblock %}
+
+{% block content %}
+
+<section class="section">
+  <div class="stats-grid">
+    <div class="stat-box"><span class="stat-val">${{ van.pricing.per_day_low }}</span><span class="stat-label">From per day</span></div>
+    <div class="stat-box"><span class="stat-val">${{ van.pricing.per_day_high }}</span><span class="stat-label">Peak season/day</span></div>
+    <div class="stat-box"><span class="stat-val">{{ van.rating }}★</span><span class="stat-label">Rating ({{ van.review_count }} reviews)</span></div>
+    <div class="stat-box"><span class="stat-val">{{ van.pricing.minimum_days }} days</span><span class="stat-label">Minimum hire</span></div>
+  </div>
+</section>
+
+<div class="affiliate-banner">
+  <div><strong>Compare {{ van.name }} prices across dates</strong><span> — live availability and cheapest rates</span></div>
+  <a href="{{ site.affiliates.discover_cars.url }}" class="btn btn-primary" rel="sponsored" target="_blank">Check {{ van.name }} Prices →</a>
+</div>
+
+<section class="section">
+  <h2>Our Verdict</h2>
+  <div class="verdict-block">
+    <p class="verdict-text">{{ van.verdict }}</p>
+    <div class="verdict-grid">
+      <div class="verdict-item verdict-good"><strong>Best for</strong><p>{{ van.best_for }}</p></div>
+      <div class="verdict-item verdict-bad"><strong>Not ideal for</strong><p>{{ van.not_ideal_for }}</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="pros-cons-grid">
+    <div class="pros-box"><h3>✓ Pros</h3><ul>{% for p in van.pros %}<li>{{ p }}</li>{% endfor %}</ul></div>
+    <div class="cons-box"><h3>✗ Cons</h3><ul>{% for c in van.cons %}<li>{{ c }}</li>{% endfor %}</ul></div>
+  </div>
+</section>
+
+<section class="section">
+  <h2>{{ van.name }} Van Options (Family-Suitable)</h2>
+  <div class="van-grid">
+    {% for v in van.vans %}
+    <div class="van-card {% if v.family_suitable %}van-family{% endif %}">
+      {% if v.family_suitable %}<span class="badge-green family-badge">Family pick</span>{% endif %}
+      <h3>{{ v.name }}</h3>
+      <div class="van-sleeps">Sleeps {{ v.sleeps }}</div>
+      <div class="van-price">{{ v.price_note }}</div>
+      <a href="{{ site.affiliates.discover_cars.url }}" class="btn btn-sm btn-primary" rel="sponsored" target="_blank">Check availability →</a>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="section section-alt">
+  <h2>Pickup Locations</h2>
+  <div class="location-tags">
+    {% for loc in van.pickup_locations %}<span class="location-tag">{{ loc }}</span>{% endfor %}
+  </div>
+  {% if van.one_way %}<p>✓ One-way rentals available (e.g., Auckland → Queenstown). One-way fees apply.</p>{% endif %}
+</section>
+
+<section class="section">
+  <h2>Compare All NZ Campervans</h2>
+  <div class="van-reviews">
+    {% for other in campervans if other.slug != van.slug %}
+    <div class="van-review-card">
+      <div class="van-review-header">
+        <div><h3><a href="/campervans/{{ other.slug }}/">{{ other.name }}</a></h3><span class="van-type-badge type-{{ other.type|lower }}">{{ other.type }}</span></div>
+        <div class="van-price-big">from ${{ other.pricing.per_day_low }}<span>/day</span></div>
+      </div>
+      <p>{{ other.verdict }}</p>
+      <div class="van-ctas">
+        <a href="/campervans/{{ other.slug }}/" class="btn btn-sm btn-outline">Full review →</a>
+        <a href="{{ site.affiliates.discover_cars.url }}" class="btn btn-sm btn-primary" rel="sponsored" target="_blank">Check price →</a>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+{% endblock %}

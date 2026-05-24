@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en-NZ">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% block title %}{{ site.title }}{% endblock %}</title>
+  <meta name="description" content="{% block desc %}{{ site.description }}{% endblock %}">
+  <link rel="canonical" href="{{ site.base_url }}/{% block canonical %}{% endblock %}">
+  <link rel="stylesheet" href="{{ site.base_path }}/static/css/style.css">
+  <link rel="icon" href="{{ site.base_path }}/static/img/favicon.svg" type="image/svg+xml">
+  {% if site.ga_id %}
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.ga_id }}"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','{{ site.ga_id }}');</script>
+  {% endif %}
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"{{ site.title }}","url":"{{ site.base_url }}"}</script>
+  {% block extra_head %}{% endblock %}
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="{{ site.base_path }}/" class="nav-logo">✈️ NZ Family Travel</a>
+      <div class="nav-links">
+        <a href="{{ site.base_path }}/destinations/">Destinations</a>
+        <a href="{{ site.base_path }}/itineraries/">Itineraries</a>
+        <a href="{{ site.base_path }}/campervans/">Campervans</a>
+        <a href="{{ site.base_path }}/activities/">Activities</a>
+        <a href="{{ site.base_path }}/tools/">Tools</a>
+        <a href="{{ site.base_path }}/travel-tips/">Tips</a>
+      </div>
+    </div>
+  </nav>
+
+  {% block hero %}{% endblock %}
+
+  <main class="main">
+    {% block content %}{% endblock %}
+  </main>
+
+  <!-- Sticky affiliate bar (desktop) -->
+  <div class="sticky-affiliate">
+    <div class="sticky-inner">
+      <a href="{{ site.affiliates.discover_cars.url }}" rel="sponsored" target="_blank" class="sticky-link">🚐 Compare Campervans</a>
+      <a href="{{ site.affiliates.bookme.url }}" rel="sponsored" target="_blank" class="sticky-link">🎫 Book Activities & Save</a>
+      <a href="{{ site.affiliates.booking_com.url }}" rel="sponsored" target="_blank" class="sticky-link">🏕️ Find Family Accommodation</a>
+      <a href="{{ site.affiliates.covermore.url }}" rel="sponsored" target="_blank" class="sticky-link">🛡️ Travel Insurance</a>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-cols">
+        <div>
+          <strong>NZ Family Travel</strong>
+          <p>Independent travel planning for New Zealand families. We earn a small commission on some referrals — this never affects our recommendations.</p>
+        </div>
+        <div>
+          <strong>Destinations</strong>
+          <ul>
+            {% for dest in destinations %}
+            <li><a href="{{ site.base_path }}/destinations/{{ dest.slug }}/">{{ dest.name }}</a></li>
+            {% endfor %}
+          </ul>
+        </div>
+        <div>
+          <strong>Itineraries</strong>
+          <ul>
+            {% for itin in itineraries %}
+            <li><a href="{{ site.base_path }}/itineraries/{{ itin.slug }}/">{{ itin.duration_days }} days — {{ itin.name if itin.name else itin.title[:40] }}…</a></li>
+            {% endfor %}
+          </ul>
+          <strong style="margin-top:1rem;display:block">Campervans</strong>
+          <ul>
+            {% for van in campervans %}
+            <li><a href="{{ site.base_path }}/campervans/{{ van.slug }}/">{{ van.name }}</a></li>
+            {% endfor %}
+          </ul>
+        </div>
+        <div>
+          <strong>Tools</strong>
+          <ul>
+            {% for tool in tools %}
+            <li><a href="{{ site.base_path }}/tools/{{ tool.slug }}/">{{ tool.title }}</a></li>
+            {% endfor %}
+          </ul>
+          <strong style="margin-top:1rem;display:block">Travel Tips</strong>
+          <ul>
+            {% for guide in guides %}
+            <li><a href="{{ site.base_path }}/travel-tips/{{ guide.slug }}/">{{ guide.short_title }}</a></li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 NZ Family Travel · <a href="mailto:{{ site.contact_email }}">Contact</a> · Prices are indicative — always confirm with providers directly. Some links are affiliate links.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en-NZ">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NZ Family Travel Budget Calculator — NZ Family Travel</title>
+  <meta name="description" content="Get a realistic cost estimate for your NZ family holiday — accommodation, activities, food, fuel, and campervan hire.">
+  <link rel="canonical" href="https://nzfamilytravel.co.nz/tools/nz-family-travel-budget-calculator/">
+  <link rel="stylesheet" href="/static/css/style.css">
+  <link rel="icon" href="/static/img/favicon.svg" type="image/svg+xml">
+  
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"NZ Family Travel — NZ's Family Holiday Planning Platform","url":"https://nzfamilytravel.co.nz"}</script>
+  
+<style>
+.tool-container { background: #f9fafb; border: 1px solid #e5e7eb; border-radius: 12px; padding: 2rem; margin: 1.5rem 0; }
+.tool-row { display: flex; gap: 1rem; align-items: center; margin-bottom: 1rem; flex-wrap: wrap; }
+.tool-row label { font-weight: 600; min-width: 180px; }
+.tool-row select, .tool-row input[type="number"] { padding: .5rem .75rem; border: 1px solid #d1d5db; border-radius: 8px; font-size: 1rem; }
+.tool-result { background: #fff; border: 2px solid #2563eb; border-radius: 8px; padding: 1.5rem; margin-top: 1.5rem; }
+.result-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px,1fr)); gap: 1rem; margin-top: 1rem; }
+.result-item { text-align: center; padding: 1rem; background: #f0f4ff; border-radius: 8px; }
+.result-val { display: block; font-size: 1.5rem; font-weight: 800; color: #2563eb; }
+.result-label { font-size: .82rem; color: #6b7280; }
+.btn-calculate { background: #2563eb; color: #fff; border: none; padding: .75rem 2rem; border-radius: 8px; font-size: 1rem; font-weight: 700; cursor: pointer; margin-top: 1rem; }
+.btn-calculate:hover { background: #1d4ed8; }
+.driving-table { width: 100%; border-collapse: collapse; margin-top: 1rem; }
+.driving-table th { background: #1f2937; color: #fff; padding: .6rem 1rem; text-align: left; }
+.driving-table td { padding: .6rem 1rem; border-bottom: 1px solid #f3f4f6; }
+.driving-table tr:nth-child(even) { background: #f9fafb; }
+</style>
+
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="/" class="nav-logo">✈️ NZ Family Travel</a>
+      <div class="nav-links">
+        <a href="/destinations/">Destinations</a>
+        <a href="/itineraries/">Itineraries</a>
+        <a href="/campervans/">Campervans</a>
+        <a href="/activities/">Activities</a>
+        <a href="/tools/">Tools</a>
+        <a href="/travel-tips/">Tips</a>
+      </div>
+    </div>
+  </nav>
+
+  
+<section class="page-hero">
+  <div class="hero-inner">
+    <div class="breadcrumb"><a href="/">Home</a> › <a href="/tools/">Tools</a> › NZ Family Travel Budget Calculator</div>
+    <div class="tool-icon-big">💰</div>
+    <h1>NZ Family Travel Budget Calculator</h1>
+    <p>Get a realistic cost estimate for your NZ family holiday — accommodation, activities, food, fuel, and campervan hire.</p>
+  </div>
+</section>
+
+
+  <main class="main">
+    
+
+<section class="section">
+  <div class='tool-container'><h2 style='margin-top:0'>Your NZ Family Trip Budget</h2><div class='tool-row'><label>Number of adults</label><input type='number' id='adults' value='2' min='1' max='6' onchange='calcBudget()'></div><div class='tool-row'><label>Number of children</label><input type='number' id='children' value='2' min='0' max='6' onchange='calcBudget()'></div><div class='tool-row'><label>Number of days</label><input type='number' id='days' value='10' min='2' max='30' onchange='calcBudget()'></div><div class='tool-row'><label>Accommodation type</label><select id='accom' onchange='calcBudget()'><option value='campervan_budget'>Budget campervan (Jucy/Mighty)</option><option value='campervan_mid'>Mid-range campervan (Maui/Britz)</option><option value='holiday_park'>Holiday park (cabin/unit)</option><option value='motel'>Mid-range motel/hotel</option><option value='hotel'>Premium hotel</option></select></div><div class='tool-row'><label>Activity level</label><select id='actlevel' onchange='calcBudget()'><option value='low'>Low (free + 1-2 paid activities)</option><option value='mid' selected>Medium (2-3 paid activities/day)</option><option value='high'>High (full activity days)</option></select></div><div class='tool-row'><label>Island</label><select id='island' onchange='calcBudget()'><option value='north'>North Island</option><option value='south' selected>South Island</option><option value='both'>Both islands</option></select></div><button class='btn-calculate' onclick='calcBudget()'>Calculate Budget</button><div class='tool-result' id='result'><h3 style='margin-top:0'>Estimated Total Budget</h3><div class='result-grid' id='result-grid'></div><p id='result-note' style='margin-top:1rem;font-size:.88rem;color:#6b7280'></p></div></div><script>const ACCOM={campervan_budget:{perNight:35,vanPerDay:140,label:'Budget campervan'},campervan_mid:{perNight:35,vanPerDay:210,label:'Mid-range campervan'},holiday_park:{perNight:140,vanPerDay:0,label:'Holiday park'},motel:{perNight:200,vanPerDay:0,label:'Motel/Hotel'},hotel:{perNight:320,vanPerDay:0,label:'Premium hotel'}};const ACT={low:{perDay:60},mid:{perDay:150},high:{perDay:280}};function calcBudget(){const adults=+document.getElementById('adults').value;const children=+document.getElementById('children').value;const days=+document.getElementById('days').value;const accomKey=document.getElementById('accom').value;const actKey=document.getElementById('actlevel').value;const island=document.getElementById('island').value;const pax=adults+children;const accom=ACCOM[accomKey];const fuelKm=island==='both'?2000:island==='south'?1400:650;const fuelCost=Math.round(fuelKm*0.25);const accomCost=Math.round((accom.perNight+accom.vanPerDay)*days);const actCost=Math.round(ACT[actKey].perDay*pax*days);const foodCost=Math.round((accomKey.includes('campervan')?55:95)*pax*days*0.6);const total=accomCost+actCost+foodCost+fuelCost;const rg=document.getElementById('result-grid');rg.innerHTML=`<div class='result-item'><span class='result-val'>$${accomCost.toLocaleString()}</span><span class='result-label'>${accom.label}</span></div><div class='result-item'><span class='result-val'>$${actCost.toLocaleString()}</span><span class='result-label'>Activities</span></div><div class='result-item'><span class='result-val'>$${foodCost.toLocaleString()}</span><span class='result-label'>Food & groceries</span></div><div class='result-item'><span class='result-val'>$${fuelCost.toLocaleString()}</span><span class='result-label'>Fuel (~${fuelKm}km)</span></div><div class='result-item' style='background:#dbeafe'><span class='result-val' style='font-size:2rem'>$${total.toLocaleString()}</span><span class='result-label'>TOTAL ESTIMATE</span></div><div class='result-item'><span class='result-val'>$${Math.round(total/days).toLocaleString()}</span><span class='result-label'>Per day</span></div>`;document.getElementById('result-note').textContent=`This is an indicative budget for ${pax} people (${adults} adult${adults>1?'s':''}, ${children} child${children!==1?'ren':''}) over ${days} days. Actual costs will vary. Activities are the most flexible cost — free activities (Huka Falls, Queenstown foreshore, DOC walks) can significantly reduce your budget.`;}calcBudget();</script>
+</section>
+
+<!-- Affiliate suggestions from results -->
+<section class="section section-alt">
+  <h2>Based on Your Trip — Useful Links</h2>
+  <div class="mid-aff-grid">
+    <a href="https://www.discovercars.com/" class="mid-aff-card" rel="sponsored" target="_blank">
+      <strong>🚐 Compare Campervan Prices</strong>
+      <span>Jucy, Maui, Britz from $89/day. Saves $600+ on accommodation for 7+ day trips.</span>
+    </a>
+    <a href="https://www.bookme.co.nz/" class="mid-aff-card" rel="sponsored" target="_blank">
+      <strong>🎫 Pre-Book Activities</strong>
+      <span>Up to 40% off NZ attractions via Bookme. Rotorua, Queenstown, Taupo.</span>
+    </a>
+    <a href="https://www.covermore.co.nz/" class="mid-aff-card" rel="sponsored" target="_blank">
+      <strong>🛡️ Travel Insurance</strong>
+      <span>Cover-More — NZ's most trusted travel insurer. Essential for families.</span>
+    </a>
+  </div>
+</section>
+
+<!-- Related tools -->
+<section class="section">
+  <h2>Other Travel Tools</h2>
+  <div class="tools-grid">
+    
+    <a href="/tools/nz-best-month-to-visit/" class="tool-card">
+      <span class="tool-icon">🌤️</span>
+      <h3>Best Month to Visit NZ — Weather, Prices & Crowds by Month</h3>
+      <p>Compare NZ weather, prices, and crowd levels for every month. Find the best time for your family holiday.</p>
+    </a>
+    
+    <a href="/tools/nz-driving-times/" class="tool-card">
+      <span class="tool-icon">🗺️</span>
+      <h3>NZ Driving Times — Family Road Trip Distance Chart</h3>
+      <p>Realistic driving times between NZ cities with recommended kid stops. Plan your road trip with accurate times.</p>
+    </a>
+    
+    <a href="/tools/nz-family-packing-list/" class="tool-card">
+      <span class="tool-icon">🎒</span>
+      <h3>NZ Family Packing List Generator</h3>
+      <p>Customised NZ packing lists by destination, season, and ages of your kids. Don't forget the sandfly repellent.</p>
+    </a>
+    
+  </div>
+</section>
+
+
+  </main>
+
+  <!-- Sticky affiliate bar (desktop) -->
+  <div class="sticky-affiliate">
+    <div class="sticky-inner">
+      <a href="https://www.discovercars.com/" rel="sponsored" target="_blank" class="sticky-link">🚐 Compare Campervans</a>
+      <a href="https://www.bookme.co.nz/" rel="sponsored" target="_blank" class="sticky-link">🎫 Book Activities & Save</a>
+      <a href="https://www.booking.com/" rel="sponsored" target="_blank" class="sticky-link">🏕️ Find Family Accommodation</a>
+      <a href="https://www.covermore.co.nz/" rel="sponsored" target="_blank" class="sticky-link">🛡️ Travel Insurance</a>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-cols">
+        <div>
+          <strong>NZ Family Travel</strong>
+          <p>Independent travel planning for New Zealand families. We earn a small commission on some referrals — this never affects our recommendations.</p>
+        </div>
+        <div>
+          <strong>Destinations</strong>
+          <ul>
+            
+            <li><a href="/destinations/queenstown-with-kids/">Queenstown</a></li>
+            
+            <li><a href="/destinations/rotorua-family-guide/">Rotorua</a></li>
+            
+            <li><a href="/destinations/taupo-with-kids/">Taupo</a></li>
+            
+            <li><a href="/destinations/christchurch-with-kids/">Christchurch</a></li>
+            
+            <li><a href="/destinations/bay-of-islands-family/">Bay of Islands</a></li>
+            
+            <li><a href="/destinations/wanaka-with-kids/">Wanaka</a></li>
+            
+          </ul>
+        </div>
+        <div>
+          <strong>Itineraries</strong>
+          <ul>
+            
+            <li><a href="/itineraries/7-day-north-island-family-road-trip/">7 days — 7-Day North Island Family Road Trip…</a></li>
+            
+            <li><a href="/itineraries/10-day-south-island-family-road-trip/">10 days — 10-Day South Island Family Road Trip…</a></li>
+            
+            <li><a href="/itineraries/queenstown-wanaka-family-weekend/">4 days — Queenstown & Wanaka Family Long Weekend…</a></li>
+            
+          </ul>
+          <strong style="margin-top:1rem;display:block">Campervans</strong>
+          <ul>
+            
+            <li><a href="/campervans/jucy-campervan-review/">Jucy Rentals</a></li>
+            
+            <li><a href="/campervans/maui-campervan-review/">Maui Campervans</a></li>
+            
+            <li><a href="/campervans/britz-campervan-review/">Britz Campervans</a></li>
+            
+            <li><a href="/campervans/mighty-campervan-review/">Mighty Campers</a></li>
+            
+            <li><a href="/campervans/apollo-campervan-review/">Apollo Motorhomes</a></li>
+            
+          </ul>
+        </div>
+        <div>
+          <strong>Tools</strong>
+          <ul>
+            
+            <li><a href="/tools/nz-best-month-to-visit/">Best Month to Visit NZ — Weather, Prices & Crowds by Month</a></li>
+            
+            <li><a href="/tools/nz-driving-times/">NZ Driving Times — Family Road Trip Distance Chart</a></li>
+            
+            <li><a href="/tools/nz-family-packing-list/">NZ Family Packing List Generator</a></li>
+            
+            <li><a href="/tools/nz-family-travel-budget-calculator/">NZ Family Travel Budget Calculator</a></li>
+            
+          </ul>
+          <strong style="margin-top:1rem;display:block">Travel Tips</strong>
+          <ul>
+            
+            <li><a href="/travel-tips/nz-campervan-guide-families/">Campervan Guide</a></li>
+            
+            <li><a href="/travel-tips/nz-family-travel-costs/">How Much Does NZ Cost?</a></li>
+            
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 NZ Family Travel · <a href="mailto:hello@nzfamilytravel.co.nz">Contact</a> · Prices are indicative — always confirm with providers directly. Some links are affiliate links.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

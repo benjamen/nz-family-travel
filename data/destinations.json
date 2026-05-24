@@ -1,0 +1,483 @@
+[
+  {
+    "slug": "queenstown-with-kids",
+    "name": "Queenstown",
+    "island": "South Island",
+    "region": "Otago",
+    "tagline": "Adventure capital of the world — with more family fun than you'd expect",
+    "summary": "Queenstown is famous for extreme adventure, but it's also one of NZ's best family destinations. The gondola and luge alone are worth the trip, the scenery is jaw-dropping, and there's enough to fill a week without spending a fortune — if you plan smart.",
+    "verdict": "Best NZ destination for families with kids aged 5+. Expensive, but the experiences are world-class.",
+    "best_for": "Families with kids 5 and up, especially those who love the outdoors",
+    "not_ideal_for": "Toddlers or families on a tight budget",
+    "commercial_intent_score": 92,
+    "quick_facts": {
+      "best_ages": "5+",
+      "budget_family4_per_day": "$350–600",
+      "best_months": ["December", "January", "February", "March"],
+      "shoulder_months": ["October", "November", "April"],
+      "avoid_months": ["June", "July"],
+      "drive_times": {
+        "from_christchurch": "4h 30m",
+        "from_dunedin": "1h 45m",
+        "from_wanaka": "45m"
+      },
+      "nearest_airport": "Queenstown Airport (ZQN)",
+      "flight_from_auckland": "1h 45m"
+    },
+    "top_activities": [
+      {"name": "Skyline Gondola & Luge", "price_note": "from $50/adult, $35/child", "min_age": 3, "rain_safe": true, "must_do": true},
+      {"name": "Ziptrek Ecotours", "price_note": "from $149/person", "min_age": 7, "rain_safe": false, "must_do": true},
+      {"name": "Queenstown Ice Arena", "price_note": "$20/person", "min_age": 3, "rain_safe": true, "must_do": false},
+      {"name": "Kjet / Dart River Jet", "price_note": "from $129/adult, $75/child", "min_age": 3, "rain_safe": false, "must_do": true},
+      {"name": "TSS Earnslaw Steamship", "price_note": "$59/adult, $29/child", "min_age": 0, "rain_safe": true, "must_do": false}
+    ],
+    "free_activities": [
+      "Queenstown Gardens and frisbee golf",
+      "Lake Wakatipu foreshore walk",
+      "Frankton Beach",
+      "Fernhill Track (easy walk with lake views)",
+      "Queenstown Hill Time Walk (older kids)"
+    ],
+    "rainy_day": [
+      "Skyline Gondola (enclosed gondola + restaurant)",
+      "Queenstown Ice Arena",
+      "MINT Games + Activities (Queenstown CBD)",
+      "Movie at Reading Cinemas Queenstown"
+    ],
+    "where_to_stay": [
+      {"name": "Queenstown Lakeview Holiday Park", "type": "holiday_park", "price_range": "$$", "family_features": ["powered sites", "kitchen", "playground"], "affiliate_key": "top10"},
+      {"name": "Novotel Queenstown Lakeside", "type": "hotel", "price_range": "$$$", "family_features": ["lake views", "family rooms", "pool"], "affiliate_key": "booking_com"},
+      {"name": "Ramada Suites by Wyndham Queenstown", "type": "apartment", "price_range": "$$$", "family_features": ["kitchen", "living area", "laundry"], "affiliate_key": "booking_com"}
+    ],
+    "three_day_itinerary": {
+      "day1": {
+        "title": "Arrival + Gondola Day",
+        "activities": ["Arrive and check in", "Skyline Gondola & Luge (afternoon)", "Walk the Queenstown foreshore", "Dinner at Fergburger (iconic, queues are real — go at 5pm)"],
+        "estimated_cost": "$120–180"
+      },
+      "day2": {
+        "title": "Lake & Adventure Day",
+        "activities": ["TSS Earnslaw Steamship cruise (morning)", "Picnic at Frankton Beach (free)", "Jet boat experience on the Kawarau or Dart River", "Ice cream on The Mall"],
+        "estimated_cost": "$200–350"
+      },
+      "day3": {
+        "title": "Day Trip to Arrowtown or Wanaka",
+        "activities": ["Drive to Arrowtown (20 mins) — free gold rush historic town", "Lakes District Museum (kids love the gold panning)", "Drive back via Lake Hayes (iconic photo stop)", "Or swap for Wanaka: Puzzling World + lake swim"],
+        "estimated_cost": "$40–80"
+      }
+    },
+    "budget_breakdown": {
+      "accommodation_per_night": "$150–400",
+      "activities_per_day": "$100–300",
+      "food_per_day": "$80–150",
+      "transport_notes": "Rental car recommended. Fuel: ~$50/day if day-tripping."
+    },
+    "faqs": [
+      {"q": "Is Queenstown good for toddlers?", "a": "It's manageable but not ideal. The luge has a minimum height requirement, jet boats have minimum ages, and most adventure activities are for 5+. The gondola, foreshore, and Frankton Beach work great for under-5s."},
+      {"q": "What is the cheapest time to visit Queenstown?", "a": "April–May (autumn) is shoulder season with lower prices and stunning foliage. June–August (winter) is ski season — expensive. July–August is the peak-price period for everything."},
+      {"q": "Do I need to book Queenstown activities in advance?", "a": "Yes, especially in December–January. The Skyline and jet boats book out weeks ahead in peak season. Use Bookme for discounts."}
+    ],
+    "nearby_destinations": ["wanaka-with-kids", "christchurch-with-kids"],
+    "seo_keywords": ["queenstown with kids", "queenstown family holiday nz", "things to do queenstown with children", "queenstown family activities"]
+  },
+  {
+    "slug": "rotorua-family-guide",
+    "name": "Rotorua",
+    "island": "North Island",
+    "region": "Bay of Plenty",
+    "tagline": "Geothermal wonder, Maori culture, and more activities per square km than anywhere in NZ",
+    "summary": "Rotorua is arguably NZ's best pure family destination. It's affordable, centrally located, packed with activities, and the geothermal parks are genuinely unlike anything kids will have experienced. Budget around $250–400/day for a family of four.",
+    "verdict": "Our #1 pick for first-time NZ family visitors. High activity density, affordable, and unforgettable.",
+    "best_for": "All ages — genuinely excellent for 2-year-olds through teenagers",
+    "not_ideal_for": "Those sensitive to the sulphur smell (it fades after a day)",
+    "commercial_intent_score": 95,
+    "quick_facts": {
+      "best_ages": "All ages",
+      "budget_family4_per_day": "$250–450",
+      "best_months": ["November", "December", "January", "February", "March"],
+      "shoulder_months": ["October", "April"],
+      "avoid_months": [],
+      "drive_times": {
+        "from_auckland": "2h 30m",
+        "from_taupo": "1h",
+        "from_hamilton": "1h 15m"
+      },
+      "nearest_airport": "Rotorua Airport (ROT)",
+      "flight_from_auckland": "35 mins (or 2.5h drive)"
+    },
+    "top_activities": [
+      {"name": "Te Puia (geothermal park + Maori arts)", "price_note": "$65/adult, $33/child", "min_age": 0, "rain_safe": true, "must_do": true},
+      {"name": "Wai-O-Tapu Thermal Wonderland", "price_note": "$40/adult, $14/child", "min_age": 0, "rain_safe": true, "must_do": true},
+      {"name": "Agrodome Farm Show", "price_note": "$44/adult, $25/child", "min_age": 2, "rain_safe": true, "must_do": true},
+      {"name": "OGO Rotorua (zorbing)", "price_note": "from $55/person", "min_age": 6, "rain_safe": false, "must_do": true},
+      {"name": "Skyline Rotorua Gondola & Luge", "price_note": "from $45/adult, $30/child", "min_age": 3, "rain_safe": true, "must_do": true},
+      {"name": "Rainbow Springs Nature Park", "price_note": "$40/adult, $21/child", "min_age": 0, "rain_safe": true, "must_do": false}
+    ],
+    "free_activities": [
+      "Government Gardens and croquet lawn",
+      "Lake Rotorua foreshore walk",
+      "Kuirau Park (free public geothermal park — bubbling mud!)",
+      "Sulphur Point Scenic Reserve",
+      "Redwood Forest (free walking tracks)"
+    ],
+    "rainy_day": [
+      "Te Puia (most areas covered)",
+      "Agrodome (all indoors)",
+      "Polynesian Spa (thermal pools — great in rain)",
+      "Rotorua Museum (when open)"
+    ],
+    "where_to_stay": [
+      {"name": "Rotorua TOP 10 Holiday Park", "type": "holiday_park", "price_range": "$$", "family_features": ["thermal pools", "playground", "kitchen"], "affiliate_key": "top10"},
+      {"name": "Pullman Rotorua", "type": "hotel", "price_range": "$$$", "family_features": ["pool", "spa", "family rooms"], "affiliate_key": "booking_com"},
+      {"name": "Regent of Rotorua", "type": "hotel", "price_range": "$$", "family_features": ["central location", "family rooms"], "affiliate_key": "booking_com"}
+    ],
+    "three_day_itinerary": {
+      "day1": {
+        "title": "Geothermal + Culture",
+        "activities": ["Te Puia morning (geysers + kiwi house + Maori arts centre)", "Lunch in town", "Kuirau Park (free bubbling mud pools)", "Polynesian Spa at sunset"],
+        "estimated_cost": "$150–250"
+      },
+      "day2": {
+        "title": "Farm, Gondola & Zorbing",
+        "activities": ["Agrodome morning farm show", "Skyline Gondola & Luge (afternoon)", "OGO zorbing (book ahead)", "Burger Wisconsin for dinner"],
+        "estimated_cost": "$200–350"
+      },
+      "day3": {
+        "title": "Wai-O-Tapu + Rainbow Springs",
+        "activities": ["Wai-O-Tapu thermal wonderland (30 mins south, 9am Lady Knox geyser)", "Rainbow Springs Nature Park (kiwi, trout, native birds)", "Redwood Forest walk (free, magical)", "Depart or relax"],
+        "estimated_cost": "$120–200"
+      }
+    },
+    "budget_breakdown": {
+      "accommodation_per_night": "$120–350",
+      "activities_per_day": "$100–250",
+      "food_per_day": "$60–120",
+      "transport_notes": "Rental car or campervan. Most sites within 30 mins. Fuel: ~$20/day."
+    },
+    "faqs": [
+      {"q": "Does Rotorua smell bad?", "a": "Yes — the sulphur (rotten egg) smell is real, especially near geothermal areas. Most visitors stop noticing after a few hours. Kids often find it funny. It's not harmful."},
+      {"q": "How many days do you need in Rotorua?", "a": "2–3 days covers the highlights. 4 days if you want to do day trips to Wai-O-Tapu and the Hobbiton Movie Set (45 mins away)."},
+      {"q": "Is Hobbiton worth it with kids?", "a": "Older kids (8+) who know Lord of the Rings love it. Under-8s may not get much from it. At $49/adult it's a significant cost — prioritise other activities for younger kids."}
+    ],
+    "nearby_destinations": ["taupo-with-kids", "bay-of-islands-family"],
+    "seo_keywords": ["rotorua family guide", "rotorua with kids", "best things to do rotorua with children", "rotorua family holiday"]
+  },
+  {
+    "slug": "taupo-with-kids",
+    "name": "Taupo",
+    "island": "North Island",
+    "region": "Waikato",
+    "tagline": "Lake Taupo, Huka Falls, and a relaxed pace — perfect mid-island stop",
+    "summary": "Taupo sits at the centre of the North Island and makes the perfect stopping point on any road trip. The Huka Falls are spectacular and free, Lake Taupo is huge and swimmable, and the town has enough to keep a family busy for 2–3 days without blowing the budget.",
+    "verdict": "An essential road trip stop. Best as 2 nights between Rotorua and Wellington.",
+    "best_for": "All ages, especially great for a relaxed lake holiday",
+    "not_ideal_for": "Those wanting non-stop activities (it's a chill destination)",
+    "commercial_intent_score": 80,
+    "quick_facts": {
+      "best_ages": "All ages",
+      "budget_family4_per_day": "$200–350",
+      "best_months": ["December", "January", "February"],
+      "shoulder_months": ["November", "March", "April"],
+      "avoid_months": [],
+      "drive_times": {
+        "from_auckland": "3h 30m",
+        "from_rotorua": "1h",
+        "from_wellington": "4h"
+      },
+      "nearest_airport": "Taupo Airport (TUO) (limited flights)",
+      "flight_from_auckland": "45 mins or 3.5h drive"
+    },
+    "top_activities": [
+      {"name": "Huka Falls (free)", "price_note": "Free", "min_age": 0, "rain_safe": false, "must_do": true},
+      {"name": "Wairakei Terraces & Thermal Pools", "price_note": "$45/adult, $22/child", "min_age": 0, "rain_safe": true, "must_do": false},
+      {"name": "Skydive Taupo (teens+)", "price_note": "from $299/person", "min_age": 13, "rain_safe": false, "must_do": false},
+      {"name": "Huka Jet (jet boat)", "price_note": "$129/adult, $75/child", "min_age": 3, "rain_safe": false, "must_do": true},
+      {"name": "AC Baths (public thermal pools)", "price_note": "$10/adult, $7/child", "min_age": 0, "rain_safe": true, "must_do": false}
+    ],
+    "free_activities": [
+      "Huka Falls viewing platform and walkway",
+      "Lake Taupo swimming (Acacia Bay, Wharewaka Point)",
+      "Spa Thermal Park (free outdoor hot springs)",
+      "Taupo Harbour foreshore",
+      "Aratiatia Rapids (controlled release 10am, 12pm, 2pm, 4pm in summer)"
+    ],
+    "rainy_day": [
+      "AC Baths thermal pools",
+      "Wairakei Terraces indoor pools",
+      "Taupo Museum",
+      "Bowling at Taupo Tenpin"
+    ],
+    "where_to_stay": [
+      {"name": "Taupo DeBretts Spa Resort", "type": "holiday_park", "price_range": "$$", "family_features": ["thermal pools", "waterslides", "family cabins"], "affiliate_key": "top10"},
+      {"name": "All Seasons Holiday Park Taupo", "type": "holiday_park", "price_range": "$", "family_features": ["playground", "kitchen", "powered sites"], "affiliate_key": "top10"},
+      {"name": "Hilton Lake Taupo", "type": "hotel", "price_range": "$$$", "family_features": ["lake views", "pool", "family rooms"], "affiliate_key": "booking_com"}
+    ],
+    "three_day_itinerary": {
+      "day1": {
+        "title": "Huka Falls & Lake Swim",
+        "activities": ["Huka Falls walk (free, 20 mins from town)", "Aratiatia Rapids (watch the controlled release)", "Swim at Acacia Bay", "Spa Thermal Park sunset soak (free)"],
+        "estimated_cost": "$10–30"
+      },
+      "day2": {
+        "title": "Jet Boat & Town Day",
+        "activities": ["Huka Jet boat experience", "Taupo Museum", "Walk the Taupo Harbour foreshore", "AC Baths thermal pools (afternoon)"],
+        "estimated_cost": "$150–220"
+      },
+      "day3": {
+        "title": "Departure or Day Trip",
+        "activities": ["Wairakei Terraces morning", "Drive south to Tongariro (2h) for dramatic volcanic scenery", "Or head north back to Rotorua"],
+        "estimated_cost": "$80–150"
+      }
+    },
+    "budget_breakdown": {
+      "accommodation_per_night": "$100–300",
+      "activities_per_day": "$50–200",
+      "food_per_day": "$60–100",
+      "transport_notes": "Easy to explore by car. Free parking most attractions."
+    },
+    "faqs": [
+      {"q": "Can you swim in Lake Taupo?", "a": "Yes — Acacia Bay and Wharewaka Point are the best family swimming spots. Clean, clear water. Cold outside of December–February."},
+      {"q": "Is the Spa Thermal Park really free?", "a": "Yes. It's a natural hot spring on the Waikato River bank, accessed via a walking track. No facilities, no fee. Bring a towel."},
+      {"q": "How far is Taupo from Rotorua?", "a": "About 1 hour by car. Most families combine both into one trip."}
+    ],
+    "nearby_destinations": ["rotorua-family-guide", "wellington-with-kids"],
+    "seo_keywords": ["taupo with kids", "taupo family holiday", "things to do taupo with children", "taupo family activities nz"]
+  },
+  {
+    "slug": "christchurch-with-kids",
+    "name": "Christchurch",
+    "island": "South Island",
+    "region": "Canterbury",
+    "tagline": "Gateway to the South Island — and surprisingly great for families",
+    "summary": "Christchurch is the South Island hub and a genuinely underrated family destination. The International Antarctic Centre is world-class, the Gondola has incredible views, and it's one of the most affordable major cities to visit in NZ. Plus it's the base for road trips to Queenstown, Kaikoura and the West Coast.",
+    "verdict": "Underrated family city. 2 nights is ideal — great base for South Island road trips.",
+    "best_for": "Families using it as a South Island base, or those wanting an affordable city break",
+    "not_ideal_for": "Those wanting beach holidays (beaches are cold, not tropical)",
+    "commercial_intent_score": 78,
+    "quick_facts": {
+      "best_ages": "All ages",
+      "budget_family4_per_day": "$200–350",
+      "best_months": ["November", "December", "January", "February", "March"],
+      "shoulder_months": ["October", "April"],
+      "avoid_months": ["June", "July", "August"],
+      "drive_times": {
+        "from_queenstown": "4h 30m",
+        "from_kaikoura": "2h 30m",
+        "from_dunedin": "3h 30m"
+      },
+      "nearest_airport": "Christchurch Airport (CHC)",
+      "flight_from_auckland": "1h 10m"
+    },
+    "top_activities": [
+      {"name": "International Antarctic Centre", "price_note": "$65/adult, $43/child", "min_age": 4, "rain_safe": true, "must_do": true},
+      {"name": "Christchurch Gondola", "price_note": "$32/adult, $16/child", "min_age": 0, "rain_safe": true, "must_do": true},
+      {"name": "Willowbank Wildlife Reserve", "price_note": "$32/adult, $14/child", "min_age": 0, "rain_safe": false, "must_do": false},
+      {"name": "Orana Wildlife Park", "price_note": "$32/adult, $14/child", "min_age": 0, "rain_safe": false, "must_do": true},
+      {"name": "Punting on the Avon", "price_note": "$35/adult, $16/child", "min_age": 0, "rain_safe": false, "must_do": false}
+    ],
+    "free_activities": [
+      "Botanic Gardens (stunning, free)",
+      "Hagley Park",
+      "Te Ana Ngāi Tahu Rock Art Centre (free Tue–Fri)",
+      "New Regent Street (restored heritage streetscape)",
+      "Avon River Precinct walk"
+    ],
+    "rainy_day": [
+      "International Antarctic Centre (fully indoor, outstanding)",
+      "Canterbury Museum (free)",
+      "Air Force Museum (free)",
+      "Timezone Christchurch"
+    ],
+    "where_to_stay": [
+      {"name": "Christchurch TOP 10 Holiday Park", "type": "holiday_park", "price_range": "$", "family_features": ["pool", "kitchen", "playground"], "affiliate_key": "top10"},
+      {"name": "Distinction Christchurch Hotel", "type": "hotel", "price_range": "$$", "family_features": ["pool", "family rooms", "central"], "affiliate_key": "booking_com"},
+      {"name": "Sudima Christchurch City", "type": "hotel", "price_range": "$$", "family_features": ["family rooms", "restaurant"], "affiliate_key": "booking_com"}
+    ],
+    "three_day_itinerary": {
+      "day1": {
+        "title": "Antarctic Centre + City",
+        "activities": ["International Antarctic Centre (spend 3+ hours)", "New Regent Street lunch", "Botanic Gardens walk (free)", "Punting on the Avon (optional)"],
+        "estimated_cost": "$130–200"
+      },
+      "day2": {
+        "title": "Gondola + Wildlife",
+        "activities": ["Christchurch Gondola morning (views of Banks Peninsula and Alps)", "Orana Wildlife Park (open range zoo, afternoon)", "Dinner in Riccarton"],
+        "estimated_cost": "$140–200"
+      },
+      "day3": {
+        "title": "Lyttelton or Departure",
+        "activities": ["Drive to Lyttelton Harbour (20 mins)", "Ferry to Diamond Harbour for a picnic", "Lyttelton Farmers Market (Sat only)", "Depart for Queenstown or Kaikoura"],
+        "estimated_cost": "$20–60"
+      }
+    },
+    "budget_breakdown": {
+      "accommodation_per_night": "$100–280",
+      "activities_per_day": "$80–200",
+      "food_per_day": "$60–100",
+      "transport_notes": "Car useful for Gondola and Orana Park. City centre walkable."
+    },
+    "faqs": [
+      {"q": "Is Christchurch worth visiting after the earthquakes?", "a": "Absolutely. The rebuild has created one of NZ's most interesting city centres — street art, container malls, modern architecture alongside heritage buildings. The 'gap filler' culture is unique."},
+      {"q": "What is Christchurch best known for?", "a": "The Antarctic Centre (genuinely world-class), the Gondola, and as the South Island's main hub. Also known for its garden city parks and punting on the Avon River."}
+    ],
+    "nearby_destinations": ["queenstown-with-kids", "kaikoura-family"],
+    "seo_keywords": ["christchurch with kids", "christchurch family activities nz", "things to do christchurch children", "christchurch family holiday"]
+  },
+  {
+    "slug": "bay-of-islands-family",
+    "name": "Bay of Islands",
+    "island": "North Island",
+    "region": "Northland",
+    "tagline": "144 islands, dolphins, sailing, and New Zealand's birthplace — all in one bay",
+    "summary": "The Bay of Islands is NZ's original holiday destination and still one of the best. Paihia is the main family base — from there you can swim with dolphins, sail to deserted islands, visit the Waitangi Treaty Grounds, and enjoy some of the warmest water in the country.",
+    "verdict": "Best NZ beach holiday for families. Come in January for the warmest water. Combine with the Kauri Coast.",
+    "best_for": "Beach-loving families, water activities, NZ history",
+    "not_ideal_for": "Those wanting to avoid the 3.5-hour drive from Auckland",
+    "commercial_intent_score": 82,
+    "quick_facts": {
+      "best_ages": "All ages",
+      "budget_family4_per_day": "$250–450",
+      "best_months": ["December", "January", "February"],
+      "shoulder_months": ["November", "March"],
+      "avoid_months": ["June", "July", "August"],
+      "drive_times": {
+        "from_auckland": "3h 30m",
+        "from_whangarei": "1h 30m"
+      },
+      "nearest_airport": "Kerikeri Airport (KKE)",
+      "flight_from_auckland": "40 mins or 3.5h drive"
+    },
+    "top_activities": [
+      {"name": "Dolphin Watching Cruise", "price_note": "$120/adult, $60/child", "min_age": 2, "rain_safe": false, "must_do": true},
+      {"name": "Waitangi Treaty Grounds", "price_note": "$40/adult, free under 15", "min_age": 8, "rain_safe": true, "must_do": true},
+      {"name": "Hole in the Rock (Cape Brett cruise)", "price_note": "$160/adult, $80/child", "min_age": 2, "rain_safe": false, "must_do": true},
+      {"name": "Haruru Falls Walk", "price_note": "Free", "min_age": 4, "rain_safe": false, "must_do": false},
+      {"name": "Island Beach Picnic (sailing to a private island)", "price_note": "$95/adult, $55/child", "min_age": 0, "rain_safe": false, "must_do": false}
+    ],
+    "free_activities": [
+      "Paihia Beach swim",
+      "Waitangi Beach (calm and protected)",
+      "Haruru Falls walk (2.5km return)",
+      "Russell foreshore walk (take the $15 ferry)",
+      "Te Ti Bay mangrove boardwalk"
+    ],
+    "rainy_day": [
+      "Waitangi Treaty Grounds (indoor museum component)",
+      "Paihia bowling or mini golf",
+      "Drive to Kerikeri and visit the Stone Store (oldest stone building in NZ)"
+    ],
+    "where_to_stay": [
+      {"name": "Paihia Beach Resort & Spa", "type": "hotel", "price_range": "$$$", "family_features": ["pool", "beach access", "family rooms"], "affiliate_key": "booking_com"},
+      {"name": "Paihia TOP 10 Holiday Park", "type": "holiday_park", "price_range": "$", "family_features": ["pool", "playground", "kitchen"], "affiliate_key": "top10"},
+      {"name": "Ramada Paihia", "type": "hotel", "price_range": "$$", "family_features": ["family rooms", "walking distance to wharf"], "affiliate_key": "booking_com"}
+    ],
+    "three_day_itinerary": {
+      "day1": {
+        "title": "Arrival + Waitangi",
+        "activities": ["Arrive Paihia", "Waitangi Treaty Grounds (afternoon)", "Paihia Beach swim", "Fish and chips on the wharf for dinner"],
+        "estimated_cost": "$80–140"
+      },
+      "day2": {
+        "title": "Dolphin Cruise + Islands",
+        "activities": ["Morning dolphin watching cruise (book in advance)", "Russell ferry trip ($15 return) + lunch at historic Duke of Marlborough Hotel", "Afternoon beach time"],
+        "estimated_cost": "$200–350"
+      },
+      "day3": {
+        "title": "Hole in the Rock or Departure",
+        "activities": ["Full-day Hole in the Rock cruise via Cape Brett", "Or Haruru Falls walk + Kerikeri exploration", "Depart for Auckland"],
+        "estimated_cost": "$100–350"
+      }
+    },
+    "budget_breakdown": {
+      "accommodation_per_night": "$120–350",
+      "activities_per_day": "$100–350",
+      "food_per_day": "$70–120",
+      "transport_notes": "Car needed to get there. Once in Paihia, everything is walkable or boat-based."
+    },
+    "faqs": [
+      {"q": "Can you actually swim with dolphins at the Bay of Islands?", "a": "Yes, but it depends on the dolphins cooperating. Most operators run swim/watch tours. Guaranteed sightings but not guaranteed in-water encounters. Book with Explore NZ or Fullers."},
+      {"q": "How far is Bay of Islands from Auckland?", "a": "About 3.5 hours by car via SH1. Most families drive up — no direct train. Flights take 40 mins to Kerikeri."},
+      {"q": "Is Russell worth visiting?", "a": "Yes — take the 10-minute ferry from Paihia ($15 return). Russell is NZ's first European settlement, quiet and historic. Great for lunch."}
+    ],
+    "nearby_destinations": ["auckland-with-kids"],
+    "seo_keywords": ["bay of islands with kids", "bay of islands family holiday nz", "paihia with kids", "northland family holiday"]
+  },
+  {
+    "slug": "wanaka-with-kids",
+    "name": "Wanaka",
+    "island": "South Island",
+    "region": "Otago",
+    "tagline": "Queenstown's quieter, more beautiful neighbour — and better for families",
+    "summary": "Wanaka is what Queenstown was before the crowds arrived. The lake is stunning, the town is relaxed, Puzzling World is a quirky family classic, and Treble Cone offers winter skiing for those with older kids. In summer, it's a beach town with mountains.",
+    "verdict": "Better than Queenstown for a relaxed family holiday. Pair both together on a South Island trip.",
+    "best_for": "Families who want scenery without Queenstown prices and crowds",
+    "not_ideal_for": "Those who want maximum activity options (fewer than Queenstown)",
+    "commercial_intent_score": 75,
+    "quick_facts": {
+      "best_ages": "All ages",
+      "budget_family4_per_day": "$250–450",
+      "best_months": ["December", "January", "February"],
+      "shoulder_months": ["November", "March", "April"],
+      "avoid_months": [],
+      "drive_times": {
+        "from_queenstown": "1h",
+        "from_christchurch": "4h 30m",
+        "from_dunedin": "2h 30m"
+      },
+      "nearest_airport": "Queenstown Airport (ZQN) — 1h drive",
+      "flight_from_auckland": "1h 45m to Queenstown + 1h drive"
+    },
+    "top_activities": [
+      {"name": "Puzzling World", "price_note": "$24/adult, $18/child", "min_age": 4, "rain_safe": true, "must_do": true},
+      {"name": "Wanaka Lavender Farm", "price_note": "$5/person", "min_age": 0, "rain_safe": false, "must_do": false},
+      {"name": "Rippon Vineyard Picnic (free, BYO)", "price_note": "Free", "min_age": 0, "rain_safe": false, "must_do": false},
+      {"name": "Treble Cone Ski Area (winter)", "price_note": "from $139/adult, $69/child", "min_age": 3, "rain_safe": true, "must_do": false},
+      {"name": "Lake Wanaka kayak/paddleboard rental", "price_note": "from $25/hour", "min_age": 5, "rain_safe": false, "must_do": true}
+    ],
+    "free_activities": [
+      "Wanaka Lakeshore walk (the most photographed lake in NZ)",
+      "Mt Iron track (1.5h return, views over Wanaka)",
+      "Glendhu Bay (swim beach, 10 mins from town)",
+      "Outlet Track (flat family walk along the Clutha River)"
+    ],
+    "rainy_day": [
+      "Puzzling World (fully indoor)",
+      "Cinema Paradiso (legendary small cinema — BYO food)",
+      "Wanaka Beerworks tour"
+    ],
+    "where_to_stay": [
+      {"name": "Wanaka TOP 10 Holiday Park", "type": "holiday_park", "price_range": "$$", "family_features": ["lake views", "kitchen", "playground"], "affiliate_key": "top10"},
+      {"name": "Edgewater Hotel Wanaka", "type": "hotel", "price_range": "$$$", "family_features": ["lake views", "garden", "family rooms"], "affiliate_key": "booking_com"},
+      {"name": "Archway Motels Wanaka", "type": "motel", "price_range": "$$", "family_features": ["kitchen", "self-contained"], "affiliate_key": "booking_com"}
+    ],
+    "three_day_itinerary": {
+      "day1": {
+        "title": "Lake Day",
+        "activities": ["Drive in via the Crown Range (spectacular road)", "Wanaka lakeshore and That Wanaka Tree photo stop", "Paddleboard or kayak rental", "Dinner at Ritual Coffee (best burgers in town)"],
+        "estimated_cost": "$50–100"
+      },
+      "day2": {
+        "title": "Puzzling World + Mt Iron",
+        "activities": ["Puzzling World morning (2+ hours)", "Picnic at Glendhu Bay", "Mt Iron track (views)", "Cinema Paradiso evening (legendary experience)"],
+        "estimated_cost": "$50–100"
+      },
+      "day3": {
+        "title": "Queenstown Day Trip",
+        "activities": ["Day trip to Queenstown (1h drive)", "Skyline Gondola & Luge", "Return to Wanaka for dinner"],
+        "estimated_cost": "$150–250"
+      }
+    },
+    "budget_breakdown": {
+      "accommodation_per_night": "$120–350",
+      "activities_per_day": "$50–200",
+      "food_per_day": "$60–100",
+      "transport_notes": "Car essential. Crown Range road is spectacular but steep — take it slow."
+    },
+    "faqs": [
+      {"q": "Is Wanaka better than Queenstown for families?", "a": "For young children (under 8) or families wanting a relaxed pace, yes. Wanaka is calmer, cheaper, and the lake is more accessible. For older kids wanting adventure activities, Queenstown has more options."},
+      {"q": "Is the Crown Range road safe to drive?", "a": "Yes, in good weather. It's NZ's highest paved road and spectacular. Avoid in icy conditions (winter/early spring). The alternative via Cromwell is longer but easier."}
+    ],
+    "nearby_destinations": ["queenstown-with-kids", "christchurch-with-kids"],
+    "seo_keywords": ["wanaka with kids", "wanaka family holiday nz", "things to do wanaka with children", "wanaka vs queenstown families"]
+  }
+]

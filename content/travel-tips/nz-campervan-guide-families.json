@@ -1,0 +1,67 @@
+{
+  "slug": "nz-campervan-guide-families",
+  "short_title": "Campervan Guide",
+  "title": "NZ Campervan Guide for Families — Everything You Need to Know (2026)",
+  "meta_desc": "Complete guide to hiring a campervan in NZ with kids. Which company, which van, costs, freedom camping, and tips from families who've done it.",
+  "intro": "A campervan holiday in New Zealand is one of the best family travel experiences in the world. This guide covers everything you need to know — from choosing the right van to freedom camping with young kids.",
+  "updated": "May 2026",
+  "reading_time": 10,
+  "sections": [
+    {
+      "heading": "Why Campervans Work So Well for NZ Family Trips",
+      "list": [
+        "Flexibility — stop anywhere, change plans, no hotel checkout pressure",
+        "Cost savings — $600–1500 cheaper than hotels over 10 days",
+        "Kids love it — novelty, cosiness, and feeling of adventure",
+        "NZ holiday parks are excellent — modern facilities, playgrounds, pools",
+        "You carry everything — no packing/unpacking at each stop",
+        "Cook your own meals — saves $40–80/day vs eating out"
+      ]
+    },
+    {
+      "heading": "Choosing the Right Campervan for Your Family",
+      "table": {
+        "headers": ["Family size", "Recommended van", "Operator", "Approx cost"],
+        "rows": [
+          ["2 adults + 1 child", "4-berth van", "Jucy Cheeky / Maui Cascade", "$130–180/day"],
+          ["2 adults + 2 kids", "4–5 berth van", "Britz Explorer / Maui Cascade", "$180–250/day"],
+          ["2 adults + 3 kids", "6-berth motorhome", "Apollo Family / Britz Discovery", "$220–320/day"],
+          ["Extended family (6+)", "Large motorhome", "Apollo or specialised hire", "$300–420/day"]
+        ]
+      }
+    },
+    {
+      "heading": "The Hidden Costs of NZ Campervan Hire",
+      "list": [
+        "Excess reduction insurance ($15–50/day) — always buy this. The standard excess is $4,000–7,500.",
+        "One-way fee ($200–500) — if picking up in Auckland and returning in Queenstown.",
+        "Additional driver fee ($5–15/day) — if two adults want to drive.",
+        "Bedding/linen ($30–60 per person) — often optional. Bring your own sleeping bags to save.",
+        "GPS ($5–10/day) — download Google Maps offline instead.",
+        "Generator ($10–15/day) — usually not needed if staying at powered sites."
+      ]
+    },
+    {
+      "heading": "Freedom Camping with Kids",
+      "body": "Freedom camping (parking and sleeping outside of commercial campgrounds) is legal in NZ for self-contained vehicles. A self-contained certificate means the van has a toilet, grey water tank, and at least 3 days of fresh water. This opens up 100s of additional sites — beaches, lakesides, forests. Non-self-contained vans CANNOT freedom camp and must use holiday parks. Check freedomcamping.org.nz for locations.",
+      "cta": {
+        "text": "Compare campervan prices →",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    },
+    {
+      "heading": "Top Tips for Campervanning with Kids",
+      "list": [
+        "Pre-book holiday parks in January peak season — they fill up weeks ahead.",
+        "Bring a collapsible laundry basket and a clothesline — kids create a lot of washing.",
+        "Pack a reusable box of groceries and replenish at each main town.",
+        "DEET sandfly repellent is essential on the West Coast — bring twice as much as you think.",
+        "Download Google Maps offline before you leave a city — signal drops out on mountain roads.",
+        "A small portable Bluetooth speaker makes campervan evenings much better.",
+        "Keep a simple routine — same bedtime, same morning routine — kids adjust faster.",
+        "The Top 10 Holiday Park network has consistent, quality parks. Book the TOP 10 Clubcard for 10% off."
+      ]
+    }
+  ]
+}

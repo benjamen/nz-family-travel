@@ -1,0 +1,170 @@
+{% extends "base.html" %}
+
+{% block title %}{{ itinerary.title }} — NZ Family Holiday Plan 2026{% endblock %}
+{% block desc %}{{ itinerary.tagline }}. {{ itinerary.duration_days }}-day itinerary for a family of 4, budget {{ itinerary.budget_family4 }}. Day-by-day activities, drive times and honest tips.{% endblock %}
+{% block canonical %}itineraries/{{ itinerary.slug }}/{% endblock %}
+
+{% block hero %}
+<section class="page-hero itin-hero">
+  <div class="hero-inner">
+    <div class="breadcrumb"><a href="/">Home</a> › <a href="/itineraries/">Itineraries</a> › {{ itinerary.title[:40] }}…</div>
+    <h1>{{ itinerary.title }}</h1>
+    <p class="itin-subtitle-hero">{{ itinerary.subtitle }}</p>
+    <div class="itin-hero-facts">
+      <span>📅 {{ itinerary.duration_days }} days</span>
+      <span>📍 {{ itinerary.distance_km }}km driving</span>
+      <span>💰 {{ itinerary.budget_family4 }} (family 4)</span>
+      <span>🌤️ Best: {{ itinerary.best_season }}</span>
+    </div>
+  </div>
+</section>
+{% endblock %}
+
+{% block content %}
+
+<!-- Quick summary (structured for SEO/AI) -->
+<section class="section">
+  <div class="itin-summary-block">
+    <div class="isb-item"><span class="isb-label">Duration</span><span>{{ itinerary.duration_days }} days</span></div>
+    <div class="isb-item"><span class="isb-label">Total drive</span><span>{{ itinerary.distance_km }}km</span></div>
+    <div class="isb-item"><span class="isb-label">Budget (family 4)</span><span>{{ itinerary.budget_family4 }}</span></div>
+    <div class="isb-item"><span class="isb-label">Best for</span><span>{{ itinerary.best_for }}</span></div>
+    <div class="isb-item"><span class="isb-label">Best season</span><span>{{ itinerary.best_season }}</span></div>
+    <div class="isb-item"><span class="isb-label">Transport</span><span>{{ itinerary.transport }}</span></div>
+  </div>
+</section>
+
+<!-- Primary booking CTAs -->
+<section class="section">
+  <h2>Book This Trip</h2>
+  <div class="booking-grid">
+    {% for block in itinerary.affiliate_blocks %}
+    <div class="booking-card">
+      <h3>{{ block.cta }}</h3>
+      {% if block.note %}<p>{{ block.note }}</p>{% endif %}
+      <a href="{{ site.affiliates[block.affiliate_key].url }}" class="btn btn-primary" rel="sponsored" target="_blank">{{ site.affiliates[block.affiliate_key].cta }} →</a>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+<!-- Budget breakdown -->
+<section class="section section-alt">
+  <h2>Budget Breakdown</h2>
+  <div class="budget-table">
+    <div class="budget-row"><span>Accommodation</span><span>{{ itinerary.budget_breakdown.accommodation }}</span></div>
+    <div class="budget-row"><span>Activities</span><span>{{ itinerary.budget_breakdown.activities }}</span></div>
+    <div class="budget-row"><span>Food</span><span>{{ itinerary.budget_breakdown.food }}</span></div>
+    <div class="budget-row"><span>Fuel</span><span>{{ itinerary.budget_breakdown.fuel }}</span></div>
+    <div class="budget-row budget-total"><span>Estimated total (family 4)</span><span>{{ itinerary.budget_family4 }}</span></div>
+  </div>
+  <p class="table-note">Budget is indicative. Campervan hire can reduce accommodation and food costs significantly — <a href="/campervans/">compare campervans</a>.</p>
+</section>
+
+<!-- Day-by-day plan -->
+<section class="section">
+  <h2>Day-by-Day Plan</h2>
+  <div class="day-plan-full">
+    {% for day in itinerary.days %}
+    <div class="day-full-card">
+      <div class="day-full-header">
+        <div class="day-num-big">Day {{ day.day }}</div>
+        <div class="day-full-info">
+          <h3>{{ day.title }}</h3>
+          <div class="day-full-meta">
+            <span>📍 {{ day.location }}</span>
+            {% if day.drive_from_prev %}<span>🚗 {{ day.drive_from_prev }}</span>{% endif %}
+            <span>💰 ~{{ day.estimated_cost }}</span>
+          </div>
+        </div>
+      </div>
+      <ul class="day-activities">
+        {% for act in day.activities %}
+        <li>{{ act }}</li>
+        {% endfor %}
+      </ul>
+      {% if day.tips %}
+      <div class="day-tips">
+        <strong>Tips:</strong>
+        <ul>
+          {% for tip in day.tips %}
+          <li>{{ tip }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endif %}
+      <div class="day-stay">
+        <span>🏕️ Stay: {{ day.accommodation }}</span>
+        <a href="{{ site.affiliates.booking_com.url }}" class="btn btn-sm btn-outline" rel="sponsored" target="_blank">Find accommodation →</a>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+<!-- Mid-page affiliate block -->
+<div class="mid-affiliate">
+  <div class="mid-aff-inner">
+    <h3>Planning this trip?</h3>
+    <div class="mid-aff-grid">
+      <a href="{{ site.affiliates.discover_cars.url }}" class="mid-aff-card" rel="sponsored" target="_blank">
+        <strong>🚐 Compare Campervans</strong>
+        <span>Jucy, Maui, Britz — from $89/day. Saves $600+ on accommodation.</span>
+      </a>
+      <a href="{{ site.affiliates.bookme.url }}" class="mid-aff-card" rel="sponsored" target="_blank">
+        <strong>🎫 Pre-Book Activities</strong>
+        <span>Rotorua, Queenstown, Taupo — up to 40% off via Bookme.</span>
+      </a>
+      <a href="{{ site.affiliates.covermore.url }}" class="mid-aff-card" rel="sponsored" target="_blank">
+        <strong>🛡️ Travel Insurance</strong>
+        <span>Cover-More — essential for any NZ road trip with kids.</span>
+      </a>
+    </div>
+  </div>
+</div>
+
+<!-- Packing tips -->
+{% if itinerary.packing_tips %}
+<section class="section">
+  <h2>Packing Tips for This Trip</h2>
+  <ul class="packing-list">
+    {% for tip in itinerary.packing_tips %}
+    <li>{{ tip }}</li>
+    {% endfor %}
+  </ul>
+  <a href="/tools/nz-family-packing-list/" class="btn btn-outline" style="margin-top:1rem">Get a full packing list →</a>
+</section>
+{% endif %}
+
+<!-- FAQ -->
+<section class="section section-alt">
+  <h2>FAQ</h2>
+  <div class="faq-list">
+    {% for faq in itinerary.faqs %}
+    <details class="faq-item">
+      <summary>{{ faq.q }}</summary>
+      <p>{{ faq.a }}</p>
+    </details>
+    {% endfor %}
+  </div>
+</section>
+
+<!-- Other itineraries -->
+<section class="section">
+  <h2>Other NZ Family Itineraries</h2>
+  <div class="itin-grid">
+    {% for other in itineraries if other.slug != itinerary.slug %}
+    <div class="itin-card">
+      <div class="itin-header">
+        <span class="itin-days">{{ other.duration_days }} days</span>
+        <span class="itin-budget">{{ other.budget_family4 }}</span>
+      </div>
+      <h3><a href="/itineraries/{{ other.slug }}/">{{ other.title }}</a></h3>
+      <p class="itin-tagline">{{ other.tagline }}</p>
+      <a href="/itineraries/{{ other.slug }}/" class="btn btn-outline btn-sm">View itinerary →</a>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+{% endblock %}

@@ -1,0 +1,74 @@
+{
+  "title": "NZ Family Travel — NZ's Family Holiday Planning Platform",
+  "description": "Plan your New Zealand family holiday. Compare campervans, find kid-friendly activities, and get honest itineraries from New Zealand parents.",
+  "base_url": "https://nzfamilytravel.co.nz",
+  "base_path": "",
+  "domain": "nzfamilytravel.co.nz",
+  "ga_id": "",
+  "contact_email": "hello@nzfamilytravel.co.nz",
+  "affiliates": {
+    "bookme": {
+      "name": "Bookme.co.nz",
+      "url": "https://www.bookme.co.nz/",
+      "commission": "6-10% per booking",
+      "network": "Direct",
+      "cta": "Book & Save on Activities"
+    },
+    "booking_com": {
+      "name": "Booking.com",
+      "url": "https://www.booking.com/",
+      "commission": "25-40% of their commission",
+      "network": "Booking.com Partner",
+      "cta": "Check Availability"
+    },
+    "discover_cars": {
+      "name": "Discover Cars",
+      "url": "https://www.discovercars.com/",
+      "commission": "40% of revenue",
+      "network": "Direct",
+      "cta": "Compare Campervan Prices"
+    },
+    "top10": {
+      "name": "TOP 10 Holiday Parks",
+      "url": "https://www.top10.co.nz/",
+      "commission": "8% per booking",
+      "network": "Direct",
+      "cta": "Find Holiday Parks"
+    },
+    "covermore": {
+      "name": "Cover-More Travel Insurance",
+      "url": "https://www.covermore.co.nz/",
+      "commission": "$15-30 per policy",
+      "network": "Direct",
+      "cta": "Get Travel Insurance"
+    },
+    "viator": {
+      "name": "Viator",
+      "url": "https://www.viator.com/",
+      "commission": "8% per booking",
+      "network": "Viator Partner",
+      "cta": "Book Tours & Activities"
+    },
+    "skyscanner": {
+      "name": "Skyscanner",
+      "url": "https://www.skyscanner.co.nz/",
+      "commission": "Per click",
+      "network": "Direct",
+      "cta": "Compare Flights"
+    },
+    "jucy": {
+      "name": "Jucy Rentals",
+      "url": "https://jucy.co.nz/",
+      "commission": "8% per booking",
+      "network": "Direct",
+      "cta": "View Jucy Deals"
+    },
+    "maui": {
+      "name": "Maui Campervans",
+      "url": "https://www.maui-rentals.com/en/nz/",
+      "commission": "8% per booking",
+      "network": "Direct",
+      "cta": "View Maui Deals"
+    }
+  }
+}

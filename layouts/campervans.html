@@ -1,0 +1,185 @@
+{% extends "base.html" %}
+
+{% block title %}Best Campervans NZ 2026 — Family Comparison: Jucy vs Maui vs Britz vs Mighty{% endblock %}
+{% block desc %}Compare NZ campervans for families: Jucy, Maui, Britz, Mighty, Apollo. Real prices from $79/day, family layouts, and which is actually best for kids.{% endblock %}
+{% block canonical %}campervans/{% endblock %}
+
+{% block hero %}
+<section class="page-hero">
+  <div class="hero-inner">
+    <div class="breadcrumb"><a href="/">Home</a> › Campervans</div>
+    <h1>Best Campervans for NZ Family Holidays 2026</h1>
+    <p>Side-by-side comparison of every major NZ campervan operator — prices, fleet quality, family layouts, and honest ratings.</p>
+    <a href="{{ site.affiliates.discover_cars.url }}" class="btn btn-primary" rel="sponsored" target="_blank" style="margin-top:1rem">Compare Live Campervan Prices →</a>
+  </div>
+</section>
+{% endblock %}
+
+{% block content %}
+
+<!-- Why campervan -->
+<section class="section">
+  <h2>Should You Hire a Campervan for Your NZ Family Trip?</h2>
+  <div class="why-camper-grid">
+    <div class="why-card why-yes">
+      <h3>✓ Go campervan if…</h3>
+      <ul>
+        <li>Your trip is 7+ days</li>
+        <li>You're doing a road trip (not staying in one city)</li>
+        <li>You want to save $600–1500 on accommodation</li>
+        <li>You want the flexibility to stop anywhere</li>
+        <li>You have a family of 4+ who need space</li>
+      </ul>
+    </div>
+    <div class="why-card why-no">
+      <h3>✗ Skip campervan if…</h3>
+      <ul>
+        <li>Your trip is 5 days or less</li>
+        <li>You're staying in one city (e.g. just Auckland)</li>
+        <li>You need premium accommodation (business travel)</li>
+        <li>You have a baby under 6 months</li>
+        <li>Your budget is very tight (rental car + holiday parks can cost less on short trips)</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- Comparison table -->
+<section class="section">
+  <h2>NZ Campervan Comparison — Family of 4</h2>
+  <div class="table-wrap">
+    <table class="compare-table">
+      <thead>
+        <tr>
+          <th>Brand</th>
+          <th>Type</th>
+          <th>From/day</th>
+          <th>Best family van</th>
+          <th>Sleeps</th>
+          <th>One-way?</th>
+          <th>Fleet quality</th>
+          <th>Rating</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for van in campervans|sort(attribute='pricing.per_day_low') %}
+        <tr>
+          <td><a href="/campervans/{{ van.slug }}/">{{ van.name }}</a><br><span class="van-type-badge type-{{ van.type|lower }}">{{ van.type }}</span></td>
+          <td>{{ van.type }}</td>
+          <td class="price-cell">${{ van.pricing.per_day_low }}</td>
+          <td>{{ van.vans | selectattr("family_suitable") | first | attr("name") if van.vans | selectattr("family_suitable") | list else "N/A" }}</td>
+          <td>4–6</td>
+          <td>{% if van.one_way %}✓{% else %}—{% endif %}</td>
+          <td>{{ van.type }}</td>
+          <td>{{ van.rating }}★</td>
+          <td><a href="{{ site.affiliates.discover_cars.url }}" class="btn btn-sm btn-primary" rel="sponsored" target="_blank">Check price</a></td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+  <p class="table-note">Prices are peak season estimates. Check live pricing via Discover Cars — prices change daily.</p>
+  <div style="text-align:center;margin-top:1.5rem">
+    <a href="{{ site.affiliates.discover_cars.url }}" class="btn btn-primary" rel="sponsored" target="_blank">Compare Live Campervan Prices →</a>
+  </div>
+</section>
+
+<!-- Individual reviews -->
+<section class="section">
+  <h2>Detailed Campervan Reviews</h2>
+  <div class="van-reviews">
+    {% for van in campervans %}
+    <div class="van-review-card">
+      <div class="van-review-header">
+        <div>
+          <h3><a href="/campervans/{{ van.slug }}/">{{ van.name }}</a></h3>
+          <span class="van-type-badge type-{{ van.type|lower }}">{{ van.type }}</span>
+          <span class="van-rating">{{ van.rating }}★ ({{ van.review_count }} reviews)</span>
+        </div>
+        <div class="van-price-big">from ${{ van.pricing.per_day_low }}<span>/day</span></div>
+      </div>
+      <p>{{ van.verdict }}</p>
+      <div class="van-pros-cons">
+        <div class="pros-mini">
+          {% for pro in van.pros[:3] %}<span>✓ {{ pro }}</span>{% endfor %}
+        </div>
+        <div class="cons-mini">
+          {% for con in van.cons[:2] %}<span>✗ {{ con }}</span>{% endfor %}
+        </div>
+      </div>
+      <div class="van-ctas">
+        <a href="/campervans/{{ van.slug }}/" class="btn btn-sm btn-outline">Full review →</a>
+        <a href="{{ site.affiliates.discover_cars.url }}" class="btn btn-sm btn-primary" rel="sponsored" target="_blank">Check {{ van.name }} price →</a>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+<!-- Cost comparison -->
+<section class="section section-alt">
+  <h2>Campervan vs Hotels — 10-Day South Island Cost Comparison</h2>
+  <div class="table-wrap">
+    <table class="compare-table">
+      <thead>
+        <tr><th>Option</th><th>Accommodation (10 nights)</th><th>Food saving (cooking)</th><th>Total saving</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Budget campervan (Jucy/Mighty)</strong><br>~$150/day hire</td>
+          <td>$250 (holiday park fees at $25/night)</td>
+          <td>$400 (cooking vs eating out)</td>
+          <td class="price-cell">Save ~$1100 vs mid hotels</td>
+        </tr>
+        <tr>
+          <td><strong>Mid-range campervan (Maui/Britz)</strong><br>~$230/day hire</td>
+          <td>$250 (holiday parks)</td>
+          <td>$400</td>
+          <td class="price-cell">Save ~$600 vs mid hotels</td>
+        </tr>
+        <tr>
+          <td><strong>Mid-range hotels</strong></td>
+          <td>$2500 ($250/night)</td>
+          <td>—</td>
+          <td>Baseline</td>
+        </tr>
+        <tr>
+          <td><strong>Budget hotels/motels</strong></td>
+          <td>$1400 ($140/night)</td>
+          <td>—</td>
+          <td>Save ~$400 vs mid hotels</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="section">
+  <h2>NZ Campervan FAQ</h2>
+  <div class="faq-list">
+    <details class="faq-item">
+      <summary>What is the best campervan for a family of 4 in NZ?</summary>
+      <p>The Britz Explorer (5-berth) or Maui Cascade (4-berth) are the best family options. The Britz has a separate sleeping area for kids which is genuinely useful on longer trips. The Maui is newer and more affordable. Both sleep 4 comfortably.</p>
+    </details>
+    <details class="faq-item">
+      <summary>Do I need a special licence to drive a campervan in NZ?</summary>
+      <p>No. Most campervans in NZ (under 6m) can be driven on a standard car licence. Larger motorhomes over 6m may require a special licence — check with the operator.</p>
+    </details>
+    <details class="faq-item">
+      <summary>Can campervans freedom camp in NZ?</summary>
+      <p>Self-contained campervans (with toilet and water supply) can freedom camp at designated sites. Non-self-contained vans must stay at holiday parks. Check <a href="https://www.freedomcamping.org.nz" target="_blank">freedomcamping.org.nz</a> for designated sites.</p>
+    </details>
+    <details class="faq-item">
+      <summary>How far in advance should I book a campervan for NZ?</summary>
+      <p>For December–January (peak summer), book 3–6 months ahead. For other months, 6–8 weeks is usually sufficient. One-way bookings (e.g., Auckland to Queenstown) are the most popular and book out fastest.</p>
+    </details>
+    <details class="faq-item">
+      <summary>What is included in a NZ campervan hire?</summary>
+      <p>Most campervans include: bedding, kitchen equipment, GPS, basic camping equipment. Not included: excess insurance reduction ($15–50/day), one-way fees ($300–500 if applicable), additional driver fees. Always read the fine print before booking.</p>
+    </details>
+  </div>
+</section>
+
+{% endblock %}

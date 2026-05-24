@@ -1,0 +1,77 @@
+{% extends "base.html" %}
+
+{% block title %}{{ tool.title }} — NZ Family Travel{% endblock %}
+{% block desc %}{{ tool.description }}{% endblock %}
+{% block canonical %}tools/{{ tool.slug }}/{% endblock %}
+
+{% block extra_head %}
+<style>
+.tool-container { background: #f9fafb; border: 1px solid #e5e7eb; border-radius: 12px; padding: 2rem; margin: 1.5rem 0; }
+.tool-row { display: flex; gap: 1rem; align-items: center; margin-bottom: 1rem; flex-wrap: wrap; }
+.tool-row label { font-weight: 600; min-width: 180px; }
+.tool-row select, .tool-row input[type="number"] { padding: .5rem .75rem; border: 1px solid #d1d5db; border-radius: 8px; font-size: 1rem; }
+.tool-result { background: #fff; border: 2px solid #2563eb; border-radius: 8px; padding: 1.5rem; margin-top: 1.5rem; }
+.result-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px,1fr)); gap: 1rem; margin-top: 1rem; }
+.result-item { text-align: center; padding: 1rem; background: #f0f4ff; border-radius: 8px; }
+.result-val { display: block; font-size: 1.5rem; font-weight: 800; color: #2563eb; }
+.result-label { font-size: .82rem; color: #6b7280; }
+.btn-calculate { background: #2563eb; color: #fff; border: none; padding: .75rem 2rem; border-radius: 8px; font-size: 1rem; font-weight: 700; cursor: pointer; margin-top: 1rem; }
+.btn-calculate:hover { background: #1d4ed8; }
+.driving-table { width: 100%; border-collapse: collapse; margin-top: 1rem; }
+.driving-table th { background: #1f2937; color: #fff; padding: .6rem 1rem; text-align: left; }
+.driving-table td { padding: .6rem 1rem; border-bottom: 1px solid #f3f4f6; }
+.driving-table tr:nth-child(even) { background: #f9fafb; }
+</style>
+{% endblock %}
+
+{% block hero %}
+<section class="page-hero">
+  <div class="hero-inner">
+    <div class="breadcrumb"><a href="/">Home</a> › <a href="/tools/">Tools</a> › {{ tool.title }}</div>
+    <div class="tool-icon-big">{{ tool.icon }}</div>
+    <h1>{{ tool.title }}</h1>
+    <p>{{ tool.description }}</p>
+  </div>
+</section>
+{% endblock %}
+
+{% block content %}
+
+<section class="section">
+  {{ tool.html_content }}
+</section>
+
+<!-- Affiliate suggestions from results -->
+<section class="section section-alt">
+  <h2>Based on Your Trip — Useful Links</h2>
+  <div class="mid-aff-grid">
+    <a href="{{ site.affiliates.discover_cars.url }}" class="mid-aff-card" rel="sponsored" target="_blank">
+      <strong>🚐 Compare Campervan Prices</strong>
+      <span>Jucy, Maui, Britz from $89/day. Saves $600+ on accommodation for 7+ day trips.</span>
+    </a>
+    <a href="{{ site.affiliates.bookme.url }}" class="mid-aff-card" rel="sponsored" target="_blank">
+      <strong>🎫 Pre-Book Activities</strong>
+      <span>Up to 40% off NZ attractions via Bookme. Rotorua, Queenstown, Taupo.</span>
+    </a>
+    <a href="{{ site.affiliates.covermore.url }}" class="mid-aff-card" rel="sponsored" target="_blank">
+      <strong>🛡️ Travel Insurance</strong>
+      <span>Cover-More — NZ's most trusted travel insurer. Essential for families.</span>
+    </a>
+  </div>
+</section>
+
+<!-- Related tools -->
+<section class="section">
+  <h2>Other Travel Tools</h2>
+  <div class="tools-grid">
+    {% for other_tool in tools if other_tool.slug != tool.slug %}
+    <a href="/tools/{{ other_tool.slug }}/" class="tool-card">
+      <span class="tool-icon">{{ other_tool.icon }}</span>
+      <h3>{{ other_tool.title }}</h3>
+      <p>{{ other_tool.description }}</p>
+    </a>
+    {% endfor %}
+  </div>
+</section>
+
+{% endblock %}

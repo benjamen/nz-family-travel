@@ -1,0 +1,121 @@
+{% extends "base.html" %}
+
+{% block title %}Family Activities in {{ city_name }} NZ 2026 — Prices, Ages & Reviews{% endblock %}
+{% block desc %}{{ city_activities|length }} family activities in {{ city_name }}, NZ. Real prices, minimum ages, rain-safe options and honest reviews.{% endblock %}
+{% block canonical %}activities/{{ city_slug }}/{% endblock %}
+
+{% block hero %}
+<section class="page-hero">
+  <div class="hero-inner">
+    <div class="breadcrumb"><a href="/">Home</a> › <a href="/activities/">Activities</a> › {{ city_name }}</div>
+    <h1>Family Activities in {{ city_name }}, NZ</h1>
+    <p>{{ city_activities|length }} kid-friendly activities reviewed — real prices, minimum ages, and whether they're worth it.</p>
+  </div>
+</section>
+{% endblock %}
+
+{% block content %}
+
+{% if dest_obj %}
+<div class="affiliate-strip">
+  <div class="aff-strip-inner">
+    <a href="{{ site.affiliates.bookme.url }}" class="aff-strip-item" rel="sponsored" target="_blank">
+      🎫 <strong>Book {{ city_name }} Activities</strong> — save up to 40% via Bookme
+    </a>
+    <a href="{{ site.affiliates.booking_com.url }}" class="aff-strip-item" rel="sponsored" target="_blank">
+      🏕️ <strong>Find Accommodation in {{ city_name }}</strong>
+    </a>
+  </div>
+</div>
+{% endif %}
+
+<!-- Activity table (comparison-first) -->
+<section class="section">
+  <h2>{{ city_name }} Activity Comparison</h2>
+  <div class="table-wrap">
+    <table class="compare-table">
+      <thead>
+        <tr>
+          <th>Activity</th>
+          <th>Adult</th>
+          <th>Child</th>
+          <th>Family 4</th>
+          <th>Min age</th>
+          <th>Duration</th>
+          <th>Rain-safe</th>
+          <th>Suitability</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for act in city_activities|sort(attribute='family_suitability', reverse=True) %}
+        <tr {% if act.family_suitability >= 9 %}class="must-do-row"{% endif %}>
+          <td><a href="/activity/{{ act.slug }}/">{{ act.name }}</a></td>
+          <td>{% if act.price.adult > 0 %}${{ act.price.adult }}{% else %}<span class="badge-green">Free</span>{% endif %}</td>
+          <td>{% if act.price.child > 0 %}${{ act.price.child }}{% else %}<span class="badge-green">Free</span>{% endif %}</td>
+          <td>{% if act.price.family4 > 0 %}${{ act.price.family4 }}{% else %}<span class="badge-green">Free</span>{% endif %}</td>
+          <td>{{ act.min_age }}+</td>
+          <td>{{ act.duration }}</td>
+          <td>{% if act.rain_safe %}✓{% else %}—{% endif %}</td>
+          <td>{{ act.family_suitability }}/10</td>
+          <td>
+            {% if act.affiliate_key and site.affiliates[act.affiliate_key] %}
+            <a href="{{ site.affiliates[act.affiliate_key].url }}" class="btn btn-sm btn-primary" rel="sponsored" target="_blank">Book</a>
+            {% else %}
+            <a href="/activity/{{ act.slug }}/" class="btn btn-sm btn-outline">Details</a>
+            {% endif %}
+          </td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- Activity cards -->
+<section class="section">
+  <h2>{{ city_name }} Activity Reviews</h2>
+  <div class="act-grid">
+    {% for act in city_activities|sort(attribute='family_suitability', reverse=True) %}
+    <div class="act-card">
+      <div class="act-header">
+        {% if act.rain_safe %}<span class="act-rain rain-yes">☂ Rain-safe</span>{% endif %}
+        {% if act.price.adult == 0 %}<span class="act-free">Free!</span>{% endif %}
+        {% if act.family_suitability >= 9 %}<span class="act-top">Top pick</span>{% endif %}
+      </div>
+      <h3><a href="/activity/{{ act.slug }}/">{{ act.name }}</a></h3>
+      <p>{{ act.tagline }}</p>
+      <div class="act-meta">
+        {% if act.price.adult > 0 %}
+        <span class="act-price">${{ act.price.adult }}/adult · ${{ act.price.child }}/child</span>
+        {% else %}
+        <span class="act-price free">Free entry</span>
+        {% endif %}
+        <span class="act-age">Ages {{ act.min_age }}+</span>
+        <span class="act-duration">{{ act.duration }}</span>
+      </div>
+      <div class="act-footer">
+        <a href="/activity/{{ act.slug }}/" class="btn btn-sm btn-outline">Full review →</a>
+        {% if act.affiliate_key and site.affiliates[act.affiliate_key] %}
+        <a href="{{ site.affiliates[act.affiliate_key].url }}" class="btn btn-sm btn-primary" rel="sponsored" target="_blank">{{ site.affiliates[act.affiliate_key].cta }}</a>
+        {% endif %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+{% if dest_obj %}
+<section class="section section-alt">
+  <h2>Full {{ city_name }} Family Guide</h2>
+  <div class="dest-link-card">
+    <div>
+      <h3><a href="/destinations/{{ dest_obj.slug }}/">{{ dest_obj.name }} Family Holiday Guide →</a></h3>
+      <p>{{ dest_obj.summary[:200] }}…</p>
+    </div>
+    <a href="/destinations/{{ dest_obj.slug }}/" class="btn btn-primary">Full guide →</a>
+  </div>
+</section>
+{% endif %}
+
+{% endblock %}
