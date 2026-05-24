@@ -1,0 +1,73 @@
+{
+  "slug": "nz-school-holidays-travel-tips",
+  "short_title": "School Holidays Travel",
+  "title": "NZ School Holidays Travel Tips — How to Beat the Crowds and Save Money",
+  "meta_desc": "NZ school holidays travel tips to beat crowds and save money, discover peak vs off-peak pricing",
+  "intro": "With a 2-week school holiday period costing upwards of $5,000 for a family of four, it's essential to plan strategically to make the most of your NZ family travel experience. Did you know that booking 3 months in advance can save you up to 30% on accommodation prices? School holidays in NZ can be overwhelming, especially during peak season, but with the right strategies, you can avoid the chaos and make unforgettable memories with your family.",
+  "updated": "May 2026",
+  "reading_time": 9,
+  "sections": [
+    {
+      "heading": "Understanding Peak vs Off-Peak Pricing",
+      "body": "During peak season, which typically coincides with school holidays, prices for accommodations and activities tend to skyrocket. For instance, a night at the Heritage Hotel in Queenstown can cost upwards of $450 NZD, whereas during off-peak season, the same room can cost as low as $250 NZD. This significant price difference can greatly impact your travel budget and overall experience."
+    },
+    {
+      "heading": "Practical Tips to Beat the Crowds",
+      "list": [
+        "Plan your day around avoiding peak hours (usually between 11 am and 3 pm) at popular attractions like the Sky Tower in Auckland or the Wellington Zoo",
+        "Consider visiting lesser-known destinations, such as the Catlins or the East Cape, which offer unique experiences without the crowds",
+        "Book your accommodations in a nearby town instead of a major city to reduce costs and minimize congestion, for example, staying in Cambridge instead of Hamilton"
+      ]
+    },
+    {
+      "heading": "Booking Lead Times and Their Impact on Prices",
+      "table": {
+        "headers": [
+          "Booking Lead Time",
+          "Price Reduction"
+        ],
+        "rows": [
+          [
+            "3 months",
+            "20-30%"
+          ],
+          [
+            "2 months",
+            "10-20%"
+          ],
+          [
+            "1 month",
+            "5-10%"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Driving Times and Road Trip Planning",
+      "body": "When planning a road trip, it's essential to consider driving times and distances to avoid fatigue and ensure a smooth journey. For example, driving from Auckland to Rotorua takes approximately 3 hours, while driving from Wellington to Taupo takes around 4.5 hours. Make sure to plan for regular breaks and accommodations along the way to keep your family comfortable and energized."
+    },
+    {
+      "heading": "Saving Money on Accommodations",
+      "list": [
+        "Look for package deals that include accommodations and activities, such as a 3-night stay at the Rotorua Lakeside Holiday Resort with a family pass to Wai-O-Tapu",
+        "Consider camping or staying in a holiday home, which can cost as low as $30-50 NZD per night, compared to $150-200 NZD per night for a hotel room"
+      ]
+    },
+    {
+      "heading": "Plan Your Next Family Trip with Our Tools",
+      "cta": {
+        "text": "Get started with our NZ Family Travel Budget Calculator",
+        "url": "/tools/nz-family-travel-budget-calculator/",
+        "affiliate": false
+      }
+    },
+    {
+      "heading": "Explore Our Top Destinations for Family Travel",
+      "cta": {
+        "text": "Discover the best family-friendly destinations in NZ",
+        "url": "/destinations/",
+        "affiliate": false
+      }
+    }
+  ]
+}

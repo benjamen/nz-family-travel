@@ -126,7 +126,13 @@
         "alt": "Lake Wanaka with the Southern Alps reflected in the water",
         "credit": "Wikimedia Commons"
       },
-      "gallery": [],
+      "gallery": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/LakeWanakaNov262024_01.jpg/1200px-LakeWanakaNov262024_01.jpg",
+          "alt": "Lake Wanaka and Mount Aspiring National Park",
+          "caption": "Wanaka — clear alpine lake surrounded by mountains"
+        }
+      ],
       "videos": [
         {
           "youtube_id": "FJpAFWX9pZQ",
@@ -176,6 +182,48 @@
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Christchurch_gondola_02.jpg",
         "alt": "Christchurch Gondola with Port Hills views"
+      },
+      "youtube_id": null
+    },
+    "skyline-gondola-luge-queenstown": {
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/View_from_Shotover-Rees_St%2C_Queenstown_-_panoramio_%282%29.jpg",
+        "alt": "Panoramic view of Queenstown from above — Skyline Gondola viewpoint"
+      },
+      "youtube_id": null
+    },
+    "agrodome-rotorua": {
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/New_Zealand_Agrodome.webm/500px--New_Zealand_Agrodome.webm.jpg",
+        "alt": "Agrodome Rotorua — NZ farm show with sheep and sheepdogs"
+      },
+      "youtube_id": null
+    },
+    "huka-jet-taupo": {
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Huka_Falls.jpg",
+        "alt": "Huka Falls Taupo — Huka Jet boats in the Waikato River gorge"
+      },
+      "youtube_id": null
+    },
+    "dolphins-bay-of-islands": {
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/00_4801_Dolphins_-_Bay_of_Islands.jpg",
+        "alt": "Bottlenose dolphins leaping in the Bay of Islands"
+      },
+      "youtube_id": null
+    },
+    "puzzling-world-wanaka": {
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/LakeWanakaNov262024_01.jpg/1200px-LakeWanakaNov262024_01.jpg",
+        "alt": "Wanaka township with Lake Wanaka — Puzzling World is nearby"
+      },
+      "youtube_id": null
+    },
+    "orana-wildlife-park-christchurch": {
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Orana_Wildlife_Park_feeding_lions.jpg",
+        "alt": "Orana Wildlife Park Christchurch — lions feeding from a vehicle"
       },
       "youtube_id": null
     }
