@@ -67,6 +67,9 @@
   <div class="dest-grid">
     {% for dest in destinations %}
     <a href="/destinations/{{ dest.slug }}/" class="dest-card">
+      {% if dest.media and dest.media.hero_image %}
+      <div class="dest-card-img" style="background-image:url('{{ dest.media.hero_image.url }}')"></div>
+      {% endif %}
       <div class="dest-card-body">
         <div class="dest-meta">
           <span class="dest-island island-{{ dest.island|lower|replace(' ','-') }}">{{ dest.island }}</span>

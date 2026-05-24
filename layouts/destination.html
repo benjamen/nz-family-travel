@@ -9,6 +9,25 @@
 {% endblock %}
 
 {% block hero %}
+{% if destination.media.hero_image %}
+<div class="dest-hero-image" style="background-image:url('{{ destination.media.hero_image.url }}')">
+  <div class="dest-hero-overlay">
+    <div class="hero-inner">
+      <div class="breadcrumb" style="color:rgba(255,255,255,.75)"><a href="/" style="color:#fff">Home</a> › <a href="/destinations/" style="color:#fff">Destinations</a> › {{ destination.name }}</div>
+      <div class="dest-hero-meta">
+        <span class="dest-island island-{{ destination.island|lower|replace(' ','-') }}">{{ destination.island }}</span>
+        <span class="dest-region" style="color:rgba(255,255,255,.8)">{{ destination.region }}</span>
+      </div>
+      <h1 style="color:#fff;text-shadow:0 2px 8px rgba(0,0,0,.5)">{{ destination.name }} with Kids — 2026 Family Guide</h1>
+      <p style="color:rgba(255,255,255,.9);font-size:1.1rem;margin-top:.5rem">{{ destination.tagline }}</p>
+      <div class="dest-verdict-pill" style="background:rgba(255,255,255,.15);border-color:rgba(255,255,255,.3);color:#fff;margin-top:1rem">
+        <span>✓ {{ destination.verdict }}</span>
+      </div>
+      <p class="img-credit">📷 {{ destination.media.hero_image.credit }}</p>
+    </div>
+  </div>
+</div>
+{% else %}
 <section class="page-hero dest-hero">
   <div class="hero-inner">
     <div class="breadcrumb"><a href="/">Home</a> › <a href="/destinations/">Destinations</a> › {{ destination.name }}</div>
@@ -18,11 +37,10 @@
     </div>
     <h1>{{ destination.name }} with Kids — 2026 Family Guide</h1>
     <p>{{ destination.tagline }}</p>
-    <div class="dest-verdict-pill">
-      <span>✓ {{ destination.verdict }}</span>
-    </div>
+    <div class="dest-verdict-pill"><span>✓ {{ destination.verdict }}</span></div>
   </div>
 </section>
+{% endif %}
 {% endblock %}
 
 {% block content %}
@@ -90,6 +108,57 @@
     </div>
   </div>
 </section>
+
+<!-- Photo gallery -->
+{% if destination.media.gallery and destination.media.gallery|length > 0 %}
+<section class="section">
+  <h2>{{ destination.name }} in Photos</h2>
+  <div class="photo-gallery">
+    {% if destination.media.hero_image %}
+    <div class="gallery-main">
+      <img src="{{ destination.media.hero_image.url }}" alt="{{ destination.media.hero_image.alt }}" loading="lazy">
+      <span class="gallery-caption">{{ destination.name }} — {{ destination.media.hero_image.alt }}</span>
+    </div>
+    {% endif %}
+    <div class="gallery-grid">
+      {% for photo in destination.media.gallery %}
+      <div class="gallery-item">
+        <img src="{{ photo.url }}" alt="{{ photo.alt }}" loading="lazy">
+        <span class="gallery-caption">{{ photo.caption }}</span>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+<!-- Videos -->
+{% if destination.media.videos and destination.media.videos|length > 0 %}
+<section class="section section-alt">
+  <h2>{{ destination.name }} — Watch Before You Go</h2>
+  <p class="section-intro">Real footage of {{ destination.name }} — activities, scenery, and what to expect with kids.</p>
+  <div class="video-grid">
+    {% for video in destination.media.videos %}
+    <div class="video-embed-card">
+      <div class="video-wrap">
+        <iframe
+          src="https://www.youtube.com/embed/{{ video.youtube_id }}?rel=0&modestbranding=1"
+          title="{{ video.title }}"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+          loading="lazy">
+        </iframe>
+      </div>
+      <div class="video-info">
+        <h3>{{ video.title }}</h3>
+        <p>{{ video.description }}</p>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
 
 <!-- Top activities -->
 <section class="section">

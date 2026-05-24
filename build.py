@@ -55,8 +55,15 @@ def build():
     activities   = load("activities")
     itineraries  = load("itineraries")
     campervans   = load("campervans")
+    media        = load("media")
     guides       = load_content_dir("travel-tips")
     tools        = load_content_dir("tools")
+
+    # Attach media to destinations and activities
+    for dest in destinations:
+        dest["media"] = media["destinations"].get(dest["slug"], {})
+    for act in activities:
+        act["media"] = media["activities"].get(act["slug"], {})
 
     ctx = dict(
         site=site,

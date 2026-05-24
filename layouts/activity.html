@@ -23,6 +23,13 @@
 
 {% block content %}
 
+<!-- Activity hero image -->
+{% if activity.media and activity.media.image %}
+<div class="activity-hero-img">
+  <img src="{{ activity.media.image.url }}" alt="{{ activity.media.image.alt }}" loading="eager">
+</div>
+{% endif %}
+
 <!-- Structured summary (AI-readable) -->
 <section class="section">
   <div class="quick-facts-block">
@@ -132,6 +139,25 @@
     </div>
   </div>
 </div>
+{% endif %}
+
+<!-- YouTube video -->
+{% if activity.media and activity.media.youtube_id %}
+<section class="section section-alt">
+  <h2>{{ activity.name }} — Watch</h2>
+  <div class="video-single">
+    <div class="video-wrap">
+      <iframe
+        src="https://www.youtube.com/embed/{{ activity.media.youtube_id }}?rel=0&modestbranding=1"
+        title="{{ activity.name }}"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+        loading="lazy">
+      </iframe>
+    </div>
+  </div>
+</section>
 {% endif %}
 
 <!-- Destination link -->
