@@ -1,0 +1,75 @@
+{
+  "updated": "May 2026",
+  "current_deals": [
+    {
+      "title": "Bookme Activity Discounts",
+      "description": "Up to 40% off Rotorua, Queenstown, Bay of Islands and Auckland activities",
+      "saving": "up to 40% off",
+      "affiliate": "bookme",
+      "url": "https://www.bookme.co.nz/",
+      "valid_until": "year-round"
+    },
+    {
+      "title": "Discover Cars Campervan Deals",
+      "description": "Family campervans from $89/day — compare Jucy, Maui, Britz, Mighty in one search",
+      "saving": "from $89/day",
+      "affiliate": "discover_cars",
+      "url": "https://www.discovercars.com/",
+      "valid_until": "year-round"
+    },
+    {
+      "title": "Booking.com Holiday Parks",
+      "description": "NZ holiday parks and motels — free cancellation on most bookings",
+      "saving": "free cancellation",
+      "affiliate": "booking_com",
+      "url": "https://www.booking.com/",
+      "valid_until": "year-round"
+    },
+    {
+      "title": "Cover-More Family Travel Insurance",
+      "description": "Comprehensive NZ and international family travel insurance",
+      "saving": "cover from $4.50/day",
+      "affiliate": "covermore",
+      "url": "https://www.covermore.co.nz/",
+      "valid_until": "year-round"
+    },
+    {
+      "title": "Hobbiton Early Bird",
+      "description": "Book Hobbiton Movie Set tours 6+ weeks ahead for guaranteed availability",
+      "saving": "availability guarantee",
+      "affiliate": "bookme",
+      "url": "https://www.bookme.co.nz/",
+      "valid_until": "peak season December-February"
+    },
+    {
+      "title": "Queenstown Combo Deals",
+      "description": "Skyline Gondola + Luge bundle — save 20% vs buying separately on Bookme",
+      "saving": "20% off bundle",
+      "affiliate": "bookme",
+      "url": "https://www.bookme.co.nz/",
+      "valid_until": "year-round"
+    },
+    {
+      "title": "Waitomo Caves Online Discount",
+      "description": "Book Waitomo Glowworm Caves online — save 10% vs gate price",
+      "saving": "10% off gate price",
+      "affiliate": "bookme",
+      "url": "https://www.bookme.co.nz/",
+      "valid_until": "year-round"
+    },
+    {
+      "title": "Abel Tasman Water Taxis",
+      "description": "Book Abel Tasman water taxis 2-3 weeks ahead in December-January",
+      "saving": "availability in peak season",
+      "affiliate": "bookme",
+      "url": "https://www.bookme.co.nz/",
+      "valid_until": "December to February"
+    }
+  ],
+  "seasonal_notes": {
+    "summer": "Dec-Feb is peak season — book accommodation 3-6 months ahead, activities 3-4 weeks ahead",
+    "shoulder": "Oct-Nov and Mar-Apr offer 15-25% lower prices with similar weather",
+    "winter": "Jun-Aug is cheapest for accommodation; ski fields open at Queenstown, Wanaka, Ruapehu",
+    "spring": "Sep-Oct: some operators still on winter hours; weather improving rapidly"
+  }
+}

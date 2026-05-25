@@ -1,0 +1,59 @@
+{
+  "title": "Marlborough May",
+  "short_title": "May in Marlborough",
+  "meta_desc": "Discover Marlborough & Blenheim with kids in May. Enjoy sunlit sounds, wildlife cruises, and NZ's sunniest wine region with your family. Budget $180-$300/day for 4.",
+  "intro": "May is a great time to visit Marlborough and Blenheim with kids, with mild autumn weather and fewer crowds. The region offers a range of family-friendly activities, including dolphin watch cruises, sea kayaking, and exploring the Queen Charlotte Track. With a daily budget of $180-$300 for a family of four, you can enjoy the best of what Marlborough has to offer.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Weather in May",
+      "body": "<p>May is a lovely time to visit Marlborough, with mild autumn weather and average highs of 17°C. The days are still quite long, with sunrise around 7:30 am and sunset around 5 pm. It's a great time to enjoy the outdoors, with comfortable temperatures for hiking, biking, and water activities.</p><p>However, it's not uncommon to experience some rain in May, so it's a good idea to pack accordingly. Bring layers, including a waterproof jacket, and be prepared for cooler evenings.</p>",
+      "list": [
+        "Average high: 17°C",
+        "Average low: 7°C",
+        "Sunrise: 7:30 am",
+        "Sunset: 5 pm"
+      ]
+    },
+    {
+      "heading": "What's On in May",
+      "body": "<p>May is a relatively quiet month in Marlborough, but there are still some great events and activities to enjoy. The Marlborough Wine and Food Festival takes place in early May, featuring local wines, food, and live music.</p><p>The Queen Charlotte Track is also a popular destination in May, with comfortable temperatures and fewer crowds. You can hike or bike sections of the track, or take a guided tour to learn more about the region's history and wildlife.</p>",
+      "list": [
+        "Marlborough Wine and Food Festival",
+        "Queen Charlotte Track hiking and biking",
+        "Guided tours of the Queen Charlotte Track"
+      ]
+    },
+    {
+      "heading": "Best Activities for Families",
+      "body": "<p>Marlborough is a fantastic destination for families, with a range of activities to suit all ages. Some of the best activities for families in May include dolphin watch cruises, sea kayaking, and exploring the Picton township and foreshore.</p><p>The Edwin Fox Maritime Museum is also a great place to visit, with interactive exhibits and a fascinating history. And for kids who love the outdoors, the Momorangi Bay camping and swimming area is a must-visit, with calm warm water and a beautiful beach.</p>",
+      "list": [
+        "Dolphin watch cruises ($80-$100 per person)",
+        "Sea kayaking ($50-$80 per person)",
+        "Picton township and foreshore (free)",
+        "Edwin Fox Maritime Museum ($10-$20 per person)",
+        "Momorangi Bay camping and swimming (free day visit)"
+      ]
+    },
+    {
+      "heading": "Practical Tips for Families",
+      "body": "<p>When visiting Marlborough with kids, it's a good idea to plan ahead and book your activities and accommodation in advance. May is a relatively quiet month, but some popular attractions and tours can still book out quickly.</p><p>Be sure to pack accordingly for the autumn weather, with layers and waterproof gear. And don't forget to bring sunscreen, hats, and sunglasses for outdoor adventures.</p>",
+      "list": [
+        "Book activities and accommodation in advance",
+        "Pack layers and waterproof gear",
+        "Bring sunscreen, hats, and sunglasses",
+        "Check the weather forecast before heading out",
+        "Consider purchasing a family pass for multiple attractions"
+      ],
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "marlborough-blenheim-family-may-family-guide",
+  "updated": "May 2026",
+  "auto_generated": true,
+  "generated_date": "2026-05-25"
+}

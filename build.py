@@ -59,6 +59,7 @@ def build():
     guides       = load_content_dir("travel-tips")
     tools        = load_content_dir("tools")
     overseas     = load_content_dir("overseas")
+    posts        = load_content_dir("posts")
 
     # Attach media to destinations and activities
     for dest in destinations:
@@ -75,6 +76,7 @@ def build():
         guides=guides,
         tools=tools,
         overseas=overseas,
+        posts=posts,
     )
 
     print("Building pages...")
@@ -208,6 +210,25 @@ def build():
                guide=guide,
                **ctx)
 
+    # ── Auto-generated posts hub ─────────────────────────────────────────────
+    if posts:
+        render("hub.html", "posts/index.html",
+               hub_title="NZ Family Travel News & Deals",
+               hub_subtitle="Daily travel tips, current deals, and destination guides for NZ families — updated every day.",
+               hub_type="guides",
+               items=posts,
+               item_url_prefix="posts",
+               item_slug_field="slug",
+               item_name_field="title",
+               item_desc_field="intro",
+               **ctx)
+
+        for post in posts:
+            render("guide.html",
+                   f"posts/{post['slug']}/index.html",
+                   guide=post,
+                   **ctx)
+
     # ── Overseas destinations hub ─────────────────────────────────────────────
     render("hub.html", "overseas/index.html",
            hub_title="Overseas Family Travel from NZ — Thailand, Bali, Vietnam & More",
@@ -256,6 +277,10 @@ def build():
         sitemap += sm_url(f"travel-tips/{g['slug']}", "0.7", "monthly")
     for o in overseas:
         sitemap += sm_url(f"overseas/{o['slug']}", "0.7", "monthly")
+    if posts:
+        sitemap += sm_url("posts", "0.8", "daily")
+        for p in posts:
+            sitemap += sm_url(f"posts/{p['slug']}", "0.8", "weekly")
     sitemap += "</urlset>"
     (OUT / "sitemap.xml").write_text(sitemap)
 
