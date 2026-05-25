@@ -1,0 +1,81 @@
+{
+  "title": "Tauranga's Hidden Gems",
+  "short_title": "Mount Maunganui Secrets",
+  "meta_desc": "Discover Tauranga and Mount Maunganui's best-kept secrets for families, including free activities, hidden beaches, and local tips to make your holiday unforgettable, with prices from $10-$30 per person",
+  "intro": "Tauranga and Mount Maunganui are a haven for family holidays, with their beautiful beaches, warm weather, and plenty of activities to keep kids entertained. But beyond the popular spots, there are some hidden gems that only locals know about. From sheltered bays to scenic walks, we'll reveal the secrets that will make your trip to the Mount truly unforgettable.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Sheltered Bays and Beaches",
+      "body": "<p>Pilot Bay on the harbour side of the Mount is a treasure trove for families with toddlers. This completely sheltered bay is perfect for little ones learning to swim, with calm and clear waters. And the best part? It's almost unknown to tourists, making it a peaceful retreat from the crowds.</p><p>Another hidden gem is Omanu Beach, located just north of Mount Beach. With the same beautiful sand and slightly less crowded conditions, it's a favourite among local families. You can easily spend a day here, swimming, sunbathing, and enjoying a picnic with your loved ones.</p>",
+      "list": [
+        "Pilot Bay: free admission, suitable for all ages, 10-minute drive from Mount Maunganui",
+        "Omanu Beach: free admission, suitable for all ages, 15-minute drive from Mount Maunganui"
+      ]
+    },
+    {
+      "heading": "Scenic Walks and Views",
+      "body": "<p>The Papamoa Hills Regional Park offers some of the most stunning views of the Bay of Plenty. With several walking trails to choose from, you can take in the breathtaking scenery and enjoy quality time with your family. The park is suitable for all ages, and the walks range from easy to moderate, making it accessible for families with strollers or little legs.</p><p>The walk to the summit of Mount Maunganui is another must-do, with panoramic views of the coastline and surrounding landscape. The 1-1.5 hour return walk is moderately challenging, but the scenery and sense of accomplishment make it well worth the effort.</p>",
+      "table": {
+        "headers": [
+          "Walk",
+          "Duration",
+          "Difficulty"
+        ],
+        "rows": [
+          [
+            "Papamoa Hills Regional Park",
+            "1-2 hours",
+            "Easy to moderate"
+          ],
+          [
+            "Mount Maunganui summit",
+            "1-1.5 hours",
+            "Moderate"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Local Tips and Tricks",
+      "body": "<p>To make the most of your trip to Tauranga and Mount Maunganui, it's essential to know some local tips and tricks. For example, be sure to check the surf forecast before heading to the beach, and take advantage of the free lifeguards at Mount Beach during the summer months.</p><p>Another insider tip is to visit the local fish and chip shops, which serve some of the best seafood in the region. With prices starting from $10-$15 per person, it's an affordable and delicious way to enjoy the local cuisine.</p>",
+      "list": [
+        "Check the surf forecast: free online resources, suitable for all ages",
+        "Free lifeguards at Mount Beach: December to February, suitable for all ages",
+        "Local fish and chip shops: $10-$15 per person, suitable for all ages"
+      ]
+    },
+    {
+      "heading": "Budget-Friendly Activities",
+      "body": "<p>One of the best things about Tauranga and Mount Maunganui is the range of budget-friendly activities on offer. From swimming and surfing to walking and exploring, there's something for every age and interest.</p><p>The Hot Pools at the Mount are a great way to relax and unwind, with prices starting from $20 per person. And for the more adventurous, surf lessons are available from $30 per person, with discounts for families and groups.</p>",
+      "table": {
+        "headers": [
+          "Activity",
+          "Price",
+          "Age suitability"
+        ],
+        "rows": [
+          [
+            "Hot Pools at the Mount",
+            "$20 per person",
+            "All ages"
+          ],
+          [
+            "Surf lessons",
+            "$30 per person",
+            "5 years and up"
+          ]
+        ]
+      },
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "tauranga-mount-maunganui-family-hidden-gems-families",
+  "updated": "May 2026",
+  "auto_generated": true,
+  "generated_date": "2026-05-25"
+}

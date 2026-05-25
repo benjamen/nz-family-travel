@@ -140,11 +140,19 @@ def topic_slug(topic):
 
 # ── Prompt builders ───────────────────────────────────────────────────────────
 
+def _to_str(item):
+    """Convert a list item that may be a string or dict to a plain string."""
+    if isinstance(item, str):
+        return item
+    if isinstance(item, dict):
+        return item.get('name', item.get('title', str(item)))
+    return str(item)
+
 def dest_context(dest):
     qf = dest.get('quick_facts', {})
-    acts = ', '.join(dest.get('top_activities', [])[:5])
-    free = ', '.join(dest.get('free_activities', [])[:3])
-    tips = ' '.join(dest.get('hidden_gems', [])[:2])
+    acts = ', '.join(_to_str(a) for a in dest.get('top_activities', [])[:5])
+    free = ', '.join(_to_str(a) for a in dest.get('free_activities', [])[:3])
+    tips = ' '.join(_to_str(t) for t in dest.get('hidden_gems', [])[:2])
     return (
         f"Destination: {dest['name']}, New Zealand.\n"
         f"Tagline: {dest.get('tagline','')}\n"

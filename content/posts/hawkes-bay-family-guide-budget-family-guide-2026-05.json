@@ -1,0 +1,80 @@
+{
+  "title": "Hawke's Bay on Budget",
+  "short_title": "HB Budget",
+  "meta_desc": "Visit Hawke's Bay with your family without breaking the bank. Discover free activities, affordable accommodation, and budget-friendly tips for a fun-filled trip to Napier and Cape Kidnappers.",
+  "intro": "Hawke's Bay is a hidden gem for family travel in New Zealand, offering a unique blend of Art Deco architecture, stunning natural beauty, and exciting activities. With some planning, you can experience the best of Hawke's Bay on a budget of $180-340 per day for a family of four. From free walks to affordable accommodation, we've got you covered.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Understanding Daily Costs",
+      "body": "<p>A family of four can expect to pay between $180 and $340 per day in Hawke's Bay, depending on their choices of accommodation, food, and activities. Accommodation can range from $100 to $250 per night for a family-friendly motel or apartment, while meals can cost between $15 and $30 per person for a mid-range restaurant meal.</p><p>Activities such as the Cape Kidnappers Gannet Colony tour can cost around $40-$60 per person, although some free activities like the Napier Art Deco walk and Marine Parade are available.</p>",
+      "list": [
+        "Accommodation: $100-250 per night",
+        "Meals: $15-30 per person",
+        "Activities: $40-60 per person"
+      ]
+    },
+    {
+      "heading": "Free and Low-Cost Activities",
+      "body": "<p>Hawke's Bay offers a range of free and low-cost activities that are perfect for families. The Napier Art Deco walk is a must-do, with its stunning architecture and beautiful waterfront location. Marine Parade is another great spot, with its sunken gardens, free fountains, and skate park.</p><p>Waimarama Beach, located 30 minutes south of Napier, is a beautiful black sand beach that's perfect for swimming and sunbathing. The beach is free to visit and offers a range of activities, including surfing and fishing.</p>",
+      "list": [
+        "Napier Art Deco walk",
+        "Marine Parade",
+        "Waimarama Beach"
+      ]
+    },
+    {
+      "heading": "Accommodation Options",
+      "body": "<p>Hawke's Bay offers a range of accommodation options to suit all budgets. For families on a tight budget, consider staying in a motel or apartment in Napier or Hastings. These can cost between $100 and $200 per night and often include kitchen facilities and free parking.</p><p>For those with a bit more to spend, consider staying in a mid-range hotel or resort. These can cost between $200 and $350 per night and often include additional amenities such as a pool and restaurant.</p>",
+      "list": [
+        "Motel or apartment: $100-200 per night",
+        "Mid-range hotel or resort: $200-350 per night"
+      ]
+    },
+    {
+      "heading": "Budget Breakdown",
+      "body": "<p>To help you plan your trip to Hawke's Bay, we've put together a rough 3-day budget breakdown.</p>",
+      "table": {
+        "headers": [
+          "Day",
+          "Accommodation",
+          "Food",
+          "Activities",
+          "Total"
+        ],
+        "rows": [
+          [
+            "Day 1",
+            "$150",
+            "$60",
+            "$80",
+            "$290"
+          ],
+          [
+            "Day 2",
+            "$150",
+            "$60",
+            "$100",
+            "$310"
+          ],
+          [
+            "Day 3",
+            "$150",
+            "$60",
+            "$60",
+            "$270"
+          ]
+        ]
+      },
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "hawkes-bay-family-guide-budget-family-guide-2026-05",
+  "updated": "May 2026",
+  "auto_generated": true,
+  "generated_date": "2026-05-25"
+}
