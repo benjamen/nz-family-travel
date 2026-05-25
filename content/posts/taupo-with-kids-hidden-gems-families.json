@@ -1,0 +1,63 @@
+{
+  "title": "Taupo Hidden Gems",
+  "short_title": "Taupo Secrets",
+  "meta_desc": "Discover Taupo's best-kept secrets: free activities, hidden spots, and insider tips for families with kids, including Huka Prawn Park and more, all within a budget of $200-350/day for a family of 4",
+  "intro": "Taupo is a treasure trove of family-friendly activities, but some of its best spots remain hidden from mainstream guides. From free prawn feeding to scenic walks, we've got the inside scoop on what to do and see in Taupo without breaking the bank. With a relaxed pace and stunning natural beauty, Taupo is the perfect mid-island stop for families of all ages.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Free Fun for Kids",
+      "body": "<p>Taupo Bungy spectator area is a must-visit for kids who love adventure. Watching the bungee jumpers launch out over the Waikato River is an exhilarating experience that's completely free. Meanwhile, Huka Prawn Park has a FREE prawn feeding area where kids can get up close and personal with these tasty crustaceans.</p><p>For a relaxing day out, head to Spa Thermal Park, which offers free outdoor hot springs that are perfect for a family soak. The park also has a playground and picnic areas, making it an ideal spot for a budget-friendly day out.</p>",
+      "list": [
+        "Taupo Bungy spectator area (free, all ages)",
+        "Huka Prawn Park prawn feeding area (free, all ages)",
+        "Spa Thermal Park (free outdoor hot springs, all ages)"
+      ]
+    },
+    {
+      "heading": "Insider Tips",
+      "body": "<p>For a unique perspective on Lake Taupo, take a short walk to the lookout point at Wharewaka Point. This scenic spot offers stunning views of the lake and surrounding landscape, and is a great place to watch the sunset. Alternatively, take a short drive to the nearby town of Kinloch, which has a beautiful beach and a range of family-friendly activities.</p>",
+      "list": [
+        "Wharewaka Point lookout (free, all ages, 10-minute walk from town centre)",
+        "Kinloch beach (free, all ages, 15-minute drive from Taupo town centre)"
+      ]
+    },
+    {
+      "heading": "Budget-Friendly Activities",
+      "body": "<p>While some of Taupo's activities can be pricey, there are plenty of budget-friendly options to choose from. The AC Baths are a great place to spend the day, with thermal pools and a water park that are perfect for kids. Meanwhile, the Wairakei Terraces & Thermal Pools offer a relaxing and educational experience that's suitable for all ages.</p><p>For a thrilling adventure, take a ride on the Huka Jet, which offers jet boat tours of the Waikato River. With prices starting from $89 per person, it's an affordable way to experience the rush of jet boating.</p>",
+      "table": {
+        "headers": [
+          "Activity",
+          "Price (per person)",
+          "Age Suitability"
+        ],
+        "rows": [
+          [
+            "AC Baths",
+            "$15-$25",
+            "All ages"
+          ],
+          [
+            "Wairakei Terraces & Thermal Pools",
+            "$20-$30",
+            "All ages"
+          ],
+          [
+            "Huka Jet",
+            "$89-$129",
+            "5 years and up"
+          ]
+        ]
+      },
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "taupo-with-kids-hidden-gems-families",
+  "updated": "May 2026",
+  "auto_generated": true,
+  "generated_date": "2026-05-26"
+}

@@ -1,0 +1,86 @@
+{
+  "title": "Northland on Budget",
+  "short_title": "Northland",
+  "meta_desc": "Discover how to visit Northland with your family on a budget of $200-380/day, including free activities, accommodation options, and must-see attractions like Cape Reinga and Ninety Mile Beach.",
+  "intro": "Northland is a subtropical paradise with a rich history, stunning natural beauty, and plenty of exciting activities for families. With some planning, you can experience the best of Northland on a budget of $200-380 per day for a family of four. From free walks and beach time to affordable accommodation and attractions, we'll show you how to make the most of your trip.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Accommodation Options",
+      "body": "<p>Accommodation in Northland ranges from budget-friendly camping and holiday parks to mid-range motels and apartments. For a family of four, you can expect to pay around $120-200 per night for a self-contained unit or apartment. Camping and holiday parks are a more affordable option, with prices starting from around $30-50 per night for a powered site.</p><p>Some popular options include the Top 10 Holiday Parks in Paihia and Whangarei, which offer a range of accommodation options and facilities. You can also consider renting a bach or holiday home through websites like Bookabach or Airbnb, which can be a more cost-effective option for larger families.</p>",
+      "list": [
+        "Camping and holiday parks: $30-50 per night",
+        "Self-contained units and apartments: $120-200 per night",
+        "Bach or holiday home rentals: $150-300 per night"
+      ]
+    },
+    {
+      "heading": "Free Activities and Attractions",
+      "body": "<p>Northland is full of free activities and attractions that are perfect for families. The Cape Reinga walkway is a must-do, with stunning views of the Tasman Sea and Pacific Ocean. You can also drive along Ninety Mile Beach, which is free to visit, although you'll need a 4WD vehicle to access most of the beach.</p><p>Other free activities include the Mangawhai Heads beach walk and estuary, and the Hokianga Harbour dunes. These are all great options for families with kids aged 4 and above, and are a great way to experience the natural beauty of Northland without breaking the bank.</p>",
+      "list": [
+        "Cape Reinga walkway",
+        "Ninety Mile Beach drive",
+        "Mangawhai Heads beach walk and estuary",
+        "Hokianga Harbour dunes"
+      ]
+    },
+    {
+      "heading": "Budget Breakdown",
+      "body": "<p>To help you plan your trip, we've put together a rough 3-day budget breakdown for a family of four. This includes accommodation, food, activities, and transportation, and should give you a good idea of what to expect.</p>",
+      "table": {
+        "headers": [
+          "Day",
+          "Accommodation",
+          "Food",
+          "Activities",
+          "Transportation",
+          "Total"
+        ],
+        "rows": [
+          [
+            "Day 1",
+            "$150",
+            "$80",
+            "$50",
+            "$20",
+            "$300"
+          ],
+          [
+            "Day 2",
+            "$150",
+            "$80",
+            "$70",
+            "$20",
+            "$320"
+          ],
+          [
+            "Day 3",
+            "$150",
+            "$80",
+            "$40",
+            "$20",
+            "$290"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Where to Save and Splurge",
+      "body": "<p>While Northland has plenty of free activities and attractions, there are some things that are worth splashing out on. The Cape Reinga Lighthouse tour is a must-do, and costs around $50 per person. The Kauri Museum in Matakohe is also worth visiting, and costs around $25 per person.</p><p>On the other hand, you can save money by self-catering and cooking your own meals, rather than eating out. You can also consider visiting during the off-season, when prices for accommodation and activities are generally lower.</p>",
+      "list": [
+        "Cape Reinga Lighthouse tour: $50 per person",
+        "Kauri Museum: $25 per person",
+        "Self-catering: save $20-50 per meal"
+      ],
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "northland-cape-reinga-family-budget-family-guide-2026-05",
+  "updated": "May 2026",
+  "auto_generated": true,
+  "generated_date": "2026-05-26"
+}
