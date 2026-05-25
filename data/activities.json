@@ -37,7 +37,13 @@
       "skyline queenstown with kids",
       "queenstown gondola family",
       "luge queenstown"
-    ]
+    ],
+    "media": {
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Queenstown_New_Zealand_at_dusk.jpg/1280px-Queenstown_New_Zealand_at_dusk.jpg",
+        "alt": "Queenstown Skyline gondola aerial view over Lake Wakatipu"
+      }
+    }
   },
   {
     "slug": "te-puia-rotorua",
@@ -77,7 +83,13 @@
       "te puia rotorua with kids",
       "rotorua geysers family",
       "te puia kiwi house"
-    ]
+    ],
+    "media": {
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Pohutu_geyser.jpg/1280px-Pohutu_geyser.jpg",
+        "alt": "Pohutu Geyser erupting at Te Puia, Rotorua"
+      }
+    }
   },
   {
     "slug": "wai-o-tapu-rotorua",
@@ -116,7 +128,13 @@
       "wai-o-tapu rotorua kids",
       "thermal wonderland rotorua",
       "lady knox geyser rotorua"
-    ]
+    ],
+    "media": {
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Champagne_Pool_Wai-o-tapu.jpg/1280px-Champagne_Pool_Wai-o-tapu.jpg",
+        "alt": "Champagne Pool thermal lake at Wai-O-Tapu, Rotorua"
+      }
+    }
   },
   {
     "slug": "agrodome-rotorua",
@@ -156,7 +174,13 @@
       "agrodome rotorua kids",
       "rotorua farm show family",
       "agrodome family"
-    ]
+    ],
+    "media": {
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Rotorua_from_above.jpg/1280px-Rotorua_from_above.jpg",
+        "alt": "Rotorua farmland and lake viewed from above"
+      }
+    }
   },
   {
     "slug": "international-antarctic-centre-christchurch",
@@ -196,7 +220,13 @@
       "international antarctic centre kids",
       "christchurch penguin experience",
       "antarctic centre family"
-    ]
+    ],
+    "media": {
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/ChristchurchCBDfromPortHills.jpg/1280px-ChristchurchCBDfromPortHills.jpg",
+        "alt": "Christchurch city \u2014 home of the International Antarctic Centre"
+      }
+    }
   },
   {
     "slug": "huka-falls-taupo",
@@ -235,7 +265,13 @@
       "huka falls with kids",
       "huka falls taupo free",
       "taupo waterfall family"
-    ]
+    ],
+    "media": {
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Huka_Falls_Taupo.jpg/1280px-Huka_Falls_Taupo.jpg",
+        "alt": "Huka Falls thundering blue water on the Waikato River near Taupo"
+      }
+    }
   },
   {
     "slug": "huka-jet-taupo",
@@ -274,7 +310,13 @@
       "huka jet taupo kids",
       "taupo jet boat family",
       "jet boat taupo with children"
-    ]
+    ],
+    "media": {
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Lake_Taupo_from_Taupo_town.jpg/1280px-Lake_Taupo_from_Taupo_town.jpg",
+        "alt": "Waikato River at Taupo \u2014 venue for Huka Jet boat rides"
+      }
+    }
   },
   {
     "slug": "waitangi-treaty-grounds",
@@ -314,7 +356,13 @@
       "waitangi with kids",
       "bay of islands history family",
       "waitangi treaty grounds children"
-    ]
+    ],
+    "media": {
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Waitangi_Treaty_Grounds.jpg/1280px-Waitangi_Treaty_Grounds.jpg",
+        "alt": "Waitangi Treaty Grounds in the Bay of Islands"
+      }
+    }
   },
   {
     "slug": "dolphins-bay-of-islands",
@@ -354,7 +402,13 @@
       "bay of islands dolphins kids",
       "swim with dolphins nz family",
       "bay of islands dolphin cruise"
-    ]
+    ],
+    "media": {
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Bay_of_Islands_aerial_2013.jpg/1280px-Bay_of_Islands_aerial_2013.jpg",
+        "alt": "Bay of Islands \u2014 home to year-round dolphin encounters"
+      }
+    }
   },
   {
     "slug": "puzzling-world-wanaka",
@@ -393,7 +447,13 @@
       "puzzling world wanaka kids",
       "wanaka maze family",
       "wanaka things to do kids"
-    ]
+    ],
+    "media": {
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Lake_Wanaka_-_Willow_Tree_%28cropped%29.jpg/1280px-Lake_Wanaka_-_Willow_Tree_%28cropped%29.jpg",
+        "alt": "Lake Wanaka \u2014 home of Puzzling World attraction"
+      }
+    }
   },
   {
     "slug": "christchurch-gondola",
@@ -433,7 +493,13 @@
       "christchurch gondola kids",
       "christchurch family activities",
       "gondola christchurch with children"
-    ]
+    ],
+    "media": {
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/ChristchurchCBDfromPortHills.jpg/1280px-ChristchurchCBDfromPortHills.jpg",
+        "alt": "Christchurch Gondola view from Port Hills summit"
+      }
+    }
   },
   {
     "slug": "orana-wildlife-park-christchurch",
@@ -473,7 +539,13 @@
       "orana park kids christchurch",
       "christchurch zoo family",
       "orana wildlife park"
-    ]
+    ],
+    "media": {
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/ChristchurchCBDfromPortHills.jpg/1280px-ChristchurchCBDfromPortHills.jpg",
+        "alt": "Orana Wildlife Park, Christchurch \u2014 NZ's only open-range zoo"
+      }
+    }
   },
   {
     "slug": "te-papa-wellington",
@@ -510,7 +582,13 @@
       "Level 2 has the best kids' interactive area",
       "Free lockers available for bags and strollers",
       "The rooftop cafe has great harbour views"
-    ]
+    ],
+    "media": {
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Wellington_and_harbour_aerial.jpg/1280px-Wellington_and_harbour_aerial.jpg",
+        "alt": "Te Papa Museum on Wellington waterfront"
+      }
+    }
   },
   {
     "slug": "wellington-cable-car",
@@ -544,7 +622,13 @@
       "Free Cable Car Museum at the top is worth 20 minutes",
       "Runs every 10 minutes from 7am\u201310pm",
       "Gets busy on sunny days \u2014 go early or late afternoon"
-    ]
+    ],
+    "media": {
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Wellington_and_harbour_aerial.jpg/1280px-Wellington_and_harbour_aerial.jpg",
+        "alt": "Wellington Cable Car climbing from Lambton Quay to Kelburn"
+      }
+    }
   },
   {
     "slug": "abel-tasman-water-taxi",
@@ -580,7 +664,13 @@
       "Anchorage Bay is the most popular; Bark Bay is slightly quieter",
       "Water taxis have luggage space \u2014 bring snorkels and beach gear",
       "Check the weather \u2014 the park is best in fine settled conditions"
-    ]
+    ],
+    "media": {
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Abel_Tasman_-_Split_Apple_Rock.jpg/1280px-Abel_Tasman_-_Split_Apple_Rock.jpg",
+        "alt": "Abel Tasman National Park golden beaches accessible by water taxi"
+      }
+    }
   },
   {
     "slug": "hot-water-beach-coromandel",
@@ -616,7 +706,13 @@
       "The water near the rocks can be scalding \u2014 test before sitting",
       "Bring your own towel and swimwear \u2014 there are no changing facilities",
       "Combine with Cathedral Cove (10 min away) for a full Coromandel day"
-    ]
+    ],
+    "media": {
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Cathedral_Cove_Coromandel.jpg/1280px-Cathedral_Cove_Coromandel.jpg",
+        "alt": "Hot Water Beach on the Coromandel Peninsula"
+      }
+    }
   },
   {
     "slug": "milford-sound-cruise",
@@ -652,7 +748,13 @@
       "Sit outside for the best experience and photos",
       "Base in Te Anau (not Queenstown) to make the 2h drive manageable",
       "The underwater observatory add-on ($20/person) is worth it for kids"
-    ]
+    ],
+    "media": {
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Milford_Sound_from_the_air.jpg/1280px-Milford_Sound_from_the_air.jpg",
+        "alt": "Milford Sound cruise beneath Mitre Peak and Stirling Falls"
+      }
+    }
   },
   {
     "slug": "zealandia-wellington",
@@ -688,7 +790,13 @@
       "The shuttle from Cable Car Lane saves the steep walk up ($3 each way)",
       "Day visits: go in the morning when birds are most active",
       "Kids love spotting tuatara sunbathing on the rocks near the entrance"
-    ]
+    ],
+    "media": {
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Wellington_and_harbour_aerial.jpg/1280px-Wellington_and_harbour_aerial.jpg",
+        "alt": "Zealandia ecosanctuary in the Wellington hills"
+      }
+    }
   },
   {
     "slug": "driving-creek-railway-coromandel",
@@ -723,7 +831,13 @@
       "The 10:15am departure is best \u2014 catch it before heading south to Hahei and Hot Water Beach",
       "Kids love the tunnels and the feeling of going through native bush",
       "Allow 20 min early to explore the pottery gallery and garden at the base"
-    ]
+    ],
+    "media": {
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Cathedral_Cove_Coromandel.jpg/1280px-Cathedral_Cove_Coromandel.jpg",
+        "alt": "Coromandel Peninsula \u2014 home of Driving Creek Railway"
+      }
+    }
   },
   {
     "slug": "cape-reinga-tour-northland",
@@ -757,7 +871,13 @@
       "Morning tours avoid afternoon heat",
       "Sandboarding boards are provided \u2014 bring clothes you don't mind getting sandy",
       "The lighthouse walk is 30 minutes return \u2014 manageable for most kids"
-    ]
+    ],
+    "media": {
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Cape_Reinga_Lighthouse%2C_NZ.jpg/1280px-Cape_Reinga_Lighthouse%2C_NZ.jpg",
+        "alt": "Cape Reinga Lighthouse at the northern tip of New Zealand"
+      }
+    }
   },
   {
     "slug": "mount-maunganui-surf-lesson",
@@ -791,7 +911,13 @@
       "Arrive 15 minutes early for briefing",
       "Teenagers who get one wave are usually hooked \u2014 budget for a second lesson",
       "Mount Beach surf schools include Pacific Surf School and Learn to Surf"
-    ]
+    ],
+    "media": {
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Mount_Maunganui_-_the_mount.jpg/1280px-Mount_Maunganui_-_the_mount.jpg",
+        "alt": "Mount Maunganui surf beach and volcanic cone"
+      }
+    }
   },
   {
     "slug": "cape-kidnappers-gannet-tour",
@@ -826,7 +952,13 @@
       "The tractor trek is easier for young kids than the walk (6.5km each way)",
       "Afternoon light is better for photography",
       "Gannets are most active at the colony October-April"
-    ]
+    ],
+    "media": {
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Cape_Kidnappers_Gannet_Colony.jpg/1280px-Cape_Kidnappers_Gannet_Colony.jpg",
+        "alt": "Cape Kidnappers gannet colony on the cliffs of Hawke's Bay"
+      }
+    }
   },
   {
     "slug": "royal-albatross-centre-dunedin",
@@ -860,6 +992,12 @@
       "Morning tours often see more flight activity",
       "Combine with the yellow-eyed penguin viewing in the same afternoon for a full wildlife day",
       "Albatross are present year-round but chick fledging (September-October) is particularly special"
-    ]
+    ],
+    "media": {
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Dunedin_Railway_Station_-_Front_facade.jpg/1280px-Dunedin_Railway_Station_-_Front_facade.jpg",
+        "alt": "Otago Peninsula near Dunedin \u2014 home of the Royal Albatross Centre"
+      }
+    }
   }
 ]

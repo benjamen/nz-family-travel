@@ -208,7 +208,14 @@
         "url": "https://www.facebook.com/groups/search/results/?q=travelling+new+zealand+kids",
         "description": "15,000+ NZ parents sharing real trip reports and advice"
       }
-    ]
+    ],
+    "media": {
+      "hero_image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Queenstown_New_Zealand_at_dusk.jpg/1280px-Queenstown_New_Zealand_at_dusk.jpg",
+        "alt": "Queenstown at dusk with Lake Wakatipu and The Remarkables mountain range",
+        "credit": "Wikimedia Commons"
+      }
+    }
   },
   {
     "slug": "rotorua-family-guide",
@@ -422,7 +429,14 @@
         "url": "https://www.facebook.com/groups/search/results/?q=nz+camping+holiday+parks+families",
         "description": "Holiday park reviews and freedom camping spots across NZ"
       }
-    ]
+    ],
+    "media": {
+      "hero_image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Champagne_Pool_Wai-o-tapu.jpg/1280px-Champagne_Pool_Wai-o-tapu.jpg",
+        "alt": "Champagne Pool at Wai-O-Tapu thermal wonderland, Rotorua",
+        "credit": "Wikimedia Commons"
+      }
+    }
   },
   {
     "slug": "taupo-with-kids",
@@ -628,7 +642,14 @@
         "url": "https://www.facebook.com/groups/search/results/?q=travelling+new+zealand+kids",
         "description": "15,000+ NZ parents sharing real trip reports and advice"
       }
-    ]
+    ],
+    "media": {
+      "hero_image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Lake_Taupo_from_Taupo_town.jpg/1280px-Lake_Taupo_from_Taupo_town.jpg",
+        "alt": "Lake Taupo panoramic view from the township",
+        "credit": "Wikimedia Commons"
+      }
+    }
   },
   {
     "slug": "christchurch-with-kids",
@@ -834,7 +855,14 @@
         "url": "https://www.facebook.com/groups/search/results/?q=south+island+families+nz",
         "description": "South Island road trips, holiday parks and family destinations"
       }
-    ]
+    ],
+    "media": {
+      "hero_image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/ChristchurchCBDfromPortHills.jpg/1280px-ChristchurchCBDfromPortHills.jpg",
+        "alt": "Christchurch city and Canterbury Plains viewed from Port Hills",
+        "credit": "Wikimedia Commons"
+      }
+    }
   },
   {
     "slug": "bay-of-islands-family",
@@ -1038,7 +1066,14 @@
         "url": "https://www.facebook.com/groups/search/results/?q=travelling+new+zealand+kids",
         "description": "15,000+ NZ parents sharing real trip reports and advice"
       }
-    ]
+    ],
+    "media": {
+      "hero_image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Bay_of_Islands_aerial_2013.jpg/1280px-Bay_of_Islands_aerial_2013.jpg",
+        "alt": "Bay of Islands aerial view showing the 144 islands and turquoise water",
+        "credit": "Wikimedia Commons"
+      }
+    }
   },
   {
     "slug": "wanaka-with-kids",
@@ -1237,7 +1272,14 @@
         "url": "https://www.facebook.com/groups/search/results/?q=nz+campervan+family",
         "description": "South Island road trips, freedom camping spots, campervan hire tips"
       }
-    ]
+    ],
+    "media": {
+      "hero_image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Lake_Wanaka_-_Willow_Tree_%28cropped%29.jpg/1280px-Lake_Wanaka_-_Willow_Tree_%28cropped%29.jpg",
+        "alt": "That Wanaka Tree \u2014 the famous willow growing in Lake Wanaka",
+        "credit": "Wikimedia Commons"
+      }
+    }
   },
   {
     "slug": "wellington-with-kids",
@@ -1443,7 +1485,14 @@
       "wellington family holiday",
       "things to do wellington children",
       "te papa museum kids"
-    ]
+    ],
+    "media": {
+      "hero_image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Wellington_and_harbour_aerial.jpg/1280px-Wellington_and_harbour_aerial.jpg",
+        "alt": "Wellington city and harbour aerial view",
+        "credit": "Wikimedia Commons"
+      }
+    }
   },
   {
     "slug": "nelson-abel-tasman-family",
@@ -1644,7 +1693,14 @@
       "abel tasman family holiday",
       "nelson family activities",
       "abel tasman water taxi kids"
-    ]
+    ],
+    "media": {
+      "hero_image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Abel_Tasman_-_Split_Apple_Rock.jpg/1280px-Abel_Tasman_-_Split_Apple_Rock.jpg",
+        "alt": "Split Apple Rock at Abel Tasman National Park, Nelson",
+        "credit": "Wikimedia Commons"
+      }
+    }
   },
   {
     "slug": "coromandel-with-kids",
@@ -1849,7 +1905,14 @@
       "hot water beach families",
       "cathedral cove kids",
       "coromandel family holiday"
-    ]
+    ],
+    "media": {
+      "hero_image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Cathedral_Cove_Coromandel.jpg/1280px-Cathedral_Cove_Coromandel.jpg",
+        "alt": "Cathedral Cove natural rock arch at Coromandel Peninsula",
+        "credit": "Wikimedia Commons"
+      }
+    }
   },
   {
     "slug": "fiordland-milford-sound-family",
@@ -2050,7 +2113,14 @@
       "fiordland family holiday",
       "milford sound cruise children",
       "te anau families"
-    ]
+    ],
+    "media": {
+      "hero_image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Milford_Sound_from_the_air.jpg/1280px-Milford_Sound_from_the_air.jpg",
+        "alt": "Milford Sound from the air with Mitre Peak and waterfalls",
+        "credit": "Wikimedia Commons"
+      }
+    }
   },
   {
     "slug": "northland-cape-reinga-family",
@@ -2241,7 +2311,13 @@
       "northland new zealand kids",
       "waipoua forest family"
     ],
-    "media": {}
+    "media": {
+      "hero_image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Cape_Reinga_Lighthouse%2C_NZ.jpg/1280px-Cape_Reinga_Lighthouse%2C_NZ.jpg",
+        "alt": "Cape Reinga Lighthouse at the northern tip of New Zealand",
+        "credit": "Wikimedia Commons"
+      }
+    }
   },
   {
     "slug": "tauranga-mount-maunganui-family",
@@ -2431,7 +2507,13 @@
       "mount maunganui beach family",
       "bay of plenty family travel"
     ],
-    "media": {}
+    "media": {
+      "hero_image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Mount_Maunganui_-_the_mount.jpg/1280px-Mount_Maunganui_-_the_mount.jpg",
+        "alt": "Mount Maunganui volcanic cone with beach and Bay of Plenty",
+        "credit": "Wikimedia Commons"
+      }
+    }
   },
   {
     "slug": "hawkes-bay-family-guide",
@@ -2623,7 +2705,13 @@
       "cape kidnappers family",
       "hawkes bay children activities"
     ],
-    "media": {}
+    "media": {
+      "hero_image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Cape_Kidnappers_Gannet_Colony.jpg/1280px-Cape_Kidnappers_Gannet_Colony.jpg",
+        "alt": "Cape Kidnappers gannet colony at Hawke's Bay, New Zealand",
+        "credit": "Wikimedia Commons"
+      }
+    }
   },
   {
     "slug": "dunedin-family-guide",
@@ -2816,6 +2904,670 @@
       "yellow eyed penguin family viewing",
       "dunedin wildlife children"
     ],
-    "media": {}
+    "media": {
+      "hero_image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Dunedin_Railway_Station_-_Front_facade.jpg/1280px-Dunedin_Railway_Station_-_Front_facade.jpg",
+        "alt": "Dunedin Railway Station ornate Flemish Renaissance facade",
+        "credit": "Wikimedia Commons"
+      }
+    }
+  },
+  {
+    "slug": "auckland-with-kids",
+    "name": "Auckland",
+    "region": "north-island",
+    "tagline": "NZ's biggest city \u2014 beaches, islands, sky-high views and a world-class zoo",
+    "summary": "Auckland is New Zealand's most visited city and a genuine family destination in its own right. With 50+ regional parks, two harbours, ferry trips to Waiheke and Rangitoto, Kelly Tarlton's SEA LIFE Aquarium, Auckland Zoo, and Sky Tower, there's easily a week of family content here \u2014 much of it free or low-cost.",
+    "quick_facts": {
+      "best_ages": "All ages",
+      "budget_family4_per_day": "$200\u2013$350",
+      "drive_from_auckland": "0km \u2014 this is Auckland",
+      "best_season": "Nov\u2013Apr",
+      "rainy_day_options": "Excellent (aquarium, museum, MOTAT, malls)",
+      "phone_coverage": "Full 5G",
+      "best_months": [
+        "Nov",
+        "Dec",
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr"
+      ],
+      "drive_times": {
+        "Christchurch": "1h flight / 12h drive",
+        "Wellington": "8h drive or 1h flight",
+        "Hamilton": "1.5h",
+        "Tauranga": "2.5h",
+        "Rotorua": "2.5h"
+      }
+    },
+    "top_activities": [
+      "Kelly Tarlton's SEA LIFE Aquarium",
+      "Auckland Zoo",
+      "Sky Tower observation deck",
+      "Waiheke Island day trip by ferry",
+      "Rangitoto Island volcanic walk",
+      "Auckland War Memorial Museum",
+      "MOTAT (Museum of Transport & Technology)",
+      "Rainbow's End theme park",
+      "Mission Bay beach and playground",
+      "West Auckland black sand beaches (Piha, Muriwai)"
+    ],
+    "free_activities": [
+      "Mission Bay beach and reserve",
+      "Tamaki Drive coastal walk",
+      "Albert Park and city gardens",
+      "Auckland Domain (free entry)",
+      "Ambury Regional Park farm animals",
+      "Muriwai Gannet Colony",
+      "Waiatarua Reserve wetland walk"
+    ],
+    "hidden_gems": [
+      "Tawharanui Regional Park \u2014 45min north, stunning beach with no crowds mid-week",
+      "Wenderholm Regional Park \u2014 pohutukawa forest, river mouth, perfect for toddlers",
+      "Tiritiri Matangi Island \u2014 ferry + guided bird walk, kids see kiwi in daylight",
+      "Ambury Farm Park \u2014 free working farm 20min from city, ducks, sheep, pigs",
+      "Glen Eden Truffle Farm \u2014 oddly great for kids with adventurous palates"
+    ],
+    "rainy_day": [
+      "Kelly Tarlton's SEA LIFE Aquarium \u2014 2+ hours",
+      "Auckland Museum \u2014 free for residents, small fee for visitors",
+      "MOTAT \u2014 interactive transport and technology exhibits",
+      "Rainbow's End \u2014 NZ's only theme park, covered rides",
+      "Timezone arcades (multiple malls)",
+      "Timezone Sylvia Park or Botany Town Centre"
+    ],
+    "where_to_stay": [
+      {
+        "type": "Holiday Park",
+        "name": "Takapuna Beach Holiday Park",
+        "note": "Beachfront, North Shore, easy ferry access"
+      },
+      {
+        "type": "Holiday Park",
+        "name": "Remuera TOP 10 Holiday Park",
+        "note": "Central, clean, great pool"
+      },
+      {
+        "type": "Hotel",
+        "name": "Sudima Auckland City",
+        "note": "Family rooms, central location"
+      },
+      {
+        "type": "Airbnb",
+        "name": "Waiheke Island cottages",
+        "note": "Make the ferry crossing part of the trip"
+      }
+    ],
+    "three_day_itinerary": {
+      "day1": "Sky Tower morning, Auckland Museum, Mission Bay beach afternoon",
+      "day2": "Waiheke Island ferry day trip \u2014 beaches, vineyards, kayaking",
+      "day3": "Kelly Tarlton's, Auckland Zoo or Rainbow's End, departure"
+    },
+    "budget_breakdown": {
+      "accommodation": "$150\u2013$200/night (holiday park or budget hotel)",
+      "activities": "$80\u2013$150/day (Kelly Tarlton's + Zoo = ~$180 for family of 4)",
+      "food": "$80\u2013$120/day",
+      "transport": "$30\u2013$60/day (ferry + Hop card)"
+    },
+    "faqs": [
+      {
+        "q": "How many days do you need in Auckland with kids?",
+        "a": "3 days is comfortable for first-timers \u2014 Sky Tower, Kelly Tarlton's, and a Waiheke ferry day. 5 days lets you add Zoo, West Coast beaches, and Tiritiri Matangi Island."
+      },
+      {
+        "q": "Is Auckland worth visiting with kids?",
+        "a": "Yes \u2014 Auckland is underrated as a family destination. The aquarium, zoo, ferry trips, and volcanic island walks are genuinely world-class. The city is easy to navigate with kids and has excellent holiday parks close to the beach."
+      },
+      {
+        "q": "What is the best beach near Auckland for families?",
+        "a": "Mission Bay is the most convenient \u2014 calm water, playground, cafes. For something wilder, Piha and Muriwai on the West Coast are dramatic black sand beaches. Tawharanui Regional Park (45min north) is stunning and uncrowded mid-week."
+      },
+      {
+        "q": "Is Kelly Tarlton's worth it for families?",
+        "a": "Yes for ages 3\u201312. The penguin colony and shark tunnel are highlights. Allow 90 minutes and book online to save 15\u201320% on gate prices."
+      }
+    ],
+    "nearby_destinations": [
+      "northland-cape-reinga-family",
+      "coromandel-with-kids",
+      "tauranga-mount-maunganui-family"
+    ],
+    "facebook_groups": [
+      "Auckland Families NZ",
+      "NZ Family Travel"
+    ],
+    "seo_keywords": [
+      "Auckland with kids",
+      "Auckland family activities",
+      "things to do Auckland children",
+      "Auckland family holiday"
+    ],
+    "media": {
+      "hero_image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Auckland_CBD_from_North_Head.jpg/1280px-Auckland_CBD_from_North_Head.jpg",
+        "alt": "Auckland skyline with Sky Tower from North Head",
+        "credit": "Wikimedia Commons"
+      }
+    }
+  },
+  {
+    "slug": "new-plymouth-taranaki-family",
+    "name": "New Plymouth & Taranaki",
+    "region": "north-island",
+    "tagline": "Volcanic mountain, surf beaches, and NZ's best park \u2014 a hidden family gem",
+    "summary": "New Plymouth is one of New Zealand's most underrated family destinations. The perfectly cone-shaped Mt Taranaki dominates the skyline, Pukekura Park is genuinely one of NZ's best parks for kids, and the coastal walkway runs 13km along dramatic black sand surf beaches. It's less crowded than Queenstown or Rotorua, more affordable, and equally beautiful.",
+    "quick_facts": {
+      "best_ages": "All ages",
+      "budget_family4_per_day": "$150\u2013$250",
+      "drive_from_auckland": "360km (4h)",
+      "best_season": "Nov\u2013Apr",
+      "rainy_day_options": "Good (Puke Ariki museum, indoor pools)",
+      "phone_coverage": "Good in city, limited on mountain",
+      "best_months": [
+        "Nov",
+        "Dec",
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr"
+      ],
+      "drive_times": {
+        "Auckland": "4h",
+        "Wellington": "3.5h",
+        "Hamilton": "2.5h",
+        "Whanganui": "1.5h"
+      }
+    },
+    "top_activities": [
+      "Pukekura Park \u2014 free park with boating lake, playground and zoo",
+      "Mt Taranaki summit or Pouakai Circuit (fit families)",
+      "Govett-Brewster Art Gallery / Len Lye Centre (free entry)",
+      "New Plymouth coastal walkway (free, 13km, cyclable)",
+      "Brooklands Park and Zoo (free)",
+      "Fitzroy Beach and playground",
+      "Inglewood Fun Ho! National Toy Museum",
+      "WOMAD (world music festival, March)"
+    ],
+    "free_activities": [
+      "Pukekura Park \u2014 boating lake, playground, duck pond",
+      "Coastal Walkway from Port Taranaki to East End Beach",
+      "Brooklands Zoo \u2014 small but charming, free",
+      "Bowl of Brooklands outdoor amphitheatre",
+      "Govett-Brewster Art Gallery",
+      "Mt Taranaki visitor centre and short walks"
+    ],
+    "hidden_gems": [
+      "Dawson Falls \u2014 30min from city, spectacular waterfall, easy family walk",
+      "Lake Mangamahoe \u2014 perfect Mt Taranaki reflection photos at sunrise",
+      "Oakura village beach \u2014 quieter than Fitzroy, excellent surf conditions",
+      "Egmont National Park nature walks \u2014 goblin forest, old lava flows",
+      "Stratford Glockenspiel \u2014 small town charm, free Romeo & Juliet clock show"
+    ],
+    "rainy_day": [
+      "Puke Ariki Museum \u2014 free, excellent interactive exhibits",
+      "Govett-Brewster Art Gallery \u2014 free, interesting for teens",
+      "Taranaki indoor aquatic centre",
+      "Founders Theatre for school holiday shows",
+      "Inglewood Fun Ho! Toy Museum \u2014 retro NZ toys"
+    ],
+    "where_to_stay": [
+      {
+        "type": "Holiday Park",
+        "name": "Belt Road Seaside Holiday Park",
+        "note": "Walk to coastal walkway and cafes"
+      },
+      {
+        "type": "Holiday Park",
+        "name": "TSB Bowl of Brooklands Holiday Park",
+        "note": "Park setting, next to zoo"
+      },
+      {
+        "type": "Airbnb",
+        "name": "Oakura Beach cottages",
+        "note": "15min from city, surf beach location"
+      },
+      {
+        "type": "Hotel",
+        "name": "Naumi Hotel New Plymouth",
+        "note": "Modern, central, family rooms available"
+      }
+    ],
+    "three_day_itinerary": {
+      "day1": "Coastal walkway, Pukekura Park and boating lake, Fitzroy Beach",
+      "day2": "Egmont National Park \u2014 Dawson Falls walk, visitor centre, mountain views",
+      "day3": "Brooklands Zoo, Govett-Brewster Gallery, depart south via Whanganui"
+    },
+    "budget_breakdown": {
+      "accommodation": "$100\u2013$150/night (holiday park)",
+      "activities": "$30\u2013$80/day (most attractions free)",
+      "food": "$70\u2013$100/day",
+      "transport": "$40\u2013$60/day fuel"
+    },
+    "faqs": [
+      {
+        "q": "Is New Plymouth worth visiting with kids?",
+        "a": "Absolutely \u2014 it's one of NZ's best-value family destinations. Pukekura Park, the coastal walkway, Brooklands Zoo, and Govett-Brewster are all free. Accommodation is 30\u201340% cheaper than Queenstown or Rotorua."
+      },
+      {
+        "q": "Can kids climb Mt Taranaki?",
+        "a": "The summit is for experienced adults only (technical, crampons needed in winter). Families with kids 6+ can enjoy the Dawson Falls track (1hr return, stunning waterfall), the Pouakai Tarns walk, and the visitor centre area tracks."
+      },
+      {
+        "q": "What is Pukekura Park like for families?",
+        "a": "Exceptional \u2014 it's a large landscaped park with a rowing lake (hire boats for $12), a waterfall walk, a cafe, playgrounds, and the adjacent Brooklands Zoo. Plan 2\u20133 hours. It's completely free."
+      }
+    ],
+    "nearby_destinations": [
+      "whanganui-family-guide",
+      "wellington-with-kids"
+    ],
+    "facebook_groups": [
+      "Taranaki Families",
+      "NZ Family Travel"
+    ],
+    "seo_keywords": [
+      "New Plymouth with kids",
+      "Taranaki family activities",
+      "Pukekura Park families",
+      "Mt Taranaki family"
+    ],
+    "media": {
+      "hero_image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Mount_Taranaki_from_above_Stratford.jpg/1280px-Mount_Taranaki_from_above_Stratford.jpg",
+        "alt": "Mount Taranaki volcano with snow cap above green farmland",
+        "credit": "Wikimedia Commons"
+      }
+    }
+  },
+  {
+    "slug": "marlborough-blenheim-family",
+    "name": "Marlborough & Blenheim",
+    "region": "south-island",
+    "tagline": "Sunlit sounds, wildlife cruises, and NZ's sunniest wine region \u2014 great for families",
+    "summary": "Marlborough is the South Island's sunniest region and the gateway between the ferry and the rest of the South Island. Families come for the Marlborough Sounds' sheltered swimming bays, wildlife cruises, the Queen Charlotte Track, and surprisingly good food. Blenheim is a great overnight stop, and the Sounds offer some of the best kayaking for kids anywhere in NZ.",
+    "quick_facts": {
+      "best_ages": "5+",
+      "budget_family4_per_day": "$180\u2013$300",
+      "drive_from_picton": "30km (30min)",
+      "drive_from_nelson": "115km (1.5h)",
+      "best_season": "Nov\u2013Apr",
+      "rainy_day_options": "Limited \u2014 plan for fine weather activities",
+      "phone_coverage": "Good in Blenheim, patchy in Sounds",
+      "best_months": [
+        "Nov",
+        "Dec",
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr"
+      ],
+      "drive_times": {
+        "Christchurch": "3h",
+        "Nelson": "1.5h",
+        "Wellington": "Ferry 3.5h + 30min drive",
+        "Kaikoura": "1h"
+      }
+    },
+    "top_activities": [
+      "Dolphin watch cruise, Picton",
+      "Queen Charlotte Track \u2014 short sections family-friendly",
+      "Sea kayaking in the Marlborough Sounds",
+      "Picton township and foreshore",
+      "Edwin Fox Maritime Museum, Picton",
+      "Grove Mill winery (kids welcome, nice grounds)",
+      "Momorangi Bay swimming (sheltered, calm, warm)",
+      "Pelorus Bridge Scenic Reserve \u2014 swimming holes"
+    ],
+    "free_activities": [
+      "Picton foreshore and Waitohi Picton play area",
+      "Momorangi Bay camping and swimming (free day visit)",
+      "Pelorus Bridge swimming \u2014 one of NZ's best summer swimming holes",
+      "Havelock waterfront and walking track",
+      "Blenheim Seymour Square gardens and fountain"
+    ],
+    "hidden_gems": [
+      "Pelorus Bridge Scenic Reserve \u2014 crystal clear river swimming 45min from Blenheim, unforgettable in summer",
+      "Momorangi Bay \u2014 sheltered Sounds bay, calm warm water, ideal for small kids",
+      "Hopewell Lodge water taxi \u2014 only way in, felt like a secret world",
+      "Rarangi Beach \u2014 wild windy beach near Blenheim, seals sometimes visible",
+      "Omaka Aviation Heritage Centre \u2014 WW1 and WW2 planes with Peter Jackson's theatrical displays"
+    ],
+    "rainy_day": [
+      "Omaka Aviation Heritage Centre \u2014 genuinely impressive, teens will love it",
+      "Edwin Fox Maritime Museum, Picton",
+      "Blenheim Library school holiday programmes",
+      "Marlborough Museum, Blenheim"
+    ],
+    "where_to_stay": [
+      {
+        "type": "Holiday Park",
+        "name": "Blenheim TOP 10 Holiday Park",
+        "note": "Best value base in Marlborough"
+      },
+      {
+        "type": "Holiday Park",
+        "name": "Momorangi Bay Motor Camp",
+        "note": "Right on the Sounds, basic but magical"
+      },
+      {
+        "type": "Holiday Park",
+        "name": "Picton TOP 10 Holiday Park",
+        "note": "Walk to ferry, convenient for Sounds day trips"
+      },
+      {
+        "type": "Airbnb",
+        "name": "Marlborough Sounds waterfront baches",
+        "note": "Water access only, boat required"
+      }
+    ],
+    "three_day_itinerary": {
+      "day1": "Arrive Picton by ferry, foreshore, dolphin cruise or kayak afternoon",
+      "day2": "Pelorus Bridge swimming, Havelock mussels, Momorangi Bay evening",
+      "day3": "Blenheim, Omaka Aviation Heritage Centre, depart to Nelson or Christchurch"
+    },
+    "budget_breakdown": {
+      "accommodation": "$100\u2013$160/night (holiday park)",
+      "activities": "$80\u2013$150/day (dolphin cruise ~$180 family of 4)",
+      "food": "$70\u2013$110/day",
+      "transport": "$40\u2013$70/day fuel"
+    },
+    "faqs": [
+      {
+        "q": "Is Marlborough good for families with young kids?",
+        "a": "Yes, especially for water-confident kids 5+. The sheltered Sounds bays are perfect for swimming, kayaking, and boat trips. Momorangi Bay is ideal for toddlers \u2014 calm, warm, shallow water."
+      },
+      {
+        "q": "Is the Queen Charlotte Track suitable for families?",
+        "a": "Short sections are. The Ship Cove to Resolution Bay section (2.5hr, easy) is the most popular with families. You take a water taxi out and walk back or take a water taxi both ways. Book with Cougar Line or Beachcomber Cruises in Picton."
+      },
+      {
+        "q": "Where is the best swimming in Marlborough?",
+        "a": "Pelorus Bridge for river swimming (crystal clear, stunning bush setting), Momorangi Bay for sheltered Sounds sea swimming. Both are safe for children and free."
+      }
+    ],
+    "nearby_destinations": [
+      "nelson-abel-tasman-family",
+      "christchurch-with-kids"
+    ],
+    "facebook_groups": [
+      "Marlborough Families",
+      "NZ Family Travel"
+    ],
+    "seo_keywords": [
+      "Marlborough family holiday",
+      "Blenheim with kids",
+      "Marlborough Sounds family",
+      "Picton kids activities"
+    ],
+    "media": {
+      "hero_image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Marlborough_Sounds_aerial.jpg/1280px-Marlborough_Sounds_aerial.jpg",
+        "alt": "Marlborough Sounds aerial view of forested inlets",
+        "credit": "Wikimedia Commons"
+      }
+    }
+  },
+  {
+    "slug": "west-coast-family-guide",
+    "name": "West Coast",
+    "region": "south-island",
+    "tagline": "Glaciers, pancake rocks, wild beaches and gold rush history \u2014 NZ's untamed side",
+    "summary": "The West Coast is New Zealand's wildest and most dramatic region \u2014 and surprisingly good for families. Punakaiki's Pancake Rocks are a genuine wonder (free), Franz Josef and Fox Glaciers are accessible by short walks from the car park, and the rainforest-fringed beaches have a raw beauty you won't find anywhere else. Pack rain gear \u2014 the Coast averages 3\u20135 wet days per week, but weather changes fast.",
+    "quick_facts": {
+      "best_ages": "5+",
+      "budget_family4_per_day": "$150\u2013$250",
+      "drive_from_christchurch": "250km via Lewis Pass (3.5h) or 330km via Arthur's Pass (4h)",
+      "drive_from_nelson": "420km (5h)",
+      "best_season": "Nov\u2013Mar (but rain any time of year)",
+      "rainy_day_options": "Limited \u2014 plan outdoor-heavy days around weather",
+      "phone_coverage": "Patchy \u2014 Greymouth OK, remote areas no coverage",
+      "best_months": [
+        "Nov",
+        "Dec",
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr"
+      ],
+      "drive_times": {
+        "Christchurch": "3.5h via Lewis Pass",
+        "Nelson": "2h",
+        "Queenstown": "4.5h",
+        "Wanaka": "3h"
+      }
+    },
+    "top_activities": [
+      "Punakaiki Pancake Rocks and Blowholes (free)",
+      "Franz Josef Glacier \u2014 free walk to terminal face",
+      "Fox Glacier \u2014 free walk to viewing platform",
+      "Hokitika Gorge \u2014 turquoise river walk (25min from Hokitika)",
+      "Hokitika town \u2014 greenstone carving, wild foods cafe",
+      "Shantytown Heritage Park \u2014 gold rush era village",
+      "Lake Mahinapua \u2014 free swimming, kayaking",
+      "Okarito Lagoon \u2014 kayak with white herons"
+    ],
+    "free_activities": [
+      "Punakaiki Pancake Rocks \u2014 free DoC site, 30min walk",
+      "Franz Josef Glacier valley walk \u2014 free, 3km return",
+      "Hokitika Gorge walkway \u2014 free, stunning turquoise river",
+      "Lake Ianthe \u2014 calm lake swimming, free DoC campsite nearby",
+      "Knights Point lookout \u2014 seal viewing from roadside",
+      "Ship Creek \u2014 kahikatea forest walk and beach, free DoC"
+    ],
+    "hidden_gems": [
+      "Hokitika Gorge \u2014 only 25min from town but the turquoise water looks like a screensaver. Go early morning for best colour.",
+      "Lake Ianthe \u2014 quiet, calm, warm water mid-summer. Often deserted mid-week.",
+      "Okarito Lagoon kayaking \u2014 smallest town in NZ, white heron sanctuary, magical at dusk",
+      "Monteith's Brewery tour, Greymouth \u2014 kids welcome, good food, free tasting for parents",
+      "Truman Track, Punakaiki \u2014 20min return, beach through dinosaur-era forest"
+    ],
+    "rainy_day": [
+      "Shantytown Heritage Park \u2014 gold panning, steam train, covered exhibits",
+      "Hokitika greenstone shops and carving workshops (some offer family sessions)",
+      "Greymouth Information Centre \u2014 good West Coast history display",
+      "Monteith's Brewing Co \u2014 family-friendly brewery tour and meals"
+    ],
+    "where_to_stay": [
+      {
+        "type": "Holiday Park",
+        "name": "Punakaiki Beach Backpackers & Holiday Park",
+        "note": "Next to Pancake Rocks, sea views"
+      },
+      {
+        "type": "Holiday Park",
+        "name": "Franz Josef TOP 10 Holiday Park",
+        "note": "Best glacier base, heated pool"
+      },
+      {
+        "type": "Holiday Park",
+        "name": "Hokitika Holiday Park",
+        "note": "Good central West Coast base"
+      },
+      {
+        "type": "Holiday Park",
+        "name": "Westport Holiday Park",
+        "note": "Budget-friendly north coast base"
+      }
+    ],
+    "three_day_itinerary": {
+      "day1": "Punakaiki Pancake Rocks, Truman Track, drive south to Hokitika",
+      "day2": "Hokitika Gorge morning, greenstone shopping, drive to Franz Josef",
+      "day3": "Franz Josef Glacier walk, drive to Fox Glacier, continue south or return via Haast Pass"
+    },
+    "budget_breakdown": {
+      "accommodation": "$80\u2013$130/night (holiday park)",
+      "activities": "$40\u2013$100/day (most top sites free, Shantytown ~$70 family)",
+      "food": "$60\u2013$90/day (limited restaurant options \u2014 self-catering saves money)",
+      "transport": "$80\u2013$120/day fuel (distances are long)"
+    },
+    "faqs": [
+      {
+        "q": "Is the West Coast worth visiting with kids?",
+        "a": "Yes \u2014 but plan around the weather. The Pancake Rocks, glaciers, and Hokitika Gorge are genuinely spectacular, and most are free. Allow extra days in your itinerary for weather delays. A campervan is ideal as it removes accommodation pressure when you need to move fast."
+      },
+      {
+        "q": "Can you still walk to the glaciers?",
+        "a": "Yes \u2014 both Franz Josef and Fox have free walks to viewpoints near the glacier face. The glaciers have retreated significantly but the valley walks are still dramatic and worthwhile. Allow 1.5\u20132 hours return for each. Heli-hike tours are available but expensive (~$400\u2013$500 per adult)."
+      },
+      {
+        "q": "How rainy is the West Coast really?",
+        "a": "It averages 3\u20135 rain days per week year-round. November to March is the best window. Rain tends to be heavy but short \u2014 a morning downpour often clears by lunch. Pack waterproofs and plan indoor options. The upside: when it's fine, the light is extraordinary."
+      },
+      {
+        "q": "What is Hokitika Gorge like for families?",
+        "a": "The gorge is safe and walkable for all ages \u2014 25min return on a well-formed track. The water is an extraordinary luminous turquoise from suspended glacial rock flour. The swingbridge adds excitement for kids. Go before 10am for the best light and fewer crowds."
+      }
+    ],
+    "nearby_destinations": [
+      "nelson-abel-tasman-family",
+      "queenstown-with-kids",
+      "christchurch-with-kids"
+    ],
+    "facebook_groups": [
+      "West Coast NZ Families",
+      "NZ Family Travel"
+    ],
+    "seo_keywords": [
+      "West Coast NZ family holiday",
+      "Punakaiki with kids",
+      "Franz Josef family",
+      "West Coast glaciers children"
+    ],
+    "media": {
+      "hero_image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Punakaiki_Pancake_Rocks.jpg/1280px-Punakaiki_Pancake_Rocks.jpg",
+        "alt": "Punakaiki Pancake Rocks layered limestone formations on West Coast",
+        "credit": "Wikimedia Commons"
+      }
+    }
+  },
+  {
+    "slug": "gisborne-east-cape-family",
+    "name": "Gisborne & East Cape",
+    "region": "north-island",
+    "tagline": "World's first sunrise, surf beaches and remote Maori heartland \u2014 worth the drive",
+    "summary": "Gisborne and the East Cape are among New Zealand's most undervisited family destinations \u2014 and among the most rewarding. Gisborne itself has excellent surf beaches, a vibrant food scene, and Young Nick's Head. The East Cape road is one of NZ's great scenic drives: lighthouse, pohutukawa-lined beaches, and the real Maori heartland of Tairawhiti. Cell coverage is minimal and petrol stations sparse \u2014 which is exactly the point.",
+    "quick_facts": {
+      "best_ages": "All ages",
+      "budget_family4_per_day": "$120\u2013$200",
+      "drive_from_auckland": "490km (6h)",
+      "drive_from_napier": "215km (2.5h)",
+      "best_season": "Nov\u2013Apr",
+      "rainy_day_options": "Limited \u2014 this is an outdoor destination",
+      "phone_coverage": "Good in Gisborne, minimal on East Cape road",
+      "best_months": [
+        "Nov",
+        "Dec",
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr"
+      ],
+      "drive_times": {
+        "Auckland": "6h",
+        "Napier": "2.5h",
+        "Rotorua": "3.5h",
+        "Taupo": "4h"
+      }
+    },
+    "top_activities": [
+      "East Cape Lighthouse \u2014 NZ's easternmost point, world's first sunrise",
+      "Tolaga Bay Wharf \u2014 longest wharf in NZ (660m), great for fishing",
+      "Wainui Beach surf lessons (beginner-friendly)",
+      "Te Kuri a Paoa (Young Nick's Head) \u2014 where Cook first spotted land",
+      "Eastwoodhill Arboretum \u2014 NZ's largest collection of northern hemisphere trees",
+      "Rere Rockslide \u2014 natural waterslide in the Wharekopae River",
+      "Morere Hot Springs \u2014 secluded bush pools 65km south of Gisborne",
+      "Titirangi Reserve lookout, Gisborne"
+    ],
+    "free_activities": [
+      "Wainui and Midway Beaches \u2014 surf town beaches, free",
+      "Rere Rockslide \u2014 bring a bodyboard or boogie board, entirely free",
+      "East Cape road drive \u2014 all beaches and marae sites free to drive past",
+      "Te Poho-o-Rawiri Marae \u2014 Gisborne's large meeting house (tours by arrangement)",
+      "Gisborne Botanic Gardens"
+    ],
+    "hidden_gems": [
+      "Rere Rockslide \u2014 a natural rock water slide in the river, 45min from Gisborne. Bring a boogie board. Genuinely the most fun thing in the region.",
+      "Tolaga Bay Wharf \u2014 peaceful, historic, perfect for fishing with kids. Longest wharf in NZ.",
+      "Anaura Bay \u2014 one of NZ's least-visited beautiful bays, DoC campsite on the beach",
+      "Hicks Bay Motel \u2014 at the remote top of the Cape loop, hot tub, outstanding views, surreal remoteness",
+      "Morere Hot Springs \u2014 bush hot pools 65min south, uncrowded, magical"
+    ],
+    "rainy_day": [
+      "Tairawhiti Museum, Gisborne \u2014 excellent, free",
+      "Gisborne Wine Trail \u2014 kid-friendly cellar doors with good food",
+      "Te Ara Tairawhiti walking trail (sheltered sections)"
+    ],
+    "where_to_stay": [
+      {
+        "type": "Holiday Park",
+        "name": "Waikanae Beach TOP 10 Holiday Park",
+        "note": "Beachfront, excellent for families"
+      },
+      {
+        "type": "Holiday Park",
+        "name": "Gisborne TOP 10 Holiday Park",
+        "note": "Central, clean, easy to beaches"
+      },
+      {
+        "type": "DoC Campsite",
+        "name": "Anaura Bay DoC Campsite",
+        "note": "Stunning remote beach, basic facilities"
+      },
+      {
+        "type": "Motel",
+        "name": "Hicks Bay Motel",
+        "note": "Remote East Cape \u2014 worth it for the experience"
+      }
+    ],
+    "three_day_itinerary": {
+      "day1": "Gisborne beach, Rere Rockslide, Young Nick's Head lookout",
+      "day2": "East Cape drive \u2014 Tolaga Bay Wharf, Tikitiki church, Hicks Bay overnight",
+      "day3": "East Cape Lighthouse at sunrise, complete loop back to Gisborne or Opotiki"
+    },
+    "budget_breakdown": {
+      "accommodation": "$80\u2013$120/night (holiday park or DoC campsite)",
+      "activities": "$20\u2013$60/day (most free, surf lesson ~$60/person)",
+      "food": "$60\u2013$90/day (self-catering recommended on Cape road)",
+      "transport": "$60\u2013$100/day fuel (Cape circuit is 330km)"
+    },
+    "faqs": [
+      {
+        "q": "Is the East Cape drive worth it with kids?",
+        "a": "Yes \u2014 but only if you're happy off the beaten track. The lighthouse, Tolaga Bay, and Anaura Bay are genuinely beautiful. The road is narrow and mostly unsealed for short stretches. Allow 2 full days for the circuit and stock up on food and petrol in Opotiki or Gisborne before you leave."
+      },
+      {
+        "q": "What is the Rere Rockslide?",
+        "a": "A natural 60m long rock water slide in the Wharekopae River, 45 minutes inland from Gisborne. You bring your own bodyboard or sit-on-board and slide down the smooth limestone. It's free, safe for most ages (river is cold), and one of the most fun free things in NZ."
+      },
+      {
+        "q": "When does the sun rise first in NZ?",
+        "a": "East Cape Lighthouse area is the first place on the NZ mainland to see the sun each day. In summer, sunrise is around 5:30am. Many families drive the Cape and camp near the lighthouse for a sunrise experience. The lighthouse is a 700m walk up a steep path from the car park."
+      }
+    ],
+    "nearby_destinations": [
+      "hawkes-bay-family-guide",
+      "tauranga-mount-maunganui-family",
+      "bay-of-islands-family"
+    ],
+    "facebook_groups": [
+      "Gisborne Families",
+      "NZ Family Travel"
+    ],
+    "seo_keywords": [
+      "Gisborne with kids",
+      "East Cape family holiday",
+      "East Cape drive families",
+      "Rere Rockslide"
+    ],
+    "media": {
+      "hero_image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/East_Cape_Lighthouse.jpg/1280px-East_Cape_Lighthouse.jpg",
+        "alt": "East Cape Lighthouse on headland at sunrise, New Zealand",
+        "credit": "Wikimedia Commons"
+      }
+    }
   }
 ]
