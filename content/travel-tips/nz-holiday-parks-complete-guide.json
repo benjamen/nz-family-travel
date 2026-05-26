@@ -1,157 +1,85 @@
 {
   "slug": "nz-holiday-parks-complete-guide",
-  "short_title": "Holiday Parks Guide",
-  "title": "NZ Holiday Parks — The Complete Family Guide 2026",
-  "meta_desc": "Everything about NZ holiday parks for families: TOP 10 vs independents, powered vs unpowered, freedom camping rules, costs, and the best parks by region.",
-  "intro": "New Zealand's holiday park network is genuinely world-class — clean, safe, well-equipped, and often in spectacular locations. A family of 4 can stay in a quality holiday park cabin for $120–200/night, or park a campervan on a powered site for $60–90/night. Here's what you need to know.",
+  "short_title": "NZ Holiday Parks",
+  "title": "NZ Holiday Parks — The Complete Family Guide (TOP 10 vs Freedom Camping)",
+  "meta_desc": "Discover the best NZ holiday parks and freedom camping options for your family with our complete guide",
+  "intro": "With over 300 holiday parks in New Zealand, choosing the right one for your family can be overwhelming. TOP 10 holiday parks offer a range of facilities, but freedom camping can be a more budget-friendly option. In this guide, we'll break down the costs, facilities, and best parks by region to help you make an informed decision.",
   "updated": "May 2026",
-  "reading_time": 9,
+  "reading_time": 10,
   "sections": [
     {
-      "heading": "Types of Holiday Park Accommodation",
+      "heading": "TOP 10 Holiday Parks vs Freedom Camping",
+      "body": "TOP 10 holiday parks offer a wide range of facilities, including kitchens, laundry, and play areas, with prices starting from around $40 per night for a powered site. Freedom camping, on the other hand, can be as low as $10 per night, but often requires a self-contained vehicle and has limited amenities."
+    },
+    {
+      "heading": "Facilities and Amenities",
+      "list": [
+        "Kitchen and laundry facilities",
+        "Play areas and kids' clubs",
+        "Pool and spa facilities",
+        "Wifi and TV lounges",
+        "Dump stations and water refill"
+      ]
+    },
+    {
+      "heading": "Cost Comparison",
       "table": {
         "headers": [
           "Type",
-          "What you get",
-          "Typical cost (family of 4)",
-          "Best for"
+          "Price per Night"
         ],
         "rows": [
           [
-            "Powered site (campervan)",
-            "Power hookup, shared bathrooms/kitchen",
-            "$55–90/night",
-            "Campervan travellers"
+            "TOP 10 Holiday Park (powered site)",
+            "$40-$60"
           ],
           [
-            "Unpowered site (tent/campervan)",
-            "Grassy site, shared facilities",
-            "$40–65/night",
-            "Budget campers"
+            "TOP 10 Holiday Park (unpowered site)",
+            "$30-$50"
           ],
           [
-            "Cabin (basic)",
-            "Beds, heating, shared bathroom",
-            "$90–140/night",
-            "First-timers without a tent"
+            "Freedom Camping ( DOC site)",
+            "$10-$20"
           ],
           [
-            "Cabin (ensuite)",
-            "Private bathroom, basic kitchen",
-            "$140–200/night",
-            "Families wanting comfort"
-          ],
-          [
-            "Studio/unit",
-            "Full kitchen, living area, private bathroom",
-            "$180–280/night",
-            "Longer stays, more space"
-          ],
-          [
-            "Motel unit (some parks)",
-            "Motel standard in a park setting",
-            "$200–350/night",
-            "Premium comfort seekers"
+            "Freedom Camping (private site)",
+            "$20-$30"
           ]
         ]
       }
     },
     {
-      "heading": "TOP 10 Holiday Parks vs Independent Parks",
+      "heading": "Best Parks by Region",
+      "body": "Some of the best TOP 10 holiday parks in New Zealand include Auckland's Takapuna Beach Holiday Park, Rotorua's Holdens Bay Holiday Park, and Queenstown's Creeksyde Holiday Park. For freedom camping, consider the DOC sites in the South Island, such as those in Abel Tasman National Park or Mount Aspiring National Park."
+    },
+    {
+      "heading": "Booking Tips",
       "list": [
-        "TOP 10 is a membership network of ~55 parks across NZ. Consistent quality standards — you know what you're getting.",
-        "TOP 10 Clubcard ($55/year): saves 10% at all TOP 10 parks. Pays for itself in 2–3 nights.",
-        "Independents can be excellent (or terrible). Read recent reviews carefully. Facilities vary enormously.",
-        "TOP 10 parks tend to have better playgrounds, pools, and kid-specific facilities.",
-        "For spontaneous travel, TOP 10 parks in popular areas book up fast — always call ahead in peak season.",
-        "Some independent parks in remote areas (West Coast, Fiordland) are the only option — and many are excellent."
+        "Book in advance, especially during peak season",
+        "Check the park's website for deals and discounts",
+        "Consider a loyalty program, such as TOP 10's Explorer programme",
+        "Read reviews and check the park's ratings before booking"
       ]
     },
     {
-      "heading": "Facilities to Look For with Kids",
-      "list": [
-        "Playground: essential for young kids. Check it's fenced if you have toddlers.",
-        "Heated swimming pool: many TOP 10 parks have indoor pools — a rainy day lifesaver.",
-        "Camp kitchen: well-equipped camp kitchens save significant money. Check stove/oven quality.",
-        "Laundry: with kids, you'll need this every 3–4 days minimum.",
-        "Drying room: vital on the West Coast and in Fiordland where it rains often.",
-        "TV/games room: when kids hit the wall. Many TOP 10 parks have one.",
-        "Distance to toilets: cabin allocation matters. Ask for a site close to bathrooms for night trips with kids."
-      ]
+      "heading": "Getting There",
+      "body": "New Zealand has a well-developed road network, making it easy to get to most holiday parks. For example, it's around a 3-hour drive from Auckland to Rotorua, and around a 6-hour drive from Christchurch to Queenstown. You can also use public transport, such as buses and trains, or rent a campervan for the ultimate road trip experience."
     },
     {
-      "heading": "Best Holiday Parks by Region",
-      "table": {
-        "headers": [
-          "Region",
-          "Recommended park",
-          "Standout feature"
-        ],
-        "rows": [
-          [
-            "Rotorua",
-            "Rotorua TOP 10 Holiday Park",
-            "Thermal pools on-site"
-          ],
-          [
-            "Taupo",
-            "All Seasons Holiday Park",
-            "Direct lake access"
-          ],
-          [
-            "Bay of Islands",
-            "Paihia Beach Holiday Park",
-            "Beach location, pool"
-          ],
-          [
-            "Queenstown",
-            "Queenstown TOP 10 Holiday Park",
-            "Mountain views, indoor pool"
-          ],
-          [
-            "Wanaka",
-            "Wanaka TOP 10 Holiday Park",
-            "Lake access, excellent kitchen"
-          ],
-          [
-            "Kaikoura",
-            "Kaikoura TOP 10 Holiday Park",
-            "Seal colony nearby"
-          ],
-          [
-            "Abel Tasman",
-            "Marahau Beach Camp",
-            "Beach access, DOC track start"
-          ],
-          [
-            "West Coast",
-            "Hokitika TOP 10",
-            "Sunsets over Tasman Sea"
-          ]
-        ]
-      }
-    },
-    {
-      "heading": "Freedom Camping — The Rules",
-      "body": "Freedom camping (sleeping in your vehicle outside commercial parks) is legal in NZ only for certified self-contained vehicles. Self-contained means: toilet, grey water tank, and 3+ days of fresh water storage. Non-self-contained vehicles CANNOT legally freedom camp. Fines are $200–400. Check freedomcamping.org.nz for legal sites near your route.",
-      "list": [
-        "Download the CamperMate app: shows all freedom camping sites, holiday parks, and dumps stations on one map.",
-        "Self-contained certificate (CSC): campervans hired from major operators (Jucy, Maui, Britz) are certified. Budget van rentals may not be.",
-        "Some councils ban freedom camping entirely (Queenstown Lakes District is very strict — $400 fines are common).",
-        "DOC (Department of Conservation) campsites: basic but beautiful. $8–15/person/night. Book at doc.govt.nz.",
-        "Never freedom camp on private land without permission. Respect is what keeps these spots available."
-      ],
+      "heading": "Plan Your Trip",
       "cta": {
-        "text": "Compare campervans for your NZ trip →",
+        "text": "Use our NZ Family Travel Budget Calculator to plan your trip",
+        "url": "/tools/nz-family-travel-budget-calculator/",
+        "affiliate": false
+      }
+    },
+    {
+      "heading": "More Resources",
+      "cta": {
+        "text": "Check out our campervan guide for more information on renting a campervan",
         "url": "/campervans/",
         "affiliate": false
       }
     }
-  ],
-  "hero_image": {
-    "url": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=1200&q=80",
-    "thumb": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=600&q=70",
-    "alt": "NZ holiday park with kids playing outside",
-    "credit": "Unsplash / Outdoor Park"
-  }
+  ]
 }
