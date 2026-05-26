@@ -570,3 +570,32 @@ body { padding-bottom: 46px; }
 .overseas-card h3 { font-size: 1.1rem; margin-bottom: .4rem; }
 .overseas-card p { font-size: .85rem; color: var(--gray-600); margin-bottom: .75rem; }
 .overseas-facts { display: flex; gap: 1rem; font-size: .8rem; color: var(--gray-600); }
+
+/* === Month navigation === */
+.month-nav { display: flex; flex-wrap: wrap; gap: .4rem; margin-bottom: 1.25rem; }
+.month-pill { display: inline-block; padding: .3rem .75rem; border-radius: 20px; font-size: .82rem; font-weight: 600; background: var(--gray-100); color: var(--gray-600); text-decoration: none; transition: background .15s, color .15s; }
+.month-pill:hover { background: var(--brand-lt); color: var(--brand); text-decoration: none; }
+.month-pill-active { background: var(--brand); color: #fff; }
+.month-pill-active:hover { background: var(--brand-dk); color: #fff; }
+.month-prev-next { display: flex; gap: 1rem; margin-top: .75rem; flex-wrap: wrap; }
+
+/* === Viator CTA grid === */
+.viator-cta-grid { display: flex; flex-direction: column; gap: .75rem; }
+.viator-card { display: flex; align-items: center; gap: 1rem; padding: 1rem 1.25rem; background: #fff8f0; border: 1px solid #fed7aa; border-radius: var(--radius); text-decoration: none; color: var(--text); transition: background .15s; }
+.viator-card:hover { background: #fff1e0; text-decoration: none; }
+.viator-icon { font-size: 1.5rem; flex-shrink: 0; }
+.viator-card > div { flex: 1; }
+.viator-card strong { display: block; font-weight: 700; color: #c2410c; }
+.viator-card span { font-size: .85rem; color: var(--gray-600); }
+.viator-arrow { font-size: .85rem; font-weight: 700; color: #c2410c; white-space: nowrap; }
+
+/* === Flights box === */
+.flights-box { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: var(--radius); padding: 1.5rem 2rem; align-items: center; }
+.flights-box h3 { font-size: 1.1rem; font-weight: 800; margin-bottom: .5rem; }
+.flights-box p { font-size: .9rem; color: var(--gray-600); margin-bottom: .75rem; }
+.flights-box-tips { font-size: .85rem; color: var(--gray-600); border-left: 3px solid var(--green); padding-left: 1rem; }
+.flights-box-tips strong { color: var(--green); display: block; margin-bottom: .25rem; }
+@media (max-width: 640px) {
+  .flights-box { grid-template-columns: 1fr; gap: 1rem; }
+  .viator-cta-grid { gap: .5rem; }
+}

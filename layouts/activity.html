@@ -9,8 +9,19 @@
     "name": "{{ activity.name }}",
     "description": "{{ activity.summary }}",
     "url": "{{ site.base_url }}/activity/{{ activity.slug }}/",
-    "touristType": "Family",
-    "isAccessibleForFree": {{ "true" if activity.price.adult == 0 else "false" }}
+    "touristType": ["Family", "Children"],
+    "isAccessibleForFree": {{ "true" if activity.price.adult == 0 else "false" }},
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "{{ activity.destination | replace('-',' ') | title }}",
+      "addressCountry": "NZ"
+    }{% if activity.price.adult > 0 %},
+    "offers": {
+      "@type": "Offer",
+      "price": "{{ activity.price.adult }}",
+      "priceCurrency": "NZD",
+      "url": "{{ site.base_url }}/activity/{{ activity.slug }}/"
+    }{% endif %}
   },
   {
     "@context": "https://schema.org",
@@ -28,6 +39,10 @@
 {% block title %}{{ activity.name }} — Family Review NZ 2026 (Price, Min Age, Tips){% endblock %}
 {% block desc %}{{ activity.name }} review: {% if activity.price.adult > 0 %}${{ activity.price.adult }}/adult, ${{ activity.price.child }}/child{% else %}free entry{% endif %}, ages {{ activity.min_age }}+, {{ activity.duration }}. Is it worth it for families?{% endblock %}
 {% block canonical %}activity/{{ activity.slug }}/{% endblock %}
+{% block og_type %}article{% endblock %}
+{% block og_title %}{{ activity.name }} — NZ Family Review 2026{% endblock %}
+{% block og_desc %}{% if activity.price.adult > 0 %}${{ activity.price.adult }}/adult · {% endif %}Ages {{ activity.min_age }}+ · {{ activity.duration }} · {{ activity.tagline }}{% endblock %}
+{% block og_url %}activity/{{ activity.slug }}/{% endblock %}
 
 {% block hero %}
 <section class="page-hero">

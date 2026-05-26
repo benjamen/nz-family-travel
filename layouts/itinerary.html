@@ -14,6 +14,15 @@
   },
   {
     "@context": "https://schema.org",
+    "@type": "Trip",
+    "name": "{{ itinerary.title }}",
+    "description": "{{ itinerary.tagline }}",
+    "url": "{{ site.base_url }}/itineraries/{{ itinerary.slug }}/",
+    "touristType": {"@type": "Audience", "audienceType": "Family"},
+    "provider": {"@type": "Organization", "name": "NZ Family Travel", "url": "{{ site.base_url }}"}
+  },
+  {
+    "@context": "https://schema.org",
     "@type": "FAQPage",
     "mainEntity": [
       {% for faq in itinerary.faqs %}
@@ -28,6 +37,10 @@
 ]
 </script>
 {% endblock %}
+{% block og_type %}article{% endblock %}
+{% block og_title %}{{ itinerary.title }}{% endblock %}
+{% block og_desc %}{{ itinerary.tagline }}. {{ itinerary.duration_days }}-day family itinerary, budget {{ itinerary.budget_family4 }}.{% endblock %}
+{% block og_url %}itineraries/{{ itinerary.slug }}/{% endblock %}
 {% block title %}{{ itinerary.title }} — NZ Family Holiday Plan 2026{% endblock %}
 {% block desc %}{{ itinerary.tagline }}. {{ itinerary.duration_days }}-day itinerary for a family of 4, budget {{ itinerary.budget_family4 }}. Day-by-day activities, drive times and honest tips.{% endblock %}
 {% block canonical %}itineraries/{{ itinerary.slug }}/{% endblock %}

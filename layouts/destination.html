@@ -119,16 +119,24 @@
 </section>
 
 <!-- Primary affiliate block -->
+{% set city_q = destination.name | url_encode %}
+{% set booking_url = "https://www.booking.com/searchresults.html?ss=" ~ city_q ~ "%2C+New+Zealand&group_adults=2&group_children=2" %}
+{% set bookme_url = "https://www.bookme.co.nz/results/?where=" ~ city_q %}
+{% set viator_url = "https://www.viator.com/en-NZ/searchResults/all?text=" ~ city_q ~ "+New+Zealand&pid=P00098580" %}
+{% set skyscanner_url = "https://www.skyscanner.co.nz/flights-to/" ~ destination.quick_facts.nearest_airport | lower ~ "/" %}
 <div class="affiliate-strip">
   <div class="aff-strip-inner">
     <a href="{{ site.affiliates.discover_cars.url }}" class="aff-strip-item" rel="sponsored" target="_blank">
       🚐 <strong>Compare Campervans</strong> for {{ destination.name }} — from $89/day
     </a>
-    <a href="{{ site.affiliates.booking_com.url }}" class="aff-strip-item" rel="sponsored" target="_blank">
+    <a href="{{ booking_url }}" class="aff-strip-item" rel="sponsored" target="_blank">
       🏕️ <strong>Find Accommodation</strong> in {{ destination.name }}
     </a>
-    <a href="{{ site.affiliates.bookme.url }}" class="aff-strip-item" rel="sponsored" target="_blank">
+    <a href="{{ bookme_url }}" class="aff-strip-item" rel="sponsored" target="_blank">
       🎫 <strong>Book {{ destination.name }} Activities</strong> & save up to 40%
+    </a>
+    <a href="{{ viator_url }}" class="aff-strip-item" rel="sponsored" target="_blank">
+      🎟️ <strong>Tours & Experiences</strong> — Viator verified
     </a>
   </div>
 </div>
@@ -218,7 +226,7 @@
           <td>{{ act.min_age }}+</td>
           <td>{% if act.rain_safe %}✓{% else %}—{% endif %}</td>
           <td>{% if act.must_do %}<span class="badge-green">Yes</span>{% else %}—{% endif %}</td>
-          <td><a href="{{ site.affiliates.bookme.url }}" class="btn btn-sm btn-primary" rel="sponsored" target="_blank">Book</a></td>
+          <td><a href="{{ bookme_url }}" class="btn btn-sm btn-primary" rel="sponsored" target="_blank">Book</a></td>
         </tr>
         {% endfor %}
       </tbody>
@@ -398,6 +406,44 @@
       </div>
       <span class="fb-join">Search →</span>
     </a>
+  </div>
+</section>
+
+<!-- Viator tours section -->
+<section class="section section-alt">
+  <h2>🎟️ {{ destination.name }} Tours & Experiences</h2>
+  <p class="section-intro">Verified tours from international operators — guided day trips, transfers, and experiences bookable online with free cancellation on most.</p>
+  <div class="viator-cta-grid">
+    <a href="{{ viator_url }}" class="viator-card" rel="sponsored" target="_blank">
+      <span class="viator-icon">🏔️</span>
+      <div>
+        <strong>All {{ destination.name }} Tours</strong>
+        <span>Day trips, guided experiences & transfers — compare prices on Viator</span>
+      </div>
+      <span class="viator-arrow">Browse →</span>
+    </a>
+    <a href="https://www.viator.com/en-NZ/searchResults/all?text={{ destination.name | url_encode }}+family+kids+New+Zealand&pid=P00098580" class="viator-card" rel="sponsored" target="_blank">
+      <span class="viator-icon">👨‍👩‍👧</span>
+      <div>
+        <strong>Family-Friendly Tours</strong>
+        <span>Kid-rated experiences in {{ destination.name }} — filtered for families</span>
+      </div>
+      <span class="viator-arrow">Browse →</span>
+    </a>
+  </div>
+</section>
+
+<!-- Skyscanner flights box -->
+<section class="section">
+  <div class="flights-box">
+    <div class="flights-box-content">
+      <h3>✈️ Getting to {{ destination.name }}</h3>
+      <p>Nearest airport: <strong>{{ destination.quick_facts.nearest_airport }}</strong>{% if destination.quick_facts.flight_from_auckland %} · Flight from Auckland: <strong>{{ destination.quick_facts.flight_from_auckland }}</strong>{% endif %}</p>
+      <a href="{{ skyscanner_url }}" class="btn btn-outline" rel="sponsored" target="_blank">Compare flights on Skyscanner →</a>
+    </div>
+    <div class="flights-box-tips">
+      <strong>Budget tip:</strong> Flying then hiring a car or campervan locally is often cheaper than driving from Auckland for South Island destinations. Use Skyscanner to compare fares 6–8 weeks ahead for the best prices.
+    </div>
   </div>
 </section>
 

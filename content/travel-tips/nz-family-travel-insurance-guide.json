@@ -1,0 +1,79 @@
+{
+  "slug": "nz-family-travel-insurance-guide",
+  "short_title": "NZ Travel Insurance",
+  "title": "NZ Family Travel Insurance Guide 2026 — What You Actually Need",
+  "meta_desc": "Do NZ families need travel insurance for domestic trips? What about overseas travel from NZ? Honest answers on what's covered, what isn't, and the cheapest way to get adequate cover.",
+  "intro": "Travel insurance is one of those things most NZ families skip for domestic trips and underestimate for overseas travel. This guide cuts through the confusion — what's actually worth insuring, what your credit card or ACC already covers, and which policies are genuinely family-friendly.",
+  "updated": "May 2026",
+  "reading_time": 7,
+  "sections": [
+    {
+      "heading": "Do NZ Families Need Insurance for Domestic Travel?",
+      "list": [
+        "ACC (Accident Compensation Corporation) covers treatment costs for accidents anywhere in NZ — this includes ski injuries, adventure activity injuries, and road accidents. You won't get a bill for emergency hospital treatment.",
+        "What ACC does NOT cover: trip cancellation costs, accommodation if you have to cut a trip short due to illness, lost luggage, and rental vehicle excess (if you damage a campervan or hire car).",
+        "Rental vehicle excess is the main domestic insurance gap — excess on campervans can be $3,000–$5,000. Always check the excess on your rental and consider a standalone rental excess policy ($5–10/day).",
+        "Travel cancellation cover for domestic trips is worth considering if you've paid significant non-refundable deposits — especially for peak season campervan bookings or ski packages.",
+        "Most domestic travel insurance for NZ families costs $30–60 for a week-long trip — often worth it just for the cancellation and rental excess components."
+      ]
+    },
+    {
+      "heading": "Overseas Travel from NZ — What You Must Cover",
+      "list": [
+        "Medical evacuation: the most critical cover for overseas travel. Medical evacuation from Bali or Thailand to NZ can cost $50,000–$150,000+. This is the one thing you absolutely cannot skip.",
+        "Medical treatment costs: Australian Medicare covers some NZ citizens in Australia (reciprocal agreement), but most other countries have no such agreement. In the US, a 2-day hospital stay can cost $20,000+.",
+        "Trip cancellation: pre-paid non-refundable costs (flights, accommodation, tours) if you have to cancel due to serious illness or family emergency.",
+        "Lost or delayed baggage: especially relevant for long-haul flights where kids' medications, equipment, or car seats could be lost.",
+        "Rental vehicle excess: also relevant overseas — check what cover your policy provides for hire cars in your destination country."
+      ]
+    },
+    {
+      "heading": "Family Travel Insurance — Key Things to Check",
+      "list": [
+        "Are children included free? Many NZ family policies include dependent children at no extra cost — always check this before buying.",
+        "Pre-existing conditions: if anyone in the family has a pre-existing condition (asthma, diabetes, etc.), declare it. Cover is usually available but must be declared upfront.",
+        "Adventure activity cover: NZ is an adventure destination. Check that skiing, jet boating, bungy jumping, and similar activities are covered — many basic policies exclude them.",
+        "Pregnancy cover: important if you're travelling while pregnant. Cover typically ends at 20–24 weeks depending on the policy.",
+        "COVID-19 cover: check what the policy covers for COVID-related cancellation and medical treatment at your destination.",
+        "Excess per claim: lower excess policies cost more but save hassle with multiple small claims (lost items, doctor visits). Higher excess is fine if your only concern is major medical."
+      ]
+    },
+    {
+      "heading": "NZ Travel Insurance Providers for Families",
+      "list": [
+        "Cover-More: NZ's most-used travel insurer, strong reputation, children under 18 free on family policies. Good for both domestic and overseas cover.",
+        "Southern Cross Travel Insurance: widely used in NZ, competitive pricing, clear online process.",
+        "1Cover: competitive pricing, children under 24 free on family policies — good for families with older kids.",
+        "AMI / State: domestic NZ insurer travel add-ons — convenient if you already have home insurance with them.",
+        "Credit card travel insurance: many NZ credit cards (Westpac, ANZ, ASB Platinum) include travel insurance — read the Product Disclosure Statement carefully. Cover is often less comprehensive than standalone policies."
+      ],
+      "cta": {
+        "text": "Get a Cover-More family travel insurance quote",
+        "url": "https://www.covermore.co.nz/",
+        "affiliate": true
+      }
+    },
+    {
+      "heading": "How Much Does NZ Family Travel Insurance Cost?",
+      "table": {
+        "headers": ["Trip type", "Duration", "Approx cost (family of 4)"],
+        "rows": [
+          ["Domestic NZ (cancellation + rental excess only)", "1 week", "$35–65"],
+          ["Australia", "2 weeks", "$120–200"],
+          ["Pacific Islands (Fiji, Bali, Thailand)", "2 weeks", "$180–280"],
+          ["Long-haul (Europe, UK)", "3–4 weeks", "$350–550"],
+          ["Annual multi-trip policy (all trips in a year)", "Full year", "$600–950"]
+        ]
+      }
+    },
+    {
+      "heading": "Campervan Rental Excess Insurance — Don't Skip This",
+      "body": "If you're hiring a campervan in NZ, check the excess carefully. Standard excess on a major-brand campervan is $2,500–$5,000 — this is what you pay if you have an accident, even a minor scrape. Options to reduce this: (1) Pay the rental company's daily excess reduction fee ($25–45/day — adds up over a 10-day trip), (2) Buy a standalone rental excess policy from a third-party provider ($5–10/day — significantly cheaper for longer rentals), or (3) Check if your credit card includes rental vehicle excess cover (some Platinum cards do). We recommend option 2 for trips over 5 days.",
+      "cta": {
+        "text": "Compare campervan prices & check excess options",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ]
+}

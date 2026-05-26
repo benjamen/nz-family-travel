@@ -4,6 +4,7 @@
 import json
 import shutil
 from pathlib import Path
+from urllib.parse import quote_plus
 from jinja2 import Environment, FileSystemLoader
 
 ROOT    = Path(__file__).parent
@@ -14,6 +15,7 @@ CONTENT = ROOT / "content"
 OUT     = ROOT / "docs"
 
 env = Environment(loader=FileSystemLoader(str(LAYOUTS)), autoescape=False)
+env.filters['url_encode'] = quote_plus
 
 
 def load(name):

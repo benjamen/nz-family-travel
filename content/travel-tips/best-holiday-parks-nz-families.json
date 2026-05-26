@@ -1,0 +1,76 @@
+{
+  "slug": "best-holiday-parks-nz-families",
+  "short_title": "Best NZ Holiday Parks",
+  "title": "Best Holiday Parks in NZ for Families 2026 — Honest Reviews & Real Prices",
+  "meta_desc": "The best family holiday parks in New Zealand — from Queenstown to Bay of Islands. Real prices, what facilities actually matter with kids, and which parks are worth the price.",
+  "intro": "Holiday parks are the backbone of NZ family travel — they offer more space than a motel room, a kitchen to feed hungry kids cheaply, and a community feel that turns strangers into road-trip friends. But they vary enormously in quality. This guide covers the best holiday parks for families across NZ — with honest assessments of facilities, prices, and what age groups they suit best.",
+  "updated": "May 2026",
+  "reading_time": 8,
+  "sections": [
+    {
+      "heading": "What to Look for in a Family Holiday Park",
+      "list": [
+        "Playground and pool: non-negotiable for families with under-10s — check both quality and whether the pool is heated",
+        "Kitchen facilities: shared kitchens save significant money on food costs. Check if they have high chairs, baby-friendly utensils, and microwaves.",
+        "Cabin vs powered site: cabins have beds and sometimes their own kitchen — much more convenient than setting up a tent with young children every night",
+        "Noise/layout: family areas separated from party sites. Ask when booking if you're travelling with early-to-bed kids.",
+        "Location: proximity to beach or town centre matters — a park 5km from town means more driving for every meal",
+        "Wi-Fi: patchy or overloaded park Wi-Fi is a common complaint — check recent reviews on Google"
+      ]
+    },
+    {
+      "heading": "North Island — Best Family Holiday Parks",
+      "list": [
+        "Taupo DeBretts Spa Resort (Taupo): thermal pools, waterslides, excellent playground, and a prime lakeside location. One of NZ's top family holiday parks. Prices from $200/night for a 2-bedroom unit in peak season — worth it.",
+        "Napier/Hawke's Bay TOP 10 Holiday Park (Napier): excellent location 2km from the beach, well-maintained facilities, pool, playgrounds. Strong reputation for cleanliness.",
+        "Rotorua TOP 10 Holiday Park (Rotorua): central location within walking distance of the Rotorua CBD and lake. Thermal heated pool is a highlight. Busy in school holidays — book 8 weeks ahead.",
+        "Waitomo TOP 10 Holiday Park (Waitomo): ideal base for the Waitomo Caves and glowworm experience. Small but immaculate. Excellent for an overnight stop rather than a full destination.",
+        "Bay of Islands TOP 10 (Paihia): right in the heart of Paihia, walking distance to the wharf and tour operators. Lawn areas for kids, pool, and great facilities. Very popular — book ahead for any school holidays.",
+        "Coromandel TOP 10 (Whitianga): ideal base for Hot Water Beach (30 min drive) and Cathedral Cove. Pool, playground, well-kept cabins."
+      ]
+    },
+    {
+      "heading": "South Island — Best Family Holiday Parks",
+      "list": [
+        "Queenstown TOP 10 Holiday Park (Queenstown): 1km from the town centre with mountain views, pool, and good cabin options. One of the best-located holiday parks in NZ. Book 10–12 weeks ahead for school holiday periods.",
+        "Wanaka TOP 10 Holiday Park (Wanaka): lakeside location, excellent facilities, mountain views. The absolute standout of the Wanaka accommodation options for families who don't want to pay hotel prices. Very popular in summer and winter school holidays.",
+        "Kaikōura TOP 10 Holiday Park (Kaikōura): right on the coast with mountains behind. Excellent for whale-watching trips. Seal colony walkable from the park.",
+        "Franz Josef Glacier Holiday Park (Franz Josef): well-maintained, central to the glacier village. The best base for glacier activities on the West Coast.",
+        "Christchurch TOP 10 Holiday Park (Christchurch): 3km from the CBD with good facilities and a pool. Reliable and well-maintained — a good base for exploring Christchurch and Canterbury.",
+        "Milford Sound Lodge (Milford Sound): the only accommodation inside the Milford Sound area. Book months ahead — it fills up fast. Basic but extraordinary location."
+      ]
+    },
+    {
+      "heading": "What Does a Holiday Park Actually Cost?",
+      "table": {
+        "headers": ["Accommodation type", "Low season (May–Sept)", "Shoulder season", "Peak season (Dec–Jan)"],
+        "rows": [
+          ["Powered site (tent/own caravan)", "$40–55/night", "$50–65/night", "$65–90/night"],
+          ["Standard cabin (basic, no en-suite)", "$95–140/night", "$130–170/night", "$160–230/night"],
+          ["Family unit (en-suite, kitchen)", "$160–220/night", "$190–270/night", "$250–380/night"],
+          ["Premium park lodge", "$220–300/night", "$280–380/night", "$380–520/night"]
+        ]
+      }
+    },
+    {
+      "heading": "TOP 10 Holiday Parks — Is the Membership Worth It?",
+      "body": "The TOP 10 Holiday Parks chain is NZ's largest and most consistent holiday park network. A TOP 10 membership card costs $55/year and gives 10% off at all 50+ member parks. If you stay at 3+ TOP 10 parks on a trip, the card pays for itself. The parks also have a consistent minimum quality standard — facilities, cleanliness, and child-safety are audited. For first-time visitors to NZ, sticking to TOP 10 parks is a low-risk strategy.",
+      "cta": {
+        "text": "Browse TOP 10 Holiday Parks & check availability",
+        "url": "https://www.top10.co.nz/",
+        "affiliate": true
+      }
+    },
+    {
+      "heading": "DOC Campsites — The Budget Alternative",
+      "list": [
+        "Department of Conservation (DOC) campsites are the cheapest option in NZ — from $6/adult, $3/child per night",
+        "They range from 'basic' (just a toilet block and flat ground) to 'serviced' (flush toilets, hot showers, powered sites)",
+        "Many are in spectacular locations: on beaches, in national parks, beside rivers",
+        "You must book ahead during school holidays — the DOC booking system at doc.govt.nz opens 3 months ahead",
+        "Not ideal for families with very young children (limited facilities), but excellent for families with school-age kids who can manage basic conditions",
+        "Examples: Totaranui (Abel Tasman), Milford Sound, Lake Pukaki (Mackenzie Basin) — all DOC sites with extraordinary settings"
+      ]
+    }
+  ]
+}

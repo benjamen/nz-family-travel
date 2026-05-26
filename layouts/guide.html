@@ -94,6 +94,46 @@
 </section>
 {% endfor %}
 
+<!-- Month guide cross-links (only shown for nz-in-* slugs) -->
+{% if guide.slug.startswith('nz-in-') %}
+{% set month_order = [
+  ('nz-in-january',   'January'),
+  ('nz-in-february',  'February'),
+  ('nz-in-march',     'March'),
+  ('nz-in-april',     'April'),
+  ('nz-in-may',       'May'),
+  ('nz-in-june',      'June'),
+  ('nz-in-july',      'July'),
+  ('nz-in-august',    'August'),
+  ('nz-in-september', 'September'),
+  ('nz-in-october',   'October'),
+  ('nz-in-november',  'November'),
+  ('nz-in-december',  'December'),
+] %}
+{% set ns = namespace(idx=-1) %}
+{% for slug, label in month_order %}{% if slug == guide.slug %}{% set ns.idx = loop.index0 %}{% endif %}{% endfor %}
+<section class="section section-alt">
+  <h2>Other NZ Month Guides</h2>
+  <div class="month-nav">
+    {% for slug, label in month_order %}
+    <a href="/travel-tips/{{ slug }}/" class="month-pill {% if slug == guide.slug %}month-pill-active{% endif %}">{{ label }}</a>
+    {% endfor %}
+  </div>
+  {% if ns.idx >= 0 %}
+  <div class="month-prev-next">
+    {% if ns.idx > 0 %}
+    {% set prev_slug, prev_label = month_order[ns.idx - 1] %}
+    <a href="/travel-tips/{{ prev_slug }}/" class="btn btn-outline btn-sm">← NZ in {{ prev_label }}</a>
+    {% endif %}
+    {% if ns.idx < 11 %}
+    {% set next_slug, next_label = month_order[ns.idx + 1] %}
+    <a href="/travel-tips/{{ next_slug }}/" class="btn btn-outline btn-sm">NZ in {{ next_label }} →</a>
+    {% endif %}
+  </div>
+  {% endif %}
+</section>
+{% endif %}
+
 <!-- Bottom CTA -->
 <section class="section spotlight">
   <h2>Ready to Plan Your NZ Family Trip?</h2>
