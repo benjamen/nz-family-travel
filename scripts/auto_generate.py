@@ -366,7 +366,7 @@ def rebuild_and_push(dry_run=False):
         return
     print("\nRebuilding site...")
     result = subprocess.run(
-        ['/usr/bin/python3', 'build.py'],
+        [str(ROOT / '.venv/bin/python3'), 'build.py'],
         cwd=ROOT, capture_output=True, text=True
     )
     if result.returncode != 0:
