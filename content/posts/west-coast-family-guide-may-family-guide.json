@@ -1,0 +1,83 @@
+{
+  "title": "West Coast May",
+  "short_title": "May in West Coast",
+  "meta_desc": "Discover the best of West Coast, NZ with kids in May. Enjoy glaciers, pancake rocks, and wild beaches with a budget of $150-250/day for a family of 4. Suitable for kids 5+ years old.",
+  "intro": "The West Coast of New Zealand is a great destination for families in May, with mild weather and plenty of outdoor activities to enjoy. With a budget of $150-250 per day for a family of four, you can experience the best of this region. May is a great time to visit before the peak season starts, making it ideal for families with kids aged 5 and above.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Weather in May",
+      "body": "<p>May is a great time to visit the West Coast, with mild temperatures ranging from 10-18 degrees Celsius. The region experiences a significant amount of rainfall throughout the year, but May is relatively dry compared to other months. It's essential to pack layers for your family, as the temperature can drop significantly at night.</p><p>Average high temperature in May: 17 degrees Celsius. Average low temperature in May: 9 degrees Celsius. Average rainfall in May: 200mm.</p>",
+      "list": [
+        "Pack waterproof jackets and pants",
+        "Bring warm clothing for cold mornings and nights",
+        "Don't forget sunscreen and hats for outdoor exploration"
+      ]
+    },
+    {
+      "heading": "What's On in May",
+      "body": "<p>May is a relatively quiet month on the West Coast, but there are still plenty of activities to enjoy. Take a free walk to the terminal face of Franz Josef Glacier or visit the Punakaiki Pancake Rocks and Blowholes. The Hokitika Gorge is also a must-visit, with its stunning turquoise river and surrounding native bush.</p><p>If you're looking for some indoor activities, visit the Hokitika Museum or take a greenstone carving workshop.</p>",
+      "table": {
+        "headers": [
+          "Activity",
+          "Cost",
+          "Age Suitability"
+        ],
+        "rows": [
+          [
+            "Punakaiki Pancake Rocks and Blowholes",
+            "Free",
+            "All ages"
+          ],
+          [
+            "Franz Josef Glacier valley walk",
+            "Free",
+            "5+ years old"
+          ],
+          [
+            "Hokitika Gorge walkway",
+            "Free",
+            "All ages"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Best of May",
+      "body": "<p>May is a great time to visit the West Coast's glaciers, as the weather is generally calm and sunny. Take a guided hike on Franz Josef Glacier or Fox Glacier for a unique and unforgettable experience. The scenic drives along the coast are also a must-do, with stunning views of the ocean and surrounding landscape.</p><p>For a more relaxing experience, visit Lake Ianthe, a quiet and calm lake with warm water during mid-summer.</p>",
+      "list": [
+        "Take a guided hike on Franz Josef Glacier ($80-$100 per person)",
+        "Visit Lake Ianthe for a relaxing day out (free)",
+        "Drive along the coast and enjoy the scenic views (free)"
+      ]
+    },
+    {
+      "heading": "Crowd Levels and Booking Ahead",
+      "body": "<p>May is considered part of the shoulder season on the West Coast, which means smaller crowds and a more relaxed atmosphere. However, it's still essential to book your accommodations and popular activities in advance to avoid disappointment.</p><p>Book your glacier hikes and guided tours at least 2-3 weeks in advance, especially during school holidays.</p>",
+      "list": [
+        "Book accommodations in Hokitika or Franz Josef town",
+        "Reserve guided glacier hikes and tours in advance"
+      ]
+    },
+    {
+      "heading": "Practical Tips for Families",
+      "body": "<p>When visiting the West Coast with kids, it's essential to be prepared for the outdoors. Pack plenty of snacks, water, and sunscreen, and don't forget to bring layers for changing weather conditions.</p><p>Take regular breaks during long drives, and consider booking accommodations with a kitchen to save money on food.</p>",
+      "list": [
+        "Pack plenty of snacks and water for outdoor activities",
+        "Bring a first-aid kit and any necessary medications",
+        "Take regular breaks during long drives",
+        "Book accommodations with a kitchen to save money on food",
+        "Consider purchasing a DOC (Department of Conservation) pass for free entry to national parks and reserves"
+      ],
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "west-coast-family-guide-may-family-guide",
+  "updated": "May 2026",
+  "auto_generated": true,
+  "generated_date": "2026-05-27"
+}

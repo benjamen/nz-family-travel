@@ -1,0 +1,68 @@
+{
+  "title": "Coromandel Hidden Gems",
+  "short_title": "Coro Gems",
+  "meta_desc": "Discover the Coromandel's best-kept secrets: hidden beaches, free activities, and insider tips for families with kids. Get the most out of your Coromandel holiday with our expert guide.",
+  "intro": "The Coromandel Peninsula is a treasure trove of family-friendly activities and stunning natural beauty. While many visitors flock to popular spots like Hot Water Beach and Cathedral Cove, there are plenty of lesser-known gems to explore. In this article, we'll reveal the Coromandel's best-kept secrets, from secluded beaches to free activities and insider tips.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Insider Tips for Avoiding the Crowds",
+      "body": "<p>To experience the Coromandel like a local, consider visiting popular spots at dawn or dusk when the crowds are smaller. For example, arrive at Hot Water Beach 90 minutes before low tide on a weekday morning, and you'll have the place almost to yourself. Another tip is to explore the peninsula's many hidden coves and beaches, such as Opito Bay, which is rarely crowded and offers stunning views.</p><p>Opito Bay is located about 10 minutes' drive from Hahei and is accessible via a gravel road. The drive takes around 10-15 minutes from Hahei, and the cost is free. The bay is suitable for all ages, although the road can be rough in some places, so a 4WD vehicle is recommended.</p>",
+      "list": [
+        "Arrive at Hot Water Beach 90 minutes before low tide on a weekday morning",
+        "Explore hidden coves and beaches, such as Opito Bay"
+      ]
+    },
+    {
+      "heading": "Free Activities for Families",
+      "body": "<p>The Coromandel Peninsula offers plenty of free activities for families to enjoy. One of the best is the Cathedral Cove walk, which takes around 35 minutes each way from the car park. The walk is suitable for all ages, although it can be steep in some places, and the cost is free. Another great spot is the Whitianga waterfront and beach, which offers stunning views and a safe swimming area.</p><p>Hahei Beach is another must-visit spot, with its stunning views and safe swimming area. The beach is free to visit and is suitable for all ages. The drive from Whitianga takes around 30-40 minutes, and there are plenty of parking options available.</p>",
+      "list": [
+        "Cathedral Cove walk (35 minutes each way from car park, free, suitable for all ages)",
+        "Whitianga waterfront and beach (free, suitable for all ages)"
+      ]
+    },
+    {
+      "heading": "Hidden Beaches and Coves",
+      "body": "<p>The Coromandel Peninsula is home to many stunning beaches and coves, some of which are hidden from the mainstream tourist trail. One such spot is New Chums Beach, which is located near Whangapoua and is accessible via a 30-minute walk through the bush. The beach is suitable for all ages, although the walk can be steep in some places, and the cost is free.</p><p>Another great spot is Gemstone Bay, which is located near Hahei and is accessible via a short walk from the car park. The bay is suitable for all ages, and the cost is free. The drive from Whitianga takes around 30-40 minutes, and there are plenty of parking options available.</p>",
+      "table": {
+        "headers": [
+          "Beach",
+          "Location",
+          "Access",
+          "Cost"
+        ],
+        "rows": [
+          [
+            "New Chums Beach",
+            "Near Whangapoua",
+            "30-minute walk through the bush",
+            "Free"
+          ],
+          [
+            "Gemstone Bay",
+            "Near Hahei",
+            "Short walk from car park",
+            "Free"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Family-Friendly Activities",
+      "body": "<p>The Coromandel Peninsula offers plenty of family-friendly activities, from gold mining to train rides. The Driving Creek Railway is a must-visit spot, with its scenic train ride and stunning views. The cost is around $30-$40 per person, and the activity is suitable for all ages. The drive from Coromandel Town takes around 10-15 minutes, and there are plenty of parking options available.</p><p>The Gold Mine Experience in Thames is another great spot, with its interactive exhibits and gold panning activities. The cost is around $20-$30 per person, and the activity is suitable for all ages. The drive from Coromandel Town takes around 45-60 minutes, and there are plenty of parking options available.</p>",
+      "list": [
+        "Driving Creek Railway (around $30-$40 per person, suitable for all ages)",
+        "Gold Mine Experience in Thames (around $20-$30 per person, suitable for all ages)"
+      ],
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "coromandel-with-kids-hidden-gems-families",
+  "updated": "May 2026",
+  "auto_generated": true,
+  "generated_date": "2026-05-27"
+}
