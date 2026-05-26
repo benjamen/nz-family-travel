@@ -10,14 +10,49 @@
     {
       "heading": "Types of Holiday Park Accommodation",
       "table": {
-        "headers": ["Type", "What you get", "Typical cost (family of 4)", "Best for"],
+        "headers": [
+          "Type",
+          "What you get",
+          "Typical cost (family of 4)",
+          "Best for"
+        ],
         "rows": [
-          ["Powered site (campervan)", "Power hookup, shared bathrooms/kitchen", "$55–90/night", "Campervan travellers"],
-          ["Unpowered site (tent/campervan)", "Grassy site, shared facilities", "$40–65/night", "Budget campers"],
-          ["Cabin (basic)", "Beds, heating, shared bathroom", "$90–140/night", "First-timers without a tent"],
-          ["Cabin (ensuite)", "Private bathroom, basic kitchen", "$140–200/night", "Families wanting comfort"],
-          ["Studio/unit", "Full kitchen, living area, private bathroom", "$180–280/night", "Longer stays, more space"],
-          ["Motel unit (some parks)", "Motel standard in a park setting", "$200–350/night", "Premium comfort seekers"]
+          [
+            "Powered site (campervan)",
+            "Power hookup, shared bathrooms/kitchen",
+            "$55–90/night",
+            "Campervan travellers"
+          ],
+          [
+            "Unpowered site (tent/campervan)",
+            "Grassy site, shared facilities",
+            "$40–65/night",
+            "Budget campers"
+          ],
+          [
+            "Cabin (basic)",
+            "Beds, heating, shared bathroom",
+            "$90–140/night",
+            "First-timers without a tent"
+          ],
+          [
+            "Cabin (ensuite)",
+            "Private bathroom, basic kitchen",
+            "$140–200/night",
+            "Families wanting comfort"
+          ],
+          [
+            "Studio/unit",
+            "Full kitchen, living area, private bathroom",
+            "$180–280/night",
+            "Longer stays, more space"
+          ],
+          [
+            "Motel unit (some parks)",
+            "Motel standard in a park setting",
+            "$200–350/night",
+            "Premium comfort seekers"
+          ]
         ]
       }
     },
@@ -47,16 +82,52 @@
     {
       "heading": "Best Holiday Parks by Region",
       "table": {
-        "headers": ["Region", "Recommended park", "Standout feature"],
+        "headers": [
+          "Region",
+          "Recommended park",
+          "Standout feature"
+        ],
         "rows": [
-          ["Rotorua", "Rotorua TOP 10 Holiday Park", "Thermal pools on-site"],
-          ["Taupo", "All Seasons Holiday Park", "Direct lake access"],
-          ["Bay of Islands", "Paihia Beach Holiday Park", "Beach location, pool"],
-          ["Queenstown", "Queenstown TOP 10 Holiday Park", "Mountain views, indoor pool"],
-          ["Wanaka", "Wanaka TOP 10 Holiday Park", "Lake access, excellent kitchen"],
-          ["Kaikoura", "Kaikoura TOP 10 Holiday Park", "Seal colony nearby"],
-          ["Abel Tasman", "Marahau Beach Camp", "Beach access, DOC track start"],
-          ["West Coast", "Hokitika TOP 10", "Sunsets over Tasman Sea"]
+          [
+            "Rotorua",
+            "Rotorua TOP 10 Holiday Park",
+            "Thermal pools on-site"
+          ],
+          [
+            "Taupo",
+            "All Seasons Holiday Park",
+            "Direct lake access"
+          ],
+          [
+            "Bay of Islands",
+            "Paihia Beach Holiday Park",
+            "Beach location, pool"
+          ],
+          [
+            "Queenstown",
+            "Queenstown TOP 10 Holiday Park",
+            "Mountain views, indoor pool"
+          ],
+          [
+            "Wanaka",
+            "Wanaka TOP 10 Holiday Park",
+            "Lake access, excellent kitchen"
+          ],
+          [
+            "Kaikoura",
+            "Kaikoura TOP 10 Holiday Park",
+            "Seal colony nearby"
+          ],
+          [
+            "Abel Tasman",
+            "Marahau Beach Camp",
+            "Beach access, DOC track start"
+          ],
+          [
+            "West Coast",
+            "Hokitika TOP 10",
+            "Sunsets over Tasman Sea"
+          ]
         ]
       }
     },
@@ -76,5 +147,11 @@
         "affiliate": false
       }
     }
-  ]
+  ],
+  "hero_image": {
+    "url": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=1200&q=80",
+    "thumb": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=600&q=70",
+    "alt": "NZ holiday park with kids playing outside",
+    "credit": "Unsplash / Outdoor Park"
+  }
 }

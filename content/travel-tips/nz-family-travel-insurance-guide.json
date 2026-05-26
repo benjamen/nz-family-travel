@@ -56,13 +56,37 @@
     {
       "heading": "How Much Does NZ Family Travel Insurance Cost?",
       "table": {
-        "headers": ["Trip type", "Duration", "Approx cost (family of 4)"],
+        "headers": [
+          "Trip type",
+          "Duration",
+          "Approx cost (family of 4)"
+        ],
         "rows": [
-          ["Domestic NZ (cancellation + rental excess only)", "1 week", "$35–65"],
-          ["Australia", "2 weeks", "$120–200"],
-          ["Pacific Islands (Fiji, Bali, Thailand)", "2 weeks", "$180–280"],
-          ["Long-haul (Europe, UK)", "3–4 weeks", "$350–550"],
-          ["Annual multi-trip policy (all trips in a year)", "Full year", "$600–950"]
+          [
+            "Domestic NZ (cancellation + rental excess only)",
+            "1 week",
+            "$35–65"
+          ],
+          [
+            "Australia",
+            "2 weeks",
+            "$120–200"
+          ],
+          [
+            "Pacific Islands (Fiji, Bali, Thailand)",
+            "2 weeks",
+            "$180–280"
+          ],
+          [
+            "Long-haul (Europe, UK)",
+            "3–4 weeks",
+            "$350–550"
+          ],
+          [
+            "Annual multi-trip policy (all trips in a year)",
+            "Full year",
+            "$600–950"
+          ]
         ]
       }
     },
@@ -75,5 +99,11 @@
         "affiliate": true
       }
     }
-  ]
+  ],
+  "hero_image": {
+    "url": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&q=80",
+    "thumb": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&q=70",
+    "alt": "Family safe travel insurance NZ",
+    "credit": "Unsplash / Victor Rodvang"
+  }
 }

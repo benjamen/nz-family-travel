@@ -21,12 +21,37 @@
     {
       "heading": "Choosing the Right Campervan for Your Family",
       "table": {
-        "headers": ["Family size", "Recommended van", "Operator", "Approx cost"],
+        "headers": [
+          "Family size",
+          "Recommended van",
+          "Operator",
+          "Approx cost"
+        ],
         "rows": [
-          ["2 adults + 1 child", "4-berth van", "Jucy Cheeky / Maui Cascade", "$130–180/day"],
-          ["2 adults + 2 kids", "4–5 berth van", "Britz Explorer / Maui Cascade", "$180–250/day"],
-          ["2 adults + 3 kids", "6-berth motorhome", "Apollo Family / Britz Discovery", "$220–320/day"],
-          ["Extended family (6+)", "Large motorhome", "Apollo or specialised hire", "$300–420/day"]
+          [
+            "2 adults + 1 child",
+            "4-berth van",
+            "Jucy Cheeky / Maui Cascade",
+            "$130–180/day"
+          ],
+          [
+            "2 adults + 2 kids",
+            "4–5 berth van",
+            "Britz Explorer / Maui Cascade",
+            "$180–250/day"
+          ],
+          [
+            "2 adults + 3 kids",
+            "6-berth motorhome",
+            "Apollo Family / Britz Discovery",
+            "$220–320/day"
+          ],
+          [
+            "Extended family (6+)",
+            "Large motorhome",
+            "Apollo or specialised hire",
+            "$300–420/day"
+          ]
         ]
       }
     },
@@ -63,5 +88,11 @@
         "The Top 10 Holiday Park network has consistent, quality parks. Book the TOP 10 Clubcard for 10% off."
       ]
     }
-  ]
+  ],
+  "hero_image": {
+    "url": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&q=80",
+    "thumb": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=70",
+    "alt": "Family campervan road trip in New Zealand",
+    "credit": "Unsplash / Stephan Bechert"
+  }
 }

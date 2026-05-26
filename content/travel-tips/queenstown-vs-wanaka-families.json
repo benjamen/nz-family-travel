@@ -10,15 +10,47 @@
     {
       "heading": "Quick Comparison",
       "table": {
-        "headers": ["Factor", "Queenstown", "Wanaka"],
+        "headers": [
+          "Factor",
+          "Queenstown",
+          "Wanaka"
+        ],
         "rows": [
-          ["Daily cost (family 4)", "$380–600", "$280–450"],
-          ["Activities count", "50+ (more)", "15–20 (focused)"],
-          ["Best age range", "All ages, better for teens", "All ages, better for young kids"],
-          ["Crowds (Jan)", "Very busy", "Busy but manageable"],
-          ["Scenery", "Beautiful — lake + mountains", "Arguably better — wilder"],
-          ["Eating out", "Expensive, many options", "Moderate, excellent quality"],
-          ["Drive to airport", "10 min (own airport)", "75 min to Queenstown airport"]
+          [
+            "Daily cost (family 4)",
+            "$380–600",
+            "$280–450"
+          ],
+          [
+            "Activities count",
+            "50+ (more)",
+            "15–20 (focused)"
+          ],
+          [
+            "Best age range",
+            "All ages, better for teens",
+            "All ages, better for young kids"
+          ],
+          [
+            "Crowds (Jan)",
+            "Very busy",
+            "Busy but manageable"
+          ],
+          [
+            "Scenery",
+            "Beautiful — lake + mountains",
+            "Arguably better — wilder"
+          ],
+          [
+            "Eating out",
+            "Expensive, many options",
+            "Moderate, excellent quality"
+          ],
+          [
+            "Drive to airport",
+            "10 min (own airport)",
+            "75 min to Queenstown airport"
+          ]
         ]
       }
     },
@@ -64,5 +96,11 @@
         "Wanaka to Queenstown Airport: 75 min. Fly in/out of Queenstown even if basing in Wanaka."
       ]
     }
-  ]
+  ],
+  "hero_image": {
+    "url": "https://images.unsplash.com/photo-1549887534-1541e9326642?w=1200&q=80",
+    "thumb": "https://images.unsplash.com/photo-1549887534-1541e9326642?w=600&q=70",
+    "alt": "Queenstown or Wanaka? NZ lake views",
+    "credit": "Unsplash / David Edelstein"
+  }
 }

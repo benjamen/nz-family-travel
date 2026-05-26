@@ -62,6 +62,12 @@
         <span>Ages {{ item.min_age }}+</span>
         <span>{% if item.price.adult > 0 %}${{ item.price.adult }}/adult{% else %}Free{% endif %}</span>
       </div>
+      {% elif hub_type == "cities" %}
+      <div class="hub-card-meta">
+        <span>{{ item.region }}</span>
+        <span>{{ item.island }}</span>
+        <span>⭐ {{ item.family_score }}/10</span>
+      </div>
       {% endif %}
       <span class="hub-link">View details →</span>
     </a>

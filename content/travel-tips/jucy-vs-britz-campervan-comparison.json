@@ -14,19 +14,67 @@
     {
       "heading": "Side-by-Side Comparison",
       "table": {
-        "headers": ["Factor", "Jucy", "Britz"],
+        "headers": [
+          "Factor",
+          "Jucy",
+          "Britz"
+        ],
         "rows": [
-          ["Best family van", "Jucy Condo (4-berth)", "Britz Explorer or Venturer (4-berth)"],
-          ["Price range (family van)", "$130–200/day", "$180–280/day"],
-          ["Fleet age", "Generally newer — 1–3 years old", "Newer but can be older — varies"],
-          ["Insurance excess", "$4,000–6,500 (reduce with daily fee)", "$4,500–7,500 (reduce with daily fee)"],
-          ["One-way fee (AKL–CHC)", "$250–400", "$200–350"],
-          ["Kids beds", "Overhead bunks (good for 6–12 yr)", "Larger rock-and-roll bed, more adult-sized"],
-          ["Kitchen", "Compact 2-burner, small fridge", "Larger 2-burner, larger fridge (95L vs 65L)"],
-          ["Self-contained?", "Jucy Condo: yes. Others: check", "Britz Explorer: yes. Always confirm"],
-          ["Locations", "AKL, WLG, CHC, QTN, ZQN", "AKL, WLG, CHC, QTN, ZQN"],
-          ["Booking flexibility", "Good", "Good — similar policies"],
-          ["Overall family rating", "8/10 (budget-focused families)", "9/10 (comfort-focused families)"]
+          [
+            "Best family van",
+            "Jucy Condo (4-berth)",
+            "Britz Explorer or Venturer (4-berth)"
+          ],
+          [
+            "Price range (family van)",
+            "$130–200/day",
+            "$180–280/day"
+          ],
+          [
+            "Fleet age",
+            "Generally newer — 1–3 years old",
+            "Newer but can be older — varies"
+          ],
+          [
+            "Insurance excess",
+            "$4,000–6,500 (reduce with daily fee)",
+            "$4,500–7,500 (reduce with daily fee)"
+          ],
+          [
+            "One-way fee (AKL–CHC)",
+            "$250–400",
+            "$200–350"
+          ],
+          [
+            "Kids beds",
+            "Overhead bunks (good for 6–12 yr)",
+            "Larger rock-and-roll bed, more adult-sized"
+          ],
+          [
+            "Kitchen",
+            "Compact 2-burner, small fridge",
+            "Larger 2-burner, larger fridge (95L vs 65L)"
+          ],
+          [
+            "Self-contained?",
+            "Jucy Condo: yes. Others: check",
+            "Britz Explorer: yes. Always confirm"
+          ],
+          [
+            "Locations",
+            "AKL, WLG, CHC, QTN, ZQN",
+            "AKL, WLG, CHC, QTN, ZQN"
+          ],
+          [
+            "Booking flexibility",
+            "Good",
+            "Good — similar policies"
+          ],
+          [
+            "Overall family rating",
+            "8/10 (budget-focused families)",
+            "9/10 (comfort-focused families)"
+          ]
         ]
       }
     },
@@ -86,5 +134,11 @@
       "heading": "The Verdict",
       "body": "For families with kids aged 5–12 on a budget, Jucy Condo is the best value family campervan in NZ — the overhead bunks work brilliantly, it's newer than you'd expect, and the savings are real. For families with teenagers or adults who prioritise sleep quality and kitchen space, the Britz Explorer or Venturer is worth the extra cost. For the middle ground (two adults, one child under 8), you can make either work — compare prices on the dates you need and take the cheaper option."
     }
-  ]
+  ],
+  "hero_image": {
+    "url": "https://images.unsplash.com/photo-1527631746610-bea7253ae3d1?w=1200&q=80",
+    "thumb": "https://images.unsplash.com/photo-1527631746610-bea7253ae3d1?w=600&q=70",
+    "alt": "Campervans parked at NZ holiday park",
+    "credit": "Unsplash / Goh Rhy Yan"
+  }
 }

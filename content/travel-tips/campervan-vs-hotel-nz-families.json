@@ -10,14 +10,42 @@
     {
       "heading": "The Bottom Line — Cost Comparison",
       "table": {
-        "headers": ["Cost category", "Campervan (7 nights)", "Hotels/Motels (7 nights)"],
+        "headers": [
+          "Cost category",
+          "Campervan (7 nights)",
+          "Hotels/Motels (7 nights)"
+        ],
         "rows": [
-          ["Van hire / accommodation", "$1,400–2,100 (campervan)", "$1,400–3,500 (2 rooms at motels/hotels)"],
-          ["Holiday park fees (for van)", "$280–560 ($40–80/night)", "Included"],
-          ["Food (self-catering vs eating out)", "$400–700 (most meals cooked)", "$800–1,400 (eating out most meals)"],
-          ["Total 7-night estimate", "$2,080–3,360", "$2,200–4,900"],
-          ["Potential saving (campervan)", "—", "$120–1,500 cheaper"],
-          ["Break-even point", "~Day 3–4 of trip", "—"]
+          [
+            "Van hire / accommodation",
+            "$1,400–2,100 (campervan)",
+            "$1,400–3,500 (2 rooms at motels/hotels)"
+          ],
+          [
+            "Holiday park fees (for van)",
+            "$280–560 ($40–80/night)",
+            "Included"
+          ],
+          [
+            "Food (self-catering vs eating out)",
+            "$400–700 (most meals cooked)",
+            "$800–1,400 (eating out most meals)"
+          ],
+          [
+            "Total 7-night estimate",
+            "$2,080–3,360",
+            "$2,200–4,900"
+          ],
+          [
+            "Potential saving (campervan)",
+            "—",
+            "$120–1,500 cheaper"
+          ],
+          [
+            "Break-even point",
+            "~Day 3–4 of trip",
+            "—"
+          ]
         ]
       }
     },
@@ -66,13 +94,37 @@
     {
       "heading": "What Age Groups Work Best in Campervans",
       "table": {
-        "headers": ["Age", "Campervan verdict", "Notes"],
+        "headers": [
+          "Age",
+          "Campervan verdict",
+          "Notes"
+        ],
         "rows": [
-          ["0–18 months", "Harder — possible but cramped", "Need self-containment, proper change area. Book vans with large bathrooms."],
-          ["18 months – 4 years", "Works well", "Toddlers think it's magical. Bring a travel cot or mattress pad."],
-          ["5–12 years", "Excellent — the sweet spot", "Kids love the van, adapt to holiday park routine easily, enjoy cooking together."],
-          ["13–17 years", "Good if teens are engaged", "Best to give them a 'job' (music/navigation). Some teens find it cramped."],
-          ["18+ (young adults)", "Excellent", "Gap year and independent travel — campervans are ideal."]
+          [
+            "0–18 months",
+            "Harder — possible but cramped",
+            "Need self-containment, proper change area. Book vans with large bathrooms."
+          ],
+          [
+            "18 months – 4 years",
+            "Works well",
+            "Toddlers think it's magical. Bring a travel cot or mattress pad."
+          ],
+          [
+            "5–12 years",
+            "Excellent — the sweet spot",
+            "Kids love the van, adapt to holiday park routine easily, enjoy cooking together."
+          ],
+          [
+            "13–17 years",
+            "Good if teens are engaged",
+            "Best to give them a 'job' (music/navigation). Some teens find it cramped."
+          ],
+          [
+            "18+ (young adults)",
+            "Excellent",
+            "Gap year and independent travel — campervans are ideal."
+          ]
         ]
       }
     },
@@ -89,5 +141,11 @@
       "heading": "The Recommendation",
       "body": "For a 7–14 day NZ road trip with kids aged 4–14: hire a campervan. The flexibility, savings, and experience are genuinely better than motel-hopping. For a 3–5 day trip to one destination (Queenstown, Rotorua, Bay of Islands): holiday park cabin + hire car is often the better option. For families with babies under 12 months: motel or holiday park cabin with kitchen — the campervan works but isn't worth the extra complexity at that age. Whatever you choose: book 3–4 months ahead in peak season (December–February). Good family campervans and quality holiday park cabins sell out fast."
     }
-  ]
+  ],
+  "hero_image": {
+    "url": "https://images.unsplash.com/photo-1519763816161-cf56e09d44a5?w=1200&q=80",
+    "thumb": "https://images.unsplash.com/photo-1519763816161-cf56e09d44a5?w=600&q=70",
+    "alt": "Family road trip decision — car vs campervan",
+    "credit": "Unsplash / Jesper Aggergaard"
+  }
 }

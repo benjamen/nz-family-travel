@@ -60,5 +60,11 @@
   "slug": "hot-water-beach-coromandel-family-review-2026-05",
   "updated": "May 2026",
   "auto_generated": true,
-  "generated_date": "2026-05-26"
+  "generated_date": "2026-05-26",
+  "hero_image": {
+    "url": "https://images.unsplash.com/photo-1507699622108-4be3abd695ad?w=1200&q=80",
+    "thumb": "https://images.unsplash.com/photo-1507699622108-4be3abd695ad?w=600&q=70",
+    "alt": "Hot Water Beach Coromandel family digging",
+    "credit": "Unsplash / Devin Avery"
+  }
 }

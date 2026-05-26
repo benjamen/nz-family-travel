@@ -58,6 +58,7 @@ def build():
     itineraries  = load("itineraries")
     campervans   = load("campervans")
     media        = load("media")
+    cities       = load("cities")
     guides       = load_content_dir("travel-tips")
     tools        = load_content_dir("tools")
     overseas     = load_content_dir("overseas")
@@ -75,6 +76,7 @@ def build():
         activities=activities,
         itineraries=itineraries,
         campervans=campervans,
+        cities=cities,
         guides=guides,
         tools=tools,
         overseas=overseas,
@@ -234,6 +236,25 @@ def build():
                    guide=post,
                    **ctx)
 
+    # ── Cities hub ───────────────────────────────────────────────────────────
+    render("hub.html", "cities/index.html",
+           hub_title="NZ City Family Guides — Hamilton, Whangarei, Invercargill & More",
+           hub_subtitle="Family travel guides for 35 NZ cities and towns — things to do, rainy-day options, where to stay, and honest budget tips.",
+           hub_type="cities",
+           items=cities,
+           item_url_prefix="cities",
+           item_slug_field="slug",
+           item_name_field="name",
+           item_desc_field="tagline",
+           **ctx)
+
+    # ── Individual city pages ─────────────────────────────────────────────────
+    for city in cities:
+        render("city.html",
+               f"cities/{city['slug']}/index.html",
+               city=city,
+               **ctx)
+
     # ── Overseas destinations hub ─────────────────────────────────────────────
     render("hub.html", "overseas/index.html",
            hub_title="Overseas Family Travel from NZ — Thailand, Bali, Vietnam & More",
@@ -265,7 +286,7 @@ def build():
     sitemap += sm_url("", "1.0", "weekly")
     sitemap += sm_url("about", "0.5", "yearly")
     sitemap += sm_url("nz-map", "0.7", "monthly")
-    for slug in ["destinations", "itineraries", "campervans", "activities", "tools", "travel-tips", "overseas"]:
+    for slug in ["destinations", "itineraries", "campervans", "activities", "tools", "travel-tips", "overseas", "cities"]:
         sitemap += sm_url(slug, "0.8", "weekly")
     for d in destinations:
         sitemap += sm_url(f"destinations/{d['slug']}", "0.9", "monthly")
@@ -283,6 +304,8 @@ def build():
         sitemap += sm_url(f"travel-tips/{g['slug']}", "0.7", "monthly")
     for o in overseas:
         sitemap += sm_url(f"overseas/{o['slug']}", "0.7", "monthly")
+    for c in cities:
+        sitemap += sm_url(f"cities/{c['slug']}", "0.7", "monthly")
     if posts:
         sitemap += sm_url("posts", "0.8", "daily")
         for p in posts:

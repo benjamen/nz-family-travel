@@ -1,0 +1,938 @@
+[
+  {
+    "slug": "hamilton",
+    "name": "Hamilton",
+    "region": "Waikato",
+    "island": "North Island",
+    "tagline": "NZ's largest inland city — world-class gardens, the Waikato River, and the perfect base for Hobbiton and Waitomo.",
+    "summary": "Hamilton is New Zealand's fourth-largest city and an underrated family destination. The Hamilton Gardens alone justify a visit — 54 themed gardens across 58 hectares, completely free to enter. Add a city zoo, the Waikato River walking trails, and proximity to Hobbiton (45 minutes) and Waitomo Caves (45 minutes), and you have a solid 2–3 day base for the Waikato region.",
+    "family_score": 8,
+    "best_for": "All ages",
+    "nearest_airport": "HLZ",
+    "flight_from_auckland": "30 min (or 1.5 hr drive)",
+    "drive_from": {"Auckland": "1.5 hrs", "Rotorua": "1.5 hrs", "Taupo": "2 hrs"},
+    "top_things_to_do": [
+      "Hamilton Gardens — 54 themed gardens, completely free, world-class. Allow 2–3 hours.",
+      "Waikato Museum (Te Whare Taonga o Waikato) — free entry, excellent hands-on exhibits for kids",
+      "Hamilton Zoo — native NZ birds plus giraffes, meerkats, and big cats. Good value family ticket.",
+      "Mystery Creek / Claudelands — events venue with good outdoor space year-round",
+      "Lake Rotoroa / Memorial Park — rowing boats, playground, good for younger kids",
+      "Raglan day trip (45 min west) — surf town, black sand beaches, pancake rocks",
+      "Hobbiton day trip (45 min east via Matamata) — Tolkien's Shire, magical for all ages",
+      "Waitomo Caves day trip (45 min south) — glowworms, black water rafting, awe-inspiring"
+    ],
+    "rainy_day": ["Waikato Museum (free)", "Chartwell shopping centre soft play", "Hoyts Cinema Hamilton"],
+    "accommodation_note": "Hamilton has good motel/hotel options from $120/night and several holiday parks. Raglan (45 min) has excellent holiday park options close to the beach.",
+    "budget_note": "Very affordable compared to tourist hotspots. Most activities under $25/adult.",
+    "nearby_destinations": ["rotorua-family-guide", "taupo-with-kids", "coromandel-with-kids"],
+    "faqs": [
+      {"q": "Are Hamilton Gardens free?", "a": "Yes — Hamilton Gardens is completely free to enter. The themed garden areas (Fantasy Gardens, Productive Gardens, Cultivar Gardens, and the newer Paradise Gardens) are all included at no cost. Only special events have a ticket price. It's one of the best free family attractions in New Zealand."},
+      {"q": "Is Hobbiton worth visiting from Hamilton?", "a": "Absolutely. Hobbiton (at Matamata, 45 minutes from Hamilton) is one of the most popular paid attractions in NZ for families. Guided tours run throughout the day and take about 2 hours. Book online in advance — especially in school holidays it sells out. The Shire is genuinely magical for kids who have seen the films and remarkable even for those who haven't."},
+      {"q": "How many days should we spend in Hamilton?", "a": "Hamilton itself is a comfortable 1–2 day destination. Day 1: Hamilton Gardens (half day), Waikato Museum, riverside walk. Day 2: Hamilton Zoo, Lake Rotoroa. Use Hamilton as a base for Hobbiton, Waitomo Caves, and Raglan as day trips on additional days."}
+    ]
+  },
+  {
+    "slug": "matamata",
+    "name": "Matamata",
+    "region": "Waikato",
+    "island": "North Island",
+    "tagline": "Home of Hobbiton — the most magical film set in New Zealand.",
+    "summary": "Matamata is a small farming town that became world-famous as the filming location for Peter Jackson's Lord of the Rings and Hobbit trilogies. The Hobbiton Movie Set is on an actual working farm and is the only permanent film set from the trilogy. Beyond Hobbiton, the town has a good information centre, pleasant cafés, and is a natural stopover on the Hamilton–Rotorua route.",
+    "family_score": 9,
+    "best_for": "All ages (Hobbiton 5+)",
+    "nearest_airport": "HLZ",
+    "flight_from_auckland": "2.5 hrs drive",
+    "drive_from": {"Auckland": "2.5 hrs", "Hamilton": "45 min", "Rotorua": "1 hr"},
+    "top_things_to_do": [
+      "Hobbiton Movie Set Tour — 2-hour guided tour of the full Shire set with a drink at the Green Dragon Inn. Book ahead.",
+      "Hobbiton Evening Banquet Tour — dinner in the Party Field with actors, lanterns, and feasting. Exceptional but expensive.",
+      "Firth Tower Museum — local history and a 19th-century defensive tower, free",
+      "The i-SITE Matamata — good regional information and a peaceful garden setting",
+      "Blue Spring (Te Waihou Puna, 30 min drive via Thames) — crystal-clear spring walk, free and stunning"
+    ],
+    "rainy_day": ["Hobbiton runs in all weather (bring a raincoat)", "Matamata i-SITE and café strip"],
+    "accommodation_note": "Matamata has a good holiday park and several B&Bs. Most families base in Hamilton or Rotorua and do Hobbiton as a day trip.",
+    "budget_note": "Hobbiton tours cost $49/adult, $25/child (under 9 free). Evening banquet ~$220/adult. Pre-book online for best availability.",
+    "nearby_destinations": ["rotorua-family-guide", "taupo-with-kids"],
+    "faqs": [
+      {"q": "Do you need to book Hobbiton in advance?", "a": "Yes, strongly recommended — especially in school holidays, Hobbiton can sell out weeks in advance. Book at hobbitontours.com. Tours run throughout the day (departures every 20 minutes in peak season) and take about 2 hours."},
+      {"q": "What age is Hobbiton suitable for?", "a": "All ages, but the most meaningful experience is for kids who've seen the films — typically 7 and older. Younger children still enjoy the scale of the hobbit holes, the farm animals, and the enormous party tree. Under 9s are free."}
+    ]
+  },
+  {
+    "slug": "raglan",
+    "name": "Raglan",
+    "region": "Waikato",
+    "island": "North Island",
+    "tagline": "NZ's coolest surf town — black sand beaches, spectacular harbour, and an easy 45-minute escape from Hamilton.",
+    "summary": "Raglan is a small, bohemian surf town on the Waikato west coast, 45 minutes from Hamilton. The town has a relaxed creative vibe, excellent surf beaches (Ngarunui is the main family beach — lifeguarded in summer), a beautiful tidal harbour for kayaking, and some of NZ's best fish tacos. It's one of those places where a planned day trip turns into a 2-night stay.",
+    "family_score": 8,
+    "best_for": "All ages; surf teens love it",
+    "nearest_airport": "HLZ",
+    "flight_from_auckland": "2 hrs drive",
+    "drive_from": {"Auckland": "2 hrs", "Hamilton": "45 min"},
+    "top_things_to_do": [
+      "Ngarunui Beach — the main family beach, patrolled in summer, gentle surf for bodyboarding",
+      "Raglan Harbour kayaking — calm harbour water, ideal for families with younger kids",
+      "Surfing lessons at Raglan Surf School — lessons from age 8, great for first-timers",
+      "Waitete Bay — quieter beach, excellent for rock pooling at low tide",
+      "Bridal Veil Falls (20 min south) — spectacular 55m waterfall, 30 min walk, free",
+      "Raglan town art and café scene — excellent flat whites and Orca fish and chips on the harbour"
+    ],
+    "rainy_day": ["Raglan's cafés are excellent for a slow morning", "Bridal Veil Falls walk is sheltered"],
+    "accommodation_note": "Raglan Holiday Park is well-positioned near the harbour. Motels and holiday homes available. Book ahead for summer and school holidays.",
+    "budget_note": "Very affordable. Free beaches, free waterfall walk. Surf lessons $90–110/person. Excellent cheap food at the harbour.",
+    "nearby_destinations": ["auckland-with-kids"],
+    "faqs": [
+      {"q": "Is Raglan beach suitable for young children?", "a": "Ngarunui Beach is supervised by surf lifeguards in summer and has a relatively gentle break suitable for bodyboarding and swimming in calm conditions. The tidal harbour at the town is much calmer and excellent for younger kids and kayaking. Avoid the main surf breaks (Manu Bay, Whale Bay) with young children — they're for experienced surfers."},
+      {"q": "Can we do Raglan as a day trip from Auckland?", "a": "Yes — it's about 2 hours from Auckland and very doable as a day trip. Leave Auckland by 9am, arrive mid-morning for a surf lesson or beach time, have lunch at the harbour, walk Bridal Veil Falls on the way back. It's a great contrast to the city."}
+    ]
+  },
+  {
+    "slug": "cambridge",
+    "name": "Cambridge",
+    "region": "Waikato",
+    "island": "North Island",
+    "tagline": "NZ's 'town of trees and champions' — charming main street, equestrian heritage, and a perfect Hamilton day trip.",
+    "summary": "Cambridge is a picturesque town 30 minutes south of Hamilton, known for its beautiful tree-lined streets, Georgian-style architecture, and New Zealand's thoroughbred horse industry. For families, it offers a lovely town lake (Lake Te Ko Utu) with a playground and walking paths, the Cambridge Museum, and some of the region's best cafés. An excellent half-day from Hamilton.",
+    "family_score": 6,
+    "best_for": "All ages; nice for a relaxed half-day",
+    "nearest_airport": "HLZ",
+    "flight_from_auckland": "2 hrs drive",
+    "drive_from": {"Auckland": "2 hrs", "Hamilton": "30 min", "Rotorua": "1 hr"},
+    "top_things_to_do": [
+      "Lake Te Ko Utu — town lake with playground, walking trail, and ducks to feed",
+      "Victoria Street and the Cambridge town centre — beautiful heritage buildings, great cafés",
+      "Cambridge Museum — local history in a charming setting, free",
+      "Maungatautari Ecological Island (30 min south) — NZ's largest mainland predator-free sanctuary; guided walks through native bush",
+      "Sanctuary Mountain Maungatautari — see kiwi, tuatara, and native bush without going to an island"
+    ],
+    "rainy_day": ["Cambridge Antique Centre", "Riverina Café for hot drinks and treats"],
+    "accommodation_note": "Most families stay in Hamilton and visit Cambridge as a half-day trip. Cambridge has a handful of B&Bs and holiday homes.",
+    "budget_note": "Very affordable. Most town attractions free. Maungatautari guided walk ~$25/adult.",
+    "nearby_destinations": ["rotorua-family-guide", "taupo-with-kids"],
+    "faqs": [
+      {"q": "Is Cambridge worth visiting with kids?", "a": "Cambridge is best as a half-day add-on rather than a destination in itself. It's beautiful, the café scene is excellent, and Lake Te Ko Utu is lovely for young children. Combine it with Hamilton Gardens for a full day. Maungatautari is exceptional for older kids interested in NZ wildlife."}
+    ]
+  },
+  {
+    "slug": "whanganui",
+    "name": "Whanganui",
+    "region": "Manawatu-Whanganui",
+    "island": "North Island",
+    "tagline": "River city with art deco heart — the Whanganui River, Virginia Lake, and NZ's most underrated family destination.",
+    "summary": "Whanganui sits on the banks of the Whanganui River — the longest navigable river in NZ and a place of deep Māori significance. It's a remarkably beautiful city with art deco architecture, a thriving arts scene, and excellent free family attractions including Virginia Lake (the most child-friendly lake area in NZ) and the Sarjeant Gallery. It's also the jumping-off point for the famous Whanganui Journey (one of NZ's Great Walks by canoe).",
+    "family_score": 8,
+    "best_for": "All ages",
+    "nearest_airport": "WAG",
+    "flight_from_auckland": "4 hrs drive",
+    "drive_from": {"Wellington": "2 hrs", "Palmerston North": "1 hr", "Auckland": "4.5 hrs"},
+    "top_things_to_do": [
+      "Virginia Lake — beautiful swan lake with tearooms, playground, and miniature railway. Free entry.",
+      "Whanganui River jet boat or canoe trips — the river is spectacular. Day trips to the Bridge to Nowhere.",
+      "Sarjeant Gallery — excellent contemporary art in a landmark building, free entry",
+      "Whanganui Regional Museum — natural and cultural history, free",
+      "Durie Hill Elevator and Tower — historic elevator through the hill, tower views. $2/person.",
+      "Bridge to Nowhere jet boat and walk — remote river valley, unique NZ experience"
+    ],
+    "rainy_day": ["Sarjeant Gallery", "Whanganui Regional Museum", "The Attic Café on Victoria Ave"],
+    "accommodation_note": "Whanganui has good motel options and a well-run holiday park beside the river.",
+    "budget_note": "Very affordable. Most attractions free or low-cost. One of NZ's best-value family destinations.",
+    "nearby_destinations": ["new-plymouth-taranaki-family"],
+    "faqs": [
+      {"q": "What is Virginia Lake and is it suitable for kids?", "a": "Virginia Lake is a swan-filled lake in central Whanganui surrounded by native bush and walking paths. There's a miniature railway (runs weekends), a playground, a café, and the ability to feed the ducks and swans. It's completely free, flat, pram-friendly, and delightful for younger children. Allow 1–1.5 hours."},
+      {"q": "Can families do the Whanganui River journey?", "a": "The full Whanganui Journey (one of NZ's 9 Great Walks) is a 3–5 day canoe journey and suits confident families with older children (12+). For younger families, the jet boat to the Bridge to Nowhere (a 1-day trip) is more practical and gives you the river experience without the multi-day commitment. Several operators run this from Whanganui."}
+    ]
+  },
+  {
+    "slug": "palmerston-north",
+    "name": "Palmerston North",
+    "region": "Manawatu",
+    "island": "North Island",
+    "tagline": "NZ's knowledge city — Te Manawa Museum, Massey University campus, and the gateway to the Manawatu Gorge.",
+    "summary": "Palmerston North (Palmy) is a university city in the centre of the North Island. For families, the key drawcard is Te Manawa — a combined museum, art gallery, and science centre that's outstanding for school-age kids. The Victoria Esplanade is a beautiful park with a miniature railway, aviary, and botanic gardens. It's an easy stopover on the Auckland–Wellington journey.",
+    "family_score": 7,
+    "best_for": "All ages; excellent for 5–12s",
+    "nearest_airport": "PMR",
+    "flight_from_auckland": "4 hrs drive or 1 hr flight",
+    "drive_from": {"Wellington": "2 hrs", "Whanganui": "1 hr", "Napier": "2 hrs"},
+    "top_things_to_do": [
+      "Te Manawa Museum — free entry; excellent science and natural history exhibits for kids",
+      "Victoria Esplanade — miniature railway (weekends), botanic gardens, aviary, playground. Free.",
+      "Lido Aquatic Centre — indoor/outdoor pools, waterslide. Family favourite.",
+      "New World Cup Rugby Museum — if your kids love rugby",
+      "Manawatu Gorge scenic drive (30 min east) — dramatic river gorge, DOC walks",
+      "Linton Military Camp museum (for older kids interested in NZ military history)"
+    ],
+    "rainy_day": ["Te Manawa Museum", "Lido Aquatic Centre", "Plaza Shopping Centre"],
+    "accommodation_note": "Good range of motels, a few holiday parks. The Palmerston North TOP 10 Holiday Park is well-equipped.",
+    "budget_note": "Affordable city. Te Manawa free, Esplanade free. Lido ~$8–15/person.",
+    "nearby_destinations": ["wellington-with-kids"],
+    "faqs": [
+      {"q": "Is Te Manawa worth visiting?", "a": "Yes — Te Manawa is one of NZ's best regional museums for families. The combined museum, art gallery, and science centre approach means there's something for every age. Entry is completely free. The interactive science exhibits are particularly good for school-age children. Allow 2–3 hours."},
+      {"q": "Is Palmerston North worth stopping at between Auckland and Wellington?", "a": "Yes, if you're road-tripping the North Island. It breaks the drive nicely (about 2 hours from Wellington), Te Manawa gives you a solid half-day, and the Victoria Esplanade with its miniature railway is great for kids who need to run around after a long drive."}
+    ]
+  },
+  {
+    "slug": "whangarei",
+    "name": "Whangarei",
+    "region": "Northland",
+    "island": "North Island",
+    "tagline": "Northland's main city — Whangarei Falls, the Town Basin marina, and the gateway to the Tutukaka Coast.",
+    "summary": "Whangarei is Northland's only city and a natural base for exploring the wider Northland region. It has excellent family attractions including Whangarei Falls (one of NZ's most accessible waterfalls), the Town Basin with its marina, museums, and cafés, and the nearby Tutukaka Coast for world-class snorkelling and diving. It's an easy 2.5-hour drive from Auckland.",
+    "family_score": 7,
+    "best_for": "All ages",
+    "nearest_airport": "WRE",
+    "flight_from_auckland": "2.5 hrs drive or 40 min flight",
+    "drive_from": {"Auckland": "2.5 hrs", "Paihia": "1 hr"},
+    "top_things_to_do": [
+      "Whangarei Falls — one of NZ's most beautiful and accessible waterfalls, 5 min walk from car park. Free.",
+      "Town Basin — marina, cafés, the Claphams Clock Museum and Hundertwasser Art Centre",
+      "Hundertwasser Art Centre — extraordinary building and art museum; free exterior viewing, paid interior",
+      "Tutukaka Coast (30 min east) — Poor Knights Islands snorkelling, Matapouri Mermaid Pool",
+      "Whangarei Museum and Heritage Park — colonial history and native bush, modest entry fee",
+      "Parihaka Reserve — urban native bush reserve with views over the city"
+    ],
+    "rainy_day": ["Hundertwasser Art Centre", "Town Basin galleries", "Cinema Whangarei"],
+    "accommodation_note": "Good range of motels in the city centre and around the Town Basin. Ocean Beach holiday park near the Tutukaka Coast.",
+    "budget_note": "Affordable base. Most attractions free or low-cost. Hundertwasser interior ~$20/adult.",
+    "nearby_destinations": ["northland-cape-reinga-family", "bay-of-islands-family"],
+    "faqs": [
+      {"q": "Are Whangarei Falls worth stopping for?", "a": "Yes — Whangarei Falls is one of the most accessible beautiful waterfalls in NZ. The car park is right off the main road, the walk to the viewing platform is 5 minutes, and the falls are genuinely spectacular (26m high, wide curtain of water). There's also a good loop walk through the native bush. It's free and takes about 30–45 minutes total. Worth every minute."},
+      {"q": "What is the Tutukaka Coast?", "a": "The Tutukaka Coast is 30 minutes east of Whangarei and includes the fishing village of Tutukaka, Matapouri Beach (with its famous 'Mermaid Pools' — tidal rock pools), and access to the Poor Knights Islands (rated one of the world's top dive sites). Sandy Bay and Whangaumu Bay are excellent family beaches. It's one of NZ's most beautiful and least-crowded coastal areas."}
+    ]
+  },
+  {
+    "slug": "kerikeri",
+    "name": "Kerikeri",
+    "region": "Northland",
+    "island": "North Island",
+    "tagline": "Historic Bay of Islands town — NZ's oldest stone building, rainbow falls, and the heart of the Far North citrus country.",
+    "summary": "Kerikeri is a small town in the Bay of Islands region, about 25 minutes from Paihia. It's home to NZ's oldest stone building (the Stone Store, 1835) and some of the country's most pleasant walking. The Rainbow Falls (Waianiwaniwa) are nearby and spectacular. Kerikeri is also the craft and art capital of Northland — the Saturday market is excellent.",
+    "family_score": 7,
+    "best_for": "All ages",
+    "nearest_airport": "KKE",
+    "flight_from_auckland": "3.5 hrs drive or 45 min flight",
+    "drive_from": {"Auckland": "3.5 hrs", "Paihia": "25 min", "Whangarei": "1 hr"},
+    "top_things_to_do": [
+      "Stone Store and Kemp House — NZ's oldest stone building, free to view exterior. Historic reserve walk.",
+      "Rainbow Falls / Waianiwaniwa — stunning 27m waterfall, 20 min easy walk from the car park. Free.",
+      "Kerikeri Saturday Market — excellent local produce, crafts, and food stalls",
+      "Aroha Island Ecological Centre — kiwi nocturnal house and native bird walks. Unique experience.",
+      "Clay Bird (from $25) — create your own clay kiwi, great for kids",
+      "Pear Tree Restaurant — excellent family dining in a historic orchard setting"
+    ],
+    "rainy_day": ["Stone Store historic buildings", "Kerikeri cafés and art galleries"],
+    "accommodation_note": "Good holiday park options. Most families base in Paihia for the Bay of Islands and visit Kerikeri as a half-day.",
+    "budget_note": "Affordable. Most sights free. Aroha Island ~$25/adult, $15/child.",
+    "nearby_destinations": ["bay-of-islands-family", "northland-cape-reinga-family"],
+    "faqs": [
+      {"q": "Is Kerikeri worth visiting on a Bay of Islands trip?", "a": "Yes — Kerikeri makes an excellent half-day from Paihia. Rainbow Falls and the Stone Store are both excellent family-friendly stops. The Saturday market (7am–noon) is great if your timing works. Combined with a morning dolphin cruise from Paihia and an afternoon in Kerikeri, you have a perfect Bay of Islands family day."}
+    ]
+  },
+  {
+    "slug": "ohakune",
+    "name": "Ohakune",
+    "region": "Ruapehu",
+    "island": "North Island",
+    "tagline": "The adventure hub at the foot of Mt Ruapehu — skiing in winter, world-class mountain biking and walking year-round.",
+    "summary": "Ohakune is a small town at the foot of Mt Ruapehu in the centre of the North Island. In winter it's the base for Turoa ski field (one of NZ's largest). Year-round it offers the spectacular Old Coach Road cycle trail, Tongariro National Park walks, and the famous Ohakune Mountain Road that climbs through the alpine zone. The town itself is lively in ski season with good restaurants and a welcoming vibe.",
+    "family_score": 8,
+    "best_for": "5+ for skiing; all ages for summer activities",
+    "nearest_airport": "WSZ",
+    "flight_from_auckland": "4.5 hrs drive",
+    "drive_from": {"Auckland": "4.5 hrs", "Wellington": "3.5 hrs", "Palmerston North": "2.5 hrs"},
+    "top_things_to_do": [
+      "Turoa Ski Field (winter) — one of NZ's largest ski areas; good beginner terrain and ski school",
+      "Old Coach Road cycling trail — 15km through historic tunnels and viaducts, accessible for families. Hire bikes in Ohakune.",
+      "Ohakune Mountain Road walk — drive/walk through the alpine zone to the Waitonga Falls. Spectacular in all seasons.",
+      "Tongariro National Park — Tawhai Falls (10 min walk, free), various valley walks suitable for families",
+      "The Giant Carrot — Ohakune's famous roadside attraction and local symbol",
+      "Turoa snowplay area — bring a sled and play in the snow without skiing"
+    ],
+    "rainy_day": ["Ohakune's café and restaurant strip is cosy on rainy days", "Indoor snowplay areas at Turoa in season"],
+    "accommodation_note": "Good range of lodges, motels, and holiday apartments. Book 8–10 weeks ahead for school holiday ski weeks.",
+    "budget_note": "Ski-season accommodation is NZ's most competitive outside Queenstown. Off-season (summer) is excellent value.",
+    "nearby_destinations": ["new-plymouth-taranaki-family"],
+    "faqs": [
+      {"q": "Is Ohakune better than Queenstown for ski families on a budget?", "a": "For many NZ families, yes. Turoa is a large, well-developed ski field with a good ski school. Ohakune accommodation is significantly cheaper than Queenstown. The drive from most North Island cities is manageable (3.5–5 hrs). The main downside is that it's a smaller town — fewer après-ski options than Queenstown."},
+      {"q": "What can you do in Ohakune in summer?", "a": "Summer Ohakune is excellent and underrated. The Old Coach Road is one of NZ's best family cycle trails (15km, mostly flat, through tunnels and over viaducts — hire bikes in town). Ohakune Mountain Road walks through stunning alpine terrain. Tongariro National Park walks including Tawhai Falls. Camping at DOC sites in the National Park."}
+    ]
+  },
+  {
+    "slug": "paraparaumu",
+    "name": "Paraparaumu",
+    "region": "Kāpiti Coast",
+    "island": "North Island",
+    "tagline": "The Kāpiti Coast's main town — Kāpiti Island bird sanctuary, long beaches, and NZ's best family miniature railway.",
+    "summary": "Paraparaumu (and the wider Kāpiti Coast) is a beach community 45 minutes north of Wellington. It's home to one of NZ's best miniature railways, excellent patrolled surf beaches, and Kāpiti Island — one of NZ's most important wildlife sanctuaries (booking required). The Kāpiti Coast has a relaxed, local feel quite different from the tourist hotspots.",
+    "family_score": 8,
+    "best_for": "All ages",
+    "nearest_airport": "PPQ",
+    "flight_from_auckland": "5 hrs drive or 1 hr flight to Wellington",
+    "drive_from": {"Wellington": "45 min", "Palmerston North": "1.5 hrs"},
+    "top_things_to_do": [
+      "Paraparaumu Beach — long, wide, patrolled in summer; excellent surf and bodyboarding",
+      "Lindale Farm Park (Paraparaumu) — farm animals, playground, free to enter main area",
+      "Southward Car Museum — world-class collection of rare vehicles. Kids love it. $18/adult.",
+      "Kāpiti Island Nature Reserve — predator-free island sanctuary; book a guided tour to see kiwi, kākāpō (by luck), weka, and tūī. Must book months ahead.",
+      "Fly by Wire (Paekakariki, 15 min south) — wire swinging experience, thrilling for 10+",
+      "Raumati Beach — quieter alternative to Paraparaumu Beach, great for families"
+    ],
+    "rainy_day": ["Southward Car Museum", "Coastlands shopping mall", "Kāpiti Express miniature railway (covered section)"],
+    "accommodation_note": "Good holiday park options along the coast. Very popular in summer — book ahead.",
+    "budget_note": "Good value. Beaches free. Kāpiti Island tour ~$90/adult (includes boat + guide).",
+    "nearby_destinations": ["wellington-with-kids"],
+    "faqs": [
+      {"q": "How do we book Kāpiti Island?", "a": "Kāpiti Island is a heavily protected DOC reserve — numbers are limited and you must book in advance. Book the ferry and guided tour through Kāpiti Island Nature Tours (kapitiisland.com) or Kāpiti Island Alive. Morning tours include guided walks and bird spotting; overnight stays are also possible. Book 4–8 weeks ahead, earlier for school holidays. It's one of the best wildlife experiences in NZ."},
+      {"q": "Is the Kāpiti Coast a good base for Wellington?", "a": "Yes — the Kāpiti Coast is an excellent base if you want beaches and space with easy access to Wellington. The Paraparaumu train station has regular Metlink trains into Wellington city (50 min), so you can do Wellington as a day trip without driving."}
+    ]
+  },
+  {
+    "slug": "masterton",
+    "name": "Masterton",
+    "region": "Wairarapa",
+    "island": "North Island",
+    "tagline": "Gateway to the Wairarapa — Golden Shears, hot air balloons, and wine country an hour from Wellington.",
+    "summary": "Masterton is the main town in the Wairarapa region, an hour from Wellington over the Remutaka Range. For families, the Wairarapa offers a surprisingly rich experience: the Golden Shears sheep shearing championships (March), Aratoi Museum of Art and History, the Henley Lake duck reserve, and easy access to Martinborough wine village and Greytown's Victorian charm.",
+    "family_score": 7,
+    "best_for": "All ages",
+    "nearest_airport": "MRO",
+    "flight_from_auckland": "5.5 hrs drive",
+    "drive_from": {"Wellington": "1 hr (via Remutaka Hill)", "Palmerston North": "2 hrs"},
+    "top_things_to_do": [
+      "Aratoi Museum of Art and History — excellent regional museum, free",
+      "Henley Lake and Reserve — duck feeding, playground, free",
+      "Golden Shears International Shearing Championships (March) — world-famous wool-shearing event",
+      "Greytown village (20 min south) — Victoria's best small town, antiques and excellent cafés",
+      "Martinborough (25 min south) — boutique wine village, Palliser Estate cellar door, kid-friendly",
+      "Pukaha Mt Bruce National Wildlife Centre (30 min north) — kiwi, kōkako, and tuatara in predator-free forest. Excellent for families."
+    ],
+    "rainy_day": ["Aratoi Museum", "Greytown cafés", "Masterton i-SITE"],
+    "accommodation_note": "Good motel options in Masterton. Greytown and Martinborough have excellent boutique accommodation.",
+    "budget_note": "Affordable. Museum free, Pukaha Mt Bruce ~$22/adult.",
+    "nearby_destinations": ["wellington-with-kids"],
+    "faqs": [
+      {"q": "Is Pukaha Mt Bruce worth visiting?", "a": "Absolutely — Pukaha Mt Bruce National Wildlife Centre is one of NZ's best wildlife experiences for families. You can see kiwi (in a nocturnal house), kōkako, tuatara, and kākā (kea parrots) in a live setting. The eel feeding at 1:30pm is a daily highlight. Allow 2–3 hours. The drive from Masterton is 30 minutes north on SH2."}
+    ]
+  },
+  {
+    "slug": "picton",
+    "name": "Picton",
+    "region": "Marlborough",
+    "island": "South Island",
+    "tagline": "Gateway to the South Island — Marlborough Sounds, the Interislander ferry, and the start of great road trips.",
+    "summary": "Picton is where the Interislander and Bluebridge ferries dock from Wellington — for most families on a South Island road trip, it's the first South Island town they see. But Picton is more than a transit point: the Marlborough Sounds by boat or kayak are spectacular, the Edwin Fox Museum (the world's oldest surviving merchant vessel) is worth a visit, and the Queen Charlotte Track is accessible for families via water taxi.",
+    "family_score": 7,
+    "best_for": "All ages; good for transit stop or overnight",
+    "nearest_airport": "BHE",
+    "flight_from_auckland": "Ferry from Wellington (3.5 hrs) or 3 hrs drive from Christchurch",
+    "drive_from": {"Blenheim": "30 min", "Nelson": "2 hrs", "Christchurch": "3.5 hrs via Kaikōura"},
+    "top_things_to_do": [
+      "Marlborough Sounds boat trips — half-day cruises from Picton wharf; scenic and excellent for all ages",
+      "Queen Charlotte Track water taxi + walk — half-day family option; take the water taxi to Lochmara Bay, walk back",
+      "Edwin Fox Museum — the world's ninth oldest ship, floating in the marina. $15/adult.",
+      "Picton foreshore and town beach — calm harbour swimming, playground",
+      "Kayaking the Sounds — several operators offer half-day guided kayak tours suitable for families",
+      "Waikawa Bay and beyond — drive 10 minutes out of town for quieter Sounds access"
+    ],
+    "rainy_day": ["Edwin Fox Museum", "Picton Library and i-SITE", "Sounds Connection café"],
+    "accommodation_note": "Good holiday park options and motels in Picton. Book ahead if arriving on a summer weekend ferry.",
+    "budget_note": "Boat trips from $65/adult. Edwin Fox $15/adult. Kayak tours from $95/person.",
+    "nearby_destinations": ["marlborough-blenheim-family", "nelson-abel-tasman-family"],
+    "faqs": [
+      {"q": "Is it worth staying in Picton or just driving through?", "a": "Worth at least one night if your timing allows. Arrive on the afternoon ferry, walk the Picton foreshore and have dinner at the wharf. Next morning, do a 2-hour Sounds boat trip or kayak before driving to Nelson or Blenheim. Picton as a pure transit stop misses a genuinely beautiful location."},
+      {"q": "How do I book the Interislander or Bluebridge ferry?", "a": "Book at interislander.co.nz or bluebridge.co.nz. Book several weeks ahead in summer school holidays — the car ferries can fill completely. The crossing takes 3–3.5 hours. Outside peak season, week-of booking is usually possible but prices are lower when booked in advance."}
+    ]
+  },
+  {
+    "slug": "kaikoura",
+    "name": "Kaikōura",
+    "region": "Canterbury/Marlborough",
+    "island": "South Island",
+    "tagline": "Whale watching, sea lions, and crayfish on a spectacular coastline between mountains and sea.",
+    "summary": "Kaikōura is one of NZ's best wildlife destinations — the deep ocean trench just offshore supports sperm whales year-round, dolphins, fur seals, and a remarkable array of seabirds. The Kaikōura Seals colony at the Peninsula is free and walkable. Whale Watch Kaikōura boat trips run daily year-round. The town itself is charming with an excellent farmers' market and world-famous crayfish.",
+    "family_score": 9,
+    "best_for": "All ages; magical for animal-loving kids",
+    "nearest_airport": "KBZ",
+    "flight_from_auckland": "5.5 hrs drive from Christchurch or 3.5 hrs from Blenheim",
+    "drive_from": {"Christchurch": "2.5 hrs", "Blenheim": "1.5 hrs", "Nelson": "3.5 hrs"},
+    "top_things_to_do": [
+      "Whale Watch Kaikōura — 3.5 hr boat trip to see sperm whales. Book 2–3 days ahead (weather-dependent).",
+      "Kaikōura Seals — free colony at the Peninsula Walkway. Walk 45 min each way; seals lounging on rocks the entire route.",
+      "Dolphin Encounter — swim with dusky dolphins. Minimum age usually 8. Extraordinary experience.",
+      "Kaikōura Kayaks — guided sea kayak tours past fur seals; suitable from age 8.",
+      "Mt Fyffe Forest Park walk — good day walks through beech forest above the town",
+      "Crayfish from the Crayfish Huts on the foreshore — fresh and affordable. A Kaikōura tradition."
+    ],
+    "rainy_day": ["Whale Watch runs in most weather (check sea conditions)", "Kaikōura Museum"],
+    "accommodation_note": "Good holiday park on the foreshore. Motels along the main highway. Book ahead for summer — a popular overnight stop on the Christchurch–Blenheim route.",
+    "budget_note": "Whale Watch ~$165/adult, $75/child. Seal colony free. Crayfish from $25/half-shell on the foreshore.",
+    "nearby_destinations": ["marlborough-blenheim-family", "christchurch-with-kids"],
+    "faqs": [
+      {"q": "What age can children do the whale watch tour?", "a": "Children under 3 are not recommended on the Whale Watch boat. Children 3+ can join — but the trip is 3.5 hours and can be bumpy in swells. Children who get car sick may struggle. The guarantee is a sighting or a partial refund — but sperm whales are spotted on the vast majority of trips."},
+      {"q": "When is the best time to see whales in Kaikōura?", "a": "Sperm whales are present year-round at Kaikōura (the deep trench keeps them here). Humpback whales migrate through May–July. Orca (killer whales) are seen primarily in autumn and winter. Dusky dolphins are year-round. There is no bad season for whale watching in Kaikōura."}
+    ]
+  },
+  {
+    "slug": "hanmer-springs",
+    "name": "Hanmer Springs",
+    "region": "Canterbury",
+    "island": "South Island",
+    "tagline": "NZ's favourite mountain spa town — thermal pools, waterslides, and an alpine village an hour from Christchurch.",
+    "summary": "Hanmer Springs is a small alpine village in the Lewis Pass foothills, famous for its geothermal pools. The Hanmer Springs Thermal Pools & Spa complex is the main attraction — a family-friendly complex with pools of varying temperatures, a huge waterslide park, and a separate children's pool area. The surrounding mountains offer excellent forest walks and the Conical Hill lookout.",
+    "family_score": 9,
+    "best_for": "All ages; ideal for 0–14s",
+    "nearest_airport": "CHC",
+    "flight_from_auckland": "1 hr flight to Christchurch, then 1.5 hrs drive",
+    "drive_from": {"Christchurch": "1.5 hrs", "Nelson": "2.5 hrs", "Kaikōura": "1.5 hrs"},
+    "top_things_to_do": [
+      "Hanmer Springs Thermal Pools & Spa — the main event. Multiple outdoor pools, Family Activity Pool with waterslides. $32/adult, $20/child.",
+      "Conical Hill Forest Walk — 30 min return through Douglas fir forest to a viewpoint. Easy and lovely.",
+      "Hanmer Springs Adventure Centre — quad biking, bungy, and more for older kids and teens",
+      "Dog Stream Waterfall walk — 2 hrs return, excellent bush walk with waterfall reward",
+      "Hanmer Springs town — good cafés, The Old Post Office café is excellent for families"
+    ],
+    "rainy_day": ["The thermal pools are best on a cool rainy day — steam rising from the outdoor pools is magical"],
+    "accommodation_note": "Hanmer Springs TOP 10 Holiday Park is central and well-equipped. Numerous holiday cottages and B&Bs.",
+    "budget_note": "Thermal pools $32/adult, $20/child. Family pass available. An excellent weekend from Christchurch.",
+    "nearby_destinations": ["christchurch-with-kids", "marlborough-blenheim-family"],
+    "faqs": [
+      {"q": "Are the Hanmer Springs pools suitable for young children?", "a": "Yes — there's a dedicated Children's Leisure Pool with waterslides and play features specifically designed for kids. The main thermal pools range from 28°C to 42°C — children should stay in the cooler pools (the signs indicate temperature). The Family Activity Pool has waterslides that children 7cm above 120cm can ride. Toddlers can use the children's area freely."},
+      {"q": "Can we do Hanmer Springs as a day trip from Christchurch?", "a": "Yes — easily. It's 1.5 hours each way. Leave Christchurch at 9am, arrive at the pools by 10:30am, spend 3–4 hours swimming, have lunch at the village, walk Conical Hill, and be back in Christchurch by 7pm. It's one of the most popular Christchurch day trips, especially in winter when the pools are extra magical."}
+    ]
+  },
+  {
+    "slug": "akaroa",
+    "name": "Akaroa",
+    "region": "Canterbury",
+    "island": "South Island",
+    "tagline": "NZ's French heritage village — Hector's dolphins, harbour cruises, and charming architecture 1.5 hrs from Christchurch.",
+    "summary": "Akaroa sits at the head of a volcanic harbour on the Banks Peninsula, 1.5 hours from Christchurch. It has a unique French heritage (the first French settlers arrived in 1840) that gives it a distinctly European feel. The main family drawcard is the Hector's dolphin — the world's smallest dolphin, found only in NZ, which lives in Akaroa Harbour. Swimming with or viewing these rare dolphins is one of NZ's most special wildlife experiences.",
+    "family_score": 8,
+    "best_for": "All ages; magical for nature-loving kids",
+    "nearest_airport": "CHC",
+    "flight_from_auckland": "1 hr flight + 1.5 hrs drive",
+    "drive_from": {"Christchurch": "1.5 hrs via Summit Road", "Timaru": "2 hrs"},
+    "top_things_to_do": [
+      "Black Cat Cruises — Hector's dolphin swim or watch; guided harbour cruise with dolphin, penguin, and seal sightings. $85–175/person.",
+      "Akaroa Harbour — the village foreshore, jetty, and beach are lovely for young children",
+      "Giants House Garden — extraordinary sculpture garden cascading down a hillside. $25/adult.",
+      "Akaroa Museum — French colonial history in NZ, free",
+      "Banks Peninsula walks — numerous DOC tracks ranging from 30 min to multi-day",
+      "Onuku Marae — one of the most accessible marae settings in Canterbury"
+    ],
+    "rainy_day": ["Akaroa Museum", "The French Farm winery (adults; kids can explore the garden)", "Bully Hayes restaurant for a long lunch"],
+    "accommodation_note": "Good holiday park in the village. Numerous B&Bs and holiday homes. Very popular in summer — book ahead.",
+    "budget_note": "Dolphin cruise $85–175 depending on watch vs swim. Most village attractions free.",
+    "nearby_destinations": ["christchurch-with-kids"],
+    "faqs": [
+      {"q": "Can children swim with Hector's dolphins?", "a": "Black Cat Cruises offers dolphin swimming from age 8+ (must be a confident swimmer). Younger children can join the 'watch' option and observe the dolphins from the boat — they frequently swim alongside the hull, so sightings are excellent. Hector's dolphins are gentle and curious around boats."},
+      {"q": "Is the drive from Christchurch to Akaroa suitable for kids?", "a": "The main route is via the Summit Road over the Port Hills — it's winding with excellent views but may cause car sickness in some children. The alternative route (via Birdlings Flat/Little River) is longer but less windy. Most families manage fine; plan a stop at the Summit Road viewpoint for a stretch and photos. Total drive about 1.5 hours from central Christchurch."}
+    ]
+  },
+  {
+    "slug": "methven",
+    "name": "Methven",
+    "region": "Canterbury",
+    "island": "South Island",
+    "tagline": "The ski base for Mt Hutt — a proper mountain town 1.5 hours from Christchurch with an excellent ski field.",
+    "summary": "Methven is a small agricultural and ski town at the foot of the Mesopotamia ranges in mid-Canterbury. In winter it transforms into the base village for Mt Hutt ski field — one of NZ's largest and most reliable ski areas. For families, Mt Hutt has an excellent beginner area and ski school. Outside ski season, Methven is a quiet farming town with good access to the Rakaia Gorge.",
+    "family_score": 8,
+    "best_for": "Skiing families (all ages); summer walkers 8+",
+    "nearest_airport": "CHC",
+    "flight_from_auckland": "1 hr flight + 1.5 hrs drive",
+    "drive_from": {"Christchurch": "1.5 hrs", "Queenstown": "4 hrs"},
+    "top_things_to_do": [
+      "Mt Hutt Ski Field — one of NZ's largest ski areas with an excellent ski school for beginners from age 3",
+      "Snow Play Area at Mt Hutt — for non-skiers to play in the snow without needing lessons",
+      "Methven's Aoraki Hot Tubs — outdoor cedar hot tubs with mountain views. Perfect après-ski.",
+      "Rakaia Gorge (30 min east) — dramatic river gorge, excellent for photos and a short walk",
+      "Methven Alpine Sports — excellent gear hire and local knowledge for snow conditions",
+      "Windwhistle and surrounding Canterbury farmland — High Country farm experiences"
+    ],
+    "rainy_day": ["Methven's café scene is lively in ski season", "Methven Cinema (seasonal)"],
+    "accommodation_note": "Good range of ski lodges, motels, and holiday parks. Book 8–10 weeks ahead for July school holiday weeks.",
+    "budget_note": "Mt Hutt lift passes ~$130/adult, $85/child. Cheaper than Queenstown-based resorts. Gear hire in Methven is affordable.",
+    "nearby_destinations": ["christchurch-with-kids"],
+    "faqs": [
+      {"q": "Is Mt Hutt good for beginner ski families?", "a": "Yes — Mt Hutt has a dedicated beginner area (the Snowpark) with conveyor belt lifts (magic carpets) and gentle terrain. The ski school runs lessons for children from age 3. The mountain is large, so confident intermediates and advanced skiers also have plenty to explore. For a first ski trip, Mt Hutt and Methven base is significantly cheaper than Queenstown."},
+      {"q": "What's Methven like outside ski season?", "a": "In summer, Methven is a quiet farming town used mainly by walkers and mountain bikers. The Rakaia Gorge is accessible for a scenic drive and short walk. The broader Canterbury High Country (including Mt Hutt on foot) has excellent summer walking. Most ski-specific businesses close, but cafés and the hot tubs remain open."}
+    ]
+  },
+  {
+    "slug": "timaru",
+    "name": "Timaru",
+    "region": "Canterbury",
+    "island": "South Island",
+    "tagline": "Caroline Bay's safe sandy beach — the perfect family stopover between Christchurch and Queenstown.",
+    "summary": "Timaru is a port city midway between Christchurch and Dunedin on the South Island's east coast. For families travelling south, it's a natural overnight stop. Caroline Bay is the highlight — an unusually calm, sandy bay with a playground, paddling area, and the annual summer carnival (January). The South Canterbury Museum is free and excellent.",
+    "family_score": 6,
+    "best_for": "All ages; excellent for a stopover",
+    "nearest_airport": "TIU",
+    "flight_from_auckland": "1 hr flight to Christchurch + 2 hrs drive",
+    "drive_from": {"Christchurch": "2 hrs", "Dunedin": "2.5 hrs", "Queenstown": "3.5 hrs"},
+    "top_things_to_do": [
+      "Caroline Bay — calm sandy beach with playground, paddling area, and summer carnival. Free.",
+      "South Canterbury Museum — free entry, natural and cultural history, one of NZ's better regional museums",
+      "Te Ana Māori Rock Art Centre — guided tours to see ancient Māori rock drawings. Unique experience.",
+      "Aigantighe Art Gallery — free, excellent collection including NZ and international works",
+      "Botanic Garden — well-maintained, free, with a good playground"
+    ],
+    "rainy_day": ["South Canterbury Museum", "Aigantighe Art Gallery", "Caroline Bay Café"],
+    "accommodation_note": "Good holiday park at Caroline Bay. Motels throughout the city. Affordable and easy to book.",
+    "budget_note": "Very affordable. Most attractions free. Te Ana rock art tours ~$45/adult.",
+    "nearby_destinations": ["christchurch-with-kids", "dunedin-family-guide"],
+    "faqs": [
+      {"q": "Is Caroline Bay beach safe for young children?", "a": "Caroline Bay is one of NZ's safest family beaches — a purpose-built stone breakwater creates a calm, shallow swimming area that's ideal for toddlers and young children. It's patrolled by lifeguards in summer. The adjacent playground and paddling area make it a perfect half-day for families."}
+    ]
+  },
+  {
+    "slug": "oamaru",
+    "name": "Oamaru",
+    "region": "Otago",
+    "island": "South Island",
+    "tagline": "Victorian heritage and blue penguins — one of NZ's most distinctive and underrated family destinations.",
+    "summary": "Oamaru is a remarkable small city on the Otago coast, famous for two things: its extraordinary Victorian Precinct of limestone buildings (home to steampunk workshops, galleries, and the famous Sunday market) and its blue penguin colony — the world's smallest penguins returning to shore at dusk every evening. The penguin viewing is one of the most accessible and magical wildlife experiences in NZ.",
+    "family_score": 9,
+    "best_for": "All ages; penguins are magic for every kid",
+    "nearest_airport": "OAM",
+    "flight_from_auckland": "1 hr flight to Dunedin + 1.5 hrs drive",
+    "drive_from": {"Dunedin": "1.5 hrs", "Christchurch": "3.5 hrs", "Queenstown": "3 hrs"},
+    "top_things_to_do": [
+      "Blue Penguin Colony at Oamaru Harbour — watch blue penguins return to shore at dusk (all year). $30/adult, $15/child.",
+      "Victorian Precinct — Steampunk HQ, galleries, the Sunday Farmers Market. Free to wander.",
+      "Steampunk HQ — extraordinary interactive steampunk art installation. Very unique. $10/adult.",
+      "Yellow-eyed Penguin (Hoiho) Colony at Bushy Beach — walk to the viewing hide for wild penguin sightings at dusk. Free.",
+      "Oamaru Swimming Pool — good indoor pool for a rainy day",
+      "Oamaru Stone buildings walk — some of NZ's finest Victorian limestone architecture"
+    ],
+    "rainy_day": ["Steampunk HQ", "Oamaru's covered Victorian arcade", "North Otago Museum"],
+    "accommodation_note": "Good holiday park near the penguin colony. Boutique accommodation in the Victorian Precinct.",
+    "budget_note": "Blue Penguin Colony $30/adult. Steampunk HQ $10/adult. Yellow-eyed penguin beach free. Great value.",
+    "nearby_destinations": ["dunedin-family-guide", "fiordland-milford-sound-family"],
+    "faqs": [
+      {"q": "What time do the blue penguins come ashore in Oamaru?", "a": "Blue penguins (kororā) return to their colony at dusk every evening — timing varies with the season. In summer (December–February) they arrive around 9–9:30pm. In winter (June–August) it's 5:30–6pm. The Blue Penguin Colony has a grandstand and lighting that lets you see without disturbing them. Book tickets online — it does sell out in peak season."},
+      {"q": "Can we see yellow-eyed penguins (hoiho) at Oamaru too?", "a": "Yes — Bushy Beach (a 10-minute drive from Oamaru) has a free public viewing hide where you can observe yellow-eyed penguins in the wild at dusk. Numbers vary — you might see 2 or 20. They're much rarer than blue penguins (one of the world's rarest penguins) so any sighting is special. Bring binoculars and arrive 30–45 minutes before dusk."}
+    ]
+  },
+  {
+    "slug": "te-anau",
+    "name": "Te Anau",
+    "region": "Southland",
+    "island": "South Island",
+    "tagline": "Gateway to Fiordland — the base for Milford Sound, glow worm caves, and the Routeburn Track.",
+    "summary": "Te Anau is the main town in Fiordland National Park and the essential base for visiting Milford Sound. The town sits on the shores of Lake Te Anau — the largest lake in the South Island. Beyond Milford, Te Anau itself has excellent family attractions including the Te Ana-au Caves (glow worms), the Wildlife Centre (free, with kākāpō viewing), and excellent lakeside dining.",
+    "family_score": 9,
+    "best_for": "All ages; excellent for nature-loving families",
+    "nearest_airport": "TEU",
+    "flight_from_auckland": "1 hr flight to Queenstown + 2 hrs drive",
+    "drive_from": {"Queenstown": "2 hrs", "Invercargill": "2 hrs"},
+    "top_things_to_do": [
+      "Milford Sound day trip — 2-hour boat cruise from Milford. Drive from Te Anau is 2 hrs each way — spectacular.",
+      "Te Ana-au Caves (Real Journeys) — glow worm cave tour by boat and walk. 1.5 hrs. $55/adult, $25/child.",
+      "Te Anau Wildlife Centre (DOC) — free; see kākāpō (world's rarest parrot), kiwi, weka, and takahē",
+      "Lake Te Anau foreshore — kayak hire, water activities, stunning mountain views",
+      "Kepler Track — shorter sections suitable for families (the first 6km to the lake is flat and scenic)",
+      "Fiordland Cinema — excellent 45-min film about Fiordland, good rainy day option"
+    ],
+    "rainy_day": ["Fiordland Cinema (Ata Whenua film)", "Te Anau Library", "Café Fiord for hot drinks"],
+    "accommodation_note": "Good range of holiday parks and motels in Te Anau. Book ahead for summer — it fills up fast as the Milford Sound base.",
+    "budget_note": "Cave tour $55/adult. DOC Wildlife Centre free. Milford Sound cruise $75–130/adult depending on operator.",
+    "nearby_destinations": ["fiordland-milford-sound-family", "queenstown-with-kids"],
+    "faqs": [
+      {"q": "Is it better to base in Te Anau or Queenstown for Milford Sound?", "a": "Te Anau is much better as a Milford base. The drive from Te Anau to Milford is 2 hours (spectacular). From Queenstown it's 4.5 hours — a very long day trip. Stay in Te Anau for at least 2 nights: one day for the glow worm caves and Wildlife Centre, one day for Milford Sound."},
+      {"q": "Are the Te Ana-au Caves suitable for young children?", "a": "Yes — the glow worm cave tour is excellent for children as young as 4. The cave is accessible (no tight squeezes), the boat section on an underground lake is magical, and the glow worms are genuinely spectacular. The tour takes about 1.5 hours and involves some walking. Bring a warm layer — caves are 12°C year-round."}
+    ]
+  },
+  {
+    "slug": "arrowtown",
+    "name": "Arrowtown",
+    "region": "Otago",
+    "island": "South Island",
+    "tagline": "NZ's most charming gold rush village — autumn colours, a museum, and 45 minutes from Queenstown.",
+    "summary": "Arrowtown is a perfectly preserved gold mining village in the Arrow River gorge, 28km from Queenstown. Its main street of historic stone buildings is one of the most photographed in NZ. In autumn (March–May) the poplar and willow trees planted by early settlers turn a spectacular gold and orange. For families, the Lakes District Museum is excellent, gold panning in the Arrow River is a perennial kids' favourite, and the town is far less crowded than Queenstown.",
+    "family_score": 8,
+    "best_for": "All ages",
+    "nearest_airport": "ZQN",
+    "flight_from_auckland": "1 hr flight + 45 min drive",
+    "drive_from": {"Queenstown": "45 min via Crown Range or SH6", "Wanaka": "1 hr via Crown Range"},
+    "top_things_to_do": [
+      "Gold panning in the Arrow River — free; hire a pan from the museum shop ($8) and try your luck",
+      "Lakes District Museum & Gallery — excellent gold rush history, interactive for kids. $10/adult.",
+      "Arrowtown Chinese Settlement — restored remains of the Chinese mining settlement. Free, historic.",
+      "Autumn colour walk along Buckingham Street — best in April, one of NZ's most beautiful streetscapes",
+      "Royal Oak Hotel beer garden — historic pub with great garden for families in good weather",
+      "Arrow River trail walk — flat riverside walk upstream from the village. Free, beautiful, suitable for all ages."
+    ],
+    "rainy_day": ["Lakes District Museum", "Arrowtown's excellent cafés — the Postmaster's House is a family favourite"],
+    "accommodation_note": "Arrowtown has limited holiday park space. Most families day-trip from Queenstown or Wanaka.",
+    "budget_note": "Very affordable day trip. Museum $10/adult. Gold panning hire $8. Excellent cheaper alternative to Queenstown for dining.",
+    "nearby_destinations": ["queenstown-with-kids", "wanaka-with-kids"],
+    "faqs": [
+      {"q": "When is the best time to visit Arrowtown for autumn colours?", "a": "Late April is the peak of autumn colour in Arrowtown — typically the last week of April gives the most spectacular display. The main street is lined with European trees that turn golden orange, and the surrounding hills are covered with red and yellow. The Arrowtown Autumn Festival is held in late April and is one of NZ's best small-town festivals."},
+      {"q": "Is gold panning in the Arrow River real?", "a": "Real, and kids love it. Gold was discovered in the Arrow River in 1862 and the river still yields small flakes. Hire a pan at the museum ($8) and head to the river — the museum staff will show you the technique. Most kids find a few tiny flakes. It's a genuine, tactile historical experience rather than a tourist gimmick."}
+    ]
+  },
+  {
+    "slug": "cromwell",
+    "name": "Cromwell",
+    "region": "Central Otago",
+    "island": "South Island",
+    "tagline": "Fruit orchards, lake Dunstan, and the heart of Central Otago — a hidden gem between Queenstown and Wanaka.",
+    "summary": "Cromwell sits at the meeting of the Clutha and Kawarau rivers, now backed by Lake Dunstan. It's Central Otago's fruit-growing hub — in summer the roadside fruit stalls selling cherries, apricots, and peaches are a NZ institution. The Old Cromwell Town (partially submerged when the dam was built) has been recreated as a heritage precinct. Cromwell is an excellent stopover between Queenstown and Wanaka.",
+    "family_score": 7,
+    "best_for": "All ages; good driving stop",
+    "nearest_airport": "ZQN",
+    "flight_from_auckland": "1 hr flight + 1 hr drive",
+    "drive_from": {"Queenstown": "1 hr", "Wanaka": "30 min", "Alexandra": "30 min"},
+    "top_things_to_do": [
+      "Old Cromwell Town — heritage buildings on the lakeshore, galleries, cafés. Free to wander.",
+      "Cromwell Heritage Precinct Market (summer Sundays) — local produce and crafts",
+      "Lake Dunstan water activities — kayak hire, stand-up paddleboard, swimming in summer",
+      "Fruit stalls on the highway — Central Otago cherries, apricots, and peaches (December–March). A NZ institution.",
+      "Bendigo Mountain Bike trails — if your family cycles; excellent beginner trails around the historic gold mining area",
+      "Big Picture wine experience (a short drive from town) — interactive wine and history attraction"
+    ],
+    "rainy_day": ["Old Cromwell Town galleries", "Grape and Grain Museum", "Central Stories Museum (30 min south in Alexandra)"],
+    "accommodation_note": "Cromwell has a good holiday park and motels. An excellent cheaper base than Queenstown for exploring Central Otago.",
+    "budget_note": "Very affordable. Heritage precinct free. Fruit stalls from $5/kg. Kayak hire from $30/hr.",
+    "nearby_destinations": ["queenstown-with-kids", "wanaka-with-kids"],
+    "faqs": [
+      {"q": "When can we buy Central Otago cherries?", "a": "Central Otago cherries are available from the roadside stalls around Cromwell, Alexandra, and Roxburgh from mid-December through January. They're considered the best cherries in New Zealand. The roadside stalls are informal and excellent value — look for them on SH8 between Cromwell and Alexandra. Apricots follow in January, and stone fruit continues through February."}
+    ]
+  },
+  {
+    "slug": "invercargill",
+    "name": "Invercargill",
+    "region": "Southland",
+    "island": "South Island",
+    "tagline": "NZ's southernmost city — world-class tuatara, Burt Munro's Indian motorcycle, and Bluff oysters.",
+    "summary": "Invercargill is often dismissed as a transit stop for Stewart Island or Fiordland, but the city has genuinely excellent family attractions. Tuatāra Tuatara Sanctuary Te Ara Parata (the world's largest tuatara display) at the Southland Museum is remarkable. The Burt Munro Indian motorcycle collection is a NZ legend. And Bluff oysters (in season) are a serious reason to visit in their own right.",
+    "family_score": 7,
+    "best_for": "All ages; great for curious kids",
+    "nearest_airport": "IVC",
+    "flight_from_auckland": "1.5 hr flight",
+    "drive_from": {"Dunedin": "3 hrs", "Te Anau": "2 hrs", "Queenstown": "2.5 hrs"},
+    "top_things_to_do": [
+      "Tuatāra Tuatara Sanctuary (Southland Museum) — world's largest captive tuatara display. Free.",
+      "E. Hayes & Sons Hardware Store — Burt Munro's actual 1920 Indian Scout motorcycle plus extraordinary collection. Free.",
+      "Bill Richardson Transport World — NZ's largest private vehicle collection. $25/adult.",
+      "Queens Park — large city park with playground, rose gardens, aviary, and mini golf. Free.",
+      "Bluff Oyster and Food Festival (May) — the world's best flat oysters, celebrated with a food festival in nearby Bluff",
+      "Stewart Island ferry from Bluff (30 min south) — day trip or overnight to one of NZ's most special islands"
+    ],
+    "rainy_day": ["Southland Museum", "Bill Richardson Transport World", "Invercargill Public Library"],
+    "accommodation_note": "Good range of motels and holiday parks. Very affordable compared to Queenstown and Dunedin.",
+    "budget_note": "Excellent value city. Most attractions free. Transport World $25/adult. Great family destination on a budget.",
+    "nearby_destinations": ["dunedin-family-guide", "fiordland-milford-sound-family"],
+    "faqs": [
+      {"q": "What are tuatara and why see them in Invercargill?", "a": "Tuatara are ancient NZ reptiles — living fossils that have barely changed in 250 million years. They're found nowhere else in the world. Invercargill's Tuatara Sanctuary has the world's largest captive display, with tuatara of various ages including hatchlings. Entry is free. It's one of the best places in NZ to see and learn about these remarkable animals up close."}
+    ]
+  },
+  {
+    "slug": "hokitika",
+    "name": "Hokitika",
+    "region": "West Coast",
+    "island": "South Island",
+    "tagline": "Pounamu (greenstone) and glow worms — the cultural and arts heart of the West Coast.",
+    "summary": "Hokitika is the main cultural centre of the West Coast, famous for pounamu (NZ greenstone/jade) carving and an excellent Hokitika Gorge walk. The town has a beautiful beach (though the Tasman Sea is too rough for swimming), a strong arts and crafts scene, and the remarkable Hokitika Glow Worm Dell — a free glow worm experience right on the edge of town. A great stop on the West Coast drive.",
+    "family_score": 7,
+    "best_for": "All ages; good for an afternoon stop",
+    "nearest_airport": "HKK",
+    "flight_from_auckland": "1 hr flight + varies",
+    "drive_from": {"Greymouth": "45 min", "Franz Josef": "2.5 hrs", "Christchurch": "3.5 hrs via Lewis Pass"},
+    "top_things_to_do": [
+      "Hokitika Glow Worm Dell — free glow worm experience at dusk, 5 min walk from the town centre. Remarkable.",
+      "Hokitika Gorge — stunning turquoise glacial river gorge, 30 min drive from town. Easy 1 hr walk. Free.",
+      "Pounamu greenstone carving workshops — carve your own greenstone pendant. Several studios in town. From $60.",
+      "Hokitika Beach sunset — dramatic West Coast driftwood beach, spectacular at sunset. Free.",
+      "Hokitika Museum — West Coast gold rush and cultural history. $5/adult.",
+      "Hokitika Wildfoods Festival (March) — famous annual festival featuring unusual NZ foods. Fun for older kids and adults."
+    ],
+    "rainy_day": ["Pounamu carving studios", "Hokitika Museum", "Stumpers café for excellent cabinet food"],
+    "accommodation_note": "Good motels in Hokitika and a holiday park. An excellent overnight stop on the West Coast drive.",
+    "budget_note": "Glow Worm Dell free. Gorge walk free. Carving workshops from $60. Very affordable West Coast town.",
+    "nearby_destinations": ["west-coast-family-guide"],
+    "faqs": [
+      {"q": "When do the glow worms in Hokitika appear?", "a": "The Hokitika Glow Worm Dell is visible from dusk onwards — the glow worms light up as it gets dark. Year-round experience. The dell is a small ravine 5 minutes walk from the town centre, completely free, and genuinely impressive. It's not as large as Waitomo but it's free and immediate — just walk there after dinner."}
+    ]
+  },
+  {
+    "slug": "greymouth",
+    "name": "Greymouth",
+    "region": "West Coast",
+    "island": "South Island",
+    "tagline": "The West Coast's main hub — starting point for the TranzAlpine train, jade country, and rugged coastal scenery.",
+    "summary": "Greymouth is the largest town on the West Coast and the western terminus of the famous TranzAlpine train from Christchurch. For families, the TranzAlpine day trip is the main event — a spectacular alpine railway crossing through the Southern Alps. The town also has good access to the Lake Brunner area and Point Elizabeth walkway on the coast.",
+    "family_score": 6,
+    "best_for": "All ages; mainly a transit and train hub",
+    "nearest_airport": "GYM",
+    "flight_from_auckland": "6 hrs drive from Christchurch or TranzAlpine train",
+    "drive_from": {"Christchurch": "2.5 hrs via Lewis Pass or 4.5 hrs via Arthur's Pass", "Hokitika": "45 min"},
+    "top_things_to_do": [
+      "TranzAlpine scenic train — day trip to Christchurch and back through the Southern Alps. One of NZ's great train journeys.",
+      "Monteith's Brewing Company tour — West Coast's famous brewery. Tours run twice daily.",
+      "Lake Brunner / Moana (40 min south) — beautiful alpine lake, excellent for kayaking and fishing",
+      "Point Elizabeth walkway — coastal walk with seals and sea views. 2 hrs return. Free.",
+      "Shantytown Heritage Park (20 min south) — restored 1880s gold mining town with gold panning. Good for kids."
+    ],
+    "rainy_day": ["Shantytown Heritage Park is mostly outdoor but fun in light rain", "Greymouth cafés on Mackay Street"],
+    "accommodation_note": "Good holiday park and motels. Greymouth is primarily a transit and day-trip base.",
+    "budget_note": "TranzAlpine from $129/adult return (book ahead). Shantytown $32/adult. Good value.",
+    "nearby_destinations": ["west-coast-family-guide"],
+    "faqs": [
+      {"q": "Is the TranzAlpine train worth doing with kids?", "a": "Yes — the TranzAlpine is one of the world's great scenic train journeys and genuinely spectacular for kids. The 4.5-hour journey crosses the Southern Alps through the Otira Gorge and over Arthur's Pass. There's an open observation car. You can do it as a day trip (Christchurch to Greymouth and back) or one-way with a pick-up by car. Book ahead — it fills up."}
+    ]
+  },
+  {
+    "slug": "westport",
+    "name": "Westport",
+    "region": "West Coast",
+    "island": "South Island",
+    "tagline": "Cape Foulwind seal colony, coal mining history, and the northern gateway to the West Coast.",
+    "summary": "Westport is a small West Coast town at the mouth of the Buller River. The main family attraction is Cape Foulwind — a short scenic drive and easy coastal walk to a fur seal colony. It's a genuinely spectacular and free wildlife experience. The Coaltown Museum covers the region's coal mining history well. Westport is the northern entry point to the West Coast on the Buller Gorge highway.",
+    "family_score": 6,
+    "best_for": "All ages; best as a half-day or overnight stop",
+    "nearest_airport": "WSZ",
+    "flight_from_auckland": "6 hrs drive from Christchurch",
+    "drive_from": {"Greymouth": "2 hrs", "Nelson": "3 hrs via Murchison"},
+    "top_things_to_do": [
+      "Cape Foulwind Fur Seal Colony — easy 1 hr coastal walkway to a large breeding seal colony. Free.",
+      "Buller Gorge Swing Bridge (45 min east) — suspension bridge and short flying fox. Fun for families.",
+      "Coaltown Museum — West Coast mining history in a well-presented museum. $10/adult.",
+      "Punakaiki Pancake Rocks (1 hr south) — must stop for any West Coast traveller. Free.",
+      "Oparara Basin limestone arches (2 hrs north via Karamea) — extraordinary natural arches, caves, and blue ducks"
+    ],
+    "rainy_day": ["Coaltown Museum", "Westport's good café scene for a slow morning"],
+    "accommodation_note": "Holiday park and motels in Westport. Good value, easy to book outside school holidays.",
+    "budget_note": "Cape Foulwind free. Coaltown Museum $10/adult. Very affordable West Coast stop.",
+    "nearby_destinations": ["west-coast-family-guide", "nelson-abel-tasman-family"],
+    "faqs": [
+      {"q": "When do the seals breed at Cape Foulwind?", "a": "Fur seals are at Cape Foulwind year-round, but pups are born in late November through December and are visible on the rocks through the summer. The breeding season makes November–February the most spectacular time for families — pups are visible from the walkway. The adult seals are present and fascinating all year."}
+    ]
+  },
+  {
+    "slug": "motueka",
+    "name": "Motueka",
+    "region": "Nelson/Tasman",
+    "island": "South Island",
+    "tagline": "The gateway town to Abel Tasman — hop fields, orchards, and the perfect base for NZ's sunniest national park.",
+    "summary": "Motueka (pronounced Mo-too-eka) is a small town at the northern edge of the Tasman region, 50km from Nelson. It's the closest town to Abel Tasman National Park and the main base for water taxi, kayak, and walking trips. The town itself is charming — good cafés, the Motueka Sunday Market, and excellent beaches nearby including Kaiteriteri (10 minutes north, one of NZ's best family beaches).",
+    "family_score": 8,
+    "best_for": "All ages",
+    "nearest_airport": "NSN",
+    "flight_from_auckland": "1 hr flight to Nelson + 45 min drive",
+    "drive_from": {"Nelson": "45 min", "Picton": "2.5 hrs"},
+    "top_things_to_do": [
+      "Kaiteriteri Beach (10 min north) — golden sand, calm bay, spectacular for swimming and kayaking. Free.",
+      "Abel Tasman water taxi and walk — day trips into the national park from Kaiteriteri wharf. From $45/person.",
+      "Motueka Sunday Market — excellent local produce, crafts, and food. 8am–1pm.",
+      "Marahau (20 min north) — Abel Tasman kayak hire base. Half-day guided tours available.",
+      "Ngarua Caves (30 min south via Takaka Hill) — limestone caves with moa bones. $25/adult.",
+      "Motueka Quay foreshore walk — flat, pram-friendly, beautiful Tasman Bay views"
+    ],
+    "rainy_day": ["Motueka's cafés", "The Impossible Pie restaurant for a long lunch", "Drive to Nelson for more indoor options"],
+    "accommodation_note": "Excellent holiday park at Kaiteriteri (right on the beach — books out months ahead in January). Good motels in Motueka.",
+    "budget_note": "Water taxi from $45. Kaiteriteri beach free. Motueka is excellent value as a base.",
+    "nearby_destinations": ["nelson-abel-tasman-family"],
+    "faqs": [
+      {"q": "Is Kaiteriteri Beach the best family beach in the South Island?", "a": "It's in the top 3. Kaiteriteri has everything: golden sand, calm protected bay, clear water perfect for swimming, stand-up paddleboards and kayak hire, a café and playground on the beachfront, and water taxis into Abel Tasman. In summer it's popular but the beach is large enough to spread out. Book your Kaiteriteri holiday park early — it fills months ahead for the Christmas–January period."},
+      {"q": "Can we do Abel Tasman in one day from Motueka?", "a": "Yes — a half-day water taxi + walk combination is very doable. Take the morning water taxi from Kaiteriteri (10 min from Motueka) to Anchorage or Bark Bay, walk 2–3 hours of the coast track, and return by water taxi in the afternoon. The track is well-formed and the beaches are stunning. Book your water taxi the day before — they're popular in summer."}
+    ]
+  },
+  {
+    "slug": "alexandra",
+    "name": "Alexandra",
+    "region": "Central Otago",
+    "island": "South Island",
+    "tagline": "The heart of Central Otago — cycling trails, fruit orchards, and the driest climate in NZ.",
+    "summary": "Alexandra is the main town of Central Otago, sitting in the Clutha River valley with its distinctive dry, hot summers and cold winters. It's the hub for the Otago Central Rail Trail — NZ's most popular cycling trail — and is surrounded by some of NZ's most dramatic tawny landscape. The town also has the excellent Central Stories museum and is known for its stone fruit.",
+    "family_score": 7,
+    "best_for": "Cycling families 8+; all ages for the town",
+    "nearest_airport": "ALR",
+    "flight_from_auckland": "1 hr flight to Queenstown + 1.5 hrs drive",
+    "drive_from": {"Queenstown": "1.5 hrs", "Dunedin": "2.5 hrs", "Cromwell": "30 min"},
+    "top_things_to_do": [
+      "Otago Central Rail Trail cycling — the most popular section (Clyde to Middlemarch) is doable in sections. Rent bikes in Alexandra or Clyde.",
+      "Central Stories Museum and Art Gallery — excellent regional museum, free",
+      "Clyde village (20 min west) — historic stone buildings, the Clyde Dam lookout, and excellent cafés",
+      "Alexandra Blossom Festival (September) — spring festival celebrating the stone fruit orchards",
+      "Mt Benger Ski Field (winter) — small, family-friendly ski field above Alexandra. Very affordable.",
+      "Roxburgh Gorge cycling trail — stunning gorge scenery, accessible for families with bikes"
+    ],
+    "rainy_day": ["Central Stories Museum", "Clyde's heritage cafés", "The Dunstan Arms pub (family-friendly)"],
+    "accommodation_note": "Good holiday park and motels in Alexandra. Very affordable base for Central Otago.",
+    "budget_note": "Excellent value. Museum free. Bike hire from $30/day. Good base for exploring without Queenstown prices.",
+    "nearby_destinations": ["dunedin-family-guide", "queenstown-with-kids"],
+    "faqs": [
+      {"q": "Is the Otago Central Rail Trail suitable for families with kids?", "a": "Yes — the Rail Trail is gravel-surfaced and generally flat (follows an old railway line), making it suitable for children who can ride a bike confidently (typically 7+). You don't have to do the full 152km — most families do a 1-2 hour section. The Clyde to Alexandra section (25km) is one of the best short stretches. Bikes can be hired in Alexandra or Clyde."}
+    ]
+  },
+  {
+    "slug": "gore",
+    "name": "Gore",
+    "region": "Southland",
+    "island": "South Island",
+    "tagline": "Southland's country music capital — Eastern Southland Gallery, the Hokonui Moonshine Museum, and the Mataura River.",
+    "summary": "Gore is Southland's second city — a farming hub and the self-declared 'Country Music Capital of NZ'. For families, the surprise is the Eastern Southland Gallery — a world-class art collection in a small Southland town that includes works by Ralph Hotere and Rita Angus. The Hokonui Moonshine Museum covers the region's bootlegging history in a genuinely entertaining way.",
+    "family_score": 5,
+    "best_for": "Art-loving families; passing through Southland",
+    "nearest_airport": "IVC",
+    "flight_from_auckland": "1.5 hr flight to Invercargill + 45 min drive",
+    "drive_from": {"Invercargill": "45 min", "Dunedin": "2 hrs", "Te Anau": "2 hrs"},
+    "top_things_to_do": [
+      "Eastern Southland Gallery — remarkable art collection for a small town. Free. Don't miss the Hotere collection.",
+      "Hokonui Moonshine Museum — entertaining bootlegging history. $10/adult.",
+      "Mandeville Airport Vintage Aircraft Trust — vintage biplane flights. Unique experience.",
+      "Dolamore Park (15 min from Gore) — excellent DOC picnic area and walks in native beech forest",
+      "Croydon Aircraft Company — vintage aircraft restoration, viewing by arrangement"
+    ],
+    "rainy_day": ["Eastern Southland Gallery", "Hokonui Moonshine Museum"],
+    "accommodation_note": "Basic motel and holiday park options. Primarily a transit stop or day visit from Invercargill.",
+    "budget_note": "Very affordable. Gallery free. Good fuel stop on the Dunedin–Invercargill route.",
+    "nearby_destinations": ["dunedin-family-guide"],
+    "faqs": [
+      {"q": "Is Gore worth stopping at?", "a": "If you're driving between Dunedin and Invercargill, yes — the Eastern Southland Gallery alone is worth a 1-hour stop. It houses a genuinely world-class collection of NZ art including major Ralph Hotere works, completely free. The Hokonui Moonshine Museum is fun for older kids. Pair both and have lunch — it makes a good 2-hour break on a long drive."}
+    ]
+  },
+  {
+    "slug": "paihia",
+    "name": "Paihia",
+    "region": "Northland",
+    "island": "North Island",
+    "tagline": "The heart of Bay of Islands — dolphin cruises, the Waitangi Treaty Grounds, and the perfect family base.",
+    "summary": "Paihia is the main visitor hub for the Bay of Islands, a marine area of 144 islands, abundant dolphins, and extraordinary history. The Waitangi Treaty Grounds (where the Treaty of Waitangi was signed in 1840) are a 5-minute walk from the town centre. Dolphin cruise departures are from the main wharf. The town has a relaxed, family-friendly waterfront with good restaurants and accommodation.",
+    "family_score": 9,
+    "best_for": "All ages",
+    "nearest_airport": "KKE",
+    "flight_from_auckland": "3.5 hrs drive",
+    "drive_from": {"Auckland": "3.5 hrs", "Whangarei": "1 hr"},
+    "top_things_to_do": [
+      "Dolphin Encounter cruise — 3-hr trip almost guaranteed to find common and bottlenose dolphins. $95/adult.",
+      "Waitangi Treaty Grounds — free to walk the grounds. Museum entry $40/adult but worth it. Cultural performance included.",
+      "Ferry to Russell village — 5 min, $14 return. Russell is NZ's first European settlement and charming.",
+      "Cape Reinga day trip — 3.5-hr drive or join a guided tour from Paihia. Epic for families.",
+      "Hole in the Rock cruise — full day Cape Brett boat trip. $130/adult. Best for kids 8+.",
+      "Paihia Beach — safe swimming, kayak hire, paddleboats"
+    ],
+    "rainy_day": ["Waitangi Treaty Grounds museum (covered)", "Paihia's café and restaurant strip"],
+    "accommodation_note": "Good holiday parks and motels throughout the Bay of Islands. Book 8–10 weeks ahead for January and school holidays.",
+    "budget_note": "Dolphin cruises $95/adult. Waitangi Grounds $40/adult. Otherwise affordable town with good food options.",
+    "nearby_destinations": ["bay-of-islands-family", "northland-cape-reinga-family"],
+    "faqs": [
+      {"q": "Is Paihia the best base for Bay of Islands?", "a": "Yes for families — Paihia has the most tour operators, the most accommodation variety, the most restaurants, and is walking distance to the Waitangi Treaty Grounds. Russell (5 min by ferry) is quieter and more charming but has fewer services. Base in Paihia, day-trip to Russell."},
+      {"q": "How long do we need in Paihia?", "a": "2–3 nights minimum: Day 1 — dolphin cruise. Day 2 — Waitangi Treaty Grounds + Russell ferry. Day 3 — Cape Reinga day trip (or if skipping Cape Reinga, a 3rd beach and watersports day). You could easily spend 4–5 days exploring the wider Bay of Islands if time allows."}
+    ]
+  },
+  {
+    "slug": "whitianga",
+    "name": "Whitianga",
+    "region": "Coromandel",
+    "island": "North Island",
+    "tagline": "Mercury Bay's main hub — Cathedral Cove water taxis, Hot Water Beach, and beautiful Coromandel scenery.",
+    "summary": "Whitianga is the main town in Mercury Bay on the Coromandel Peninsula, 2.5 hours from Auckland. It serves as the best base for Cathedral Cove (water taxi from Whitianga or Hahei) and is 30 minutes from Hot Water Beach. The town has a pleasant waterfront, ferry across to Flaxmill Bay, and excellent seafood restaurants. A perfect 2–3 night Coromandel base.",
+    "family_score": 8,
+    "best_for": "All ages",
+    "nearest_airport": "WTZ",
+    "flight_from_auckland": "2.5 hrs drive or 30 min flight",
+    "drive_from": {"Auckland": "2.5 hrs", "Thames": "1.5 hrs"},
+    "top_things_to_do": [
+      "Cathedral Cove — stunning natural rock arch. Walk 3.2km return from Hahei or take a water taxi from Whitianga. Free.",
+      "Hot Water Beach — dig your own hot pool at low tide. 30 min south of Whitianga. Free.",
+      "Whitianga town ferry — 5 min ride to Flaxmill Bay for a quieter beach. $2 each way.",
+      "Whitianga Waterways — motor boat hire on the harbour estuary. Kids love it.",
+      "Shakespeare Cliff lookout — short drive and 20 min walk for panoramic views over Mercury Bay",
+      "Fresh fish and chips at the Whitianga Harbour wharf — a Coromandel institution"
+    ],
+    "rainy_day": ["Whitianga's café and bakery scene", "Drive to Thames for more shops"],
+    "accommodation_note": "Good holiday parks and motels in Whitianga. Fills up fast in December–January — book months ahead.",
+    "budget_note": "Hot Water Beach free. Cathedral Cove free (walk) or $30 return by water taxi. Whitianga ferry $2.",
+    "nearby_destinations": ["coromandel-with-kids"],
+    "faqs": [
+      {"q": "Should we base in Whitianga or Hahei for the Coromandel?", "a": "Whitianga has more services (supermarkets, restaurants, accommodation variety) and is a better base for a 2–3 night stay. Hahei is a tiny, beautiful beach village that's closer to Cathedral Cove — great for 1–2 nights if you want to walk to the cove rather than take a water taxi. For families, Whitianga is the more practical choice."}
+    ]
+  },
+  {
+    "slug": "lower-hutt",
+    "name": "Lower Hutt",
+    "region": "Wellington",
+    "island": "North Island",
+    "tagline": "Wellington's twin city — Petone Beach, Weta Workshop, and a family-friendly urban riverside scene.",
+    "summary": "Lower Hutt (and its beachfront suburb Petone) is part of the Wellington metropolitan area, 20 minutes from central Wellington. For families visiting Wellington, Lower Hutt adds the Weta Workshop (world-famous film effects studio — tours available), Petone's historic beach and foreshore, and the Hutt River Trail cycling path.",
+    "family_score": 7,
+    "best_for": "Film fans and families staying in Wellington",
+    "nearest_airport": "WLG",
+    "flight_from_auckland": "1 hr flight to Wellington + 20 min drive",
+    "drive_from": {"Wellington CBD": "20 min", "Masterton": "1 hr via Remutaka"},
+    "top_things_to_do": [
+      "Weta Workshop — guided tour of the world's most famous special effects studio. 1.5 hrs. $55/adult.",
+      "Petone Beach and Foreshore — long gravel beach, good for throwing stones, free. Great fish and chips at Petone.",
+      "Dowse Art Museum — free, excellent contemporary NZ art museum. Very good for all ages.",
+      "Hutt River Trail — flat cycling path along the river, excellent for family cycling",
+      "Queensgate Shopping Centre — good for a rainy day with children",
+      "Korokoro Waterfall walk (20 min in Petone hills) — easy 30 min walk to a waterfall, free"
+    ],
+    "rainy_day": ["Weta Workshop", "Dowse Art Museum", "Queensgate"],
+    "accommodation_note": "Good motel options in Lower Hutt. Often better value than central Wellington accommodation.",
+    "budget_note": "Weta Workshop $55/adult. Dowse Museum free. Petone beach free.",
+    "nearby_destinations": ["wellington-with-kids", "masterton"],
+    "faqs": [
+      {"q": "Is the Weta Workshop tour suitable for kids who haven't seen the Lord of the Rings?", "a": "Yes — the Weta Workshop tour covers all major productions including Avatar, Planet of the Apes, and recent films. The focus is on the craft of special effects — prosthetics, armour, weapons — which is fascinating regardless of the films. Children 6+ generally love it. The 1.5-hour guided tour is engaging throughout."}
+    ]
+  },
+  {
+    "slug": "greytown",
+    "name": "Greytown",
+    "region": "Wairarapa",
+    "island": "North Island",
+    "tagline": "NZ's most charming Victorian village — antiques, excellent cafés, and a lovely tree-lined main street.",
+    "summary": "Greytown is a small Victorian town in the Wairarapa, 1.5 hours from Wellington. It's consistently rated one of NZ's best small towns for its beautifully preserved Victorian architecture, extensive antique shops, and excellent café and restaurant scene. For families, it's an excellent half-day from Wellington or Masterton — the town is very walkable, the Cobblestones Museum has farm equipment and heritage buildings, and the food is outstanding.",
+    "family_score": 6,
+    "best_for": "Older kids and adults; charming half-day",
+    "nearest_airport": "MRO",
+    "flight_from_auckland": "5.5 hrs drive or 1 hr flight to Wellington",
+    "drive_from": {"Wellington": "1.5 hrs", "Masterton": "20 min"},
+    "top_things_to_do": [
+      "Greytown main street walk — beautiful Victorian wooden buildings, antique shops, boutiques",
+      "Cobblestones Museum — open-air heritage museum with pioneer buildings and farm equipment. $5/adult.",
+      "Schoc Chocolates — award-winning artisan chocolate shop. Kids love the samples.",
+      "Martinborough day trip (20 min south) — wine village; Palliser Estate has a family-friendly cellar door",
+      "Papawai Marae — historic Māori meeting house with exceptional carved panels"
+    ],
+    "rainy_day": ["Greytown's excellent indoor cafés and bookshops", "Cobblestones Museum (partially covered)"],
+    "accommodation_note": "B&Bs and boutique accommodation. Most families visit as a half-day from Wellington or Masterton.",
+    "budget_note": "Cobblestones $5/adult. Otherwise mainly free to browse. Excellent value lunch options.",
+    "nearby_destinations": ["wellington-with-kids"],
+    "faqs": [
+      {"q": "Is Greytown worth visiting with young children?", "a": "Greytown is best for families with children 8+ who can enjoy a heritage walk and café culture. The Cobblestones Museum is genuinely interesting for children curious about pioneer history. For families with toddlers, Masterton's Henley Lake and Queen Elizabeth Park are better options for the same trip."}
+    ]
+  },
+  {
+    "slug": "martinborough",
+    "name": "Martinborough",
+    "region": "Wairarapa",
+    "island": "North Island",
+    "tagline": "NZ's premier pinot noir village — a charming square, boutique wineries, and a lovely escape from Wellington.",
+    "summary": "Martinborough is a picturesque wine village in the Wairarapa, 1.5 hours from Wellington. The village is built around a central square (Te Whiti Park) and surrounded by world-class pinot noir vineyards. For families, the village square is a lovely picnic spot, several cellar doors are child-friendly, and the drive through the Wairarapa wine country is beautiful.",
+    "family_score": 6,
+    "best_for": "Families with older kids 10+; wine-loving parents",
+    "nearest_airport": "MRO",
+    "flight_from_auckland": "1 hr flight to Wellington + 1.5 hrs drive",
+    "drive_from": {"Wellington": "1.5 hrs", "Masterton": "25 min", "Greytown": "20 min"},
+    "top_things_to_do": [
+      "Te Whiti Park (village square) — picnic on the village green, playround for children",
+      "Palliser Estate cellar door — one of the most family-friendly cellar doors in the region",
+      "Village cycling — hire bikes in Martinborough and cycle between cellar doors (adult + cargo bike for kids)",
+      "Toast Martinborough (November) — NZ's largest wine and food festival. Family-friendly day out.",
+      "Stonehenge Aotearoa (20 min north near Carterton) — a full-scale working Stonehenge replica. $15/adult."
+    ],
+    "rainy_day": ["Martinborough Hotel bar for adults; warm café for kids", "Drive to Masterton for more options"],
+    "accommodation_note": "The Martinborough Hotel is excellent but expensive. Holiday homes and B&Bs. Book ahead for Toast Martinborough.",
+    "budget_note": "Cellar door tastings $5–10/person. Village cycling hire ~$25/day. Good value lunch at the village cafés.",
+    "nearby_destinations": ["wellington-with-kids"],
+    "faqs": [
+      {"q": "Can children join parents at Martinborough wine tastings?", "a": "Most Martinborough cellar doors are welcoming to children — they're small, relaxed operations rather than formal venues. Palliser Estate and Ata Rangi are particularly good for families. Children can explore the vineyards while parents taste. Bring a picnic for the Martinborough village square and let kids run around while you visit a cellar door or two."}
+    ]
+  }
+]

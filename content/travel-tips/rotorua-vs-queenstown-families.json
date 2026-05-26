@@ -14,20 +14,72 @@
     {
       "heading": "Head-to-Head Comparison",
       "table": {
-        "headers": ["Factor", "Rotorua", "Queenstown"],
+        "headers": [
+          "Factor",
+          "Rotorua",
+          "Queenstown"
+        ],
         "rows": [
-          ["Best for age", "0–12 (broad range)", "10+ (adventure focused)"],
-          ["Daily budget (family 4)", "$280–450", "$350–600+"],
-          ["Drive from Auckland", "2.5 hours", "Not accessible from Auckland by road in 1 day"],
-          ["Drive from Christchurch", "6–7 hours", "4.5 hours"],
-          ["Island", "North Island", "South Island"],
-          ["Signature activity", "Geothermal parks + farm shows", "Bungy, Shotover Jet, Skyline Luge"],
-          ["Min age for signature activity", "0 (Agrodome farm show)", "3–10 depending on activity"],
-          ["Rain behaviour", "Most activities rain-safe", "Many activities are fine in rain, some close"],
-          ["Maori culture", "Excellent — NZ's cultural capital", "Limited — more adventure focus"],
-          ["Natural scenery", "Volcanic, alien, unique", "Alpine, dramatic, spectacular"],
-          ["Winter visit?", "Year-round, geothermal keeps it warm", "Ski season June–September — excellent"],
-          ["Summer visit?", "Excellent — all activities open", "Excellent — longest days, lake activities"]
+          [
+            "Best for age",
+            "0–12 (broad range)",
+            "10+ (adventure focused)"
+          ],
+          [
+            "Daily budget (family 4)",
+            "$280–450",
+            "$350–600+"
+          ],
+          [
+            "Drive from Auckland",
+            "2.5 hours",
+            "Not accessible from Auckland by road in 1 day"
+          ],
+          [
+            "Drive from Christchurch",
+            "6–7 hours",
+            "4.5 hours"
+          ],
+          [
+            "Island",
+            "North Island",
+            "South Island"
+          ],
+          [
+            "Signature activity",
+            "Geothermal parks + farm shows",
+            "Bungy, Shotover Jet, Skyline Luge"
+          ],
+          [
+            "Min age for signature activity",
+            "0 (Agrodome farm show)",
+            "3–10 depending on activity"
+          ],
+          [
+            "Rain behaviour",
+            "Most activities rain-safe",
+            "Many activities are fine in rain, some close"
+          ],
+          [
+            "Maori culture",
+            "Excellent — NZ's cultural capital",
+            "Limited — more adventure focus"
+          ],
+          [
+            "Natural scenery",
+            "Volcanic, alien, unique",
+            "Alpine, dramatic, spectacular"
+          ],
+          [
+            "Winter visit?",
+            "Year-round, geothermal keeps it warm",
+            "Ski season June–September — excellent"
+          ],
+          [
+            "Summer visit?",
+            "Excellent — all activities open",
+            "Excellent — longest days, lake activities"
+          ]
         ]
       }
     },
@@ -56,13 +108,37 @@
     {
       "heading": "Cost Comparison — 3 Days Each",
       "table": {
-        "headers": ["Cost item", "Rotorua (3 days, family 4)", "Queenstown (3 days, family 4)"],
+        "headers": [
+          "Cost item",
+          "Rotorua (3 days, family 4)",
+          "Queenstown (3 days, family 4)"
+        ],
         "rows": [
-          ["Accommodation", "$280–500 (holiday park or motel)", "$350–700 (limited budget options)"],
-          ["Top 3 paid activities", "$350–500 (Wai-O-Tapu, Te Puia, Agrodome)", "$600–1,000 (Luge, Shotover Jet, Nevis)"],
-          ["Food (3 days)", "$200–350 (self-catering + eating out)", "$250–450 (eating out more expensive)"],
-          ["Total estimate", "$830–1,350", "$1,200–2,150"],
-          ["Per person", "$208–338", "$300–538"]
+          [
+            "Accommodation",
+            "$280–500 (holiday park or motel)",
+            "$350–700 (limited budget options)"
+          ],
+          [
+            "Top 3 paid activities",
+            "$350–500 (Wai-O-Tapu, Te Puia, Agrodome)",
+            "$600–1,000 (Luge, Shotover Jet, Nevis)"
+          ],
+          [
+            "Food (3 days)",
+            "$200–350 (self-catering + eating out)",
+            "$250–450 (eating out more expensive)"
+          ],
+          [
+            "Total estimate",
+            "$830–1,350",
+            "$1,200–2,150"
+          ],
+          [
+            "Per person",
+            "$208–338",
+            "$300–538"
+          ]
         ]
       }
     },
@@ -95,5 +171,11 @@
       "heading": "The Final Verdict",
       "body": "Young family (kids under 10): prioritise Rotorua. Family with teenagers: Queenstown is the destination they'll talk about for years. Mixed-age family: if you can only pick one and have limited days, let the oldest child cast the deciding vote — they'll tell you exactly what they want. And if your budget allows it, do both: fly Auckland → Queenstown on a 7-day trip, or include both in a 10–14 day NZ road trip."
     }
-  ]
+  ],
+  "hero_image": {
+    "url": "https://images.unsplash.com/photo-1519699047748-de8e457a634e?w=1200&q=80",
+    "thumb": "https://images.unsplash.com/photo-1519699047748-de8e457a634e?w=600&q=70",
+    "alt": "Comparing Rotorua and Queenstown NZ",
+    "credit": "Unsplash / Sergey Pesterev"
+  }
 }

@@ -10,6 +10,7 @@
   <url><loc>https://nzfamilytravel.co.nz/tools</loc><lastmod>2026-05-26</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://nzfamilytravel.co.nz/travel-tips</loc><lastmod>2026-05-26</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://nzfamilytravel.co.nz/overseas</loc><lastmod>2026-05-26</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://nzfamilytravel.co.nz/cities</loc><lastmod>2026-05-26</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://nzfamilytravel.co.nz/destinations/queenstown-with-kids</loc><lastmod>2026-05-26</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url><loc>https://nzfamilytravel.co.nz/destinations/rotorua-family-guide</loc><lastmod>2026-05-26</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url><loc>https://nzfamilytravel.co.nz/destinations/taupo-with-kids</loc><lastmod>2026-05-26</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
@@ -75,20 +76,20 @@
   <url><loc>https://nzfamilytravel.co.nz/activity/mount-maunganui-surf-lesson</loc><lastmod>2026-05-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://nzfamilytravel.co.nz/activity/cape-kidnappers-gannet-tour</loc><lastmod>2026-05-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://nzfamilytravel.co.nz/activity/royal-albatross-centre-dunedin</loc><lastmod>2026-05-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://nzfamilytravel.co.nz/activities/nelson</loc><lastmod>2026-05-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://nzfamilytravel.co.nz/activities/northland</loc><lastmod>2026-05-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://nzfamilytravel.co.nz/activities/hawkes-bay</loc><lastmod>2026-05-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://nzfamilytravel.co.nz/activities/rotorua</loc><lastmod>2026-05-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://nzfamilytravel.co.nz/activities/coromandel</loc><lastmod>2026-05-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://nzfamilytravel.co.nz/activities/tauranga</loc><lastmod>2026-05-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://nzfamilytravel.co.nz/activities/wanaka</loc><lastmod>2026-05-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://nzfamilytravel.co.nz/activities/nelson</loc><lastmod>2026-05-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://nzfamilytravel.co.nz/activities/dunedin</loc><lastmod>2026-05-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://nzfamilytravel.co.nz/activities/queenstown</loc><lastmod>2026-05-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://nzfamilytravel.co.nz/activities/rotorua</loc><lastmod>2026-05-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://nzfamilytravel.co.nz/activities/hawkes-bay</loc><lastmod>2026-05-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://nzfamilytravel.co.nz/activities/bay-of-islands</loc><lastmod>2026-05-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://nzfamilytravel.co.nz/activities/wanaka</loc><lastmod>2026-05-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://nzfamilytravel.co.nz/activities/taupo</loc><lastmod>2026-05-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://nzfamilytravel.co.nz/activities/wellington</loc><lastmod>2026-05-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://nzfamilytravel.co.nz/activities/christchurch</loc><lastmod>2026-05-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://nzfamilytravel.co.nz/activities/coromandel</loc><lastmod>2026-05-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://nzfamilytravel.co.nz/activities/wellington</loc><lastmod>2026-05-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://nzfamilytravel.co.nz/activities/fiordland</loc><lastmod>2026-05-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://nzfamilytravel.co.nz/activities/tauranga</loc><lastmod>2026-05-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://nzfamilytravel.co.nz/activities/taupo</loc><lastmod>2026-05-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://nzfamilytravel.co.nz/tools/nz-best-month-to-visit</loc><lastmod>2026-05-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://nzfamilytravel.co.nz/tools/nz-driving-times</loc><lastmod>2026-05-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://nzfamilytravel.co.nz/tools/nz-family-packing-list</loc><lastmod>2026-05-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
@@ -132,6 +133,39 @@
   <url><loc>https://nzfamilytravel.co.nz/overseas/singapore-with-kids</loc><lastmod>2026-05-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://nzfamilytravel.co.nz/overseas/thailand-with-kids</loc><lastmod>2026-05-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://nzfamilytravel.co.nz/overseas/vietnam-with-kids</loc><lastmod>2026-05-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nzfamilytravel.co.nz/cities/hamilton</loc><lastmod>2026-05-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nzfamilytravel.co.nz/cities/matamata</loc><lastmod>2026-05-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nzfamilytravel.co.nz/cities/raglan</loc><lastmod>2026-05-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nzfamilytravel.co.nz/cities/cambridge</loc><lastmod>2026-05-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nzfamilytravel.co.nz/cities/whanganui</loc><lastmod>2026-05-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nzfamilytravel.co.nz/cities/palmerston-north</loc><lastmod>2026-05-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nzfamilytravel.co.nz/cities/whangarei</loc><lastmod>2026-05-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nzfamilytravel.co.nz/cities/kerikeri</loc><lastmod>2026-05-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nzfamilytravel.co.nz/cities/ohakune</loc><lastmod>2026-05-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nzfamilytravel.co.nz/cities/paraparaumu</loc><lastmod>2026-05-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nzfamilytravel.co.nz/cities/masterton</loc><lastmod>2026-05-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nzfamilytravel.co.nz/cities/picton</loc><lastmod>2026-05-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nzfamilytravel.co.nz/cities/kaikoura</loc><lastmod>2026-05-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nzfamilytravel.co.nz/cities/hanmer-springs</loc><lastmod>2026-05-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nzfamilytravel.co.nz/cities/akaroa</loc><lastmod>2026-05-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nzfamilytravel.co.nz/cities/methven</loc><lastmod>2026-05-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nzfamilytravel.co.nz/cities/timaru</loc><lastmod>2026-05-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nzfamilytravel.co.nz/cities/oamaru</loc><lastmod>2026-05-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nzfamilytravel.co.nz/cities/te-anau</loc><lastmod>2026-05-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nzfamilytravel.co.nz/cities/arrowtown</loc><lastmod>2026-05-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nzfamilytravel.co.nz/cities/cromwell</loc><lastmod>2026-05-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nzfamilytravel.co.nz/cities/invercargill</loc><lastmod>2026-05-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nzfamilytravel.co.nz/cities/hokitika</loc><lastmod>2026-05-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nzfamilytravel.co.nz/cities/greymouth</loc><lastmod>2026-05-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nzfamilytravel.co.nz/cities/westport</loc><lastmod>2026-05-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nzfamilytravel.co.nz/cities/motueka</loc><lastmod>2026-05-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nzfamilytravel.co.nz/cities/alexandra</loc><lastmod>2026-05-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nzfamilytravel.co.nz/cities/gore</loc><lastmod>2026-05-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nzfamilytravel.co.nz/cities/paihia</loc><lastmod>2026-05-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nzfamilytravel.co.nz/cities/whitianga</loc><lastmod>2026-05-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nzfamilytravel.co.nz/cities/lower-hutt</loc><lastmod>2026-05-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nzfamilytravel.co.nz/cities/greytown</loc><lastmod>2026-05-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://nzfamilytravel.co.nz/cities/martinborough</loc><lastmod>2026-05-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://nzfamilytravel.co.nz/posts</loc><lastmod>2026-05-26</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
   <url><loc>https://nzfamilytravel.co.nz/posts/hawkes-bay-family-guide-budget-family-guide-2026-05</loc><lastmod>2026-05-26</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://nzfamilytravel.co.nz/posts/hot-water-beach-coromandel-family-review-2026-05</loc><lastmod>2026-05-26</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>

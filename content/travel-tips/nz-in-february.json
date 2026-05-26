@@ -1,21 +1,21 @@
 {
   "slug": "nz-in-february",
   "short_title": "NZ in February",
-  "title": "NZ Family Holiday in February 2026 \u2014 The Smart Month to Visit",
-  "meta_desc": "NZ in February with kids: why February is arguably the best month for NZ family travel \u2014 school holidays end, summer stays, prices drop, and crowds thin. Real advice.",
-  "intro": "February is arguably the best month for NZ family travel. School holidays end around late January, meaning from early February the summer conditions remain but the crowds and prices drop by 20-30%. Warm oceans, long days, and uncrowded beaches \u2014 February is the locals' secret.",
+  "title": "NZ Family Holiday in February 2026 — The Smart Month to Visit",
+  "meta_desc": "NZ in February with kids: why February is arguably the best month for NZ family travel — school holidays end, summer stays, prices drop, and crowds thin. Real advice.",
+  "intro": "February is arguably the best month for NZ family travel. School holidays end around late January, meaning from early February the summer conditions remain but the crowds and prices drop by 20-30%. Warm oceans, long days, and uncrowded beaches — February is the locals' secret.",
   "updated": "May 2026",
   "reading_time": 6,
   "sections": [
     {
       "heading": "Why February is Better Than January",
       "list": [
-        "School holidays end late January/early February \u2014 crowds drop 30-40% almost overnight",
+        "School holidays end late January/early February — crowds drop 30-40% almost overnight",
         "Accommodation prices drop 20-30% vs January peak immediately after school holidays end",
-        "Campervan availability returns \u2014 short-notice bookings become possible again",
-        "Ocean water is at its warmest in February \u2014 Northland and Bay of Plenty reach 22-24C",
-        "Produce markets peak in February \u2014 NZ's stone fruit, corn, and tomatoes are at their best",
-        "February weather is more settled than January in many regions \u2014 fewer thunderstorms"
+        "Campervan availability returns — short-notice bookings become possible again",
+        "Ocean water is at its warmest in February — Northland and Bay of Plenty reach 22-24C",
+        "Produce markets peak in February — NZ's stone fruit, corn, and tomatoes are at their best",
+        "February weather is more settled than January in many regions — fewer thunderstorms"
       ]
     },
     {
@@ -55,7 +55,7 @@
             "25C",
             "7 days",
             "21C",
-            "Glorious \u2014 often NZ's best weather"
+            "Glorious — often NZ's best weather"
           ],
           [
             "Christchurch / Canterbury",
@@ -84,21 +84,21 @@
     {
       "heading": "Best February Destinations",
       "list": [
-        "Nelson / Abel Tasman \u2014 February is peak condition for the Abel Tasman track and water activities. Book the Coastal Track 4-6 months ahead even in February.",
-        "Coromandel \u2014 quieter than January, sea at 23C, Hot Water Beach finally manageable. Still arrive early but 9am now works instead of 7am.",
-        "Bay of Islands \u2014 post-school-holiday sweet spot. Dolphin cruises and water activities without January intensity.",
-        "Wanaka \u2014 lake is at its warmest, Roy's Peak less crowded than January, Puzzling World walk-up available.",
-        "Northland (Cape Reinga, Ninety Mile Beach) \u2014 February has the best weather and the crowds are gone. The Cape Reinga day trip is spectacular."
+        "Nelson / Abel Tasman — February is peak condition for the Abel Tasman track and water activities. Book the Coastal Track 4-6 months ahead even in February.",
+        "Coromandel — quieter than January, sea at 23C, Hot Water Beach finally manageable. Still arrive early but 9am now works instead of 7am.",
+        "Bay of Islands — post-school-holiday sweet spot. Dolphin cruises and water activities without January intensity.",
+        "Wanaka — lake is at its warmest, Roy's Peak less crowded than January, Puzzling World walk-up available.",
+        "Northland (Cape Reinga, Ninety Mile Beach) — February has the best weather and the crowds are gone. The Cape Reinga day trip is spectacular."
       ]
     },
     {
       "heading": "February Activities to Prioritise",
       "list": [
-        "Swimming at any NZ beach \u2014 February is when the ocean is warmest nationwide",
-        "Abel Tasman Coast Track day walks or overnight huts \u2014 book even in February, huts fill",
-        "Tongariro Alpine Crossing \u2014 excellent conditions in February, less crowded than January. Start early (6am) to beat the day-trippers.",
-        "Wine region visits (Marlborough, Hawke's Bay) \u2014 harvest begins in February, wineries often open for tastings",
-        "Any water activity (kayaking, paddle boarding, jet skiing) \u2014 warm water maximises the experience"
+        "Swimming at any NZ beach — February is when the ocean is warmest nationwide",
+        "Abel Tasman Coast Track day walks or overnight huts — book even in February, huts fill",
+        "Tongariro Alpine Crossing — excellent conditions in February, less crowded than January. Start early (6am) to beat the day-trippers.",
+        "Wine region visits (Marlborough, Hawke's Bay) — harvest begins in February, wineries often open for tastings",
+        "Any water activity (kayaking, paddle boarding, jet skiing) — warm water maximises the experience"
       ]
     },
     {
@@ -106,9 +106,9 @@
       "list": [
         "First two weeks of February: still book ahead (school holidays in some states of Australia mean AU families are visiting)",
         "After February 10: short-notice bookings often possible for campervans and holiday parks",
-        "Abel Tasman huts: still need advance booking even in February \u2014 the track is popular year-round",
+        "Abel Tasman huts: still need advance booking even in February — the track is popular year-round",
         "Queenstown activities: walk-up availability returns in mid-February at most operators",
-        "Cost saving tip: compare February vs January prices on the same accommodation \u2014 often 20-30% cheaper for identical quality"
+        "Cost saving tip: compare February vs January prices on the same accommodation — often 20-30% cheaper for identical quality"
       ],
       "cta": {
         "text": "Compare February campervan prices",
@@ -116,5 +116,11 @@
         "affiliate": true
       }
     }
-  ]
+  ],
+  "hero_image": {
+    "url": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=1200&q=80",
+    "thumb": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=600&q=70",
+    "alt": "NZ outdoor family adventure in late summer",
+    "credit": "Unsplash / Tobias Cornille"
+  }
 }

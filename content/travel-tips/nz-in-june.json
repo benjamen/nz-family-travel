@@ -14,15 +14,63 @@
     {
       "heading": "June Weather Across NZ",
       "table": {
-        "headers": ["Region", "Average high", "Rain days", "Snow chance", "Notes"],
+        "headers": [
+          "Region",
+          "Average high",
+          "Rain days",
+          "Snow chance",
+          "Notes"
+        ],
         "rows": [
-          ["Auckland / Northland", "15C", "14 days", "None", "Cold and rainy — mostly city activities"],
-          ["Bay of Plenty / Rotorua", "13C", "13 days", "Rare", "Thermal steam looks spectacular in cold air"],
-          ["Wellington", "11C", "15 days", "Very rare", "Cold, windy, wet — not a family winter destination"],
-          ["Nelson / Marlborough", "13C", "12 days", "On hills only", "One of the better winter spots — occasionally sunny"],
-          ["Christchurch / Canterbury", "11C", "12 days", "On hills", "Cold but functional — good for city attractions"],
-          ["Queenstown / Wanaka", "10C", "11 days", "Yes — ski fields", "Peak winter destination — ski season opens"],
-          ["Fiordland", "9C", "16 days", "On peaks", "Very wet, very dramatic — suited to adventure families"]
+          [
+            "Auckland / Northland",
+            "15C",
+            "14 days",
+            "None",
+            "Cold and rainy — mostly city activities"
+          ],
+          [
+            "Bay of Plenty / Rotorua",
+            "13C",
+            "13 days",
+            "Rare",
+            "Thermal steam looks spectacular in cold air"
+          ],
+          [
+            "Wellington",
+            "11C",
+            "15 days",
+            "Very rare",
+            "Cold, windy, wet — not a family winter destination"
+          ],
+          [
+            "Nelson / Marlborough",
+            "13C",
+            "12 days",
+            "On hills only",
+            "One of the better winter spots — occasionally sunny"
+          ],
+          [
+            "Christchurch / Canterbury",
+            "11C",
+            "12 days",
+            "On hills",
+            "Cold but functional — good for city attractions"
+          ],
+          [
+            "Queenstown / Wanaka",
+            "10C",
+            "11 days",
+            "Yes — ski fields",
+            "Peak winter destination — ski season opens"
+          ],
+          [
+            "Fiordland",
+            "9C",
+            "16 days",
+            "On peaks",
+            "Very wet, very dramatic — suited to adventure families"
+          ]
         ]
       }
     },
@@ -61,5 +109,11 @@
         "affiliate": true
       }
     }
-  ]
+  ],
+  "hero_image": {
+    "url": "https://images.unsplash.com/photo-1551524559-8af4e6624178?w=1200&q=80",
+    "thumb": "https://images.unsplash.com/photo-1551524559-8af4e6624178?w=600&q=70",
+    "alt": "Ski resort family holiday in NZ winter",
+    "credit": "Unsplash / Alain Bonnardeaux"
+  }
 }

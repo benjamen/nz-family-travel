@@ -10,15 +10,63 @@
     {
       "heading": "Day Trips at a Glance",
       "table": {
-        "headers": ["Destination", "Drive from Auckland", "Best for ages", "Family cost (approx)", "Worth it?"],
+        "headers": [
+          "Destination",
+          "Drive from Auckland",
+          "Best for ages",
+          "Family cost (approx)",
+          "Worth it?"
+        ],
         "rows": [
-          ["Piha Beach", "45 min", "All ages", "$30–60 (fuel + parking)", "Yes — free, spectacular"],
-          ["Waiheke Island", "35 min ferry", "All ages", "$150–250 (ferry + activities)", "Yes — unique day out"],
-          ["Waitomo Caves", "2h 15min", "5+", "$200–350 (tickets + fuel)", "Yes — unmissable"],
-          ["Hobbiton (Matamata)", "2h", "7+", "$280–400 (tickets + fuel)", "Yes, for Tolkien fans"],
-          ["Hot Water Beach", "2h 30min", "All ages", "$60–120 (fuel)", "Yes — unique experience"],
-          ["Coromandel town", "2h 30min", "All ages", "$80–150 (fuel + lunch)", "Yes — beautiful"],
-          ["Tawharanui Beach", "1h 15min", "All ages", "$20–40", "Yes — best north Auckland beach"]
+          [
+            "Piha Beach",
+            "45 min",
+            "All ages",
+            "$30–60 (fuel + parking)",
+            "Yes — free, spectacular"
+          ],
+          [
+            "Waiheke Island",
+            "35 min ferry",
+            "All ages",
+            "$150–250 (ferry + activities)",
+            "Yes — unique day out"
+          ],
+          [
+            "Waitomo Caves",
+            "2h 15min",
+            "5+",
+            "$200–350 (tickets + fuel)",
+            "Yes — unmissable"
+          ],
+          [
+            "Hobbiton (Matamata)",
+            "2h",
+            "7+",
+            "$280–400 (tickets + fuel)",
+            "Yes, for Tolkien fans"
+          ],
+          [
+            "Hot Water Beach",
+            "2h 30min",
+            "All ages",
+            "$60–120 (fuel)",
+            "Yes — unique experience"
+          ],
+          [
+            "Coromandel town",
+            "2h 30min",
+            "All ages",
+            "$80–150 (fuel + lunch)",
+            "Yes — beautiful"
+          ],
+          [
+            "Tawharanui Beach",
+            "1h 15min",
+            "All ages",
+            "$20–40",
+            "Yes — best north Auckland beach"
+          ]
         ]
       }
     },
@@ -67,5 +115,11 @@
         "affiliate": false
       }
     }
-  ]
+  ],
+  "hero_image": {
+    "url": "https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?w=1200&q=80",
+    "thumb": "https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?w=600&q=70",
+    "alt": "Auckland skyline and Hauraki Gulf day trips",
+    "credit": "Unsplash / Dan Freeman"
+  }
 }

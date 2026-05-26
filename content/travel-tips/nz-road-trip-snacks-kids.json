@@ -72,5 +72,11 @@
         "affiliate": false
       }
     }
-  ]
+  ],
+  "hero_image": {
+    "url": "https://images.unsplash.com/photo-1553025934-296397db4010?w=1200&q=80",
+    "thumb": "https://images.unsplash.com/photo-1553025934-296397db4010?w=600&q=70",
+    "alt": "Kids road trip snacks packed for NZ journey",
+    "credit": "Unsplash / Maarten van den Heuvel"
+  }
 }

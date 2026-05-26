@@ -14,15 +14,55 @@
     {
       "heading": "September Weather Across NZ",
       "table": {
-        "headers": ["Region", "Average high", "Rain days", "Notes"],
+        "headers": [
+          "Region",
+          "Average high",
+          "Rain days",
+          "Notes"
+        ],
         "rows": [
-          ["Auckland / Northland", "17C", "13 days", "Spring showers but warming fast — lovely for outdoor activities"],
-          ["Coromandel / Bay of Plenty", "17C", "12 days", "Sea still cool (16C) but beach walks are delightful"],
-          ["Wellington", "13C", "14 days", "Windy and spring-stormy — plan for indoor backup activities"],
-          ["Nelson / Marlborough", "17C", "11 days", "Often beautiful spring weather — one of the best September destinations"],
-          ["Christchurch", "15C", "11 days", "Warming up fast — Botanic Gardens are stunning in early blossom"],
-          ["Queenstown / Wanaka", "14C", "11 days", "Ski fields closing late September; spring activities beginning"],
-          ["Fiordland", "12C", "15 days", "Still wet but Milford Sound is uncrowded and otherworldly"]
+          [
+            "Auckland / Northland",
+            "17C",
+            "13 days",
+            "Spring showers but warming fast — lovely for outdoor activities"
+          ],
+          [
+            "Coromandel / Bay of Plenty",
+            "17C",
+            "12 days",
+            "Sea still cool (16C) but beach walks are delightful"
+          ],
+          [
+            "Wellington",
+            "13C",
+            "14 days",
+            "Windy and spring-stormy — plan for indoor backup activities"
+          ],
+          [
+            "Nelson / Marlborough",
+            "17C",
+            "11 days",
+            "Often beautiful spring weather — one of the best September destinations"
+          ],
+          [
+            "Christchurch",
+            "15C",
+            "11 days",
+            "Warming up fast — Botanic Gardens are stunning in early blossom"
+          ],
+          [
+            "Queenstown / Wanaka",
+            "14C",
+            "11 days",
+            "Ski fields closing late September; spring activities beginning"
+          ],
+          [
+            "Fiordland",
+            "12C",
+            "15 days",
+            "Still wet but Milford Sound is uncrowded and otherworldly"
+          ]
         ]
       }
     },
@@ -52,5 +92,11 @@
         "affiliate": true
       }
     }
-  ]
+  ],
+  "hero_image": {
+    "url": "https://images.unsplash.com/photo-1462275646964-a0e3386b89fa?w=1200&q=80",
+    "thumb": "https://images.unsplash.com/photo-1462275646964-a0e3386b89fa?w=600&q=70",
+    "alt": "NZ wildflowers in bloom September",
+    "credit": "Unsplash / Annie Spratt"
+  }
 }

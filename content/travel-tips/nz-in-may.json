@@ -20,15 +20,63 @@
     {
       "heading": "May Weather Across NZ",
       "table": {
-        "headers": ["Region", "Average high", "Rain days", "Daylight hours", "Notes"],
+        "headers": [
+          "Region",
+          "Average high",
+          "Rain days",
+          "Daylight hours",
+          "Notes"
+        ],
         "rows": [
-          ["Auckland / Northland", "17C", "13 days", "10.5 hrs", "Overcast but mild; still pleasant for city visits"],
-          ["Coromandel / Bay of Plenty", "17C", "12 days", "10.5 hrs", "Too cool for swimming; good for walks"],
-          ["Wellington", "13C", "14 days", "10 hrs", "Cold and windy; wrap up well"],
-          ["Nelson / Marlborough", "16C", "11 days", "10 hrs", "Often sunny autumn days; one of the better May spots"],
-          ["Christchurch / Canterbury", "14C", "11 days", "10 hrs", "Cool and crisp; good for walking and museums"],
-          ["Queenstown / Wanaka", "13C", "10 days", "9.5 hrs", "Last of the autumn colours; ski prep begins"],
-          ["Fiordland", "11C", "15 days", "9.5 hrs", "Getting wet — not ideal without a waterproof campervan"]
+          [
+            "Auckland / Northland",
+            "17C",
+            "13 days",
+            "10.5 hrs",
+            "Overcast but mild; still pleasant for city visits"
+          ],
+          [
+            "Coromandel / Bay of Plenty",
+            "17C",
+            "12 days",
+            "10.5 hrs",
+            "Too cool for swimming; good for walks"
+          ],
+          [
+            "Wellington",
+            "13C",
+            "14 days",
+            "10 hrs",
+            "Cold and windy; wrap up well"
+          ],
+          [
+            "Nelson / Marlborough",
+            "16C",
+            "11 days",
+            "10 hrs",
+            "Often sunny autumn days; one of the better May spots"
+          ],
+          [
+            "Christchurch / Canterbury",
+            "14C",
+            "11 days",
+            "10 hrs",
+            "Cool and crisp; good for walking and museums"
+          ],
+          [
+            "Queenstown / Wanaka",
+            "13C",
+            "10 days",
+            "9.5 hrs",
+            "Last of the autumn colours; ski prep begins"
+          ],
+          [
+            "Fiordland",
+            "11C",
+            "15 days",
+            "9.5 hrs",
+            "Getting wet — not ideal without a waterproof campervan"
+          ]
         ]
       }
     },
@@ -67,5 +115,11 @@
         "affiliate": true
       }
     }
-  ]
+  ],
+  "hero_image": {
+    "url": "https://images.unsplash.com/photo-1433086966628-8de40b29beea?w=1200&q=80",
+    "thumb": "https://images.unsplash.com/photo-1433086966628-8de40b29beea?w=600&q=70",
+    "alt": "Winter mist over NZ countryside in May",
+    "credit": "Unsplash / Patrick Selin"
+  }
 }

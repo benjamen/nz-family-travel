@@ -58,5 +58,11 @@
   "slug": "marlborough-blenheim-family-may-family-guide",
   "updated": "May 2026",
   "auto_generated": true,
-  "generated_date": "2026-05-25"
+  "generated_date": "2026-05-25",
+  "hero_image": {
+    "url": "https://images.unsplash.com/photo-1543352634-a1c51d9f1fa7?w=1200&q=80",
+    "thumb": "https://images.unsplash.com/photo-1543352634-a1c51d9f1fa7?w=600&q=70",
+    "alt": "Marlborough Sounds family boat trip",
+    "credit": "Unsplash / Nathan Jennings"
+  }
 }

@@ -460,6 +460,27 @@ body { padding-bottom: 46px; }
   margin-bottom: 0;
 }
 
+/* === Guide / tool hero image === */
+.guide-hero-img {
+  max-width: var(--max-w);
+  margin: 0 auto;
+  padding: 0 1.25rem 1.5rem;
+  position: relative;
+}
+.guide-hero-img img {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: var(--radius);
+}
+.guide-hero-img .img-credit {
+  display: block;
+  font-size: .72rem;
+  color: #9ca3af;
+  margin-top: .35rem;
+  text-align: right;
+}
+
 /* === Photo gallery === */
 .photo-gallery { display: flex; flex-direction: column; gap: 1rem; }
 .gallery-main img { width: 100%; max-height: 480px; object-fit: cover; border-radius: var(--radius); }

@@ -21,15 +21,55 @@
     {
       "heading": "August Weather Across NZ",
       "table": {
-        "headers": ["Region", "Average high", "Rain days", "Notes"],
+        "headers": [
+          "Region",
+          "Average high",
+          "Rain days",
+          "Notes"
+        ],
         "rows": [
-          ["Auckland / Northland", "15C", "13 days", "Gradually improving; often sunny stretches"],
-          ["Rotorua / Bay of Plenty", "13C", "12 days", "Thermal regions are excellent in August"],
-          ["Wellington", "11C", "14 days", "Still windy and cold — not a beach month"],
-          ["Nelson / Marlborough", "14C", "11 days", "Sunnier than Wellington, reasonable for outdoor activity"],
-          ["Christchurch", "12C", "11 days", "Cold but often clear — Mt Hutt is usually excellent in August"],
-          ["Queenstown / Wanaka", "10C", "10 days", "Good ski conditions; far less crowded than July"],
-          ["Fiordland", "9C", "15 days", "Milford Sound is dramatic — road conditions need checking"]
+          [
+            "Auckland / Northland",
+            "15C",
+            "13 days",
+            "Gradually improving; often sunny stretches"
+          ],
+          [
+            "Rotorua / Bay of Plenty",
+            "13C",
+            "12 days",
+            "Thermal regions are excellent in August"
+          ],
+          [
+            "Wellington",
+            "11C",
+            "14 days",
+            "Still windy and cold — not a beach month"
+          ],
+          [
+            "Nelson / Marlborough",
+            "14C",
+            "11 days",
+            "Sunnier than Wellington, reasonable for outdoor activity"
+          ],
+          [
+            "Christchurch",
+            "12C",
+            "11 days",
+            "Cold but often clear — Mt Hutt is usually excellent in August"
+          ],
+          [
+            "Queenstown / Wanaka",
+            "10C",
+            "10 days",
+            "Good ski conditions; far less crowded than July"
+          ],
+          [
+            "Fiordland",
+            "9C",
+            "15 days",
+            "Milford Sound is dramatic — road conditions need checking"
+          ]
         ]
       }
     },
@@ -58,5 +98,11 @@
         "affiliate": true
       }
     }
-  ]
+  ],
+  "hero_image": {
+    "url": "https://images.unsplash.com/photo-1562690965-6adcc979cf97?w=1200&q=80",
+    "thumb": "https://images.unsplash.com/photo-1562690965-6adcc979cf97?w=600&q=70",
+    "alt": "Early spring thaw in New Zealand August",
+    "credit": "Unsplash / Adam Kool"
+  }
 }

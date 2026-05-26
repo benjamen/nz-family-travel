@@ -10,15 +10,63 @@
     {
       "heading": "October Weather Across NZ",
       "table": {
-        "headers": ["Region", "Average high", "Rain days", "Sea temp", "Notes"],
+        "headers": [
+          "Region",
+          "Average high",
+          "Rain days",
+          "Sea temp",
+          "Notes"
+        ],
         "rows": [
-          ["Auckland / Northland", "19C", "12 days", "17C", "Warm, sunny stretches — beaches are starting again"],
-          ["Coromandel / Bay of Plenty", "19C", "11 days", "17C", "Hahei, Hot Water Beach — lovely in late October"],
-          ["Wellington", "15C", "13 days", "14C", "Still blustery but warmer — spring events in full swing"],
-          ["Nelson / Marlborough", "19C", "10 days", "15C", "Outstanding — one of NZ's best spring destinations"],
-          ["Christchurch", "17C", "11 days", "14C", "Cherry blossoms fading, gardens lush and green"],
-          ["Queenstown / Wanaka", "16C", "10 days", "12C", "Ski fields closed; hiking season beginning — excellent weather window"],
-          ["Fiordland", "13C", "14 days", "10C", "Milford Sound is still relatively quiet vs summer"]
+          [
+            "Auckland / Northland",
+            "19C",
+            "12 days",
+            "17C",
+            "Warm, sunny stretches — beaches are starting again"
+          ],
+          [
+            "Coromandel / Bay of Plenty",
+            "19C",
+            "11 days",
+            "17C",
+            "Hahei, Hot Water Beach — lovely in late October"
+          ],
+          [
+            "Wellington",
+            "15C",
+            "13 days",
+            "14C",
+            "Still blustery but warmer — spring events in full swing"
+          ],
+          [
+            "Nelson / Marlborough",
+            "19C",
+            "10 days",
+            "15C",
+            "Outstanding — one of NZ's best spring destinations"
+          ],
+          [
+            "Christchurch",
+            "17C",
+            "11 days",
+            "14C",
+            "Cherry blossoms fading, gardens lush and green"
+          ],
+          [
+            "Queenstown / Wanaka",
+            "16C",
+            "10 days",
+            "12C",
+            "Ski fields closed; hiking season beginning — excellent weather window"
+          ],
+          [
+            "Fiordland",
+            "13C",
+            "14 days",
+            "10C",
+            "Milford Sound is still relatively quiet vs summer"
+          ]
         ]
       }
     },
@@ -51,5 +99,11 @@
         "affiliate": true
       }
     }
-  ]
+  ],
+  "hero_image": {
+    "url": "https://images.unsplash.com/photo-1505228709967-7e61e12efdd2?w=1200&q=80",
+    "thumb": "https://images.unsplash.com/photo-1505228709967-7e61e12efdd2?w=600&q=70",
+    "alt": "NZ spring hills green October",
+    "credit": "Unsplash / Photo by Dan Meyers"
+  }
 }

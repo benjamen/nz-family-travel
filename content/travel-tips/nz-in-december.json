@@ -10,15 +10,63 @@
     {
       "heading": "December Weather Across NZ",
       "table": {
-        "headers": ["Region", "Average high", "Rain days", "Sea temp", "Verdict"],
+        "headers": [
+          "Region",
+          "Average high",
+          "Rain days",
+          "Sea temp",
+          "Verdict"
+        ],
         "rows": [
-          ["Auckland / Northland", "23C", "10 days", "18C", "Warm and humid, occasional thunderstorms"],
-          ["Bay of Plenty / Rotorua", "24C", "9 days", "20C", "Excellent, reliably warm"],
-          ["Wellington", "18C", "11 days", "17C", "Can be windy, spring vibe more than summer"],
-          ["Nelson / Marlborough", "23C", "8 days", "18C", "Best sunshine in NZ, consistently fine"],
-          ["Christchurch / Canterbury", "22C", "8 days", "17C", "Great, warm and mostly settled"],
-          ["Queenstown / Wanaka", "22C", "10 days", "16C", "Spectacular, long days, all activities open"],
-          ["West Coast", "19C", "14 days", "15C", "Beautiful but rainiest coast in NZ"]
+          [
+            "Auckland / Northland",
+            "23C",
+            "10 days",
+            "18C",
+            "Warm and humid, occasional thunderstorms"
+          ],
+          [
+            "Bay of Plenty / Rotorua",
+            "24C",
+            "9 days",
+            "20C",
+            "Excellent, reliably warm"
+          ],
+          [
+            "Wellington",
+            "18C",
+            "11 days",
+            "17C",
+            "Can be windy, spring vibe more than summer"
+          ],
+          [
+            "Nelson / Marlborough",
+            "23C",
+            "8 days",
+            "18C",
+            "Best sunshine in NZ, consistently fine"
+          ],
+          [
+            "Christchurch / Canterbury",
+            "22C",
+            "8 days",
+            "17C",
+            "Great, warm and mostly settled"
+          ],
+          [
+            "Queenstown / Wanaka",
+            "22C",
+            "10 days",
+            "16C",
+            "Spectacular, long days, all activities open"
+          ],
+          [
+            "West Coast",
+            "19C",
+            "14 days",
+            "15C",
+            "Beautiful but rainiest coast in NZ"
+          ]
         ]
       }
     },
@@ -81,5 +129,11 @@
         "Book Christmas Day dinner ahead — most NZ restaurants are closed Christmas Day."
       ]
     }
-  ]
+  ],
+  "hero_image": {
+    "url": "https://images.unsplash.com/photo-1507699622108-4be3abd695ad?w=1200&q=80",
+    "thumb": "https://images.unsplash.com/photo-1507699622108-4be3abd695ad?w=600&q=70",
+    "alt": "NZ summer beach holiday December",
+    "credit": "Unsplash / Devin Avery"
+  }
 }

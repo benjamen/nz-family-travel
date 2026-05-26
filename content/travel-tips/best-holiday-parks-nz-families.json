@@ -43,12 +43,37 @@
     {
       "heading": "What Does a Holiday Park Actually Cost?",
       "table": {
-        "headers": ["Accommodation type", "Low season (May–Sept)", "Shoulder season", "Peak season (Dec–Jan)"],
+        "headers": [
+          "Accommodation type",
+          "Low season (May–Sept)",
+          "Shoulder season",
+          "Peak season (Dec–Jan)"
+        ],
         "rows": [
-          ["Powered site (tent/own caravan)", "$40–55/night", "$50–65/night", "$65–90/night"],
-          ["Standard cabin (basic, no en-suite)", "$95–140/night", "$130–170/night", "$160–230/night"],
-          ["Family unit (en-suite, kitchen)", "$160–220/night", "$190–270/night", "$250–380/night"],
-          ["Premium park lodge", "$220–300/night", "$280–380/night", "$380–520/night"]
+          [
+            "Powered site (tent/own caravan)",
+            "$40–55/night",
+            "$50–65/night",
+            "$65–90/night"
+          ],
+          [
+            "Standard cabin (basic, no en-suite)",
+            "$95–140/night",
+            "$130–170/night",
+            "$160–230/night"
+          ],
+          [
+            "Family unit (en-suite, kitchen)",
+            "$160–220/night",
+            "$190–270/night",
+            "$250–380/night"
+          ],
+          [
+            "Premium park lodge",
+            "$220–300/night",
+            "$280–380/night",
+            "$380–520/night"
+          ]
         ]
       }
     },
@@ -72,5 +97,11 @@
         "Examples: Totaranui (Abel Tasman), Milford Sound, Lake Pukaki (Mackenzie Basin) — all DOC sites with extraordinary settings"
       ]
     }
-  ]
+  ],
+  "hero_image": {
+    "url": "https://images.unsplash.com/photo-1504615755583-2916b52192a3?w=1200&q=80",
+    "thumb": "https://images.unsplash.com/photo-1504615755583-2916b52192a3?w=600&q=70",
+    "alt": "NZ top holiday park swimming pool",
+    "credit": "Unsplash / Ethan Sexton"
+  }
 }

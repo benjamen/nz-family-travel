@@ -1,0 +1,247 @@
+{% extends "base.html" %}
+
+{% block title %}{{ city.name }} with Kids — NZ Family Travel Guide 2026{% endblock %}
+{% block desc %}{{ city.name }} family guide: top things to do, rainy-day options, where to stay, and budget tips. {{ city.tagline }}{% endblock %}
+{% block canonical %}cities/{{ city.slug }}/{% endblock %}
+{% block og_type %}article{% endblock %}
+{% block og_title %}{{ city.name }} with Kids — 2026 NZ Family Guide{% endblock %}
+{% block og_desc %}{{ city.tagline }} Family score: {{ city.family_score }}/10. Best for {{ city.best_for }}.{% endblock %}
+{% block og_url %}cities/{{ city.slug }}/{% endblock %}
+
+{% block extra_head %}
+<script type="application/ld+json">
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "TouristDestination",
+    "name": "{{ city.name }}, New Zealand",
+    "description": "{{ city.tagline }}",
+    "touristType": "Family",
+    "url": "{{ site.base_url }}/cities/{{ city.slug }}/"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Home", "item": "{{ site.base_url }}/"},
+      {"@type": "ListItem", "position": 2, "name": "NZ Cities", "item": "{{ site.base_url }}/cities/"},
+      {"@type": "ListItem", "position": 3, "name": "{{ city.name }}", "item": "{{ site.base_url }}/cities/{{ city.slug }}/"}
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {% for faq in city.faqs %}
+      {
+        "@type": "Question",
+        "name": "{{ faq.q | replace('"', '&quot;') }}",
+        "acceptedAnswer": {"@type": "Answer", "text": "{{ faq.a | replace('"', '&quot;') }}"}
+      }{% if not loop.last %},{% endif %}
+      {% endfor %}
+    ]
+  }
+]
+</script>
+{% endblock %}
+
+{% block hero %}
+<section class="page-hero dest-hero">
+  <div class="hero-inner">
+    <div class="breadcrumb"><a href="/">Home</a> › <a href="/cities/">NZ Cities</a> › {{ city.name }}</div>
+    <div class="dest-hero-meta">
+      <span class="dest-island island-{{ city.island | lower | replace(' ', '-') }}">{{ city.island }}</span>
+      <span class="dest-region">{{ city.region }}</span>
+    </div>
+    <h1>{{ city.name }} with Kids — 2026 Family Guide</h1>
+    <p>{{ city.tagline }}</p>
+    <div class="dest-verdict-pill">
+      <span>⭐ Family score: {{ city.family_score }}/10 · Best for {{ city.best_for }}</span>
+    </div>
+  </div>
+</section>
+{% endblock %}
+
+{% block content %}
+
+<!-- Quick facts -->
+<section class="section">
+  <div class="quick-facts-block">
+    <h2 class="sr-only">Quick Facts</h2>
+    <div class="qf-grid">
+      <div class="qf-item">
+        <span class="qf-label">Best for</span>
+        <span class="qf-val">{{ city.best_for }}</span>
+      </div>
+      <div class="qf-item">
+        <span class="qf-label">Family score</span>
+        <span class="qf-val">{{ city.family_score }}/10</span>
+      </div>
+      <div class="qf-item">
+        <span class="qf-label">Region</span>
+        <span class="qf-val">{{ city.region }}, {{ city.island }}</span>
+      </div>
+      <div class="qf-item">
+        <span class="qf-label">Nearest airport</span>
+        <span class="qf-val">{{ city.nearest_airport }}</span>
+      </div>
+      {% if city.flight_from_auckland %}
+      <div class="qf-item">
+        <span class="qf-label">From Auckland</span>
+        <span class="qf-val">{{ city.flight_from_auckland }}</span>
+      </div>
+      {% endif %}
+      {% for from_city, drive_time in city.drive_from.items() %}
+      <div class="qf-item">
+        <span class="qf-label">Drive from {{ from_city }}</span>
+        <span class="qf-val">{{ drive_time }}</span>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- Affiliate strip -->
+{% set city_q = city.name | url_encode %}
+{% set booking_url = "https://www.booking.com/searchresults.html?ss=" ~ city_q ~ "%2C+New+Zealand&group_adults=2&group_children=2" %}
+{% set bookme_url = "https://www.bookme.co.nz/results/?where=" ~ city_q %}
+{% set viator_url = "https://www.viator.com/en-NZ/searchResults/all?text=" ~ city_q ~ "+New+Zealand&pid=P00098580" %}
+<div class="affiliate-strip">
+  <div class="aff-strip-inner">
+    <a href="{{ booking_url }}" class="aff-strip-item" rel="sponsored" target="_blank">
+      🏕️ <strong>Find Accommodation</strong> in {{ city.name }}
+    </a>
+    <a href="{{ bookme_url }}" class="aff-strip-item" rel="sponsored" target="_blank">
+      🎫 <strong>Book Activities</strong> in {{ city.name }} — save up to 40%
+    </a>
+    <a href="{{ viator_url }}" class="aff-strip-item" rel="sponsored" target="_blank">
+      🎟️ <strong>Tours & Experiences</strong> — Viator verified
+    </a>
+    <a href="{{ site.affiliates.discover_cars.url }}" class="aff-strip-item" rel="sponsored" target="_blank">
+      🚐 <strong>Compare Campervans</strong> — from $89/day
+    </a>
+  </div>
+</div>
+
+<!-- Overview -->
+<section class="section">
+  <h2>{{ city.name }} for Families — Overview</h2>
+  <div class="verdict-block">
+    <p class="verdict-text">{{ city.summary }}</p>
+  </div>
+</section>
+
+<!-- Top things to do -->
+<section class="section">
+  <h2>Top Things to Do in {{ city.name }} with Kids</h2>
+  <ul class="tips-list">
+    {% for thing in city.top_things_to_do %}
+    <li>✓ {{ thing }}</li>
+    {% endfor %}
+  </ul>
+  <div style="margin-top:1.5rem">
+    <a href="{{ bookme_url }}" class="btn btn-primary" rel="sponsored" target="_blank">Book {{ city.name }} Activities on Bookme →</a>
+    <a href="{{ viator_url }}" class="btn btn-outline" rel="sponsored" target="_blank" style="margin-left:.5rem">Browse Tours on Viator →</a>
+  </div>
+</section>
+
+<!-- Rainy day -->
+<section class="section section-alt">
+  <h2>Rainy Day Options — {{ city.name }}</h2>
+  <div class="rainy-grid">
+    {% for item in city.rainy_day %}
+    <div class="rainy-card">
+      <span class="rainy-icon">☂</span>
+      <span>{{ item }}</span>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+<!-- Where to stay -->
+<section class="section">
+  <h2>Where to Stay in {{ city.name }} with Kids</h2>
+  <div class="verdict-block">
+    <p>{{ city.accommodation_note }}</p>
+    <a href="{{ booking_url }}" class="btn btn-primary" rel="sponsored" target="_blank">Find {{ city.name }} Accommodation on Booking.com →</a>
+  </div>
+</section>
+
+<!-- Budget -->
+<section class="section section-alt">
+  <h2>{{ city.name }} Family Budget Guide</h2>
+  <div class="verdict-block">
+    <p>{{ city.budget_note }}</p>
+    <p>Use the <a href="/tools/nz-family-travel-budget-calculator/">NZ Family Travel Budget Calculator</a> to plan your full trip spend.</p>
+  </div>
+</section>
+
+<!-- Mid-page affiliate block -->
+<div class="mid-affiliate" style="margin:0">
+  <div class="mid-aff-inner">
+    <h3>Planning a trip to {{ city.name }}?</h3>
+    <div class="mid-aff-grid">
+      <a href="{{ booking_url }}" class="mid-aff-card" rel="sponsored" target="_blank">
+        <strong>🏕️ Find Accommodation</strong>
+        <span>Hotels, holiday parks, and apartments in {{ city.name }}.</span>
+      </a>
+      <a href="{{ site.affiliates.discover_cars.url }}" class="mid-aff-card" rel="sponsored" target="_blank">
+        <strong>🚐 Compare Campervans</strong>
+        <span>Jucy, Maui, Britz — from $89/day. Saves on accommodation.</span>
+      </a>
+      <a href="{{ site.affiliates.covermore.url }}" class="mid-aff-card" rel="sponsored" target="_blank">
+        <strong>🛡️ Travel Insurance</strong>
+        <span>Cover-More — essential for NZ travel with kids.</span>
+      </a>
+    </div>
+  </div>
+</div>
+
+<!-- FAQ -->
+<section class="section">
+  <h2>{{ city.name }} Family FAQ</h2>
+  <div class="faq-list">
+    {% for faq in city.faqs %}
+    <details class="faq-item">
+      <summary>{{ faq.q }}</summary>
+      <p>{{ faq.a }}</p>
+    </details>
+    {% endfor %}
+  </div>
+</section>
+
+<!-- Nearby destinations -->
+{% if city.nearby_destinations %}
+<section class="section section-alt">
+  <h2>Nearby Destinations to Combine with {{ city.name }}</h2>
+  <div class="nearby-grid">
+    {% for slug in city.nearby_destinations %}
+    {% set nearby = destinations | selectattr("slug", "equalto", slug) | first %}
+    {% if nearby %}
+    <a href="/destinations/{{ nearby.slug }}/" class="nearby-card">
+      <h3>{{ nearby.name }}</h3>
+      <p>{{ nearby.tagline }}</p>
+      <span>{{ nearby.quick_facts.budget_family4_per_day }}/day · Ages {{ nearby.quick_facts.best_ages }}</span>
+    </a>
+    {% endif %}
+    {% endfor %}
+    <a href="/cities/" class="nearby-card nearby-all">
+      <h3>All NZ Cities →</h3>
+      <p>Family guides for {{ cities | length }} NZ cities and towns.</p>
+    </a>
+  </div>
+</section>
+{% endif %}
+
+<!-- Cities hub link -->
+<section class="section">
+  <div class="dest-link-card">
+    <div>
+      <h3><a href="/cities/">All NZ City Family Guides →</a></h3>
+      <p>Family guides for {{ cities | length }} NZ cities and towns — from Whangarei to Invercargill.</p>
+    </div>
+    <a href="/cities/" class="btn btn-outline">See all cities →</a>
+  </div>
+</section>
+
+{% endblock %}

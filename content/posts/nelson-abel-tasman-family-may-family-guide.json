@@ -61,5 +61,11 @@
   "slug": "nelson-abel-tasman-family-may-family-guide",
   "updated": "May 2026",
   "auto_generated": true,
-  "generated_date": "2026-05-26"
+  "generated_date": "2026-05-26",
+  "hero_image": {
+    "url": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=1200&q=80",
+    "thumb": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=600&q=70",
+    "alt": "Nelson Abel Tasman NZ coastal family walk",
+    "credit": "Unsplash / Tim Swaan"
+  }
 }

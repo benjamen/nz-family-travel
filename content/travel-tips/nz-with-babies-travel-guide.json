@@ -39,14 +39,42 @@
     {
       "heading": "Campervan vs Hotel with a Baby",
       "table": {
-        "headers": ["Factor", "Campervan", "Hotel/Holiday Park Cabin"],
+        "headers": [
+          "Factor",
+          "Campervan",
+          "Hotel/Holiday Park Cabin"
+        ],
         "rows": [
-          ["Nappy changes", "Excellent — change table in van, stop anywhere", "Good at well-equipped parks"],
-          ["Night waking", "May disturb partner more in confined space", "Separate bedroom possible in cabin/unit"],
-          ["Baby bath", "Small sink or basin — manageable", "Full bathroom, easier"],
-          ["Flexibility", "Outstanding — feed and sleep on the road", "Less flexible, checkout/checkin pressure"],
-          ["Cost", "$170–250/day van, save on accommodation cost", "$120–250/night cabin + van hire"],
-          ["Verdict", "Works very well for mobile babies (6m+)", "Easier for newborns (0–4m)"]
+          [
+            "Nappy changes",
+            "Excellent — change table in van, stop anywhere",
+            "Good at well-equipped parks"
+          ],
+          [
+            "Night waking",
+            "May disturb partner more in confined space",
+            "Separate bedroom possible in cabin/unit"
+          ],
+          [
+            "Baby bath",
+            "Small sink or basin — manageable",
+            "Full bathroom, easier"
+          ],
+          [
+            "Flexibility",
+            "Outstanding — feed and sleep on the road",
+            "Less flexible, checkout/checkin pressure"
+          ],
+          [
+            "Cost",
+            "$170–250/day van, save on accommodation cost",
+            "$120–250/night cabin + van hire"
+          ],
+          [
+            "Verdict",
+            "Works very well for mobile babies (6m+)",
+            "Easier for newborns (0–4m)"
+          ]
         ]
       }
     },
@@ -96,5 +124,11 @@
         "Cost today: ~$65/adult entry fees + fuel + food"
       ]
     }
-  ]
+  ],
+  "hero_image": {
+    "url": "https://images.unsplash.com/photo-1565049793657-11cc47ec7c35?w=1200&q=80",
+    "thumb": "https://images.unsplash.com/photo-1565049793657-11cc47ec7c35?w=600&q=70",
+    "alt": "Parent travelling with baby in NZ",
+    "credit": "Unsplash / Kelly Sikkema"
+  }
 }

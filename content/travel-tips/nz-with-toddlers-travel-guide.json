@@ -14,14 +14,42 @@
     {
       "heading": "Best NZ Destinations for Toddlers (1–4 Years)",
       "table": {
-        "headers": ["Destination", "Why it works for toddlers", "Highlight activity"],
+        "headers": [
+          "Destination",
+          "Why it works for toddlers",
+          "Highlight activity"
+        ],
         "rows": [
-          ["Rotorua", "Farm animals, geothermal weirdness toddlers love, compact attractions", "Agrodome farm show (0+, indoor, animal feeding)"],
-          ["Taupo", "Huka Falls (free, stunning), lake swimming, gentle vibe, central location", "Lake Taupo beach paddling"],
-          ["Bay of Islands", "Calm beaches, short ferry rides, dolphins (toddlers go nuts)", "Paihia beach + ferry to Russell"],
-          ["Christchurch", "Antarctic Centre (interactive, indoor), Botanic Gardens, flat city", "International Antarctic Centre penguins"],
-          ["Nelson", "Abel Tasman beaches, calm water, farm stays nearby", "Kaiteriteri beach swimming"],
-          ["Coromandel", "Hot Water Beach (digging), Thames Goldmine (fun for 3+)", "Hot Water Beach spade rental"]
+          [
+            "Rotorua",
+            "Farm animals, geothermal weirdness toddlers love, compact attractions",
+            "Agrodome farm show (0+, indoor, animal feeding)"
+          ],
+          [
+            "Taupo",
+            "Huka Falls (free, stunning), lake swimming, gentle vibe, central location",
+            "Lake Taupo beach paddling"
+          ],
+          [
+            "Bay of Islands",
+            "Calm beaches, short ferry rides, dolphins (toddlers go nuts)",
+            "Paihia beach + ferry to Russell"
+          ],
+          [
+            "Christchurch",
+            "Antarctic Centre (interactive, indoor), Botanic Gardens, flat city",
+            "International Antarctic Centre penguins"
+          ],
+          [
+            "Nelson",
+            "Abel Tasman beaches, calm water, farm stays nearby",
+            "Kaiteriteri beach swimming"
+          ],
+          [
+            "Coromandel",
+            "Hot Water Beach (digging), Thames Goldmine (fun for 3+)",
+            "Hot Water Beach spade rental"
+          ]
         ]
       }
     },
@@ -93,5 +121,11 @@
         "Pre-book any attraction that requires timed entry (Te Papa, Antarctic Centre) even out of peak season — they sell out."
       ]
     }
-  ]
+  ],
+  "hero_image": {
+    "url": "https://images.unsplash.com/photo-1471286174890-9c112740fbef?w=1200&q=80",
+    "thumb": "https://images.unsplash.com/photo-1471286174890-9c112740fbef?w=600&q=70",
+    "alt": "Toddler exploring NZ outdoors",
+    "credit": "Unsplash / Janko Ferlič"
+  }
 }

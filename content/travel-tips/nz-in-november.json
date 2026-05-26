@@ -21,15 +21,63 @@
     {
       "heading": "November Weather Across NZ",
       "table": {
-        "headers": ["Region", "Average high", "Sea temp", "Daylight", "Notes"],
+        "headers": [
+          "Region",
+          "Average high",
+          "Sea temp",
+          "Daylight",
+          "Notes"
+        ],
         "rows": [
-          ["Auckland / Northland", "22C", "19C", "14.5 hrs", "Warm and increasingly sunny — beaches from mid-November"],
-          ["Coromandel / Bay of Plenty", "22C", "19C", "14.5 hrs", "Hot Water Beach swimmable; Cathedral Cove uncrowded"],
-          ["Wellington", "18C", "16C", "14.5 hrs", "Warming up — can still be windy but lovely on calm days"],
-          ["Nelson / Marlborough", "22C", "17C", "15 hrs", "Outstanding — one of NZ's sunniest months here"],
-          ["Christchurch / Canterbury", "20C", "16C", "14.5 hrs", "Good beach weather by late November"],
-          ["Queenstown / Wanaka", "19C", "14C", "15 hrs", "Excellent hiking weather; Lake Wanaka swimming from late November"],
-          ["Northland (Far North)", "23C", "20C", "14.5 hrs", "Warm water, empty beaches — outstanding"]
+          [
+            "Auckland / Northland",
+            "22C",
+            "19C",
+            "14.5 hrs",
+            "Warm and increasingly sunny — beaches from mid-November"
+          ],
+          [
+            "Coromandel / Bay of Plenty",
+            "22C",
+            "19C",
+            "14.5 hrs",
+            "Hot Water Beach swimmable; Cathedral Cove uncrowded"
+          ],
+          [
+            "Wellington",
+            "18C",
+            "16C",
+            "14.5 hrs",
+            "Warming up — can still be windy but lovely on calm days"
+          ],
+          [
+            "Nelson / Marlborough",
+            "22C",
+            "17C",
+            "15 hrs",
+            "Outstanding — one of NZ's sunniest months here"
+          ],
+          [
+            "Christchurch / Canterbury",
+            "20C",
+            "16C",
+            "14.5 hrs",
+            "Good beach weather by late November"
+          ],
+          [
+            "Queenstown / Wanaka",
+            "19C",
+            "14C",
+            "15 hrs",
+            "Excellent hiking weather; Lake Wanaka swimming from late November"
+          ],
+          [
+            "Northland (Far North)",
+            "23C",
+            "20C",
+            "14.5 hrs",
+            "Warm water, empty beaches — outstanding"
+          ]
         ]
       }
     },
@@ -58,5 +106,11 @@
         "affiliate": true
       }
     }
-  ]
+  ],
+  "hero_image": {
+    "url": "https://images.unsplash.com/photo-1553984840-b8cbc34f5214?w=1200&q=80",
+    "thumb": "https://images.unsplash.com/photo-1553984840-b8cbc34f5214?w=600&q=70",
+    "alt": "NZ outdoor family activities in spring",
+    "credit": "Unsplash / Ashim D'Silva"
+  }
 }

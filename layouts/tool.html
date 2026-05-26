@@ -37,6 +37,13 @@
 
 {% block content %}
 
+{% if tool.hero_image %}
+<div class="guide-hero-img">
+  <img src="{{ tool.hero_image.url }}" alt="{{ tool.hero_image.alt }}" loading="eager">
+  {% if tool.hero_image.credit %}<span class="img-credit">📷 {{ tool.hero_image.credit }}</span>{% endif %}
+</div>
+{% endif %}
+
 <section class="section">
   {{ tool.html_content }}
 </section>

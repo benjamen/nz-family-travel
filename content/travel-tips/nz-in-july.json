@@ -14,15 +14,63 @@
     {
       "heading": "July Weather Across NZ",
       "table": {
-        "headers": ["Region", "Average high", "Rain days", "Snow?", "Notes"],
+        "headers": [
+          "Region",
+          "Average high",
+          "Rain days",
+          "Snow?",
+          "Notes"
+        ],
         "rows": [
-          ["Auckland", "14C", "15 days", "None", "Cold and grey — but mild by global standards. Indoor attractions are excellent."],
-          ["Rotorua", "12C", "13 days", "Very rare", "Thermal attractions hit peak season in the steam-filled cold"],
-          ["Wellington", "10C", "15 days", "Very rare", "Cold and windy — stick to Te Papa and City Gallery"],
-          ["Christchurch", "10C", "12 days", "On Mt Hutt", "Cold and dry; Mt Hutt 90 minutes away is the key drawcard"],
-          ["Queenstown", "8C", "10 days", "Yes — ski fields", "Peak month — book early, expect busy slopes"],
-          ["Wanaka", "8C", "9 days", "Yes — Cardrona/Treble Cone", "Slightly quieter than Queenstown; excellent family ski resort"],
-          ["Fiordland", "7C", "17 days", "On peaks", "Very wet; Milford Sound is dramatic but the drive requires care"]
+          [
+            "Auckland",
+            "14C",
+            "15 days",
+            "None",
+            "Cold and grey — but mild by global standards. Indoor attractions are excellent."
+          ],
+          [
+            "Rotorua",
+            "12C",
+            "13 days",
+            "Very rare",
+            "Thermal attractions hit peak season in the steam-filled cold"
+          ],
+          [
+            "Wellington",
+            "10C",
+            "15 days",
+            "Very rare",
+            "Cold and windy — stick to Te Papa and City Gallery"
+          ],
+          [
+            "Christchurch",
+            "10C",
+            "12 days",
+            "On Mt Hutt",
+            "Cold and dry; Mt Hutt 90 minutes away is the key drawcard"
+          ],
+          [
+            "Queenstown",
+            "8C",
+            "10 days",
+            "Yes — ski fields",
+            "Peak month — book early, expect busy slopes"
+          ],
+          [
+            "Wanaka",
+            "8C",
+            "9 days",
+            "Yes — Cardrona/Treble Cone",
+            "Slightly quieter than Queenstown; excellent family ski resort"
+          ],
+          [
+            "Fiordland",
+            "7C",
+            "17 days",
+            "On peaks",
+            "Very wet; Milford Sound is dramatic but the drive requires care"
+          ]
         ]
       }
     },
@@ -62,5 +110,11 @@
         "affiliate": true
       }
     }
-  ]
+  ],
+  "hero_image": {
+    "url": "https://images.unsplash.com/photo-1519863117922-f73b28e6a0a0?w=1200&q=80",
+    "thumb": "https://images.unsplash.com/photo-1519863117922-f73b28e6a0a0?w=600&q=70",
+    "alt": "Snow-covered NZ mountains in July",
+    "credit": "Unsplash / Jonathan Müller"
+  }
 }
