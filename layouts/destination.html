@@ -460,6 +460,65 @@
   </div>
 </section>
 
+<!-- Route gems — notable stops along the way -->
+{% if destination.route_gems %}
+<section class="section section-alt">
+  <h2>Gems Along the Way to {{ destination.name }}</h2>
+  <p class="section-intro">Don't miss these on your way through — detours and stops that are worth every minute.</p>
+  <div class="route-gems-grid">
+    {% for gem in destination.route_gems %}
+    <div class="route-gem-card">
+      <div class="gem-header">
+        <h3>
+          {% if gem.city_slug %}
+          <a href="/cities/{{ gem.city_slug }}/">{{ gem.name }}</a>
+          {% else %}
+          {{ gem.name }}
+          {% endif %}
+        </h3>
+        <span class="gem-distance">📍 {{ gem.how_far }}</span>
+      </div>
+      <p class="gem-tagline">{{ gem.tagline }}</p>
+      {% if gem.tip %}
+      <p class="gem-tip"><strong>💡 Tip:</strong> {{ gem.tip }}</p>
+      {% endif %}
+    </div>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
+
+<!-- Nearby city guides -->
+{% if destination.nearby_cities %}
+<section class="section">
+  <h2>Nearby Towns — See More of the {{ destination.region }} Region</h2>
+  <p class="section-intro">Family guides for towns near {{ destination.name }} — from quick day trips to overnight stays.</p>
+  <div class="nearby-cities-grid">
+    {% for city_slug in destination.nearby_cities %}
+    {% set ncity = cities | selectattr("slug", "equalto", city_slug) | first %}
+    {% if ncity %}
+    <a href="/cities/{{ ncity.slug }}/" class="nearby-city-card">
+      <div class="ncity-header">
+        <h3>{{ ncity.name }}</h3>
+        <span class="ncity-score">⭐ {{ ncity.family_score }}/10</span>
+      </div>
+      <p>{{ ncity.tagline }}</p>
+      <div class="ncity-meta">
+        <span>{{ ncity.region }}</span>
+        <span>Best for {{ ncity.best_for }}</span>
+      </div>
+      <span class="hub-link">Family guide →</span>
+    </a>
+    {% endif %}
+    {% endfor %}
+    <a href="/cities/" class="nearby-city-card nearby-all">
+      <h3>All NZ City Guides →</h3>
+      <p>Family guides for {{ cities|length }} NZ cities and towns.</p>
+    </a>
+  </div>
+</section>
+{% endif %}
+
 <!-- Nearby destinations -->
 {% if destination.nearby_destinations %}
 <section class="section section-alt">

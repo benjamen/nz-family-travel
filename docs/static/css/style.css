@@ -254,6 +254,29 @@ ul, ol { padding-left: 1.25rem; }
 .nearby-card span { font-size: .8rem; color: var(--gray-400); }
 .nearby-all { border: 2px dashed var(--gray-200); text-align: center; display: flex; flex-direction: column; justify-content: center; }
 
+/* === Route gems === */
+.route-gems-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px,1fr)); gap: 1.25rem; }
+.route-gem-card { background: #fff; border: 1px solid var(--gray-200); border-radius: var(--radius); padding: 1.25rem 1.4rem; border-left: 4px solid var(--brand); transition: box-shadow .15s; }
+.route-gem-card:hover { box-shadow: 0 4px 16px rgba(0,0,0,.08); }
+.gem-header { margin-bottom: .5rem; }
+.gem-header h3 { font-size: 1rem; font-weight: 700; margin: 0 0 .2rem; }
+.gem-header h3 a { color: var(--brand); text-decoration: none; }
+.gem-header h3 a:hover { text-decoration: underline; }
+.gem-distance { display: inline-block; font-size: .78rem; color: var(--gray-400); background: var(--gray-50); padding: .2rem .55rem; border-radius: 20px; }
+.gem-tagline { font-size: .9rem; color: var(--gray-700); margin: .5rem 0; line-height: 1.5; }
+.gem-tip { font-size: .82rem; color: var(--gray-600); background: #fefce8; border: 1px solid #fde68a; border-radius: 6px; padding: .5rem .75rem; margin-top: .6rem; line-height: 1.5; }
+
+/* === Nearby cities grid === */
+.nearby-cities-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px,1fr)); gap: 1.1rem; }
+.nearby-city-card { display: block; background: var(--gray-50); border: 1px solid var(--gray-200); border-radius: var(--radius); padding: 1.1rem 1.25rem; text-decoration: none; color: var(--text); transition: all .15s; }
+.nearby-city-card:hover { border-color: var(--brand); background: var(--brand-lt); text-decoration: none; }
+.ncity-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: .35rem; }
+.ncity-header h3 { font-size: .95rem; font-weight: 700; margin: 0; }
+.ncity-score { font-size: .78rem; color: #b45309; font-weight: 700; }
+.nearby-city-card p { font-size: .82rem; color: var(--gray-600); margin: 0 0 .45rem; line-height: 1.45; }
+.ncity-meta { display: flex; gap: .75rem; font-size: .76rem; color: var(--gray-400); margin-bottom: .4rem; }
+.nearby-city-card .hub-link { font-size: .8rem; color: var(--brand); font-weight: 600; }
+
 /* === Full itinerary === */
 .itin-summary-block { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px,1fr)); gap: 1rem; }
 .isb-item { background: var(--gray-50); border: 1px solid var(--gray-200); border-radius: 8px; padding: .9rem 1rem; }
