@@ -1,0 +1,71 @@
+{
+  "slug": "nz-in-may",
+  "short_title": "NZ in May",
+  "title": "NZ Family Holiday in May 2026 — Autumn Quiet Season Guide",
+  "meta_desc": "NZ in May with kids: the quietest month of the year. What's still open, where to go, real weather data, and why May is one of the best-value months for NZ family travel.",
+  "intro": "May is New Zealand's quiet season — the summer crowds are long gone, school holiday families have returned home, and the country settles into a relaxed autumn rhythm. Prices are typically 20-35% lower than peak season, camping parks are practically empty, and you get a far more authentic feel for New Zealand without fighting for car parks. The trade-off: some seasonal attractions close, and you need to plan for shorter days and variable weather.",
+  "updated": "May 2026",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Who Should Visit NZ in May?",
+      "list": [
+        "Families flexible with term-time travel (no NZ school holidays in May)",
+        "Budget-conscious families — May is one of the cheapest months for campervans and accommodation",
+        "Families who hate crowds — popular spots like Milford Sound and Queenstown are genuinely quieter",
+        "Families with older kids (8+) who can handle cool weather and shorter daylight hours",
+        "Note: May is not ideal for beach holidays or water activities — sea temperatures are cooling quickly"
+      ]
+    },
+    {
+      "heading": "May Weather Across NZ",
+      "table": {
+        "headers": ["Region", "Average high", "Rain days", "Daylight hours", "Notes"],
+        "rows": [
+          ["Auckland / Northland", "17C", "13 days", "10.5 hrs", "Overcast but mild; still pleasant for city visits"],
+          ["Coromandel / Bay of Plenty", "17C", "12 days", "10.5 hrs", "Too cool for swimming; good for walks"],
+          ["Wellington", "13C", "14 days", "10 hrs", "Cold and windy; wrap up well"],
+          ["Nelson / Marlborough", "16C", "11 days", "10 hrs", "Often sunny autumn days; one of the better May spots"],
+          ["Christchurch / Canterbury", "14C", "11 days", "10 hrs", "Cool and crisp; good for walking and museums"],
+          ["Queenstown / Wanaka", "13C", "10 days", "9.5 hrs", "Last of the autumn colours; ski prep begins"],
+          ["Fiordland", "11C", "15 days", "9.5 hrs", "Getting wet — not ideal without a waterproof campervan"]
+        ]
+      }
+    },
+    {
+      "heading": "Best Destinations in NZ in May",
+      "list": [
+        "Auckland: great for museums (Auckland Museum free for kids), aquarium, and the wider Auckland region. Urban attractions are unaffected by weather.",
+        "Nelson: May is often sunny and settled in the Top of the South — a hidden gem for autumn travel. Abel Tasman is accessible and beautiful.",
+        "Queenstown: last of the autumn colours, far fewer tourists, and excellent restaurant deals. Luge and gondola run year-round.",
+        "Rotorua: thermal attractions are actually better in cooler months — the steam is more dramatic. Whio (blue duck) sightings are easier in May.",
+        "Marlborough Sounds: magical in autumn. Boat trips operate year-round. Much cheaper than January."
+      ]
+    },
+    {
+      "heading": "What's Closed in May?",
+      "list": [
+        "Most outdoor swimming pools and lidos close or move to reduced hours",
+        "Some seasonal holiday parks and campgrounds close — check ahead",
+        "Ski fields are not yet open (typically open late June/July)",
+        "Some scenic boat cruises (e.g., Doubtful Sound) have reduced frequency",
+        "Several smaller beachside operators (surf schools, kayak hire) close for winter"
+      ]
+    },
+    {
+      "heading": "May Budget Tips",
+      "list": [
+        "Campervan hire is typically 25-35% cheaper in May than January — same vehicle, much lower price",
+        "Holiday parks drop to off-peak rates from May onwards — powered sites from $45/night vs $75+ in summer",
+        "Restaurant deals and winter specials start appearing in May — Queenstown especially",
+        "Domestic flights are at their cheapest in May — great for fly-drive trips",
+        "DOC campsites (Department of Conservation) remain open and are excellent value at $10-15/night"
+      ],
+      "cta": {
+        "text": "Compare May campervan prices",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ]
+}

@@ -84,6 +84,9 @@ def build():
     # ── Homepage ──────────────────────────────────────────────────────────────
     render("index.html", "index.html", **ctx)
 
+    # ── About page ────────────────────────────────────────────────────────────
+    render("about.html", "about/index.html", **ctx)
+
     # ── Destinations hub ──────────────────────────────────────────────────────
     render("hub.html", "destinations/index.html",
            hub_title="NZ Family Travel Destinations",
@@ -258,6 +261,7 @@ def build():
 
     sitemap = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
     sitemap += sm_url("", "1.0", "weekly")
+    sitemap += sm_url("about", "0.5", "yearly")
     sitemap += sm_url("nz-map", "0.7", "monthly")
     for slug in ["destinations", "itineraries", "campervans", "activities", "tools", "travel-tips", "overseas"]:
         sitemap += sm_url(slug, "0.8", "weekly")

@@ -1,0 +1,55 @@
+{
+  "slug": "nz-in-october",
+  "short_title": "NZ in October",
+  "title": "NZ Family Holiday in October 2026 — Spring at Its Best",
+  "meta_desc": "NZ in October with kids: spring school holidays, blossoms, warm days, and prices still well below summer. The best month most NZ families don't think to book.",
+  "intro": "October is one of the best months to visit New Zealand with kids — and one of the least booked. Spring school holidays straddle September and October, the weather is genuinely warm and improving, the country is in full blossom, and summer prices haven't kicked in yet. If you can only do one non-summer trip with kids, make it October.",
+  "updated": "May 2026",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "October Weather Across NZ",
+      "table": {
+        "headers": ["Region", "Average high", "Rain days", "Sea temp", "Notes"],
+        "rows": [
+          ["Auckland / Northland", "19C", "12 days", "17C", "Warm, sunny stretches — beaches are starting again"],
+          ["Coromandel / Bay of Plenty", "19C", "11 days", "17C", "Hahei, Hot Water Beach — lovely in late October"],
+          ["Wellington", "15C", "13 days", "14C", "Still blustery but warmer — spring events in full swing"],
+          ["Nelson / Marlborough", "19C", "10 days", "15C", "Outstanding — one of NZ's best spring destinations"],
+          ["Christchurch", "17C", "11 days", "14C", "Cherry blossoms fading, gardens lush and green"],
+          ["Queenstown / Wanaka", "16C", "10 days", "12C", "Ski fields closed; hiking season beginning — excellent weather window"],
+          ["Fiordland", "13C", "14 days", "10C", "Milford Sound is still relatively quiet vs summer"]
+        ]
+      }
+    },
+    {
+      "heading": "Top October Experiences for Families",
+      "list": [
+        "Queenstown hiking: the skifield roads are open to walkers and the views from the Remarkables ranges are extraordinary without winter clothing required",
+        "Northland coast: 90 Mile Beach, Cape Reinga, and Ninety Mile Beach drives are all excellent in October — uncrowded and spectacular",
+        "Coromandel: Hot Water Beach and Cathedral Cove are accessible and stunning without the summer crowds",
+        "Napier / Hawke's Bay: Art Deco city, excellent food scene, family beach time — October is ideal and very affordable",
+        "Nelson / Abel Tasman: the coastal walk conditions are perfect in October. Water taxis run and campsite availability is much easier than January."
+      ]
+    },
+    {
+      "heading": "October School Holidays Overlap",
+      "body": "The NZ spring school holidays (approx Sept 26 – Oct 11) mean early October can be slightly busier and more expensive than mid-October onwards. From October 12 onwards, you get full spring weather with term-time prices — one of the best travel windows of the year."
+    },
+    {
+      "heading": "What to Book in October",
+      "list": [
+        "School holiday week accommodation (Oct 1-11): book 4-6 weeks ahead for popular destinations",
+        "Abel Tasman water taxis: book ahead for the school holiday period",
+        "Milford Sound cruises: October is the wettest month in Fiordland — but the waterfalls are spectacular. Book a flexible-date ticket.",
+        "From mid-October onwards: short-notice bookings are generally fine outside of Queenstown/Wanaka",
+        "School holiday activity programmes: many attractions run October holiday specials — check local listings"
+      ],
+      "cta": {
+        "text": "Compare October campervan prices",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ]
+}

@@ -8,6 +8,19 @@
   <link rel="canonical" href="https://nzfamilytravel.co.nz/itineraries/south-island-budget-family-7-days/">
   <link rel="stylesheet" href="/static/css/style.css">
   <link rel="icon" href="/static/img/favicon.svg" type="image/svg+xml">
+  <!-- Open Graph / Social sharing -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="NZ Family Travel">
+  <meta property="og:title" content="NZ Family Travel — NZ's Family Holiday Planning Platform">
+  <meta property="og:description" content="Plan your New Zealand family holiday. Compare campervans, find kid-friendly activities, and get honest itineraries from New Zealand parents.">
+  <meta property="og:url" content="https://nzfamilytravel.co.nz/">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1507699622108-4be3abd695ad?w=1200&q=80">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="NZ Family Travel — NZ's Family Holiday Planning Platform">
+  <meta name="twitter:description" content="Plan your New Zealand family holiday. Compare campervans, find kid-friendly activities, and get honest itineraries from New Zealand parents.">
+  <meta name="twitter:image" content="https://images.unsplash.com/photo-1507699622108-4be3abd695ad?w=1200&q=80">
   
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-BHTP34TBYW"></script>
   <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-BHTP34TBYW');</script>
@@ -58,7 +71,7 @@
   <nav class="nav">
     <div class="nav-inner">
       <a href="/" class="nav-logo">✈️ NZ Family Travel</a>
-      <div class="nav-links">
+      <div class="nav-links" id="nav-links">
         <a href="/destinations/">Destinations</a>
         <a href="/itineraries/">Itineraries</a>
         <a href="/campervans/">Campervans</a>
@@ -69,6 +82,9 @@
         <a href="/posts/">Deals</a>
         <a href="/nz-map/">Map</a>
       </div>
+      <button class="nav-hamburger" id="nav-hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="nav-links">
+        <span></span><span></span><span></span>
+      </button>
     </div>
   </nav>
 
@@ -863,13 +879,27 @@
             
             <li><a href="/travel-tips/nz-in-april/">NZ in April</a></li>
             
+            <li><a href="/travel-tips/nz-in-august/">NZ in August</a></li>
+            
             <li><a href="/travel-tips/nz-in-december/">NZ in December</a></li>
             
             <li><a href="/travel-tips/nz-in-february/">NZ in February</a></li>
             
             <li><a href="/travel-tips/nz-in-january/">NZ in January</a></li>
             
+            <li><a href="/travel-tips/nz-in-july/">NZ in July</a></li>
+            
+            <li><a href="/travel-tips/nz-in-june/">NZ in June</a></li>
+            
             <li><a href="/travel-tips/nz-in-march/">NZ in March</a></li>
+            
+            <li><a href="/travel-tips/nz-in-may/">NZ in May</a></li>
+            
+            <li><a href="/travel-tips/nz-in-november/">NZ in November</a></li>
+            
+            <li><a href="/travel-tips/nz-in-october/">NZ in October</a></li>
+            
+            <li><a href="/travel-tips/nz-in-september/">NZ in September</a></li>
             
             <li><a href="/travel-tips/nz-road-trip-snacks-kids/">Road Trip Snacks</a></li>
             
@@ -889,12 +919,13 @@
         </div>
       </div>
       <div class="footer-bottom">
-        <p>© 2026 NZ Family Travel · <a href="mailto:hello@nzfamilytravel.co.nz">Contact</a> · Prices are indicative — always confirm with providers directly. Some links are affiliate links.</p>
+        <p>© 2026 NZ Family Travel · <a href="mailto:hello@nzfamilytravel.co.nz">Contact</a> · <a href="/about/">About Us</a> · Prices are indicative — always confirm with providers directly. Some links are affiliate links.</p>
       </div>
     </div>
   </footer>
   <script>
   (function(){
+    // Newsletter form fallback
     document.querySelectorAll('.newsletter-form').forEach(function(form){
       var action = form.getAttribute('action');
       if(!action || action === '#'){
@@ -904,6 +935,25 @@
         });
       }
     });
+
+    // Mobile hamburger menu
+    var btn = document.getElementById('nav-hamburger');
+    var links = document.getElementById('nav-links');
+    if(btn && links){
+      btn.addEventListener('click', function(){
+        var open = links.classList.toggle('nav-open');
+        btn.classList.toggle('is-open', open);
+        btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+      });
+      // Close menu when a link is clicked
+      links.querySelectorAll('a').forEach(function(a){
+        a.addEventListener('click', function(){
+          links.classList.remove('nav-open');
+          btn.classList.remove('is-open');
+          btn.setAttribute('aria-expanded','false');
+        });
+      });
+    }
   })();
   </script>
 </body>

@@ -2,20 +2,36 @@
 
 {% block extra_head %}
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "{{ site.base_url }}/"},
-    {"@type": "ListItem", "position": 2, "name": "Travel Tips", "item": "{{ site.base_url }}/travel-tips/"},
-    {"@type": "ListItem", "position": 3, "name": "{{ guide.short_title }}", "item": "{{ site.base_url }}/travel-tips/{{ guide.slug }}/"}
-  ]
-}
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Home", "item": "{{ site.base_url }}/"},
+      {"@type": "ListItem", "position": 2, "name": "Travel Tips", "item": "{{ site.base_url }}/travel-tips/"},
+      {"@type": "ListItem", "position": 3, "name": "{{ guide.short_title }}", "item": "{{ site.base_url }}/travel-tips/{{ guide.slug }}/"}
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "{{ guide.title }}",
+    "description": "{{ guide.meta_desc }}",
+    "dateModified": "2026-05-26",
+    "author": {"@type": "Organization", "name": "NZ Family Travel", "url": "{{ site.base_url }}"},
+    "publisher": {"@type": "Organization", "name": "NZ Family Travel", "url": "{{ site.base_url }}"},
+    "url": "{{ site.base_url }}/travel-tips/{{ guide.slug }}/"
+  }
+]
 </script>
 {% endblock %}
 {% block title %}{{ guide.title }} — NZ Family Travel 2026{% endblock %}
 {% block desc %}{{ guide.meta_desc }}{% endblock %}
 {% block canonical %}travel-tips/{{ guide.slug }}/{% endblock %}
+{% block og_type %}article{% endblock %}
+{% block og_title %}{{ guide.title }}{% endblock %}
+{% block og_desc %}{{ guide.meta_desc }}{% endblock %}
+{% block og_url %}travel-tips/{{ guide.slug }}/{% endblock %}
 
 {% block hero %}
 <section class="page-hero">

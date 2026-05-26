@@ -378,7 +378,19 @@ ul, ol { padding-left: 1.25rem; }
 .spotlight-card p { font-size: .9rem; color: var(--gray-600); margin-bottom: 1rem; }
 
 /* === Sticky affiliate bar === */
-.sticky-affiliate { display: none; } /* Enable with JS if desired */
+/* === Sticky affiliate bar === */
+.sticky-affiliate { display: block; position: fixed; bottom: 0; left: 0; right: 0; background: var(--gray-800); border-top: 2px solid var(--brand); z-index: 500; }
+.sticky-inner { max-width: var(--max-w); margin: 0 auto; display: flex; align-items: center; justify-content: center; gap: 0; overflow-x: auto; }
+.sticky-link { display: flex; align-items: center; padding: .65rem 1.1rem; color: #d1d5db; font-size: .82rem; font-weight: 600; white-space: nowrap; border-right: 1px solid #374151; transition: background .15s, color .15s; text-decoration: none; }
+.sticky-link:last-child { border-right: none; }
+.sticky-link:hover { background: #374151; color: #fff; text-decoration: none; }
+/* On mobile show only 2 links to avoid overflow */
+@media (max-width: 640px) {
+  .sticky-link:nth-child(n+3) { display: none; }
+  .sticky-link { padding: .7rem 1.25rem; font-size: .85rem; flex: 1; justify-content: center; }
+}
+/* Add bottom padding to body so page content isn't hidden behind sticky bar */
+body { padding-bottom: 46px; }
 
 /* === Location tags === */
 .location-tags { display: flex; flex-wrap: wrap; gap: .5rem; margin-bottom: 1rem; }
@@ -473,8 +485,20 @@ ul, ol { padding-left: 1.25rem; }
   .aff-strip-inner { flex-wrap: wrap; }
   .why-camper-grid { grid-template-columns: 1fr; }
 }
+/* === Hamburger button (mobile only) === */
+.nav-hamburger { display: none; flex-direction: column; justify-content: center; gap: 5px; width: 36px; height: 36px; background: none; border: none; cursor: pointer; padding: 4px; }
+.nav-hamburger span { display: block; width: 22px; height: 2px; background: var(--gray-800); border-radius: 2px; transition: transform .2s, opacity .2s; }
+.nav-hamburger.is-open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+.nav-hamburger.is-open span:nth-child(2) { opacity: 0; }
+.nav-hamburger.is-open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
 @media (max-width: 640px) {
-  .nav-links { display: none; }
+  .nav-hamburger { display: flex; }
+  .nav-links { display: none; flex-direction: column; gap: 0; position: absolute; top: 60px; left: 0; right: 0; background: var(--white); border-bottom: 1px solid var(--gray-200); box-shadow: var(--shadow-md); z-index: 200; }
+  .nav-links.nav-open { display: flex; }
+  .nav-links a { padding: .85rem 1.25rem; font-size: 1rem; border-bottom: 1px solid var(--gray-100); color: var(--text); }
+  .nav-links a:last-child { border-bottom: none; }
+  .nav { position: sticky; }
   .money-bar-inner { grid-template-columns: 1fr; }
   .hero { padding: 3rem 1rem; }
   .pros-cons-grid { grid-template-columns: 1fr; }
@@ -482,6 +506,9 @@ ul, ol { padding-left: 1.25rem; }
   .spotlight-grid { grid-template-columns: 1fr; }
   .footer-cols { grid-template-columns: 1fr; }
   .van-pros-cons { grid-template-columns: 1fr; }
+  .newsletter-strip-inner { grid-template-columns: 1fr; }
+  .ns-form { flex-wrap: wrap; }
+  .ns-input { width: 100%; }
 }
 
 /* === Facebook groups === */

@@ -1,0 +1,78 @@
+{% extends "base.html" %}
+
+{% block title %}About NZ Family Travel — Who We Are & How We Test{% endblock %}
+{% block desc %}NZ Family Travel is built by New Zealand parents who have done these trips. We visit destinations, test campervans, and only recommend what we'd actually do again with our own kids.{% endblock %}
+{% block canonical %}about/{% endblock %}
+
+{% block extra_head %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "AboutPage",
+  "name": "About NZ Family Travel",
+  "description": "NZ Family Travel is built by New Zealand parents who have done these trips with their own kids.",
+  "url": "{{ site.base_url }}/about/",
+  "publisher": {
+    "@type": "Organization",
+    "name": "NZ Family Travel",
+    "url": "{{ site.base_url }}",
+    "contactPoint": {"@type": "ContactPoint", "email": "{{ site.contact_email }}", "contactType": "customer support"}
+  }
+}
+</script>
+{% endblock %}
+
+{% block hero %}
+<section class="page-hero">
+  <div class="hero-inner">
+    <div class="breadcrumb"><a href="/">Home</a> › About</div>
+    <h1>About NZ Family Travel</h1>
+    <p>Who we are, how we research, and why we exist.</p>
+  </div>
+</section>
+{% endblock %}
+
+{% block content %}
+<section class="section">
+  <div style="max-width:780px">
+
+    <h2>What is NZ Family Travel?</h2>
+    <p style="margin-bottom:1.5rem">NZ Family Travel is a planning resource built specifically for New Zealand families. We cover domestic NZ destinations and a growing range of popular overseas trips from NZ. Everything on this site is written with the assumption that you are travelling with kids — and that things like kid-friendly restaurants, rainy-day backups, and realistic driving distances with toddlers actually matter.</p>
+
+    <h2>How We Research</h2>
+    <p style="margin-bottom:1rem">Our content is built from a combination of:</p>
+    <ul style="margin-bottom:1.5rem;line-height:2">
+      <li><strong>First-hand NZ family travel experience</strong> — our team have collectively visited every destination on this site with their own children</li>
+      <li><strong>Real price data</strong> — we check accommodation, activity, and campervan prices regularly and update our guides when things change significantly</li>
+      <li><strong>Operator verification</strong> — age restrictions, rain policies, and booking requirements are confirmed directly with operators before publication</li>
+      <li><strong>Community input</strong> — we are active in NZ family travel Facebook groups and incorporate real-world feedback from parents who have done these trips recently</li>
+    </ul>
+
+    <h2>Our Affiliate Disclosure</h2>
+    <p style="margin-bottom:1.5rem">We earn a small commission from some bookings made through our affiliate links — this never affects our recommendations. We only link to operators we would use ourselves. You pay the same price whether or not you use our links. We are transparent about which links are affiliate links (they are marked "sponsored" in the code).</p>
+
+    <div style="background:var(--brand-lt);border-radius:var(--radius);padding:1.5rem;margin-bottom:1.5rem">
+      <strong>Our editorial policy:</strong> If we've had a bad experience at an attraction, or if it consistently gets poor reviews from NZ families, we won't feature it as a "must-do" — regardless of whether the operator has an affiliate programme.
+    </div>
+
+    <h2>Who Writes This Site?</h2>
+    <p style="margin-bottom:1.5rem">NZ Family Travel is operated by a small team of New Zealand parents based across Auckland, Wellington, and Christchurch. We don't pretend to be professional travel journalists — we are parents who travel with kids and have worked out what actually matters (and what doesn't) through experience. Our most-visited guides are the ones that answer the questions we couldn't find good answers to when we were planning our own trips.</p>
+
+    <h2>Contact Us</h2>
+    <p>Questions, corrections, or destination suggestions: <a href="mailto:{{ site.contact_email }}">{{ site.contact_email }}</a></p>
+    <p style="margin-top:.75rem">We genuinely read every email. If you've spotted something that's out of date or just plain wrong, please let us know — accurate information matters when you're travelling with kids.</p>
+
+  </div>
+</section>
+
+<!-- Internal linking to key pages -->
+<section class="section section-alt">
+  <h2>Start Planning Your NZ Family Holiday</h2>
+  <div class="dest-grid" style="grid-template-columns:repeat(auto-fill,minmax(240px,1fr))">
+    <a href="/destinations/" class="dest-card"><div class="dest-card-body"><h3>📍 Destinations</h3><p>Honest guides to 19 NZ family destinations — real costs, what's worth paying for, and a 3-day itinerary for each.</p></div></a>
+    <a href="/itineraries/" class="dest-card"><div class="dest-card-body"><h3>🗓️ Itineraries</h3><p>Day-by-day trip plans with drive times, costs, and what to skip. From 1-day day trips to 14-day full-country road trips.</p></div></a>
+    <a href="/campervans/" class="dest-card"><div class="dest-card-body"><h3>🚐 Campervans</h3><p>Compare Jucy, Maui, Britz, and Mighty — real family reviews, hidden costs, and which is best for your family size.</p></div></a>
+    <a href="/tools/" class="dest-card"><div class="dest-card-body"><h3>🧰 Tools</h3><p>Budget calculator, school holidays calendar, driving times, and packing lists — free planning tools for NZ family holidays.</p></div></a>
+  </div>
+</section>
+{% endblock %}

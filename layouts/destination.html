@@ -3,6 +3,14 @@
 {% block title %}{{ destination.name }} with Kids NZ 2026 — Family Guide, Prices & Itinerary{% endblock %}
 {% block desc %}{{ destination.name }} family holiday guide: {{ destination.quick_facts.budget_family4_per_day }}/day, best ages {{ destination.quick_facts.best_ages }}, top activities, where to stay, and a 3-day itinerary.{% endblock %}
 {% block canonical %}destinations/{{ destination.slug }}/{% endblock %}
+{% block og_type %}article{% endblock %}
+{% block og_title %}{{ destination.name }} with Kids — 2026 NZ Family Guide{% endblock %}
+{% block og_desc %}{{ destination.tagline }} Budget: {{ destination.quick_facts.budget_family4_per_day }}/day for a family of 4. Best for ages {{ destination.quick_facts.best_ages }}.{% endblock %}
+{% block og_url %}destinations/{{ destination.slug }}/{% endblock %}
+{% block og_image %}{{ destination.media.hero_image.url if destination.media and destination.media.hero_image else 'https://images.unsplash.com/photo-1507699622108-4be3abd695ad?w=1200&q=80' }}{% endblock %}
+{% block tw_title %}{{ destination.name }} with Kids — 2026 NZ Family Guide{% endblock %}
+{% block tw_desc %}{{ destination.tagline }} Budget: {{ destination.quick_facts.budget_family4_per_day }}/day.{% endblock %}
+{% block tw_image %}{{ destination.media.hero_image.url if destination.media and destination.media.hero_image else 'https://images.unsplash.com/photo-1507699622108-4be3abd695ad?w=1200&q=80' }}{% endblock %}
 
 {% block extra_head %}
 <script type="application/ld+json">

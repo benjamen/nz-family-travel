@@ -1,0 +1,65 @@
+{
+  "slug": "nz-in-june",
+  "short_title": "NZ in June",
+  "title": "NZ Family Holiday in June 2026 — Winter & Queen's Birthday Weekend",
+  "meta_desc": "NZ in June with kids: ski season opens, Queen's Birthday long weekend, and the quietest tourist period of the year. Where to go and what to skip in winter NZ.",
+  "intro": "June kicks off New Zealand's ski season and includes the Queen's Birthday long weekend — one of the busiest winter travel weekends of the year. It's the coldest month in most of the country, with short days and significant rainfall, but it also delivers some magical experiences: ski fields opening, steaming geothermal wonders, and a country that feels genuinely local rather than tourist-overrun. For families willing to embrace winter, June has real rewards.",
+  "updated": "May 2026",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "June — Queen's Birthday Long Weekend",
+      "body": "The Queen's Birthday weekend (first weekend in June) is one of the most popular domestic travel weekends in NZ. Ski field openings, winter markets, and family-friendly events make it busy. Book accommodation 6-8 weeks ahead if travelling during this weekend."
+    },
+    {
+      "heading": "June Weather Across NZ",
+      "table": {
+        "headers": ["Region", "Average high", "Rain days", "Snow chance", "Notes"],
+        "rows": [
+          ["Auckland / Northland", "15C", "14 days", "None", "Cold and rainy — mostly city activities"],
+          ["Bay of Plenty / Rotorua", "13C", "13 days", "Rare", "Thermal steam looks spectacular in cold air"],
+          ["Wellington", "11C", "15 days", "Very rare", "Cold, windy, wet — not a family winter destination"],
+          ["Nelson / Marlborough", "13C", "12 days", "On hills only", "One of the better winter spots — occasionally sunny"],
+          ["Christchurch / Canterbury", "11C", "12 days", "On hills", "Cold but functional — good for city attractions"],
+          ["Queenstown / Wanaka", "10C", "11 days", "Yes — ski fields", "Peak winter destination — ski season opens"],
+          ["Fiordland", "9C", "16 days", "On peaks", "Very wet, very dramatic — suited to adventure families"]
+        ]
+      }
+    },
+    {
+      "heading": "Skiing in June — NZ Ski Resorts for Families",
+      "list": [
+        "Coronet Peak (Queenstown): usually the first major field to open in NZ — typically late June. Has a learners' area ideal for first-time ski kids.",
+        "Mt Hutt (Methven, near Christchurch): good family facilities, ski school for kids from age 3.",
+        "Cardrona (Wanaka): family-focused resort with excellent kids' ski school and terrain parks.",
+        "The Remarkables (Queenstown): slightly later to open than Coronet Peak but spectacular views.",
+        "Note: June snow varies year to year — check field reports before booking. Mid-late June is more reliable than early June."
+      ]
+    },
+    {
+      "heading": "Non-Ski Winter Family Activities",
+      "list": [
+        "Rotorua: Te Puia, Wai-O-Tapu, and Hells Gate are spectacular in cold weather — the steam and colour contrasts are amplified.",
+        "Auckland: MOTAT (Museum of Transport and Technology), Auckland Museum, Kelly Tarlton's Sea Life Aquarium — all indoor, all excellent.",
+        "Christchurch: International Antarctic Centre (heated!), Canterbury Museum, Botanic Gardens winter walk.",
+        "Queenstown Gondola & Luge: runs year-round. Kids love the luge in any weather.",
+        "Hobbiton (Matamata): crowds are minimal in June and the morning mist over the Shire is otherworldly."
+      ]
+    },
+    {
+      "heading": "June Booking Tips",
+      "list": [
+        "Queen's Birthday weekend (June 7-9, 2026): book accommodation 6-8 weeks ahead — popular ski destinations book out fast",
+        "Ski package deals are available in June — lift pass + lesson + rental bundles save $100+ per family",
+        "Mid-June to late June: ski fields open but crowds are lighter than July school holidays — best for beginners",
+        "Campervan hire is at annual lows in June — but ensure your vehicle has adequate heating",
+        "Holiday parks near ski fields (Queenstown, Wanaka, Methven) require booking ahead in Queen's Birthday week"
+      ],
+      "cta": {
+        "text": "Compare June campervan prices",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ]
+}

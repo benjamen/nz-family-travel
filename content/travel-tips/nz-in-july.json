@@ -1,0 +1,66 @@
+{
+  "slug": "nz-in-july",
+  "short_title": "NZ in July",
+  "title": "NZ Family Holiday in July 2026 — Winter School Holidays & Ski Season",
+  "meta_desc": "NZ in July with kids: the peak of ski season and the July school holidays. Where to ski, what to do without snow, and how to book the July school holiday period without overspending.",
+  "intro": "July is New Zealand's winter school holiday month — the ski fields are in full swing, holiday parks in Queenstown and Wanaka are booked solid, and families from across NZ descend on the South Island for ski trips. If skiing is your goal, July is the month to do it. If you're not skiing, the smart move is to head to the North Island where winter is mild and attractions are uncrowded.",
+  "updated": "May 2026",
+  "reading_time": 7,
+  "sections": [
+    {
+      "heading": "July School Holidays (2026 Dates)",
+      "body": "NZ school holidays in July 2026 run approximately July 11–26 for most regions (check your region's specific dates). This is the peak week for ski fields — book accommodation 8–12 weeks ahead for Queenstown, Wanaka, and Methven during these weeks."
+    },
+    {
+      "heading": "July Weather Across NZ",
+      "table": {
+        "headers": ["Region", "Average high", "Rain days", "Snow?", "Notes"],
+        "rows": [
+          ["Auckland", "14C", "15 days", "None", "Cold and grey — but mild by global standards. Indoor attractions are excellent."],
+          ["Rotorua", "12C", "13 days", "Very rare", "Thermal attractions hit peak season in the steam-filled cold"],
+          ["Wellington", "10C", "15 days", "Very rare", "Cold and windy — stick to Te Papa and City Gallery"],
+          ["Christchurch", "10C", "12 days", "On Mt Hutt", "Cold and dry; Mt Hutt 90 minutes away is the key drawcard"],
+          ["Queenstown", "8C", "10 days", "Yes — ski fields", "Peak month — book early, expect busy slopes"],
+          ["Wanaka", "8C", "9 days", "Yes — Cardrona/Treble Cone", "Slightly quieter than Queenstown; excellent family ski resort"],
+          ["Fiordland", "7C", "17 days", "On peaks", "Very wet; Milford Sound is dramatic but the drive requires care"]
+        ]
+      }
+    },
+    {
+      "heading": "NZ Ski Resorts for Kids — July Guide",
+      "list": [
+        "Coronet Peak (Queenstown): Learners' area, ski school from age 3, good beginner terrain. The most accessible Queenstown resort.",
+        "The Remarkables (Queenstown): better for intermediate skiers, stunning scenery, slightly less crowded than Coronet.",
+        "Cardrona (Wanaka): NZ's best family ski resort — dedicated kids' zones, excellent ski school, terrain parks. Book ski school at least 2 weeks ahead in July.",
+        "Mt Hutt (Methven): 1.5 hrs from Christchurch, excellent facilities, more affordable than Queenstown-based resorts.",
+        "Treble Cone (Wanaka): advanced terrain — not suitable for beginners but spectacular for experienced families.",
+        "Budget tip: buy multi-day passes online in advance — saves 20-30% vs gate prices."
+      ]
+    },
+    {
+      "heading": "July Without Skiing — North Island Advantage",
+      "list": [
+        "Rotorua in July: the steam from Wai-O-Tapu, Te Puia, and Hells Gate is at its most dramatic in cold air. Rainbow Springs is year-round and excellent for kids.",
+        "Auckland: Kelly Tarlton's, MOTAT, Auckland Museum, Rainbows End theme park (school holiday deals), and Sky Tower — all weather-proof.",
+        "Hobbiton (Matamata): quieter in July weekdays. The evening Harvest Festival tour runs during school holidays — book ahead.",
+        "Waitomo Caves: magical at any time of year. The glowworm experience is entirely underground and weather-independent.",
+        "Hamilton Gardens: free entry, large and sheltered — great for a half-day with kids of any age."
+      ]
+    },
+    {
+      "heading": "July Booking Checklist",
+      "list": [
+        "Ski accommodation in Queenstown/Wanaka: book 8-12 weeks ahead for school holiday weeks",
+        "Ski school: book at same time as accommodation — lessons fill up fast in school holidays",
+        "Hire equipment in advance online (cheaper and avoids queues): Rent a Set / Snowzone online booking",
+        "Campervan: some operators don't allow ski field driving — check T&Cs or hire a 4WD instead",
+        "Chains: mandatory for Coronet Peak and The Remarkables road — rental shops include them in ski packages"
+      ],
+      "cta": {
+        "text": "Compare July campervan prices",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ]
+}
