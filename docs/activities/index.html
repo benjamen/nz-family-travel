@@ -8,6 +8,15 @@
   <link rel="canonical" href="https://nzfamilytravel.co.nz/activities/">
   <link rel="stylesheet" href="/static/css/style.css">
   <link rel="icon" href="/static/img/favicon.svg" type="image/svg+xml">
+  <!-- Preconnect for CDN performance -->
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link rel="preconnect" href="https://www.googletagmanager.com">
+  <!-- Geo signals for NZ-local search -->
+  <meta name="geo.region" content="NZ">
+  <meta name="geo.placename" content="New Zealand">
+  <meta name="ICBM" content="-41.2866, 174.7756">
+  <!-- Locale / language -->
+  <link rel="alternate" hreflang="en-NZ" href="https://nzfamilytravel.co.nz/activities/">
   <!-- Open Graph / Social sharing -->
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="NZ Family Travel">
@@ -25,17 +34,232 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-BHTP34TBYW"></script>
   <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-BHTP34TBYW');</script>
   
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"NZ Family Travel — NZ's Family Holiday Planning Platform","url":"https://nzfamilytravel.co.nz"}</script>
+  <script type="application/ld+json">
+  [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "NZ Family Travel",
+      "url": "https://nzfamilytravel.co.nz",
+      "description": "Plan your New Zealand family holiday. Compare campervans, find kid-friendly activities, and get honest itineraries from New Zealand parents.",
+      "inLanguage": "en-NZ",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://nzfamilytravel.co.nz/destinations/?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "NZ Family Travel",
+      "url": "https://nzfamilytravel.co.nz",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://nzfamilytravel.co.nz/static/img/favicon.svg",
+        "width": 512,
+        "height": 512
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "email": "hello@nzfamilytravel.co.nz",
+        "contactType": "customer service"
+      },
+      "sameAs": [
+        "https://www.facebook.com/nzfamilytravel",
+        "https://www.instagram.com/nzfamilytravel",
+        "https://www.pinterest.com/nzfamilytravel"
+      ]
+    }
+  ]
+  </script>
   
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://nzfamilytravel.co.nz/"},
-    {"@type": "ListItem", "position": 2, "name": "Family Activities in New Zealand", "item": "https://nzfamilytravel.co.nz/activities/"}
-  ]
-}
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://nzfamilytravel.co.nz/"},
+      {"@type": "ListItem", "position": 2, "name": "Family Activities in New Zealand", "item": "https://nzfamilytravel.co.nz/activities/"}
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "Family Activities in New Zealand",
+    "description": "Kid-friendly activities across NZ \u2014 with real prices, minimum ages, and honest reviews.",
+    "url": "https://nzfamilytravel.co.nz/activities/",
+    "numberOfItems": 23,
+    "itemListElement": [
+      
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Skyline Gondola \u0026 Luge",
+        "url": "https://nzfamilytravel.co.nz/activity/skyline-gondola-luge-queenstown/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Te Puia",
+        "url": "https://nzfamilytravel.co.nz/activity/te-puia-rotorua/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Wai-O-Tapu Thermal Wonderland",
+        "url": "https://nzfamilytravel.co.nz/activity/wai-o-tapu-rotorua/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Agrodome Farm Show",
+        "url": "https://nzfamilytravel.co.nz/activity/agrodome-rotorua/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "International Antarctic Centre",
+        "url": "https://nzfamilytravel.co.nz/activity/international-antarctic-centre-christchurch/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 6,
+        "name": "Huka Falls",
+        "url": "https://nzfamilytravel.co.nz/activity/huka-falls-taupo/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 7,
+        "name": "Huka Jet Boat",
+        "url": "https://nzfamilytravel.co.nz/activity/huka-jet-taupo/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 8,
+        "name": "Waitangi Treaty Grounds",
+        "url": "https://nzfamilytravel.co.nz/activity/waitangi-treaty-grounds/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 9,
+        "name": "Dolphin Watching Cruise",
+        "url": "https://nzfamilytravel.co.nz/activity/dolphins-bay-of-islands/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 10,
+        "name": "Puzzling World",
+        "url": "https://nzfamilytravel.co.nz/activity/puzzling-world-wanaka/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 11,
+        "name": "Christchurch Gondola",
+        "url": "https://nzfamilytravel.co.nz/activity/christchurch-gondola/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 12,
+        "name": "Orana Wildlife Park",
+        "url": "https://nzfamilytravel.co.nz/activity/orana-wildlife-park-christchurch/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 13,
+        "name": "Te Papa Museum",
+        "url": "https://nzfamilytravel.co.nz/activity/te-papa-wellington/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 14,
+        "name": "Wellington Cable Car",
+        "url": "https://nzfamilytravel.co.nz/activity/wellington-cable-car/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 15,
+        "name": "Abel Tasman Water Taxi \u0026 Beach Day",
+        "url": "https://nzfamilytravel.co.nz/activity/abel-tasman-water-taxi/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 16,
+        "name": "Hot Water Beach",
+        "url": "https://nzfamilytravel.co.nz/activity/hot-water-beach-coromandel/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 17,
+        "name": "Milford Sound Nature Cruise",
+        "url": "https://nzfamilytravel.co.nz/activity/milford-sound-cruise/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 18,
+        "name": "Zealandia Wildlife Sanctuary",
+        "url": "https://nzfamilytravel.co.nz/activity/zealandia-wellington/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 19,
+        "name": "Driving Creek Railway",
+        "url": "https://nzfamilytravel.co.nz/activity/driving-creek-railway-coromandel/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 20,
+        "name": "Cape Reinga and Ninety Mile Beach Tour",
+        "url": "https://nzfamilytravel.co.nz/activity/cape-reinga-tour-northland/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 21,
+        "name": "Surf Lesson at Mount Maunganui",
+        "url": "https://nzfamilytravel.co.nz/activity/mount-maunganui-surf-lesson/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 22,
+        "name": "Cape Kidnappers Gannet Colony Tour",
+        "url": "https://nzfamilytravel.co.nz/activity/cape-kidnappers-gannet-tour/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 23,
+        "name": "Royal Albatross Centre \u2014 Taiaroa Head",
+        "url": "https://nzfamilytravel.co.nz/activity/royal-albatross-centre-dunedin/"
+      }
+      
+    ]
+  }
+]
 </script>
 
 </head>

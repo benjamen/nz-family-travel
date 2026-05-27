@@ -5,13 +5,24 @@
   "title": "Thailand with Kids — The Honest Family Guide (2026)",
   "meta_desc": "Thailand family holiday guide: best destinations, real costs, when to go, flight times from NZ, and which parts of Thailand are actually great with kids.",
   "tagline": "Warm, cheap, stunning — but you need to know where to go with kids",
-  "hero_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Krabi_thailand.jpg/1200px-Krabi_thailand.jpg",
+  "hero_image": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Krabi_thailand.jpg",
   "hero_alt": "Krabi limestone cliffs and turquoise water, Thailand",
   "best_ages": "3+",
   "budget_family4_per_day": "NZ$150–350",
   "flight_from_nz": "11–12 hours (Auckland to Bangkok, usually via Sydney or Singapore)",
-  "best_months": ["November", "December", "January", "February", "March"],
-  "avoid_months": ["June", "July", "August", "September"],
+  "best_months": [
+    "November",
+    "December",
+    "January",
+    "February",
+    "March"
+  ],
+  "avoid_months": [
+    "June",
+    "July",
+    "August",
+    "September"
+  ],
   "intro": "Thailand is one of the best-value family destinations in the world — warm all year, incredible food, friendly locals, and a fraction of NZ prices. A family of 4 can live extremely well for NZ$200–250/day including a beach resort, food, and daily activities. The key is knowing which parts of Thailand suit families with kids.",
   "verdict": "Excellent for families, especially with kids aged 5+. Younger kids do well too if you pick the right destinations and go in the dry season.",
   "best_destinations": [
@@ -19,21 +30,37 @@
       "name": "Chiang Mai",
       "tagline": "Temples, elephants, and cool mountain air — the best family city in Thailand",
       "why": "Chiang Mai has the best ethical elephant experiences in Asia, fantastic street food, and a charming old city. Cooler than Bangkok, much less frantic, and very child-friendly. A week here is better than a week in Bangkok for most families.",
-      "must_do": ["Elephant Nature Park (ethical, book in advance)", "Old City temples (Doi Suthep is the most stunning)", "Sunday Walking Street night market", "Thai cooking class for kids", "Doi Inthanon National Park (highest point in Thailand)"],
+      "must_do": [
+        "Elephant Nature Park (ethical, book in advance)",
+        "Old City temples (Doi Suthep is the most stunning)",
+        "Sunday Walking Street night market",
+        "Thai cooking class for kids",
+        "Doi Inthanon National Park (highest point in Thailand)"
+      ],
       "cost": "Budget NZ$130–200/day family of 4 including accommodation"
     },
     {
       "name": "Krabi / Ao Nang",
       "tagline": "Thailand's most spectacular beaches — dramatic limestone cliffs, calm water",
       "why": "Krabi is more relaxed and less crowded than Phuket, with better beaches. The four islands boat trip ($40/person) is unmissable. Railay Beach (boat access only) is one of the world's most beautiful beaches.",
-      "must_do": ["Four Islands snorkelling tour", "Railay Beach day trip by longtail boat", "Tiger Cave Temple (1,237 steps — reward kids at the top)", "Rock climbing intro for older kids at Railay", "Kayaking through sea caves"],
+      "must_do": [
+        "Four Islands snorkelling tour",
+        "Railay Beach day trip by longtail boat",
+        "Tiger Cave Temple (1,237 steps — reward kids at the top)",
+        "Rock climbing intro for older kids at Railay",
+        "Kayaking through sea caves"
+      ],
       "cost": "Budget NZ$180–280/day family of 4"
     },
     {
       "name": "Koh Lanta",
       "tagline": "Quieter, cheaper, and better for younger kids than Phuket or Koh Samui",
       "why": "Koh Lanta is what Koh Samui used to be — relaxed, beautiful, with long sandy beaches and calm water on the west coast. Far fewer party tourists than other Thai islands. Perfect for families with under-10s.",
-      "must_do": ["Long Beach (Hat Khlong Dao) — safest swimming beach on the island", "Kayaking the mangroves", "Snorkelling day trip to Koh Rok"],
+      "must_do": [
+        "Long Beach (Hat Khlong Dao) — safest swimming beach on the island",
+        "Kayaking the mangroves",
+        "Snorkelling day trip to Koh Rok"
+      ],
       "cost": "Budget NZ$150–250/day family of 4"
     }
   ],
@@ -52,8 +79,16 @@
     "transport": "NZ$20–50/day including tuk-tuks, taxis, and local boats"
   },
   "facebook_groups": [
-    {"name": "Thailand with Kids", "url": "https://www.facebook.com/groups/search/results/?q=thailand+with+kids+families", "description": "Families sharing real experiences across Thailand — accommodation, activities, safety tips"},
-    {"name": "NZ Families — Thailand Travel", "url": "https://www.facebook.com/groups/search/results/?q=new+zealand+families+thailand", "description": "NZ families specifically discussing Thailand trips"}
+    {
+      "name": "Thailand with Kids",
+      "url": "https://www.facebook.com/groups/search/results/?q=thailand+with+kids+families",
+      "description": "Families sharing real experiences across Thailand — accommodation, activities, safety tips"
+    },
+    {
+      "name": "NZ Families — Thailand Travel",
+      "url": "https://www.facebook.com/groups/search/results/?q=new+zealand+families+thailand",
+      "description": "NZ families specifically discussing Thailand trips"
+    }
   ],
   "nz_affiliate_note": "Book flights from NZ via Air New Zealand (Auckland–Bangkok direct via code-share) or Jetstar/Air Asia connecting through Singapore or Sydney."
 }

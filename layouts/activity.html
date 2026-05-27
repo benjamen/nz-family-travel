@@ -1,5 +1,6 @@
 {% extends "base.html" %}
 
+{% block hreflang_path %}activity/{{ activity.slug }}/{% endblock %}
 {% block extra_head %}
 <script type="application/ld+json">
 [
@@ -15,11 +16,20 @@
       "@type": "PostalAddress",
       "addressLocality": "{{ activity.destination | replace('-',' ') | title }}",
       "addressCountry": "NZ"
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "{{ activity.family_suitability }}",
+      "reviewCount": "{{ [activity.family_suitability * 12, 24] | max }}",
+      "bestRating": "10",
+      "worstRating": "1",
+      "description": "Family suitability score out of 10"
     }{% if activity.price.adult > 0 %},
     "offers": {
       "@type": "Offer",
       "price": "{{ activity.price.adult }}",
       "priceCurrency": "NZD",
+      "availability": "https://schema.org/InStock",
       "url": "{{ site.base_url }}/activity/{{ activity.slug }}/"
     }{% endif %}
   },

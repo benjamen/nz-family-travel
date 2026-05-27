@@ -3,17 +3,38 @@
 {% block title %}{{ hub_title }} — NZ Family Travel 2026{% endblock %}
 {% block desc %}{{ hub_subtitle }}{% endblock %}
 {% block canonical %}{{ hub_type }}/{% endblock %}
+{% block hreflang_path %}{{ hub_type }}/{% endblock %}
 
 {% block extra_head %}
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "{{ site.base_url }}/"},
-    {"@type": "ListItem", "position": 2, "name": "{{ hub_title }}", "item": "{{ site.base_url }}/{{ hub_type }}/"}
-  ]
-}
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Home", "item": "{{ site.base_url }}/"},
+      {"@type": "ListItem", "position": 2, "name": "{{ hub_title }}", "item": "{{ site.base_url }}/{{ hub_type }}/"}
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": {{ hub_title | tojson }},
+    "description": {{ hub_subtitle | tojson }},
+    "url": "{{ site.base_url }}/{{ hub_type }}/",
+    "numberOfItems": {{ items | length }},
+    "itemListElement": [
+      {% for item in items %}
+      {
+        "@type": "ListItem",
+        "position": {{ loop.index }},
+        "name": {{ item[item_name_field] | tojson }},
+        "url": "{{ site.base_url }}/{{ item_url_prefix }}/{{ item[item_slug_field] }}/"
+      }{% if not loop.last %},{% endif %}
+      {% endfor %}
+    ]
+  }
+]
 </script>
 {% endblock %}
 

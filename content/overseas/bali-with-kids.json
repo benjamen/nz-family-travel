@@ -5,13 +5,24 @@
   "title": "Bali with Kids — The Honest NZ Family Guide (2026)",
   "meta_desc": "Bali family holiday guide for NZ families. Real costs, best areas (Ubud vs Seminyak vs Canggu vs Nusa Dua), flight times, and honest advice on what works with kids.",
   "tagline": "NZ's favourite overseas family destination — but pick the right area",
-  "hero_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Bali_Indonesia_%28226976567%29.jpg/1200px-Bali_Indonesia_%28226976567%29.jpg",
+  "hero_image": "https://upload.wikimedia.org/wikipedia/commons/1/16/Bali_Indonesia_%28226976567%29.jpg",
   "hero_alt": "Bali rice terraces and jungle landscape",
   "best_ages": "All ages",
   "budget_family4_per_day": "NZ$120–300",
   "flight_from_nz": "8–9 hours (Auckland to Denpasar, direct or via Sydney/Melbourne)",
-  "best_months": ["April", "May", "June", "July", "August", "September"],
-  "avoid_months": ["January", "February", "March"],
+  "best_months": [
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September"
+  ],
+  "avoid_months": [
+    "January",
+    "February",
+    "March"
+  ],
   "intro": "Bali is NZ's most popular family overseas destination for good reason — it's a 9-hour flight, warm year-round, incredibly cheap, and offers something for every age. A villa with a private pool costs less than a budget NZ motel. The key is choosing the right area for your family and avoiding the rainy season.",
   "verdict": "Our top pick for NZ families' first overseas trip. Easy, warm, cheap, and with a high density of family activities. Best for ages 2+.",
   "best_destinations": [
@@ -19,21 +30,37 @@
       "name": "Nusa Dua / Tanjung Benoa",
       "tagline": "The safest beaches, the best resorts, the most family-friendly area in Bali",
       "why": "Nusa Dua has calm, shallow, patrolled beaches — the only beaches in Bali consistently safe for young children. The big resort strip has everything in one place. More expensive than other areas but worth it for families with under-7s.",
-      "must_do": ["Waterblow natural blowhole (free, dramatic)", "Glass-bottom boat snorkelling", "Bali Collection shopping centre (surprisingly good for a rainy day)", "Water sports at Tanjung Benoa"],
+      "must_do": [
+        "Waterblow natural blowhole (free, dramatic)",
+        "Glass-bottom boat snorkelling",
+        "Bali Collection shopping centre (surprisingly good for a rainy day)",
+        "Water sports at Tanjung Benoa"
+      ],
       "cost": "Budget NZ$200–350/day family of 4 (resort area pricing)"
     },
     {
       "name": "Ubud",
       "tagline": "Rice terraces, monkey forest, and the cultural heart of Bali",
       "why": "Ubud is Bali's cultural hub — temples, traditional dance, rice terraces, and the famous Monkey Forest. It's inland (no beaches) but cooler and greener. Best for kids 6+ who can appreciate the culture. Many excellent villa rentals at great prices.",
-      "must_do": ["Sacred Monkey Forest (NZ$8 entry, incredible)", "Tegallalang Rice Terraces (free, very walkable)", "Balinese cooking class — kids love it", "Goa Gajah elephant cave (historic, easy walk)", "Kecak fire dance at Uluwatu (sunset, spectacular for older kids)"],
+      "must_do": [
+        "Sacred Monkey Forest (NZ$8 entry, incredible)",
+        "Tegallalang Rice Terraces (free, very walkable)",
+        "Balinese cooking class — kids love it",
+        "Goa Gajah elephant cave (historic, easy walk)",
+        "Kecak fire dance at Uluwatu (sunset, spectacular for older kids)"
+      ],
       "cost": "Budget NZ$130–220/day family of 4"
     },
     {
       "name": "Canggu",
       "tagline": "Relaxed surf village with great cafes — best for teens and older kids",
       "why": "Canggu is Bali's coolest neighbourhood — black sand beaches, world-class surf, Instagram-worthy cafes, and a younger vibe. Less suited to very young children (the black sand beach has surf, not calm swimming) but perfect for families with 10+ year olds.",
-      "must_do": ["Echo Beach surf lessons for older kids", "Tanah Lot temple at sunset", "Berawa Beach (slightly calmer than Echo)", "La Brisa beach club (family-friendly, stunning pool)"],
+      "must_do": [
+        "Echo Beach surf lessons for older kids",
+        "Tanah Lot temple at sunset",
+        "Berawa Beach (slightly calmer than Echo)",
+        "La Brisa beach club (family-friendly, stunning pool)"
+      ],
       "cost": "Budget NZ$140–250/day family of 4"
     }
   ],
@@ -52,9 +79,21 @@
     "transport": "NZ$15–40/day using Gojek and occasional car hire"
   },
   "facebook_groups": [
-    {"name": "Bali with Kids", "url": "https://www.facebook.com/groups/search/results/?q=bali+with+kids+families", "description": "The best Bali family travel group — villa recommendations, safety tips, activity reviews"},
-    {"name": "NZ Families — Bali Travel", "url": "https://www.facebook.com/groups/search/results/?q=new+zealand+families+bali", "description": "NZ families sharing Bali experiences, Jetstar deals, and accommodation tips"},
-    {"name": "Bali Villa Recommendations", "url": "https://www.facebook.com/groups/search/results/?q=bali+villa+families+recommendations", "description": "Trusted villa recommendations from families who've actually stayed there"}
+    {
+      "name": "Bali with Kids",
+      "url": "https://www.facebook.com/groups/search/results/?q=bali+with+kids+families",
+      "description": "The best Bali family travel group — villa recommendations, safety tips, activity reviews"
+    },
+    {
+      "name": "NZ Families — Bali Travel",
+      "url": "https://www.facebook.com/groups/search/results/?q=new+zealand+families+bali",
+      "description": "NZ families sharing Bali experiences, Jetstar deals, and accommodation tips"
+    },
+    {
+      "name": "Bali Villa Recommendations",
+      "url": "https://www.facebook.com/groups/search/results/?q=bali+villa+families+recommendations",
+      "description": "Trusted villa recommendations from families who've actually stayed there"
+    }
   ],
   "nz_affiliate_note": "Fly direct Auckland–Denpasar on Jetstar or Air NZ. Book 3+ months ahead for the best fares. Travel insurance is essential."
 }

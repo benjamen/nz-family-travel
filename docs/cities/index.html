@@ -8,6 +8,15 @@
   <link rel="canonical" href="https://nzfamilytravel.co.nz/cities/">
   <link rel="stylesheet" href="/static/css/style.css">
   <link rel="icon" href="/static/img/favicon.svg" type="image/svg+xml">
+  <!-- Preconnect for CDN performance -->
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link rel="preconnect" href="https://www.googletagmanager.com">
+  <!-- Geo signals for NZ-local search -->
+  <meta name="geo.region" content="NZ">
+  <meta name="geo.placename" content="New Zealand">
+  <meta name="ICBM" content="-41.2866, 174.7756">
+  <!-- Locale / language -->
+  <link rel="alternate" hreflang="en-NZ" href="https://nzfamilytravel.co.nz/cities/">
   <!-- Open Graph / Social sharing -->
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="NZ Family Travel">
@@ -25,17 +34,302 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-BHTP34TBYW"></script>
   <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-BHTP34TBYW');</script>
   
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"NZ Family Travel — NZ's Family Holiday Planning Platform","url":"https://nzfamilytravel.co.nz"}</script>
+  <script type="application/ld+json">
+  [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "NZ Family Travel",
+      "url": "https://nzfamilytravel.co.nz",
+      "description": "Plan your New Zealand family holiday. Compare campervans, find kid-friendly activities, and get honest itineraries from New Zealand parents.",
+      "inLanguage": "en-NZ",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://nzfamilytravel.co.nz/destinations/?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "NZ Family Travel",
+      "url": "https://nzfamilytravel.co.nz",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://nzfamilytravel.co.nz/static/img/favicon.svg",
+        "width": 512,
+        "height": 512
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "email": "hello@nzfamilytravel.co.nz",
+        "contactType": "customer service"
+      },
+      "sameAs": [
+        "https://www.facebook.com/nzfamilytravel",
+        "https://www.instagram.com/nzfamilytravel",
+        "https://www.pinterest.com/nzfamilytravel"
+      ]
+    }
+  ]
+  </script>
   
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://nzfamilytravel.co.nz/"},
-    {"@type": "ListItem", "position": 2, "name": "NZ City Family Guides — Hamilton, Whangarei, Invercargill & More", "item": "https://nzfamilytravel.co.nz/cities/"}
-  ]
-}
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://nzfamilytravel.co.nz/"},
+      {"@type": "ListItem", "position": 2, "name": "NZ City Family Guides — Hamilton, Whangarei, Invercargill & More", "item": "https://nzfamilytravel.co.nz/cities/"}
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "NZ City Family Guides \u2014 Hamilton, Whangarei, Invercargill \u0026 More",
+    "description": "Family travel guides for 35 NZ cities and towns \u2014 things to do, rainy-day options, where to stay, and honest budget tips.",
+    "url": "https://nzfamilytravel.co.nz/cities/",
+    "numberOfItems": 33,
+    "itemListElement": [
+      
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Hamilton",
+        "url": "https://nzfamilytravel.co.nz/cities/hamilton/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Matamata",
+        "url": "https://nzfamilytravel.co.nz/cities/matamata/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Raglan",
+        "url": "https://nzfamilytravel.co.nz/cities/raglan/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Cambridge",
+        "url": "https://nzfamilytravel.co.nz/cities/cambridge/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Whanganui",
+        "url": "https://nzfamilytravel.co.nz/cities/whanganui/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 6,
+        "name": "Palmerston North",
+        "url": "https://nzfamilytravel.co.nz/cities/palmerston-north/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 7,
+        "name": "Whangarei",
+        "url": "https://nzfamilytravel.co.nz/cities/whangarei/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 8,
+        "name": "Kerikeri",
+        "url": "https://nzfamilytravel.co.nz/cities/kerikeri/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 9,
+        "name": "Ohakune",
+        "url": "https://nzfamilytravel.co.nz/cities/ohakune/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 10,
+        "name": "Paraparaumu",
+        "url": "https://nzfamilytravel.co.nz/cities/paraparaumu/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 11,
+        "name": "Masterton",
+        "url": "https://nzfamilytravel.co.nz/cities/masterton/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 12,
+        "name": "Picton",
+        "url": "https://nzfamilytravel.co.nz/cities/picton/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 13,
+        "name": "Kaik\u014dura",
+        "url": "https://nzfamilytravel.co.nz/cities/kaikoura/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 14,
+        "name": "Hanmer Springs",
+        "url": "https://nzfamilytravel.co.nz/cities/hanmer-springs/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 15,
+        "name": "Akaroa",
+        "url": "https://nzfamilytravel.co.nz/cities/akaroa/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 16,
+        "name": "Methven",
+        "url": "https://nzfamilytravel.co.nz/cities/methven/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 17,
+        "name": "Timaru",
+        "url": "https://nzfamilytravel.co.nz/cities/timaru/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 18,
+        "name": "Oamaru",
+        "url": "https://nzfamilytravel.co.nz/cities/oamaru/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 19,
+        "name": "Te Anau",
+        "url": "https://nzfamilytravel.co.nz/cities/te-anau/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 20,
+        "name": "Arrowtown",
+        "url": "https://nzfamilytravel.co.nz/cities/arrowtown/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 21,
+        "name": "Cromwell",
+        "url": "https://nzfamilytravel.co.nz/cities/cromwell/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 22,
+        "name": "Invercargill",
+        "url": "https://nzfamilytravel.co.nz/cities/invercargill/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 23,
+        "name": "Hokitika",
+        "url": "https://nzfamilytravel.co.nz/cities/hokitika/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 24,
+        "name": "Greymouth",
+        "url": "https://nzfamilytravel.co.nz/cities/greymouth/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 25,
+        "name": "Westport",
+        "url": "https://nzfamilytravel.co.nz/cities/westport/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 26,
+        "name": "Motueka",
+        "url": "https://nzfamilytravel.co.nz/cities/motueka/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 27,
+        "name": "Alexandra",
+        "url": "https://nzfamilytravel.co.nz/cities/alexandra/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 28,
+        "name": "Gore",
+        "url": "https://nzfamilytravel.co.nz/cities/gore/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 29,
+        "name": "Paihia",
+        "url": "https://nzfamilytravel.co.nz/cities/paihia/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 30,
+        "name": "Whitianga",
+        "url": "https://nzfamilytravel.co.nz/cities/whitianga/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 31,
+        "name": "Lower Hutt",
+        "url": "https://nzfamilytravel.co.nz/cities/lower-hutt/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 32,
+        "name": "Greytown",
+        "url": "https://nzfamilytravel.co.nz/cities/greytown/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 33,
+        "name": "Martinborough",
+        "url": "https://nzfamilytravel.co.nz/cities/martinborough/"
+      }
+      
+    ]
+  }
+]
 </script>
 
 </head>

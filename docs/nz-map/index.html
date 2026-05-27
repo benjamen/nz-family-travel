@@ -8,6 +8,15 @@
   <link rel="canonical" href="https://nzfamilytravel.co.nz/nz-map/">
   <link rel="stylesheet" href="/static/css/style.css">
   <link rel="icon" href="/static/img/favicon.svg" type="image/svg+xml">
+  <!-- Preconnect for CDN performance -->
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link rel="preconnect" href="https://www.googletagmanager.com">
+  <!-- Geo signals for NZ-local search -->
+  <meta name="geo.region" content="NZ">
+  <meta name="geo.placename" content="New Zealand">
+  <meta name="ICBM" content="-41.2866, 174.7756">
+  <!-- Locale / language -->
+  <link rel="alternate" hreflang="en-NZ" href="https://nzfamilytravel.co.nz/">
   <!-- Open Graph / Social sharing -->
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="NZ Family Travel">
@@ -25,7 +34,48 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-BHTP34TBYW"></script>
   <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-BHTP34TBYW');</script>
   
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"NZ Family Travel — NZ's Family Holiday Planning Platform","url":"https://nzfamilytravel.co.nz"}</script>
+  <script type="application/ld+json">
+  [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "NZ Family Travel",
+      "url": "https://nzfamilytravel.co.nz",
+      "description": "Plan your New Zealand family holiday. Compare campervans, find kid-friendly activities, and get honest itineraries from New Zealand parents.",
+      "inLanguage": "en-NZ",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://nzfamilytravel.co.nz/destinations/?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "NZ Family Travel",
+      "url": "https://nzfamilytravel.co.nz",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://nzfamilytravel.co.nz/static/img/favicon.svg",
+        "width": 512,
+        "height": 512
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "email": "hello@nzfamilytravel.co.nz",
+        "contactType": "customer service"
+      },
+      "sameAs": [
+        "https://www.facebook.com/nzfamilytravel",
+        "https://www.instagram.com/nzfamilytravel",
+        "https://www.pinterest.com/nzfamilytravel"
+      ]
+    }
+  ]
+  </script>
   
 <style>
 .map-page { max-width: var(--max-w); margin: 0 auto; padding: 2rem 1.25rem; }
@@ -566,7 +616,7 @@
       
       <a href="/destinations/queenstown-with-kids/" class="dest-card">
         
-        <div class="dest-card-img" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Queenstown_1_%288168013172%29.jpg/1200px-Queenstown_1_%288168013172%29.jpg')"></div>
+        <div class="dest-card-img" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/c/c9/Queenstown_1_%288168013172%29.jpg')"></div>
         
         <div class="dest-card-body">
           <div class="dest-meta">
@@ -585,7 +635,7 @@
       
       <a href="/destinations/rotorua-family-guide/" class="dest-card">
         
-        <div class="dest-card-img" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Government_Gardens_in_Rotorua_01.jpg/1200px-Government_Gardens_in_Rotorua_01.jpg')"></div>
+        <div class="dest-card-img" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/5/5c/Government_Gardens_in_Rotorua_01.jpg')"></div>
         
         <div class="dest-card-body">
           <div class="dest-meta">
@@ -661,7 +711,7 @@
       
       <a href="/destinations/wanaka-with-kids/" class="dest-card">
         
-        <div class="dest-card-img" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/LakeWanakaNov272024.jpg/1200px-LakeWanakaNov272024.jpg')"></div>
+        <div class="dest-card-img" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/4/44/LakeWanakaNov272024.jpg')"></div>
         
         <div class="dest-card-body">
           <div class="dest-meta">
@@ -680,7 +730,7 @@
       
       <a href="/destinations/wellington-with-kids/" class="dest-card">
         
-        <div class="dest-card-img" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/3/38/Wellington_Harbour%2C_New_Zealand%2C_N.jpg')"></div>
+        <div class="dest-card-img" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/4/4f/Wellington_City_from_Oriental_Bay.jpg')"></div>
         
         <div class="dest-card-body">
           <div class="dest-meta">
@@ -699,7 +749,7 @@
       
       <a href="/destinations/nelson-abel-tasman-family/" class="dest-card">
         
-        <div class="dest-card-img" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/AnchorageBayNZDec022024_02.jpg/1200px-AnchorageBayNZDec022024_02.jpg')"></div>
+        <div class="dest-card-img" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/5/56/AnchorageBayNZDec022024_02.jpg')"></div>
         
         <div class="dest-card-body">
           <div class="dest-meta">
@@ -718,7 +768,7 @@
       
       <a href="/destinations/coromandel-with-kids/" class="dest-card">
         
-        <div class="dest-card-img" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Cathedral_Cove_06.jpg/1200px-Cathedral_Cove_06.jpg')"></div>
+        <div class="dest-card-img" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/0/0b/Cathedral_Cove_06.jpg')"></div>
         
         <div class="dest-card-body">
           <div class="dest-meta">
@@ -737,7 +787,7 @@
       
       <a href="/destinations/fiordland-milford-sound-family/" class="dest-card">
         
-        <div class="dest-card-img" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Milford_Sound_%28New_Zealand%29.JPG/1200px-Milford_Sound_%28New_Zealand%29.JPG')"></div>
+        <div class="dest-card-img" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/b/b6/Milford_Sound_%28New_Zealand%29.JPG')"></div>
         
         <div class="dest-card-body">
           <div class="dest-meta">
@@ -756,7 +806,7 @@
       
       <a href="/destinations/northland-cape-reinga-family/" class="dest-card">
         
-        <div class="dest-card-img" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Cape_Reinga_Lighthouse.jpg/1200px-Cape_Reinga_Lighthouse.jpg')"></div>
+        <div class="dest-card-img" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/1/1d/NZ140415_Cape_Reinga_Lighthouse_01.jpg')"></div>
         
         <div class="dest-card-body">
           <div class="dest-meta">
@@ -775,7 +825,7 @@
       
       <a href="/destinations/tauranga-mount-maunganui-family/" class="dest-card">
         
-        <div class="dest-card-img" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Mt_Maunganui_aerial_2013.jpg/1200px-Mt_Maunganui_aerial_2013.jpg')"></div>
+        <div class="dest-card-img" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/b/b0/Mount_Maunganui%2C_Tauranga%2C_New_Zealand_%28Unsplash_2FFh56Q9jWs%29.jpg')"></div>
         
         <div class="dest-card-body">
           <div class="dest-meta">
@@ -794,7 +844,7 @@
       
       <a href="/destinations/hawkes-bay-family-guide/" class="dest-card">
         
-        <div class="dest-card-img" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Napier%2C_New_Zealand_Art_Deco_buildings_-_2.jpg/1200px-Napier%2C_New_Zealand_Art_Deco_buildings_-_2.jpg')"></div>
+        <div class="dest-card-img" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/f/f6/Napier%2C_New_Zealand_Art_Deco_buildings_-_2.jpg')"></div>
         
         <div class="dest-card-body">
           <div class="dest-meta">
@@ -813,7 +863,7 @@
       
       <a href="/destinations/dunedin-family-guide/" class="dest-card">
         
-        <div class="dest-card-img" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Dunedin_railway_station_1.jpg/1200px-Dunedin_railway_station_1.jpg')"></div>
+        <div class="dest-card-img" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/d/da/Dunedin_railway_station_1.jpg')"></div>
         
         <div class="dest-card-body">
           <div class="dest-meta">
@@ -832,7 +882,7 @@
       
       <a href="/destinations/auckland-with-kids/" class="dest-card">
         
-        <div class="dest-card-img" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Auckland_Sky_Tower_-_Feb_2008.jpg/1200px-Auckland_Sky_Tower_-_Feb_2008.jpg')"></div>
+        <div class="dest-card-img" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/4/45/Auckland_Sky_Tower_-_Feb_2008.jpg')"></div>
         
         <div class="dest-card-body">
           <div class="dest-meta">
@@ -851,7 +901,7 @@
       
       <a href="/destinations/new-plymouth-taranaki-family/" class="dest-card">
         
-        <div class="dest-card-img" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Taranaki_Mount_from_Pembroke_Road.jpg/1200px-Taranaki_Mount_from_Pembroke_Road.jpg')"></div>
+        <div class="dest-card-img" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/9/9c/Taranaki_Mount_from_Pembroke_Road.jpg')"></div>
         
         <div class="dest-card-body">
           <div class="dest-meta">
@@ -870,7 +920,7 @@
       
       <a href="/destinations/marlborough-blenheim-family/" class="dest-card">
         
-        <div class="dest-card-img" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Marlborough_Sounds_from_above.jpg/1200px-Marlborough_Sounds_from_above.jpg')"></div>
+        <div class="dest-card-img" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/e/e0/Marlborough_Sounds_from_above.jpg')"></div>
         
         <div class="dest-card-body">
           <div class="dest-meta">
@@ -889,7 +939,7 @@
       
       <a href="/destinations/west-coast-family-guide/" class="dest-card">
         
-        <div class="dest-card-img" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Pancake_Rocks_New_Zealand.jpg/1200px-Pancake_Rocks_New_Zealand.jpg')"></div>
+        <div class="dest-card-img" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/7/7b/Pancake_Rocks_New_Zealand.jpg')"></div>
         
         <div class="dest-card-body">
           <div class="dest-meta">
@@ -908,7 +958,7 @@
       
       <a href="/destinations/gisborne-east-cape-family/" class="dest-card">
         
-        <div class="dest-card-img" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/East_Cape_Lighthouse.jpg/1200px-East_Cape_Lighthouse.jpg')"></div>
+        <div class="dest-card-img" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/2/24/East_Cape_Lighthouse.jpg')"></div>
         
         <div class="dest-card-body">
           <div class="dest-meta">

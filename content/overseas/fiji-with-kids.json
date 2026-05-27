@@ -5,13 +5,24 @@
   "title": "Fiji with Kids — Honest Family Guide 2026 (From a NZ Family)",
   "meta_desc": "Fiji family holiday from NZ: real resort costs, best islands for kids, how to avoid the expensive traps, and whether it's worth the money. Updated 2026.",
   "tagline": "3.5 hours from Auckland — the Pacific's best family beach destination",
-  "hero_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Fiji-sunset-1.jpg/1200px-Fiji-sunset-1.jpg",
+  "hero_image": "https://upload.wikimedia.org/wikipedia/commons/3/39/Fiji-sunset-1.jpg",
   "hero_alt": "Tropical sunset over Fiji's turquoise lagoon",
   "best_ages": "2+",
   "budget_family4_per_day": "NZ$600–1,500",
   "flight_from_nz": "3.5–4 hours direct (Auckland → Nadi). Fiji Airways and Air New Zealand fly daily.",
-  "best_months": ["May", "June", "July", "August", "September", "October"],
-  "avoid_months": ["January", "February", "March"],
+  "best_months": [
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October"
+  ],
+  "avoid_months": [
+    "January",
+    "February",
+    "March"
+  ],
   "intro": "Fiji is New Zealand's most popular overseas family destination — and it's easy to see why. At 3.5 hours from Auckland, it's barely further than Queenstown by plane, yet you're in the tropics with some of the world's best family resorts. The catch: it can be expensive. A week at a decent Mamanuca Islands resort for a family of 4 easily costs NZ$8,000–15,000 all-in. There are budget strategies that work, but go in with open eyes.",
   "verdict": "Outstanding for families who want a guaranteed beach holiday with resort infrastructure. Expensive, but the short flight and unbeatable tropical setting make it NZ's go-to Pacific escape.",
   "best_destinations": [
@@ -19,21 +30,37 @@
       "name": "Mamanuca Islands (Malolo, Matamanoa, Tokoriki area)",
       "tagline": "The classic Fiji postcard — white sand, calm turquoise water, family resorts",
       "why": "The Mamanuca Islands sit 30–45 minutes by fast boat from Nadi airport. This is where most of the famous family resorts are. Calm lagoon conditions make them ideal for young kids. The snorkelling is superb right off the beach — no boat trip needed. South Sea Island (15 min from Port Denarau) is the most accessible day trip for families.",
-      "must_do": ["Snorkelling the house reef at your resort", "Island day trip to South Sea Island or Bounty Island", "Village visit on Malolo Lailai", "Sunset cruise with kids", "Kids club activities at the larger resorts"],
+      "must_do": [
+        "Snorkelling the house reef at your resort",
+        "Island day trip to South Sea Island or Bounty Island",
+        "Village visit on Malolo Lailai",
+        "Sunset cruise with kids",
+        "Kids club activities at the larger resorts"
+      ],
       "cost": "Budget NZ$600–1,500+/day family of 4 including resort, food and activities"
     },
     {
       "name": "Coral Coast (Viti Levu — Sigatoka area)",
       "tagline": "More affordable than the islands — the budget-smart family choice",
       "why": "The Coral Coast on Viti Levu's main island is 1.5 hours drive from Nadi airport. It's where you find more affordable resorts (NZ$250–450/night) without paying Mamanuca water-taxi prices. Less pristine than the outer islands but still great beaches, the Kula Eco Park (native wildlife), and Sigatoka Sand Dunes National Park. Good option for families watching the budget.",
-      "must_do": ["Kula Eco Park — native birds and reptiles, great for kids", "Sigatoka Sand Dunes National Park hike", "Naihehe Cave tour (authentic Fijian culture)", "Village visits in the Sigatoka Valley"],
+      "must_do": [
+        "Kula Eco Park — native birds and reptiles, great for kids",
+        "Sigatoka Sand Dunes National Park hike",
+        "Naihehe Cave tour (authentic Fijian culture)",
+        "Village visits in the Sigatoka Valley"
+      ],
       "cost": "Budget NZ$350–700/day family of 4 including accommodation and meals"
     },
     {
       "name": "Yasawa Islands",
       "tagline": "Remote, stunning, quieter — better for teens than toddlers",
       "why": "The Yasawa Islands are the most dramatic in Fiji — volcanic peaks, blue lagoons, cave snorkelling. Access is via the Yasawa Flyer ferry (budget) or seaplane (expensive but magical). Less resort infrastructure than Mamanuca, more boutique lodges. Brilliant for older kids and teens who can appreciate the ruggedness. The Blue Lagoon Caves are genuinely world-class.",
-      "must_do": ["Blue Lagoon Caves snorkelling", "Village kava ceremony", "Seaplane flight over the islands", "Kayaking the lagoon"],
+      "must_do": [
+        "Blue Lagoon Caves snorkelling",
+        "Village kava ceremony",
+        "Seaplane flight over the islands",
+        "Kayaking the lagoon"
+      ],
       "cost": "Budget NZ$450–900/day depending on lodge level"
     }
   ],
@@ -52,8 +79,16 @@
     "transport": "NZ$150–400 for ferry passes or boat transfers. Budget NZ$50–100 for airport transfers and Viti Levu taxis."
   },
   "facebook_groups": [
-    {"name": "Fiji Family Holidays NZ", "url": "https://www.facebook.com/groups/search/results/?q=fiji+family+holiday+new+zealand", "description": "NZ families sharing Fiji tips — which resorts, deals, and what to avoid"},
-    {"name": "Fiji Travel — NZ Families", "url": "https://www.facebook.com/groups/search/results/?q=fiji+travel+nz+families+kids", "description": "Budget tips, resort reviews, and real costs from families who've been recently"}
+    {
+      "name": "Fiji Family Holidays NZ",
+      "url": "https://www.facebook.com/groups/search/results/?q=fiji+family+holiday+new+zealand",
+      "description": "NZ families sharing Fiji tips — which resorts, deals, and what to avoid"
+    },
+    {
+      "name": "Fiji Travel — NZ Families",
+      "url": "https://www.facebook.com/groups/search/results/?q=fiji+travel+nz+families+kids",
+      "description": "Budget tips, resort reviews, and real costs from families who've been recently"
+    }
   ],
   "nz_affiliate_note": "Fiji Airways and Air New Zealand both fly Auckland–Nadi direct daily. Jetstar is often cheaper (3–4 times weekly from Auckland and Christchurch). Book accommodation through Booking.com for price matching and free cancellation."
 }

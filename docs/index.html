@@ -8,6 +8,15 @@
   <link rel="canonical" href="https://nzfamilytravel.co.nz/">
   <link rel="stylesheet" href="/static/css/style.css">
   <link rel="icon" href="/static/img/favicon.svg" type="image/svg+xml">
+  <!-- Preconnect for CDN performance -->
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link rel="preconnect" href="https://www.googletagmanager.com">
+  <!-- Geo signals for NZ-local search -->
+  <meta name="geo.region" content="NZ">
+  <meta name="geo.placename" content="New Zealand">
+  <meta name="ICBM" content="-41.2866, 174.7756">
+  <!-- Locale / language -->
+  <link rel="alternate" hreflang="en-NZ" href="https://nzfamilytravel.co.nz/">
   <!-- Open Graph / Social sharing -->
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="NZ Family Travel">
@@ -25,8 +34,83 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-BHTP34TBYW"></script>
   <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-BHTP34TBYW');</script>
   
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"NZ Family Travel — NZ's Family Holiday Planning Platform","url":"https://nzfamilytravel.co.nz"}</script>
+  <script type="application/ld+json">
+  [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "NZ Family Travel",
+      "url": "https://nzfamilytravel.co.nz",
+      "description": "Plan your New Zealand family holiday. Compare campervans, find kid-friendly activities, and get honest itineraries from New Zealand parents.",
+      "inLanguage": "en-NZ",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://nzfamilytravel.co.nz/destinations/?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "NZ Family Travel",
+      "url": "https://nzfamilytravel.co.nz",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://nzfamilytravel.co.nz/static/img/favicon.svg",
+        "width": 512,
+        "height": 512
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "email": "hello@nzfamilytravel.co.nz",
+        "contactType": "customer service"
+      },
+      "sameAs": [
+        "https://www.facebook.com/nzfamilytravel",
+        "https://www.instagram.com/nzfamilytravel",
+        "https://www.pinterest.com/nzfamilytravel"
+      ]
+    }
+  ]
+  </script>
   
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much does a NZ family holiday cost?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Budget $300–500/day for a family of 4 including accommodation, activities, and food. A 10-day South Island road trip typically costs $4000–8000 depending on campervan vs hotels."}
+    },
+    {
+      "@type": "Question",
+      "name": "Is a campervan worth it for a NZ family holiday?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Yes, for trips of 7+ days. A family campervan ($130–280/day) saves significantly on accommodation ($150–400/night) and eating out. Over 10 days, campervans typically save families $600–1500."}
+    },
+    {
+      "@type": "Question",
+      "name": "What is the best time of year for a NZ family holiday?",
+      "acceptedAnswer": {"@type": "Answer", "text": "December–February (NZ summer) is peak season — warm, all activities open, long days. January school holidays are very busy and expensive. The sweet spots are November and March: warm enough, fewer crowds, 10–20% cheaper."}
+    },
+    {
+      "@type": "Question",
+      "name": "Is Rotorua or Queenstown better for families?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Rotorua wins for younger kids (all ages, higher activity density, more affordable). Queenstown wins for older kids and teenagers (more adventure activities). Most South Island trips combine both."}
+    },
+    {
+      "@type": "Question",
+      "name": "What is the best NZ itinerary for first-time family visitors?",
+      "acceptedAnswer": {"@type": "Answer", "text": "The North Island 7-day trip (Auckland → Rotorua → Taupo → Wellington) is the most popular choice. It covers the geothermal parks, Te Papa museum, and Huka Falls without too many long drives."}
+    }
+  ]
+}
+</script>
+
 </head>
 <body>
   <nav class="nav">
@@ -116,7 +200,7 @@
     
     <a href="/destinations/queenstown-with-kids/" class="dest-card">
       
-      <div class="dest-card-img" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Queenstown_1_%288168013172%29.jpg/1200px-Queenstown_1_%288168013172%29.jpg')"></div>
+      <div class="dest-card-img" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/c/c9/Queenstown_1_%288168013172%29.jpg')"></div>
       
       <div class="dest-card-body">
         <div class="dest-meta">
@@ -135,7 +219,7 @@
     
     <a href="/destinations/rotorua-family-guide/" class="dest-card">
       
-      <div class="dest-card-img" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Government_Gardens_in_Rotorua_01.jpg/1200px-Government_Gardens_in_Rotorua_01.jpg')"></div>
+      <div class="dest-card-img" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/5/5c/Government_Gardens_in_Rotorua_01.jpg')"></div>
       
       <div class="dest-card-body">
         <div class="dest-meta">
@@ -211,7 +295,7 @@
     
     <a href="/destinations/wanaka-with-kids/" class="dest-card">
       
-      <div class="dest-card-img" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/LakeWanakaNov272024.jpg/1200px-LakeWanakaNov272024.jpg')"></div>
+      <div class="dest-card-img" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/4/44/LakeWanakaNov272024.jpg')"></div>
       
       <div class="dest-card-body">
         <div class="dest-meta">
@@ -230,7 +314,7 @@
     
     <a href="/destinations/wellington-with-kids/" class="dest-card">
       
-      <div class="dest-card-img" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/3/38/Wellington_Harbour%2C_New_Zealand%2C_N.jpg')"></div>
+      <div class="dest-card-img" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/4/4f/Wellington_City_from_Oriental_Bay.jpg')"></div>
       
       <div class="dest-card-body">
         <div class="dest-meta">
@@ -249,7 +333,7 @@
     
     <a href="/destinations/nelson-abel-tasman-family/" class="dest-card">
       
-      <div class="dest-card-img" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/AnchorageBayNZDec022024_02.jpg/1200px-AnchorageBayNZDec022024_02.jpg')"></div>
+      <div class="dest-card-img" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/5/56/AnchorageBayNZDec022024_02.jpg')"></div>
       
       <div class="dest-card-body">
         <div class="dest-meta">
@@ -268,7 +352,7 @@
     
     <a href="/destinations/coromandel-with-kids/" class="dest-card">
       
-      <div class="dest-card-img" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Cathedral_Cove_06.jpg/1200px-Cathedral_Cove_06.jpg')"></div>
+      <div class="dest-card-img" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/0/0b/Cathedral_Cove_06.jpg')"></div>
       
       <div class="dest-card-body">
         <div class="dest-meta">
@@ -287,7 +371,7 @@
     
     <a href="/destinations/fiordland-milford-sound-family/" class="dest-card">
       
-      <div class="dest-card-img" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Milford_Sound_%28New_Zealand%29.JPG/1200px-Milford_Sound_%28New_Zealand%29.JPG')"></div>
+      <div class="dest-card-img" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/b/b6/Milford_Sound_%28New_Zealand%29.JPG')"></div>
       
       <div class="dest-card-body">
         <div class="dest-meta">
@@ -306,7 +390,7 @@
     
     <a href="/destinations/northland-cape-reinga-family/" class="dest-card">
       
-      <div class="dest-card-img" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Cape_Reinga_Lighthouse.jpg/1200px-Cape_Reinga_Lighthouse.jpg')"></div>
+      <div class="dest-card-img" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/1/1d/NZ140415_Cape_Reinga_Lighthouse_01.jpg')"></div>
       
       <div class="dest-card-body">
         <div class="dest-meta">
@@ -325,7 +409,7 @@
     
     <a href="/destinations/tauranga-mount-maunganui-family/" class="dest-card">
       
-      <div class="dest-card-img" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Mt_Maunganui_aerial_2013.jpg/1200px-Mt_Maunganui_aerial_2013.jpg')"></div>
+      <div class="dest-card-img" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/b/b0/Mount_Maunganui%2C_Tauranga%2C_New_Zealand_%28Unsplash_2FFh56Q9jWs%29.jpg')"></div>
       
       <div class="dest-card-body">
         <div class="dest-meta">
@@ -344,7 +428,7 @@
     
     <a href="/destinations/hawkes-bay-family-guide/" class="dest-card">
       
-      <div class="dest-card-img" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Napier%2C_New_Zealand_Art_Deco_buildings_-_2.jpg/1200px-Napier%2C_New_Zealand_Art_Deco_buildings_-_2.jpg')"></div>
+      <div class="dest-card-img" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/f/f6/Napier%2C_New_Zealand_Art_Deco_buildings_-_2.jpg')"></div>
       
       <div class="dest-card-body">
         <div class="dest-meta">
@@ -363,7 +447,7 @@
     
     <a href="/destinations/dunedin-family-guide/" class="dest-card">
       
-      <div class="dest-card-img" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Dunedin_railway_station_1.jpg/1200px-Dunedin_railway_station_1.jpg')"></div>
+      <div class="dest-card-img" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/d/da/Dunedin_railway_station_1.jpg')"></div>
       
       <div class="dest-card-body">
         <div class="dest-meta">
@@ -382,7 +466,7 @@
     
     <a href="/destinations/auckland-with-kids/" class="dest-card">
       
-      <div class="dest-card-img" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Auckland_Sky_Tower_-_Feb_2008.jpg/1200px-Auckland_Sky_Tower_-_Feb_2008.jpg')"></div>
+      <div class="dest-card-img" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/4/45/Auckland_Sky_Tower_-_Feb_2008.jpg')"></div>
       
       <div class="dest-card-body">
         <div class="dest-meta">
@@ -401,7 +485,7 @@
     
     <a href="/destinations/new-plymouth-taranaki-family/" class="dest-card">
       
-      <div class="dest-card-img" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Taranaki_Mount_from_Pembroke_Road.jpg/1200px-Taranaki_Mount_from_Pembroke_Road.jpg')"></div>
+      <div class="dest-card-img" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/9/9c/Taranaki_Mount_from_Pembroke_Road.jpg')"></div>
       
       <div class="dest-card-body">
         <div class="dest-meta">
@@ -420,7 +504,7 @@
     
     <a href="/destinations/marlborough-blenheim-family/" class="dest-card">
       
-      <div class="dest-card-img" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Marlborough_Sounds_from_above.jpg/1200px-Marlborough_Sounds_from_above.jpg')"></div>
+      <div class="dest-card-img" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/e/e0/Marlborough_Sounds_from_above.jpg')"></div>
       
       <div class="dest-card-body">
         <div class="dest-meta">
@@ -439,7 +523,7 @@
     
     <a href="/destinations/west-coast-family-guide/" class="dest-card">
       
-      <div class="dest-card-img" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Pancake_Rocks_New_Zealand.jpg/1200px-Pancake_Rocks_New_Zealand.jpg')"></div>
+      <div class="dest-card-img" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/7/7b/Pancake_Rocks_New_Zealand.jpg')"></div>
       
       <div class="dest-card-body">
         <div class="dest-meta">
@@ -458,7 +542,7 @@
     
     <a href="/destinations/gisborne-east-cape-family/" class="dest-card">
       
-      <div class="dest-card-img" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/East_Cape_Lighthouse.jpg/1200px-East_Cape_Lighthouse.jpg')"></div>
+      <div class="dest-card-img" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/2/24/East_Cape_Lighthouse.jpg')"></div>
       
       <div class="dest-card-body">
         <div class="dest-meta">
@@ -1180,7 +1264,7 @@
   <div class="overseas-grid">
     
     <a href="/overseas/bali-with-kids/" class="overseas-card">
-      <div class="overseas-card-img" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Bali_Indonesia_%28226976567%29.jpg/1200px-Bali_Indonesia_%28226976567%29.jpg')"></div>
+      <div class="overseas-card-img" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/1/16/Bali_Indonesia_%28226976567%29.jpg')"></div>
       <div class="overseas-card-body">
         <span class="overseas-badge">🇮🇩 Indonesia</span>
         <h3>Bali with Kids</h3>
@@ -1193,7 +1277,7 @@
     </a>
     
     <a href="/overseas/cook-islands-with-kids/" class="overseas-card">
-      <div class="overseas-card-img" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Aitutaki_Lagoon%2C_Cook_Islands.jpg/1200px-Aitutaki_Lagoon%2C_Cook_Islands.jpg')"></div>
+      <div class="overseas-card-img" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/5/5f/Aitutaki_Lagoon%2C_Cook_Islands.jpg')"></div>
       <div class="overseas-card-body">
         <span class="overseas-badge">🇨🇰 Cook Islands</span>
         <h3>Cook Islands with Kids — Honest Family Guide 2026</h3>
@@ -1206,7 +1290,7 @@
     </a>
     
     <a href="/overseas/fiji-with-kids/" class="overseas-card">
-      <div class="overseas-card-img" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Fiji-sunset-1.jpg/1200px-Fiji-sunset-1.jpg')"></div>
+      <div class="overseas-card-img" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/3/39/Fiji-sunset-1.jpg')"></div>
       <div class="overseas-card-body">
         <span class="overseas-badge">🇫🇯 Fiji</span>
         <h3>Fiji with Kids — Honest Family Guide 2026 (From a NZ Family)</h3>
@@ -1219,7 +1303,7 @@
     </a>
     
     <a href="/overseas/gold-coast-australia-with-kids/" class="overseas-card">
-      <div class="overseas-card-img" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Surfers_Paradise%2C_Gold_Coast%2C_Queensland%2C_Australia.jpg/1200px-Surfers_Paradise%2C_Gold_Coast%2C_Queensland%2C_Australia.jpg')"></div>
+      <div class="overseas-card-img" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/7/73/Surfers_Paradise%2C_Gold_Coast%2C_Queensland%2C_Australia.jpg')"></div>
       <div class="overseas-card-body">
         <span class="overseas-badge">🇦🇺 Australia (Gold Coast)</span>
         <h3>Gold Coast with Kids — NZ Family Guide 2026</h3>
@@ -1232,7 +1316,7 @@
     </a>
     
     <a href="/overseas/japan-with-kids/" class="overseas-card">
-      <div class="overseas-card-img" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Tokyosunset.jpg/1200px-Tokyosunset.jpg')"></div>
+      <div class="overseas-card-img" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/2/2b/Tokyosunset.jpg')"></div>
       <div class="overseas-card-body">
         <span class="overseas-badge">🇯🇵 Japan</span>
         <h3>Japan with Kids — NZ Family Guide 2026 (The Honest Version)</h3>
@@ -1245,7 +1329,7 @@
     </a>
     
     <a href="/overseas/samoa-with-kids/" class="overseas-card">
-      <div class="overseas-card-img" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/To_Sua_Ocean_Trench.jpg/1200px-To_Sua_Ocean_Trench.jpg')"></div>
+      <div class="overseas-card-img" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/7/71/To_Sua_Ocean_Trench.jpg')"></div>
       <div class="overseas-card-body">
         <span class="overseas-badge">🇼🇸 Samoa</span>
         <h3>Samoa with Kids — Honest Family Guide 2026</h3>
@@ -1258,7 +1342,7 @@
     </a>
     
     <a href="/overseas/singapore-with-kids/" class="overseas-card">
-      <div class="overseas-card-img" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Gardens_by_the_Bay_-_Supertree_Grove%2C_Singapore.jpg/1200px-Gardens_by_the_Bay_-_Supertree_Grove%2C_Singapore.jpg')"></div>
+      <div class="overseas-card-img" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/3/37/Gardens_by_the_Bay_-_Supertree_Grove%2C_Singapore.jpg')"></div>
       <div class="overseas-card-body">
         <span class="overseas-badge">🇸🇬 Singapore</span>
         <h3>Singapore with Kids — NZ Family Guide 2026</h3>
@@ -1271,7 +1355,7 @@
     </a>
     
     <a href="/overseas/thailand-with-kids/" class="overseas-card">
-      <div class="overseas-card-img" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Krabi_thailand.jpg/1200px-Krabi_thailand.jpg')"></div>
+      <div class="overseas-card-img" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/3/3e/Krabi_thailand.jpg')"></div>
       <div class="overseas-card-body">
         <span class="overseas-badge">🇹🇭 Thailand</span>
         <h3>Thailand with Kids — The Honest Family Guide (2026)</h3>
@@ -1284,7 +1368,7 @@
     </a>
     
     <a href="/overseas/vietnam-with-kids/" class="overseas-card">
-      <div class="overseas-card-img" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Halong_Bay_Aerial_%281%29.jpg/1200px-Halong_Bay_Aerial_%281%29.jpg')"></div>
+      <div class="overseas-card-img" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/3/3f/Halong_Bay_Aerial_%281%29.jpg')"></div>
       <div class="overseas-card-body">
         <span class="overseas-badge">🇻🇳 Vietnam</span>
         <h3>Vietnam with Kids</h3>

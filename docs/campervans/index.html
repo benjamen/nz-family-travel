@@ -8,6 +8,15 @@
   <link rel="canonical" href="https://nzfamilytravel.co.nz/campervans/">
   <link rel="stylesheet" href="/static/css/style.css">
   <link rel="icon" href="/static/img/favicon.svg" type="image/svg+xml">
+  <!-- Preconnect for CDN performance -->
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link rel="preconnect" href="https://www.googletagmanager.com">
+  <!-- Geo signals for NZ-local search -->
+  <meta name="geo.region" content="NZ">
+  <meta name="geo.placename" content="New Zealand">
+  <meta name="ICBM" content="-41.2866, 174.7756">
+  <!-- Locale / language -->
+  <link rel="alternate" hreflang="en-NZ" href="https://nzfamilytravel.co.nz/campervans/">
   <!-- Open Graph / Social sharing -->
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="NZ Family Travel">
@@ -25,8 +34,244 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-BHTP34TBYW"></script>
   <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-BHTP34TBYW');</script>
   
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"NZ Family Travel — NZ's Family Holiday Planning Platform","url":"https://nzfamilytravel.co.nz"}</script>
+  <script type="application/ld+json">
+  [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "NZ Family Travel",
+      "url": "https://nzfamilytravel.co.nz",
+      "description": "Plan your New Zealand family holiday. Compare campervans, find kid-friendly activities, and get honest itineraries from New Zealand parents.",
+      "inLanguage": "en-NZ",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://nzfamilytravel.co.nz/destinations/?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "NZ Family Travel",
+      "url": "https://nzfamilytravel.co.nz",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://nzfamilytravel.co.nz/static/img/favicon.svg",
+        "width": 512,
+        "height": 512
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "email": "hello@nzfamilytravel.co.nz",
+        "contactType": "customer service"
+      },
+      "sameAs": [
+        "https://www.facebook.com/nzfamilytravel",
+        "https://www.instagram.com/nzfamilytravel",
+        "https://www.pinterest.com/nzfamilytravel"
+      ]
+    }
+  ]
+  </script>
   
+<script type="application/ld+json">
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://nzfamilytravel.co.nz/"},
+      {"@type": "ListItem", "position": 2, "name": "Campervans", "item": "https://nzfamilytravel.co.nz/campervans/"}
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "Best Campervans for NZ Family Holidays",
+    "description": "Side-by-side comparison of NZ campervan operators by price, fleet quality, and family suitability.",
+    "url": "https://nzfamilytravel.co.nz/campervans/",
+    "numberOfItems": 5,
+    "itemListElement": [
+      
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Jucy Rentals",
+        "url": "https://nzfamilytravel.co.nz/campervans/jucy-campervan-review/",
+        "item": {
+          "@type": "Product",
+          "name": "Jucy Rentals Campervan Hire NZ",
+          "description": "Best value campervan hire in NZ. The 4-berth Cheeky works for small families; the Big Kahuna gives families of 4 breathing room.",
+          "brand": {"@type": "Brand", "name": "Jucy Rentals"},
+          "offers": {
+            "@type": "Offer",
+            "price": "89",
+            "priceCurrency": "NZD",
+            "priceSpecification": {"@type": "UnitPriceSpecification", "price": "89", "priceCurrency": "NZD", "unitText": "DAY"},
+            "availability": "https://schema.org/InStock",
+            "url": "https://www.discovercars.com/"
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "3.8",
+            "reviewCount": "2400",
+            "bestRating": "5",
+            "worstRating": "1"
+          }
+        }
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Maui Campervans",
+        "url": "https://nzfamilytravel.co.nz/campervans/maui-campervan-review/",
+        "item": {
+          "@type": "Product",
+          "name": "Maui Campervans Campervan Hire NZ",
+          "description": "The best balance of quality and price for families. The Cascade 4-berth is the most popular family choice.",
+          "brand": {"@type": "Brand", "name": "Maui Campervans"},
+          "offers": {
+            "@type": "Offer",
+            "price": "130",
+            "priceCurrency": "NZD",
+            "priceSpecification": {"@type": "UnitPriceSpecification", "price": "130", "priceCurrency": "NZD", "unitText": "DAY"},
+            "availability": "https://schema.org/InStock",
+            "url": "https://www.discovercars.com/"
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.1",
+            "reviewCount": "3100",
+            "bestRating": "5",
+            "worstRating": "1"
+          }
+        }
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Britz Campervans",
+        "url": "https://nzfamilytravel.co.nz/campervans/britz-campervan-review/",
+        "item": {
+          "@type": "Product",
+          "name": "Britz Campervans Campervan Hire NZ",
+          "description": "The #1 choice for families with young children who need separate sleeping spaces. The Explorer\u0027s layout genuinely works for families.",
+          "brand": {"@type": "Brand", "name": "Britz Campervans"},
+          "offers": {
+            "@type": "Offer",
+            "price": "150",
+            "priceCurrency": "NZD",
+            "priceSpecification": {"@type": "UnitPriceSpecification", "price": "150", "priceCurrency": "NZD", "unitText": "DAY"},
+            "availability": "https://schema.org/InStock",
+            "url": "https://www.discovercars.com/"
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.2",
+            "reviewCount": "1800",
+            "bestRating": "5",
+            "worstRating": "1"
+          }
+        }
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Mighty Campers",
+        "url": "https://nzfamilytravel.co.nz/campervans/mighty-campervan-review/",
+        "item": {
+          "@type": "Product",
+          "name": "Mighty Campers Campervan Hire NZ",
+          "description": "Best price for families on a budget. Don\u0027t expect luxury \u2014 expect functional. Great if you\u0027re spending most of your time outside anyway.",
+          "brand": {"@type": "Brand", "name": "Mighty Campers"},
+          "offers": {
+            "@type": "Offer",
+            "price": "79",
+            "priceCurrency": "NZD",
+            "priceSpecification": {"@type": "UnitPriceSpecification", "price": "79", "priceCurrency": "NZD", "unitText": "DAY"},
+            "availability": "https://schema.org/InStock",
+            "url": "https://www.discovercars.com/"
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "3.6",
+            "reviewCount": "1200",
+            "bestRating": "5",
+            "worstRating": "1"
+          }
+        }
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Apollo Motorhomes",
+        "url": "https://nzfamilytravel.co.nz/campervans/apollo-campervan-review/",
+        "item": {
+          "@type": "Product",
+          "name": "Apollo Motorhomes Campervan Hire NZ",
+          "description": "Worth it for 14+ day trips where the premium daily cost is amortised. For 7-day trips, consider Maui or Britz instead.",
+          "brand": {"@type": "Brand", "name": "Apollo Motorhomes"},
+          "offers": {
+            "@type": "Offer",
+            "price": "200",
+            "priceCurrency": "NZD",
+            "priceSpecification": {"@type": "UnitPriceSpecification", "price": "200", "priceCurrency": "NZD", "unitText": "DAY"},
+            "availability": "https://schema.org/InStock",
+            "url": "https://www.discovercars.com/"
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.4",
+            "reviewCount": "900",
+            "bestRating": "5",
+            "worstRating": "1"
+          }
+        }
+      }
+      
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is the best campervan for a family of 4 in NZ?",
+        "acceptedAnswer": {"@type": "Answer", "text": "The Britz Explorer (5-berth) or Maui Cascade (4-berth) are the best family options. The Britz has a separate sleeping area for kids which is genuinely useful on longer trips. The Maui is newer and more affordable. Both sleep 4 comfortably."}
+      },
+      {
+        "@type": "Question",
+        "name": "Do I need a special licence to drive a campervan in NZ?",
+        "acceptedAnswer": {"@type": "Answer", "text": "No. Most campervans in NZ (under 6m) can be driven on a standard car licence. Larger motorhomes over 6m may require a special licence — check with the operator."}
+      },
+      {
+        "@type": "Question",
+        "name": "Can campervans freedom camp in NZ?",
+        "acceptedAnswer": {"@type": "Answer", "text": "Self-contained campervans (with toilet and water supply) can freedom camp at designated sites. Non-self-contained vans must stay at holiday parks. Check freedomcamping.org.nz for designated sites."}
+      },
+      {
+        "@type": "Question",
+        "name": "How far in advance should I book a campervan for NZ?",
+        "acceptedAnswer": {"@type": "Answer", "text": "For December–January (peak summer), book 3–6 months ahead. For other months, 6–8 weeks is usually sufficient. One-way bookings (e.g., Auckland to Queenstown) are the most popular and book out fastest."}
+      },
+      {
+        "@type": "Question",
+        "name": "What is included in a NZ campervan hire?",
+        "acceptedAnswer": {"@type": "Answer", "text": "Most campervans include: bedding, kitchen equipment, GPS, basic camping equipment. Not included: excess insurance reduction ($15–50/day), one-way fees ($300–500 if applicable), additional driver fees. Always read the fine print before booking."}
+      }
+    ]
+  }
+]
+</script>
+
 </head>
 <body>
   <nav class="nav">

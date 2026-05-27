@@ -8,6 +8,15 @@
   <link rel="canonical" href="https://nzfamilytravel.co.nz/tools/">
   <link rel="stylesheet" href="/static/css/style.css">
   <link rel="icon" href="/static/img/favicon.svg" type="image/svg+xml">
+  <!-- Preconnect for CDN performance -->
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link rel="preconnect" href="https://www.googletagmanager.com">
+  <!-- Geo signals for NZ-local search -->
+  <meta name="geo.region" content="NZ">
+  <meta name="geo.placename" content="New Zealand">
+  <meta name="ICBM" content="-41.2866, 174.7756">
+  <!-- Locale / language -->
+  <link rel="alternate" hreflang="en-NZ" href="https://nzfamilytravel.co.nz/tools/">
   <!-- Open Graph / Social sharing -->
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="NZ Family Travel">
@@ -25,17 +34,120 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-BHTP34TBYW"></script>
   <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-BHTP34TBYW');</script>
   
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"NZ Family Travel — NZ's Family Holiday Planning Platform","url":"https://nzfamilytravel.co.nz"}</script>
+  <script type="application/ld+json">
+  [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "NZ Family Travel",
+      "url": "https://nzfamilytravel.co.nz",
+      "description": "Plan your New Zealand family holiday. Compare campervans, find kid-friendly activities, and get honest itineraries from New Zealand parents.",
+      "inLanguage": "en-NZ",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://nzfamilytravel.co.nz/destinations/?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "NZ Family Travel",
+      "url": "https://nzfamilytravel.co.nz",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://nzfamilytravel.co.nz/static/img/favicon.svg",
+        "width": 512,
+        "height": 512
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "email": "hello@nzfamilytravel.co.nz",
+        "contactType": "customer service"
+      },
+      "sameAs": [
+        "https://www.facebook.com/nzfamilytravel",
+        "https://www.instagram.com/nzfamilytravel",
+        "https://www.pinterest.com/nzfamilytravel"
+      ]
+    }
+  ]
+  </script>
   
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://nzfamilytravel.co.nz/"},
-    {"@type": "ListItem", "position": 2, "name": "NZ Family Travel Tools & Calculators", "item": "https://nzfamilytravel.co.nz/tools/"}
-  ]
-}
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://nzfamilytravel.co.nz/"},
+      {"@type": "ListItem", "position": 2, "name": "NZ Family Travel Tools & Calculators", "item": "https://nzfamilytravel.co.nz/tools/"}
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "NZ Family Travel Tools \u0026 Calculators",
+    "description": "Free tools to plan your NZ family holiday \u2014 budget calculators, packing lists, driving times.",
+    "url": "https://nzfamilytravel.co.nz/tools/",
+    "numberOfItems": 7,
+    "itemListElement": [
+      
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Best Month to Visit NZ \u2014 Weather, Prices \u0026 Crowds by Month",
+        "url": "https://nzfamilytravel.co.nz/tools/nz-best-month-to-visit/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "NZ Driving Times \u2014 Family Road Trip Distance Chart",
+        "url": "https://nzfamilytravel.co.nz/tools/nz-driving-times/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "NZ Family Packing List Generator",
+        "url": "https://nzfamilytravel.co.nz/tools/nz-family-packing-list/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "NZ Family Travel Budget Calculator",
+        "url": "https://nzfamilytravel.co.nz/tools/nz-family-travel-budget-calculator/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "NZ School Holidays 2026-2027 \u2014 Family Travel Planner",
+        "url": "https://nzfamilytravel.co.nz/tools/nz-school-holidays-2026/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 6,
+        "name": "NZ School Holidays 2027 \u2014 Dates, Crowd Levels \u0026 Booking Tips",
+        "url": "https://nzfamilytravel.co.nz/tools/nz-school-holidays-2027/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 7,
+        "name": "NZ Trip Cost Estimator \u2014 By Destination \u0026 Stay Length",
+        "url": "https://nzfamilytravel.co.nz/tools/nz-trip-cost-by-destination/"
+      }
+      
+    ]
+  }
+]
 </script>
 
 </head>

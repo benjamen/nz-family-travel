@@ -3,6 +3,70 @@
 {% block title %}{{ van.name }} NZ Review 2026 — Family Campervan Hire Prices & Verdict{% endblock %}
 {% block desc %}{{ van.name }} NZ campervan review: from ${{ van.pricing.per_day_low }}/day, {{ van.rating }}★ from {{ van.review_count }} reviews. Is it good for families?{% endblock %}
 {% block canonical %}campervans/{{ van.slug }}/{% endblock %}
+{% block hreflang_path %}campervans/{{ van.slug }}/{% endblock %}
+{% block og_type %}product{% endblock %}
+{% block og_title %}{{ van.name }} NZ Campervan Review 2026 — From ${{ van.pricing.per_day_low }}/day{% endblock %}
+{% block og_desc %}{{ van.verdict }}{% endblock %}
+{% block og_url %}campervans/{{ van.slug }}/{% endblock %}
+
+{% block extra_head %}
+<script type="application/ld+json">
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Home", "item": "{{ site.base_url }}/"},
+      {"@type": "ListItem", "position": 2, "name": "Campervans", "item": "{{ site.base_url }}/campervans/"},
+      {"@type": "ListItem", "position": 3, "name": "{{ van.name }}", "item": "{{ site.base_url }}/campervans/{{ van.slug }}/"}
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "{{ van.name }} Campervan Hire NZ",
+    "description": {{ van.verdict | tojson }},
+    "brand": {
+      "@type": "Brand",
+      "name": "{{ van.name }}"
+    },
+    "url": "{{ site.base_url }}/campervans/{{ van.slug }}/",
+    "category": "Campervan Hire",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "{{ van.rating }}",
+      "reviewCount": "{{ van.review_count }}",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "offers": {
+      "@type": "Offer",
+      "price": "{{ van.pricing.per_day_low }}",
+      "priceCurrency": "NZD",
+      "priceSpecification": {
+        "@type": "UnitPriceSpecification",
+        "price": "{{ van.pricing.per_day_low }}",
+        "priceCurrency": "NZD",
+        "unitText": "DAY"
+      },
+      "availability": "https://schema.org/InStock",
+      "url": "{{ site.affiliates.discover_cars.url }}",
+      "seller": {"@type": "Organization", "name": "{{ van.name }}"}
+    },
+    "review": {
+      "@type": "Review",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "{{ van.rating }}",
+        "bestRating": "5"
+      },
+      "author": {"@type": "Organization", "name": "NZ Family Travel"},
+      "reviewBody": {{ van.verdict | tojson }}
+    }
+  }
+]
+</script>
+{% endblock %}
 
 {% block hero %}
 <section class="page-hero">

@@ -3,6 +3,43 @@
 {% block title %}NZ Family Travel — Plan Your New Zealand Family Holiday 2026{% endblock %}
 {% block desc %}Plan your NZ family holiday. Compare campervans, find kid-friendly activities, and get honest day-by-day itineraries from NZ parents. Queenstown, Rotorua, Bay of Islands and more.{% endblock %}
 {% block canonical %}{% endblock %}
+{% block hreflang_path %}{% endblock %}
+
+{% block extra_head %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much does a NZ family holiday cost?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Budget $300–500/day for a family of 4 including accommodation, activities, and food. A 10-day South Island road trip typically costs $4000–8000 depending on campervan vs hotels."}
+    },
+    {
+      "@type": "Question",
+      "name": "Is a campervan worth it for a NZ family holiday?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Yes, for trips of 7+ days. A family campervan ($130–280/day) saves significantly on accommodation ($150–400/night) and eating out. Over 10 days, campervans typically save families $600–1500."}
+    },
+    {
+      "@type": "Question",
+      "name": "What is the best time of year for a NZ family holiday?",
+      "acceptedAnswer": {"@type": "Answer", "text": "December–February (NZ summer) is peak season — warm, all activities open, long days. January school holidays are very busy and expensive. The sweet spots are November and March: warm enough, fewer crowds, 10–20% cheaper."}
+    },
+    {
+      "@type": "Question",
+      "name": "Is Rotorua or Queenstown better for families?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Rotorua wins for younger kids (all ages, higher activity density, more affordable). Queenstown wins for older kids and teenagers (more adventure activities). Most South Island trips combine both."}
+    },
+    {
+      "@type": "Question",
+      "name": "What is the best NZ itinerary for first-time family visitors?",
+      "acceptedAnswer": {"@type": "Answer", "text": "The North Island 7-day trip (Auckland → Rotorua → Taupo → Wellington) is the most popular choice. It covers the geothermal parks, Te Papa museum, and Huka Falls without too many long drives."}
+    }
+  ]
+}
+</script>
+{% endblock %}
 
 {% block hero %}
 <section class="hero">

@@ -295,11 +295,26 @@ def build():
     from datetime import date as _date
     today = _date.today().isoformat()
 
-    def sm_url(path, priority="0.6", changefreq="monthly"):
+    def sm_url(path, priority="0.6", changefreq="monthly", images=None):
         loc = f"{site['base_url']}/{path}" if path else site['base_url']
-        return f'  <url><loc>{loc}</loc><lastmod>{today}</lastmod><changefreq>{changefreq}</changefreq><priority>{priority}</priority></url>\n'
+        parts = [f'  <url><loc>{loc}</loc><lastmod>{today}</lastmod>',
+                 f'<changefreq>{changefreq}</changefreq><priority>{priority}</priority>']
+        if images:
+            for img_url, img_caption in images:
+                safe_url = img_url.replace('&', '&amp;')
+                safe_cap = img_caption.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;')
+                parts.append(
+                    f'<image:image><image:loc>{safe_url}</image:loc>'
+                    f'<image:caption>{safe_cap}</image:caption></image:image>'
+                )
+        parts.append('</url>\n')
+        return ''.join(parts)
 
-    sitemap = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+    sitemap = (
+        '<?xml version="1.0" encoding="UTF-8"?>\n'
+        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"\n'
+        '        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">\n'
+    )
     sitemap += sm_url("", "1.0", "weekly")
     sitemap += sm_url("about", "0.5", "yearly")
     sitemap += sm_url("school-holidays", "0.9", "yearly")
@@ -309,13 +324,23 @@ def build():
     for slug in ["destinations", "itineraries", "campervans", "activities", "tools", "travel-tips", "overseas", "cities"]:
         sitemap += sm_url(slug, "0.8", "weekly")
     for d in destinations:
-        sitemap += sm_url(f"destinations/{d['slug']}", "0.9", "monthly")
+        imgs = []
+        dm = media["destinations"].get(d["slug"], {})
+        if dm.get("hero_image"):
+            imgs.append((dm["hero_image"]["url"], dm["hero_image"].get("alt", d["name"])))
+        for g in dm.get("gallery", []):
+            imgs.append((g["url"], g.get("alt", d["name"])))
+        sitemap += sm_url(f"destinations/{d['slug']}", "0.9", "monthly", images=imgs or None)
     for i in itineraries:
         sitemap += sm_url(f"itineraries/{i['slug']}", "0.9", "monthly")
     for v in campervans:
         sitemap += sm_url(f"campervans/{v['slug']}", "0.8", "monthly")
     for a in activities:
-        sitemap += sm_url(f"activity/{a['slug']}", "0.7", "monthly")
+        imgs = []
+        am = media["activities"].get(a["slug"], {})
+        if am.get("image"):
+            imgs.append((am["image"]["url"], am["image"].get("alt", a["name"])))
+        sitemap += sm_url(f"activity/{a['slug']}", "0.7", "monthly", images=imgs or None)
     for s in dest_slugs:
         sitemap += sm_url(f"activities/{s}", "0.6", "monthly")
     for t in tools:
@@ -323,7 +348,8 @@ def build():
     for g in guides:
         sitemap += sm_url(f"travel-tips/{g['slug']}", "0.7", "monthly")
     for o in overseas:
-        sitemap += sm_url(f"overseas/{o['slug']}", "0.7", "monthly")
+        imgs = [(o["hero_image"], o.get("hero_alt", o.get("title", "")))] if o.get("hero_image") else None
+        sitemap += sm_url(f"overseas/{o['slug']}", "0.7", "monthly", images=imgs)
     for c in cities:
         sitemap += sm_url(f"cities/{c['slug']}", "0.7", "monthly")
     if posts:

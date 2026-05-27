@@ -2,7 +2,7 @@
   "destinations": {
     "queenstown-with-kids": {
       "hero_image": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Queenstown_1_%288168013172%29.jpg/1200px-Queenstown_1_%288168013172%29.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Queenstown_1_%288168013172%29.jpg",
         "alt": "Queenstown lakefront with The Remarkables mountain range reflected in Lake Wakatipu",
         "credit": "Wikimedia Commons"
       },
@@ -33,7 +33,7 @@
     },
     "rotorua-family-guide": {
       "hero_image": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Government_Gardens_in_Rotorua_01.jpg/1200px-Government_Gardens_in_Rotorua_01.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Government_Gardens_in_Rotorua_01.jpg",
         "alt": "Rotorua's Government Gardens and Tudor-style bathhouse building",
         "credit": "Wikimedia Commons"
       },
@@ -157,7 +157,7 @@
     },
     "wanaka-with-kids": {
       "hero_image": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/LakeWanakaNov272024.jpg/1200px-LakeWanakaNov272024.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/LakeWanakaNov272024.jpg",
         "alt": "Lake Wanaka with the Southern Alps reflected in the water",
         "credit": "Wikimedia Commons"
       },
@@ -183,8 +183,8 @@
     },
     "wellington-with-kids": {
       "hero_image": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Wellington_Harbour%2C_New_Zealand%2C_N.jpg",
-        "alt": "Wellington Harbour and city skyline from above",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Wellington_City_from_Oriental_Bay.jpg",
+        "alt": "Wellington city skyline and harbour from Oriental Bay",
         "credit": "Wikimedia Commons"
       },
       "gallery": [
@@ -209,7 +209,7 @@
     },
     "nelson-abel-tasman-family": {
       "hero_image": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/AnchorageBayNZDec022024_02.jpg/1200px-AnchorageBayNZDec022024_02.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/AnchorageBayNZDec022024_02.jpg",
         "alt": "Anchorage Bay in Abel Tasman National Park — golden sand and turquoise water",
         "credit": "Wikimedia Commons"
       },
@@ -224,7 +224,7 @@
     },
     "coromandel-with-kids": {
       "hero_image": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Cathedral_Cove_06.jpg/1200px-Cathedral_Cove_06.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Cathedral_Cove_06.jpg",
         "alt": "Cathedral Cove sea arch, Coromandel Peninsula",
         "credit": "Wikimedia Commons"
       },
@@ -239,7 +239,7 @@
     },
     "fiordland-milford-sound-family": {
       "hero_image": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Milford_Sound_%28New_Zealand%29.JPG/1200px-Milford_Sound_%28New_Zealand%29.JPG",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Milford_Sound_%28New_Zealand%29.JPG",
         "alt": "Milford Sound with Mitre Peak rising from the water",
         "credit": "Wikimedia Commons"
       },
@@ -254,23 +254,23 @@
     },
     "northland-cape-reinga-family": {
       "hero_image": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Cape_Reinga_Lighthouse.jpg/1200px-Cape_Reinga_Lighthouse.jpg",
-        "alt": "Cape Reinga lighthouse at the northern tip of New Zealand",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/NZ140415_Cape_Reinga_Lighthouse_01.jpg",
+        "alt": "Cape Reinga Lighthouse at the northern tip of New Zealand where the Tasman Sea meets the Pacific Ocean",
         "credit": "Wikimedia Commons"
       },
       "gallery": []
     },
     "tauranga-mount-maunganui-family": {
       "hero_image": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Mt_Maunganui_aerial_2013.jpg/1200px-Mt_Maunganui_aerial_2013.jpg",
-        "alt": "Aerial view of Mount Maunganui and beach, Bay of Plenty",
-        "credit": "Wikimedia Commons"
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Mount_Maunganui%2C_Tauranga%2C_New_Zealand_%28Unsplash_2FFh56Q9jWs%29.jpg",
+        "alt": "Mount Maunganui beach and the iconic volcanic cone, Tauranga, New Zealand",
+        "credit": "Wikimedia Commons / Unsplash"
       },
       "gallery": []
     },
     "hawkes-bay-family-guide": {
       "hero_image": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Napier%2C_New_Zealand_Art_Deco_buildings_-_2.jpg/1200px-Napier%2C_New_Zealand_Art_Deco_buildings_-_2.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Napier%2C_New_Zealand_Art_Deco_buildings_-_2.jpg",
         "alt": "Napier Art Deco buildings, Hawke's Bay, New Zealand",
         "credit": "Wikimedia Commons"
       },
@@ -278,7 +278,7 @@
     },
     "dunedin-family-guide": {
       "hero_image": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Dunedin_railway_station_1.jpg/1200px-Dunedin_railway_station_1.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Dunedin_railway_station_1.jpg",
         "alt": "Dunedin Railway Station — New Zealand's most photographed building",
         "credit": "Wikimedia Commons"
       },
@@ -286,7 +286,7 @@
     },
     "auckland-with-kids": {
       "hero_image": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Auckland_Sky_Tower_-_Feb_2008.jpg/1200px-Auckland_Sky_Tower_-_Feb_2008.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Auckland_Sky_Tower_-_Feb_2008.jpg",
         "alt": "Auckland Sky Tower and city skyline from the harbour",
         "credit": "Wikimedia Commons"
       },
@@ -295,7 +295,7 @@
     },
     "new-plymouth-taranaki-family": {
       "hero_image": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Taranaki_Mount_from_Pembroke_Road.jpg/1200px-Taranaki_Mount_from_Pembroke_Road.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Taranaki_Mount_from_Pembroke_Road.jpg",
         "alt": "Mount Taranaki perfectly symmetrical volcanic cone rising above farmland",
         "credit": "Wikimedia Commons"
       },
@@ -304,7 +304,7 @@
     },
     "marlborough-blenheim-family": {
       "hero_image": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Marlborough_Sounds_from_above.jpg/1200px-Marlborough_Sounds_from_above.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Marlborough_Sounds_from_above.jpg",
         "alt": "Marlborough Sounds aerial view — drowned river valleys and turquoise water",
         "credit": "Wikimedia Commons"
       },
@@ -313,7 +313,7 @@
     },
     "west-coast-family-guide": {
       "hero_image": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Pancake_Rocks_New_Zealand.jpg/1200px-Pancake_Rocks_New_Zealand.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Pancake_Rocks_New_Zealand.jpg",
         "alt": "Pancake Rocks at Punakaiki on the West Coast of New Zealand",
         "credit": "Wikimedia Commons"
       },
@@ -322,7 +322,7 @@
     },
     "gisborne-east-cape-family": {
       "hero_image": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/East_Cape_Lighthouse.jpg/1200px-East_Cape_Lighthouse.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/East_Cape_Lighthouse.jpg",
         "alt": "East Cape Lighthouse — the first to see the sunrise in NZ",
         "credit": "Wikimedia Commons"
       },

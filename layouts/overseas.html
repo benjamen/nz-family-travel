@@ -3,6 +3,56 @@
 {% block title %}{{ dest.title }}{% endblock %}
 {% block desc %}{{ dest.meta_desc }}{% endblock %}
 {% block canonical %}overseas/{{ dest.slug }}/{% endblock %}
+{% block hreflang_path %}overseas/{{ dest.slug }}/{% endblock %}
+{% block og_type %}article{% endblock %}
+{% block og_title %}{{ dest.title }}{% endblock %}
+{% block og_desc %}{{ dest.tagline }} Budget {{ dest.budget_family4_per_day }}/day for a family of 4.{% endblock %}
+{% block og_url %}overseas/{{ dest.slug }}/{% endblock %}
+{% block og_image %}{{ dest.hero_image }}{% endblock %}
+{% block tw_title %}{{ dest.title }}{% endblock %}
+{% block tw_desc %}{{ dest.tagline }} Budget {{ dest.budget_family4_per_day }}/day.{% endblock %}
+{% block tw_image %}{{ dest.hero_image }}{% endblock %}
+
+{% block extra_head %}
+<script type="application/ld+json">
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Home", "item": "{{ site.base_url }}/"},
+      {"@type": "ListItem", "position": 2, "name": "Overseas", "item": "{{ site.base_url }}/overseas/"},
+      {"@type": "ListItem", "position": 3, "name": "{{ dest.country }}", "item": "{{ site.base_url }}/overseas/{{ dest.slug }}/"}
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "TouristDestination",
+    "name": "{{ dest.country }}",
+    "description": {{ dest.tagline | tojson }},
+    "touristType": "Family",
+    "url": "{{ site.base_url }}/overseas/{{ dest.slug }}/",
+    "image": "{{ dest.hero_image }}",
+    "geo": {"@type": "GeoCoordinates"}
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": {{ dest.title | tojson }},
+    "description": {{ dest.meta_desc | tojson }},
+    "image": "{{ dest.hero_image }}",
+    "author": {"@type": "Organization", "name": "NZ Family Travel", "url": "{{ site.base_url }}"},
+    "publisher": {
+      "@type": "Organization",
+      "name": "NZ Family Travel",
+      "url": "{{ site.base_url }}",
+      "logo": {"@type": "ImageObject", "url": "{{ site.base_url }}/static/img/favicon.svg"}
+    },
+    "url": "{{ site.base_url }}/overseas/{{ dest.slug }}/"
+  }
+]
+</script>
+{% endblock %}
 
 {% block hero %}
 <div class="dest-hero-image" style="background-image:url('{{ dest.hero_image }}')">

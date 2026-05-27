@@ -3,6 +3,92 @@
 {% block title %}Best Campervans NZ 2026 — Family Comparison: Jucy vs Maui vs Britz vs Mighty{% endblock %}
 {% block desc %}Compare NZ campervans for families: Jucy, Maui, Britz, Mighty, Apollo. Real prices from $79/day, family layouts, and which is actually best for kids.{% endblock %}
 {% block canonical %}campervans/{% endblock %}
+{% block hreflang_path %}campervans/{% endblock %}
+
+{% block extra_head %}
+<script type="application/ld+json">
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Home", "item": "{{ site.base_url }}/"},
+      {"@type": "ListItem", "position": 2, "name": "Campervans", "item": "{{ site.base_url }}/campervans/"}
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "Best Campervans for NZ Family Holidays",
+    "description": "Side-by-side comparison of NZ campervan operators by price, fleet quality, and family suitability.",
+    "url": "{{ site.base_url }}/campervans/",
+    "numberOfItems": {{ campervans | length }},
+    "itemListElement": [
+      {% for van in campervans %}
+      {
+        "@type": "ListItem",
+        "position": {{ loop.index }},
+        "name": "{{ van.name }}",
+        "url": "{{ site.base_url }}/campervans/{{ van.slug }}/",
+        "item": {
+          "@type": "Product",
+          "name": "{{ van.name }} Campervan Hire NZ",
+          "description": {{ van.verdict | tojson }},
+          "brand": {"@type": "Brand", "name": "{{ van.name }}"},
+          "offers": {
+            "@type": "Offer",
+            "price": "{{ van.pricing.per_day_low }}",
+            "priceCurrency": "NZD",
+            "priceSpecification": {"@type": "UnitPriceSpecification", "price": "{{ van.pricing.per_day_low }}", "priceCurrency": "NZD", "unitText": "DAY"},
+            "availability": "https://schema.org/InStock",
+            "url": "{{ site.affiliates.discover_cars.url }}"
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "{{ van.rating }}",
+            "reviewCount": "{{ van.review_count }}",
+            "bestRating": "5",
+            "worstRating": "1"
+          }
+        }
+      }{% if not loop.last %},{% endif %}
+      {% endfor %}
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is the best campervan for a family of 4 in NZ?",
+        "acceptedAnswer": {"@type": "Answer", "text": "The Britz Explorer (5-berth) or Maui Cascade (4-berth) are the best family options. The Britz has a separate sleeping area for kids which is genuinely useful on longer trips. The Maui is newer and more affordable. Both sleep 4 comfortably."}
+      },
+      {
+        "@type": "Question",
+        "name": "Do I need a special licence to drive a campervan in NZ?",
+        "acceptedAnswer": {"@type": "Answer", "text": "No. Most campervans in NZ (under 6m) can be driven on a standard car licence. Larger motorhomes over 6m may require a special licence — check with the operator."}
+      },
+      {
+        "@type": "Question",
+        "name": "Can campervans freedom camp in NZ?",
+        "acceptedAnswer": {"@type": "Answer", "text": "Self-contained campervans (with toilet and water supply) can freedom camp at designated sites. Non-self-contained vans must stay at holiday parks. Check freedomcamping.org.nz for designated sites."}
+      },
+      {
+        "@type": "Question",
+        "name": "How far in advance should I book a campervan for NZ?",
+        "acceptedAnswer": {"@type": "Answer", "text": "For December–January (peak summer), book 3–6 months ahead. For other months, 6–8 weeks is usually sufficient. One-way bookings (e.g., Auckland to Queenstown) are the most popular and book out fastest."}
+      },
+      {
+        "@type": "Question",
+        "name": "What is included in a NZ campervan hire?",
+        "acceptedAnswer": {"@type": "Answer", "text": "Most campervans include: bedding, kitchen equipment, GPS, basic camping equipment. Not included: excess insurance reduction ($15–50/day), one-way fees ($300–500 if applicable), additional driver fees. Always read the fine print before booking."}
+      }
+    ]
+  }
+]
+</script>
+{% endblock %}
 
 {% block hero %}
 <section class="page-hero">

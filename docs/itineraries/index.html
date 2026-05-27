@@ -8,6 +8,15 @@
   <link rel="canonical" href="https://nzfamilytravel.co.nz/itineraries/">
   <link rel="stylesheet" href="/static/css/style.css">
   <link rel="icon" href="/static/img/favicon.svg" type="image/svg+xml">
+  <!-- Preconnect for CDN performance -->
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link rel="preconnect" href="https://www.googletagmanager.com">
+  <!-- Geo signals for NZ-local search -->
+  <meta name="geo.region" content="NZ">
+  <meta name="geo.placename" content="New Zealand">
+  <meta name="ICBM" content="-41.2866, 174.7756">
+  <!-- Locale / language -->
+  <link rel="alternate" hreflang="en-NZ" href="https://nzfamilytravel.co.nz/itineraries/">
   <!-- Open Graph / Social sharing -->
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="NZ Family Travel">
@@ -25,17 +34,197 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-BHTP34TBYW"></script>
   <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-BHTP34TBYW');</script>
   
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"NZ Family Travel — NZ's Family Holiday Planning Platform","url":"https://nzfamilytravel.co.nz"}</script>
+  <script type="application/ld+json">
+  [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "NZ Family Travel",
+      "url": "https://nzfamilytravel.co.nz",
+      "description": "Plan your New Zealand family holiday. Compare campervans, find kid-friendly activities, and get honest itineraries from New Zealand parents.",
+      "inLanguage": "en-NZ",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://nzfamilytravel.co.nz/destinations/?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "NZ Family Travel",
+      "url": "https://nzfamilytravel.co.nz",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://nzfamilytravel.co.nz/static/img/favicon.svg",
+        "width": 512,
+        "height": 512
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "email": "hello@nzfamilytravel.co.nz",
+        "contactType": "customer service"
+      },
+      "sameAs": [
+        "https://www.facebook.com/nzfamilytravel",
+        "https://www.instagram.com/nzfamilytravel",
+        "https://www.pinterest.com/nzfamilytravel"
+      ]
+    }
+  ]
+  </script>
   
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://nzfamilytravel.co.nz/"},
-    {"@type": "ListItem", "position": 2, "name": "NZ Family Itineraries — Day-by-Day Trip Plans", "item": "https://nzfamilytravel.co.nz/itineraries/"}
-  ]
-}
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://nzfamilytravel.co.nz/"},
+      {"@type": "ListItem", "position": 2, "name": "NZ Family Itineraries — Day-by-Day Trip Plans", "item": "https://nzfamilytravel.co.nz/itineraries/"}
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "NZ Family Itineraries \u2014 Day-by-Day Trip Plans",
+    "description": "Fully planned NZ family holidays with costs, drive times and honest tips.",
+    "url": "https://nzfamilytravel.co.nz/itineraries/",
+    "numberOfItems": 18,
+    "itemListElement": [
+      
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "7-Day North Island Family Road Trip",
+        "url": "https://nzfamilytravel.co.nz/itineraries/7-day-north-island-family-road-trip/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "10-Day South Island Family Road Trip",
+        "url": "https://nzfamilytravel.co.nz/itineraries/10-day-south-island-family-road-trip/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Queenstown \u0026 Wanaka Family Long Weekend",
+        "url": "https://nzfamilytravel.co.nz/itineraries/queenstown-wanaka-family-weekend/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "5-Day Wellington to Nelson Family Road Trip",
+        "url": "https://nzfamilytravel.co.nz/itineraries/5-day-wellington-nelson-itinerary/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "4-Day Coromandel Family Road Trip from Auckland",
+        "url": "https://nzfamilytravel.co.nz/itineraries/4-day-coromandel-family-road-trip/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 6,
+        "name": "3-Day Auckland Family Itinerary",
+        "url": "https://nzfamilytravel.co.nz/itineraries/3-day-auckland-family-itinerary/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 7,
+        "name": "14-Day Full NZ Family Road Trip",
+        "url": "https://nzfamilytravel.co.nz/itineraries/14-day-full-nz-family-road-trip/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 8,
+        "name": "Bay of Islands \u0026 Northland Family Road Trip \u2014 5 Days",
+        "url": "https://nzfamilytravel.co.nz/itineraries/bay-of-islands-northland-family-5-days/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 9,
+        "name": "Rotorua \u0026 Taupo Family Road Trip \u2014 5 Days",
+        "url": "https://nzfamilytravel.co.nz/itineraries/rotorua-taupo-family-5-days/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 10,
+        "name": "Nelson to Queenstown \u2014 9-Day South Island Family Road Trip",
+        "url": "https://nzfamilytravel.co.nz/itineraries/nelson-queenstown-south-island-9-days/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 11,
+        "name": "North Island 10-Day Family Road Trip \u2014 Auckland to Wellington",
+        "url": "https://nzfamilytravel.co.nz/itineraries/north-island-10-day-family-road-trip/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 12,
+        "name": "South Island Budget Family Road Trip \u2014 7 Days Under $3,000",
+        "url": "https://nzfamilytravel.co.nz/itineraries/south-island-budget-family-7-days/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 13,
+        "name": "Rotorua Day Trip from Auckland \u2014 1 Day with Kids",
+        "url": "https://nzfamilytravel.co.nz/itineraries/rotorua-day-trip-from-auckland/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 14,
+        "name": "Queenstown with Kids \u2014 Best 1-Day Itinerary",
+        "url": "https://nzfamilytravel.co.nz/itineraries/queenstown-1-day-family/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 15,
+        "name": "Christchurch with Kids \u2014 3-Day Family Itinerary",
+        "url": "https://nzfamilytravel.co.nz/itineraries/christchurch-3-day-family/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 16,
+        "name": "Rotorua Family Weekend \u2014 3 Days",
+        "url": "https://nzfamilytravel.co.nz/itineraries/rotorua-3-day-family-weekend/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 17,
+        "name": "Auckland \u0026 Northland Family Trip \u2014 5 Days",
+        "url": "https://nzfamilytravel.co.nz/itineraries/auckland-northland-5-days/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 18,
+        "name": "Queenstown \u0026 Wanaka Family Trip \u2014 5 Days",
+        "url": "https://nzfamilytravel.co.nz/itineraries/queenstown-wanaka-5-days/"
+      }
+      
+    ]
+  }
+]
 </script>
 
 </head>

@@ -8,6 +8,15 @@
   <link rel="canonical" href="{{ site.base_url }}/{% block canonical %}{% endblock %}">
   <link rel="stylesheet" href="{{ site.base_path }}/static/css/style.css">
   <link rel="icon" href="{{ site.base_path }}/static/img/favicon.svg" type="image/svg+xml">
+  <!-- Preconnect for CDN performance -->
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link rel="preconnect" href="https://www.googletagmanager.com">
+  <!-- Geo signals for NZ-local search -->
+  <meta name="geo.region" content="NZ">
+  <meta name="geo.placename" content="New Zealand">
+  <meta name="ICBM" content="-41.2866, 174.7756">
+  <!-- Locale / language -->
+  <link rel="alternate" hreflang="en-NZ" href="{{ site.base_url }}/{% block hreflang_path %}{% endblock %}">
   <!-- Open Graph / Social sharing -->
   <meta property="og:type" content="{% block og_type %}website{% endblock %}">
   <meta property="og:site_name" content="NZ Family Travel">
@@ -25,7 +34,48 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.ga_id }}"></script>
   <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','{{ site.ga_id }}');</script>
   {% endif %}
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"{{ site.title }}","url":"{{ site.base_url }}"}</script>
+  <script type="application/ld+json">
+  [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "NZ Family Travel",
+      "url": "{{ site.base_url }}",
+      "description": "{{ site.description }}",
+      "inLanguage": "en-NZ",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "{{ site.base_url }}/destinations/?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "NZ Family Travel",
+      "url": "{{ site.base_url }}",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "{{ site.base_url }}/static/img/favicon.svg",
+        "width": 512,
+        "height": 512
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "email": "{{ site.contact_email }}",
+        "contactType": "customer service"
+      },
+      "sameAs": [
+        "https://www.facebook.com/nzfamilytravel",
+        "https://www.instagram.com/nzfamilytravel",
+        "https://www.pinterest.com/nzfamilytravel"
+      ]
+    }
+  ]
+  </script>
   {% block extra_head %}{% endblock %}
 </head>
 <body>

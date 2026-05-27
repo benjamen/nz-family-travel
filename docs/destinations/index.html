@@ -8,6 +8,15 @@
   <link rel="canonical" href="https://nzfamilytravel.co.nz/destinations/">
   <link rel="stylesheet" href="/static/css/style.css">
   <link rel="icon" href="/static/img/favicon.svg" type="image/svg+xml">
+  <!-- Preconnect for CDN performance -->
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link rel="preconnect" href="https://www.googletagmanager.com">
+  <!-- Geo signals for NZ-local search -->
+  <meta name="geo.region" content="NZ">
+  <meta name="geo.placename" content="New Zealand">
+  <meta name="ICBM" content="-41.2866, 174.7756">
+  <!-- Locale / language -->
+  <link rel="alternate" hreflang="en-NZ" href="https://nzfamilytravel.co.nz/destinations/">
   <!-- Open Graph / Social sharing -->
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="NZ Family Travel">
@@ -25,17 +34,204 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-BHTP34TBYW"></script>
   <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-BHTP34TBYW');</script>
   
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"NZ Family Travel — NZ's Family Holiday Planning Platform","url":"https://nzfamilytravel.co.nz"}</script>
+  <script type="application/ld+json">
+  [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "NZ Family Travel",
+      "url": "https://nzfamilytravel.co.nz",
+      "description": "Plan your New Zealand family holiday. Compare campervans, find kid-friendly activities, and get honest itineraries from New Zealand parents.",
+      "inLanguage": "en-NZ",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://nzfamilytravel.co.nz/destinations/?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "NZ Family Travel",
+      "url": "https://nzfamilytravel.co.nz",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://nzfamilytravel.co.nz/static/img/favicon.svg",
+        "width": 512,
+        "height": 512
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "email": "hello@nzfamilytravel.co.nz",
+        "contactType": "customer service"
+      },
+      "sameAs": [
+        "https://www.facebook.com/nzfamilytravel",
+        "https://www.instagram.com/nzfamilytravel",
+        "https://www.pinterest.com/nzfamilytravel"
+      ]
+    }
+  ]
+  </script>
   
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://nzfamilytravel.co.nz/"},
-    {"@type": "ListItem", "position": 2, "name": "NZ Family Travel Destinations", "item": "https://nzfamilytravel.co.nz/destinations/"}
-  ]
-}
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://nzfamilytravel.co.nz/"},
+      {"@type": "ListItem", "position": 2, "name": "NZ Family Travel Destinations", "item": "https://nzfamilytravel.co.nz/destinations/"}
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "NZ Family Travel Destinations",
+    "description": "Where to take the family in New Zealand \u2014 honest guides for every major destination.",
+    "url": "https://nzfamilytravel.co.nz/destinations/",
+    "numberOfItems": 19,
+    "itemListElement": [
+      
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Queenstown",
+        "url": "https://nzfamilytravel.co.nz/destinations/queenstown-with-kids/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Rotorua",
+        "url": "https://nzfamilytravel.co.nz/destinations/rotorua-family-guide/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Taupo",
+        "url": "https://nzfamilytravel.co.nz/destinations/taupo-with-kids/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Christchurch",
+        "url": "https://nzfamilytravel.co.nz/destinations/christchurch-with-kids/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Bay of Islands",
+        "url": "https://nzfamilytravel.co.nz/destinations/bay-of-islands-family/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 6,
+        "name": "Wanaka",
+        "url": "https://nzfamilytravel.co.nz/destinations/wanaka-with-kids/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 7,
+        "name": "Wellington",
+        "url": "https://nzfamilytravel.co.nz/destinations/wellington-with-kids/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 8,
+        "name": "Nelson \u0026 Abel Tasman",
+        "url": "https://nzfamilytravel.co.nz/destinations/nelson-abel-tasman-family/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 9,
+        "name": "Coromandel",
+        "url": "https://nzfamilytravel.co.nz/destinations/coromandel-with-kids/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 10,
+        "name": "Fiordland \u0026 Milford Sound",
+        "url": "https://nzfamilytravel.co.nz/destinations/fiordland-milford-sound-family/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 11,
+        "name": "Northland",
+        "url": "https://nzfamilytravel.co.nz/destinations/northland-cape-reinga-family/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 12,
+        "name": "Tauranga / Mount Maunganui",
+        "url": "https://nzfamilytravel.co.nz/destinations/tauranga-mount-maunganui-family/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 13,
+        "name": "Hawke\u0027s Bay",
+        "url": "https://nzfamilytravel.co.nz/destinations/hawkes-bay-family-guide/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 14,
+        "name": "Dunedin",
+        "url": "https://nzfamilytravel.co.nz/destinations/dunedin-family-guide/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 15,
+        "name": "Auckland",
+        "url": "https://nzfamilytravel.co.nz/destinations/auckland-with-kids/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 16,
+        "name": "New Plymouth \u0026 Taranaki",
+        "url": "https://nzfamilytravel.co.nz/destinations/new-plymouth-taranaki-family/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 17,
+        "name": "Marlborough \u0026 Blenheim",
+        "url": "https://nzfamilytravel.co.nz/destinations/marlborough-blenheim-family/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 18,
+        "name": "West Coast",
+        "url": "https://nzfamilytravel.co.nz/destinations/west-coast-family-guide/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 19,
+        "name": "Gisborne \u0026 East Cape",
+        "url": "https://nzfamilytravel.co.nz/destinations/gisborne-east-cape-family/"
+      }
+      
+    ]
+  }
+]
 </script>
 
 </head>

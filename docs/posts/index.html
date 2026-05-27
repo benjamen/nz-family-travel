@@ -8,6 +8,15 @@
   <link rel="canonical" href="https://nzfamilytravel.co.nz/guides/">
   <link rel="stylesheet" href="/static/css/style.css">
   <link rel="icon" href="/static/img/favicon.svg" type="image/svg+xml">
+  <!-- Preconnect for CDN performance -->
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link rel="preconnect" href="https://www.googletagmanager.com">
+  <!-- Geo signals for NZ-local search -->
+  <meta name="geo.region" content="NZ">
+  <meta name="geo.placename" content="New Zealand">
+  <meta name="ICBM" content="-41.2866, 174.7756">
+  <!-- Locale / language -->
+  <link rel="alternate" hreflang="en-NZ" href="https://nzfamilytravel.co.nz/guides/">
   <!-- Open Graph / Social sharing -->
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="NZ Family Travel">
@@ -25,17 +34,176 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-BHTP34TBYW"></script>
   <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-BHTP34TBYW');</script>
   
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"NZ Family Travel — NZ's Family Holiday Planning Platform","url":"https://nzfamilytravel.co.nz"}</script>
+  <script type="application/ld+json">
+  [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "NZ Family Travel",
+      "url": "https://nzfamilytravel.co.nz",
+      "description": "Plan your New Zealand family holiday. Compare campervans, find kid-friendly activities, and get honest itineraries from New Zealand parents.",
+      "inLanguage": "en-NZ",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://nzfamilytravel.co.nz/destinations/?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "NZ Family Travel",
+      "url": "https://nzfamilytravel.co.nz",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://nzfamilytravel.co.nz/static/img/favicon.svg",
+        "width": 512,
+        "height": 512
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "email": "hello@nzfamilytravel.co.nz",
+        "contactType": "customer service"
+      },
+      "sameAs": [
+        "https://www.facebook.com/nzfamilytravel",
+        "https://www.instagram.com/nzfamilytravel",
+        "https://www.pinterest.com/nzfamilytravel"
+      ]
+    }
+  ]
+  </script>
   
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://nzfamilytravel.co.nz/"},
-    {"@type": "ListItem", "position": 2, "name": "NZ Family Travel News & Deals", "item": "https://nzfamilytravel.co.nz/guides/"}
-  ]
-}
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://nzfamilytravel.co.nz/"},
+      {"@type": "ListItem", "position": 2, "name": "NZ Family Travel News & Deals", "item": "https://nzfamilytravel.co.nz/guides/"}
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "NZ Family Travel News \u0026 Deals",
+    "description": "Daily travel tips, current deals, and destination guides for NZ families \u2014 updated every day.",
+    "url": "https://nzfamilytravel.co.nz/guides/",
+    "numberOfItems": 15,
+    "itemListElement": [
+      
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Christchurch Gondola Review",
+        "url": "https://nzfamilytravel.co.nz/posts/christchurch-gondola-family-review-2026-05/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Coromandel on Budget",
+        "url": "https://nzfamilytravel.co.nz/posts/coromandel-with-kids-budget-family-guide-2026-05/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Coromandel Hidden Gems",
+        "url": "https://nzfamilytravel.co.nz/posts/coromandel-with-kids-hidden-gems-families/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Hawke\u0027s Bay on Budget",
+        "url": "https://nzfamilytravel.co.nz/posts/hawkes-bay-family-guide-budget-family-guide-2026-05/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Hot Water Beach Review",
+        "url": "https://nzfamilytravel.co.nz/posts/hot-water-beach-coromandel-family-review-2026-05/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 6,
+        "name": "Marlborough Family Deals",
+        "url": "https://nzfamilytravel.co.nz/posts/marlborough-blenheim-family-family-deals-2026-05/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 7,
+        "name": "Marlborough May",
+        "url": "https://nzfamilytravel.co.nz/posts/marlborough-blenheim-family-may-family-guide/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 8,
+        "name": "Nelson \u0026 Abel Tasman in May",
+        "url": "https://nzfamilytravel.co.nz/posts/nelson-abel-tasman-family-may-family-guide/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 9,
+        "name": "Northland on Budget",
+        "url": "https://nzfamilytravel.co.nz/posts/northland-cape-reinga-family-budget-family-guide-2026-05/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 10,
+        "name": "Northland Family Deals",
+        "url": "https://nzfamilytravel.co.nz/posts/northland-cape-reinga-family-family-deals-2026-05/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 11,
+        "name": "Puzzling World Wanaka",
+        "url": "https://nzfamilytravel.co.nz/posts/puzzling-world-wanaka-family-review-2026-05/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 12,
+        "name": "Taupo Hidden Gems",
+        "url": "https://nzfamilytravel.co.nz/posts/taupo-with-kids-hidden-gems-families/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 13,
+        "name": "Tauranga Family Deals",
+        "url": "https://nzfamilytravel.co.nz/posts/tauranga-mount-maunganui-family-family-deals-2026-05/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 14,
+        "name": "Tauranga\u0027s Hidden Gems",
+        "url": "https://nzfamilytravel.co.nz/posts/tauranga-mount-maunganui-family-hidden-gems-families/"
+      },
+      
+      {
+        "@type": "ListItem",
+        "position": 15,
+        "name": "West Coast May",
+        "url": "https://nzfamilytravel.co.nz/posts/west-coast-family-guide-may-family-guide/"
+      }
+      
+    ]
+  }
+]
 </script>
 
 </head>
