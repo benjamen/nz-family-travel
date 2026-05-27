@@ -1,0 +1,210 @@
+{
+  "years": [
+    {
+      "year": 2025,
+      "auckland_note": "Auckland Anniversary: Auckland schools start 28 Jan (1 day earlier for Term 1).",
+      "terms": [
+        { "term": 1, "start": "2025-01-29", "end": "2025-04-11", "weeks": 10 },
+        { "term": 2, "start": "2025-04-28", "end": "2025-06-27", "weeks": 9 },
+        { "term": 3, "start": "2025-07-14", "end": "2025-09-19", "weeks": 10 },
+        { "term": 4, "start": "2025-10-06", "end": "2025-12-19", "weeks": 11 }
+      ],
+      "holidays": [
+        {
+          "name": "Autumn Holidays",
+          "emoji": "🍂",
+          "start": "2025-04-12",
+          "end": "2025-04-27",
+          "duration_days": 16,
+          "season": "autumn",
+          "travel_tier": "busy",
+          "tip": "Two weeks over Easter — book early. Queenstown and Rotorua fill fast.",
+          "best_destinations": ["Queenstown", "Rotorua", "Taupo", "Coromandel"],
+          "dest_slugs": ["queenstown-family-guide", "rotorua-with-kids", "taupo-with-kids", "coromandel-with-kids"]
+        },
+        {
+          "name": "Winter Holidays",
+          "emoji": "❄️",
+          "start": "2025-06-28",
+          "end": "2025-07-13",
+          "duration_days": 16,
+          "season": "winter",
+          "travel_tier": "moderate",
+          "tip": "Ski season at its peak. Wanaka, Queenstown, and Ruapehu are best. Budget options inland.",
+          "best_destinations": ["Queenstown", "Wanaka", "Ruapehu"],
+          "dest_slugs": ["queenstown-family-guide", "wanaka-with-kids"]
+        },
+        {
+          "name": "Spring Holidays",
+          "emoji": "🌸",
+          "start": "2025-09-20",
+          "end": "2025-10-05",
+          "duration_days": 16,
+          "season": "spring",
+          "travel_tier": "quieter",
+          "tip": "Most underrated school holiday. Weather warming, crowds thin, prices lower. Great time to explore South Island.",
+          "best_destinations": ["Nelson", "Marlborough", "Abel Tasman", "Christchurch"],
+          "dest_slugs": ["nelson-abel-tasman-family-may-family-guide", "marlborough-blenheim-family-may-family-guide"]
+        },
+        {
+          "name": "Summer Holidays",
+          "emoji": "☀️",
+          "start": "2025-12-20",
+          "end": "2026-01-27",
+          "duration_days": 39,
+          "season": "summer",
+          "travel_tier": "peak",
+          "tip": "6 weeks — the big one. Book 3+ months ahead. Campervans sell out by September.",
+          "best_destinations": ["Bay of Islands", "Coromandel", "Auckland", "Northland", "Nelson"],
+          "dest_slugs": ["bay-of-islands-with-kids", "coromandel-with-kids", "northland-with-kids"]
+        }
+      ]
+    },
+    {
+      "year": 2026,
+      "auckland_note": "Auckland Anniversary: Auckland schools start 27 Jan (1 day earlier for Term 1).",
+      "terms": [
+        { "term": 1, "start": "2026-01-28", "end": "2026-04-09", "weeks": 10 },
+        { "term": 2, "start": "2026-04-27", "end": "2026-06-26", "weeks": 9 },
+        { "term": 3, "start": "2026-07-13", "end": "2026-09-18", "weeks": 10 },
+        { "term": 4, "start": "2026-10-05", "end": "2026-12-18", "weeks": 11 }
+      ],
+      "holidays": [
+        {
+          "name": "Autumn Holidays",
+          "emoji": "🍂",
+          "start": "2026-04-10",
+          "end": "2026-04-26",
+          "duration_days": 17,
+          "season": "autumn",
+          "travel_tier": "busy",
+          "tip": "Easter falls mid-holidays in 2026 — expect peak pricing. Rotorua and Queenstown will be heaving.",
+          "best_destinations": ["Rotorua", "Taupo", "Hawke's Bay", "Wanaka"],
+          "dest_slugs": ["rotorua-with-kids", "taupo-with-kids", "hawkes-bay-family-guide", "wanaka-with-kids"]
+        },
+        {
+          "name": "Winter Holidays",
+          "emoji": "❄️",
+          "start": "2026-06-27",
+          "end": "2026-07-12",
+          "duration_days": 16,
+          "season": "winter",
+          "travel_tier": "moderate",
+          "tip": "Great ski holiday. Cardrona and Treble Cone near Wanaka offer a quieter alternative to Queenstown.",
+          "best_destinations": ["Queenstown", "Wanaka", "Ruapehu"],
+          "dest_slugs": ["queenstown-family-guide", "wanaka-with-kids"]
+        },
+        {
+          "name": "Spring Holidays",
+          "emoji": "🌸",
+          "start": "2026-09-19",
+          "end": "2026-10-04",
+          "duration_days": 16,
+          "season": "spring",
+          "travel_tier": "quieter",
+          "tip": "Whale watching in Kaikōura peaks in spring. Nelson and Marlborough Sounds are superb with kids.",
+          "best_destinations": ["Kaikōura", "Nelson", "Wellington", "Christchurch"],
+          "dest_slugs": ["kaikoura-with-kids", "nelson-abel-tasman-family-may-family-guide"]
+        },
+        {
+          "name": "Summer Holidays",
+          "emoji": "☀️",
+          "start": "2026-12-19",
+          "end": "2027-01-27",
+          "duration_days": 40,
+          "season": "summer",
+          "travel_tier": "peak",
+          "tip": "Book campervans by August at the latest. Northland, Coromandel and Bay of Islands are the top picks for families.",
+          "best_destinations": ["Bay of Islands", "Northland", "Coromandel", "Marlborough"],
+          "dest_slugs": ["bay-of-islands-with-kids", "northland-with-kids", "coromandel-with-kids"]
+        }
+      ]
+    },
+    {
+      "year": 2027,
+      "auckland_note": "Auckland Anniversary: Auckland schools start 26 Jan (1 day earlier for Term 1).",
+      "terms": [
+        { "term": 1, "start": "2027-01-27", "end": "2027-04-01", "weeks": 9 },
+        { "term": 2, "start": "2027-04-19", "end": "2027-06-25", "weeks": 10 },
+        { "term": 3, "start": "2027-07-12", "end": "2027-09-17", "weeks": 10 },
+        { "term": 4, "start": "2027-10-04", "end": "2027-12-17", "weeks": 11 }
+      ],
+      "holidays": [
+        {
+          "name": "Autumn Holidays",
+          "emoji": "🍂",
+          "start": "2027-04-02",
+          "end": "2027-04-18",
+          "duration_days": 17,
+          "season": "autumn",
+          "travel_tier": "busy",
+          "tip": "Good autumn break for South Island — cooler temperatures perfect for walking and exploring.",
+          "best_destinations": ["Queenstown", "Fiordland", "Wanaka", "Dunedin"],
+          "dest_slugs": ["queenstown-family-guide", "fiordland-with-kids", "wanaka-with-kids"]
+        },
+        {
+          "name": "Winter Holidays",
+          "emoji": "❄️",
+          "start": "2027-06-26",
+          "end": "2027-07-11",
+          "duration_days": 16,
+          "season": "winter",
+          "travel_tier": "moderate",
+          "tip": "Skifields open mid-June typically. Week 2 of winter holidays usually has the best snow base.",
+          "best_destinations": ["Queenstown", "Wanaka", "Ruapehu", "Hanmer Springs"],
+          "dest_slugs": ["queenstown-family-guide", "wanaka-with-kids"]
+        },
+        {
+          "name": "Spring Holidays",
+          "emoji": "🌸",
+          "start": "2027-09-18",
+          "end": "2027-10-03",
+          "duration_days": 16,
+          "season": "spring",
+          "travel_tier": "quieter",
+          "tip": "October is a gem — shoulder season pricing, school holiday-free and warm enough for beaches in the north.",
+          "best_destinations": ["Northland", "Auckland", "Coromandel", "Bay of Islands"],
+          "dest_slugs": ["northland-with-kids", "bay-of-islands-with-kids", "coromandel-with-kids"]
+        },
+        {
+          "name": "Summer Holidays",
+          "emoji": "☀️",
+          "start": "2027-12-18",
+          "end": "2028-01-26",
+          "duration_days": 40,
+          "season": "summer",
+          "travel_tier": "peak",
+          "tip": "Book everything by September 2027. Christmas week is the most expensive — consider travelling 26 Dec or later.",
+          "best_destinations": ["Bay of Islands", "Coromandel", "Nelson", "Marlborough"],
+          "dest_slugs": ["bay-of-islands-with-kids", "coromandel-with-kids"]
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "When do NZ schools go back in 2026?",
+      "a": "Most NZ schools go back Wednesday 28 January 2026 for Term 1. Auckland schools start a day earlier on Tuesday 27 January due to Auckland Anniversary Day. Always confirm with your specific school as exact dates can vary."
+    },
+    {
+      "q": "How many school holidays are there in NZ per year?",
+      "a": "New Zealand has four school holiday periods per year: Autumn (2 weeks, April), Winter (2 weeks, July), Spring (2 weeks, September/October), and Summer (6 weeks, December/January). Total school holiday time is around 12 weeks per year."
+    },
+    {
+      "q": "Are NZ school holiday dates the same for all schools?",
+      "a": "The Ministry of Education sets national term dates but individual schools can vary by a few days. Auckland schools start one day earlier in Term 1 due to Auckland Anniversary Day. Private schools may differ further. Always check directly with your school."
+    },
+    {
+      "q": "When is the best school holiday to visit New Zealand?",
+      "a": "Summer (December–January) is the most popular but most expensive and crowded. Spring holidays (September/October) are the best-kept secret — warm enough in the North Island, cheaper accommodation, and significantly fewer crowds. Autumn is ideal for the South Island and ski pre-season deals."
+    },
+    {
+      "q": "When should I book for school holiday travel in NZ?",
+      "a": "For Summer holidays, book campervans and popular accommodation by August–September of the same year. For Autumn and Winter holidays, 6–8 weeks ahead is usually fine for most destinations. School holiday periods in Queenstown and Rotorua fill fastest."
+    },
+    {
+      "q": "Do NZ school holidays affect campsite availability?",
+      "a": "Yes significantly, especially at TOP 10 holiday parks near beaches. The Coromandel, Bay of Islands, and Marlborough Sounds holiday parks fill completely during Summer and Autumn holidays. Book online as soon as dates open — often 6–12 months ahead for peak sites."
+    }
+  ]
+}

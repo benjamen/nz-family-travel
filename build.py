@@ -52,17 +52,18 @@ def build():
     if STATIC.exists():
         shutil.copytree(STATIC, OUT / "static")
 
-    site         = load("site")
-    destinations = load("destinations")
-    activities   = load("activities")
-    itineraries  = load("itineraries")
-    campervans   = load("campervans")
-    media        = load("media")
-    cities       = load("cities")
-    guides       = load_content_dir("travel-tips")
-    tools        = load_content_dir("tools")
-    overseas     = load_content_dir("overseas")
-    posts        = load_content_dir("posts")
+    site            = load("site")
+    destinations    = load("destinations")
+    activities      = load("activities")
+    itineraries     = load("itineraries")
+    campervans      = load("campervans")
+    media           = load("media")
+    cities          = load("cities")
+    school_holidays = load("school_holidays")
+    guides          = load_content_dir("travel-tips")
+    tools           = load_content_dir("tools")
+    overseas        = load_content_dir("overseas")
+    posts           = load_content_dir("posts")
 
     # Attach media to destinations and activities
     for dest in destinations:
@@ -77,6 +78,7 @@ def build():
         itineraries=itineraries,
         campervans=campervans,
         cities=cities,
+        school_holidays=school_holidays,
         guides=guides,
         tools=tools,
         overseas=overseas,
@@ -90,6 +92,9 @@ def build():
 
     # ── About page ────────────────────────────────────────────────────────────
     render("about.html", "about/index.html", **ctx)
+
+    # ── School Holidays calendar ───────────────────────────────────────────────
+    render("school-holidays.html", "school-holidays/index.html", **ctx)
 
     # ── Destinations hub ──────────────────────────────────────────────────────
     render("hub.html", "destinations/index.html",
@@ -285,6 +290,7 @@ def build():
     sitemap = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
     sitemap += sm_url("", "1.0", "weekly")
     sitemap += sm_url("about", "0.5", "yearly")
+    sitemap += sm_url("school-holidays", "0.9", "yearly")
     sitemap += sm_url("nz-map", "0.7", "monthly")
     for slug in ["destinations", "itineraries", "campervans", "activities", "tools", "travel-tips", "overseas", "cities"]:
         sitemap += sm_url(slug, "0.8", "weekly")
