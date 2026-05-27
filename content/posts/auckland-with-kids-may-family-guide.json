@@ -1,0 +1,65 @@
+{
+  "title": "Auckland May",
+  "short_title": "Akl May",
+  "meta_desc": "Plan your family trip to Auckland in May 2026 with our guide, covering weather, events, and activities for kids, with budget-friendly options from $200-$350/day for a family of 4",
+  "intro": "Auckland in May is a great time to visit with kids, with mild autumn weather, fewer crowds, and a range of activities to enjoy. The average high temperature is 18°C, making it ideal for outdoor exploration. With a budget of $200-$350/day for a family of 4, you can experience the best of Auckland's beaches, islands, and attractions.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Weather and What's On",
+      "body": "<p>Auckland's autumn weather in May is generally mild, with average highs of 18°C and lows of 10°C. It's a great time to enjoy the city's outdoor spaces, such as the Mission Bay beach and reserve, or take a coastal walk along Tamaki Drive.</p><p>In May, Auckland hosts several events, including the Auckland Arts Festival and the Auckland Marathon. These events can attract crowds, but they also offer a fun and lively atmosphere for families to enjoy.</p>",
+      "list": [
+        "Auckland Arts Festival: 1-31 May",
+        "Auckland Marathon: 3 May"
+      ]
+    },
+    {
+      "heading": "Best Activities for May",
+      "body": "<p>May is a great time to visit some of Auckland's top attractions, such as the Kelly Tarlton's SEA LIFE Aquarium, Auckland Zoo, and Sky Tower. These attractions offer a range of interactive exhibits and activities that are perfect for kids of all ages.</p><p>For outdoor enthusiasts, May is also a great time to explore Auckland's regional parks, such as Tawharanui Regional Park and Wenderholm Regional Park. These parks offer stunning scenery, walking trails, and opportunities for picnics and barbecues.</p>",
+      "table": {
+        "headers": [
+          "Attraction",
+          "Price (family of 4)"
+        ],
+        "rows": [
+          [
+            "Kelly Tarlton's SEA LIFE Aquarium",
+            "$120-$150"
+          ],
+          [
+            "Auckland Zoo",
+            "$100-$130"
+          ],
+          [
+            "Sky Tower",
+            "$80-$100"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Crowd Levels and Booking Ahead",
+      "body": "<p>May is considered part of the shoulder season in Auckland, which means that crowd levels are generally lower than during the peak summer months. However, it's still a good idea to book ahead for popular attractions and activities, especially on weekends and during school holidays.</p><p>Some attractions, such as the Kelly Tarlton's SEA LIFE Aquarium and Auckland Zoo, offer online booking and discounts for advance purchases. It's also a good idea to check the attraction's website for any special events or closures that may affect your visit.</p>"
+    },
+    {
+      "heading": "Practical Tips for Families",
+      "body": "<p>When visiting Auckland with kids, it's a good idea to plan for some downtime and flexibility in your itinerary. The city can be busy, and kids may need a break from all the activity and stimulation.</p><p>Here are some practical tips for families visiting Auckland in May:</p>",
+      "list": [
+        "Pack layers for cooler mornings and evenings",
+        "Bring sunscreen and hats for outdoor exploration",
+        "Consider purchasing a Hop-on Hop-off bus ticket for easy transportation",
+        "Book a family-friendly accommodation with kitchen facilities to save on food costs",
+        "Download the Auckland Council's app for information on parks, beaches, and events"
+      ],
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "auckland-with-kids-may-family-guide",
+  "updated": "May 2026",
+  "auto_generated": true,
+  "generated_date": "2026-05-28"
+}

@@ -1,0 +1,63 @@
+{
+  "title": "Fiordland on Budget",
+  "short_title": "Milford Sound",
+  "meta_desc": "Explore Fiordland & Milford Sound with your family on a budget of $280-500/day, with tips on accommodation, activities and saving money on your trip",
+  "intro": "Fiordland and Milford Sound are breathtaking destinations that can be visited on a family budget of $280-500 per day. With some planning, you can enjoy the stunning scenery and activities without breaking the bank. From free walks to budget-friendly accommodation, we'll show you how to make the most of your trip.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Accommodation Options",
+      "body": "<p>When it comes to accommodation in Fiordland, you have a range of options to suit your budget. For a cheap option, consider camping at the Te Anau Top 10 Holiday Resort, which costs around $40-60 per night for a family of four. Mid-range options include the Te Anau Lakeview Holiday Park, which offers cabins and apartments from $150-250 per night.</p><p>For a more luxurious stay, you can opt for the Milford Sound Lodge, which offers rooms and suites from $300-500 per night. However, keep in mind that this is a more expensive option and may blow your budget.</p>",
+      "list": [
+        "Te Anau Top 10 Holiday Resort: $40-60 per night",
+        "Te Anau Lakeview Holiday Park: $150-250 per night",
+        "Milford Sound Lodge: $300-500 per night"
+      ]
+    },
+    {
+      "heading": "Free Activities",
+      "body": "<p>One of the best things about Fiordland is that there are plenty of free activities to enjoy. The drive from Te Anau to Milford Sound is one of the most scenic in the world, with stunning views of the mountains and valleys. You can also stop at the Mirror Lakes, which offer perfectly still reflections of the surrounding mountains.</p><p>The Lake Te Anau waterfront and lakeside walk are also free and offer beautiful views of the lake and surrounding mountains. These activities are a great way to enjoy the scenery without spending a fortune.</p>"
+    },
+    {
+      "heading": "Budget Breakdown",
+      "body": "<p>Here's a rough 3-day budget breakdown for a family of four:</p>",
+      "table": {
+        "headers": [
+          "Day",
+          "Activity",
+          "Cost"
+        ],
+        "rows": [
+          [
+            "Day 1",
+            "Drive to Milford Sound, scenic walk",
+            "$100 (fuel, food)"
+          ],
+          [
+            "Day 2",
+            "Milford Sound Nature Cruise",
+            "$200 (cruise tickets)"
+          ],
+          [
+            "Day 3",
+            "Te Anau Glowworm Caves, Kepler Track day walk",
+            "$180 (cave tickets, track fees)"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Saving Money and Splurging",
+      "body": "<p>To save money, consider booking your activities and accommodation in advance to get the best prices. You can also pack your own food and snacks instead of buying them at the tourist shops.</p><p>However, some activities are worth splurging on, such as the Milford Sound Nature Cruise. This is a once-in-a-lifetime experience that offers stunning views of the sound and its wildlife. The cost of the cruise is around $200 for a family of four, but it's worth every penny.</p>",
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "fiordland-milford-sound-family-budget-family-guide-2026-05",
+  "updated": "May 2026",
+  "auto_generated": true,
+  "generated_date": "2026-05-28"
+}
