@@ -1,0 +1,320 @@
+{% extends "base.html" %}
+
+{% block title %}Best Time to Visit NZ with Kids — Weather by Month & Destination{% endblock %}
+{% block desc %}{{ weather.intro }} Compare 14 NZ destinations across all 12 months — with honest ratings, school holiday timing, and travel tips.{% endblock %}
+{% block canonical %}weather/{% endblock %}
+{% block og_title %}Best Time to Visit NZ with Kids — Weather by Month{% endblock %}
+{% block og_desc %}Month-by-month weather ratings for 14 NZ family destinations. Find the best (and worst) time to visit each spot.{% endblock %}
+
+{% block extra_head %}
+<style>
+.weather-filter {
+  display: flex; gap: .5rem; flex-wrap: wrap; margin-bottom: 1.5rem; align-items: center;
+}
+.weather-filter label { font-weight: 600; color: #374151; font-size: .92rem; }
+.filter-btn {
+  padding: .4rem .9rem; border-radius: 99px; border: 1.5px solid #e5e7eb;
+  background: #fff; font-size: .85rem; font-weight: 600; cursor: pointer; transition: all .15s;
+}
+.filter-btn:hover, .filter-btn.active { background: #2563eb; color: #fff; border-color: #2563eb; }
+
+/* Matrix table */
+.weather-matrix-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; margin-bottom: 2rem; }
+.weather-matrix {
+  border-collapse: collapse;
+  min-width: 700px;
+  width: 100%;
+  font-size: .88rem;
+}
+.weather-matrix th {
+  background: #1f2937;
+  color: #fff;
+  padding: .55rem .5rem;
+  text-align: center;
+  font-weight: 700;
+  white-space: nowrap;
+}
+.weather-matrix th.dest-col { text-align: left; padding-left: 1rem; min-width: 160px; }
+.weather-matrix td {
+  padding: .5rem .4rem;
+  text-align: center;
+  border-bottom: 1px solid #f3f4f6;
+  vertical-align: middle;
+}
+.weather-matrix td.dest-name {
+  text-align: left;
+  padding-left: 1rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.weather-matrix td.dest-name a { color: #1f2937; text-decoration: none; }
+.weather-matrix td.dest-name a:hover { color: #2563eb; text-decoration: underline; }
+.weather-matrix tr:hover td { background: #f9fafb; }
+
+.r-cell {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px; height: 34px;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: help;
+  position: relative;
+}
+/* Highlighted month column */
+.weather-matrix .col-highlight { background: #eff6ff; }
+.weather-matrix th.col-highlight { background: #2563eb; }
+
+/* Legend */
+.w-legend { display: flex; flex-wrap: wrap; gap: .6rem; margin-bottom: 1.5rem; }
+.w-legend-item {
+  display: flex; align-items: center; gap: .4rem;
+  font-size: .82rem; background: #f9fafb;
+  border: 1px solid #e5e7eb; border-radius: 6px; padding: .25rem .6rem;
+}
+
+/* Destination detail cards */
+.dest-detail-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+.dest-weather-card {
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  overflow: hidden;
+}
+.dest-weather-card .dw-header {
+  background: #1f2937;
+  color: #fff;
+  padding: .9rem 1.2rem;
+  display: flex;
+  align-items: center;
+  gap: .6rem;
+}
+.dest-weather-card .dw-header h3 { margin: 0; font-size: 1rem; }
+.dest-weather-card .dw-body { padding: 1rem 1.2rem; }
+.dest-weather-card .dw-summary { font-size: .88rem; color: #374151; line-height: 1.6; margin-bottom: .75rem; }
+.dw-months { display: flex; flex-wrap: wrap; gap: .3rem; }
+.dw-best { font-size: .78rem; background: #dcfce7; color: #166534; padding: .2rem .5rem; border-radius: 99px; font-weight: 600; }
+.dw-worst { font-size: .78rem; background: #fee2e2; color: #b91c1c; padding: .2rem .5rem; border-radius: 99px; font-weight: 600; }
+
+.faq-list { display: flex; flex-direction: column; }
+.faq-item { border-bottom: 1px solid #e5e7eb; }
+.faq-item:last-child { border-bottom: none; }
+.faq-q {
+  width: 100%; background: none; border: none; text-align: left;
+  padding: 1rem 0; font-size: 1rem; font-weight: 600; color: #1f2937;
+  cursor: pointer; display: flex; justify-content: space-between; align-items: center; gap: 1rem;
+}
+.faq-q::after { content: '+'; font-size: 1.3rem; color: #6b7280; flex-shrink: 0; }
+.faq-item.open .faq-q::after { content: '−'; }
+.faq-a { display: none; padding: 0 0 1rem; color: #374151; line-height: 1.7; }
+.faq-item.open .faq-a { display: block; }
+
+.month-nav { display: flex; gap: .3rem; flex-wrap: wrap; margin-bottom: 1rem; }
+.month-btn {
+  padding: .3rem .7rem; border: 1.5px solid #e5e7eb; border-radius: 6px;
+  background: #fff; font-size: .8rem; font-weight: 600; cursor: pointer; transition: all .15s;
+}
+.month-btn.active, .month-btn:hover { background: #2563eb; color: #fff; border-color: #2563eb; }
+</style>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {% for faq in weather.faqs %}
+    {
+      "@type": "Question",
+      "name": {{ faq.q | tojson }},
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": {{ faq.a | tojson }}
+      }
+    }{% if not loop.last %},{% endif %}
+    {% endfor %}
+  ]
+}
+</script>
+{% endblock %}
+
+{% block hero %}
+<section class="page-hero">
+  <div class="hero-inner">
+    <div class="breadcrumb"><a href="{{ site.base_path }}/">Home</a> › NZ Weather Guide</div>
+    <div class="tool-icon-big">🌤️</div>
+    <h1>Best Time to Visit NZ with Kids</h1>
+    <p>Month-by-month weather ratings for {{ weather.destinations | length }} NZ family destinations. Find your ideal window.</p>
+  </div>
+</section>
+{% endblock %}
+
+{% block content %}
+<section class="section">
+
+  <p style="color:#4b5563;font-size:1.05rem;max-width:700px;margin-bottom:2rem;">
+    {{ weather.intro }}
+    Use the matrix to compare destinations side-by-side, or scroll down for destination-specific notes and tips.
+  </p>
+
+  <!-- Legend -->
+  <div class="w-legend">
+    {% for rating, info in weather.rating_key.items() %}
+    <div class="w-legend-item">
+      <span>{{ info.emoji }}</span>
+      <span style="font-weight:700;color:{{ info.color }}">{{ info.label }}</span>
+    </div>
+    {% endfor %}
+  </div>
+
+  <!-- Month highlighter -->
+  <div style="margin-bottom:1rem">
+    <span style="font-size:.9rem;font-weight:600;color:#374151">Highlight a month: </span>
+    <div class="month-nav" id="month-nav">
+      <button class="month-btn" data-month="-1" onclick="highlightMonth(-1, this)">All</button>
+      {% for m in weather.months %}
+      <button class="month-btn" data-month="{{ loop.index0 }}" onclick="highlightMonth({{ loop.index0 }}, this)">{{ m }}</button>
+      {% endfor %}
+    </div>
+  </div>
+
+  <!-- Matrix -->
+  <div class="weather-matrix-wrap">
+    <table class="weather-matrix" id="weather-table">
+      <thead>
+        <tr>
+          <th class="dest-col">Destination</th>
+          {% for m in weather.months %}
+          <th id="mh-{{ loop.index0 }}">{{ m }}</th>
+          {% endfor %}
+        </tr>
+      </thead>
+      <tbody>
+        {% for dest in weather.destinations %}
+        {% set di = loop.index0 %}
+        <tr>
+          <td class="dest-name">
+            <span style="margin-right:.4rem">{{ dest.icon }}</span>
+            <a href="{{ site.base_path }}/destinations/{{ dest.slug }}/">{{ dest.name }}</a>
+            <div style="font-size:.72rem;color:#9ca3af;font-weight:400">{{ dest.region }}</div>
+          </td>
+          {% for r in dest.ratings %}
+          {% set mi = loop.index0 %}
+          {% set note = dest.notes.get(weather.months[mi], '') %}
+          <td id="mc-{{ di }}-{{ mi }}"
+              title="{{ dest.name }} in {{ weather.months[mi] }}: {{ weather.rating_key[r | string].label }}{% if note %} — {{ note }}{% endif %}">
+            <span class="r-cell"
+              style="background:{{ weather.rating_key[r | string].bg }};color:{{ weather.rating_key[r | string].color }}">
+              {{ weather.rating_key[r | string].emoji }}
+            </span>
+          </td>
+          {% endfor %}
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+
+  <p style="font-size:.8rem;color:#9ca3af;margin-bottom:3rem">
+    Hover over any cell for notes. Ratings are based on typical family travel conditions (weather + crowd levels + activity availability).
+  </p>
+
+  <!-- Destination detail cards -->
+  <h2>Destination Weather Summaries</h2>
+  <div class="dest-detail-grid">
+    {% for dest in weather.destinations %}
+    <div class="dest-weather-card">
+      <div class="dw-header">
+        <span style="font-size:1.4rem">{{ dest.icon }}</span>
+        <div>
+          <h3>{{ dest.name }}</h3>
+          <div style="font-size:.78rem;opacity:.75">{{ dest.region }}</div>
+        </div>
+      </div>
+      <div class="dw-body">
+        <p class="dw-summary">{{ dest.summary }}</p>
+        <div class="dw-months">
+          <span style="font-size:.78rem;font-weight:600;color:#6b7280;align-self:center">Best: </span>
+          {% for mi in dest.best_months %}
+          <span class="dw-best">{{ weather.months[mi] }}</span>
+          {% endfor %}
+          {% if dest.worst_months %}
+          &nbsp;
+          <span style="font-size:.78rem;font-weight:600;color:#6b7280;align-self:center">Avoid: </span>
+          {% for mi in dest.worst_months %}
+          <span class="dw-worst">{{ weather.months[mi] }}</span>
+          {% endfor %}
+          {% endif %}
+        </div>
+        <a href="{{ site.base_path }}/destinations/{{ dest.slug }}/" class="btn btn-outline" style="margin-top:.9rem;font-size:.82rem;padding:.4rem 1rem">
+          {{ dest.name }} Family Guide →
+        </a>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+
+  <!-- FAQ -->
+  <h2 style="margin-top:3rem">Frequently Asked Questions</h2>
+  <div class="faq-list" itemscope itemtype="https://schema.org/FAQPage">
+    {% for faq in weather.faqs %}
+    <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+      <button class="faq-q" itemprop="name" onclick="toggleFaq(this)">{{ faq.q }}</button>
+      <div class="faq-a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+        <span itemprop="text">{{ faq.a }}</span>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+
+  <!-- CTA strip -->
+  <div style="margin-top:3rem;display:flex;flex-wrap:wrap;gap:.75rem">
+    <a href="{{ site.base_path }}/school-holidays/" class="btn-outline">📅 School Holidays Calendar</a>
+    <a href="{{ site.base_path }}/destinations/" class="btn-outline">🗺️ Browse Destinations</a>
+    <a href="{{ site.base_path }}/tools/nz-best-month-to-visit/" class="btn-outline">🧮 Best Month Tool</a>
+    <a href="{{ site.affiliates.discover_cars.url }}" rel="sponsored" target="_blank" class="btn">🚐 Compare Campervans →</a>
+  </div>
+
+</section>
+{% endblock %}
+
+{% block extra_foot %}
+<script>
+// Auto-highlight current month on load
+const MONTHS = {{ weather.months | tojson }};
+
+function highlightMonth(idx, btn) {
+  // Remove all highlights
+  document.querySelectorAll('.col-highlight').forEach(el => el.classList.remove('col-highlight'));
+  document.querySelectorAll('.month-btn').forEach(el => el.classList.remove('active'));
+
+  if (btn) btn.classList.add('active');
+
+  if (idx >= 0) {
+    document.getElementById('mh-' + idx).classList.add('col-highlight');
+    document.querySelectorAll('[id^="mc-"][id$="-' + idx + '"]').forEach(td => {
+      if (td.id.split('-').pop() == idx) td.classList.add('col-highlight');
+    });
+  }
+}
+
+function toggleFaq(btn) {
+  btn.closest('.faq-item').classList.toggle('open');
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  // Highlight current month
+  const now = new Date();
+  const currentMonth = now.getMonth(); // 0-indexed
+  const btn = document.querySelector(`.month-btn[data-month="${currentMonth}"]`);
+  if (btn) {
+    highlightMonth(currentMonth, btn);
+  } else {
+    document.querySelector('.month-btn[data-month="-1"]').classList.add('active');
+  }
+});
+</script>
+{% endblock %}

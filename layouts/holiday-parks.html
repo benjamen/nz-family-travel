@@ -1,0 +1,245 @@
+{% extends "base.html" %}
+
+{% block title %}Best NZ Holiday Parks for Families 2026 — Regional Guide{% endblock %}
+{% block desc %}The best family holiday parks in New Zealand by region — Coromandel, Queenstown, Nelson, Rotorua and more. Honest reviews, prices, and direct booking links.{% endblock %}
+{% block canonical %}holiday-parks/{% endblock %}
+{% block og_title %}Best NZ Holiday Parks for Families 2026{% endblock %}
+{% block og_desc %}The best family holiday parks in New Zealand — honest reviews, prices, and tips for every region.{% endblock %}
+{% block og_image %}https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&q=80{% endblock %}
+
+{% block extra_head %}
+<style>
+.hp-region-tabs {
+  display: flex; gap: .4rem; flex-wrap: wrap; margin-bottom: 1.5rem;
+}
+.hp-tab {
+  padding: .45rem 1rem; border-radius: 99px; border: 1.5px solid #e5e7eb;
+  background: #fff; font-size: .85rem; font-weight: 600; cursor: pointer; transition: all .15s;
+}
+.hp-tab.active, .hp-tab:hover { background: #2563eb; color: #fff; border-color: #2563eb; }
+
+.hp-region { display: none; }
+.hp-region.visible { display: block; }
+
+.parks-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.25rem;
+  margin-bottom: 2rem;
+}
+.park-card {
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #fff;
+  transition: box-shadow .15s;
+}
+.park-card:hover { box-shadow: 0 4px 16px rgba(0,0,0,.08); }
+.park-card .pc-header {
+  padding: .9rem 1.1rem .6rem;
+  border-bottom: 1px solid #f3f4f6;
+}
+.park-card .pc-name { font-weight: 800; font-size: 1rem; color: #1f2937; margin: 0 0 .15rem; }
+.park-card .pc-loc { font-size: .82rem; color: #6b7280; }
+.park-card .pc-body { padding: .8rem 1.1rem; }
+.park-card .pc-rating { display: flex; gap: .2rem; margin-bottom: .4rem; }
+.star { color: #f59e0b; font-size: .95rem; }
+.star.empty { color: #d1d5db; }
+.park-card .pc-best { font-size: .82rem; font-style: italic; color: #374151; margin-bottom: .6rem; }
+.park-card .pc-price { font-weight: 700; color: #2563eb; font-size: .92rem; margin-bottom: .75rem; }
+.park-highlights { list-style: none; padding: 0; margin: 0 0 .9rem; }
+.park-highlights li { font-size: .82rem; color: #374151; padding: .15rem 0; }
+.park-highlights li::before { content: '✓ '; color: #16a34a; font-weight: 700; }
+.pc-book {
+  display: block; text-align: center; background: #2563eb; color: #fff;
+  padding: .55rem 1rem; border-radius: 8px; font-weight: 700; font-size: .88rem;
+  text-decoration: none; transition: background .15s;
+}
+.pc-book:hover { background: #1d4ed8; }
+
+.tips-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+.tip-card {
+  background: #f0fdf4;
+  border: 1px solid #bbf7d0;
+  border-radius: 10px;
+  padding: 1rem;
+}
+.tip-card h4 { margin: 0 0 .4rem; font-size: .92rem; color: #166534; }
+.tip-card p { margin: 0; font-size: .85rem; color: #374151; line-height: 1.6; }
+
+.faq-list { display: flex; flex-direction: column; }
+.faq-item { border-bottom: 1px solid #e5e7eb; }
+.faq-item:last-child { border-bottom: none; }
+.faq-q {
+  width: 100%; background: none; border: none; text-align: left;
+  padding: 1rem 0; font-size: 1rem; font-weight: 600; color: #1f2937;
+  cursor: pointer; display: flex; justify-content: space-between; align-items: center; gap: 1rem;
+}
+.faq-q::after { content: '+'; font-size: 1.3rem; color: #6b7280; flex-shrink: 0; }
+.faq-item.open .faq-q::after { content: '−'; }
+.faq-a { display: none; padding: 0 0 1rem; color: #374151; line-height: 1.7; }
+.faq-item.open .faq-a { display: block; }
+
+@media (max-width: 600px) {
+  .parks-grid { grid-template-columns: 1fr; }
+}
+</style>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {% for faq in holiday_parks.faqs %}
+    {
+      "@type": "Question",
+      "name": {{ faq.q | tojson }},
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": {{ faq.a | tojson }}
+      }
+    }{% if not loop.last %},{% endif %}
+    {% endfor %}
+  ]
+}
+</script>
+{% endblock %}
+
+{% block hero %}
+<section class="page-hero">
+  <div class="hero-inner">
+    <div class="breadcrumb"><a href="{{ site.base_path }}/">Home</a> › Holiday Parks</div>
+    <div class="tool-icon-big">🏕️</div>
+    <h1>Best NZ Holiday Parks for Families</h1>
+    <p>{{ holiday_parks.regions | length }} regions · hand-picked top holiday parks · real prices &amp; honest reviews</p>
+  </div>
+</section>
+{% endblock %}
+
+{% block content %}
+<section class="section">
+
+  <p style="color:#4b5563;font-size:1.05rem;max-width:700px;margin-bottom:2rem;">
+    {{ holiday_parks.intro }}
+  </p>
+
+  <!-- Region tabs -->
+  <div class="hp-region-tabs" id="hp-tabs">
+    <button class="hp-tab active" onclick="showRegion('all', this)">All Regions</button>
+    {% for region in holiday_parks.regions %}
+    <button class="hp-tab" onclick="showRegion('{{ region.slug }}', this)">{{ region.icon }} {{ region.name }}</button>
+    {% endfor %}
+  </div>
+
+  <!-- All parks (shown by default) -->
+  {% for region in holiday_parks.regions %}
+  <div class="hp-region visible" id="region-{{ region.slug }}">
+    <h2 style="display:flex;align-items:center;gap:.5rem;margin-top:0">
+      <span>{{ region.icon }}</span> {{ region.name }}
+    </h2>
+    <div class="parks-grid">
+      {% for park in region.parks %}
+      <div class="park-card">
+        <div class="pc-header">
+          <p class="pc-name">{{ park.name }}</p>
+          <p class="pc-loc">📍 {{ park.location }}</p>
+        </div>
+        <div class="pc-body">
+          <div class="pc-rating">
+            {% for i in range(5) %}
+            <span class="star{% if i >= park.family_score %} empty{% endif %}">★</span>
+            {% endfor %}
+            <span style="font-size:.78rem;color:#6b7280;margin-left:.3rem">Family rating</span>
+          </div>
+          <p class="pc-best">Best for: {{ park.best_for }}</p>
+          <p class="pc-price">{{ park.price_range }}</p>
+          <ul class="park-highlights">
+            {% for h in park.highlights %}
+            <li>{{ h }}</li>
+            {% endfor %}
+          </ul>
+          <a href="{{ park.book_url }}" rel="sponsored" target="_blank" class="pc-book">
+            Book {{ park.name.split(' ')[:2] | join(' ') }} →
+          </a>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+  {% endfor %}
+
+  <!-- Tips section -->
+  <h2 style="margin-top:3rem">Holiday Park Tips for Families</h2>
+  <div class="tips-grid">
+    {% for tip in holiday_parks.tips %}
+    <div class="tip-card">
+      <h4>{{ tip.title }}</h4>
+      <p>{{ tip.body }}</p>
+    </div>
+    {% endfor %}
+  </div>
+
+  <!-- TOP 10 CTA -->
+  <div style="background:#fff7ed;border:1px solid #fed7aa;border-radius:12px;padding:1.5rem;margin:2rem 0;display:flex;gap:1rem;align-items:flex-start;flex-wrap:wrap">
+    <span style="font-size:2rem">🏅</span>
+    <div style="flex:1;min-width:200px">
+      <strong style="color:#c2410c">TOP 10 Membership — Worth It?</strong>
+      <p style="margin:.4rem 0 .8rem;color:#374151;font-size:.92rem">
+        A TOP 10 membership card costs ~$49/year and saves 10% at all 50+ TOP 10 holiday parks across NZ.
+        One week at a TOP 10 park and it's paid for itself. Great for school holiday road trips.
+      </p>
+      <a href="{{ site.affiliates.top10.url }}" rel="sponsored" target="_blank" class="btn">
+        Get TOP 10 Membership →
+      </a>
+    </div>
+  </div>
+
+  <!-- FAQ -->
+  <h2 style="margin-top:3rem">Frequently Asked Questions</h2>
+  <div class="faq-list" itemscope itemtype="https://schema.org/FAQPage">
+    {% for faq in holiday_parks.faqs %}
+    <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+      <button class="faq-q" itemprop="name" onclick="toggleFaq(this)">{{ faq.q }}</button>
+      <div class="faq-a" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+        <span itemprop="text">{{ faq.a }}</span>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+
+  <!-- Cross-links -->
+  <div style="margin-top:3rem;display:flex;flex-wrap:wrap;gap:.75rem">
+    <a href="{{ site.base_path }}/campervans/" class="btn-outline">🚐 Campervan Reviews</a>
+    <a href="{{ site.base_path }}/destinations/" class="btn-outline">🗺️ Destination Guides</a>
+    <a href="{{ site.base_path }}/school-holidays/" class="btn-outline">📅 School Holidays</a>
+    <a href="{{ site.base_path }}/tools/nz-family-travel-budget-calculator/" class="btn-outline">🧮 Budget Calculator</a>
+  </div>
+
+</section>
+{% endblock %}
+
+{% block extra_foot %}
+<script>
+function showRegion(slug, btn) {
+  document.querySelectorAll('.hp-tab').forEach(t => t.classList.remove('active'));
+  btn.classList.add('active');
+
+  if (slug === 'all') {
+    document.querySelectorAll('.hp-region').forEach(r => r.classList.add('visible'));
+  } else {
+    document.querySelectorAll('.hp-region').forEach(r => r.classList.remove('visible'));
+    const el = document.getElementById('region-' + slug);
+    if (el) el.classList.add('visible');
+  }
+}
+
+function toggleFaq(btn) {
+  btn.closest('.faq-item').classList.toggle('open');
+}
+</script>
+{% endblock %}

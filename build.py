@@ -60,6 +60,8 @@ def build():
     media           = load("media")
     cities          = load("cities")
     school_holidays = load("school_holidays")
+    weather         = load("weather")
+    holiday_parks   = load("holiday_parks")
     guides          = load_content_dir("travel-tips")
     tools           = load_content_dir("tools")
     overseas        = load_content_dir("overseas")
@@ -79,6 +81,8 @@ def build():
         campervans=campervans,
         cities=cities,
         school_holidays=school_holidays,
+        weather=weather,
+        holiday_parks=holiday_parks,
         guides=guides,
         tools=tools,
         overseas=overseas,
@@ -95,6 +99,12 @@ def build():
 
     # ── School Holidays calendar ───────────────────────────────────────────────
     render("school-holidays.html", "school-holidays/index.html", **ctx)
+
+    # ── Weather by month matrix ────────────────────────────────────────────────
+    render("weather.html", "weather/index.html", **ctx)
+
+    # ── Holiday Park Finder ────────────────────────────────────────────────────
+    render("holiday-parks.html", "holiday-parks/index.html", **ctx)
 
     # ── Destinations hub ──────────────────────────────────────────────────────
     render("hub.html", "destinations/index.html",
@@ -239,6 +249,8 @@ def build():
             render("guide.html",
                    f"posts/{post['slug']}/index.html",
                    guide=post,
+                   guide_section="posts",
+                   guide_section_label="Deals & Guides",
                    **ctx)
 
     # ── Cities hub ───────────────────────────────────────────────────────────
@@ -291,6 +303,8 @@ def build():
     sitemap += sm_url("", "1.0", "weekly")
     sitemap += sm_url("about", "0.5", "yearly")
     sitemap += sm_url("school-holidays", "0.9", "yearly")
+    sitemap += sm_url("weather", "0.8", "yearly")
+    sitemap += sm_url("holiday-parks", "0.8", "yearly")
     sitemap += sm_url("nz-map", "0.7", "monthly")
     for slug in ["destinations", "itineraries", "campervans", "activities", "tools", "travel-tips", "overseas", "cities"]:
         sitemap += sm_url(slug, "0.8", "weekly")

@@ -1,0 +1,268 @@
+{
+  "intro": "New Zealand's weather varies dramatically by region and month. This matrix shows the best time to visit each destination — based on actual conditions, not just averages.",
+  "rating_key": {
+    "5": { "label": "Excellent", "emoji": "☀️", "color": "#16a34a", "bg": "#dcfce7" },
+    "4": { "label": "Very Good", "emoji": "🌤️", "color": "#ca8a04", "bg": "#fef9c3" },
+    "3": { "label": "OK", "emoji": "⛅", "color": "#d97706", "bg": "#fef3c7" },
+    "2": { "label": "Hit & Miss", "emoji": "🌦️", "color": "#dc2626", "bg": "#fee2e2" },
+    "1": { "label": "Avoid", "emoji": "🌧️", "color": "#7c3aed", "bg": "#ede9fe" }
+  },
+  "months": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+  "destinations": [
+    {
+      "name": "Queenstown",
+      "slug": "queenstown-with-kids",
+      "region": "South Island",
+      "icon": "🏔️",
+      "ratings": [4, 4, 4, 3, 2, 4, 5, 4, 3, 3, 4, 4],
+      "notes": {
+        "Jun": "Ski season opens — great for snow activities",
+        "Jul": "Peak ski season — best snow base, busiest month",
+        "Aug": "Good skiing, crowds thinning late month",
+        "Dec": "Long days, warm — but busy and expensive",
+        "Jan": "Peak summer — great weather, very busy"
+      },
+      "best_months": [6, 7, 1, 2],
+      "worst_months": [5],
+      "summary": "Summer (Dec–Feb) for outdoor adventure and water sports. Winter (Jun–Aug) for skiing. Spring and autumn are quieter and cheaper."
+    },
+    {
+      "name": "Rotorua",
+      "slug": "rotorua-family-guide",
+      "region": "North Island",
+      "icon": "♨️",
+      "ratings": [5, 5, 4, 4, 3, 3, 3, 3, 4, 4, 5, 5],
+      "notes": {
+        "Jan": "Hot and humid — perfect for hot pools and outdoor activities",
+        "Feb": "Best month — warm, settled, not peak crowding",
+        "Jun": "Cold but geothermal appeal all year; indoor activities good",
+        "Jul": "Winter school holidays — busy despite cold weather",
+        "Nov": "Warming up, spring blooms, good value",
+        "Dec": "Christmas peak — book 3 months ahead"
+      },
+      "best_months": [0, 1, 11, 10],
+      "worst_months": [5, 6, 7],
+      "summary": "Year-round destination but best November–March. Geothermal attractions work in all weather. Summer is hot and busy; winter is cold but fine for indoor activities."
+    },
+    {
+      "name": "Bay of Islands",
+      "slug": "bay-of-islands-family",
+      "region": "North Island",
+      "icon": "⛵",
+      "ratings": [5, 5, 4, 3, 2, 1, 2, 2, 3, 4, 4, 5],
+      "notes": {
+        "Jan": "Peak season — warm seas, dolphin cruises daily, book early",
+        "Feb": "Often the best month — warm, settled, slightly fewer crowds",
+        "Jun": "Cold and rainy — many operators reduce services",
+        "Jul": "School holidays bring crowds despite cold weather",
+        "Dec": "Christmas rush — most expensive week of the year",
+        "Oct": "Spring warming up, whale watching season begins"
+      },
+      "best_months": [0, 1, 11],
+      "worst_months": [4, 5, 6, 7],
+      "summary": "Strictly a summer destination. Best December–March. Avoid May–August — cold, wet, and many boat operators cut back services."
+    },
+    {
+      "name": "Coromandel",
+      "slug": "coromandel-with-kids",
+      "region": "North Island",
+      "icon": "🏖️",
+      "ratings": [5, 5, 4, 3, 2, 1, 1, 2, 3, 4, 4, 5],
+      "notes": {
+        "Jan": "Summer peak — Hot Water Beach, Cathedral Cove. Book 3+ months ahead.",
+        "Feb": "Often quieter than Jan — still warm, great beaches",
+        "Jun": "Very quiet — most holiday accommodation closed or restricted",
+        "Jul": "School holidays create brief spike, otherwise very quiet",
+        "Oct": "Good shoulder season — warm enough, uncrowded"
+      },
+      "best_months": [0, 1, 11],
+      "worst_months": [5, 6],
+      "summary": "Classic NZ summer destination. Best December–February for beaches. Off-season (May–Aug) it's very quiet — some facilities close."
+    },
+    {
+      "name": "Auckland",
+      "slug": "auckland-with-kids",
+      "region": "North Island",
+      "icon": "🌉",
+      "ratings": [4, 4, 4, 3, 3, 3, 3, 3, 3, 4, 4, 4],
+      "notes": {
+        "Jan": "Hot but can be humid and rainy — indoor backup plans useful",
+        "Jun": "Coolest and wettest month — still plenty to do indoors",
+        "Jul": "School holidays bring families to Auckland Zoo, MOTAT etc",
+        "Feb": "Often the most settled month of Auckland summer"
+      },
+      "best_months": [0, 1, 11, 10],
+      "worst_months": [],
+      "summary": "Year-round city destination. Warmest and most settled November–April. Rainy days are common year-round — good range of indoor attractions makes it weatherproof."
+    },
+    {
+      "name": "Wellington",
+      "slug": "wellington-with-kids",
+      "region": "North Island",
+      "icon": "🎭",
+      "ratings": [4, 4, 3, 3, 2, 2, 2, 2, 3, 3, 3, 4],
+      "notes": {
+        "Jan": "Warm and often sunny — Te Papa, waterfront walks excellent",
+        "Jun": "Wettest month — still great for Te Papa, Zealandia, cafes",
+        "Jul": "Winter school holidays — families flock to museums",
+        "Nov": "Spring settling in — good combination of weather and value"
+      },
+      "best_months": [0, 1, 11],
+      "worst_months": [5, 6, 7],
+      "summary": "Wellington is famous for wind and rain. Best January–March. Strong museum and cafe culture makes it viable year-round — but avoid June–August if you want outdoor time."
+    },
+    {
+      "name": "Christchurch",
+      "slug": "christchurch-with-kids",
+      "region": "South Island",
+      "icon": "🌿",
+      "ratings": [5, 5, 4, 3, 2, 2, 2, 3, 3, 4, 4, 5],
+      "notes": {
+        "Jan": "Hot and sunny — excellent for the gondola, Hagley Park, beaches",
+        "Feb": "Often the most settled month — good value",
+        "Jun": "Cold and grey — good for art galleries and Willowbank",
+        "Dec": "Busy but great weather — good base for South Island road trips"
+      },
+      "best_months": [0, 1, 11],
+      "worst_months": [5, 6],
+      "summary": "Best November–March. Christchurch can be cold and grey in winter. Summer sees lovely long days and good access to Canterbury Plains and ski areas."
+    },
+    {
+      "name": "Wanaka",
+      "slug": "wanaka-with-kids",
+      "region": "South Island",
+      "icon": "🏔️",
+      "ratings": [4, 4, 4, 3, 2, 4, 5, 4, 3, 3, 4, 4],
+      "notes": {
+        "Jul": "Peak ski season — Cardrona and Treble Cone at their best",
+        "Jun": "Ski season opens — quieter and cheaper than Queenstown",
+        "Jan": "Summer peak — lake swimming, Roy's Peak track, Puzzling World",
+        "Feb": "Often the best summer month — warm, settled, fewer crowds than Jan"
+      },
+      "best_months": [6, 0, 1],
+      "worst_months": [4, 5],
+      "summary": "Two seasons: Summer (Dec–Mar) for lake activities and hiking; Winter (Jun–Aug) for skiing at Cardrona and Treble Cone. Shoulder seasons are quiet with limited services."
+    },
+    {
+      "name": "Nelson / Abel Tasman",
+      "slug": "nelson-abel-tasman-family",
+      "region": "South Island",
+      "icon": "🌊",
+      "ratings": [5, 5, 4, 4, 3, 2, 2, 3, 4, 4, 5, 5],
+      "notes": {
+        "Jan": "Sunniest region in NZ — Abel Tasman coast track, golden beaches",
+        "Feb": "Excellent — warm, settled, Abel Tasman at its best",
+        "Jun": "Cold and quiet — Abel Tasman water taxis still run",
+        "Jul": "School holidays bring families — still cold for swimming",
+        "Nov": "Spring warming — great shoulder season value"
+      },
+      "best_months": [0, 1, 11, 10],
+      "worst_months": [5, 6],
+      "summary": "Nelson consistently gets the most sunshine hours in NZ. Best November–April for the Abel Tasman coast. Winter is cold but mild by South Island standards."
+    },
+    {
+      "name": "Taupo",
+      "slug": "taupo-with-kids",
+      "region": "North Island",
+      "icon": "🌋",
+      "ratings": [4, 4, 4, 3, 3, 2, 3, 3, 3, 4, 4, 4],
+      "notes": {
+        "Jan": "Hot — great for lake swimming, Huka Falls, Skydive",
+        "Jul": "School holiday week sees Taupo busier than usual",
+        "Jun": "Cold — thermal hot pools especially popular",
+        "Feb": "Summer peak — long days, lake activities in full swing"
+      },
+      "best_months": [0, 1, 11, 10],
+      "worst_months": [5],
+      "summary": "Year-round destination with good indoor/outdoor balance. Summer best for lake activities. Winter is cold but Taupo's geothermal hot pools are a draw year-round."
+    },
+    {
+      "name": "Fiordland",
+      "slug": "fiordland-milford-sound-family",
+      "region": "South Island",
+      "icon": "🛥️",
+      "ratings": [4, 4, 3, 3, 2, 2, 2, 2, 3, 3, 4, 4],
+      "notes": {
+        "Jan": "Busiest month but great weather — book Milford cruise months ahead",
+        "Feb": "Often less crowded than Jan — still excellent",
+        "Apr": "Autumn colours, fewer tourists, still good weather",
+        "Jun": "Very wet and very cold — but the waterfalls are spectacular",
+        "Jul": "Quietest month — very wet, limited services, but dramatic scenery"
+      },
+      "best_months": [0, 1, 3],
+      "worst_months": [5, 6, 7],
+      "summary": "Fiordland is one of the wettest places on Earth — rain actually enhances the waterfalls. Best November–April. The Milford Sound cruise runs year-round but is most comfortable in summer."
+    },
+    {
+      "name": "Marlborough",
+      "slug": "marlborough-blenheim-family",
+      "region": "South Island",
+      "icon": "🍇",
+      "ratings": [5, 5, 4, 4, 3, 2, 2, 3, 3, 4, 4, 5],
+      "notes": {
+        "Jan": "Hot and sunny — Marlborough Sounds by boat, wine tours",
+        "Feb": "Harvest season — wineries busiest, great atmosphere",
+        "Jun": "Very cold — limited activities open",
+        "Dec": "Summer starting — Sounds still uncrowded relative to Jan"
+      },
+      "best_months": [0, 1, 3, 11],
+      "worst_months": [5, 6],
+      "summary": "Best January–March. Marlborough is one of NZ's sunniest regions but has cold winters. The Sounds are spectacular year-round by water but summer is best for swimming."
+    },
+    {
+      "name": "Northland",
+      "slug": "northland-cape-reinga-family",
+      "region": "North Island",
+      "icon": "🌴",
+      "ratings": [5, 5, 4, 4, 3, 2, 2, 2, 3, 4, 4, 5],
+      "notes": {
+        "Jan": "Peak — 90 Mile Beach, Cape Reinga, Te Paki sand dunes",
+        "Feb": "Often the best month — still hot but less crowded",
+        "Jun": "Rainy season — Cape Reinga tours still run but cold",
+        "Jul": "School holidays bring families despite cooler weather",
+        "Oct": "Pohutukawa trees begin blooming — beautiful drive north"
+      },
+      "best_months": [0, 1, 11],
+      "worst_months": [5, 6, 7],
+      "summary": "Best December–April. Northland has warm subtropical weather in summer. The Far North (Cape Reinga) is an iconic NZ family road trip but most enjoyable in warm months."
+    },
+    {
+      "name": "Hawke's Bay",
+      "slug": "hawkes-bay-family-guide",
+      "region": "North Island",
+      "icon": "🍎",
+      "ratings": [5, 5, 4, 4, 3, 2, 2, 3, 3, 4, 4, 5],
+      "notes": {
+        "Jan": "Hot and sunny — Cape Kidnappers, beach, wine country",
+        "Feb": "Excellent — Art Deco weekend mid-month, great weather",
+        "Jun": "Cold and wet — most outdoor activities limited",
+        "Mar": "Harvest season — great for foodies and families"
+      },
+      "best_months": [0, 1, 2, 11],
+      "worst_months": [5, 6],
+      "summary": "Best December–March. One of NZ's warmest, sunniest regions. Summer days are long and hot — great for the beach, cycling, and cape gannet colony visits."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the best month to visit New Zealand with kids?",
+      "a": "January and February are consistently the best months across most of NZ — warm, long days, most activities running. December is peak season but more expensive and crowded. October–November is the best shoulder season for value-conscious families."
+    },
+    {
+      "q": "Is New Zealand worth visiting in winter with kids?",
+      "a": "Yes — especially if you're ski-focused. Queenstown and Wanaka are excellent for skiing in July–August. For non-ski families, winter is much quieter and cheaper, though the South Island in particular gets cold. Rotorua, Auckland and Wellington work well year-round."
+    },
+    {
+      "q": "What is the cheapest time to visit New Zealand?",
+      "a": "May–September (excluding school holiday weeks in July) offers the cheapest accommodation and campervan rates. Shoulder seasons — October–November and March–April — offer a good balance of decent weather and lower prices."
+    },
+    {
+      "q": "Does New Zealand have four seasons?",
+      "a": "Yes. Summer (December–February), Autumn (March–May), Winter (June–August), Spring (September–November). The South Island has more extreme seasons — colder winters, hotter summers in central/eastern areas. The North Island is milder year-round."
+    },
+    {
+      "q": "When does it rain most in New Zealand?",
+      "a": "It depends heavily on region. The West Coast of the South Island (Greymouth, Westport) is one of the wettest places on Earth year-round. Northland and Bay of Islands have a distinct wet season June–August. The east coast regions (Hawke's Bay, Marlborough, Canterbury) are drier. Wellington is windy with rain distributed through the year."
+    }
+  ]
+}
