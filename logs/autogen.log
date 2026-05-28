@@ -149,3 +149,50 @@ Generated 4 articles.
 Rebuilding site...
   Build complete — 189 HTML pages → /home/ben/nz-family-travel/docs/
   Pushed to GitHub Pages
+[main 1abe0a0] Auto-generate 5 articles — 2026-05-29
+ 15 files changed, 2637 insertions(+), 221 deletions(-)
+ create mode 100644 content/posts/christchurch-with-kids-family-deals-2026-05.json
+ create mode 100644 content/posts/queenstown-with-kids-may-family-guide.json
+ create mode 100644 content/posts/skyline-gondola-luge-queenstown-family-review-2026-05.json
+ create mode 100644 content/posts/west-coast-family-guide-budget-family-guide-2026-05.json
+ create mode 100644 docs/posts/christchurch-with-kids-family-deals-2026-05/index.html
+ create mode 100644 docs/posts/queenstown-with-kids-may-family-guide/index.html
+ create mode 100644 docs/posts/skyline-gondola-luge-queenstown-family-review-2026-05/index.html
+ create mode 100644 docs/posts/west-coast-family-guide-budget-family-guide-2026-05/index.html
+
+Today's 5 articles (2026-05-29):
+
+  1. [deals          ] Christchurch                        — christchurch-with-kids-family-deals-2026-05
+     WILL GENERATE
+  2. [month_guide    ] Queenstown                          — queenstown-with-kids-may-family-guide
+     WILL GENERATE
+  3. [budget         ] West Coast                          — west-coast-family-guide-budget-family-guide-2026-05
+     WILL GENERATE
+  4. [activity_review] Skyline Gondola & Luge              — skyline-gondola-luge-queenstown-family-review-2026-05
+     WILL GENERATE
+  5. [hidden_gems    ] Taupo                               — taupo-with-kids-hidden-gems-families
+     EXISTS
+
+[1/5] Generating: christchurch-with-kids-family-deals-2026-05
+  Calling Groq (llama-3.3-70b-versatile)...
+  Saved: content/posts/christchurch-with-kids-family-deals-2026-05.json
+
+[2/5] Generating: queenstown-with-kids-may-family-guide
+  Calling Groq (llama-3.3-70b-versatile)...
+  Saved: content/posts/queenstown-with-kids-may-family-guide.json
+
+[3/5] Generating: west-coast-family-guide-budget-family-guide-2026-05
+  Calling Groq (llama-3.3-70b-versatile)...
+  Saved: content/posts/west-coast-family-guide-budget-family-guide-2026-05.json
+
+[4/5] Generating: skyline-gondola-luge-queenstown-family-review-2026-05
+  Calling Groq (llama-3.3-70b-versatile)...
+  Saved: content/posts/skyline-gondola-luge-queenstown-family-review-2026-05.json
+
+[5/5] Skipping (already exists): taupo-with-kids-hidden-gems-families
+
+Generated 4 articles.
+
+Rebuilding site...
+  Build complete — 193 HTML pages → /home/ben/nz-family-travel/docs/
+  Pushed to GitHub Pages
