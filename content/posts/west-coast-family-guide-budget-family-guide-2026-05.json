@@ -1,0 +1,78 @@
+{
+  "title": "West Coast on Budget",
+  "short_title": "West Coast",
+  "meta_desc": "Explore NZ's wild West Coast with your family without breaking the bank. Discover free activities, affordable accommodation, and budget tips for a fun-filled trip.",
+  "intro": "The West Coast of New Zealand is a haven for families seeking adventure and natural beauty. With its stunning glaciers, pancake rocks, and wild beaches, this region offers an unforgettable experience. The good news is that you can explore the West Coast with your family on a budget of $150–$250 per day.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Free Activities and Attractions",
+      "body": "<p>The West Coast is home to numerous free activities that are perfect for families. The Punakaiki Pancake Rocks and Blowholes are a must-visit, with no admission fee. You can also take a free walk to the terminal face of the Franz Josef Glacier or to the viewing platform of the Fox Glacier. The Hokitika Gorge offers a stunning turquoise river walk, which is also free.</p><p>These free activities are not only budget-friendly but also offer a great way to experience the region's unique landscapes and natural wonders. By incorporating these into your itinerary, you can save money and still have an amazing time with your family.</p>",
+      "list": [
+        "Punakaiki Pancake Rocks and Blowholes",
+        "Franz Josef Glacier valley walk",
+        "Fox Glacier viewing platform",
+        "Hokitika Gorge walkway"
+      ]
+    },
+    {
+      "heading": "Accommodation Options",
+      "body": "<p>Accommodation on the West Coast ranges from budget-friendly options like holiday parks and motels to mid-range hotels and lodges. You can find affordable options in towns like Hokitika, Greymouth, and Franz Josef. Consider staying in a holiday park or motel, which can cost between $100-$200 per night for a family of four.</p><p>For a more comfortable stay, mid-range hotels and lodges are available, offering prices between $200-$350 per night. Book your accommodation in advance to ensure availability and get the best rates.</p>",
+      "list": [
+        "Holiday parks",
+        "Motels",
+        "Mid-range hotels",
+        "Lodges"
+      ]
+    },
+    {
+      "heading": "Budget Breakdown",
+      "body": "<p>To help you plan your trip, here's a rough 3-day budget breakdown for a family of four:</p>",
+      "table": {
+        "headers": [
+          "Day",
+          "Accommodation",
+          "Food",
+          "Activities",
+          "Total"
+        ],
+        "rows": [
+          [
+            "Day 1",
+            "$150",
+            "$50",
+            "$20",
+            "$220"
+          ],
+          [
+            "Day 2",
+            "$120",
+            "$60",
+            "$30",
+            "$210"
+          ],
+          [
+            "Day 3",
+            "$180",
+            "$40",
+            "$10",
+            "$230"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Money-Saving Tips",
+      "body": "<p>To make the most of your budget, consider the following tips: cook your own meals instead of eating out, pack snacks and water for the day, and take advantage of free activities. You can also save money by booking your accommodation and activities in advance.</p><p>While it's essential to save money, some experiences are worth splashing out on, such as a guided glacier hike or a scenic flight. These activities offer a unique perspective on the region's natural wonders and can be a valuable addition to your family's trip.</p>",
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "west-coast-family-guide-budget-family-guide-2026-05",
+  "updated": "May 2026",
+  "auto_generated": true,
+  "generated_date": "2026-05-29"
+}
