@@ -263,6 +263,13 @@
         "tagline": "Te Anau is the gateway to Milford Sound — fiord cruise, Mirror Lakes, and Homer Tunnel along the way",
         "tip": "The Milford Road is one of the world's great drives. Combine with a Milford Sound cruise — book ahead."
       }
+    ],
+    "related_guides": [
+      {
+        "slug": "things-to-do-queenstown-with-kids",
+        "short_title": "Queenstown Activities Guide",
+        "intro": "Full guide to things to do in Queenstown with kids — luge, Arrowtown, jet boat, Kiwi Park, skiing, and what works by age and season."
+      }
     ]
   },
   {
@@ -1061,6 +1068,13 @@
         "tagline": "Base camp for Mt Hutt ski field — NZ's best intermediate terrain and a great family winter destination",
         "tip": "Stay in Methven (cheaper than Queenstown). Mt Hutt has excellent learner slopes and kids' snow tubing."
       }
+    ],
+    "related_guides": [
+      {
+        "slug": "things-to-do-christchurch-with-kids",
+        "short_title": "Christchurch Activities Guide",
+        "intro": "Full guide to things to do in Christchurch with kids — Antarctic Centre, Willowbank, gondola, punting, Orana Park, and free options."
+      }
     ]
   },
   {
@@ -1319,6 +1333,13 @@
         "tagline": "Whangarei Falls (free, beautiful), Te Matau ā Pohe bridge walk, and the Poor Knights Islands dive",
         "tip": "Whangarei Falls is one of NZ's most accessible and beautiful waterfalls — 10-min walk from the car park."
       }
+    ],
+    "related_guides": [
+      {
+        "slug": "bay-of-islands-with-kids-activities",
+        "short_title": "Bay of Islands Activities Guide",
+        "intro": "Full guide to Bay of Islands with kids — dolphin cruises, Waitangi Treaty Grounds, Hole in the Rock, Haruru Falls, and what works by age."
+      }
     ]
   },
   {
@@ -1570,6 +1591,13 @@
         "how_far": "30 min south of Wanaka via Cardrona Valley Road",
         "tagline": "Family-friendly ski field with excellent beginners' terrain and a great snow tubing park for young kids",
         "tip": "Better for families with young kids than Treble Cone. Cardrona kids' learning area is excellent."
+      }
+    ],
+    "related_guides": [
+      {
+        "slug": "things-to-do-wanaka-with-kids",
+        "short_title": "Wanaka Activities Guide",
+        "intro": "Full guide to things to do in Wanaka with kids — Puzzling World, Lake Wanaka swimming, Mt Iron walk, Cinema Paradiso, and skiing at Cardrona."
       }
     ]
   },
@@ -2851,6 +2879,13 @@
         "tagline": "144 islands, dolphins, Waitangi Treaty Grounds, and the best sailing in NZ",
         "tip": "Hole in the Rock dolphin cruise from Paihia is the must-do. Book online. Dolphins are almost always guaranteed."
       }
+    ],
+    "related_guides": [
+      {
+        "slug": "things-to-do-northland-with-kids",
+        "short_title": "Northland Activities Guide",
+        "intro": "Full Northland road trip guide — Bay of Islands, Whangarei Falls, Tāne Mahuta kauri tree, Cape Reinga, and what to stop at on the drive north."
+      }
     ]
   },
   {
@@ -3766,6 +3801,13 @@
         "how_far": "1.5 hrs south on SH1",
         "tagline": "Hamilton Gardens (free), Hamilton Zoo, and the gateway to Hobbiton and Waitomo",
         "tip": "Perfect overnight stop before Rotorua or Taupo."
+      }
+    ],
+    "related_guides": [
+      {
+        "slug": "free-things-to-do-auckland-with-kids",
+        "short_title": "Free Auckland Activities Guide",
+        "intro": "The best free things to do in Auckland with kids — beaches, volcanic cones, markets, parks, and what the Auckland Museum costs for visitors vs residents."
       }
     ]
   },
