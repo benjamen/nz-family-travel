@@ -1,0 +1,84 @@
+{
+  "title": "Auckland on Budget",
+  "short_title": "Auckland",
+  "meta_desc": "Discover how to visit Auckland on a family budget of $200-$350/day, with free activities, affordable accommodation, and tips on where to save and splurge",
+  "intro": "Auckland is a great destination for families, with plenty of activities to suit all ages and budgets. With some planning, you can have a fantastic time in Auckland without breaking the bank. Here's a guide to help you visit Auckland on a family budget of $200-$350 per day.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Daily Costs",
+      "body": "<p>A family of four can expect to pay around $200-$350 per day in Auckland, depending on your accommodation choices and activities. This budget can get you a mid-range motel or Airbnb, meals at family-friendly restaurants, and entry to some of Auckland's top attractions.</p><p>Some examples of daily costs include: accommodation ($150-$250 per night), meals ($50-$100 per day), and attraction entry fees ($20-$50 per person).</p>",
+      "list": [
+        "Accommodation: $150-$250 per night",
+        "Meals: $50-$100 per day",
+        "Attraction entry fees: $20-$50 per person"
+      ]
+    },
+    {
+      "heading": "Free Activities",
+      "body": "<p>Auckland has plenty of free activities to enjoy, including visits to Mission Bay beach and reserve, Tamaki Drive coastal walk, and Albert Park and city gardens. These are great ways to spend time together as a family without spending a fortune.</p>",
+      "list": [
+        "Mission Bay beach and reserve",
+        "Tamaki Drive coastal walk",
+        "Albert Park and city gardens"
+      ]
+    },
+    {
+      "heading": "Accommodation Options",
+      "body": "<p>Auckland has a wide range of accommodation options to suit all budgets. For a cheap option, consider a hostel or camping ground, which can cost from $30-$100 per night. For a mid-range option, consider a motel or Airbnb, which can cost from $150-$300 per night.</p><p>Some popular accommodation options include the Auckland Central Backpackers, the Ibis Auckland Ellerslie, and the Airbnb apartments in the city centre.</p>",
+      "list": [
+        "Hostel or camping ground: $30-$100 per night",
+        "Motel or Airbnb: $150-$300 per night"
+      ]
+    },
+    {
+      "heading": "Budget Breakdown",
+      "body": "<p>Here's a rough 3-day budget breakdown for a family of four in Auckland:</p>",
+      "table": {
+        "headers": [
+          "Day",
+          "Accommodation",
+          "Food",
+          "Activities",
+          "Total"
+        ],
+        "rows": [
+          [
+            "Day 1",
+            "$200",
+            "$50",
+            "$100",
+            "$350"
+          ],
+          [
+            "Day 2",
+            "$200",
+            "$60",
+            "$80",
+            "$340"
+          ],
+          [
+            "Day 3",
+            "$220",
+            "$55",
+            "$120",
+            "$395"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Saving Money and Splurging",
+      "body": "<p>To save money in Auckland, consider visiting during the off-season, cooking your own meals instead of eating out, and looking for discounts on attraction entry fees. It's also worth considering a ferry trip to Waiheke Island or a visit to the Auckland Zoo, which can be a fun and memorable experience for the whole family.</p><p>Splurging on a visit to the Sky Tower or a guided tour of the city can also be a great way to experience Auckland's best attractions.</p>",
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "auckland-with-kids-budget-family-guide-2026-05",
+  "updated": "May 2026",
+  "auto_generated": true,
+  "generated_date": "2026-05-30"
+}

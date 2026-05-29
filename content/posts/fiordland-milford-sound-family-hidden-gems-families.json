@@ -1,0 +1,50 @@
+{
+  "title": "Fiordland's Hidden Gems",
+  "short_title": "Fiordland Secrets",
+  "meta_desc": "Discover hidden gems in Fiordland & Milford Sound, perfect for NZ families with kids, including secret waterfalls, scenic lookouts, and more from $20-$100",
+  "intro": "Fiordland and Milford Sound are a nature lover's paradise, with towering cliffs, stunning waterfalls, and picturesque lakes. While many families flock to the popular Milford Sound Nature Cruise, there are plenty of lesser-known spots to explore. From secret waterfalls to scenic lookouts, we've got the inside scoop on the best hidden gems in Fiordland.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Secret Waterfalls and Scenic Lookouts",
+      "body": "<p>One of the best ways to experience the natural beauty of Fiordland is to explore its many secret waterfalls and scenic lookouts. The Lake Marian Falls, located about 10 minutes from the Milford Sound highway, is a must-visit. This stunning waterfall is surrounded by lush forest and offers breathtaking views. To get there, take the Lake Marian Track, a 30-minute walk from the car park.</p> <p>Another hidden gem is the Gertrude Saddle lookout, which offers panoramic views of the Darran Mountains and the valley below. The walk to the lookout takes about 2-3 hours and is suitable for families with kids aged 8+.</p>",
+      "list": [
+        "Lake Marian Falls: $0 (free), 30-minute walk, ages 5+",
+        "Gertrude Saddle lookout: $0 (free), 2-3 hour walk, ages 8+"
+      ]
+    },
+    {
+      "heading": "Wildlife and Birdwatching",
+      "body": "<p>Families with kids who love wildlife and birdwatching will adore the Fiordland National Park. The park is home to a variety of native birds, including the famous kiwi, as well as seals, penguins, and dolphins. Take a guided tour or rent some binoculars and see how many species you can spot.</p> <p>The Mirror Lakes, located about 10 minutes from Te Anau, are another great spot for wildlife and birdwatching. The lakes are home to a variety of waterbirds, including the black swan and the paradise duck.</p>",
+      "list": [
+        "Guided wildlife tour: $80-$100 per person, ages 5+",
+        "Binocular rental: $20-$30 per day, ages 5+"
+      ]
+    },
+    {
+      "heading": "Insider Tips and Local Secrets",
+      "body": "<p>For a truly unique experience, consider visiting Milford Sound in the rain. The sound is famous for its waterfalls, and the rain creates hundreds of extra waterfalls cascading down the cliffs. Book the first cruise of the day to avoid the crowds and enjoy a more peaceful experience.</p> <p>Another insider tip is to visit the Te Anau Glowworm Caves at night. The caves are home to thousands of glowworms, and the night tour offers a magical and unforgettable experience.</p>",
+      "list": [
+        "Milford Sound cruise in the rain: $80-$100 per person, ages 5+",
+        "Te Anau Glowworm Caves night tour: $60-$80 per person, ages 5+"
+      ]
+    },
+    {
+      "heading": "Getting There and Around",
+      "body": "<p>Finding your way around Fiordland and Milford Sound can be challenging, especially for families with kids. The drive from Te Anau to Milford Sound takes about 2 hours, and the road is narrow and winding. Be sure to fill up on gas and snacks before you leave, as services are limited.</p> <p>There are also several shuttle services and tour operators that offer transportation to and from Milford Sound. Prices start from $50-$100 per person, depending on the service and the time of year.</p>",
+      "list": [
+        "Drive from Te Anau to Milford Sound: $0 (free), 2 hours, ages all",
+        "Shuttle service: $50-$100 per person, ages 5+"
+      ],
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "fiordland-milford-sound-family-hidden-gems-families",
+  "updated": "May 2026",
+  "auto_generated": true,
+  "generated_date": "2026-05-30"
+}
