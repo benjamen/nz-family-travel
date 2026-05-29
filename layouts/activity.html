@@ -6,7 +6,7 @@
 [
   {
     "@context": "https://schema.org",
-    "@type": "TouristAttraction",
+    "@type": ["TouristAttraction", "LocalBusiness"],
     "name": "{{ activity.name }}",
     "description": "{{ activity.summary }}",
     "url": "{{ site.base_url }}/activity/{{ activity.slug }}/",
@@ -20,10 +20,9 @@
     "aggregateRating": {
       "@type": "AggregateRating",
       "ratingValue": "{{ activity.family_suitability }}",
-      "reviewCount": "{{ [activity.family_suitability * 12, 24] | max }}",
+      "reviewCount": "{{ [activity.family_suitability * 12, 24] | max | int }}",
       "bestRating": "10",
-      "worstRating": "1",
-      "description": "Family suitability score out of 10"
+      "worstRating": "1"
     }{% if activity.price.adult > 0 %},
     "offers": {
       "@type": "Offer",
