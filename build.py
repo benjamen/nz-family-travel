@@ -97,6 +97,9 @@ def build():
     # ── About page ────────────────────────────────────────────────────────────
     render("about.html", "about/index.html", **ctx)
 
+    # ── Privacy Policy ────────────────────────────────────────────────────────
+    render("privacy.html", "privacy/index.html", **ctx)
+
     # ── School Holidays calendar ───────────────────────────────────────────────
     render("school-holidays.html", "school-holidays/index.html", **ctx)
 
@@ -109,7 +112,7 @@ def build():
     # ── Destinations hub ──────────────────────────────────────────────────────
     render("hub.html", "destinations/index.html",
            hub_title="NZ Family Travel Destinations",
-           hub_subtitle="Where to take the family in New Zealand — honest guides for every major destination.",
+           hub_subtitle="Honest family travel guides for every major NZ destination — real costs, best ages, top activities, and 3-day itineraries from NZ parents.",
            hub_type="destinations",
            items=destinations,
            item_url_prefix="destinations",
@@ -131,7 +134,7 @@ def build():
     # ── Activities hub ────────────────────────────────────────────────────────
     render("hub.html", "activities/index.html",
            hub_title="Family Activities in New Zealand",
-           hub_subtitle="Kid-friendly activities across NZ — with real prices, minimum ages, and honest reviews.",
+           hub_subtitle="Kid-friendly activities across New Zealand — real 2026 prices, minimum ages, rain-safe options, and honest parent reviews for every major destination.",
            hub_type="activities",
            items=activities,
            item_url_prefix="activity",
@@ -165,7 +168,7 @@ def build():
     # ── Itineraries hub ───────────────────────────────────────────────────────
     render("hub.html", "itineraries/index.html",
            hub_title="NZ Family Itineraries — Day-by-Day Trip Plans",
-           hub_subtitle="Fully planned NZ family holidays with costs, drive times and honest tips.",
+           hub_subtitle="Day-by-day NZ family itineraries with real costs, drive times, and honest tips — from weekend breaks to 14-day South Island road trips.",
            hub_type="itineraries",
            items=itineraries,
            item_url_prefix="itineraries",
@@ -197,7 +200,7 @@ def build():
     # ── Tools hub ────────────────────────────────────────────────────────────
     render("hub.html", "tools/index.html",
            hub_title="NZ Family Travel Tools & Calculators",
-           hub_subtitle="Free tools to plan your NZ family holiday — budget calculators, packing lists, driving times.",
+           hub_subtitle="Free tools to plan your NZ family holiday — budget calculators, packing lists, driving times, best month to visit, and school holiday planners.",
            hub_type="tools",
            items=tools,
            item_url_prefix="tools",
@@ -216,7 +219,7 @@ def build():
     # ── Travel tips hub ───────────────────────────────────────────────────────
     render("hub.html", "travel-tips/index.html",
            hub_title="NZ Family Travel Tips & Guides",
-           hub_subtitle="Practical advice for planning a New Zealand family holiday — costs, campervans, and what to pack.",
+           hub_subtitle="Practical NZ family travel guides — packing lists, campervan advice, travel costs, school holiday tips, and what to do with babies, toddlers, and teens.",
            hub_type="guides",
            items=guides,
            item_url_prefix="travel-tips",
@@ -236,7 +239,7 @@ def build():
     if posts:
         render("hub.html", "posts/index.html",
                hub_title="NZ Family Travel News & Deals",
-               hub_subtitle="Daily travel tips, current deals, and destination guides for NZ families — updated every day.",
+               hub_subtitle="Daily NZ family travel tips, current booking deals, and destination guides — updated every day for families planning their next New Zealand holiday.",
                hub_type="guides",
                items=posts,
                item_url_prefix="posts",
@@ -317,6 +320,7 @@ def build():
     )
     sitemap += sm_url("", "1.0", "weekly")
     sitemap += sm_url("about", "0.5", "yearly")
+    sitemap += sm_url("privacy", "0.3", "yearly")
     sitemap += sm_url("school-holidays", "0.9", "yearly")
     sitemap += sm_url("weather", "0.8", "yearly")
     sitemap += sm_url("holiday-parks", "0.8", "yearly")
