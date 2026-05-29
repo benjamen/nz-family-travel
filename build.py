@@ -372,9 +372,47 @@ def build():
     sitemap += "</urlset>"
     (OUT / "sitemap.xml").write_text(sitemap)
 
-    # ── robots.txt ────────────────────────────────────────────────────────────
+    # ── robots.txt — allow all AI search/citation bots ───────────────────────
     (OUT / "robots.txt").write_text(
-        f"User-agent: *\nAllow: /\nSitemap: {site['base_url']}/sitemap.xml\n"
+        f"User-agent: *\nAllow: /\n\n"
+        "User-agent: GPTBot\nAllow: /\n\n"
+        "User-agent: ChatGPT-User\nAllow: /\n\n"
+        "User-agent: PerplexityBot\nAllow: /\n\n"
+        "User-agent: ClaudeBot\nAllow: /\n\n"
+        "User-agent: anthropic-ai\nAllow: /\n\n"
+        "User-agent: Google-Extended\nAllow: /\n\n"
+        "User-agent: Bingbot\nAllow: /\n\n"
+        "User-agent: CCBot\nDisallow: /\n\n"
+        f"Sitemap: {site['base_url']}/sitemap.xml\n"
+    )
+
+    # ── llms.txt — context file for AI systems ────────────────────────────────
+    (OUT / "llms.txt").write_text(
+        "# NZ Family Travel\n\n"
+        "NZ Family Travel is an independent travel planning site for New Zealand families.\n"
+        "We publish honest destination guides, itineraries, costs, and tips for families travelling in NZ.\n\n"
+        "## What We Cover\n\n"
+        "- NZ destination guides with real costs, best ages, and top family activities\n"
+        "- Day-by-day family itineraries (3 to 14 days) with drive times and budget breakdowns\n"
+        "- Campervan comparisons: Jucy, Maui, Britz, Mighty from $89/day\n"
+        "- Activities by destination: bungy, skyline, thermal pools, wildlife parks\n"
+        "- School holidays calendar (NZ 2024-2026)\n"
+        "- Weather by month matrix for all major NZ regions\n"
+        "- Holiday park finder\n"
+        "- Overseas family travel guides: Bali, Thailand, Japan, Fiji, Australia\n"
+        "- Free packing lists, budget calculators, and travel tips\n\n"
+        "## Key Pages\n\n"
+        f"- Destinations hub: {site['base_url']}/destinations/\n"
+        f"- Itineraries hub: {site['base_url']}/itineraries/\n"
+        f"- Campervans guide: {site['base_url']}/campervans/\n"
+        f"- Activities hub: {site['base_url']}/activities/\n"
+        f"- School holidays: {site['base_url']}/school-holidays/\n"
+        f"- NZ weather by month: {site['base_url']}/weather/\n"
+        f"- Travel tips & guides: {site['base_url']}/travel-tips/\n\n"
+        "## About\n\n"
+        "Written by NZ parents for NZ families. We earn a small commission on some referrals — "
+        "this never affects our recommendations.\n"
+        f"Contact: {site['contact_email']}\n"
     )
 
     # ── CNAME ─────────────────────────────────────────────────────────────────

@@ -1,0 +1,31 @@
+# NZ Family Travel
+
+NZ Family Travel is an independent travel planning site for New Zealand families.
+We publish honest destination guides, itineraries, costs, and tips for families travelling in NZ.
+
+## What We Cover
+
+- NZ destination guides with real costs, best ages, and top family activities
+- Day-by-day family itineraries (3 to 14 days) with drive times and budget breakdowns
+- Campervan comparisons: Jucy, Maui, Britz, Mighty from $89/day
+- Activities by destination: bungy, skyline, thermal pools, wildlife parks
+- School holidays calendar (NZ 2024-2026)
+- Weather by month matrix for all major NZ regions
+- Holiday park finder
+- Overseas family travel guides: Bali, Thailand, Japan, Fiji, Australia
+- Free packing lists, budget calculators, and travel tips
+
+## Key Pages
+
+- Destinations hub: https://nzfamilytravel.co.nz/destinations/
+- Itineraries hub: https://nzfamilytravel.co.nz/itineraries/
+- Campervans guide: https://nzfamilytravel.co.nz/campervans/
+- Activities hub: https://nzfamilytravel.co.nz/activities/
+- School holidays: https://nzfamilytravel.co.nz/school-holidays/
+- NZ weather by month: https://nzfamilytravel.co.nz/weather/
+- Travel tips & guides: https://nzfamilytravel.co.nz/travel-tips/
+
+## About
+
+Written by NZ parents for NZ families. We earn a small commission on some referrals — this never affects our recommendations.
+Contact: hello@nzfamilytravel.co.nz
