@@ -1,0 +1,79 @@
+{% extends "base.html" %}
+
+{% block title %}{{ filter_title }} — NZ Family Travel 2026{% endblock %}
+{% block desc %}{{ filter_desc }}{% endblock %}
+{% block canonical %}activities/{{ filter_slug }}/{% endblock %}
+
+{% block hero %}
+<section class="page-hero">
+  <div class="hero-inner">
+    <div class="breadcrumb"><a href="/">Home</a> › <a href="/activities/">Activities</a> › {{ filter_label }}</div>
+    <h1>{{ filter_title }}</h1>
+    <p>{{ filter_desc }}</p>
+  </div>
+</section>
+{% endblock %}
+
+{% block content %}
+
+<div class="affiliate-strip">
+  <div class="aff-strip-inner">
+    <a href="{{ site.affiliates.bookme.url }}" class="aff-strip-item" rel="sponsored" target="_blank">🎫 <strong>Book Activities & Save up to 40%</strong></a>
+    <a href="{{ site.affiliates.booking_com.url }}" class="aff-strip-item" rel="sponsored" target="_blank">🏕️ <strong>Find Family Accommodation</strong></a>
+  </div>
+</div>
+
+<section class="section">
+  <h2>{{ filter_activities|length }} {{ filter_label }} in New Zealand</h2>
+  <div class="table-wrap">
+    <table class="compare-table">
+      <thead>
+        <tr>
+          <th>Activity</th>
+          <th>Destination</th>
+          <th>Adult price</th>
+          <th>Child price</th>
+          <th>Min age</th>
+          {% if filter_show_rain %}<th>Rain safe</th>{% endif %}
+        </tr>
+      </thead>
+      <tbody>
+        {% for a in filter_activities %}
+        <tr>
+          <td><a href="/activity/{{ a.slug }}/">{{ a.name }}</a></td>
+          <td>{{ a.destination | title }}</td>
+          <td>{{ a.price.adult if a.price else '—' }}</td>
+          <td>{{ a.price.child if a.price else '—' }}</td>
+          <td>{{ a.min_age if a.min_age else 'Any age' }}</td>
+          {% if filter_show_rain %}<td>{{ "✓" if a.rain_safe else "—" }}</td>{% endif %}
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</section>
+
+{% for a in filter_activities %}
+<section class="section">
+  <h2><a href="/activity/{{ a.slug }}/">{{ a.name }}</a> — {{ a.destination | title }}</h2>
+  <p>{{ a.summary }}</p>
+  <p>
+    {% if a.price %}<strong>Price:</strong> Adults {{ a.price.adult }}{% if a.price.child %}, children {{ a.price.child }}{% endif %}. {% endif %}
+    {% if a.min_age %}<strong>Minimum age:</strong> {{ a.min_age }}+. {% endif %}
+    {% if a.rain_safe %}<strong>Rain safe:</strong> Yes. {% endif %}
+    <strong>Duration:</strong> {{ a.duration }}.
+  </p>
+  <a href="/activity/{{ a.slug }}/" class="btn btn-outline btn-sm">Full review →</a>
+</section>
+{% endfor %}
+
+<section class="section">
+  <h2>Browse by Destination</h2>
+  <div class="dest-grid">
+    {% for dest in destinations %}
+    <a href="/activities/{{ dest.slug | replace('-with-kids','') | replace('-family-guide','') | replace('-family','') }}/" class="dest-card">{{ dest.name }}</a>
+    {% endfor %}
+  </div>
+</section>
+
+{% endblock %}

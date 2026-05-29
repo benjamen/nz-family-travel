@@ -174,6 +174,54 @@ def build():
                dest_obj=dest_obj,
                **ctx)
 
+    # ── Activity filter pages (pSEO — by rain-safe, wildlife, indoor, etc.) ───
+    filter_pages = [
+        {
+            "slug": "rainy-day",
+            "label": "Rainy Day Activities",
+            "title": "Rainy Day Activities in New Zealand with Kids",
+            "desc": f"{sum(1 for a in activities if a.get('rain_safe'))} indoor and all-weather activities across NZ — guaranteed to work even when it rains. Real prices and honest reviews for NZ families.",
+            "filter": lambda a: a.get("rain_safe"),
+            "show_rain": False,
+        },
+        {
+            "slug": "wildlife",
+            "label": "Wildlife Activities",
+            "title": "Wildlife Activities in New Zealand with Kids",
+            "desc": f"{sum(1 for a in activities if a.get('category') == 'wildlife')} wildlife experiences for NZ families — kiwi, seals, dolphins and more. Real prices, minimum ages, and whether they're worth it.",
+            "filter": lambda a: a.get("category") == "wildlife",
+            "show_rain": True,
+        },
+        {
+            "slug": "outdoor",
+            "label": "Outdoor Adventures",
+            "title": "Outdoor Family Activities in New Zealand — 2026 Guide",
+            "desc": f"{sum(1 for a in activities if a.get('category') in ('outdoor','nature','water_sports'))} outdoor and nature activities for NZ families with kids. Real prices, minimum ages, and rain-safe options.",
+            "filter": lambda a: a.get("category") in ("outdoor", "nature", "water_sports"),
+            "show_rain": True,
+        },
+        {
+            "slug": "toddlers",
+            "label": "Activities for Toddlers",
+            "title": "NZ Family Activities for Toddlers and Under 3s — 2026",
+            "desc": f"{sum(1 for a in activities if (a.get('min_age') or 0) <= 2)} activities suitable for toddlers and under 3s in New Zealand — no minimum age or under 2. Real prices and honest reviews.",
+            "filter": lambda a: (a.get("min_age") or 0) <= 2,
+            "show_rain": True,
+        },
+    ]
+    for fp in filter_pages:
+        filtered = [a for a in activities if fp["filter"](a)]
+        if len(filtered) >= 3:
+            render("activities-filter.html",
+                   f"activities/{fp['slug']}/index.html",
+                   filter_slug=fp["slug"],
+                   filter_label=fp["label"],
+                   filter_title=fp["title"],
+                   filter_desc=fp["desc"],
+                   filter_activities=filtered,
+                   filter_show_rain=fp["show_rain"],
+                   **ctx)
+
     # ── Itineraries hub ───────────────────────────────────────────────────────
     render("hub.html", "itineraries/index.html",
            hub_title="NZ Family Itineraries — Day-by-Day Trip Plans",
@@ -356,6 +404,8 @@ def build():
         sitemap += sm_url(f"activity/{a['slug']}", "0.7", "monthly", images=imgs or None)
     for s in dest_slugs:
         sitemap += sm_url(f"activities/{s}", "0.6", "monthly")
+    for fp_slug in ["rainy-day", "wildlife", "outdoor", "toddlers"]:
+        sitemap += sm_url(f"activities/{fp_slug}", "0.7", "monthly")
     for t in tools:
         sitemap += sm_url(f"tools/{t['slug']}", "0.7", "monthly")
     for g in guides:
