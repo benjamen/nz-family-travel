@@ -50,5 +50,11 @@
   "slug": "wanaka-with-kids-hidden-gems-families",
   "updated": "May 2026",
   "auto_generated": true,
-  "generated_date": "2026-05-28"
+  "generated_date": "2026-05-28",
+  "hero_image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/LakeWanakaNov272024.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/44/LakeWanakaNov272024.jpg",
+    "alt": "Lake Wanaka in November — hidden gems for families",
+    "credit": "Wikimedia Commons"
+  }
 }

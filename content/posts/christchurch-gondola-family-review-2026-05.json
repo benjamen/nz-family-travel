@@ -56,5 +56,11 @@
   "slug": "christchurch-gondola-family-review-2026-05",
   "updated": "May 2026",
   "auto_generated": true,
-  "generated_date": "2026-05-27"
+  "generated_date": "2026-05-27",
+  "hero_image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Lyttelton_Harbour%2C_Christchurch_Gondola_-_panoramio.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Lyttelton_Harbour%2C_Christchurch_Gondola_-_panoramio.jpg",
+    "alt": "Lyttelton Harbour from the Christchurch Gondola on Port Hills",
+    "credit": "Wikimedia Commons"
+  }
 }

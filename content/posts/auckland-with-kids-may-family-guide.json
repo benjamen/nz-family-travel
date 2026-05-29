@@ -61,5 +61,11 @@
   "slug": "auckland-with-kids-may-family-guide",
   "updated": "May 2026",
   "auto_generated": true,
-  "generated_date": "2026-05-28"
+  "generated_date": "2026-05-28",
+  "hero_image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Sky_Tower_Auckland_03.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Sky_Tower_Auckland_03.jpg",
+    "alt": "Auckland Sky Tower — family travel May",
+    "credit": "Wikimedia Commons"
+  }
 }

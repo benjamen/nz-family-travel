@@ -48,5 +48,11 @@
   "slug": "christchurch-with-kids-family-deals-2026-05",
   "updated": "May 2026",
   "auto_generated": true,
-  "generated_date": "2026-05-29"
+  "generated_date": "2026-05-29",
+  "hero_image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/ChristchurchFromPortHills.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/6/6d/ChristchurchFromPortHills.jpg",
+    "alt": "Christchurch viewed from the Port Hills gondola",
+    "credit": "Wikimedia Commons"
+  }
 }

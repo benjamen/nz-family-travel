@@ -59,5 +59,11 @@
   "slug": "fiordland-milford-sound-family-budget-family-guide-2026-05",
   "updated": "May 2026",
   "auto_generated": true,
-  "generated_date": "2026-05-28"
+  "generated_date": "2026-05-28",
+  "hero_image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Milford_Sound_%28New_Zealand%29.JPG",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Milford_Sound_%28New_Zealand%29.JPG",
+    "alt": "Milford Sound, Fiordland — New Zealand's most visited natural attraction",
+    "credit": "Wikimedia Commons"
+  }
 }

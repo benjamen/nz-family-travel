@@ -50,5 +50,11 @@
   "slug": "marlborough-blenheim-family-family-deals-2026-05",
   "updated": "May 2026",
   "auto_generated": true,
-  "generated_date": "2026-05-27"
+  "generated_date": "2026-05-27",
+  "hero_image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Marlborough_Sounds_from_above.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Marlborough_Sounds_from_above.jpg",
+    "alt": "Marlborough Sounds aerial view, New Zealand",
+    "credit": "Wikimedia Commons"
+  }
 }

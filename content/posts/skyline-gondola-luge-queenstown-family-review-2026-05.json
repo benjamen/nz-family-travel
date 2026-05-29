@@ -57,5 +57,11 @@
   "slug": "skyline-gondola-luge-queenstown-family-review-2026-05",
   "updated": "May 2026",
   "auto_generated": true,
-  "generated_date": "2026-05-29"
+  "generated_date": "2026-05-29",
+  "hero_image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Queenstown_1_%288168013172%29.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Queenstown_1_%288168013172%29.jpg",
+    "alt": "Queenstown — home of the Skyline Gondola and Luge",
+    "credit": "Wikimedia Commons"
+  }
 }

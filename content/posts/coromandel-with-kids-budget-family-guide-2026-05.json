@@ -80,5 +80,11 @@
   "slug": "coromandel-with-kids-budget-family-guide-2026-05",
   "updated": "May 2026",
   "auto_generated": true,
-  "generated_date": "2026-05-27"
+  "generated_date": "2026-05-27",
+  "hero_image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Cathedral_Cove_06.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Cathedral_Cove_06.jpg",
+    "alt": "Cathedral Cove, Coromandel Peninsula, New Zealand",
+    "credit": "Wikimedia Commons"
+  }
 }

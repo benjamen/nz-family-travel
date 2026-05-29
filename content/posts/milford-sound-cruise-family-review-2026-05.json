@@ -60,5 +60,11 @@
   "slug": "milford-sound-cruise-family-review-2026-05",
   "updated": "May 2026",
   "auto_generated": true,
-  "generated_date": "2026-05-28"
+  "generated_date": "2026-05-28",
+  "hero_image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Milford_Sound_%28New_Zealand%29.JPG",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Milford_Sound_%28New_Zealand%29.JPG",
+    "alt": "Milford Sound cruise — fiord and mountains, New Zealand",
+    "credit": "Wikimedia Commons"
+  }
 }

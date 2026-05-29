@@ -74,5 +74,11 @@
   "slug": "west-coast-family-guide-budget-family-guide-2026-05",
   "updated": "May 2026",
   "auto_generated": true,
-  "generated_date": "2026-05-29"
+  "generated_date": "2026-05-29",
+  "hero_image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Pancake_Rocks_New_Zealand.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Pancake_Rocks_New_Zealand.jpg",
+    "alt": "Pancake Rocks, Punakaiki — West Coast New Zealand",
+    "credit": "Wikimedia Commons"
+  }
 }
