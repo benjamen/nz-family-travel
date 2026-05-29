@@ -41,10 +41,12 @@
     {
       "@context": "https://schema.org",
       "@type": "WebSite",
+      "@id": "{{ site.base_url }}/#website",
       "name": "NZ Family Travel",
       "url": "{{ site.base_url }}",
       "description": "{{ site.description }}",
       "inLanguage": "en-NZ",
+      "publisher": {"@id": "{{ site.base_url }}/#organization"},
       "potentialAction": {
         "@type": "SearchAction",
         "target": {
@@ -57,11 +59,13 @@
     {
       "@context": "https://schema.org",
       "@type": "Organization",
+      "@id": "{{ site.base_url }}/#organization",
       "name": "NZ Family Travel",
       "url": "{{ site.base_url }}",
+      "description": "{{ site.description }}",
       "logo": {
         "@type": "ImageObject",
-        "url": "{{ site.base_url }}/static/img/favicon.svg",
+        "url": "{{ site.base_url }}/static/img/favicon.png",
         "width": 512,
         "height": 512
       },
@@ -73,7 +77,8 @@
       "sameAs": [
         "https://www.facebook.com/nzfamilytravel",
         "https://www.instagram.com/nzfamilytravel",
-        "https://www.pinterest.com/nzfamilytravel"
+        "https://www.pinterest.com/nzfamilytravel",
+        "https://twitter.com/nzfamilytravel"
       ]
     }
   ]
