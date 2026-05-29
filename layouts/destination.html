@@ -519,6 +519,23 @@
 </section>
 {% endif %}
 
+<!-- Related in-depth guides -->
+{% if destination.related_guides %}
+<section class="section">
+  <h2>In-Depth {{ destination.name }} Family Guides</h2>
+  <p class="section-intro">Detailed activity guides for families visiting {{ destination.name }} — what to do, what to skip, and what works for different ages.</p>
+  <div class="nearby-grid">
+    {% for rg in destination.related_guides %}
+    <a href="/travel-tips/{{ rg.slug }}/" class="nearby-card">
+      <h3>{{ rg.short_title }}</h3>
+      <p>{{ rg.intro }}</p>
+      <span>Read guide →</span>
+    </a>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
+
 <!-- Nearby destinations -->
 {% if destination.nearby_destinations %}
 <section class="section section-alt">

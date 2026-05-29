@@ -532,6 +532,13 @@
         "tagline": "Champagne Pool, Artist's Palette, and the Lady Knox Geyser — the best geothermal park in NZ",
         "tip": "Lady Knox Geyser erupts at 10:15am daily. Arrive by 10am. Allow 2 hrs for the full walk."
       }
+    ],
+    "related_guides": [
+      {
+        "slug": "things-to-do-rotorua-with-kids",
+        "short_title": "Rotorua Activities Guide",
+        "intro": "Full guide to things to do in Rotorua with kids — the luge, Wai-O-Tapu, Rainbow Springs, free thermal parks, and what works by age."
+      }
     ]
   },
   {
@@ -1825,6 +1832,13 @@
         "how_far": "1 hr north-east over Remutaka Hill",
         "tagline": "NZ's most beautiful small town — Victorian streetscape, artisan shops, excellent food, and the Cobblestones Museum",
         "tip": "Combine with Martinborough for a great day trip. Greytown Café strip on Main Street is outstanding for brunch."
+      }
+    ],
+    "related_guides": [
+      {
+        "slug": "things-to-do-wellington-with-kids",
+        "short_title": "Wellington Activities Guide",
+        "intro": "Full guide to things to do in Wellington with kids — Te Papa, Zealandia, cable car, zoo, rainy day options, and what works for each age."
       }
     ]
   },
