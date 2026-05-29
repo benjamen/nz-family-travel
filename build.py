@@ -4,6 +4,7 @@
 import json
 import shutil
 from pathlib import Path
+from datetime import datetime
 from urllib.parse import quote_plus
 from jinja2 import Environment, FileSystemLoader
 
@@ -16,6 +17,14 @@ OUT     = ROOT / "docs"
 
 env = Environment(loader=FileSystemLoader(str(LAYOUTS)), autoescape=False)
 env.filters['url_encode'] = quote_plus
+
+def _to_iso_date(s):
+    for fmt in ('%B %Y', '%b %Y', '%Y-%m-%d', '%d %B %Y'):
+        try: return datetime.strptime(str(s), fmt).strftime('%Y-%m-01' if fmt.endswith('%Y') else '%Y-%m-%d')
+        except: pass
+    return str(s)
+
+env.filters['to_iso_date'] = _to_iso_date
 
 
 def load(name):

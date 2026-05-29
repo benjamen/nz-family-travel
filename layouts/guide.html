@@ -20,9 +20,9 @@
     "@type": "Article",
     "headline": {{ guide.title | tojson }},
     "description": {{ guide.meta_desc | tojson }},
-    "datePublished": "{{ _pub_date }}",
-    "dateModified": "{{ _pub_date }}",
-    "image": "{{ guide.hero_image.url if guide.hero_image else 'https://images.unsplash.com/photo-1507699622108-4be3abd695ad?w=1200&q=80' }}",
+    "datePublished": "{{ _pub_date | to_iso_date }}",
+    "dateModified": "{{ _pub_date | to_iso_date }}",
+    "image": {"@type": "ImageObject", "url": "{{ guide.hero_image.url if guide.hero_image else 'https://images.unsplash.com/photo-1507699622108-4be3abd695ad?w=1200&q=80' }}", "width": 1200, "height": 630},
     "author": {"@type": "Organization", "name": "NZ Family Travel", "url": "{{ site.base_url }}"},
     "publisher": {
       "@type": "Organization",
