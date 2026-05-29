@@ -1,0 +1,90 @@
+{
+  "slug": "north-vs-south-island-families",
+  "short_title": "North vs South",
+  "title": "North Island vs South Island for Families — Which to Choose First?",
+  "meta_desc": "North Island vs South Island for families: which to choose first? Compare activities, drive times, and costs.",
+  "intro": "When planning a family trip to New Zealand, one of the toughest decisions is which island to visit first. With the North Island offering geothermal wonders like Wai-O-Tapu ($32.50 per adult, $18 per child) and the South Island boasting stunning fjords like Milford Sound ($45 per adult, $23 per child), it's a tough call. To help you decide, we've broken down the key considerations for families.",
+  "updated": "May 2026",
+  "reading_time": 9,
+  "sections": [
+    {
+      "heading": "Activity Density",
+      "body": "The North Island is home to many of New Zealand's most popular family attractions, including the Auckland Zoo ($25 per adult, $13 per child) and the Skyline Gondola in Rotorua ($32 per adult, $20 per child). In contrast, the South Island has a more dispersed range of activities, with highlights like the Queenstown Luge ($40 per adult, $30 per child) and the Franz Josef Glacier ($35 per adult, $20 per child)."
+    },
+    {
+      "heading": "Drive Times and Logistics",
+      "list": [
+        "Auckland to Rotorua: 3 hours",
+        "Auckland to Wellington: 8 hours",
+        "Christchurch to Queenstown: 6.5 hours",
+        "Queenstown to Franz Josef: 4.5 hours"
+      ]
+    },
+    {
+      "heading": "Age Considerations",
+      "body": "Families with younger children may prefer the North Island, where many attractions are geared towards kids under 12. The South Island, on the other hand, offers more outdoor adventures suited to older kids and teens, such as hiking and skiing."
+    },
+    {
+      "heading": "Cost Comparison",
+      "table": {
+        "headers": [
+          "Activity",
+          "North Island Price (NZD)",
+          "South Island Price (NZD)"
+        ],
+        "rows": [
+          [
+            "Geothermal park visit",
+            "32.50",
+            "35.00"
+          ],
+          [
+            "Gondola ride",
+            "32.00",
+            "40.00"
+          ],
+          [
+            "Zoo visit",
+            "25.00",
+            "30.00"
+          ],
+          [
+            "Accommodation (per night)",
+            "150.00",
+            "180.00"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "What You'll Miss",
+      "body": "If you only visit the North Island, you'll miss out on the stunning natural beauty of the South Island, including Milford Sound and the Southern Alps. Conversely, if you only visit the South Island, you'll miss the geothermal wonders and Maori cultural experiences of the North Island."
+    },
+    {
+      "heading": "Plan Your Trip",
+      "cta": {
+        "text": "Use our NZ Family Travel Budget Calculator",
+        "url": "/tools/nz-family-travel-budget-calculator/",
+        "affiliate": false
+      }
+    },
+    {
+      "heading": "Accommodation and Transportation",
+      "body": "When planning your trip, consider the cost of accommodation and transportation. Campervans are a popular option for families, with prices starting from around $100 per day. You can compare campervan options on our website.",
+      "cta": {
+        "text": "Compare campervans",
+        "url": "/campervans/",
+        "affiliate": false
+      }
+    },
+    {
+      "heading": "Destination Guides",
+      "body": "For more information on specific destinations, check out our guides to Auckland, Rotorua, Queenstown, and other popular family spots.",
+      "cta": {
+        "text": "View destination guides",
+        "url": "/destinations/",
+        "affiliate": false
+      }
+    }
+  ]
+}

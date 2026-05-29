@@ -196,3 +196,50 @@ Generated 4 articles.
 Rebuilding site...
   Build complete — 193 HTML pages → /home/ben/nz-family-travel/docs/
   Pushed to GitHub Pages
+[main 7445b3d] Auto-generate 5 articles — 2026-05-30
+ 15 files changed, 2755 insertions(+), 246 deletions(-)
+ create mode 100644 content/posts/abel-tasman-water-taxi-family-review-2026-05.json
+ create mode 100644 content/posts/auckland-with-kids-budget-family-guide-2026-05.json
+ create mode 100644 content/posts/fiordland-milford-sound-family-hidden-gems-families.json
+ create mode 100644 content/posts/wellington-with-kids-family-deals-2026-05.json
+ create mode 100644 docs/posts/abel-tasman-water-taxi-family-review-2026-05/index.html
+ create mode 100644 docs/posts/auckland-with-kids-budget-family-guide-2026-05/index.html
+ create mode 100644 docs/posts/fiordland-milford-sound-family-hidden-gems-families/index.html
+ create mode 100644 docs/posts/wellington-with-kids-family-deals-2026-05/index.html
+
+Today's 5 articles (2026-05-30):
+
+  1. [deals          ] Wellington                          — wellington-with-kids-family-deals-2026-05
+     WILL GENERATE
+  2. [month_guide    ] Nelson & Abel Tasman                — nelson-abel-tasman-family-may-family-guide
+     EXISTS
+  3. [budget         ] Auckland                            — auckland-with-kids-budget-family-guide-2026-05
+     WILL GENERATE
+  4. [activity_review] Abel Tasman Water Taxi & Beach Day  — abel-tasman-water-taxi-family-review-2026-05
+     WILL GENERATE
+  5. [hidden_gems    ] Fiordland & Milford Sound           — fiordland-milford-sound-family-hidden-gems-families
+     WILL GENERATE
+
+[1/5] Generating: wellington-with-kids-family-deals-2026-05
+  Calling Groq (llama-3.3-70b-versatile)...
+  Saved: content/posts/wellington-with-kids-family-deals-2026-05.json
+
+[2/5] Skipping (already exists): nelson-abel-tasman-family-may-family-guide
+
+[3/5] Generating: auckland-with-kids-budget-family-guide-2026-05
+  Calling Groq (llama-3.3-70b-versatile)...
+  Saved: content/posts/auckland-with-kids-budget-family-guide-2026-05.json
+
+[4/5] Generating: abel-tasman-water-taxi-family-review-2026-05
+  Calling Groq (llama-3.3-70b-versatile)...
+  Saved: content/posts/abel-tasman-water-taxi-family-review-2026-05.json
+
+[5/5] Generating: fiordland-milford-sound-family-hidden-gems-families
+  Calling Groq (llama-3.3-70b-versatile)...
+  Saved: content/posts/fiordland-milford-sound-family-hidden-gems-families.json
+
+Generated 4 articles.
+
+Rebuilding site...
+  Build complete — 211 HTML pages → /home/ben/nz-family-travel/docs/
+  Pushed to GitHub Pages
