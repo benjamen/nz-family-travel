@@ -74,12 +74,7 @@
         "email": "{{ site.contact_email }}",
         "contactType": "customer service"
       },
-      "sameAs": [
-        "https://www.facebook.com/nzfamilytravel",
-        "https://www.instagram.com/nzfamilytravel",
-        "https://www.pinterest.com/nzfamilytravel",
-        "https://twitter.com/nzfamilytravel"
-      ]
+      "sameAs": {{ site.same_as | default([]) | tojson }}
     }
   ]
   </script>

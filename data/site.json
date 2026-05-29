@@ -7,6 +7,12 @@
   "ga_id": "G-BHTP34TBYW",
   "contact_email": "hello@nzfamilytravel.co.nz",
   "newsletter_form_url": "",
+  "same_as": [
+    "https://www.facebook.com/nzfamilytravel",
+    "https://www.instagram.com/nzfamilytravel",
+    "https://www.pinterest.com/nzfamilytravel",
+    "https://twitter.com/nzfamilytravel"
+  ],
   "affiliates": {
     "bookme": {
       "name": "Bookme.co.nz",
