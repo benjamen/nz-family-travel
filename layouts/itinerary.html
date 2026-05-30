@@ -14,12 +14,20 @@
   },
   {
     "@context": "https://schema.org",
-    "@type": "Trip",
+    "@type": "TouristTrip",
     "name": "{{ itinerary.title }}",
     "description": "{{ itinerary.tagline }}",
     "url": "{{ site.base_url }}/itineraries/{{ itinerary.slug }}/",
-    "touristType": {"@type": "Audience", "audienceType": "Family"},
-    "provider": {"@type": "Organization", "name": "NZ Family Travel", "url": "{{ site.base_url }}"}
+    "touristType": {"@type": "Audience", "audienceType": "Family with children"},
+    "provider": {"@type": "Organization", "name": "NZ Family Travel", "url": "{{ site.base_url }}"},
+    "itinerary": {
+      "@type": "ItemList",
+      "itemListElement": [
+        {% for day in itinerary.days %}
+        {"@type": "ListItem", "position": {{ day.day }}, "name": "Day {{ day.day }}: {{ day.title }}", "item": {"@type": "Place", "name": "{{ day.location }}"}}{% if not loop.last %},{% endif %}
+        {% endfor %}
+      ]
+    }
   },
   {
     "@context": "https://schema.org",
@@ -41,7 +49,7 @@
 {% block og_title %}{{ itinerary.title }}{% endblock %}
 {% block og_desc %}{{ itinerary.tagline }}. {{ itinerary.duration_days }}-day family itinerary, budget {{ itinerary.budget_family4 }}.{% endblock %}
 {% block og_url %}itineraries/{{ itinerary.slug }}/{% endblock %}
-{% block title %}{{ itinerary.title }} — NZ Family Holiday Plan 2026{% endblock %}
+{% block title %}{{ itinerary.title }}{% if itinerary.title | length <= 44 %} | NZ Family Itinerary{% endif %}{% endblock %}
 {% block desc %}{{ itinerary.tagline }}. {{ itinerary.duration_days }}-day itinerary for a family of 4, budget {{ itinerary.budget_family4 }}. Day-by-day activities, drive times and honest tips.{% endblock %}
 {% block canonical %}itineraries/{{ itinerary.slug }}/{% endblock %}
 
@@ -169,6 +177,30 @@
     </div>
   </div>
 </div>
+
+<!-- Contextual internal links -->
+<section class="section">
+  <h2>Plan Your Trip</h2>
+  <p>Before you head off, these guides will help you get the most out of your {{ itinerary.duration_days }}-day itinerary:</p>
+  <ul class="related-links">
+    {% set primary_location = itinerary.days[0].location | lower | replace(' ', '-') %}
+    {% for dest in destinations %}
+      {% if primary_location in dest.slug or dest.name | lower in itinerary.title | lower %}
+    <li><a href="/destinations/{{ dest.slug }}/">{{ dest.name }} Family Holiday Guide</a> — things to do, where to stay, and honest costs</li>
+      {% endif %}
+    {% endfor %}
+    {% if 'campervan' in itinerary.transport | lower or 'campervan' in itinerary.title | lower %}
+    <li><a href="/campervans/">Best Family Campervans NZ</a> — compare Jucy, Maui, Britz and Mighty for this road trip</li>
+    {% endif %}
+    <li><a href="/school-holidays/">NZ School Holidays 2026</a> — term dates and holiday ideas to time your trip</li>
+    {% for guide in guides[:3] %}
+      {% if guide.short_title and ('budget' in guide.slug or 'cost' in guide.slug or 'tip' in guide.slug) %}
+    <li><a href="/travel-tips/{{ guide.slug }}/">{{ guide.short_title }}</a></li>
+      {% endif %}
+    {% endfor %}
+    <li><a href="/campervans/">Compare NZ Family Campervans</a> — campervan hire can cut accommodation costs by 40%</li>
+  </ul>
+</section>
 
 <!-- Packing tips -->
 {% if itinerary.packing_tips %}

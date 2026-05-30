@@ -50,7 +50,7 @@
 ]
 </script>
 {% endblock %}
-{% block title %}{{ guide.title }} — NZ Family Travel 2026{% endblock %}
+{% block title %}{{ guide.title }}{% if guide.title | length <= 51 %} | NZ Family Travel{% endif %}{% endblock %}
 {% block desc %}{{ guide.meta_desc }}{% endblock %}
 {% block canonical %}{{ _section }}/{{ guide.slug }}/{% endblock %}
 {% block og_type %}article{% endblock %}

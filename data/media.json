@@ -2,9 +2,9 @@
   "destinations": {
     "queenstown-with-kids": {
       "hero_image": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Queenstown_1_%288168013172%29.jpg",
+        "url": "/static/img/destinations/queenstown-with-kids.jpg",
         "alt": "Queenstown lakefront with The Remarkables mountain range reflected in Lake Wakatipu",
-        "credit": "Wikimedia Commons"
+        "credit": "NZ Family Travel"
       },
       "gallery": [
         {
@@ -15,55 +15,55 @@
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/View_from_Shotover-Rees_St%2C_Queenstown_-_panoramio_%282%29.jpg",
           "alt": "View from the Skyline Gondola over Queenstown and Lake Wakatipu",
-          "caption": "Skyline Gondola views — the highlight of any Queenstown family trip"
+          "caption": "Skyline Gondola views \u2014 the highlight of any Queenstown family trip"
         },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/NZL-arrowt-buckinghamstr.jpg",
           "alt": "Arrowtown's historic Buckingham Street lined with autumn trees",
-          "caption": "Arrowtown — 20 min from Queenstown, great for gold panning with kids"
+          "caption": "Arrowtown \u2014 20 min from Queenstown, great for gold panning with kids"
         }
       ],
       "videos": [
         {
           "youtube_id": "Z6GX9bM90tc",
-          "title": "Queenstown New Zealand — Family Travel Guide",
-          "description": "A guide to the adventure capital of the world — including family-friendly activities."
+          "title": "Queenstown New Zealand \u2014 Family Travel Guide",
+          "description": "A guide to the adventure capital of the world \u2014 including family-friendly activities."
         }
       ]
     },
     "rotorua-family-guide": {
       "hero_image": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Government_Gardens_in_Rotorua_01.jpg",
+        "url": "/static/img/destinations/rotorua-family-guide.jpg",
         "alt": "Rotorua's Government Gardens and Tudor-style bathhouse building",
-        "credit": "Wikimedia Commons"
+        "credit": "NZ Family Travel"
       },
       "gallery": [
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/ChampagnePool-Wai-O-Tapu_rotated_MC.jpg",
           "alt": "Champagne Pool at Wai-O-Tapu Thermal Wonderland near Rotorua",
-          "caption": "Champagne Pool at Wai-O-Tapu — a 30 min drive from Rotorua"
+          "caption": "Champagne Pool at Wai-O-Tapu \u2014 a 30 min drive from Rotorua"
         },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Priroda_Aotearoe.jpg/320px-Priroda_Aotearoe.jpg",
           "alt": "Pohutu Geyser erupting at Te Puia Rotorua",
-          "caption": "Pohutu Geyser at Te Puia — NZ's largest active geyser"
+          "caption": "Pohutu Geyser at Te Puia \u2014 NZ's largest active geyser"
         },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/WhakarewarewaAerial.jpg",
           "alt": "Aerial view of Whakarewarewa Living Maori Village with geothermal steam",
-          "caption": "Whakarewarewa — a living Maori village inside an active geothermal field"
+          "caption": "Whakarewarewa \u2014 a living Maori village inside an active geothermal field"
         },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/New_Zealand_Agrodome.webm/500px--New_Zealand_Agrodome.webm.jpg",
           "alt": "Agrodome Rotorua farm show",
-          "caption": "Agrodome — the classic NZ farm show"
+          "caption": "Agrodome \u2014 the classic NZ farm show"
         }
       ],
       "videos": [
         {
           "youtube_id": "x8LPQ8twcGM",
-          "title": "Rotorua New Zealand with Kids — What to Do",
-          "description": "The geothermal capital of New Zealand — geysers, Maori culture, and family activities."
+          "title": "Rotorua New Zealand with Kids \u2014 What to Do",
+          "description": "The geothermal capital of New Zealand \u2014 geysers, Maori culture, and family activities."
         },
         {
           "youtube_id": "MkXxL6v_exo",
@@ -74,238 +74,238 @@
     },
     "taupo-with-kids": {
       "hero_image": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Lake_Taupo_and_Waikato_River_aerial_view.jpg",
-        "alt": "Aerial view of Lake Taupo and the Waikato River — New Zealand's largest lake",
-        "credit": "Wikimedia Commons"
+        "url": "/static/img/destinations/taupo-with-kids.jpg",
+        "alt": "Aerial view of Lake Taupo and the Waikato River \u2014 New Zealand's largest lake",
+        "credit": "NZ Family Travel"
       },
       "gallery": [
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Huka_Falls.jpg",
-          "alt": "Huka Falls near Taupo — turquoise water crashing through a narrow gorge",
-          "caption": "Huka Falls — NZ's most visited natural attraction. Free entry."
+          "alt": "Huka Falls near Taupo \u2014 turquoise water crashing through a narrow gorge",
+          "caption": "Huka Falls \u2014 NZ's most visited natural attraction. Free entry."
         }
       ],
       "videos": [
         {
           "youtube_id": "BTL2EJBK1os",
           "title": "Taupo New Zealand Travel Guide",
-          "description": "Lake Taupo, Huka Falls, jet boating and more — the perfect North Island stopover."
+          "description": "Lake Taupo, Huka Falls, jet boating and more \u2014 the perfect North Island stopover."
         },
         {
           "youtube_id": "QT3qPDe-61M",
-          "title": "Huka Falls Taupo — NZ's Most Visited Natural Attraction",
-          "description": "220,000 litres per second — the spectacular Huka Falls up close."
+          "title": "Huka Falls Taupo \u2014 NZ's Most Visited Natural Attraction",
+          "description": "220,000 litres per second \u2014 the spectacular Huka Falls up close."
         }
       ]
     },
     "christchurch-with-kids": {
       "hero_image": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/International_Antarctic_Centre.jpg",
-        "alt": "International Antarctic Centre Christchurch — world-class family attraction",
-        "credit": "Wikimedia Commons"
+        "url": "/static/img/destinations/christchurch-with-kids.jpg",
+        "alt": "International Antarctic Centre Christchurch \u2014 world-class family attraction",
+        "credit": "NZ Family Travel"
       },
       "gallery": [
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Christchurch_gondola_02.jpg",
           "alt": "Christchurch Gondola with views over the Port Hills and Canterbury Plains",
-          "caption": "Christchurch Gondola — panoramic views of the Alps and the sea"
+          "caption": "Christchurch Gondola \u2014 panoramic views of the Alps and the sea"
         },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Christchurch_Botanic_Gardens_-_panoramio.jpg/320px-Christchurch_Botanic_Gardens_-_panoramio.jpg",
-          "alt": "Christchurch Botanic Gardens — free entry, great for kids to run around",
-          "caption": "Botanic Gardens — free entry, 75 acres, brilliant for young kids"
+          "alt": "Christchurch Botanic Gardens \u2014 free entry, great for kids to run around",
+          "caption": "Botanic Gardens \u2014 free entry, 75 acres, brilliant for young kids"
         }
       ],
       "videos": [
         {
           "youtube_id": "2Yx5O_RmbBs",
           "title": "Christchurch New Zealand Travel Guide",
-          "description": "The South Island's gateway city — rebuilt, vibrant, and full of family experiences."
+          "description": "The South Island's gateway city \u2014 rebuilt, vibrant, and full of family experiences."
         }
       ]
     },
     "bay-of-islands-family": {
       "hero_image": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/00_4801_Dolphins_-_Bay_of_Islands.jpg",
-        "alt": "Dolphins jumping in the Bay of Islands — one of NZ's best wildlife experiences",
-        "credit": "Wikimedia Commons"
+        "url": "/static/img/destinations/bay-of-islands-family.jpg",
+        "alt": "Dolphins jumping in the Bay of Islands \u2014 one of NZ's best wildlife experiences",
+        "credit": "NZ Family Travel"
       },
       "gallery": [
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Te_whare_runanga.jpg",
-          "alt": "Te Whare Runanga at Waitangi Treaty Grounds — the meeting house where NZ was founded",
-          "caption": "Waitangi Treaty Grounds — NZ's most important historic site. Under-15s free."
+          "alt": "Te Whare Runanga at Waitangi Treaty Grounds \u2014 the meeting house where NZ was founded",
+          "caption": "Waitangi Treaty Grounds \u2014 NZ's most important historic site. Under-15s free."
         },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Paihia%2C_Williams_Road.jpg",
           "alt": "Paihia village and waterfront, Bay of Islands",
-          "caption": "Paihia — the main base for Bay of Islands family holidays"
+          "caption": "Paihia \u2014 the main base for Bay of Islands family holidays"
         },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Cathedral_Cove_06.jpg/320px-Cathedral_Cove_06.jpg",
-          "alt": "Cathedral Cove sea arch, Coromandel — stunning natural rock formation",
-          "caption": "Cathedral Cove, Coromandel — a classic NZ day trip from Auckland"
+          "alt": "Cathedral Cove sea arch, Coromandel \u2014 stunning natural rock formation",
+          "caption": "Cathedral Cove, Coromandel \u2014 a classic NZ day trip from Auckland"
         }
       ],
       "videos": [
         {
           "youtube_id": "DhKD58vDCQc",
-          "title": "Bay of Islands New Zealand — Family Travel Guide",
+          "title": "Bay of Islands New Zealand \u2014 Family Travel Guide",
           "description": "144 islands, dolphins, sailing, and New Zealand's historic birthplace."
         }
       ]
     },
     "wanaka-with-kids": {
       "hero_image": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/LakeWanakaNov272024.jpg",
+        "url": "/static/img/destinations/wanaka-with-kids.jpg",
         "alt": "Lake Wanaka with the Southern Alps reflected in the water",
-        "credit": "Wikimedia Commons"
+        "credit": "NZ Family Travel"
       },
       "gallery": [
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/LakeWanakaNov262024_01.jpg/1200px-LakeWanakaNov262024_01.jpg",
           "alt": "Lake Wanaka and Mount Aspiring National Park",
-          "caption": "Wanaka — clear alpine lake surrounded by mountains"
+          "caption": "Wanaka \u2014 clear alpine lake surrounded by mountains"
         },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/6/65/Matukituki_valley.jpg",
-          "alt": "Matukituki Valley — hiking into Mount Aspiring National Park from Wanaka",
-          "caption": "Matukituki Valley — easy day hike into Mount Aspiring NP, great for kids 8+"
+          "alt": "Matukituki Valley \u2014 hiking into Mount Aspiring National Park from Wanaka",
+          "caption": "Matukituki Valley \u2014 easy day hike into Mount Aspiring NP, great for kids 8+"
         }
       ],
       "videos": [
         {
           "youtube_id": "FJpAFWX9pZQ",
-          "title": "Wanaka New Zealand with Kids — Family Holiday Guide",
-          "description": "Queenstown's quieter, more beautiful neighbour — Puzzling World, lake swims, and the Crown Range."
+          "title": "Wanaka New Zealand with Kids \u2014 Family Holiday Guide",
+          "description": "Queenstown's quieter, more beautiful neighbour \u2014 Puzzling World, lake swims, and the Crown Range."
         }
       ]
     },
     "wellington-with-kids": {
       "hero_image": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Wellington_City_from_Oriental_Bay.jpg",
+        "url": "/static/img/destinations/wellington-with-kids.jpg",
         "alt": "Wellington city skyline and harbour from Oriental Bay",
-        "credit": "Wikimedia Commons"
+        "credit": "NZ Family Travel"
       },
       "gallery": [
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Wellington_Harbour%2C_New_Zealand%2C_N.jpg",
           "alt": "Wellington Harbour panorama",
-          "caption": "Wellington Harbour — NZ's coolest little capital"
+          "caption": "Wellington Harbour \u2014 NZ's coolest little capital"
         },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Christchurch_Botanic_Gardens_-_panoramio.jpg/320px-Christchurch_Botanic_Gardens_-_panoramio.jpg",
           "alt": "Wellington Botanic Garden",
-          "caption": "Botanic Garden — reached by cable car, free to wander"
+          "caption": "Botanic Garden \u2014 reached by cable car, free to wander"
         }
       ],
       "videos": [
         {
           "youtube_id": "2Yx5O_RmbBs",
-          "title": "Wellington New Zealand — Family Travel Guide",
+          "title": "Wellington New Zealand \u2014 Family Travel Guide",
           "description": "Te Papa, the cable car, Zealandia and Wellington's best family experiences."
         }
       ]
     },
     "nelson-abel-tasman-family": {
       "hero_image": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/AnchorageBayNZDec022024_02.jpg",
-        "alt": "Anchorage Bay in Abel Tasman National Park — golden sand and turquoise water",
-        "credit": "Wikimedia Commons"
+        "url": "/static/img/destinations/nelson-abel-tasman-family.jpg",
+        "alt": "Anchorage Bay in Abel Tasman National Park \u2014 golden sand and turquoise water",
+        "credit": "NZ Family Travel"
       },
       "gallery": [
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/AnchorageBayNZDec022024_02.jpg/1200px-AnchorageBayNZDec022024_02.jpg",
-          "alt": "Anchorage Bay Abel Tasman — perfect golden beach",
-          "caption": "Anchorage Bay — accessible by water taxi, one of NZ's finest beaches"
+          "alt": "Anchorage Bay Abel Tasman \u2014 perfect golden beach",
+          "caption": "Anchorage Bay \u2014 accessible by water taxi, one of NZ's finest beaches"
         }
       ],
       "videos": []
     },
     "coromandel-with-kids": {
       "hero_image": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Cathedral_Cove_06.jpg",
+        "url": "/static/img/destinations/coromandel-with-kids.jpg",
         "alt": "Cathedral Cove sea arch, Coromandel Peninsula",
-        "credit": "Wikimedia Commons"
+        "credit": "NZ Family Travel"
       },
       "gallery": [
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Cathedral_Cove_06.jpg/1200px-Cathedral_Cove_06.jpg",
           "alt": "Cathedral Cove sea arch",
-          "caption": "Cathedral Cove — one of NZ's most iconic natural landmarks, free entry"
+          "caption": "Cathedral Cove \u2014 one of NZ's most iconic natural landmarks, free entry"
         }
       ],
       "videos": []
     },
     "fiordland-milford-sound-family": {
       "hero_image": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Milford_Sound_%28New_Zealand%29.JPG",
+        "url": "/static/img/destinations/fiordland-milford-sound-family.jpg",
         "alt": "Milford Sound with Mitre Peak rising from the water",
-        "credit": "Wikimedia Commons"
+        "credit": "NZ Family Travel"
       },
       "gallery": [
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Milford_Sound_%28New_Zealand%29.JPG/1200px-Milford_Sound_%28New_Zealand%29.JPG",
           "alt": "Milford Sound and Mitre Peak",
-          "caption": "Milford Sound — Mitre Peak rises 1,692m straight from the water"
+          "caption": "Milford Sound \u2014 Mitre Peak rises 1,692m straight from the water"
         }
       ],
       "videos": []
     },
     "northland-cape-reinga-family": {
       "hero_image": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/NZ140415_Cape_Reinga_Lighthouse_01.jpg",
+        "url": "/static/img/destinations/northland-cape-reinga-family.jpg",
         "alt": "Cape Reinga Lighthouse at the northern tip of New Zealand where the Tasman Sea meets the Pacific Ocean",
-        "credit": "Wikimedia Commons"
+        "credit": "NZ Family Travel"
       },
       "gallery": []
     },
     "tauranga-mount-maunganui-family": {
       "hero_image": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Mount_Maunganui%2C_Tauranga%2C_New_Zealand_%28Unsplash_2FFh56Q9jWs%29.jpg",
+        "url": "/static/img/destinations/tauranga-mount-maunganui-family.jpg",
         "alt": "Mount Maunganui beach and the iconic volcanic cone, Tauranga, New Zealand",
-        "credit": "Wikimedia Commons / Unsplash"
+        "credit": "Wikimedia Commons"
       },
       "gallery": []
     },
     "hawkes-bay-family-guide": {
       "hero_image": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Napier%2C_New_Zealand_Art_Deco_buildings_-_2.jpg",
+        "url": "/static/img/destinations/hawkes-bay-family-guide.jpg",
         "alt": "Napier Art Deco buildings, Hawke's Bay, New Zealand",
-        "credit": "Wikimedia Commons"
+        "credit": "Wikimedia Commons / NZ Family Travel"
       },
       "gallery": []
     },
     "dunedin-family-guide": {
       "hero_image": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Dunedin-Nueva_Zelanda04.JPG",
-        "alt": "Dunedin Railway Station — one of the most photographed buildings in New Zealand",
+        "url": "/static/img/destinations/dunedin-family-guide.jpg",
+        "alt": "Dunedin Railway Station \u2014 one of the most photographed buildings in New Zealand",
         "credit": "Wikimedia Commons"
       },
       "gallery": []
     },
     "auckland-with-kids": {
       "hero_image": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Sky_Tower_Auckland_03.jpg",
+        "url": "/static/img/destinations/auckland-with-kids.jpg",
         "alt": "Auckland Sky Tower rising above the city skyline, New Zealand",
-        "credit": "Wikimedia Commons / Krzysztof Golik"
+        "credit": "Wikimedia Commons / NZ Family Travel"
       },
       "gallery": [],
       "videos": []
     },
     "new-plymouth-taranaki-family": {
       "hero_image": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Taranaki_Mount_from_Pembroke_Road.jpg",
+        "url": "/static/img/destinations/new-plymouth-taranaki-family.jpg",
         "alt": "Mount Taranaki perfectly symmetrical volcanic cone rising above farmland",
-        "credit": "Wikimedia Commons"
+        "credit": "Wikimedia Commons / NZ Family Travel"
       },
       "gallery": [],
       "videos": []
     },
     "marlborough-blenheim-family": {
       "hero_image": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Marlborough_Sounds_from_above.jpg",
-        "alt": "Marlborough Sounds aerial view — drowned river valleys and turquoise water",
+        "url": "/static/img/destinations/marlborough-blenheim-family.jpg",
+        "alt": "Marlborough Sounds aerial view \u2014 drowned river valleys and turquoise water",
         "credit": "Wikimedia Commons"
       },
       "gallery": [],
@@ -313,16 +313,16 @@
     },
     "west-coast-family-guide": {
       "hero_image": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Pancake_Rocks_New_Zealand.jpg",
+        "url": "/static/img/destinations/west-coast-family-guide.jpg",
         "alt": "Pancake Rocks at Punakaiki on the West Coast of New Zealand",
-        "credit": "Wikimedia Commons"
+        "credit": "Wikimedia Commons / NZ Family Travel"
       },
       "gallery": [],
       "videos": []
     },
     "gisborne-east-cape-family": {
       "hero_image": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/East_Cape_with_Otiki_and_East_Cape_Lighthouse.jpg",
+        "url": "/static/img/destinations/gisborne-east-cape-family.jpg",
         "alt": "East Cape Lighthouse on the rugged East Cape headland, Gisborne, New Zealand",
         "credit": "Wikimedia Commons"
       },
@@ -341,14 +341,14 @@
     "wai-o-tapu-rotorua": {
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/ChampagnePool-Wai-O-Tapu_rotated_MC.jpg",
-        "alt": "The Champagne Pool at Wai-O-Tapu — vivid orange and turquoise colours"
+        "alt": "The Champagne Pool at Wai-O-Tapu \u2014 vivid orange and turquoise colours"
       },
       "youtube_id": null
     },
     "huka-falls-taupo": {
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Huka_Falls.jpg",
-        "alt": "Huka Falls — turquoise water rushing through a narrow canyon near Taupo"
+        "alt": "Huka Falls \u2014 turquoise water rushing through a narrow canyon near Taupo"
       },
       "youtube_id": "QT3qPDe-61M"
     },
@@ -376,21 +376,21 @@
     "skyline-gondola-luge-queenstown": {
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/View_from_Shotover-Rees_St%2C_Queenstown_-_panoramio_%282%29.jpg",
-        "alt": "Panoramic view of Queenstown from above — Skyline Gondola viewpoint"
+        "alt": "Panoramic view of Queenstown from above \u2014 Skyline Gondola viewpoint"
       },
       "youtube_id": null
     },
     "agrodome-rotorua": {
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/New_Zealand_Agrodome.webm/500px--New_Zealand_Agrodome.webm.jpg",
-        "alt": "Agrodome Rotorua — NZ farm show with sheep and sheepdogs"
+        "alt": "Agrodome Rotorua \u2014 NZ farm show with sheep and sheepdogs"
       },
       "youtube_id": null
     },
     "huka-jet-taupo": {
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Huka_Falls.jpg",
-        "alt": "Huka Falls Taupo — Huka Jet boats in the Waikato River gorge"
+        "alt": "Huka Falls Taupo \u2014 Huka Jet boats in the Waikato River gorge"
       },
       "youtube_id": null
     },
@@ -404,14 +404,14 @@
     "puzzling-world-wanaka": {
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/LakeWanakaNov262024_01.jpg/1200px-LakeWanakaNov262024_01.jpg",
-        "alt": "Wanaka township with Lake Wanaka — Puzzling World is nearby"
+        "alt": "Wanaka township with Lake Wanaka \u2014 Puzzling World is nearby"
       },
       "youtube_id": null
     },
     "orana-wildlife-park-christchurch": {
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Orana_Wildlife_Park_feeding_lions.jpg",
-        "alt": "Orana Wildlife Park Christchurch — lions feeding from a vehicle"
+        "alt": "Orana Wildlife Park Christchurch \u2014 lions feeding from a vehicle"
       },
       "youtube_id": null
     }

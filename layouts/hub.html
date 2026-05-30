@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 
-{% block title %}{{ hub_title }} — NZ Family Travel 2026{% endblock %}
+{% block title %}{{ hub_title }}{% if hub_title | length <= 51 %} | NZ Family Travel{% endif %}{% endblock %}
 {% block desc %}{{ hub_subtitle }}{% endblock %}
 {% block canonical %}{{ hub_type }}/{% endblock %}
 {% block hreflang_path %}{{ hub_type }}/{% endblock %}

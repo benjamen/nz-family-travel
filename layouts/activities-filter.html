@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 
-{% block title %}{{ filter_title }} — NZ Family Travel 2026{% endblock %}
+{% block title %}{{ filter_title }}{% if filter_title | length <= 51 %} | NZ Family Travel{% endif %}{% endblock %}
 {% block desc %}{{ filter_desc }}{% endblock %}
 {% block canonical %}activities/{{ filter_slug }}/{% endblock %}
 
