@@ -1,0 +1,48 @@
+{
+  "title": "West Coast Family Deals",
+  "short_title": "Coast Deals",
+  "meta_desc": "Discover the best family deals in West Coast, NZ. Get up to 40% off activities, campervans from $89/day, and more. Book now and save on your family holiday.",
+  "intro": "Planning a family holiday to the West Coast? Look no further for the best deals and discounts. From activity discounts to campervan hire, we've got you covered. With prices starting from $89/day for campervans and up to 40% off activities, you can have a fun and memorable trip without breaking the bank.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Current Booking Deals and Discounts",
+      "body": "<p>Right now, you can get up to 40% off activities on Bookme.co.nz, making it an excellent time to plan your West Coast adventure. Discover Cars is also offering family campervans from $89/day, perfect for exploring the region. Additionally, Booking.com has free cancellation on most holiday park and motel bookings, giving you flexibility with your travel plans.</p><p>For added peace of mind, consider Cover-More family travel insurance, starting from just $4.50/day. With these deals, you can enjoy the West Coast's stunning landscapes and activities without worrying about the cost.</p>",
+      "list": [
+        "Up to 40% off activities on Bookme.co.nz",
+        "Campervans from $89/day with Discover Cars",
+        "Free cancellation on most bookings with Booking.com",
+        "Family travel insurance from $4.50/day with Cover-More"
+      ]
+    },
+    {
+      "heading": "Best-Value Activities",
+      "body": "<p>The West Coast is home to many free and low-cost activities, making it an ideal destination for families. The Punakaiki Pancake Rocks and Blowholes are a must-visit, and with free admission, it's an excellent value activity. The Franz Josef Glacier and Fox Glacier also offer free walks to the terminal face and viewing platform, respectively.</p><p>For a unique experience, visit the Hokitika Gorge, which features a stunning turquoise river. This 30-minute walk is free and suitable for families with children aged 5 and above.</p>"
+    },
+    {
+      "heading": "Money-Saving Tips for Families",
+      "body": "<p>To make the most of your family holiday, consider the following money-saving tips. First, book your activities and campervan in advance to secure the best prices. Second, pack your own food and snacks to avoid eating out for every meal. Third, take advantage of free activities like visiting the Punakaiki Pancake Rocks and Hokitika Gorge.</p><p>Fourth, consider visiting during the shoulder season (April to May or September to November) when prices are lower. Fifth, use cashback and rewards credit cards for your bookings and purchases. Lastly, download the Bookme.co.nz app to receive exclusive discounts and promotions.</p>",
+      "list": [
+        "Book activities and campervans in advance",
+        "Pack your own food and snacks",
+        "Take advantage of free activities",
+        "Visit during the shoulder season",
+        "Use cashback and rewards credit cards",
+        "Download the Bookme.co.nz app"
+      ]
+    },
+    {
+      "heading": "When to Book for Best Prices",
+      "body": "<p>To get the best prices for your West Coast family holiday, it's essential to book in advance. For campervans, book at least 2-3 months prior to your trip to secure the best rates. For activities, book 1-2 weeks in advance to ensure availability and get the best prices.</p><p>Keep an eye on the Bookme.co.nz website for last-minute deals and discounts, especially during the off-season. Additionally, consider booking your holiday during the week instead of on weekends when prices tend to be higher.</p>",
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "west-coast-family-guide-family-deals-2026-05",
+  "updated": "May 2026",
+  "auto_generated": true,
+  "generated_date": "2026-05-31"
+}

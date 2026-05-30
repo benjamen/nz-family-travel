@@ -1,0 +1,70 @@
+{
+  "title": "Bay of Islands Hidden Gems",
+  "short_title": "BoI Gems",
+  "meta_desc": "Discover the best hidden gems in Bay of Islands, NZ with free activities, insider tips, and lesser-known spots perfect for families with kids, all under $250-450/day",
+  "intro": "The Bay of Islands is a haven for families, with its stunning beaches, dolphin watching cruises, and rich history. However, beyond the popular attractions, there are many hidden gems waiting to be explored. From secret waterfalls to mangrove boardwalks, we've got the inside scoop on the best-kept secrets in the Bay of Islands.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Introduction to Hidden Gems",
+      "body": "<p>When planning a family holiday to the Bay of Islands, it's easy to get caught up in the usual tourist activities. But for those who want to venture off the beaten path, there are plenty of hidden gems to discover. One such gem is the Haruru Falls, a horseshoe waterfall just 10 minutes from Paihia. This stunning spot is completely free and easy to access, making it a must-visit for families.</p> <p>Another hidden gem is the Waitangi Mangrove boardwalk, a 1km walk through the mangroves behind the Treaty Grounds. Kids will love spotting fish and mud crabs, and the best part is that it's completely free.</p>",
+      "list": [
+        "Haruru Falls: a free, 20-minute walk from the car park",
+        "Waitangi Mangrove boardwalk: a free, 1km walk through the mangroves"
+      ]
+    },
+    {
+      "heading": "More Hidden Gems to Explore",
+      "body": "<p>For families who love the outdoors, the Bay of Islands has plenty to offer. The Opua Forest Lookout Track is a 2-hour walk that takes you through stunning native forest and offers breathtaking views of the Bay. The track is suitable for children aged 6 and above, and the cost is free.</p> <p>The Bay of Islands also has a number of beautiful, secluded beaches that are perfect for a family picnic. One such beach is the Island Beach, which can be accessed by sailing to a private island. The cost of the sailing trip is around $120-$180 per person, depending on the operator.</p>",
+      "list": [
+        "Opua Forest Lookout Track: a 2-hour walk through native forest, free",
+        "Island Beach: accessible by sailing to a private island, $120-$180 per person"
+      ]
+    },
+    {
+      "heading": "Insider Tips and Tricks",
+      "body": "<p>To make the most of your family holiday in the Bay of Islands, it's a good idea to plan ahead and book your activities in advance. The peak season is during the summer months, so it's a good idea to book your accommodation and activities early to avoid missing out.</p> <p>Another insider tip is to take advantage of the free activities on offer in the Bay of Islands. The Paihia Beach swim and Waitangi Beach are both great spots for a family day out, and the Haruru Falls walk is a great way to get some exercise and enjoy the stunning scenery.</p>",
+      "list": [
+        "Book your activities in advance to avoid missing out",
+        "Take advantage of free activities such as the Paihia Beach swim and Waitangi Beach"
+      ]
+    },
+    {
+      "heading": "Practical Information",
+      "body": "<p>The Bay of Islands is easily accessible by car, with the drive from Auckland taking around 3 hours. There are also a number of accommodation options available, ranging from budget-friendly motels to luxury resorts.</p> <p>The cost of a family holiday in the Bay of Islands can vary depending on the time of year and the activities you choose. However, with a budget of $250-450 per day, you can expect to have a comfortable and enjoyable holiday with plenty of activities and experiences to choose from.</p>",
+      "table": {
+        "headers": [
+          "Activity",
+          "Cost",
+          "Age Suitability"
+        ],
+        "rows": [
+          [
+            "Dolphin Watching Cruise",
+            "$80-$120 per person",
+            "All ages"
+          ],
+          [
+            "Waitangi Treaty Grounds",
+            "$50-$70 per person",
+            "All ages"
+          ],
+          [
+            "Hole in the Rock (Cape Brett cruise)",
+            "$80-$120 per person",
+            "All ages"
+          ]
+        ]
+      },
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "bay-of-islands-family-hidden-gems-families",
+  "updated": "May 2026",
+  "auto_generated": true,
+  "generated_date": "2026-05-31"
+}
