@@ -243,3 +243,50 @@ Generated 4 articles.
 Rebuilding site...
   Build complete — 211 HTML pages → /home/ben/nz-family-travel/docs/
   Pushed to GitHub Pages
+[main 8f3535b] Auto-generate 5 articles — 2026-05-31
+ 15 files changed, 2906 insertions(+), 272 deletions(-)
+ create mode 100644 content/posts/bay-of-islands-family-hidden-gems-families.json
+ create mode 100644 content/posts/hawkes-bay-family-guide-may-family-guide.json
+ create mode 100644 content/posts/orana-wildlife-park-christchurch-family-review-2026-05.json
+ create mode 100644 content/posts/west-coast-family-guide-family-deals-2026-05.json
+ create mode 100644 docs/posts/bay-of-islands-family-hidden-gems-families/index.html
+ create mode 100644 docs/posts/hawkes-bay-family-guide-may-family-guide/index.html
+ create mode 100644 docs/posts/orana-wildlife-park-christchurch-family-review-2026-05/index.html
+ create mode 100644 docs/posts/west-coast-family-guide-family-deals-2026-05/index.html
+
+Today's 5 articles (2026-05-31):
+
+  1. [deals          ] West Coast                          — west-coast-family-guide-family-deals-2026-05
+     WILL GENERATE
+  2. [month_guide    ] Hawke's Bay                         — hawkes-bay-family-guide-may-family-guide
+     WILL GENERATE
+  3. [budget         ] Northland                           — northland-cape-reinga-family-budget-family-guide-2026-05
+     EXISTS
+  4. [activity_review] Orana Wildlife Park                 — orana-wildlife-park-christchurch-family-review-2026-05
+     WILL GENERATE
+  5. [hidden_gems    ] Bay of Islands                      — bay-of-islands-family-hidden-gems-families
+     WILL GENERATE
+
+[1/5] Generating: west-coast-family-guide-family-deals-2026-05
+  Calling Groq (llama-3.3-70b-versatile)...
+  Saved: content/posts/west-coast-family-guide-family-deals-2026-05.json
+
+[2/5] Generating: hawkes-bay-family-guide-may-family-guide
+  Calling Groq (llama-3.3-70b-versatile)...
+  Saved: content/posts/hawkes-bay-family-guide-may-family-guide.json
+
+[3/5] Skipping (already exists): northland-cape-reinga-family-budget-family-guide-2026-05
+
+[4/5] Generating: orana-wildlife-park-christchurch-family-review-2026-05
+  Calling Groq (llama-3.3-70b-versatile)...
+  Saved: content/posts/orana-wildlife-park-christchurch-family-review-2026-05.json
+
+[5/5] Generating: bay-of-islands-family-hidden-gems-families
+  Calling Groq (llama-3.3-70b-versatile)...
+  Saved: content/posts/bay-of-islands-family-hidden-gems-families.json
+
+Generated 4 articles.
+
+Rebuilding site...
+  Build complete — 236 HTML pages → /home/ben/nz-family-travel/docs/
+  Pushed to GitHub Pages

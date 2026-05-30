@@ -1,0 +1,75 @@
+{
+  "slug": "nz-family-travel-december",
+  "short_title": "NZ in December",
+  "title": "NZ in December with Kids — What to Expect (Weather, Crowds, Costs)",
+  "meta_desc": "Discover what to expect when travelling NZ in December with kids, including weather, crowds and costs.",
+  "intro": "December is one of the busiest months to travel in New Zealand, with the Christmas school holidays bringing large crowds to popular destinations. If you're planning a trip with kids, it's essential to know what to expect. With temperatures ranging from 18-25°C, December is an excellent time to enjoy the beach and outdoor activities.",
+  "updated": "May 2026",
+  "reading_time": 10,
+  "sections": [
+    {
+      "heading": "Weather in December",
+      "body": "December is summer in New Zealand, with warm temperatures and high humidity. The average temperature in Auckland is 23°C, while in Queenstown it's around 18°C. Make sure to pack sunscreen, hats, and light clothing for your trip."
+    },
+    {
+      "heading": "Peak Season Reality",
+      "list": [
+        "Expect large crowds at popular destinations like Rotorua, Lake Taupo, and the Coromandel Peninsula",
+        "Book accommodations and activities well in advance to avoid high prices and availability issues",
+        "Be prepared for long drive times and traffic congestion, especially during holidays and weekends"
+      ]
+    },
+    {
+      "heading": "Beach Destinations",
+      "body": "New Zealand has many beautiful beaches, but some are more crowded than others during peak season. Popular spots like Mount Maunganui, Raglan, and the Bay of Islands can get very busy, while more secluded beaches like those in the Catlins or the East Coast may offer a more relaxed atmosphere."
+    },
+    {
+      "heading": "Costs and Budgeting",
+      "table": {
+        "headers": [
+          "Accommodation Type",
+          "Price Range (per night)"
+        ],
+        "rows": [
+          [
+            "Budget campsite",
+            "$20-$40"
+          ],
+          [
+            "Mid-range motel",
+            "$120-$200"
+          ],
+          [
+            "Luxury hotel",
+            "$300-$500"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "What to Book Early",
+      "list": [
+        "Accommodation in popular destinations, with prices starting from $150 per night for a family room",
+        "Activities like bungee jumping or ski lessons, with prices ranging from $100-$300 per person",
+        "Car rentals, with prices starting from $60 per day for a compact vehicle"
+      ]
+    },
+    {
+      "heading": "Plan Your Trip",
+      "cta": {
+        "text": "Use our NZ Family Travel Budget Calculator",
+        "url": "/tools/nz-family-travel-budget-calculator/",
+        "affiliate": false
+      }
+    },
+    {
+      "heading": "More Information",
+      "body": "For more information on travelling in New Zealand, check out our destinations page for guides on the best places to visit, including the West Coast, Abel Tasman National Park, and the geothermal wonders of Rotorua. You can also explore our campervans page for rental options and tips on how to plan the perfect road trip.",
+      "cta": {
+        "text": "Explore our destinations",
+        "url": "/destinations/",
+        "affiliate": false
+      }
+    }
+  ]
+}
