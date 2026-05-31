@@ -1,0 +1,80 @@
+{
+  "slug": "rotorua-geothermal-guide-families",
+  "short_title": "Rotorua Thermal Parks",
+  "title": "Rotorua Geothermal Parks Guide — Te Puia vs Wai-O-Tapu vs Hell's Gate",
+  "meta_desc": "Rotorua geothermal parks guide for families, compare Te Puia, Wai-O-Tapu, and Hell's Gate",
+  "intro": "Rotorua is home to some of New Zealand's most unique geothermal parks, but which one is best for your family? With prices ranging from $30 to $100 per person, it's essential to choose wisely. In this guide, we'll compare Te Puia, Wai-O-Tapu, and Hell's Gate to help you make an informed decision.",
+  "updated": "June 2026",
+  "reading_time": 10,
+  "sections": [
+    {
+      "heading": "Overview of Rotorua Geothermal Parks",
+      "body": "Rotorua is a 3-hour drive from Auckland and a 1-hour drive from Taupo. The city is home to three main geothermal parks: Te Puia, Wai-O-Tapu, and Hell's Gate. Each park offers a unique experience, with a range of geothermal features, cultural performances, and outdoor activities."
+    },
+    {
+      "heading": "Comparison of Rotorua Geothermal Parks",
+      "table": {
+        "headers": [
+          "Park",
+          "Price (Adult)",
+          "Price (Child)",
+          "Features"
+        ],
+        "rows": [
+          [
+            "Te Puia",
+            "$54",
+            "$29",
+            "Geysers, mud pools, kiwi bird sanctuary"
+          ],
+          [
+            "Wai-O-Tapu",
+            "$32.50",
+            "$16.50",
+            "Lady Knox Geyser, champagne pool, artist's palette"
+          ],
+          [
+            "Hell's Gate",
+            "$40",
+            "$20",
+            "Mud foot spa, geothermal walk, sulphur spa"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Best for Families",
+      "body": "Te Puia is a great option for families, with a kiwi bird sanctuary and a range of interactive exhibits. Wai-O-Tapu is also a good choice, with a ladybug-themed playground and a range of easy walking trails. Hell's Gate is more suited to older children and adults, with a focus on relaxation and rejuvenation."
+    },
+    {
+      "heading": "Getting There and Around",
+      "list": [
+        "Drive from Auckland: 3 hours",
+        "Drive from Taupo: 1 hour",
+        "Public transport: Bus services available from Rotorua city centre",
+        "Shuttle services: Available from Te Puia and Wai-O-Tapu"
+      ]
+    },
+    {
+      "heading": "Tips and Essentials",
+      "body": "Be sure to wear comfortable walking shoes and bring sunscreen, a hat, and a camera. Each park has its own cafe and restaurant, but you can also bring your own picnic lunch. Don't miss the cultural performances at Te Puia, which include traditional Maori dances and carvings."
+    },
+    {
+      "heading": "Budgeting for Your Trip",
+      "cta": {
+        "text": "Calculate your trip costs with our NZ family travel budget calculator",
+        "url": "/tools/nz-family-travel-budget-calculator/",
+        "affiliate": false
+      }
+    },
+    {
+      "heading": "Accommodation Options",
+      "body": "Rotorua has a range of accommodation options, from budget-friendly motels to luxury hotels. Consider staying in the city centre for easy access to the geothermal parks and other attractions. You can also rent a campervan and stay at one of the nearby campsites.",
+      "cta": {
+        "text": "Explore our campervan options and book your vehicle today",
+        "url": "/campervans/",
+        "affiliate": false
+      }
+    }
+  ]
+}
