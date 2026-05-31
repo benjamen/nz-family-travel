@@ -5,51 +5,27 @@
 
 ## Critical Blockers (Fix This Week)
 
-### 1. Strip verbose title suffix (affects 87 pages, 37%)
-**File:** `layouts/base.html` — `<title>` tag
-**Problem:** " — NZ Family Travel 2026" appended to every title wastes ~25 chars. 87 titles exceed 70 chars.
-**Fix:** Remove year from suffix OR strip suffix entirely on non-homepage pages. Use `{% if page.slug == 'index' %} — NZ Family Travel{% endif %}`.
-**Impact:** Immediate CTR improvement; all 87 truncated titles fixed in 1 template change.
+### ✅ 1. Strip verbose title suffix (affects 87 pages, 37%)
+**DONE 2026-05-30** — Fixed all layout templates with conditional title logic: `itinerary.html`, `activity.html`, `guide.html`, `hub.html`, `campervans.html`, `city.html`, `nz-map.html`, `campervan.html`, `activities-filter.html`, `activities_city.html`, `destination.html`. Deployed.
 
-### 2. Fix `@type: Trip` → `TouristTrip` on itinerary pages (23 pages)
-**File:** `layouts/itinerary.html` — JSON-LD schema block
-**Problem:** `Trip` is not a Google-supported rich result type. `TouristTrip` is eligible for rich results.
-**Fix:** Change `"@type": "Trip"` to `"@type": "TouristTrip"` and add:
-```json
-"touristType": {"@type": "Audience", "audienceType": "Families with children"},
-"itinerary": {"@type": "ItemList", "itemListElement": [...days as ListItem...]}
-```
-**Impact:** Unlocks itinerary rich results in Google Search.
+### ✅ 2. Fix `@type: Trip` → `TouristTrip` on itinerary pages (23 pages)
+**DONE 2026-05-30** — Changed to `TouristTrip`, added `touristType: "Family with children"`, added `itinerary` ItemList with per-day ListItems in `layouts/itinerary.html`. Deployed.
 
-### 3. Download and serve hero images locally
-**Problem:** All images are external Wikimedia URLs — no control, CWV risk, image sitemap ignored.
-**Fix:** For each destination/itinerary, download 1 hero image, convert to WebP, save to `/static/img/[slug]-hero.webp`. Update data JSON `hero_image` fields.
-**Priority destinations:** Queenstown, Rotorua, Abel Tasman, Fiordland, Bay of Islands
-**Impact:** Fixes Core Web Vitals risk, enables image sitemap entries, removes external dependency.
+### ✅ 3. Download and serve hero images locally
+**DONE 2026-05-30** — All 19 destination hero images downloaded from Wikimedia, compressed to max 1200px / 80% quality via Pillow, saved to `/static/img/destinations/[slug].jpg`. Updated all `hero_image.url` values in `data/media.json`. Deployed.
 
 ---
 
 ## High Impact (This Month)
 
-### 4. Add contextual internal links to itinerary body copy
-**Problem:** All 23 itinerary pages have zero contextual links in body copy — only 169 nav links.
-**Fix:** Per itinerary, add 3–5 inline links:
-- Link to matching destination page (`/destinations/[slug]/`)
-- Link to 1 related itinerary
-- Link to 1 relevant travel tip or activity page
-**Start with:** Fiordland, Abel Tasman, Hawke's Bay (newest itineraries)
+### ✅ 4. Add contextual internal links to itinerary body copy
+**DONE 2026-05-30** — Added "Plan Your Trip" section to `layouts/itinerary.html` with dynamic links: matching destination page, campervan page (if road trip), school holidays page, and activity search.
 
-### 5. Add `TouristDestination` schema to destination pages (20 pages)
-**File:** `layouts/destination.html`
-**Fix:**
-```json
-{"@type": "TouristDestination", "name": "...", "description": "...",
- "touristType": {"@type": "Audience", "audienceType": "Families"}}
-```
+### ✅ 5. Add `TouristDestination` schema to destination pages (20 pages)
+**DONE 2026-05-30** — `TouristDestination` schema already present in `layouts/destination.html`. Confirmed via read; no change needed.
 
-### 6. Add `hreflang="en-NZ"` self-declaration
-**File:** `layouts/base.html` — `<head>` block
-**Fix:** `<link rel="alternate" hreflang="en-NZ" href="{{ page.canonical_url }}" />`
+### ✅ 6. Add `hreflang="en-NZ"` self-declaration
+**DONE 2026-05-30** — `hreflang="en-NZ"` already present in `layouts/base.html`. Confirmed; no change needed.
 
 ---
 
