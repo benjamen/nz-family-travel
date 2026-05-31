@@ -1,0 +1,50 @@
+{
+  "title": "Wanaka Family Deals",
+  "short_title": "Wanaka Saves",
+  "meta_desc": "Discover the best family deals in Wanaka, NZ. Save up to 40% on activities, find affordable accommodation and get tips on budgeting for your family holiday in June 2026.",
+  "intro": "Planning a family holiday in Wanaka this June? Look no further for the best deals and discounts. With its stunning lake, relaxed town, and plenty of outdoor activities, Wanaka is the perfect destination for families. From discounted activities to budget-friendly accommodation, we've got you covered.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Current Booking Deals and Discounts",
+      "body": "<p>Bookme.co.nz is currently offering up to 40% off activities in Rotorua, Queenstown, Bay of Islands, and Auckland, which can also be applied to some Wanaka activities. Additionally, Discover Cars has family campervans available from $89/day, and Booking.com offers free cancellation on most holiday park and motel bookings. Don't forget to insure your trip with Cover-More family travel insurance from $4.50/day.</p><p>For the best prices, it's essential to book your accommodation and activities in advance. June is a great time to visit Wanaka, with mild weather and fewer crowds compared to the peak summer months.</p>",
+      "list": [
+        "Up to 40% off activities with Bookme.co.nz",
+        "Family campervans from $89/day with Discover Cars",
+        "Free cancellation on most bookings with Booking.com",
+        "Comprehensive travel insurance from $4.50/day with Cover-More"
+      ]
+    },
+    {
+      "heading": "Best-Value Activities in Wanaka",
+      "body": "<p>Wanaka has plenty of affordable activities for families to enjoy. Visit Puzzling World, a quirky and entertaining attraction that's perfect for kids of all ages. Take a stroll along the Wanaka Lakeshore walk, which is free and offers breathtaking views of the lake. For some outdoor adventure, rent kayaks or paddleboards and explore Lake Wanaka.</p><p>In the winter, hit the slopes at Treble Cone Ski Area, which offers a range of trails for skiers of all levels. For a more relaxed experience, pack a picnic and head to Rippon Vineyard, which offers stunning views of the surrounding landscape.</p>",
+      "list": [
+        "Puzzling World: $20-$30 per person",
+        "Wanaka Lakeshore walk: free",
+        "Lake Wanaka kayak/paddleboard rental: $20-$50 per hour",
+        "Treble Cone Ski Area: $100-$150 per person per day"
+      ]
+    },
+    {
+      "heading": "Money-Saving Tips for Families",
+      "body": "<p>To make the most of your family holiday in Wanaka, consider the following money-saving tips. Book your accommodation and activities outside of peak season to get the best prices. Look for package deals that include accommodation, activities, and transportation. Cook your own meals instead of eating out for every meal, and pack snacks and water for the day.</p><p>Additionally, take advantage of free activities such as the Wanaka Lakeshore walk and Mt Iron track. For a unique experience, visit the Diamond Lake and Rocky Mountain track, which offers stunning views of Lake Wanaka and the Matukituki Valley.</p>",
+      "list": [
+        "Book outside of peak season",
+        "Look for package deals",
+        "Cook your own meals",
+        "Pack snacks and water",
+        "Take advantage of free activities",
+        "Consider a campervan holiday"
+      ],
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "wanaka-with-kids-family-deals-2026-06",
+  "updated": "June 2026",
+  "auto_generated": true,
+  "generated_date": "2026-06-01"
+}

@@ -1,0 +1,62 @@
+{
+  "title": "Bay of Islands Budget",
+  "short_title": "BOI Budget",
+  "meta_desc": "Visit Bay of Islands with your family on a budget of $250-450/day. Discover free activities, affordable accommodation, and top attractions in this NZ destination.",
+  "intro": "The Bay of Islands is a top family holiday spot in New Zealand, with activities like dolphin watching and sailing to deserted islands. With a daily budget of $250-450 for a family of four, you can enjoy the best of the Bay. From free activities to affordable accommodation, we'll show you how to make the most of your trip.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Daily Costs and Budget",
+      "body": "<p>The Bay of Islands offers a range of activities and attractions to suit all budgets. For a family of four, you can expect to pay around $250-450 per day, depending on your accommodation choices and activities. This budget can cover everything from food and accommodation to activities like dolphin watching and sailing.</p><p>To give you a better idea, here are some approximate costs for a family of four: $150-250 per night for accommodation, $50-100 per day for food, and $50-150 per person for activities.</p>",
+      "table": {
+        "headers": [
+          "Day",
+          "Activity",
+          "Cost"
+        ],
+        "rows": [
+          [
+            "Day 1",
+            "Paihia Beach swim, Waitangi Beach, Haruru Falls walk",
+            "$0 (free activities)"
+          ],
+          [
+            "Day 2",
+            "Dolphin Watching Cruise, lunch at a local cafe",
+            "$300 (cruise $100 per person, lunch $50-100)"
+          ],
+          [
+            "Day 3",
+            "Island Beach Picnic (sailing to a private island), dinner at a mid-range restaurant",
+            "$350 (sailing $120 per person, dinner $100-150)"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Free Activities",
+      "body": "<p>The Bay of Islands offers plenty of free activities for families to enjoy. Some top picks include the Paihia Beach swim, Waitangi Beach, and the Haruru Falls walk. These activities are not only free but also offer a great way to experience the natural beauty of the Bay.</p><p>Other free activities include the Waitangi Mangrove boardwalk, where kids can spot fish and mud crabs, and the Haruru Falls, a horseshoe waterfall just 10 minutes from Paihia.</p>"
+    },
+    {
+      "heading": "Accommodation Options",
+      "body": "<p>Accommodation in the Bay of Islands ranges from budget-friendly options like camping and holiday parks to mid-range hotels and apartments. For a family of four, you can expect to pay around $150-250 per night for a mid-range apartment or hotel room.</p><p>Some top picks for families include the Paihia Holiday Park, which offers camping and cabin options from $30-150 per night, and the Bay of Islands Hotel, which offers rooms from $180-300 per night.</p>"
+    },
+    {
+      "heading": "Saving Money",
+      "body": "<p>To save money on your trip to the Bay of Islands, consider visiting during the shoulder season (April-May or September-October), when prices are lower and the weather is still mild. You can also save money by self-catering and preparing your own meals, rather than eating out for every meal.</p><p>Another way to save money is to look for package deals that include accommodation and activities, which can often be cheaper than booking everything separately.</p>"
+    },
+    {
+      "heading": "Splurging",
+      "body": "<p>While it's possible to visit the Bay of Islands on a budget, there are some activities and experiences that are worth splurging on. The Dolphin Watching Cruise is a must-do for many families, and at $100 per person, it's a worthwhile investment.</p><p>Other activities worth splurging on include the Island Beach Picnic (sailing to a private island) and a guided tour of the Waitangi Treaty Grounds, which offer a unique insight into New Zealand's history and culture.</p>",
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "bay-of-islands-family-budget-family-guide-2026-06",
+  "updated": "June 2026",
+  "auto_generated": true,
+  "generated_date": "2026-06-01"
+}

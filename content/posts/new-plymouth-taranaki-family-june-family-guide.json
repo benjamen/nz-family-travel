@@ -1,0 +1,65 @@
+{
+  "title": "New Plymouth June",
+  "short_title": "NP June",
+  "meta_desc": "Discover New Plymouth & Taranaki with kids in June. Enjoy mild weather, free attractions like Pukekura Park and coastal walkway, with prices from $150-250/day for a family of 4.",
+  "intro": "New Plymouth is a hidden family gem in June, with mild winter weather, fewer crowds, and plenty of free activities to enjoy. The region offers a mix of outdoor adventures, cultural experiences, and relaxing pursuits. From $150-250/day, a family of four can have a great time exploring this beautiful part of New Zealand.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Weather in June",
+      "body": "<p>June is the start of winter in New Plymouth, but the weather is generally mild, with average highs of 13°C and lows of 7°C. It's a great time to enjoy outdoor activities like hiking, with fewer crowds and more comfortable temperatures. <p>Be sure to pack warm clothing, including jackets, gloves, and hats, as well as waterproof gear to prepare for potential rain showers.",
+      "list": [
+        "Average high: 13°C",
+        "Average low: 7°C",
+        "Rainfall: 140mm"
+      ]
+    },
+    {
+      "heading": "What's On in June",
+      "body": "<p>June is a great time to experience New Plymouth's cultural scene, with various events and exhibitions taking place throughout the month. The Govett-Brewster Art Gallery/Len Lye Centre offers free entry and is a must-visit for families. <p>The Taranaki Arts Festival also takes place in June, featuring a range of performances, workshops, and activities for all ages.",
+      "list": [
+        "Govett-Brewster Art Gallery/Len Lye Centre: free entry",
+        "Taranaki Arts Festival: various dates and venues"
+      ]
+    },
+    {
+      "heading": "Best Activities for Families",
+      "body": "<p>New Plymouth has plenty of activities to keep families entertained, from outdoor adventures to cultural experiences. Pukekura Park is a highlight, with its boating lake, playground, and zoo. The coastal walkway is another must-do, offering stunning views of the coastline and surrounding landscape. <p>Families can also explore the Pouakai Circuit, a 25km hike that takes around 6-8 hours to complete, with a cost of $0 (free). For younger kids, the Brooklands Zoo is a great option, with free entry and a range of animals to see.",
+      "list": [
+        "Pukekura Park: free entry, boating lake, playground, and zoo",
+        "Coastal walkway: 13km, free entry",
+        "Pouakai Circuit: 25km, 6-8 hours, $0 (free)",
+        "Brooklands Zoo: free entry, suitable for younger kids"
+      ]
+    },
+    {
+      "heading": "Practical Tips for Families",
+      "body": "<p>To make the most of your family trip to New Plymouth in June, here are some practical tips to keep in mind. Book your accommodation in advance to ensure availability, especially during school holidays. Pack warm and waterproof clothing to prepare for the winter weather. <p>Consider purchasing a Taranaki Regional Council parking permit, which costs $10 per day, to access various car parks and attractions throughout the region.",
+      "list": [
+        "Book accommodation in advance, with prices from $100-200 per night for a family of four",
+        "Pack warm and waterproof clothing",
+        "Purchase a Taranaki Regional Council parking permit ($10 per day)",
+        "Check the weather forecast before heading out",
+        "Bring snacks and water to keep everyone energized throughout the day"
+      ]
+    },
+    {
+      "heading": "Crowd Levels and Booking Ahead",
+      "body": "<p>June is a great time to visit New Plymouth, with fewer crowds and a more relaxed atmosphere. However, it's still a good idea to book your accommodation and popular attractions in advance to ensure availability. <p>Some activities, such as the Pouakai Circuit hike, may require a booking or have limited spots available, so be sure to plan ahead and check the official website for up-to-date information.",
+      "list": [
+        "Book accommodation in advance, with prices from $100-200 per night for a family of four",
+        "Check the official website for up-to-date information on attractions and activities",
+        "Plan ahead for popular attractions and activities, such as the Pouakai Circuit hike (cost: $0, free)"
+      ],
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "new-plymouth-taranaki-family-june-family-guide",
+  "updated": "June 2026",
+  "auto_generated": true,
+  "generated_date": "2026-06-01"
+}
