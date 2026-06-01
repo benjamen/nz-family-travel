@@ -1,0 +1,79 @@
+{
+  "title": "Gisborne & East Cape June",
+  "short_title": "Gisborne June",
+  "meta_desc": "Discover Gisborne & East Cape in June with kids. Enjoy mild weather, scenic drives, and family-friendly activities like surf lessons and visiting the East Cape Lighthouse. Plan your trip with our guide.",
+  "intro": "Gisborne and the East Cape are a hidden gem for family travel in New Zealand. In June, the region offers a unique blend of winter and spring, with mild temperatures and fewer crowds. This guide will help you plan your June trip to Gisborne and the East Cape with kids.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Weather in June",
+      "body": "<p>June is the start of winter in New Zealand, but Gisborne and the East Cape enjoy a relatively mild climate. Average high temperatures range from 12°C to 15°C, while average low temperatures range from 6°C to 9°C. Expect some rainfall, with an average of 12 rainy days throughout the month.</p><p>Overall, June is a great time to visit Gisborne and the East Cape if you prefer cooler weather and don't mind the occasional rain shower.</p>",
+      "list": [
+        "Average high temperature: 12°C - 15°C",
+        "Average low temperature: 6°C - 9°C",
+        "Average rainy days: 12"
+      ]
+    },
+    {
+      "heading": "What's On in June",
+      "body": "<p>June is a great time to visit Gisborne and the East Cape, with several events and festivals taking place throughout the month. Some of the top events include the Gisborne Wine and Food Festival and the East Cape Arts Festival.</p><p>Additionally, many of the region's popular attractions, such as the East Cape Lighthouse and Tolaga Bay Wharf, are less crowded in June, making it an ideal time to visit.</p>",
+      "list": [
+        "Gisborne Wine and Food Festival",
+        "East Cape Arts Festival"
+      ]
+    },
+    {
+      "heading": "Best Activities in June",
+      "body": "<p>In June, some of the best activities to enjoy in Gisborne and the East Cape include surf lessons at Wainui Beach, visiting the East Cape Lighthouse, and exploring the scenic East Cape road.</p><p>Other popular activities include fishing at Tolaga Bay Wharf, visiting the Eastwoodhill Arboretum, and sliding down the Rere Rockslide.</p>",
+      "list": [
+        "Surf lessons at Wainui Beach ($60-$80 per person)",
+        "Visit the East Cape Lighthouse (free, but $10-$20 for parking)",
+        "Explore the scenic East Cape road (free)"
+      ]
+    },
+    {
+      "heading": "Practical Tips for Families",
+      "body": "<p>When visiting Gisborne and the East Cape with kids in June, it's essential to be prepared for the cooler weather and potential rain showers.</p><p>Here are some practical tips to keep in mind:</p>",
+      "list": [
+        "Pack warm clothing, including jackets and gloves",
+        "Bring a waterproof jacket or umbrella",
+        "Book accommodations with heating and a drying room for wet clothes",
+        "Check the weather forecast before heading out each day",
+        "Bring a boogie board or bodyboard for sliding down the Rere Rockslide ($20-$30 per person)"
+      ]
+    },
+    {
+      "heading": "Crowd Levels and Booking Ahead",
+      "body": "<p>In June, crowd levels in Gisborne and the East Cape are generally lower than during the peak summer months.</p><p>However, it's still a good idea to book ahead for popular attractions and activities, such as surf lessons and accommodations.</p>",
+      "table": {
+        "headers": [
+          "Accommodation Type",
+          "Price per Night"
+        ],
+        "rows": [
+          [
+            "Budget motel",
+            "$100-$150"
+          ],
+          [
+            "Mid-range hotel",
+            "$150-$250"
+          ],
+          [
+            "Luxury resort",
+            "$250-$400"
+          ]
+        ]
+      },
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "gisborne-east-cape-family-june-family-guide",
+  "updated": "June 2026",
+  "auto_generated": true,
+  "generated_date": "2026-06-02"
+}

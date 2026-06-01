@@ -1,0 +1,57 @@
+{
+  "title": "West Coast Hidden Gems",
+  "short_title": "West Coast Secrets",
+  "meta_desc": "Discover the West Coast's lesser-known spots, free activities, and insider tips perfect for families with kids, including hidden beaches, glowworm caves, and more, all within a budget of $150-$250/day for a family of 4",
+  "intro": "The West Coast of New Zealand is a treasure trove of natural wonders, from the famous Punakaiki Pancake Rocks to the stunning Franz Josef Glacier. But beyond these well-known attractions, there are plenty of hidden gems waiting to be explored by families with kids. With a range of free activities and budget-friendly options, the West Coast is an ideal destination for families looking for an adventure",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Hokitika Gorge and Lake Ianthe",
+      "body": "<p>Just 25 minutes from Hokitika town, the Hokitika Gorge is a must-visit for its breathtaking turquoise water. The gorge is free to visit and suitable for kids aged 5+, with a short walk to the viewing platform. For a more relaxing experience, head to Lake Ianthe, a quiet and calm lake with warm water perfect for swimming during mid-summer. The lake is often deserted on weekdays, making it an ideal spot for families looking for some peace and quiet. The drive from Hokitika town to Lake Ianthe takes around 30 minutes, and there are no entrance fees.</p><p>The best time to visit the Hokitika Gorge is early morning, when the sunlight highlights the vibrant turquoise color of the water. Lake Ianthe, on the other hand, is perfect for a mid-morning or afternoon visit, when the sun is not too harsh.</p>",
+      "list": [
+        "Hokitika Gorge: free, 25 minutes from Hokitika town, suitable for kids aged 5+",
+        "Lake Ianthe: free, 30 minutes from Hokitika town, suitable for kids aged 5+"
+      ]
+    },
+    {
+      "heading": "Glowworm Caves and Gold Rush History",
+      "body": "<p>The West Coast is home to a number of glowworm caves, including the famous Charleston Glowworm Cave. The cave is around 30 minutes from Westport and offers guided tours for $25 per adult and $15 per child. The tour takes around 1 hour and is suitable for kids aged 5+.</p><p>For a taste of the West Coast's gold rush history, head to the Shantytown Heritage Park, where you can pan for gold and explore the historic town. The park is around 10 minutes from Greymouth and offers a family pass for $60, which includes access to all attractions and activities.</p>",
+      "table": {
+        "headers": [
+          "Attraction",
+          "Price",
+          "Age Suitability"
+        ],
+        "rows": [
+          [
+            "Charleston Glowworm Cave",
+            "$25 adult, $15 child",
+            "5+"
+          ],
+          [
+            "Shantytown Heritage Park",
+            "$60 family pass",
+            "5+"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Wild Beaches and Coastal Walks",
+      "body": "<p>The West Coast is known for its rugged and beautiful coastline, with plenty of wild beaches and coastal walks to explore. One of the most popular beaches is the Rapahoe Beach, which is around 15 minutes from Greymouth. The beach is free to visit and suitable for kids aged 5+, with a short walk to the shore.</p><p>For a more scenic walk, head to the Point Elizabeth Walkway, which offers stunning views of the coastline and surrounding landscape. The walkway is around 10 minutes from Greymouth and takes around 2 hours to complete, with a small entrance fee of $5 per person.</p>",
+      "list": [
+        "Rapahoe Beach: free, 15 minutes from Greymouth, suitable for kids aged 5+",
+        "Point Elizabeth Walkway: $5 per person, 10 minutes from Greymouth, suitable for kids aged 5+"
+      ],
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "west-coast-family-guide-hidden-gems-families",
+  "updated": "June 2026",
+  "auto_generated": true,
+  "generated_date": "2026-06-02"
+}
