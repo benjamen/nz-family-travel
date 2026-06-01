@@ -294,26 +294,32 @@ def build():
                guide=guide,
                **ctx)
 
-    # ── Auto-generated posts hub ─────────────────────────────────────────────
+    # ── Auto-generated posts — merged into /travel-tips/ silo ───────────────
+    # Posts render under travel-tips/ path to consolidate the content silo.
+    # Redirect pages at the old /posts/ paths preserve any inbound links.
     if posts:
-        render("hub.html", "posts/index.html",
-               hub_title="NZ Family Travel News & Deals",
-               hub_subtitle="Daily NZ family travel tips, current booking deals, and destination guides — updated every day for families planning their next New Zealand holiday.",
-               hub_type="posts",
-               items=posts,
-               item_url_prefix="posts",
-               item_slug_field="slug",
-               item_name_field="title",
-               item_desc_field="intro",
-               **ctx)
-
         for post in posts:
             render("guide.html",
-                   f"posts/{post['slug']}/index.html",
+                   f"travel-tips/{post['slug']}/index.html",
                    guide=post,
-                   guide_section="posts",
-                   guide_section_label="Deals & Guides",
                    **ctx)
+
+        # Redirect pages at old /posts/ URLs → /travel-tips/
+        redirect_tmpl = (
+            '<!DOCTYPE html><html><head>'
+            '<meta http-equiv="refresh" content="0; url={dest}">'
+            '<link rel="canonical" href="{dest}">'
+            '<title>Redirecting…</title></head>'
+            '<body><a href="{dest}">Click here if not redirected automatically.</a></body></html>'
+        )
+        posts_hub_dest = f"{site['base_url']}/travel-tips/"
+        (OUT / "posts" / "index.html").parent.mkdir(parents=True, exist_ok=True)
+        (OUT / "posts" / "index.html").write_text(redirect_tmpl.format(dest=posts_hub_dest))
+        for post in posts:
+            dest = f"{site['base_url']}/travel-tips/{post['slug']}/"
+            post_dir = OUT / "posts" / post['slug']
+            post_dir.mkdir(parents=True, exist_ok=True)
+            (post_dir / "index.html").write_text(redirect_tmpl.format(dest=dest))
 
     # ── Cities hub ───────────────────────────────────────────────────────────
     render("hub.html", "cities/index.html",
@@ -414,15 +420,13 @@ def build():
         sitemap += sm_url(f"tools/{t['slug']}", "0.7", "monthly")
     for g in guides:
         sitemap += sm_url(f"travel-tips/{g['slug']}", "0.7", "monthly")
+    for p in posts:
+        sitemap += sm_url(f"travel-tips/{p['slug']}", "0.8", "weekly")
     for o in overseas:
         imgs = [(o["hero_image"], o.get("hero_alt", o.get("title", "")))] if o.get("hero_image") else None
         sitemap += sm_url(f"overseas/{o['slug']}", "0.7", "monthly", images=imgs)
     for c in cities:
         sitemap += sm_url(f"cities/{c['slug']}", "0.7", "monthly")
-    if posts:
-        sitemap += sm_url("posts", "0.8", "daily")
-        for p in posts:
-            sitemap += sm_url(f"posts/{p['slug']}", "0.8", "weekly")
     sitemap += "</urlset>"
     (OUT / "sitemap.xml").write_text(sitemap)
 
