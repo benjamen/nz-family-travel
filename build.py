@@ -356,11 +356,13 @@ def build():
     today = _date.today().isoformat()
 
     def sm_url(path, priority="0.6", changefreq="monthly", images=None):
-        loc = f"{site['base_url']}/{path}" if path else site['base_url']
+        loc = f"{site['base_url']}/{path}/" if path else f"{site['base_url']}/"
         parts = [f'  <url><loc>{loc}</loc><lastmod>{today}</lastmod>',
                  f'<changefreq>{changefreq}</changefreq><priority>{priority}</priority>']
         if images:
             for img_url, img_caption in images:
+                if img_url.startswith('/'):
+                    img_url = f"{site['base_url']}{img_url}"
                 safe_url = img_url.replace('&', '&amp;')
                 safe_cap = img_caption.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;')
                 parts.append(
