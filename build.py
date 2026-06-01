@@ -209,6 +209,7 @@ def build():
             "show_rain": True,
         },
     ]
+    rendered_filter_slugs = []
     for fp in filter_pages:
         filtered = [a for a in activities if fp["filter"](a)]
         if len(filtered) >= 3:
@@ -221,6 +222,7 @@ def build():
                    filter_activities=filtered,
                    filter_show_rain=fp["show_rain"],
                    **ctx)
+            rendered_filter_slugs.append(fp["slug"])
 
     # ── Itineraries hub ───────────────────────────────────────────────────────
     render("hub.html", "itineraries/index.html",
@@ -277,7 +279,7 @@ def build():
     render("hub.html", "travel-tips/index.html",
            hub_title="NZ Family Travel Tips & Guides",
            hub_subtitle="Practical NZ family travel guides — packing lists, campervan advice, travel costs, school holiday tips, and what to do with babies, toddlers, and teens.",
-           hub_type="guides",
+           hub_type="travel-tips",
            items=guides,
            item_url_prefix="travel-tips",
            item_slug_field="slug",
@@ -297,7 +299,7 @@ def build():
         render("hub.html", "posts/index.html",
                hub_title="NZ Family Travel News & Deals",
                hub_subtitle="Daily NZ family travel tips, current booking deals, and destination guides — updated every day for families planning their next New Zealand holiday.",
-               hub_type="guides",
+               hub_type="posts",
                items=posts,
                item_url_prefix="posts",
                item_slug_field="slug",
@@ -406,7 +408,7 @@ def build():
         sitemap += sm_url(f"activity/{a['slug']}", "0.7", "monthly", images=imgs or None)
     for s in dest_slugs:
         sitemap += sm_url(f"activities/{s}", "0.6", "monthly")
-    for fp_slug in ["rainy-day", "wildlife", "outdoor", "toddlers"]:
+    for fp_slug in rendered_filter_slugs:
         sitemap += sm_url(f"activities/{fp_slug}", "0.7", "monthly")
     for t in tools:
         sitemap += sm_url(f"tools/{t['slug']}", "0.7", "monthly")
