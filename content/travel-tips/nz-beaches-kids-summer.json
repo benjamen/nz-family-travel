@@ -1,0 +1,86 @@
+{
+  "slug": "nz-beaches-kids-summer",
+  "short_title": "NZ Beaches for Kids",
+  "title": "Best NZ Beaches for Families — Safest, Most Fun, by Region",
+  "meta_desc": "Discover the safest and most fun NZ beaches for families by region, with patrolled beaches and facilities from $5",
+  "intro": "New Zealand is renowned for its stunning beaches, but not all are suitable for families. With over 15,000 kilometres of coastline, finding the safest and most fun beaches for your kids can be overwhelming. Here's a comprehensive guide to the best NZ beaches for families, covering safety, facilities, and shade across different regions.",
+  "updated": "June 2026",
+  "reading_time": 10,
+  "sections": [
+    {
+      "heading": "North Island Beaches",
+      "body": "The North Island is home to some of New Zealand's most popular and safest beaches. With many patrolled beaches, your family can enjoy swimming, surfing, and sunbathing with ease. Some notable mentions include Hahei Beach in the Coromandel, which offers a picturesque lagoon and stunning rock formations, and Mount Maunganui Beach in the Bay of Plenty, which features a scenic coastal walk and plenty of parking for $5 per day."
+    },
+    {
+      "heading": "South Island Beaches",
+      "list": [
+        "Sumner Beach in Christchurch, known for its gentle waves and picnic areas",
+        "Warrington Beach in Otago, featuring a beautiful estuary and walking tracks",
+        "Kaiapoi Beach in Canterbury, offering a safe swimming area and nearby cafe"
+      ]
+    },
+    {
+      "heading": "Comparison of Top NZ Beaches",
+      "table": {
+        "headers": [
+          "Beach",
+          "Region",
+          "Patrolled",
+          "Facilities",
+          "Shade",
+          "Price"
+        ],
+        "rows": [
+          [
+            "Hahei Beach",
+            "Coromandel",
+            "Yes",
+            "Toilets, Showers, Picnic Tables",
+            "Some trees and shelters",
+            "$0"
+          ],
+          [
+            "Mount Maunganui Beach",
+            "Bay of Plenty",
+            "Yes",
+            "Toilets, Showers, Restaurants",
+            "Some trees and shelters",
+            "$5/day parking"
+          ],
+          [
+            "Sumner Beach",
+            "Canterbury",
+            "Yes",
+            "Toilets, Showers, Picnic Tables",
+            "Some trees and shelters",
+            "$0"
+          ],
+          [
+            "Warrington Beach",
+            "Otago",
+            "No",
+            "Toilets, Picnic Tables",
+            "Limited",
+            "$0"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Beach Safety Tips",
+      "body": "Before heading to the beach, always check the surf forecast and ensure you and your family are aware of any potential hazards. Swim at patrolled beaches, and follow the instructions of lifeguards. It's also essential to apply sunscreen regularly and stay hydrated. For a more detailed guide, check out our beach safety tips article."
+    },
+    {
+      "heading": "Accommodation Options",
+      "body": "New Zealand offers a wide range of accommodation options for families, from budget-friendly campsites to luxurious resorts. Some popular options include holiday parks, such as the Top 10 Holiday Resort in Mount Maunganui, which offers cabins and camping sites from $40 per night. For a more comprehensive guide to accommodation options, visit our destinations page."
+    },
+    {
+      "heading": "Plan Your Family Beach Trip",
+      "cta": {
+        "text": "Calculate your family travel budget with our NZ Family Travel Budget Calculator",
+        "url": "/tools/nz-family-travel-budget-calculator/",
+        "affiliate": false
+      }
+    }
+  ]
+}
