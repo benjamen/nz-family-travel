@@ -2,56 +2,103 @@
   "slug": "things-to-do-rotorua-with-kids",
   "short_title": "Rotorua with Kids Activities",
   "title": "Things to Do in Rotorua with Kids — 2026 Family Guide",
-  "meta_desc": "Best things to do in Rotorua with kids — the luge, Wai-O-Tapu, Rainbow Springs, free thermal parks, and what actually works for different ages. Honest NZ family guide.",
-  "intro": "Most families arrive in Rotorua expecting the smell to be the problem. It isn't — your kids forget about the sulphur within five minutes of watching a geyser erupt. What actually catches parents off guard is how much is genuinely worth the money, and how much is a tourist trap dressed up with steam. This guide covers what actually works for NZ families — broken down by age, budget, and weather.",
+  "meta_desc": "Best things to do in Rotorua with kids — the luge, Wai-O-Tapu, Rainbow Springs, free thermal parks, and what actually works for different ages. Honest NZ family guide with prices.",
+  "intro": "Most families arrive in Rotorua expecting the smell to be the problem. It isn't — your kids forget about the sulphur within five minutes of watching a geyser erupt. What actually catches parents off guard is how much is genuinely worth the money, and how much is a tourist trap dressed up with steam. This guide covers what actually works for NZ families — broken down by age, budget, and weather — with honest prices, practical logistics, and a day-by-day itinerary for first-timers.",
   "key_takeaway": "Rotorua works well for kids aged 3 and up. The Skyline luge is the standout activity for ages 5+. Budget families can do a full day for under $40 using free thermal parks. Two days is ideal — one day paid attractions, one day lakes and Kuirau Park.",
   "updated": "May 2026",
-  "reading_time": 10,
+  "reading_time": 14,
   "sections": [
     {
       "heading": "Why Rotorua Is One of NZ's Best Family Destinations",
-      "body": "Rotorua punches well above its size for family activities. A city of 70,000 has geothermal parks, Māori cultural experiences, adventure rides, wildlife encounters, and lake activities all within a 20-minute radius of the town centre.\n\nThe practical advantage: everything is close together. A bad-weather pivot from an outdoor activity to an indoor one takes 10 minutes by car. That matters a lot with kids."
+      "body": "<p>Rotorua punches well above its size for family activities. A city of 70,000 has geothermal parks, Māori cultural experiences, adventure rides, wildlife encounters, and lake activities all within a 20-minute radius of the town centre. No other NZ city packs this variety of genuinely different experiences into such a small footprint.</p><p>The practical advantage for parents: everything is close together. A bad-weather pivot from an outdoor activity to an indoor one takes 10 minutes by car. That matters enormously with young children — you don't lose half a day to logistics when plans change.</p><p>Rotorua is also unusually good at providing real experiences rather than manufactured ones. The geysers actually erupt. The kiwi birds are the real thing. The lakes are swimmable (in the right spots). The Māori culture is living, not just performed for tourists.</p>"
     },
     {
-      "heading": "Best Paid Attractions for Kids in Rotorua",
-      "body": "<h3>Skyline Gondola and Luge (Ages 5+) — The One You Can't Skip</h3><p>The luge is the highlight of Rotorua for most kids. The gondola ride up Bob's Peak is engaging on its own, but once kids get a taste of the gravity-powered carts on the luge track, they won't want to leave. Three tracks of varying speed — scenic, intermediate, and advanced — cater to different ages and confidence levels.</p><p>Minimum age to ride solo: 6 years. Under 6 ride with an adult. Buy luge rides in multi-packs — 3 rides is the minimum worth doing, most kids want 5+. Cost: approx $55–65 per person for gondola + 3 luge rides (check the Skyline website for current pricing as it changes seasonally).</p><h3>Rainbow Springs Nature World (All Ages) — Best for Under-5s</h3><p>Rainbow Springs is the pick for younger kids. The kiwi house is dark and calm enough for toddlers, the trout in the springs are visible and exciting, and the park is walkable at a toddler pace without being frustrating. Fully pram-accessible with a good café on site. Allow 2–3 hours.</p><h3>Te Puia — Geysers and Māori Culture (Ages 4+)</h3><p>Te Puia is the right way to do geothermal Rotorua with genuine cultural depth. The Pohutu Geyser erupts multiple times daily, and the carved meeting house gives kids a real introduction to Māori culture. For ages 8+, the full cultural performance is excellent. Younger kids are better served by the geyser and kiwi viewing alone — the performance is long. Allow 2–3 hours.</p><h3>Wai-O-Tapu Thermal Wonderland (Ages 5+) — Best Scenery</h3><p>The most visually dramatic thermal park in the Rotorua region — boiling mud pools, vivid acid pools, and the Champagne Pool (a large orange-rimmed thermal lake). Located 30 minutes south of central Rotorua. The Lady Knox Geyser erupts daily at 10:15am — arrive by 10:00am for a good position. The walking loop is 2–3km on good paths; no prams on the main trail, baby carriers work well.</p><h3>Zorb Rotorua (Ages 5+)</h3><p>Rolling downhill inside a giant inflatable ball is either the best $50 you spend or a 30-second anticlimactic event, depending on your kid. The warm water Zorb (the ball fills with warm water so you slide around inside) gets the better reaction. Honest take: it's short. Prioritise the luge if budget is tight — far more ride time per dollar.</p>"
+      "heading": "Rotorua Family Attractions — Prices & Age Guide 2026",
+      "body": "All prices below are adult/child rates as of May 2026. Prices change seasonally — check official sites before booking.",
+      "table": {
+        "headers": ["Attraction", "Adult", "Child (5–14)", "Under 5", "Min age", "Duration", "Best for"],
+        "rows": [
+          ["Skyline Luge (gondola + 3 rides)", "$56", "$44", "Free with adult", "6 (solo), any (with adult)", "2–4 hrs", "Ages 5+"],
+          ["Te Puia (geyser + cultural tour)", "$59", "$30", "Free", "Any", "2–3 hrs", "Ages 4+"],
+          ["Wai-O-Tapu Thermal Wonderland", "$42", "$14", "Free", "Any (carry babies)", "1.5–2 hrs", "Ages 5+"],
+          ["Rainbow Springs Nature World", "$35", "$18", "Free under 3", "Any", "2–3 hrs", "All ages"],
+          ["Zorb Rotorua (1 ride)", "$45", "$35", "Not suitable", "5 years", "10–15 min", "Ages 5–12"],
+          ["Polynesian Spa (family pools)", "$25", "$16", "Free under 5", "Any", "1–2 hrs", "All ages"],
+          ["Agrodome Farm Show", "$39", "$20", "Free under 4", "Any", "1.5 hrs", "Ages 3+"],
+          ["Kuirau Park thermal park", "Free", "Free", "Free", "Any", "30–60 min", "All ages"],
+          ["Redwoods Treewalk (day)", "$30", "$15", "Free under 5", "Any", "45–60 min", "Ages 3+"],
+          ["National Kiwi Hatchery tour", "$45", "$25", "Free under 4", "Any", "1 hr", "Ages 4+"]
+        ]
+      }
+    },
+    {
+      "heading": "Top Paid Attractions — Honest Reviews",
+      "body": "<h3>Skyline Gondola and Luge (Ages 5+) — The One You Can't Skip</h3><p>The luge is the highlight of Rotorua for most kids. The gondola ride up Bob's Peak takes 8 minutes and delivers wide views over the city and Lake Rotorua. Once kids get a taste of the gravity-powered carts on the luge track, they will not want to leave. Three tracks of varying speed — scenic, intermediate, and advanced — cater to different ages and confidence levels.</p><p>Minimum age to ride solo: 6 years. Children under 6 ride in front of an adult on a tandem luge. Buy rides in multi-packs — 3 is the absolute minimum, most families end up doing 5–7. Buy more rides upfront (it's cheaper per ride and avoids re-queuing at the bottom). Gondola rides at the end of your luge session are free, so stay up the hill as long as the kids want.</p><p><strong>Practical tip:</strong> Arrive at 9:30am to beat the 10:30am peak. School holidays need an online booking. The café at the top is better quality than you'd expect at a tourist attraction — lunch up there works well.</p><h3>Rainbow Springs Nature World (All Ages) — Best for Toddlers</h3><p>Rainbow Springs is the pick for younger kids. The kiwi house gives a genuine close-up of NZ's national bird in a dark, quiet environment — very well done and appropriate for babies and toddlers who won't tolerate long queues or loud noise. The trout swimming in the spring-fed streams are immediately visible and exciting for young kids. The park is fully pram-accessible throughout, and the paths are flat and well-maintained.</p><p>The National Kiwi Hatchery tours depart from inside Rainbow Springs and add significantly to the experience for ages 6+ — you see eggs, juvenile kiwi, and the incubation setup used to protect kiwi from predators. Budget 2–3 hours total if you're doing both.</p><h3>Te Puia — Geysers and Māori Culture (Ages 4+)</h3><p>Te Puia combines geothermal geology with authentic Māori cultural experience — the only attraction in Rotorua that seriously does both. The Pohutu Geyser erupts multiple times daily; the frequency depends on conditions but you'll usually see a full eruption within 30–40 minutes of arrival. The carved meeting house and school of Māori arts and crafts gives kids a genuine introduction to NZ's living indigenous culture.</p><p>For ages 8+, the full cultural performance (haka, poi, song) is excellent and worth the extra cost. For younger kids, geyser and kiwi viewing alone fills 2 hours perfectly — the performance runs 45 minutes and can be a stretch for under-5s.</p><h3>Wai-O-Tapu Thermal Wonderland (Ages 5+) — Best Visual Impact</h3><p>Wai-O-Tapu is the most visually dramatic thermal park in the Rotorua region, located 30 minutes south on SH5. The acid-hued pools (vivid orange, green, blue, and yellow from mineral content), boiling mud fields, and Champagne Pool (a steaming crater lake with an orange mineral rim) genuinely look like another planet. Kids who've grown up seeing nature through screens are stunned by something real that looks this extreme.</p><p>The Lady Knox Geyser erupts daily at 10:15am — a ranger adds soap to trigger a reliable 10–15 minute eruption that's excellent for photos. Arrive by 10:00am for a good position; the geyser area fills fast. The main walking loop is 2–3km on good sealed paths — no standard prams on the main trail (the terrain isn't quite flat enough), but baby carriers and rugged strollers work fine. Allow 1.5–2 hours for the main loop.</p><h3>Zorb Rotorua (Ages 5+) — Manage Your Expectations</h3><p>Rolling downhill in a giant water-filled inflatable ball is either the best $45 you spend or a 30-second anticlimactic event, depending on your child. The warm water Zorb (you slide around inside with warm water) consistently gets a better reaction than the dry version. Honest take: each ride is short — about 30–40 seconds of actual rolling. Prioritise the luge if the budget is tight; far more experience per dollar. But if kids ask for it and the budget allows, it delivers a big laugh.</p><h3>Agrodome Farm Show (Ages 3+) — Underrated</h3><p>The Agrodome is the most underrated family attraction in Rotorua. The 90-minute farm show features live sheep shearing, dog herding demonstrations, and — the real hit for young kids — a parade of 19 sheep breeds up on stage with commentary. Funny, educational, and completely unpretentious. Combined with a tractor tour of the working farm, this is a standout half-day for families with children aged 3–10. Adults who come expecting to be bored often rate it as a highlight.</p>"
     },
     {
       "heading": "Free Things to Do in Rotorua with Kids",
-      "body": "<h3>Kuirau Park — Thermal Park Right in Town</h3><p>A public park in central Rotorua with freely accessible boiling mud pools, warm mineral water foot spas (great after a walking day), and a children's playground. The best free introduction to Rotorua's geothermal character. 10-minute walk from town. Open all day, fully pram-accessible.</p><h3>Rotorua Lakefront and Lake Rotorua</h3><p>The lakefront walkway is flat, accessible, and excellent for scooters and bikes. On calm days the steam rising from lakefront thermal vents is unlike anything kids see at home. Bike hire available lakeside for families who want to cover more ground.</p><h3>Government Gardens</h3><p>Free, open access. Open lawns are good for a run-around between paid activities, and the ornate Tudor-style Bathhouse building is worth walking past. Adjacent to the lake — easy to combine with the lakefront walk.</p>"
+      "body": "<h3>Kuirau Park — Free Thermal Park in the City Centre</h3><p>A public park 10 minutes' walk from the town centre with freely accessible boiling mud pools, active steam vents, and — the family favourite — warm mineral water foot spas at the park entrance. After a long day of walking, sitting with your feet in warm thermal water is genuinely wonderful. The children's playground is modern, well-maintained, and has thermal steam venting nearby which delights kids. No entry fee, no booking, open all day.</p><p>Kuirau Park is the best free introduction to Rotorua's geothermal character — see this before spending money on a thermal park so kids have context for what they're looking at.</p><h3>Rotorua Lakefront and Lake Rotorua</h3><p>The lakefront walkway is flat, fully pram-accessible, and excellent for scooters and bikes. On calm mornings, steam rises from lakefront thermal vents in a way that's quiet and beautiful — a very different mood from the noisier tourist parks. Bike hire is available lakeside (check for current operators). The lakefront is particularly good at the start or end of the day when the town is quiet and the lake is glassy.</p><h3>Redwoods Whakarewarewa Forest</h3><p>Free to enter the forest walks — the paid Treewalk is optional. The forest itself is a stunning redwood grove, the tallest trees most NZ kids will ever see. Multiple walking tracks range from 30 minutes to several hours. Mountain biking is big here; hire bikes nearby if your kids are into it. The forest floor is shaded and cool, making it perfect on a hot day.</p><h3>Government Gardens</h3><p>Open lawns, rose gardens, and the ornate 1908 Tudor-style Bathhouse (now a museum) immediately adjacent to the lake. Good for a run-around between paid activities. The Rotorua Museum inside the Bathhouse has interactive Māori and geothermal history exhibits suitable for ages 7+.</p>"
     },
     {
-      "heading": "Rotorua with Toddlers and Babies — What Actually Works",
-      "body": "<p><strong>Under 2:</strong> Kuirau Park, Rainbow Springs (fully pram-accessible), and the Rotorua lakefront. These three fill a day without spending much.</p><p><strong>Ages 2–4:</strong> Rainbow Springs is excellent. Kuirau Park is free and engaging. Te Puia's geyser viewing works at this age — the eruption is loud and visual enough to hold attention. Skip the cultural performance.</p><p><strong>Ages 5–7:</strong> The Rotorua sweet spot. All main activities work. Luge, Wai-O-Tapu, Rainbow Springs. Zorb if budget allows.</p><p><strong>Ages 8+:</strong> Add the Te Puia cultural performance. Consider white-water rafting on the Kaituna River for older teens (minimum age 13 with most operators).</p>"
+      "heading": "Rotorua by Age Group — What Actually Works",
+      "table": {
+        "headers": ["Age group", "Best activities", "Skip", "Budget day option"],
+        "rows": [
+          ["Under 2 (babies)", "Kuirau Park foot spa, lakefront walk, Rainbow Springs (pram-friendly)", "Wai-O-Tapu main trail, luge", "Kuirau Park + lakefront: free"],
+          ["Ages 2–4 (toddlers)", "Rainbow Springs, Kuirau Park, Agrodome farm show, Te Puia geyser only", "Cultural performances (too long), luge (below min age)", "Kuirau Park + Agrodome (~$30/child)"],
+          ["Ages 5–7", "Skyline luge, Wai-O-Tapu, Rainbow Springs, Zorb, Redwoods", "Long cultural shows", "Luge + Kuirau Park (~$55/child)"],
+          ["Ages 8–12", "All attractions + Te Puia cultural performance, Kaituna rafting (13+)", "Nothing — all works", "Luge + Wai-O-Tapu (~$80/child)"],
+          ["Teens (13+)", "Kaituna River white-water rafting, luge, Zorb, Wai-O-Tapu", "Very young-child-focused activities", "Rafting + luge (~$120/person)"]
+        ]
+      }
     },
     {
       "heading": "Rainy Day Options in Rotorua",
+      "body": "<p>Rotorua's weather is unpredictable — have a wet-weather backup ready. These all work in rain:</p>",
       "list": [
-        "Rainbow Springs — covered kiwi house and partial shelter throughout; still workable in light rain",
-        "Skyline — gondola building and café are sheltered; luge runs in most weather (call ahead in heavy rain)",
-        "Bowling and indoor mini-golf — central Rotorua has options; search for current operators",
-        "Rotorua i-SITE (visitor centre) — staff know exactly what's running in wet weather and can book last-minute alternatives"
+        "Rainbow Springs — the kiwi house is fully covered, paths are sheltered; this is the best rainy-day paid option",
+        "Skyline — the gondola terminal and café are sheltered; the luge runs in most weather but closes in heavy rain (call ahead: 07 347 0027)",
+        "Agrodome Farm Show — the main show is in a large covered indoor arena; fully weather-proof",
+        "Te Puia — partial shelter; the carved meeting house and hatchery tours are indoor; the geyser viewing is outdoors but geothermal steam keeps the area warm even in rain",
+        "Rotorua Museum (in Government Gardens) — indoor exhibits on geothermal history and Māori culture",
+        "Rotorua i-SITE visitor centre — the staff here are excellent at last-minute alternatives and can book activities on the spot"
       ]
     },
     {
-      "heading": "How Many Days Do You Need in Rotorua with Kids?",
-      "body": "<p><strong>Two days is ideal.</strong> Day 1: paid highlights — Skyline luge + either Te Puia or Wai-O-Tapu + Rainbow Springs. Day 2: free activities — Kuirau Park, the lakefront, relaxed pace.</p><p>One day is doable if you're efficient: prioritise by age (luge for 5+, Rainbow Springs for toddlers) and book Wai-O-Tapu for the 10:15am geyser if you're including it.</p><p>Three days works well using Rotorua as a base for day trips — Waitomo Caves (2 hours west) or Taupo (1 hour south) both make excellent additions.</p>"
+      "heading": "Suggested Itineraries — 1, 2 & 3 Days in Rotorua with Kids",
+      "body": "<h3>One Day in Rotorua with Kids</h3><p>9:30am: Skyline Gondola and Luge (book the first gondola online — beat the queues). Allow 3 hours minimum. 12:30pm: Lunch at the Skyline restaurant (views, decent food, kids' menu) or descend and eat at a lakefront café. 2:00pm: Kuirau Park — free thermal park and foot spa, 45 minutes. 3:00pm: Rotorua lakefront walk (30 minutes) or Rainbow Springs if you want a wildlife focus instead of thermal.</p><p>Result: Covers the top paid highlight plus free thermal and lake experience. Total cost with 5 luge rides: approximately $65/adult, $50/child 5–14.</p><h3>Two Days in Rotorua with Kids (Recommended)</h3><p><strong>Day 1 — Paid highlights:</strong> Morning: Wai-O-Tapu Thermal Wonderland (arrive 9:45am for the 10:15am Lady Knox geyser). Afternoon: Te Puia (geyser + cultural experience, ages 4+) or Rainbow Springs (better for toddlers). Evening: Kuirau Park foot spa and dinner in town.</p><p><strong>Day 2 — Free and active:</strong> Morning: Skyline luge. Midday: Lakefront walk, bike hire, or Redwoods forest walk. Afternoon: Agrodome farm show (12:30pm show) or free time at the lake.</p><h3>Three Days — Using Rotorua as a Base</h3><p>Add a day trip on Day 3: <strong>Waitomo Glowworm Caves</strong> (1 hour 45 min west — pre-book, one of NZ's top attractions) suits ages 5+. <strong>Taupo</strong> (1 hour south) for Huka Falls, the Taupo bungy over the river (teens+), and lake beaches. Alternatively, <strong>White Island day trip</strong> from Whakatāne (2 hours north) for spectacular active volcano — ages 12+ recommended.</p>"
     },
     {
-      "heading": "Practical Tips for Families",
+      "heading": "Where to Stay in Rotorua with Kids",
+      "body": "<p>Rotorua has a wide range of accommodation from budget holiday parks to luxury lodges. For families, the best options:</p>",
+      "table": {
+        "headers": ["Type", "Examples", "Price range/night", "Why it works for families"],
+        "rows": [
+          ["Holiday parks", "Rotorua Top 10 Holiday Park, Thermal Holiday Park", "$30–$60 (tent/cabin from)", "Thermal pools on-site, kitchen facilities, space for kids to run, cheap"],
+          ["Mid-range motels", "Copthorne Hotel, Rotorua Central Motel", "$120–$200", "Kitchen or kitchenette, walking distance to town, free parking"],
+          ["Family hotels", "Holiday Inn Express, Novotel Rotorua Lakeside", "$180–$280", "Pool on-site, near lakefront, breakfast options, reliable quality"],
+          ["Airbnb / holiday homes", "Various", "$150–$350", "Full kitchen, space for larger families, often pool or spa bath"],
+          ["Thermal lodges", "Peppers on the Point, various B&Bs", "$300–$600+", "Private thermal pools, very peaceful, adult-focused but accept families"]
+        ]
+      }
+    },
+    {
+      "heading": "Practical Tips for Families Visiting Rotorua",
       "list": [
-        "Smell: The sulphur is noticeable in the town centre and strong at thermal parks. Most people stop noticing within 30 minutes. Warn kids before arrival so it's not a shock.",
-        "Booking: Skyline and Te Puia are bookable online — worth doing in school holidays when queues build.",
-        "Eating: Town centre café quality varies. The cafés at Rainbow Springs and Skyline are reliable and family-friendly.",
-        "Drive time: Rotorua city centre to Wai-O-Tapu is 30 minutes — factor this in when planning a full day.",
-        "School holidays: Rotorua is popular with NZ families during school breaks. Book accommodation and busy attractions in advance."
+        "The sulphur smell is strongest in the town centre, at Kuirau Park, and at all thermal parks. It's genuinely intense when you first arrive. Warn kids — many find it funny rather than unpleasant once they're over the initial surprise.",
+        "Book Skyline and Te Puia online in advance during school holidays (July, October, January). Walk-up queues at the gondola can add 45 minutes during peak periods.",
+        "Wai-O-Tapu's Lady Knox Geyser erupts at 10:15am daily — don't miss it. It runs whether or not you're booked on a tour. Arrive by 10:00am.",
+        "The lakefront is walkable but the Wai-O-Tapu park is 30 minutes south of town on SH5. Plan this as a dedicated half-day rather than a quick stop.",
+        "Eating: The food court in the Rotorua Night Market (Thursday evenings in the town centre carpark) is a reliable and affordable family dinner. The café at Rainbow Springs and the Skyline restaurant are both good for lunch.",
+        "Safety near thermal features: all major parks are well-fenced. The main risk is unsupervised children near Kuirau Park's open mud pools — hold hands at the mud pools specifically.",
+        "Rotorua is 2.5 to 3 hours from Auckland by car via SH1 and SH5. Good road trip distance — make a stop at the Waikato River (Huka Falls, Taupo) if coming from the south."
       ]
     },
     {
-      "heading": "Also Planning Wellington?",
+      "heading": "Planning Your North Island Family Road Trip?",
       "cta": {
-        "text": "Things to Do in Wellington with Kids — 2026 Guide",
-        "url": "/travel-tips/things-to-do-wellington-with-kids/",
+        "text": "NZ Family Holiday Bucket List — 25 Must-Dos →",
+        "url": "/travel-tips/nz-family-holiday-bucket-list/",
         "affiliate": false
       }
     }
@@ -59,23 +106,27 @@
   "faqs": [
     {
       "q": "Is Rotorua good for young kids?",
-      "a": "Yes — Rotorua is one of the best family destinations in New Zealand for kids under 10. Rainbow Springs suits the youngest (all ages, pram-accessible); the Skyline luge suits ages 5 and up. Kuirau Park thermal park is free and works for all ages including babies."
+      "a": "Yes — Rotorua is one of the best family destinations in New Zealand for kids under 10. Rainbow Springs and Kuirau Park suit the youngest (fully pram-accessible, free); the Skyline luge suits ages 5 and up; Te Puia geyser works from age 4. Most attractions offer free entry for under-4s."
     },
     {
-      "q": "Is Rotorua safe for kids near the thermal areas?",
-      "a": "The major thermal parks (Te Puia, Wai-O-Tapu) are well-fenced and managed. Don't leave young children unattended near open thermal features. Kuirau Park has clear fencing around the most active pools. The foot spa areas are perfectly safe for supervised children."
+      "q": "Is Rotorua safe for kids near thermal areas?",
+      "a": "The major thermal parks (Te Puia, Wai-O-Tapu) are well-fenced and professionally managed. Don't let young children run unsupervised near open mud pools at Kuirau Park — the pools are genuinely boiling. The Polynesian Spa family pools are designed for all ages including toddlers."
     },
     {
       "q": "How far is Rotorua from Auckland?",
-      "a": "About 2.5 to 3 hours by car via State Highway 1. A classic NZ family road trip is Auckland → Rotorua → Taupo → Wellington, covering the central North Island in 5–7 days."
+      "a": "About 2.5 to 3 hours by car via State Highway 1 and SH5 (via Tirau or Taupo). A classic NZ family road trip: Auckland → Rotorua → Taupo → Wellington covers the central North Island highlights in 5–7 days."
     },
     {
-      "q": "What's the best age to take kids to Rotorua?",
-      "a": "Ages 5–12 get the most out of Rotorua. But it works for all ages — babies and toddlers have free and accessible options (Kuirau Park, Rainbow Springs), and teens have the luge, Zorb, and white-water rafting on the Kaituna River."
+      "q": "What is the best age to take kids to Rotorua?",
+      "a": "Ages 5–12 get the most out of Rotorua. But it works for all ages — babies and toddlers have free and accessible options (Kuirau Park, Rainbow Springs), and teens have the luge, Zorb, and white-water rafting on the Kaituna River (minimum age 13 with most operators)."
     },
     {
       "q": "How many days do you need in Rotorua with kids?",
-      "a": "Two days is ideal. Day 1 covers paid highlights: Skyline luge, Wai-O-Tapu, and Rainbow Springs. Day 2 covers free activities: Kuirau Park and the lakefront. Three days allows day trips to Waitomo Caves or Taupo."
+      "a": "Two days is ideal. Day 1 covers paid highlights: Wai-O-Tapu and either Te Puia or Rainbow Springs. Day 2 covers the Skyline luge plus free activities (Kuirau Park, lakefront). Three days allows day trips to Waitomo Caves (1h45m west) or Taupo (1h south)."
+    },
+    {
+      "q": "What are the best free things to do in Rotorua with kids?",
+      "a": "Kuirau Park (free thermal park with mud pools and foot spa), the Rotorua lakefront walkway, and the Whakarewarewa Redwood forest walks are all free and family-friendly. A full day at these three costs nothing and gives kids genuine geothermal, lake, and forest experiences."
     }
   ],
   "hero_image": {
