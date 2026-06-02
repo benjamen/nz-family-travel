@@ -182,7 +182,22 @@
     <div class="spotlight-card">
       <h3>🎫 Book NZ Activities & Tours</h3>
       <p>Skyline luge, Te Puia, Waitomo Caves, Queenstown adventures — book online and save. Free cancellation on most activities.</p>
-      <a href="{{ site.affiliates.getyourguide.url }}" class="btn btn-primary" rel="sponsored noopener" target="_blank">Browse activities →</a>
+      {% set slug = guide.slug %}
+      {% if 'rotorua' in slug %}
+        <a href="{{ site.affiliates.getyourguide.url_rotorua }}" class="btn btn-primary" rel="sponsored noopener" target="_blank" data-gyg-href="{{ site.affiliates.getyourguide.url_rotorua }}" data-gyg-partner-id="TIXNVKM">Book Rotorua activities →</a>
+      {% elif 'queenstown' in slug %}
+        <a href="{{ site.affiliates.getyourguide.url_queenstown }}" class="btn btn-primary" rel="sponsored noopener" target="_blank" data-gyg-href="{{ site.affiliates.getyourguide.url_queenstown }}" data-gyg-partner-id="TIXNVKM">Book Queenstown activities →</a>
+      {% elif 'auckland' in slug %}
+        <a href="{{ site.affiliates.getyourguide.url_auckland }}" class="btn btn-primary" rel="sponsored noopener" target="_blank" data-gyg-href="{{ site.affiliates.getyourguide.url_auckland }}" data-gyg-partner-id="TIXNVKM">Book Auckland activities →</a>
+      {% elif 'wellington' in slug %}
+        <a href="{{ site.affiliates.getyourguide.url_wellington }}" class="btn btn-primary" rel="sponsored noopener" target="_blank" data-gyg-href="{{ site.affiliates.getyourguide.url_wellington }}" data-gyg-partner-id="TIXNVKM">Book Wellington activities →</a>
+      {% elif 'waitomo' in slug or 'caves' in slug %}
+        <a href="{{ site.affiliates.getyourguide.url_waitomo }}" class="btn btn-primary" rel="sponsored noopener" target="_blank" data-gyg-href="{{ site.affiliates.getyourguide.url_waitomo }}" data-gyg-partner-id="TIXNVKM">Book Waitomo tours →</a>
+      {% elif 'bay-of-islands' in slug or 'northland' in slug %}
+        <a href="{{ site.affiliates.getyourguide.url_bay_of_islands }}" class="btn btn-primary" rel="sponsored noopener" target="_blank" data-gyg-href="{{ site.affiliates.getyourguide.url_bay_of_islands }}" data-gyg-partner-id="TIXNVKM">Book Bay of Islands activities →</a>
+      {% else %}
+        <a href="{{ site.affiliates.getyourguide.url }}" class="btn btn-primary" rel="sponsored noopener" target="_blank" data-gyg-href="{{ site.affiliates.getyourguide.url }}" data-gyg-partner-id="TIXNVKM">Browse NZ activities →</a>
+      {% endif %}
     </div>
     <div class="spotlight-card">
       <h3>🏨 Find Family-Friendly Accommodation</h3>

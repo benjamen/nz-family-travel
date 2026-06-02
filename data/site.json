@@ -83,17 +83,23 @@
     },
     "getyourguide": {
       "name": "GetYourGuide",
-      "url": "https://www.getyourguide.com/?partner_id=PENDING_GYG_ID",
-      "url_rotorua": "https://www.getyourguide.com/rotorua-l743/?partner_id=PENDING_GYG_ID",
-      "url_queenstown": "https://www.getyourguide.com/queenstown-l383/?partner_id=PENDING_GYG_ID",
-      "url_auckland": "https://www.getyourguide.com/auckland-l953/?partner_id=PENDING_GYG_ID",
-      "url_wellington": "https://www.getyourguide.com/wellington-l954/?partner_id=PENDING_GYG_ID",
-      "url_bay_of_islands": "https://www.getyourguide.com/bay-of-islands-l56268/?partner_id=PENDING_GYG_ID",
-      "url_waitomo": "https://www.getyourguide.com/waitomo-l56287/?partner_id=PENDING_GYG_ID",
+      "url": "https://www.getyourguide.com/?partner_id=TIXNVKM",
+      "url_rotorua": "https://www.getyourguide.com/rotorua-l743/?partner_id=TIXNVKM",
+      "url_queenstown": "https://www.getyourguide.com/queenstown-l383/?partner_id=TIXNVKM",
+      "url_auckland": "https://www.getyourguide.com/auckland-l953/?partner_id=TIXNVKM",
+      "url_wellington": "https://www.getyourguide.com/wellington-l954/?partner_id=TIXNVKM",
+      "url_bay_of_islands": "https://www.getyourguide.com/bay-of-islands-l56268/?partner_id=TIXNVKM",
+      "url_waitomo": "https://www.getyourguide.com/waitomo-l56287/?partner_id=TIXNVKM",
       "commission": "8% per booking",
       "network": "GetYourGuide Partner",
       "cta": "Book Activities & Tours",
-      "status": "PENDING_SIGNUP"
+      "status": "ACTIVE",
+      "partner_id": "TIXNVKM",
+      "script": "https://widget.getyourguide.com/dist/pa.umd.production.min.js",
+      "tracking_attr": "data-gyg-partner-id=\"TIXNVKM\"",
+      "activities": {
+        "twizel-stargazing": "https://gyg.me/BgUzo0xy"
+      }
     },
     "worldnomads": {
       "name": "World Nomads Travel Insurance",
