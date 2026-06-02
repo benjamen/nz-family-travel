@@ -1,0 +1,84 @@
+{
+  "slug": "nz-family-travel-budget-guide",
+  "short_title": "NZ Budget Travel",
+  "title": "How to Do NZ on a Family Budget — Real Costs and Where to Cut",
+  "meta_desc": "New Zealand family travel on a budget: expert tips and costs to plan your dream trip",
+  "intro": "Planning a family holiday in New Zealand can be daunting, with the average daily cost for a family of four reaching $500. However, with some smart planning and insider knowledge, you can cut costs without sacrificing the experience. For a family of four, a week-long trip to the South Island can be done for under $3,000, including accommodation, food, and activities.",
+  "updated": "June 2026",
+  "reading_time": 10,
+  "sections": [
+    {
+      "heading": "Accommodation Options",
+      "body": "When it comes to accommodation, self-catering is often the most cost-effective option for families. Websites like Bookabach and Holiday Houses offer a wide range of options, from apartments to houses, with prices starting from $150 per night. For a week-long stay, expect to pay around $1,000-$1,500."
+    },
+    {
+      "heading": "Free Activities",
+      "list": [
+        "Visit the Auckland Art Gallery Toi o Tāmaki (free admission)",
+        "Explore the Wellington waterfront and Te Papa Museum (free admission)",
+        "Go hiking in the beautiful Queenstown trails (free)",
+        "Visit the Hamilton Gardens (free admission)"
+      ]
+    },
+    {
+      "heading": "Cheap Accommodation",
+      "table": {
+        "headers": [
+          "Location",
+          "Accommodation Type",
+          "Price per Night"
+        ],
+        "rows": [
+          [
+            "Auckland",
+            "Hostel dorm",
+            "$30"
+          ],
+          [
+            "Wellington",
+            "Budget motel",
+            "$80"
+          ],
+          [
+            "Queenstown",
+            "Campsite",
+            "$20"
+          ],
+          [
+            "Rotorua",
+            "Holiday park cabin",
+            "$120"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Food and Groceries",
+      "body": "Eating out can be expensive in New Zealand, with the average meal price ranging from $15-$30 per person. Self-catering and preparing your own meals can save you a significant amount of money. A weekly grocery shop for a family of four can cost around $100-$150. Consider shopping at supermarkets like Countdown or New World, and look out for special deals and discounts."
+    },
+    {
+      "heading": "Transportation",
+      "body": "Renting a car or campervan can be a cost-effective way to get around New Zealand, especially for families. A campervan rental for a week can cost around $800-$1,200, depending on the size and type of vehicle. Drive times between major cities can be significant, with Auckland to Wellington taking around 8 hours, and Christchurch to Queenstown taking around 7.5 hours."
+    },
+    {
+      "heading": "Budget Breakdown",
+      "body": "Here's a rough estimate of what a week-long trip to New Zealand might cost for a family of four: $1,500 for accommodation, $800 for transportation, $500 for food and groceries, and $200 for activities and attractions. This totals around $3,000 for the week. However, this can vary depending on your specific travel plans and preferences."
+    },
+    {
+      "heading": "Plan Your Trip",
+      "cta": {
+        "text": "Use our NZ Family Travel Budget Calculator to plan your trip",
+        "url": "/tools/nz-family-travel-budget-calculator/",
+        "affiliate": false
+      }
+    },
+    {
+      "heading": "More Travel Tips",
+      "cta": {
+        "text": "Explore our destinations page for more travel tips and inspiration",
+        "url": "/destinations/",
+        "affiliate": false
+      }
+    }
+  ]
+}

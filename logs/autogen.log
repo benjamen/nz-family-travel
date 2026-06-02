@@ -392,3 +392,63 @@ Generated 5 articles.
 Rebuilding site...
   Build complete — 288 HTML pages → /home/ben/nz-family-travel/docs/
   Pushed to GitHub Pages
+[main 81d677a] Auto-generate 5 articles — 2026-06-03
+ 271 files changed, 14197 insertions(+), 308 deletions(-)
+ create mode 100644 MAILERLITE-SETUP.md
+ create mode 100644 content/posts/auckland-with-kids-june-family-guide.json
+ create mode 100644 content/posts/hawkes-bay-family-guide-budget-family-guide-2026-06.json
+ create mode 100644 content/posts/new-plymouth-taranaki-family-hidden-gems-families.json
+ create mode 100644 content/posts/wellington-with-kids-family-deals-2026-06.json
+ create mode 100644 content/travel-tips/nz-3-day-north-island-family-itinerary.json
+ create mode 100644 content/travel-tips/nz-5-day-north-island-family-itinerary.json
+ create mode 100644 content/travel-tips/nz-7-day-north-island-family-itinerary.json
+ create mode 100644 content/travel-tips/nz-school-holidays-2025-2027.json
+ create mode 100644 docs/posts/auckland-with-kids-june-family-guide/index.html
+ create mode 100644 docs/posts/hawkes-bay-family-guide-budget-family-guide-2026-06/index.html
+ create mode 100644 docs/posts/new-plymouth-taranaki-family-hidden-gems-families/index.html
+ create mode 100644 docs/posts/wellington-with-kids-family-deals-2026-06/index.html
+ create mode 100644 docs/travel-tips/auckland-with-kids-june-family-guide/index.html
+ create mode 100644 docs/travel-tips/hawkes-bay-family-guide-budget-family-guide-2026-06/index.html
+ create mode 100644 docs/travel-tips/new-plymouth-taranaki-family-hidden-gems-families/index.html
+ create mode 100644 docs/travel-tips/nz-3-day-north-island-family-itinerary/index.html
+ create mode 100644 docs/travel-tips/nz-5-day-north-island-family-itinerary/index.html
+ create mode 100644 docs/travel-tips/nz-7-day-north-island-family-itinerary/index.html
+ create mode 100644 docs/travel-tips/nz-school-holidays-2025-2027/index.html
+ create mode 100644 docs/travel-tips/wellington-with-kids-family-deals-2026-06/index.html
+
+Today's 5 articles (2026-06-03):
+
+  1. [deals          ] Wellington                          — wellington-with-kids-family-deals-2026-06
+     WILL GENERATE
+  2. [month_guide    ] Auckland                            — auckland-with-kids-june-family-guide
+     WILL GENERATE
+  3. [budget         ] Hawke's Bay                         — hawkes-bay-family-guide-budget-family-guide-2026-06
+     WILL GENERATE
+  4. [activity_review] Wellington Cable Car                — wellington-cable-car-family-review-2026-06
+     EXISTS
+  5. [hidden_gems    ] New Plymouth & Taranaki             — new-plymouth-taranaki-family-hidden-gems-families
+     WILL GENERATE
+
+[1/5] Generating: wellington-with-kids-family-deals-2026-06
+  Calling Groq (llama-3.3-70b-versatile)...
+  Saved: content/posts/wellington-with-kids-family-deals-2026-06.json
+
+[2/5] Generating: auckland-with-kids-june-family-guide
+  Calling Groq (llama-3.3-70b-versatile)...
+  Saved: content/posts/auckland-with-kids-june-family-guide.json
+
+[3/5] Generating: hawkes-bay-family-guide-budget-family-guide-2026-06
+  Calling Groq (llama-3.3-70b-versatile)...
+  Saved: content/posts/hawkes-bay-family-guide-budget-family-guide-2026-06.json
+
+[4/5] Skipping (already exists): wellington-cable-car-family-review-2026-06
+
+[5/5] Generating: new-plymouth-taranaki-family-hidden-gems-families
+  Calling Groq (llama-3.3-70b-versatile)...
+  Saved: content/posts/new-plymouth-taranaki-family-hidden-gems-families.json
+
+Generated 4 articles.
+
+Rebuilding site...
+  Build complete — 300 HTML pages → /home/ben/nz-family-travel/docs/
+  Pushed to GitHub Pages
