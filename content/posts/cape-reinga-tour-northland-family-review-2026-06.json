@@ -50,5 +50,10 @@
   "slug": "cape-reinga-tour-northland-family-review-2026-06",
   "updated": "June 2026",
   "auto_generated": true,
-  "generated_date": "2026-06-02"
+  "generated_date": "2026-06-02",
+  "hero_image": {
+    "url": "/static/img/destinations/northland-bay-of-islands.jpg",
+    "alt": "Northland with kids",
+    "credit": "NZ Family Travel"
+  }
 }

@@ -109,5 +109,10 @@
       "question": "What NZ experiences are best for young children under 5?",
       "answer": "Kuirau Park (free geothermal mud pools), Rainbow Springs kiwi centre, Agrodome farm show, Mount Maunganui beach, Kaiteriteri beach, Rotorua luge (tandem from age 3), and any NZ beach or holiday park with a playground are all excellent for children under 5."
     }
-  ]
+  ],
+  "hero_image": {
+    "url": "/static/img/destinations/fiordland-milford-sound-family.jpg",
+    "alt": "New Zealand family holiday bucket list",
+    "credit": "NZ Family Travel"
+  }
 }

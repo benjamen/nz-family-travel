@@ -80,5 +80,10 @@
   "slug": "auckland-with-kids-budget-family-guide-2026-05",
   "updated": "May 2026",
   "auto_generated": true,
-  "generated_date": "2026-05-30"
+  "generated_date": "2026-05-30",
+  "hero_image": {
+    "url": "/static/img/destinations/auckland-with-kids.jpg",
+    "alt": "Auckland with kids, New Zealand",
+    "credit": "NZ Family Travel"
+  }
 }

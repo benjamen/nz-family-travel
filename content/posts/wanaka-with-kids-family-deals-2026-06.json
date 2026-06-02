@@ -46,5 +46,10 @@
   "slug": "wanaka-with-kids-family-deals-2026-06",
   "updated": "June 2026",
   "auto_generated": true,
-  "generated_date": "2026-06-01"
+  "generated_date": "2026-06-01",
+  "hero_image": {
+    "url": "/static/img/destinations/wanaka-with-kids.jpg",
+    "alt": "Wanaka with kids",
+    "credit": "NZ Family Travel"
+  }
 }

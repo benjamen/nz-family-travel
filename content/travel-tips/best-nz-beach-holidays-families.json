@@ -10,18 +10,84 @@
     {
       "heading": "Best NZ Beach Destinations for Families — Quick Overview",
       "table": {
-        "headers": ["Destination", "Region", "Best For", "Best Season", "Nearest Town"],
+        "headers": [
+          "Destination",
+          "Region",
+          "Best For",
+          "Best Season",
+          "Nearest Town"
+        ],
         "rows": [
-          ["Hahei / Cathedral Cove", "Coromandel", "Spectacular scenery, snorkelling, caves", "Dec–Feb", "Whitianga"],
-          ["Hot Water Beach", "Coromandel", "Unique thermal activity, surfing", "Dec–Mar", "Whitianga"],
-          ["Mount Maunganui", "Bay of Plenty", "Surf beach, flat walk, family town", "Nov–Mar", "Tauranga"],
-          ["Paihia / Bay of Islands", "Northland", "Calm swimming, dolphin watching, history", "Nov–Apr", "Paihia"],
-          ["Ninety Mile Beach", "Northland", "Vast wild beach, toheroa digging", "Nov–Apr", "Kaitaia"],
-          ["Kaikōura", "Canterbury", "Seals on the road, whale watching", "Oct–Apr", "Kaikōura"],
-          ["Abel Tasman beaches", "Nelson/Tasman", "Golden sand, kayaking, national park", "Nov–Mar", "Motueka/Nelson"],
-          ["Kaiteriteri", "Nelson/Tasman", "Safest swimming, golden sand, family resort", "Nov–Mar", "Motueka"],
-          ["Waihi Beach", "Bay of Plenty", "Quieter, long surf beach, holiday park", "Dec–Feb", "Waihi"],
-          ["Ōhope Beach", "Bay of Plenty", "Sheltered harbour side + ocean side", "Dec–Feb", "Whakatāne"]
+          [
+            "Hahei / Cathedral Cove",
+            "Coromandel",
+            "Spectacular scenery, snorkelling, caves",
+            "Dec–Feb",
+            "Whitianga"
+          ],
+          [
+            "Hot Water Beach",
+            "Coromandel",
+            "Unique thermal activity, surfing",
+            "Dec–Mar",
+            "Whitianga"
+          ],
+          [
+            "Mount Maunganui",
+            "Bay of Plenty",
+            "Surf beach, flat walk, family town",
+            "Nov–Mar",
+            "Tauranga"
+          ],
+          [
+            "Paihia / Bay of Islands",
+            "Northland",
+            "Calm swimming, dolphin watching, history",
+            "Nov–Apr",
+            "Paihia"
+          ],
+          [
+            "Ninety Mile Beach",
+            "Northland",
+            "Vast wild beach, toheroa digging",
+            "Nov–Apr",
+            "Kaitaia"
+          ],
+          [
+            "Kaikōura",
+            "Canterbury",
+            "Seals on the road, whale watching",
+            "Oct–Apr",
+            "Kaikōura"
+          ],
+          [
+            "Abel Tasman beaches",
+            "Nelson/Tasman",
+            "Golden sand, kayaking, national park",
+            "Nov–Mar",
+            "Motueka/Nelson"
+          ],
+          [
+            "Kaiteriteri",
+            "Nelson/Tasman",
+            "Safest swimming, golden sand, family resort",
+            "Nov–Mar",
+            "Motueka"
+          ],
+          [
+            "Waihi Beach",
+            "Bay of Plenty",
+            "Quieter, long surf beach, holiday park",
+            "Dec–Feb",
+            "Waihi"
+          ],
+          [
+            "Ōhope Beach",
+            "Bay of Plenty",
+            "Sheltered harbour side + ocean side",
+            "Dec–Feb",
+            "Whakatāne"
+          ]
         ]
       }
     },
@@ -84,5 +150,10 @@
       "question": "Are NZ beaches safe for swimming with kids?",
       "answer": "Patrolled beaches are safe — always swim between the flags. Many NZ surf beaches are dangerous for children due to rip currents and heavy surf. The safest beaches for young children are sheltered harbour beaches (Paihia, Kaiteriteri, Auckland harbour beaches) where waves are minimal."
     }
-  ]
+  ],
+  "hero_image": {
+    "url": "/static/img/destinations/best-nz-beach-holidays-families.jpg",
+    "alt": "New Zealand beach, perfect for family holidays",
+    "credit": "Wikimedia Commons"
+  }
 }

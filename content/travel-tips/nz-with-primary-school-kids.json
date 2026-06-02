@@ -10,18 +10,62 @@
     {
       "heading": "What Primary-Age Kids Can Do in NZ",
       "table": {
-        "headers": ["Activity Type", "Age 5–7", "Age 7–10"],
+        "headers": [
+          "Activity Type",
+          "Age 5–7",
+          "Age 7–10"
+        ],
         "rows": [
-          ["Beach swimming (patrolled beaches)", "Yes — supervised", "Yes"],
-          ["Short bush walks (1–2 hr return)", "Yes — with breaks", "Yes, comfortably"],
-          ["Kayaking (tandem with parent)", "Yes", "Yes, may solo paddle"],
-          ["Glowworm caves (Waitomo)", "Yes", "Yes"],
-          ["White water rafting", "Grade 1–2 only, age-dependent", "Grade 2–3, check operator minimums"],
-          ["Skiing (Queenstown, Ruapehu)", "Lessons from age 3+", "Can ski independently"],
-          ["Skydiving / bungy", "No minimum age met", "No (min age 10–16 depending on operator)"],
-          ["Ziplines and tree adventures", "Some operators from age 5", "Yes"],
-          ["Dolphin watching (Kaikoura)", "Yes", "Yes"],
-          ["Working farm stays", "Yes", "Yes"]
+          [
+            "Beach swimming (patrolled beaches)",
+            "Yes — supervised",
+            "Yes"
+          ],
+          [
+            "Short bush walks (1–2 hr return)",
+            "Yes — with breaks",
+            "Yes, comfortably"
+          ],
+          [
+            "Kayaking (tandem with parent)",
+            "Yes",
+            "Yes, may solo paddle"
+          ],
+          [
+            "Glowworm caves (Waitomo)",
+            "Yes",
+            "Yes"
+          ],
+          [
+            "White water rafting",
+            "Grade 1–2 only, age-dependent",
+            "Grade 2–3, check operator minimums"
+          ],
+          [
+            "Skiing (Queenstown, Ruapehu)",
+            "Lessons from age 3+",
+            "Can ski independently"
+          ],
+          [
+            "Skydiving / bungy",
+            "No minimum age met",
+            "No (min age 10–16 depending on operator)"
+          ],
+          [
+            "Ziplines and tree adventures",
+            "Some operators from age 5",
+            "Yes"
+          ],
+          [
+            "Dolphin watching (Kaikoura)",
+            "Yes",
+            "Yes"
+          ],
+          [
+            "Working farm stays",
+            "Yes",
+            "Yes"
+          ]
         ]
       }
     },
@@ -94,5 +138,10 @@
       "question": "When is the best time to visit NZ with primary-age children?",
       "answer": "December–February for warmest weather and beach activities. April for shoulder season prices with still-warm weather. July for skiing (Queenstown, Ruapehu). Avoid peak school holiday periods for better prices and availability."
     }
-  ]
+  ],
+  "hero_image": {
+    "url": "/static/img/destinations/coromandel-with-kids.jpg",
+    "alt": "New Zealand with primary school kids",
+    "credit": "NZ Family Travel"
+  }
 }

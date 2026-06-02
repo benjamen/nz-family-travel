@@ -10,14 +10,56 @@
     {
       "heading": "NZ Family Road Trip Routes — Overview",
       "table": {
-        "headers": ["Route", "Duration", "Best For", "Distance", "Difficulty"],
+        "headers": [
+          "Route",
+          "Duration",
+          "Best For",
+          "Distance",
+          "Difficulty"
+        ],
         "rows": [
-          ["North Island Circuit", "10–14 days", "First-time visitors, young children", "~1,800km", "Easy"],
-          ["South Island Circuit", "12–16 days", "Families who want scenery, older children", "~2,200km", "Moderate"],
-          ["Both Islands (full NZ)", "21–28 days", "Once-in-a-lifetime trip, all ages", "~4,000km", "Easy-moderate"],
-          ["Auckland to Queenstown one-way", "10–14 days", "Families flying in/out of different airports", "~2,500km", "Easy-moderate"],
-          ["Northland Loop (from Auckland)", "5–7 days", "Short trip, beach focus, young kids", "~900km", "Easy"],
-          ["Canterbury/West Coast loop", "7–10 days", "South Island in depth, older children", "~1,200km", "Moderate"]
+          [
+            "North Island Circuit",
+            "10–14 days",
+            "First-time visitors, young children",
+            "~1,800km",
+            "Easy"
+          ],
+          [
+            "South Island Circuit",
+            "12–16 days",
+            "Families who want scenery, older children",
+            "~2,200km",
+            "Moderate"
+          ],
+          [
+            "Both Islands (full NZ)",
+            "21–28 days",
+            "Once-in-a-lifetime trip, all ages",
+            "~4,000km",
+            "Easy-moderate"
+          ],
+          [
+            "Auckland to Queenstown one-way",
+            "10–14 days",
+            "Families flying in/out of different airports",
+            "~2,500km",
+            "Easy-moderate"
+          ],
+          [
+            "Northland Loop (from Auckland)",
+            "5–7 days",
+            "Short trip, beach focus, young kids",
+            "~900km",
+            "Easy"
+          ],
+          [
+            "Canterbury/West Coast loop",
+            "7–10 days",
+            "South Island in depth, older children",
+            "~1,200km",
+            "Moderate"
+          ]
         ]
       }
     },
@@ -46,15 +88,47 @@
     {
       "heading": "Rental Car vs Campervan for NZ Family Road Trip",
       "table": {
-        "headers": ["Factor", "Rental Car + Accommodation", "Campervan"],
+        "headers": [
+          "Factor",
+          "Rental Car + Accommodation",
+          "Campervan"
+        ],
         "rows": [
-          ["Daily cost", "$80–$180 (car) + $150–$400 (accom)", "$200–$350 (campervan only)"],
-          ["Flexibility", "High — book accommodation ahead or on day", "High — freedom camping + holiday parks"],
-          ["Comfort", "Better — proper beds, private bathroom", "Lower — small space, shared facilities"],
-          ["With young children (<3)", "Much easier — full-size accommodation", "Difficult — space constraints"],
-          ["With children 5+", "Both work well", "Kids often love the adventure"],
-          ["Best season", "Year-round", "Oct–Apr best (freedom camping season)"],
-          ["Budget outcome (14 days)", "$4,500–$8,000 total", "$3,500–$6,000 total"]
+          [
+            "Daily cost",
+            "$80–$180 (car) + $150–$400 (accom)",
+            "$200–$350 (campervan only)"
+          ],
+          [
+            "Flexibility",
+            "High — book accommodation ahead or on day",
+            "High — freedom camping + holiday parks"
+          ],
+          [
+            "Comfort",
+            "Better — proper beds, private bathroom",
+            "Lower — small space, shared facilities"
+          ],
+          [
+            "With young children (<3)",
+            "Much easier — full-size accommodation",
+            "Difficult — space constraints"
+          ],
+          [
+            "With children 5+",
+            "Both work well",
+            "Kids often love the adventure"
+          ],
+          [
+            "Best season",
+            "Year-round",
+            "Oct–Apr best (freedom camping season)"
+          ],
+          [
+            "Budget outcome (14 days)",
+            "$4,500–$8,000 total",
+            "$3,500–$6,000 total"
+          ]
         ]
       }
     },
@@ -91,5 +165,10 @@
       "question": "What is the best NZ road trip route for families?",
       "answer": "For families with young children, the North Island circuit (Auckland → Bay of Islands → Rotorua → Taupo → Wellington) is the best first road trip — shorter drives, excellent family attractions, and the North Island is generally warmer. Families with older children should add the South Island."
     }
-  ]
+  ],
+  "hero_image": {
+    "url": "/static/img/destinations/queenstown-with-kids.jpg",
+    "alt": "New Zealand family road trip",
+    "credit": "NZ Family Travel"
+  }
 }

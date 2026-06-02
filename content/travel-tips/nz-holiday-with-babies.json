@@ -10,15 +10,39 @@
     {
       "heading": "Quick Summary — NZ with a Baby",
       "table": {
-        "headers": ["Factor", "What to Expect"],
+        "headers": [
+          "Factor",
+          "What to Expect"
+        ],
         "rows": [
-          ["Best age for first trip", "3–9 months (pre-crawling, post-settling)"],
-          ["Breastfeeding in public", "Fully accepted, legal right, common everywhere"],
-          ["Formula availability", "All major supermarkets, Countdown, New World, Pak'nSave"],
-          ["Nappy changing facilities", "Good at most attractions, petrol stations, and holiday parks"],
-          ["Baby car seats", "Required by law — hire from rental companies or bring your own"],
-          ["Best destination type", "Holiday parks with family cabins, self-contained accommodation"],
-          ["What to avoid (under 12 months)", "Long multi-day hikes, very remote locations, extreme cold"]
+          [
+            "Best age for first trip",
+            "3–9 months (pre-crawling, post-settling)"
+          ],
+          [
+            "Breastfeeding in public",
+            "Fully accepted, legal right, common everywhere"
+          ],
+          [
+            "Formula availability",
+            "All major supermarkets, Countdown, New World, Pak'nSave"
+          ],
+          [
+            "Nappy changing facilities",
+            "Good at most attractions, petrol stations, and holiday parks"
+          ],
+          [
+            "Baby car seats",
+            "Required by law — hire from rental companies or bring your own"
+          ],
+          [
+            "Best destination type",
+            "Holiday parks with family cabins, self-contained accommodation"
+          ],
+          [
+            "What to avoid (under 12 months)",
+            "Long multi-day hikes, very remote locations, extreme cold"
+          ]
         ]
       }
     },
@@ -102,5 +126,10 @@
       "question": "Is formula available in New Zealand?",
       "answer": "Yes — Karicare, Aptamil, Bellamy's, and other major brands are widely available at Countdown, New World, and Pak'nSave supermarkets. If you're travelling to remote areas, stock up before you leave town."
     }
-  ]
+  ],
+  "hero_image": {
+    "url": "/static/img/destinations/bay-of-islands-family.jpg",
+    "alt": "New Zealand family holiday with babies",
+    "credit": "NZ Family Travel"
+  }
 }

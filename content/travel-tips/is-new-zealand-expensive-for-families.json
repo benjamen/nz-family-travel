@@ -14,15 +14,55 @@
     {
       "heading": "How NZ Compares to Other Destinations",
       "table": {
-        "headers": ["Destination", "Daily Budget (Family of 4)", "Relative Cost", "Notes"],
+        "headers": [
+          "Destination",
+          "Daily Budget (Family of 4)",
+          "Relative Cost",
+          "Notes"
+        ],
         "rows": [
-          ["New Zealand", "$450–$700 NZD/day", "Moderate-high", "Big variation between budget/premium"],
-          ["Australia", "$400–$650 AUD/day", "Similar", "Comparable costs overall"],
-          ["Bali, Indonesia", "$150–$350 NZD/day", "Much cheaper", "Budget-friendly, very different experience"],
-          ["UK/Europe", "$500–$900 NZD equiv/day", "Similar or more", "Depends on city vs countryside"],
-          ["USA", "$500–$850 NZD equiv/day", "Similar or more", "Varies significantly by region"],
-          ["Japan", "$400–$700 NZD equiv/day", "Similar", "Food cheaper, activities comparable"],
-          ["Fiji", "$400–$700 NZD/day", "Similar", "Cheaper budget option, premium resorts expensive"]
+          [
+            "New Zealand",
+            "$450–$700 NZD/day",
+            "Moderate-high",
+            "Big variation between budget/premium"
+          ],
+          [
+            "Australia",
+            "$400–$650 AUD/day",
+            "Similar",
+            "Comparable costs overall"
+          ],
+          [
+            "Bali, Indonesia",
+            "$150–$350 NZD/day",
+            "Much cheaper",
+            "Budget-friendly, very different experience"
+          ],
+          [
+            "UK/Europe",
+            "$500–$900 NZD equiv/day",
+            "Similar or more",
+            "Depends on city vs countryside"
+          ],
+          [
+            "USA",
+            "$500–$850 NZD equiv/day",
+            "Similar or more",
+            "Varies significantly by region"
+          ],
+          [
+            "Japan",
+            "$400–$700 NZD equiv/day",
+            "Similar",
+            "Food cheaper, activities comparable"
+          ],
+          [
+            "Fiji",
+            "$400–$700 NZD/day",
+            "Similar",
+            "Cheaper budget option, premium resorts expensive"
+          ]
         ]
       }
     },
@@ -87,5 +127,10 @@
       "question": "What is the cheapest way to travel NZ with kids?",
       "answer": "A self-contained campervan using freedom camping and DOC sites is the cheapest way to travel NZ with kids. Holiday park cabins with kitchen access are the next best option. Avoiding Queenstown and peak school holidays also significantly reduces costs."
     }
-  ]
+  ],
+  "hero_image": {
+    "url": "/static/img/destinations/wellington-with-kids.jpg",
+    "alt": "Family travel costs in New Zealand",
+    "credit": "NZ Family Travel"
+  }
 }

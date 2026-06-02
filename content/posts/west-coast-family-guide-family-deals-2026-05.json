@@ -44,5 +44,10 @@
   "slug": "west-coast-family-guide-family-deals-2026-05",
   "updated": "May 2026",
   "auto_generated": true,
-  "generated_date": "2026-05-31"
+  "generated_date": "2026-05-31",
+  "hero_image": {
+    "url": "/static/img/destinations/west-coast-family-guide.jpg",
+    "alt": "West Coast with kids",
+    "credit": "NZ Family Travel"
+  }
 }

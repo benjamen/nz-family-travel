@@ -56,5 +56,10 @@
   "slug": "orana-wildlife-park-christchurch-family-review-2026-05",
   "updated": "May 2026",
   "auto_generated": true,
-  "generated_date": "2026-05-31"
+  "generated_date": "2026-05-31",
+  "hero_image": {
+    "url": "/static/img/destinations/christchurch-with-kids.jpg",
+    "alt": "Christchurch with kids",
+    "credit": "NZ Family Travel"
+  }
 }

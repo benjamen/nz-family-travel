@@ -10,13 +10,43 @@
     {
       "heading": "Queenstown with Kids — 5-Night Budget Summary (Family of 4)",
       "table": {
-        "headers": ["Category", "Budget Option", "Mid-Range", "Premium"],
+        "headers": [
+          "Category",
+          "Budget Option",
+          "Mid-Range",
+          "Premium"
+        ],
         "rows": [
-          ["Accommodation (5 nights)", "$900–$1,200", "$1,500–$2,500", "$3,000–$5,000+"],
-          ["Activities (5 days)", "$400–$700", "$800–$1,400", "$2,000–$3,500"],
-          ["Food and dining (5 days)", "$400–$600", "$700–$1,200", "$1,500–$2,500"],
-          ["Transport (flights + local)", "$600–$1,000", "$800–$1,400", "$1,200–$2,000"],
-          ["Total (5 nights, family of 4)", "$2,300–$3,500", "$3,800–$6,500", "$8,000–$13,000"]
+          [
+            "Accommodation (5 nights)",
+            "$900–$1,200",
+            "$1,500–$2,500",
+            "$3,000–$5,000+"
+          ],
+          [
+            "Activities (5 days)",
+            "$400–$700",
+            "$800–$1,400",
+            "$2,000–$3,500"
+          ],
+          [
+            "Food and dining (5 days)",
+            "$400–$600",
+            "$700–$1,200",
+            "$1,500–$2,500"
+          ],
+          [
+            "Transport (flights + local)",
+            "$600–$1,000",
+            "$800–$1,400",
+            "$1,200–$2,000"
+          ],
+          [
+            "Total (5 nights, family of 4)",
+            "$2,300–$3,500",
+            "$3,800–$6,500",
+            "$8,000–$13,000"
+          ]
         ]
       }
     },
@@ -27,16 +57,70 @@
     {
       "heading": "Activity Costs in Queenstown with Kids",
       "table": {
-        "headers": ["Activity", "Child Price", "Adult Price", "Family of 4 (2A+2C)", "Age Minimum"],
+        "headers": [
+          "Activity",
+          "Child Price",
+          "Adult Price",
+          "Family of 4 (2A+2C)",
+          "Age Minimum"
+        ],
         "rows": [
-          ["Skyline Gondola", "$29", "$46", "$150", "All ages"],
-          ["Luge (gondola + 3 rides)", "$45", "$57", "$204", "3+ (some restrictions)"],
-          ["Kiwi Birdlife Park", "$20", "$49", "$138", "All ages"],
-          ["AJ Hackett Bungy (Kawarau)", "N/A", "$195+", "Adults only", "18+"],
-          ["Jet Boat (Shotover)", "$119", "$169", "$576", "3+ (varies)"],
-          ["Dart River Safari", "$165", "$225", "$780", "3+"],
-          ["Remarkables skiing (day pass)", "$90", "$165", "$510", "3+"],
-          ["Arrowtown visit", "Free", "Free", "$0", "All ages"]
+          [
+            "Skyline Gondola",
+            "$29",
+            "$46",
+            "$150",
+            "All ages"
+          ],
+          [
+            "Luge (gondola + 3 rides)",
+            "$45",
+            "$57",
+            "$204",
+            "3+ (some restrictions)"
+          ],
+          [
+            "Kiwi Birdlife Park",
+            "$20",
+            "$49",
+            "$138",
+            "All ages"
+          ],
+          [
+            "AJ Hackett Bungy (Kawarau)",
+            "N/A",
+            "$195+",
+            "Adults only",
+            "18+"
+          ],
+          [
+            "Jet Boat (Shotover)",
+            "$119",
+            "$169",
+            "$576",
+            "3+ (varies)"
+          ],
+          [
+            "Dart River Safari",
+            "$165",
+            "$225",
+            "$780",
+            "3+"
+          ],
+          [
+            "Remarkables skiing (day pass)",
+            "$90",
+            "$165",
+            "$510",
+            "3+"
+          ],
+          [
+            "Arrowtown visit",
+            "Free",
+            "Free",
+            "$0",
+            "All ages"
+          ]
         ]
       }
     },
@@ -87,5 +171,10 @@
       "question": "What is the cheapest time to visit Queenstown with kids?",
       "answer": "Shoulder seasons — May/June and September/October — offer the best value. July school holidays are peak and most expensive. Summer (December–February) is busy and expensive but offers different activities. Spring (October) is often excellent value with good weather."
     }
-  ]
+  ],
+  "hero_image": {
+    "url": "/static/img/destinations/queenstown-with-kids-cost.jpg",
+    "alt": "Queenstown, New Zealand",
+    "credit": "Wikimedia Commons"
+  }
 }

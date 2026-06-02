@@ -10,12 +10,42 @@
     {
       "heading": "NZ School Holiday Dates 2026",
       "table": {
-        "headers": ["Term", "Holiday Period (approx)", "Duration", "Season", "Key Character"],
+        "headers": [
+          "Term",
+          "Holiday Period (approx)",
+          "Duration",
+          "Season",
+          "Key Character"
+        ],
         "rows": [
-          ["Term 1 (Autumn)", "11–26 April 2026", "2 weeks", "Autumn", "Mild weather, fewer crowds, good value"],
-          ["Term 2 (Winter)", "4–19 July 2026", "2 weeks", "Winter", "Peak ski season, expensive, book months ahead"],
-          ["Term 3 (Spring)", "26 Sep – 11 Oct 2026", "2 weeks", "Spring", "Warming up, uncrowded, good for travel"],
-          ["Term 4 (Summer)", "Mid-Dec 2026 – early Feb 2027", "~6 weeks", "Summer", "Peak season, most expensive, busiest"]
+          [
+            "Term 1 (Autumn)",
+            "11–26 April 2026",
+            "2 weeks",
+            "Autumn",
+            "Mild weather, fewer crowds, good value"
+          ],
+          [
+            "Term 2 (Winter)",
+            "4–19 July 2026",
+            "2 weeks",
+            "Winter",
+            "Peak ski season, expensive, book months ahead"
+          ],
+          [
+            "Term 3 (Spring)",
+            "26 Sep – 11 Oct 2026",
+            "2 weeks",
+            "Spring",
+            "Warming up, uncrowded, good for travel"
+          ],
+          [
+            "Term 4 (Summer)",
+            "Mid-Dec 2026 – early Feb 2027",
+            "~6 weeks",
+            "Summer",
+            "Peak season, most expensive, busiest"
+          ]
         ]
       }
     },
@@ -92,12 +122,37 @@
     {
       "heading": "School Holiday Budget by Break",
       "table": {
-        "headers": ["Break", "At-home (family of 4)", "Short trip (2–3 nights)", "Full holiday (7–10 nights)"],
+        "headers": [
+          "Break",
+          "At-home (family of 4)",
+          "Short trip (2–3 nights)",
+          "Full holiday (7–10 nights)"
+        ],
         "rows": [
-          ["April (Autumn)", "$200–$500", "$800–$1,500", "$2,500–$5,000"],
-          ["July (Winter)", "$200–$800 (ski day = $1,000)", "$1,200–$2,500", "$3,500–$8,000 (inc. skiing)"],
-          ["September (Spring)", "$200–$500", "$700–$1,400", "$2,000–$4,500"],
-          ["December–January (Summer)", "$300–$700", "$1,000–$2,000", "$4,000–$10,000+"]
+          [
+            "April (Autumn)",
+            "$200–$500",
+            "$800–$1,500",
+            "$2,500–$5,000"
+          ],
+          [
+            "July (Winter)",
+            "$200–$800 (ski day = $1,000)",
+            "$1,200–$2,500",
+            "$3,500–$8,000 (inc. skiing)"
+          ],
+          [
+            "September (Spring)",
+            "$200–$500",
+            "$700–$1,400",
+            "$2,000–$4,500"
+          ],
+          [
+            "December–January (Summer)",
+            "$300–$700",
+            "$1,000–$2,000",
+            "$4,000–$10,000+"
+          ]
         ]
       }
     },
@@ -131,5 +186,10 @@
       "question": "What are free school holiday activities for kids in NZ?",
       "answer": "Public libraries (free holiday programmes), DOC family walks, free museum entry (Te Papa, Auckland Museum, Canterbury Museum), local beaches and rivers, and council-run holiday events are all free. Many NZ attractions also offer discounted family rates or child-free promotions during April and September breaks."
     }
-  ]
+  ],
+  "hero_image": {
+    "url": "/static/img/destinations/taupo-with-kids.jpg",
+    "alt": "NZ school holidays activities for kids",
+    "credit": "NZ Family Travel"
+  }
 }

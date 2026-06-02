@@ -81,5 +81,10 @@
         "affiliate": false
       }
     }
-  ]
+  ],
+  "hero_image": {
+    "url": "/static/img/destinations/camping-nz-with-kids.jpg",
+    "alt": "New Zealand holiday park",
+    "credit": "Wikimedia Commons"
+  }
 }

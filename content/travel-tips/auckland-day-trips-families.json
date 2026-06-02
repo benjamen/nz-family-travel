@@ -88,5 +88,10 @@
         "affiliate": false
       }
     }
-  ]
+  ],
+  "hero_image": {
+    "url": "/static/img/destinations/auckland-with-kids.jpg",
+    "alt": "Auckland day trips with kids",
+    "credit": "NZ Family Travel"
+  }
 }

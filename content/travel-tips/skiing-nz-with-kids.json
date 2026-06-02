@@ -10,15 +10,71 @@
     {
       "heading": "Best NZ Ski Fields for Families — Quick Comparison",
       "table": {
-        "headers": ["Ski Field", "Location", "Best For", "Day Pass (Adult)", "Day Pass (Child)", "Ski School?"],
+        "headers": [
+          "Ski Field",
+          "Location",
+          "Best For",
+          "Day Pass (Adult)",
+          "Day Pass (Child)",
+          "Ski School?"
+        ],
         "rows": [
-          ["Coronet Peak", "Queenstown", "Beginners + intermediates, night skiing", "$155–$175", "$85–$95", "Yes — strong"],
-          ["The Remarkables", "Queenstown", "Beginners, families with young kids", "$155–$175", "$85–$95", "Yes — excellent"],
-          ["Cardrona", "Wanaka", "Best beginner terrain, family-friendly", "$145–$165", "$80–$90", "Yes — top-rated"],
-          ["Mt Hutt", "Methven (Canterbury)", "Large terrain, good snowfall, reliable", "$140–$160", "$80–$90", "Yes"],
-          ["Mt Ruapehu (Whakapapa)", "Tongariro, North Island", "Only major North Island option", "$120–$140", "$70–$80", "Yes"],
-          ["Rainbow Ski Area", "Nelson Lakes", "Budget option, quieter, good for families", "$95–$110", "$55–$65", "Limited"],
-          ["Porters", "Canterbury", "Budget, closest to Christchurch", "$75–$90", "$45–$55", "Yes — basic"]
+          [
+            "Coronet Peak",
+            "Queenstown",
+            "Beginners + intermediates, night skiing",
+            "$155–$175",
+            "$85–$95",
+            "Yes — strong"
+          ],
+          [
+            "The Remarkables",
+            "Queenstown",
+            "Beginners, families with young kids",
+            "$155–$175",
+            "$85–$95",
+            "Yes — excellent"
+          ],
+          [
+            "Cardrona",
+            "Wanaka",
+            "Best beginner terrain, family-friendly",
+            "$145–$165",
+            "$80–$90",
+            "Yes — top-rated"
+          ],
+          [
+            "Mt Hutt",
+            "Methven (Canterbury)",
+            "Large terrain, good snowfall, reliable",
+            "$140–$160",
+            "$80–$90",
+            "Yes"
+          ],
+          [
+            "Mt Ruapehu (Whakapapa)",
+            "Tongariro, North Island",
+            "Only major North Island option",
+            "$120–$140",
+            "$70–$80",
+            "Yes"
+          ],
+          [
+            "Rainbow Ski Area",
+            "Nelson Lakes",
+            "Budget option, quieter, good for families",
+            "$95–$110",
+            "$55–$65",
+            "Limited"
+          ],
+          [
+            "Porters",
+            "Canterbury",
+            "Budget, closest to Christchurch",
+            "$75–$90",
+            "$45–$55",
+            "Yes — basic"
+          ]
         ]
       }
     },
@@ -44,14 +100,42 @@
     {
       "heading": "How Much Does a NZ Ski Trip Cost with Kids?",
       "table": {
-        "headers": ["Cost Item", "Budget (family of 4)", "Notes"],
+        "headers": [
+          "Cost Item",
+          "Budget (family of 4)",
+          "Notes"
+        ],
         "rows": [
-          ["Day pass × 4 (2 adults, 2 children)", "$450–$520/day", "Book online in advance for ~10–15% discount"],
-          ["Gear hire × 4 (skis, boots, poles)", "$200–$280/day", "Season hire cheaper if skiing 5+ days"],
-          ["Ski school × 2 children (group, half day)", "$180–$260/day", "Private lessons double this"],
-          ["Food on-mountain (lunch)", "$80–$120/day", "Self-catering with packed lunches saves ~$60"],
-          ["Accommodation (Queenstown 4-night)", "$300–$600/night", "Book months ahead for school holidays"],
-          ["Transport to field (return)", "$30–$60/day", "Shuttle from Queenstown available"]
+          [
+            "Day pass × 4 (2 adults, 2 children)",
+            "$450–$520/day",
+            "Book online in advance for ~10–15% discount"
+          ],
+          [
+            "Gear hire × 4 (skis, boots, poles)",
+            "$200–$280/day",
+            "Season hire cheaper if skiing 5+ days"
+          ],
+          [
+            "Ski school × 2 children (group, half day)",
+            "$180–$260/day",
+            "Private lessons double this"
+          ],
+          [
+            "Food on-mountain (lunch)",
+            "$80–$120/day",
+            "Self-catering with packed lunches saves ~$60"
+          ],
+          [
+            "Accommodation (Queenstown 4-night)",
+            "$300–$600/night",
+            "Book months ahead for school holidays"
+          ],
+          [
+            "Transport to field (return)",
+            "$30–$60/day",
+            "Shuttle from Queenstown available"
+          ]
         ]
       }
     },
@@ -95,5 +179,10 @@
       "question": "When is the best time to ski in NZ with kids?",
       "answer": "Early-to-mid July for best snow and resort atmosphere, but before school holiday peak for shorter queues. Early June can also be excellent if snow conditions are good. August is late-season and conditions become more variable."
     }
-  ]
+  ],
+  "hero_image": {
+    "url": "/static/img/destinations/skiing-nz-with-kids.jpg",
+    "alt": "Skiing in New Zealand with kids",
+    "credit": "Wikimedia Commons"
+  }
 }

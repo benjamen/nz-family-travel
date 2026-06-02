@@ -40,27 +40,86 @@
     {
       "heading": "Best Age to Campervan NZ with Kids",
       "table": {
-        "headers": ["Age Group", "Verdict", "Key Consideration"],
+        "headers": [
+          "Age Group",
+          "Verdict",
+          "Key Consideration"
+        ],
         "rows": [
-          ["Under 2", "Difficult", "Sleep disruption, car seat logistics, night feeds in a van"],
-          ["2–4 years", "Challenging but doable", "Small spaces hard for energetic toddlers; plan lots of outdoor stops"],
-          ["5–8 years", "Excellent", "Old enough to enjoy it, flexible enough to adapt"],
-          ["9–14 years", "Outstanding", "Kids this age love the independence and adventure"],
-          ["Mixed ages", "Works well", "Older kids set the tone; younger kids follow their lead"]
+          [
+            "Under 2",
+            "Difficult",
+            "Sleep disruption, car seat logistics, night feeds in a van"
+          ],
+          [
+            "2–4 years",
+            "Challenging but doable",
+            "Small spaces hard for energetic toddlers; plan lots of outdoor stops"
+          ],
+          [
+            "5–8 years",
+            "Excellent",
+            "Old enough to enjoy it, flexible enough to adapt"
+          ],
+          [
+            "9–14 years",
+            "Outstanding",
+            "Kids this age love the independence and adventure"
+          ],
+          [
+            "Mixed ages",
+            "Works well",
+            "Older kids set the tone; younger kids follow their lead"
+          ]
         ]
       }
     },
     {
       "heading": "Campervan Company Comparison (NZ 2026)",
       "table": {
-        "headers": ["Company", "Family Van Options", "Price From (per night)", "Best For"],
+        "headers": [
+          "Company",
+          "Family Van Options",
+          "Price From (per night)",
+          "Best For"
+        ],
         "rows": [
-          ["Britz", "4-berth and 6-berth family vans", "$200–$280", "Reliable, well-equipped, good family kits"],
-          ["Maui", "4-berth and 6-berth", "$230–$310", "Premium option, newer fleet"],
-          ["Jucy", "4-berth (limited family sizes)", "$160–$220", "Budget-friendly, quirky branding"],
-          ["Apollo", "4-berth family options", "$190–$260", "Good value, decent fleet"],
-          ["Thl (Tourism Holdings)", "Multiple brands including Mighty", "$180–$250", "Competitive pricing"],
-          ["Wilderness Motorhomes", "High-end self-contained", "$350–$500+", "Luxury option, premium experience"]
+          [
+            "Britz",
+            "4-berth and 6-berth family vans",
+            "$200–$280",
+            "Reliable, well-equipped, good family kits"
+          ],
+          [
+            "Maui",
+            "4-berth and 6-berth",
+            "$230–$310",
+            "Premium option, newer fleet"
+          ],
+          [
+            "Jucy",
+            "4-berth (limited family sizes)",
+            "$160–$220",
+            "Budget-friendly, quirky branding"
+          ],
+          [
+            "Apollo",
+            "4-berth family options",
+            "$190–$260",
+            "Good value, decent fleet"
+          ],
+          [
+            "Thl (Tourism Holdings)",
+            "Multiple brands including Mighty",
+            "$180–$250",
+            "Competitive pricing"
+          ],
+          [
+            "Wilderness Motorhomes",
+            "High-end self-contained",
+            "$350–$500+",
+            "Luxury option, premium experience"
+          ]
         ]
       }
     },
@@ -71,15 +130,47 @@
     {
       "heading": "Real Cost of NZ Family Campervan Trip (14 days)",
       "table": {
-        "headers": ["Cost Item", "Budget", "Notes"],
+        "headers": [
+          "Cost Item",
+          "Budget",
+          "Notes"
+        ],
         "rows": [
-          ["Campervan rental (14 nights)", "$2,800–$4,200", "Book 3–6 months ahead for best rates"],
-          ["Campground fees (mix of paid + free)", "$350–$600", "~50% freedom/DOC, ~50% holiday parks"],
-          ["Fuel (diesel, ~2,000km)", "$350–$500", "Campervans are not fuel-efficient"],
-          ["LPG gas", "$60–$100", "For cooking and heating"],
-          ["Food/groceries", "$800–$1,200", "Self-catering; occasional café stops"],
-          ["Activities", "$600–$1,200", "Highly variable — beaches free; attractions paid"],
-          ["Total (excl. flights)", "$4,960–$7,800", "Cheaper than equivalent hotel + rental car trip"]
+          [
+            "Campervan rental (14 nights)",
+            "$2,800–$4,200",
+            "Book 3–6 months ahead for best rates"
+          ],
+          [
+            "Campground fees (mix of paid + free)",
+            "$350–$600",
+            "~50% freedom/DOC, ~50% holiday parks"
+          ],
+          [
+            "Fuel (diesel, ~2,000km)",
+            "$350–$500",
+            "Campervans are not fuel-efficient"
+          ],
+          [
+            "LPG gas",
+            "$60–$100",
+            "For cooking and heating"
+          ],
+          [
+            "Food/groceries",
+            "$800–$1,200",
+            "Self-catering; occasional café stops"
+          ],
+          [
+            "Activities",
+            "$600–$1,200",
+            "Highly variable — beaches free; attractions paid"
+          ],
+          [
+            "Total (excl. flights)",
+            "$4,960–$7,800",
+            "Cheaper than equivalent hotel + rental car trip"
+          ]
         ]
       }
     }
@@ -101,5 +192,10 @@
       "question": "Do you need to book campervan sites in advance in NZ?",
       "answer": "For school holiday periods (July, December–January) at popular holiday parks — yes, book 4–8 weeks in advance. Freedom camping sites and DOC campgrounds are generally first-come, first-served. Outside school holidays, booking a few nights ahead is sufficient."
     }
-  ]
+  ],
+  "hero_image": {
+    "url": "/static/img/destinations/north-vs-south-island-families.jpg",
+    "alt": "New Zealand campervan road trip",
+    "credit": "Wikimedia Commons"
+  }
 }

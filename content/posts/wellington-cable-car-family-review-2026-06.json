@@ -39,5 +39,10 @@
   "slug": "wellington-cable-car-family-review-2026-06",
   "updated": "June 2026",
   "auto_generated": true,
-  "generated_date": "2026-06-01"
+  "generated_date": "2026-06-01",
+  "hero_image": {
+    "url": "/static/img/destinations/wellington-with-kids.jpg",
+    "alt": "Wellington with kids",
+    "credit": "NZ Family Travel"
+  }
 }

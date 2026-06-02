@@ -75,5 +75,10 @@
   "slug": "gisborne-east-cape-family-june-family-guide",
   "updated": "June 2026",
   "auto_generated": true,
-  "generated_date": "2026-06-02"
+  "generated_date": "2026-06-02",
+  "hero_image": {
+    "url": "/static/img/destinations/gisborne-east-cape-family.jpg",
+    "alt": "Gisborne with kids",
+    "credit": "NZ Family Travel"
+  }
 }

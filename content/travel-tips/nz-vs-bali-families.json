@@ -10,18 +10,62 @@
     {
       "heading": "NZ vs Bali for Families — Key Comparison",
       "table": {
-        "headers": ["Factor", "New Zealand", "Bali, Indonesia"],
+        "headers": [
+          "Factor",
+          "New Zealand",
+          "Bali, Indonesia"
+        ],
         "rows": [
-          ["Daily budget (family of 4)", "$400–$700 NZD/day", "$150–$350 NZD/day"],
-          ["Weather (best season)", "Dec–Feb (summer)", "Apr–Oct (dry season)"],
-          ["Temperature", "20–28°C summer", "28–33°C year-round"],
-          ["Key activities for kids", "Rotorua, beaches, skiing, wildlife", "Water parks, temples, rice terraces, ocean"],
-          ["Food quality and variety", "Good but expensive", "Outstanding, cheap, widely available"],
-          ["Health and water safety", "Tap water safe everywhere", "Drink bottled water only"],
-          ["Travel vaccinations", "None required", "Recommended (hep A, typhoid)"],
-          ["Flight time from Sydney/Auckland", "30 min–3 hours (domestic NZ)", "6–8 hours"],
-          ["Luxury resort quality", "Good but expensive", "Exceptional value luxury"],
-          ["Unique experiences", "Geothermal, Māori culture, kiwi birds", "Hindu culture, temples, rice paddies"]
+          [
+            "Daily budget (family of 4)",
+            "$400–$700 NZD/day",
+            "$150–$350 NZD/day"
+          ],
+          [
+            "Weather (best season)",
+            "Dec–Feb (summer)",
+            "Apr–Oct (dry season)"
+          ],
+          [
+            "Temperature",
+            "20–28°C summer",
+            "28–33°C year-round"
+          ],
+          [
+            "Key activities for kids",
+            "Rotorua, beaches, skiing, wildlife",
+            "Water parks, temples, rice terraces, ocean"
+          ],
+          [
+            "Food quality and variety",
+            "Good but expensive",
+            "Outstanding, cheap, widely available"
+          ],
+          [
+            "Health and water safety",
+            "Tap water safe everywhere",
+            "Drink bottled water only"
+          ],
+          [
+            "Travel vaccinations",
+            "None required",
+            "Recommended (hep A, typhoid)"
+          ],
+          [
+            "Flight time from Sydney/Auckland",
+            "30 min–3 hours (domestic NZ)",
+            "6–8 hours"
+          ],
+          [
+            "Luxury resort quality",
+            "Good but expensive",
+            "Exceptional value luxury"
+          ],
+          [
+            "Unique experiences",
+            "Geothermal, Māori culture, kiwi birds",
+            "Hindu culture, temples, rice paddies"
+          ]
         ]
       }
     },
@@ -52,14 +96,42 @@
     {
       "heading": "Cost Comparison — 7 Nights (Family of 4)",
       "table": {
-        "headers": ["Cost Category", "NZ (North Island)", "Bali (Seminyak/Ubud)"],
+        "headers": [
+          "Cost Category",
+          "NZ (North Island)",
+          "Bali (Seminyak/Ubud)"
+        ],
         "rows": [
-          ["Accommodation", "$200–$400/night", "$80–$200/night (villa with pool)"],
-          ["Food (all meals)", "$150–$250/day", "$60–$120/day"],
-          ["Activities", "$200–$400/day", "$80–$200/day"],
-          ["Internal transport", "$60–$120/day", "$30–$60/day (driver hire)"],
-          ["Total 7 nights", "$5,000–$8,000 NZD", "$1,800–$3,500 NZD"],
-          ["Flights (from Sydney)", "$400–$800 return/person", "$600–$900 return/person"]
+          [
+            "Accommodation",
+            "$200–$400/night",
+            "$80–$200/night (villa with pool)"
+          ],
+          [
+            "Food (all meals)",
+            "$150–$250/day",
+            "$60–$120/day"
+          ],
+          [
+            "Activities",
+            "$200–$400/day",
+            "$80–$200/day"
+          ],
+          [
+            "Internal transport",
+            "$60–$120/day",
+            "$30–$60/day (driver hire)"
+          ],
+          [
+            "Total 7 nights",
+            "$5,000–$8,000 NZD",
+            "$1,800–$3,500 NZD"
+          ],
+          [
+            "Flights (from Sydney)",
+            "$400–$800 return/person",
+            "$600–$900 return/person"
+          ]
         ]
       }
     },
@@ -91,5 +163,10 @@
       "question": "Is Bali cheaper than NZ for a family holiday?",
       "answer": "Yes — Bali is approximately half the cost of NZ for equivalent experiences. A 7-night family trip to Bali costs $1,800–$3,500 NZD (excluding flights) vs $5,000–$8,000 NZD for an equivalent NZ trip. Flights from Australia and New Zealand to Bali are comparable in price to domestic NZ travel."
     }
-  ]
+  ],
+  "hero_image": {
+    "url": "/static/img/destinations/northland-bay-of-islands.jpg",
+    "alt": "New Zealand vs Bali for families",
+    "credit": "NZ Family Travel"
+  }
 }

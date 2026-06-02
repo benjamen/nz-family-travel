@@ -46,5 +46,10 @@
   "slug": "fiordland-milford-sound-family-hidden-gems-families",
   "updated": "May 2026",
   "auto_generated": true,
-  "generated_date": "2026-05-30"
+  "generated_date": "2026-05-30",
+  "hero_image": {
+    "url": "/static/img/destinations/fiordland-milford-sound-family.jpg",
+    "alt": "Fiordland with kids",
+    "credit": "NZ Family Travel"
+  }
 }

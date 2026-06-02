@@ -10,15 +10,39 @@
     {
       "heading": "Quick Reference — NZ with Toddlers",
       "table": {
-        "headers": ["Factor", "What to Know"],
+        "headers": [
+          "Factor",
+          "What to Know"
+        ],
         "rows": [
-          ["Best age range", "2–4 years (verbal, walking, able to engage)"],
-          ["Driving limit per day", "2–3 hours max with stops"],
-          ["Best accommodation", "Holiday parks with playgrounds, self-contained cabins"],
-          ["Top activity types", "Beaches, animals (farms, zoos, wildlife), short walks, playgrounds"],
-          ["Avoid", "Long multi-day hikes, late evenings out, very remote areas"],
-          ["Best season", "December–March (warm beaches), or April (quieter, cheaper)"],
-          ["Buggy/pram terrain", "Most NZ towns and attractions accessible; gravel common off main streets"]
+          [
+            "Best age range",
+            "2–4 years (verbal, walking, able to engage)"
+          ],
+          [
+            "Driving limit per day",
+            "2–3 hours max with stops"
+          ],
+          [
+            "Best accommodation",
+            "Holiday parks with playgrounds, self-contained cabins"
+          ],
+          [
+            "Top activity types",
+            "Beaches, animals (farms, zoos, wildlife), short walks, playgrounds"
+          ],
+          [
+            "Avoid",
+            "Long multi-day hikes, late evenings out, very remote areas"
+          ],
+          [
+            "Best season",
+            "December–March (warm beaches), or April (quieter, cheaper)"
+          ],
+          [
+            "Buggy/pram terrain",
+            "Most NZ towns and attractions accessible; gravel common off main streets"
+          ]
         ]
       }
     },
@@ -118,5 +142,10 @@
       "question": "Is NZ a good destination for toddlers?",
       "answer": "Yes — NZ is very well-suited to toddler travel. Cafes and restaurants welcome children, holiday parks are excellent, beaches are safe and numerous, and the pace of travel is flexible. Rotorua, the Bay of Islands, and the Coromandel are particularly toddler-friendly."
     }
-  ]
+  ],
+  "hero_image": {
+    "url": "/static/img/destinations/auckland-with-kids.jpg",
+    "alt": "New Zealand with toddlers",
+    "credit": "NZ Family Travel"
+  }
 }

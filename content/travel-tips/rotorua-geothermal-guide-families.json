@@ -76,5 +76,10 @@
         "affiliate": false
       }
     }
-  ]
+  ],
+  "hero_image": {
+    "url": "/static/img/destinations/rotorua-geothermal-guide-families.jpg",
+    "alt": "Whakarewarewa geothermal area, Rotorua",
+    "credit": "Wikimedia Commons"
+  }
 }

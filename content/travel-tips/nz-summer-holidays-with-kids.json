@@ -10,11 +10,31 @@
     {
       "heading": "NZ School Holiday Dates — Summer 2026/27",
       "table": {
-        "headers": ["Region", "Schools Out", "Schools Back", "Duration"],
+        "headers": [
+          "Region",
+          "Schools Out",
+          "Schools Back",
+          "Duration"
+        ],
         "rows": [
-          ["Auckland, Northland, Wellington", "~19 December 2026", "~3 February 2027", "~6.5 weeks"],
-          ["Bay of Plenty, Waikato, Coromandel", "~19 December 2026", "~3 February 2027", "~6.5 weeks"],
-          ["Christchurch, South Island", "~19 December 2026", "~3 February 2027", "~6.5 weeks"]
+          [
+            "Auckland, Northland, Wellington",
+            "~19 December 2026",
+            "~3 February 2027",
+            "~6.5 weeks"
+          ],
+          [
+            "Bay of Plenty, Waikato, Coromandel",
+            "~19 December 2026",
+            "~3 February 2027",
+            "~6.5 weeks"
+          ],
+          [
+            "Christchurch, South Island",
+            "~19 December 2026",
+            "~3 February 2027",
+            "~6.5 weeks"
+          ]
         ]
       }
     },
@@ -85,5 +105,10 @@
       "question": "How far in advance should I book NZ summer holidays with kids?",
       "answer": "For Christmas/New Year and school holiday weeks in popular destinations (Coromandel, Bay of Islands, Queenstown): book accommodation and key attractions 4–6 months in advance. Shoulder summer (November, February–March) gives more flexibility — 4–8 weeks usually sufficient."
     }
-  ]
+  ],
+  "hero_image": {
+    "url": "/static/img/destinations/best-nz-beach-holidays-families.jpg",
+    "alt": "New Zealand summer holidays with kids",
+    "credit": "Wikimedia Commons"
+  }
 }

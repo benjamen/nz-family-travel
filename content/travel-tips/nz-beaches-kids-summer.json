@@ -82,5 +82,10 @@
         "affiliate": false
       }
     }
-  ]
+  ],
+  "hero_image": {
+    "url": "/static/img/destinations/nz-beaches-kids-summer.jpg",
+    "alt": "New Zealand beach in summer",
+    "credit": "Wikimedia Commons"
+  }
 }

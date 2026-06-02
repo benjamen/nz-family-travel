@@ -14,12 +14,42 @@
     {
       "heading": "Best Time for First-Time Family Visit to NZ",
       "table": {
-        "headers": ["Season", "Months", "Weather", "Crowds", "Verdict for Families"],
+        "headers": [
+          "Season",
+          "Months",
+          "Weather",
+          "Crowds",
+          "Verdict for Families"
+        ],
         "rows": [
-          ["Summer", "Dec–Feb", "Warm, 20–28°C, some rain", "Peak — school holidays", "Great but expensive and busy"],
-          ["Autumn", "Mar–May", "Mild, 15–22°C, settled", "Low–moderate", "Excellent — best value, good weather"],
-          ["Winter", "Jun–Aug", "Cold in south, 8–15°C", "Low except ski season", "Good for skiing; quieter elsewhere"],
-          ["Spring", "Sep–Nov", "Warming, 12–22°C, some wind", "Moderate", "Very good — uncrowded, good weather"]
+          [
+            "Summer",
+            "Dec–Feb",
+            "Warm, 20–28°C, some rain",
+            "Peak — school holidays",
+            "Great but expensive and busy"
+          ],
+          [
+            "Autumn",
+            "Mar–May",
+            "Mild, 15–22°C, settled",
+            "Low–moderate",
+            "Excellent — best value, good weather"
+          ],
+          [
+            "Winter",
+            "Jun–Aug",
+            "Cold in south, 8–15°C",
+            "Low except ski season",
+            "Good for skiing; quieter elsewhere"
+          ],
+          [
+            "Spring",
+            "Sep–Nov",
+            "Warming, 12–22°C, some wind",
+            "Moderate",
+            "Very good — uncrowded, good weather"
+          ]
         ]
       }
     },
@@ -43,16 +73,43 @@
     {
       "heading": "Practical Information for First-Time Visitors",
       "table": {
-        "headers": ["Topic", "Information"],
+        "headers": [
+          "Topic",
+          "Information"
+        ],
         "rows": [
-          ["Currency", "New Zealand Dollar (NZD). Cards accepted almost everywhere."],
-          ["Driving", "Drive on the left. Roads are mostly two-lane outside cities. International licence valid for up to 12 months."],
-          ["Health", "Excellent public hospitals in cities. Travel insurance highly recommended."],
-          ["Safety", "Very safe by international standards. Sun and surf are the main hazards."],
-          ["Tipping", "Not customary in NZ. Service charge not added to bills."],
-          ["Child car seats", "Legally required for children under 7. Book well in advance from rental companies."],
-          ["Visa", "Visa-free or ETA required depending on passport. Check Immigration NZ."],
-          ["Electricity", "230V, Type I plug (same as Australia). Adaptors needed for UK/US devices."]
+          [
+            "Currency",
+            "New Zealand Dollar (NZD). Cards accepted almost everywhere."
+          ],
+          [
+            "Driving",
+            "Drive on the left. Roads are mostly two-lane outside cities. International licence valid for up to 12 months."
+          ],
+          [
+            "Health",
+            "Excellent public hospitals in cities. Travel insurance highly recommended."
+          ],
+          [
+            "Safety",
+            "Very safe by international standards. Sun and surf are the main hazards."
+          ],
+          [
+            "Tipping",
+            "Not customary in NZ. Service charge not added to bills."
+          ],
+          [
+            "Child car seats",
+            "Legally required for children under 7. Book well in advance from rental companies."
+          ],
+          [
+            "Visa",
+            "Visa-free or ETA required depending on passport. Check Immigration NZ."
+          ],
+          [
+            "Electricity",
+            "230V, Type I plug (same as Australia). Adaptors needed for UK/US devices."
+          ]
         ]
       }
     },
@@ -87,5 +144,10 @@
       "question": "Which is better for first-time families — North Island or South Island?",
       "answer": "The North Island is better for first-time family visitors with young children — Rotorua is the standout family destination in NZ, the Bay of Islands suits all ages, and distances are more manageable. The South Island is more spectacular scenically but involves longer drives and is better suited to families with children 7+."
     }
-  ]
+  ],
+  "hero_image": {
+    "url": "/static/img/destinations/nelson-abel-tasman-family.jpg",
+    "alt": "New Zealand family travel",
+    "credit": "NZ Family Travel"
+  }
 }

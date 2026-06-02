@@ -53,5 +53,10 @@
   "slug": "west-coast-family-guide-hidden-gems-families",
   "updated": "June 2026",
   "auto_generated": true,
-  "generated_date": "2026-06-02"
+  "generated_date": "2026-06-02",
+  "hero_image": {
+    "url": "/static/img/destinations/west-coast-family-guide.jpg",
+    "alt": "West Coast with kids",
+    "credit": "NZ Family Travel"
+  }
 }

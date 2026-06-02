@@ -52,5 +52,10 @@
   "slug": "hawkes-bay-family-guide-may-family-guide",
   "updated": "May 2026",
   "auto_generated": true,
-  "generated_date": "2026-05-31"
+  "generated_date": "2026-05-31",
+  "hero_image": {
+    "url": "/static/img/destinations/hawkes-bay-family-guide.jpg",
+    "alt": "Hawkes Bay with kids",
+    "credit": "NZ Family Travel"
+  }
 }

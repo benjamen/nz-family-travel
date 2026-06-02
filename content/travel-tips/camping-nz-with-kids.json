@@ -10,14 +10,56 @@
     {
       "heading": "Types of Camping in NZ",
       "table": {
-        "headers": ["Type", "Description", "Cost", "Booking", "Best For"],
+        "headers": [
+          "Type",
+          "Description",
+          "Cost",
+          "Booking",
+          "Best For"
+        ],
         "rows": [
-          ["DOC Basic", "Toilet + water only. Remote, beautiful locations", "$6–$15/person/night", "Some require booking", "Families with camping experience"],
-          ["DOC Serviced", "Flush toilets, hot showers, some kitchen facilities", "$15–$22/person/night", "Book at DOC website", "Good for most families"],
-          ["Freedom Camping", "Self-contained vehicles only (most areas). Zero cost.", "Free", "No booking", "Self-contained campervans only"],
-          ["Holiday Park powered site", "Power, shared facilities, kitchen", "$50–$80/night (site)", "Recommended to book", "All families"],
-          ["Holiday Park cabin", "Basic cabin, shared or ensuite facilities", "$100–$180/night", "Book ahead in peak", "Families who want comfort"],
-          ["DOC Huts", "Bunk accommodation in remote locations", "$15–$60/person/night", "Book via DOC", "Older children, tramping families"]
+          [
+            "DOC Basic",
+            "Toilet + water only. Remote, beautiful locations",
+            "$6–$15/person/night",
+            "Some require booking",
+            "Families with camping experience"
+          ],
+          [
+            "DOC Serviced",
+            "Flush toilets, hot showers, some kitchen facilities",
+            "$15–$22/person/night",
+            "Book at DOC website",
+            "Good for most families"
+          ],
+          [
+            "Freedom Camping",
+            "Self-contained vehicles only (most areas). Zero cost.",
+            "Free",
+            "No booking",
+            "Self-contained campervans only"
+          ],
+          [
+            "Holiday Park powered site",
+            "Power, shared facilities, kitchen",
+            "$50–$80/night (site)",
+            "Recommended to book",
+            "All families"
+          ],
+          [
+            "Holiday Park cabin",
+            "Basic cabin, shared or ensuite facilities",
+            "$100–$180/night",
+            "Book ahead in peak",
+            "Families who want comfort"
+          ],
+          [
+            "DOC Huts",
+            "Bunk accommodation in remote locations",
+            "$15–$60/person/night",
+            "Book via DOC",
+            "Older children, tramping families"
+          ]
         ]
       }
     },
@@ -90,5 +132,10 @@
       "question": "Do you need to book NZ campsites in advance?",
       "answer": "For popular DOC sites (Kaiteriteri, Abel Tasman, Milford Sound) and holiday parks during school holidays — yes, book weeks or months in advance. Most DOC campgrounds outside peak areas are first-come, first-served. Freedom camping sites cannot be booked — they're available on arrival."
     }
-  ]
+  ],
+  "hero_image": {
+    "url": "/static/img/destinations/camping-nz-with-kids.jpg",
+    "alt": "Camping in New Zealand with children",
+    "credit": "Wikimedia Commons"
+  }
 }

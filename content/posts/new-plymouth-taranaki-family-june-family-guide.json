@@ -61,5 +61,10 @@
   "slug": "new-plymouth-taranaki-family-june-family-guide",
   "updated": "June 2026",
   "auto_generated": true,
-  "generated_date": "2026-06-01"
+  "generated_date": "2026-06-01",
+  "hero_image": {
+    "url": "/static/img/destinations/new-plymouth-taranaki-family.jpg",
+    "alt": "New Plymouth with kids",
+    "credit": "NZ Family Travel"
+  }
 }

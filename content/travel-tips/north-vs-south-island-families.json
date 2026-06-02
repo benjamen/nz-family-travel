@@ -86,5 +86,10 @@
         "affiliate": false
       }
     }
-  ]
+  ],
+  "hero_image": {
+    "url": "/static/img/destinations/north-vs-south-island-families.jpg",
+    "alt": "New Zealand South Island landscape",
+    "credit": "Wikimedia Commons"
+  }
 }
