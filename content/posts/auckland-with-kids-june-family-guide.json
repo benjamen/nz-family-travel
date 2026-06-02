@@ -1,0 +1,58 @@
+{
+  "title": "Auckland in June",
+  "short_title": "Akl in June",
+  "meta_desc": "Plan a family holiday in Auckland this June with our guide. Discover what's on, weather, crowd levels and tips for a fun-filled trip with kids in NZ's biggest city",
+  "intro": "June is a great time to visit Auckland with kids, with mild winter weather and a range of exciting activities to enjoy. As a family, you can explore the city's many beaches, visit the famous Auckland Zoo, or take a ferry to Waiheke Island. With a budget of $200-$350 per day for a family of four, you can experience the best of Auckland without breaking the bank.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Weather in June",
+      "body": "<p>In June, Auckland's weather is mild, with average highs of 14°C and lows of 8°C. It's a great time to enjoy the city's many outdoor activities, such as visiting the beach or going for a hike. However, it's also a good idea to pack warm clothing, as the temperature can drop significantly at night.</p><p>June is also a relatively dry month in Auckland, with an average of 120mm of rainfall. This makes it an ideal time to visit the city's many parks and gardens, such as Albert Park and the Auckland Botanic Gardens.</p>",
+      "list": [
+        "Average high: 14°C",
+        "Average low: 8°C",
+        "Average rainfall: 120mm"
+      ]
+    },
+    {
+      "heading": "What's On in June",
+      "body": "<p>June is a great time to visit Auckland, with a range of exciting events and activities to enjoy. The Auckland Arts Festival takes place in June, featuring a range of performances, exhibitions, and installations. The festival is a great way to experience the city's vibrant arts scene, with something for all ages to enjoy.</p><p>The Sky Tower also offers a range of activities and events in June, including a winter lights display and a ice skating rink. The tower's observation deck offers stunning views of the city, and is a must-visit attraction for families.</p>",
+      "list": [
+        "Auckland Arts Festival",
+        "Sky Tower winter lights display",
+        "Ice skating rink at the Sky Tower"
+      ]
+    },
+    {
+      "heading": "Best Activities for June",
+      "body": "<p>June is a great time to visit some of Auckland's most popular attractions, such as the Auckland Zoo and Kelly Tarlton's SEA LIFE Aquarium. The zoo is home to over 1,400 animals, including elephants, giraffes, and monkeys, while the aquarium features a range of marine life, including sharks, stingrays, and penguins.</p><p>The Sky Tower observation deck is also a must-visit attraction, offering stunning views of the city and harbour. And for a fun and active day out, consider taking a ferry to Waiheke Island or going for a hike on Rangitoto Island.</p>",
+      "list": [
+        "Auckland Zoo: $25-$35 per person",
+        "Kelly Tarlton's SEA LIFE Aquarium: $30-$40 per person",
+        "Sky Tower observation deck: $32-$42 per person",
+        "Ferry to Waiheke Island: $40-$60 per person, return",
+        "Rangitoto Island hike: free, but ferry costs $30-$40 per person, return"
+      ]
+    },
+    {
+      "heading": "Practical Tips for Families",
+      "body": "<p>When visiting Auckland with kids, it's a good idea to plan ahead and book popular attractions in advance. This can help avoid crowds and long wait times, and ensure that you make the most of your time in the city.</p><p>It's also a good idea to consider the weather when planning your activities, and to pack warm clothing for cooler mornings and evenings. And don't forget to take advantage of the city's many free activities, such as visiting the beach or going for a walk in one of the many parks and gardens.</p>",
+      "list": [
+        "Book popular attractions in advance",
+        "Pack warm clothing for cooler mornings and evenings",
+        "Take advantage of free activities, such as visiting the beach or going for a walk",
+        "Consider purchasing a family pass for popular attractions, which can offer discounts and convenience",
+        "Don't forget to check the weather forecast before heading out each day"
+      ],
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "auckland-with-kids-june-family-guide",
+  "updated": "June 2026",
+  "auto_generated": true,
+  "generated_date": "2026-06-03"
+}

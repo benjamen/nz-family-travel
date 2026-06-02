@@ -1,0 +1,45 @@
+{
+  "title": "New Plymouth Hidden Gems",
+  "short_title": "Taranaki Secrets",
+  "meta_desc": "Discover New Plymouth & Taranaki's hidden gems for families, including free activities, scenic spots, and insider tips for a fun and memorable holiday",
+  "intro": "New Plymouth and Taranaki are a treasure trove of family-friendly activities and stunning natural beauty, waiting to be uncovered by adventurous families. From scenic lookouts to secret waterfalls, we've got the inside scoop on the best hidden gems to explore. Whether you're looking for free activities or unique experiences, we've got you covered.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Insider Tips for Families",
+      "body": "<p>One of the best ways to experience New Plymouth like a local is to explore its many scenic lookouts and secret spots. Dawson Falls, located just 30 minutes from the city, is a must-visit for its spectacular waterfall and easy family walk. For a unique photo opportunity, head to Lake Mangamahoe at sunrise to capture the perfect reflection of Mt Taranaki.</p><p>Another hidden gem is the New Plymouth coastal walkway, which stretches 13km along the dramatic black sand surf beaches. This walkway is not only free but also cyclable, making it an ideal activity for families with kids of all ages.</p>",
+      "list": [
+        "Dawson Falls: 30-minute drive from New Plymouth, free admission",
+        "Lake Mangamahoe: 15-minute drive from New Plymouth, free admission",
+        "New Plymouth coastal walkway: 13km walkway, free admission, cyclable"
+      ]
+    },
+    {
+      "heading": "Free Activities for Kids",
+      "body": "<p>Pukekura Park is a standout destination for families, with its boating lake, playground, and zoo. The park is free to visit and offers a fun-filled day out for kids of all ages. Another free activity is the Brooklands Zoo, which is small but charming and perfect for young children.</p><p>The Govett-Brewster Art Gallery / Len Lye Centre is also a great spot for families, with free entry and a range of interactive exhibits. For a fun and active day out, head to the Taranaki Cycle Park, which offers a range of trails for all skill levels.</p>",
+      "list": [
+        "Pukekura Park: free admission, boating lake, playground, zoo",
+        "Brooklands Zoo: free admission, small but charming",
+        "Govett-Brewster Art Gallery / Len Lye Centre: free entry, interactive exhibits"
+      ]
+    },
+    {
+      "heading": "Scenic Spots and Lookouts",
+      "body": "<p>Mt Taranaki is a must-visit destination for any family travelling to New Plymouth. The Pouakai Circuit is a great option for fit families, offering stunning views of the mountain and surrounding landscape. For a more leisurely experience, head to the Mt Taranaki summit, which offers breathtaking views of the region.</p><p>Another scenic spot is the Te Rewa Rewa Bridge, which offers stunning views of the coast and surrounding landscape. This bridge is also a great spot for a family picnic or BBQ.</p>",
+      "list": [
+        "Mt Taranaki summit: $0 - $20 per person, depending on the route taken",
+        "Pouakai Circuit: $0 - $20 per person, depending on the route taken",
+        "Te Rewa Rewa Bridge: free admission, picnic and BBQ facilities"
+      ],
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "new-plymouth-taranaki-family-hidden-gems-families",
+  "updated": "June 2026",
+  "auto_generated": true,
+  "generated_date": "2026-06-03"
+}

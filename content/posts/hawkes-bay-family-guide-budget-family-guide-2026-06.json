@@ -1,0 +1,98 @@
+{
+  "title": "Hawke's Bay Family Budget",
+  "short_title": "HB Bay",
+  "meta_desc": "Discover how to visit Hawke's Bay with your family on a budget of $180-340/day, including free activities, accommodation options and top attractions",
+  "intro": "Hawke's Bay is a hidden family gem, with Art Deco Napier, Cape Kidnappers gannets and NZ's best fruit. For a family of four, daily costs can range from $180 to $340. With some planning, you can have a fantastic holiday without breaking the bank.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Realistic Daily Costs",
+      "body": "<p>A family of four can expect to pay between $180 and $340 per day in Hawke's Bay, depending on accommodation choices and activities. This estimate includes food, transport and attractions.</p><p>For example, a meal at a mid-range restaurant can cost around $80 for a family of four, while a self-catering apartment can cost around $150 per night.</p>",
+      "list": [
+        "Accommodation: $150-250 per night",
+        "Food: $80-120 per day",
+        "Transport: $20-50 per day",
+        "Attractions: $50-100 per day"
+      ]
+    },
+    {
+      "heading": "Free Activities",
+      "body": "<p>Hawke's Bay has plenty of free activities to enjoy, including the Napier Art Deco walk, Marine Parade and Waimarama Beach.</p><p>These activities are not only free but also offer a great way to experience the region's unique culture and natural beauty.</p>",
+      "list": [
+        "Napier Art Deco walk",
+        "Marine Parade",
+        "Waimarama Beach"
+      ]
+    },
+    {
+      "heading": "Accommodation Options",
+      "body": "<p>Hawke's Bay has a range of accommodation options to suit all budgets, from camping and backpackers to mid-range hotels and self-catering apartments.</p><p>For a family of four, a self-catering apartment or holiday home can be a cost-effective option, with prices starting from around $150 per night.</p>",
+      "list": [
+        "Camping: $20-50 per night",
+        "Backpackers: $30-70 per night",
+        "Mid-range hotel: $120-200 per night",
+        "Self-catering apartment: $150-300 per night"
+      ]
+    },
+    {
+      "heading": "Budget Breakdown",
+      "body": "<p>Here's a rough 3-day budget breakdown for a family of four in Hawke's Bay:</p>",
+      "table": {
+        "headers": [
+          "Day",
+          "Accommodation",
+          "Food",
+          "Transport",
+          "Attractions",
+          "Total"
+        ],
+        "rows": [
+          [
+            "Day 1",
+            "$150",
+            "$80",
+            "$20",
+            "$50",
+            "$300"
+          ],
+          [
+            "Day 2",
+            "$150",
+            "$100",
+            "$30",
+            "$80",
+            "$360"
+          ],
+          [
+            "Day 3",
+            "$150",
+            "$80",
+            "$20",
+            "$50",
+            "$300"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Saving Money and Splurging",
+      "body": "<p>To save money in Hawke's Bay, consider self-catering, preparing your own meals and taking advantage of free activities.</p><p>However, some experiences are worth splurging on, such as a guided tour of the Cape Kidnappers gannet colony or a visit to the Napier Aquarium.</p>",
+      "list": [
+        "Self-catering",
+        "Prepare your own meals",
+        "Free activities",
+        "Guided tour of Cape Kidnappers",
+        "Napier Aquarium"
+      ],
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "hawkes-bay-family-guide-budget-family-guide-2026-06",
+  "updated": "June 2026",
+  "auto_generated": true,
+  "generated_date": "2026-06-03"
+}

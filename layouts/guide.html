@@ -135,6 +135,17 @@
 </section>
 {% endfor %}
 
+<!-- Email capture (if defined in guide) -->
+{% if guide.email_capture %}
+<section class="section" style="background:linear-gradient(135deg,#fef3c7,#fde68a);border-radius:var(--radius);">
+  <div style="max-width:640px;margin:0 auto;text-align:center;">
+    <h2 style="margin-bottom:.5rem;">{{ guide.email_capture.heading }}</h2>
+    <p style="color:var(--gray-700);margin-bottom:1.5rem;">{{ guide.email_capture.body }}</p>
+    <div data-mailerlite-form="{{ guide.email_capture.mailerlite_form_id }}" style="max-width:400px;margin:0 auto;"></div>
+  </div>
+</section>
+{% endif %}
+
 <!-- Month guide cross-links (only shown for nz-in-* slugs) -->
 {% if guide.slug.startswith('nz-in-') %}
 {% set month_order = [
