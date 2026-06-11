@@ -1365,7 +1365,7 @@
     var fd = new FormData(form);
     var body = {};
     fd.forEach(function(v, k) { body[k] = v; });
-    fetch('https://api.nzfamilytravel.co.nz/form.php', {
+    fetch('https://nzfamilytravel.co.nz/api/form.php', {
       method: 'POST',
       headers: {'Content-Type': 'application/json'},
       body: JSON.stringify(body)
