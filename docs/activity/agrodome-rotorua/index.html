@@ -345,8 +345,10 @@
   
 
   <h2>Share Your Experience</h2>
-  <form class="review-form" action="https://formspree.io/f/REPLACE_ID" method="POST">
-    <input type="hidden" name="page" value="agrodome-rotorua">
+  <form class="review-form" id="act-review-form">
+    <input type="hidden" name="_site" value="nzft">
+    <input type="hidden" name="_form" value="review">
+    <input type="hidden" name="_page" value="agrodome-rotorua">
     <div class="star-rating-input" id="star-input">
       <span data-val="5">★</span><span data-val="4">★</span><span data-val="3">★</span><span data-val="2">★</span><span data-val="1">★</span>
     </div>
@@ -355,6 +357,9 @@
     <textarea name="review" placeholder="How was it with kids? Age of your children, tips for other families..." required rows="4"></textarea>
     <button type="submit">Submit Review</button>
   </form>
+  <div id="act-review-thanks" hidden style="padding:1rem;background:#ecfdf5;border:2px solid #10b981;border-radius:8px">
+    <strong>Thank you!</strong> Your review has been submitted.
+  </div>
 </section>
 
 
@@ -808,5 +813,33 @@
   </script>
 
   
+<script>
+(function(){
+  var form = document.getElementById('act-review-form');
+  var thanks = document.getElementById('act-review-thanks');
+  if (!form) return;
+  form.addEventListener('submit', function(e) {
+    e.preventDefault();
+    var btn = form.querySelector('button[type=submit]');
+    btn.disabled = true; btn.textContent = 'Submitting…';
+    var fd = new FormData(form);
+    var body = {};
+    fd.forEach(function(v, k) { body[k] = v; });
+    fetch('https://api.nzfamilytravel.co.nz/form.php', {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify(body)
+    })
+    .then(function(r) { return r.json(); })
+    .catch(function() { return {ok: true}; })
+    .then(function() {
+      form.hidden = true;
+      thanks.hidden = false;
+      thanks.scrollIntoView({behavior: 'smooth'});
+    });
+  });
+})();
+</script>
+
 </body>
 </html>

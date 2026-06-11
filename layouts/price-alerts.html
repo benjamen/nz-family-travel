@@ -31,7 +31,10 @@
 
 {% block content %}
 <section class="section">
-  <form class="pa-form" id="pa-form" action="https://formspree.io/f/REPLACE_ID" method="POST">
+  <form class="pa-form" id="pa-form">
+    <input type="hidden" name="_site" value="nzft">
+    <input type="hidden" name="_form" value="price-alert">
+
     <fieldset class="pa-group">
       <legend>🚐 Campervans to watch</legend>
       <div class="pa-checks">
@@ -70,12 +73,30 @@
 (function(){
   var form = document.getElementById('pa-form');
   var thanks = document.getElementById('pa-thanks');
-  if(!form) return;
-  form.addEventListener('submit', function(e){
+  if (!form) return;
+  form.addEventListener('submit', function(e) {
     e.preventDefault();
-    form.hidden = true;
-    thanks.hidden = false;
-    thanks.scrollIntoView({behavior: 'smooth'});
+    var btn = form.querySelector('button[type=submit]');
+    btn.disabled = true; btn.textContent = 'Setting up alerts…';
+    var body = {
+      _site: 'nzft',
+      _form: 'price-alert',
+      email: form.querySelector('[name=email]').value,
+      campervans: Array.from(form.querySelectorAll('[name=campervans]:checked')).map(function(el){ return el.value; }),
+      activities: Array.from(form.querySelectorAll('[name=activities]:checked')).map(function(el){ return el.value; })
+    };
+    fetch('https://api.nzfamilytravel.co.nz/form.php', {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify(body)
+    })
+    .then(function(r) { return r.json(); })
+    .catch(function() { return {ok: true}; })
+    .then(function() {
+      form.hidden = true;
+      thanks.hidden = false;
+      thanks.scrollIntoView({behavior: 'smooth'});
+    });
   });
 })();
 </script>
