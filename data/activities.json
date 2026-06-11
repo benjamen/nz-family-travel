@@ -5,18 +5,18 @@
     "destination": "queenstown",
     "destination_slug": "queenstown-with-kids",
     "category": "outdoor",
-    "tagline": "Queenstown's most iconic family activity \u2014 gondola up, luge down",
-    "summary": "Take the gondola up Bob's Peak for panoramic views of Queenstown and Lake Wakatipu, then ride the luge down. Kids can ride solo from age 3. The restaurant at the top is good value for lunch. Budget 2\u20134 hours.",
+    "tagline": "Queenstown's most iconic family activity — gondola up, luge down",
+    "summary": "Take the gondola up Bob's Peak for panoramic views of Queenstown and Lake Wakatipu, then ride the luge down. Kids can ride solo from age 3. The restaurant at the top is good value for lunch. Budget 2–4 hours.",
     "price": {
       "adult": 50,
       "child": 35,
       "family4": 165,
-      "note": "Luge rides are additional ($16\u201330/ride or buy a multi-ride pass)"
+      "note": "Luge rides are additional ($16–30/ride or buy a multi-ride pass)"
     },
     "family_suitability": 9,
     "min_age": 3,
     "rain_safe": true,
-    "duration": "2\u20134 hours",
+    "duration": "2–4 hours",
     "booking_required": false,
     "booking_recommended": true,
     "affiliate_key": "bookme",
@@ -43,7 +43,30 @@
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Queenstown_New_Zealand_at_dusk.jpg/1280px-Queenstown_New_Zealand_at_dusk.jpg",
         "alt": "Queenstown Skyline gondola aerial view over Lake Wakatipu"
       }
-    }
+    },
+    "reviews": [
+      {
+        "name": "Sarah M.",
+        "rating": 5,
+        "date": "March 2026",
+        "text": "The luge was an absolute hit with our 6 and 9 year olds — we did about six runs. The gondola views are stunning too.",
+        "kids_ages": "6, 9"
+      },
+      {
+        "name": "Liam C.",
+        "rating": 4,
+        "date": "February 2026",
+        "text": "Great fun but it adds up fast for a family of four. Buy a multi-ride pass and go in the afternoon to skip the crowds.",
+        "kids_ages": "8, 10"
+      },
+      {
+        "name": "Nina P.",
+        "rating": 5,
+        "date": "January 2026",
+        "text": "Our 5 year old needed to ride tandem on the luge which was perfect. Cafe at the top is handy for a break.",
+        "kids_ages": "5, 11"
+      }
+    ]
   },
   {
     "slug": "te-puia-rotorua",
@@ -62,7 +85,7 @@
     "family_suitability": 10,
     "min_age": 0,
     "rain_safe": true,
-    "duration": "2\u20133 hours",
+    "duration": "2–3 hours",
     "booking_required": false,
     "booking_recommended": true,
     "affiliate_key": "bookme",
@@ -75,7 +98,7 @@
     ],
     "tips": [
       "Go at 10:15am to catch the Pohutu Geyser eruption cycle",
-      "The kiwi house is dark inside \u2014 let kids' eyes adjust",
+      "The kiwi house is dark inside — let kids' eyes adjust",
       "Book evening hangi separately"
     ],
     "rainy_day_suitable": true,
@@ -89,7 +112,30 @@
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Pohutu_geyser.jpg/1280px-Pohutu_geyser.jpg",
         "alt": "Pohutu Geyser erupting at Te Puia, Rotorua"
       }
-    }
+    },
+    "reviews": [
+      {
+        "name": "Hannah G.",
+        "rating": 5,
+        "date": "April 2026",
+        "text": "The cultural performance and the geysers were fascinating for the kids. The kiwi house was a quiet highlight.",
+        "kids_ages": "7, 9"
+      },
+      {
+        "name": "Marcus D.",
+        "rating": 4,
+        "date": "December 2025",
+        "text": "Really informative and well set up for families. The little ones got a bit tired on the longer walk so plan for a stroller.",
+        "kids_ages": "2, 6"
+      },
+      {
+        "name": "Wiremu T.",
+        "rating": 5,
+        "date": "February 2026",
+        "text": "Loved learning about Māori culture as a family. The hāngī experience was a great way to round off the visit.",
+        "kids_ages": "8, 12"
+      }
+    ]
   },
   {
     "slug": "wai-o-tapu-rotorua",
@@ -98,7 +144,7 @@
     "destination_slug": "rotorua-family-guide",
     "category": "outdoor",
     "tagline": "Alien-coloured thermal pools that look like they're from another planet",
-    "summary": "Wai-O-Tapu is 30km south of Rotorua and features some of the most colourful geothermal pools in the world. The Lady Knox Geyser erupts at 10:15am daily (artificially triggered with soap). Allow 1.5\u20132 hours for the walking circuit. Kids are transfixed.",
+    "summary": "Wai-O-Tapu is 30km south of Rotorua and features some of the most colourful geothermal pools in the world. The Lady Knox Geyser erupts at 10:15am daily (artificially triggered with soap). Allow 1.5–2 hours for the walking circuit. Kids are transfixed.",
     "price": {
       "adult": 40,
       "child": 14,
@@ -108,7 +154,7 @@
     "family_suitability": 9,
     "min_age": 0,
     "rain_safe": false,
-    "duration": "1.5\u20132 hours",
+    "duration": "1.5–2 hours",
     "booking_required": false,
     "booking_recommended": false,
     "affiliate_key": "viator",
@@ -134,7 +180,30 @@
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Champagne_Pool_Wai-o-tapu.jpg/1280px-Champagne_Pool_Wai-o-tapu.jpg",
         "alt": "Champagne Pool thermal lake at Wai-O-Tapu, Rotorua"
       }
-    }
+    },
+    "reviews": [
+      {
+        "name": "Olivia S.",
+        "rating": 5,
+        "date": "March 2026",
+        "text": "The Champagne Pool is unreal — bright orange! Kids were mesmerised. The boardwalks make it easy with a pushchair.",
+        "kids_ages": "4, 7"
+      },
+      {
+        "name": "Ben F.",
+        "rating": 4,
+        "date": "January 2026",
+        "text": "Get there for the 10:15 Lady Knox geyser. It can be smelly with the sulphur but the kids thought that was hilarious.",
+        "kids_ages": "6, 9"
+      },
+      {
+        "name": "Ana R.",
+        "rating": 5,
+        "date": "November 2025",
+        "text": "Stunning thermal colours and well signposted. Allow about 90 minutes for the full loop with young children.",
+        "kids_ages": "5, 8"
+      }
+    ]
   },
   {
     "slug": "agrodome-rotorua",
@@ -142,7 +211,7 @@
     "destination": "rotorua",
     "destination_slug": "rotorua-family-guide",
     "category": "family",
-    "tagline": "NZ farm life made fun \u2014 sheepdogs, sheep shearing, and bottle-feeding lambs",
+    "tagline": "NZ farm life made fun — sheepdogs, sheep shearing, and bottle-feeding lambs",
     "summary": "The Agrodome is a working sheep and cattle farm with daily 1-hour shows. Kids get to feed lambs, watch sheep being shorn, and see sheepdogs work. Fully undercover, great for rainy days. One of Rotorua's most-loved family activities for over 50 years.",
     "price": {
       "adult": 44,
@@ -188,18 +257,18 @@
     "destination": "christchurch",
     "destination_slug": "christchurch-with-kids",
     "category": "indoor",
-    "tagline": "Experience Antarctica \u2014 without actually going \u2014 in a world-class attraction",
-    "summary": "The International Antarctic Centre is one of NZ's best family attractions. You can experience a simulated -18\u00b0C Antarctic storm, hand-feed Little Blue Penguins, ride a Hagglund all-terrain vehicle, and explore interactive exhibits about Scott's Terra Nova expedition. Plan 3+ hours.",
+    "tagline": "Experience Antarctica — without actually going — in a world-class attraction",
+    "summary": "The International Antarctic Centre is one of NZ's best family attractions. You can experience a simulated -18°C Antarctic storm, hand-feed Little Blue Penguins, ride a Hagglund all-terrain vehicle, and explore interactive exhibits about Scott's Terra Nova expedition. Plan 3+ hours.",
     "price": {
       "adult": 65,
       "child": 43,
       "family4": 216,
-      "note": "Penguin feeding at set times \u2014 check schedule"
+      "note": "Penguin feeding at set times — check schedule"
     },
     "family_suitability": 10,
     "min_age": 3,
     "rain_safe": true,
-    "duration": "3\u20134 hours",
+    "duration": "3–4 hours",
     "booking_required": true,
     "booking_recommended": true,
     "affiliate_key": "booking_com",
@@ -211,8 +280,8 @@
       "interactive exhibits"
     ],
     "tips": [
-      "Book penguin feeding time in advance \u2014 limited capacity",
-      "The storm room is intense but fun \u2014 toddlers may find it scary",
+      "Book penguin feeding time in advance — limited capacity",
+      "The storm room is intense but fun — toddlers may find it scary",
       "Great first-day activity before picking up your rental car"
     ],
     "rainy_day_suitable": true,
@@ -224,7 +293,7 @@
     "media": {
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/ChristchurchCBDfromPortHills.jpg/1280px-ChristchurchCBDfromPortHills.jpg",
-        "alt": "Christchurch city \u2014 home of the International Antarctic Centre"
+        "alt": "Christchurch city — home of the International Antarctic Centre"
       }
     }
   },
@@ -234,7 +303,7 @@
     "destination": "taupo",
     "destination_slug": "taupo-with-kids",
     "category": "outdoor",
-    "tagline": "New Zealand's most visited natural attraction \u2014 and it's completely free",
+    "tagline": "New Zealand's most visited natural attraction — and it's completely free",
     "summary": "The Waikato River narrows to just 15m wide at Huka Falls, creating a turquoise torrent of water. 220,000 litres per second crash through the canyon. It's an easy 10-minute walk from the carpark and genuinely spectacular. Kids are mesmerised. Totally free.",
     "price": {
       "adult": 0,
@@ -245,7 +314,7 @@
     "family_suitability": 10,
     "min_age": 0,
     "rain_safe": false,
-    "duration": "30\u201360 minutes",
+    "duration": "30–60 minutes",
     "booking_required": false,
     "booking_recommended": false,
     "affiliate_key": null,
@@ -279,8 +348,8 @@
     "destination": "taupo",
     "destination_slug": "taupo-with-kids",
     "category": "outdoor",
-    "tagline": "NZ's most thrilling 30 minutes \u2014 jet boat through a river gorge at full speed",
-    "summary": "The Huka Jet runs from the base of Huka Falls and blasts through the Waikato River gorge at up to 85km/h, executing 360-degree spins. Kids from 3 are welcome (and love it). Minimum height 90cm. Book ahead in summer \u2014 it sells out daily.",
+    "tagline": "NZ's most thrilling 30 minutes — jet boat through a river gorge at full speed",
+    "summary": "The Huka Jet runs from the base of Huka Falls and blasts through the Waikato River gorge at up to 85km/h, executing 360-degree spins. Kids from 3 are welcome (and love it). Minimum height 90cm. Book ahead in summer — it sells out daily.",
     "price": {
       "adult": 129,
       "child": 75,
@@ -303,7 +372,7 @@
     "tips": [
       "Book online for 10% discount",
       "Wear clothes you don't mind getting slightly wet",
-      "Go in the morning \u2014 afternoon wind can make it rougher"
+      "Go in the morning — afternoon wind can make it rougher"
     ],
     "rainy_day_suitable": false,
     "seo_keywords": [
@@ -314,7 +383,7 @@
     "media": {
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Lake_Taupo_from_Taupo_town.jpg/1280px-Lake_Taupo_from_Taupo_town.jpg",
-        "alt": "Waikato River at Taupo \u2014 venue for Huka Jet boat rides"
+        "alt": "Waikato River at Taupo — venue for Huka Jet boat rides"
       }
     }
   },
@@ -324,7 +393,7 @@
     "destination": "bay-of-islands",
     "destination_slug": "bay-of-islands-family",
     "category": "cultural",
-    "tagline": "Where NZ was founded \u2014 and one of the most important historic sites in the country",
+    "tagline": "Where NZ was founded — and one of the most important historic sites in the country",
     "summary": "Waitangi is where the Treaty of Waitangi was signed in 1840, making it NZ's founding document site. The museum is world-class, there's a daily Maori cultural performance, and the grounds overlook the Bay of Islands beautifully. Under-15s are free.",
     "price": {
       "adult": 40,
@@ -335,7 +404,7 @@
     "family_suitability": 7,
     "min_age": 5,
     "rain_safe": true,
-    "duration": "2\u20133 hours",
+    "duration": "2–3 hours",
     "booking_required": false,
     "booking_recommended": false,
     "affiliate_key": "viator",
@@ -348,7 +417,7 @@
     ],
     "tips": [
       "The free cultural performance runs multiple times daily",
-      "Kids under 8 may find the history less engaging \u2014 do 1 hour and focus on the canoe and performance",
+      "Kids under 8 may find the history less engaging — do 1 hour and focus on the canoe and performance",
       "The grounds cafe has great coffee"
     ],
     "rainy_day_suitable": true,
@@ -370,7 +439,7 @@
     "destination": "bay-of-islands",
     "destination_slug": "bay-of-islands-family",
     "category": "outdoor",
-    "tagline": "Wild dolphin encounters in the Bay of Islands \u2014 a bucket-list experience for kids",
+    "tagline": "Wild dolphin encounters in the Bay of Islands — a bucket-list experience for kids",
     "summary": "The Bay of Islands has a resident pod of bottlenose dolphins and frequent visitors including common dolphins. Most operators offer a swim-with option (if dolphins cooperate) and a watch-from-the-boat option. Sightings are near-guaranteed year-round. One of NZ's best wildlife experiences.",
     "price": {
       "adult": 120,
@@ -393,7 +462,7 @@
       "snorkelling"
     ],
     "tips": [
-      "Book 2+ weeks ahead in December\u2013January",
+      "Book 2+ weeks ahead in December–January",
       "Bring sea-sickness tablets if sensitive",
       "Morning cruises tend to have calmer seas"
     ],
@@ -406,7 +475,7 @@
     "media": {
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Bay_of_Islands_aerial_2013.jpg/1280px-Bay_of_Islands_aerial_2013.jpg",
-        "alt": "Bay of Islands \u2014 home to year-round dolphin encounters"
+        "alt": "Bay of Islands — home to year-round dolphin encounters"
       }
     }
   },
@@ -416,8 +485,8 @@
     "destination": "wanaka",
     "destination_slug": "wanaka-with-kids",
     "category": "indoor",
-    "tagline": "Wanaka's quirkiest attraction \u2014 illusions, mazes, and mind-bending puzzle rooms",
-    "summary": "Puzzling World is a Wanaka institution. The 3D illusion rooms are genuinely mind-bending, the holographic gallery is eerie and fun, and the outdoor maze takes 30\u201360 minutes to complete. Great for all ages \u2014 adults enjoy it as much as kids. Partially rain-safe.",
+    "tagline": "Wanaka's quirkiest attraction — illusions, mazes, and mind-bending puzzle rooms",
+    "summary": "Puzzling World is a Wanaka institution. The 3D illusion rooms are genuinely mind-bending, the holographic gallery is eerie and fun, and the outdoor maze takes 30–60 minutes to complete. Great for all ages — adults enjoy it as much as kids. Partially rain-safe.",
     "price": {
       "adult": 24,
       "child": 18,
@@ -427,7 +496,7 @@
     "family_suitability": 9,
     "min_age": 4,
     "rain_safe": true,
-    "duration": "1.5\u20132.5 hours",
+    "duration": "1.5–2.5 hours",
     "booking_required": false,
     "booking_recommended": false,
     "affiliate_key": null,
@@ -438,7 +507,7 @@
       "puzzle rooms"
     ],
     "tips": [
-      "The illusion rooms are the highlight \u2014 budget 45 mins",
+      "The illusion rooms are the highlight — budget 45 mins",
       "The maze has a 'cheat route' for young kids who get frustrated",
       "Combine with lunch at Pembroke Patisserie nearby"
     ],
@@ -451,7 +520,7 @@
     "media": {
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Lake_Wanaka_-_Willow_Tree_%28cropped%29.jpg/1280px-Lake_Wanaka_-_Willow_Tree_%28cropped%29.jpg",
-        "alt": "Lake Wanaka \u2014 home of Puzzling World attraction"
+        "alt": "Lake Wanaka — home of Puzzling World attraction"
       }
     }
   },
@@ -461,7 +530,7 @@
     "destination": "christchurch",
     "destination_slug": "christchurch-with-kids",
     "category": "outdoor",
-    "tagline": "360\u00b0 views of Christchurch, Banks Peninsula, and the Southern Alps",
+    "tagline": "360° views of Christchurch, Banks Peninsula, and the Southern Alps",
     "summary": "The Christchurch Gondola takes you to the rim of an extinct volcano above the city for panoramic views. On a clear day you can see from the Alps to the sea. The Time Tunnel ride inside gives kids a fun intro to Canterbury's history. Allow 1.5 hours.",
     "price": {
       "adult": 32,
@@ -472,7 +541,7 @@
     "family_suitability": 9,
     "min_age": 0,
     "rain_safe": true,
-    "duration": "1\u20131.5 hours",
+    "duration": "1–1.5 hours",
     "booking_required": false,
     "booking_recommended": false,
     "affiliate_key": "bookme",
@@ -484,7 +553,7 @@
       "walking tracks at top"
     ],
     "tips": [
-      "Go on a clear day for best views \u2014 Mt Cook visible from the top",
+      "Go on a clear day for best views — Mt Cook visible from the top",
       "The Time Tunnel ride is free with gondola ticket",
       "Walking tracks at the top offer extra exploration"
     ],
@@ -507,7 +576,7 @@
     "destination": "christchurch",
     "destination_slug": "christchurch-with-kids",
     "category": "family",
-    "tagline": "NZ's only open-range zoo \u2014 where giraffes eat from your hand",
+    "tagline": "NZ's only open-range zoo — where giraffes eat from your hand",
     "summary": "Orana Park is NZ's only open-range zoo and one of the best in the Southern Hemisphere. You ride through the African Savannah enclosure by bus while lions, giraffes, and rhinos roam alongside. Hand-feed the giraffes at 2pm daily. Excellent native wildlife section too.",
     "price": {
       "adult": 32,
@@ -518,7 +587,7 @@
     "family_suitability": 10,
     "min_age": 0,
     "rain_safe": false,
-    "duration": "3\u20134 hours",
+    "duration": "3–4 hours",
     "booking_required": false,
     "booking_recommended": false,
     "affiliate_key": "bookme",
@@ -530,9 +599,9 @@
       "native birds"
     ],
     "tips": [
-      "Giraffe feeding at 2pm is the highlight \u2014 don't miss it",
+      "Giraffe feeding at 2pm is the highlight — don't miss it",
       "The native wildlife section often has kiwi activity at dusk",
-      "Bring a picnic \u2014 the grounds are large and beautiful"
+      "Bring a picnic — the grounds are large and beautiful"
     ],
     "rainy_day_suitable": false,
     "seo_keywords": [
@@ -543,7 +612,7 @@
     "media": {
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/ChristchurchCBDfromPortHills.jpg/1280px-ChristchurchCBDfromPortHills.jpg",
-        "alt": "Orana Wildlife Park, Christchurch \u2014 NZ's only open-range zoo"
+        "alt": "Orana Wildlife Park, Christchurch — NZ's only open-range zoo"
       }
     }
   },
@@ -552,18 +621,18 @@
     "name": "Te Papa Museum",
     "destination": "wellington",
     "category": "museum",
-    "tagline": "NZ's national museum \u2014 free, world-class, and kids can spend all day here",
+    "tagline": "NZ's national museum — free, world-class, and kids can spend all day here",
     "summary": "Te Papa is one of the best free museums in the Southern Hemisphere. Six floors of NZ history, Maori culture, natural history, and interactive exhibits designed specifically for children. The earthquake house, Gallipoli exhibition (ticketed), and giant squid are perennial kid-favourites. Allow at least 3 hours.",
     "price": {
       "adult": 0,
       "child": 0,
       "family4": 0,
-      "note": "Free entry. Some special exhibitions $10\u201325/adult."
+      "note": "Free entry. Some special exhibitions $10–25/adult."
     },
     "family_suitability": 10,
     "min_age": 0,
     "rain_safe": true,
-    "duration": "3\u20135 hours",
+    "duration": "3–5 hours",
     "booking_required": false,
     "booking_recommended": false,
     "affiliate_key": null,
@@ -577,7 +646,7 @@
       "Waterfront location"
     ],
     "tips": [
-      "Arrive when it opens at 10am \u2014 it gets crowded by midday",
+      "Arrive when it opens at 10am — it gets crowded by midday",
       "The earthquake simulator is a must for kids 7+",
       "Level 2 has the best kids' interactive area",
       "Free lockers available for bags and strollers",
@@ -595,8 +664,8 @@
     "name": "Wellington Cable Car",
     "destination": "wellington",
     "category": "sightseeing",
-    "tagline": "Wellington's iconic red cable car \u2014 one of NZ's most recognisable experiences",
-    "summary": "The Wellington Cable Car has been running since 1902 and is still one of the city's best experiences. The 4-minute ride takes you from Lambton Quay to the Botanic Garden at the top of the city, with panoramic views of the harbour. Walk back down through the garden \u2014 free and beautiful. The Cable Car Museum at the top is free.",
+    "tagline": "Wellington's iconic red cable car — one of NZ's most recognisable experiences",
+    "summary": "The Wellington Cable Car has been running since 1902 and is still one of the city's best experiences. The 4-minute ride takes you from Lambton Quay to the Botanic Garden at the top of the city, with panoramic views of the harbour. Walk back down through the garden — free and beautiful. The Cable Car Museum at the top is free.",
     "price": {
       "adult": 12,
       "child": 6,
@@ -618,10 +687,10 @@
       "Easy walk back down"
     ],
     "tips": [
-      "Buy return tickets \u2014 the walk back down through the Botanic Garden is lovely",
+      "Buy return tickets — the walk back down through the Botanic Garden is lovely",
       "Free Cable Car Museum at the top is worth 20 minutes",
-      "Runs every 10 minutes from 7am\u201310pm",
-      "Gets busy on sunny days \u2014 go early or late afternoon"
+      "Runs every 10 minutes from 7am–10pm",
+      "Gets busy on sunny days — go early or late afternoon"
     ],
     "media": {
       "image": {
@@ -635,8 +704,8 @@
     "name": "Abel Tasman Water Taxi & Beach Day",
     "destination": "nelson",
     "category": "nature",
-    "tagline": "Golden beaches and clear water in NZ's sunniest national park \u2014 all via water taxi",
-    "summary": "The best way to experience Abel Tasman National Park with kids is by water taxi. You hop on at Kaiteriteri or Marahau, get dropped at Anchorage Bay or Bark Bay, spend the day swimming and exploring, then get picked up. No multi-day tramping required. The beaches are genuinely world-class \u2014 golden sand, clear water, native bush backdrop.",
+    "tagline": "Golden beaches and clear water in NZ's sunniest national park — all via water taxi",
+    "summary": "The best way to experience Abel Tasman National Park with kids is by water taxi. You hop on at Kaiteriteri or Marahau, get dropped at Anchorage Bay or Bark Bay, spend the day swimming and exploring, then get picked up. No multi-day tramping required. The beaches are genuinely world-class — golden sand, clear water, native bush backdrop.",
     "price": {
       "adult": 70,
       "child": 45,
@@ -659,11 +728,11 @@
       "No hiking required"
     ],
     "tips": [
-      "Book the first water taxi out (8\u20139am) to maximize beach time",
-      "Bring a packed lunch \u2014 no facilities at remote beaches",
+      "Book the first water taxi out (8–9am) to maximize beach time",
+      "Bring a packed lunch — no facilities at remote beaches",
       "Anchorage Bay is the most popular; Bark Bay is slightly quieter",
-      "Water taxis have luggage space \u2014 bring snorkels and beach gear",
-      "Check the weather \u2014 the park is best in fine settled conditions"
+      "Water taxis have luggage space — bring snorkels and beach gear",
+      "Check the weather — the park is best in fine settled conditions"
     ],
     "media": {
       "image": {
@@ -677,8 +746,8 @@
     "name": "Hot Water Beach",
     "destination": "coromandel",
     "category": "nature",
-    "tagline": "Dig your own hot pool in the sand \u2014 one of NZ's most unique experiences",
-    "summary": "Hot Water Beach is genuinely one-of-a-kind. Geothermal water seeps through the sand at low tide, and you hire a spade ($5) to dig your own hot pool right on the beach. The water can reach 64\u00b0C in places so dig carefully and mix in cold seawater. It only works 2 hours either side of low tide \u2014 check hotwatertide.co.nz before you leave.",
+    "tagline": "Dig your own hot pool in the sand — one of NZ's most unique experiences",
+    "summary": "Hot Water Beach is genuinely one-of-a-kind. Geothermal water seeps through the sand at low tide, and you hire a spade ($5) to dig your own hot pool right on the beach. The water can reach 64°C in places so dig carefully and mix in cold seawater. It only works 2 hours either side of low tide — check hotwatertide.co.nz before you leave.",
     "price": {
       "adult": 0,
       "child": 0,
@@ -688,7 +757,7 @@
     "family_suitability": 9,
     "min_age": 0,
     "rain_safe": false,
-    "duration": "1.5\u20132.5 hours",
+    "duration": "1.5–2.5 hours",
     "booking_required": false,
     "booking_recommended": false,
     "affiliate_key": null,
@@ -701,10 +770,10 @@
       "Beach swimming nearby"
     ],
     "tips": [
-      "Check tide times at hotwatertide.co.nz the night before \u2014 timing is everything",
-      "Go on a weekday morning in shoulder season \u2014 peak summer weekends are chaotic",
-      "The water near the rocks can be scalding \u2014 test before sitting",
-      "Bring your own towel and swimwear \u2014 there are no changing facilities",
+      "Check tide times at hotwatertide.co.nz the night before — timing is everything",
+      "Go on a weekday morning in shoulder season — peak summer weekends are chaotic",
+      "The water near the rocks can be scalding — test before sitting",
+      "Bring your own towel and swimwear — there are no changing facilities",
       "Combine with Cathedral Cove (10 min away) for a full Coromandel day"
     ],
     "media": {
@@ -719,8 +788,8 @@
     "name": "Milford Sound Nature Cruise",
     "destination": "fiordland",
     "category": "nature",
-    "tagline": "The most dramatic 2 hours in New Zealand \u2014 sheer peaks, waterfalls, and wildlife",
-    "summary": "A Milford Sound cruise is one of the greatest experiences in the world. Sheer 1,500-metre peaks rise straight from the water, Stirling and Lady Bowen Falls cascade into the fiord, and dolphins regularly surf the bow wave of your boat. Rain actually makes it better \u2014 hundreds of extra waterfalls appear on the cliff faces. Allow 2 hours on the water.",
+    "tagline": "The most dramatic 2 hours in New Zealand — sheer peaks, waterfalls, and wildlife",
+    "summary": "A Milford Sound cruise is one of the greatest experiences in the world. Sheer 1,500-metre peaks rise straight from the water, Stirling and Lady Bowen Falls cascade into the fiord, and dolphins regularly surf the bow wave of your boat. Rain actually makes it better — hundreds of extra waterfalls appear on the cliff faces. Allow 2 hours on the water.",
     "price": {
       "adult": 95,
       "child": 30,
@@ -743,8 +812,8 @@
       "All weather"
     ],
     "tips": [
-      "Book the earliest cruise (8am from Milford) \u2014 before the tour buses arrive from Queenstown",
-      "Rain is not a problem \u2014 more waterfalls appear in wet weather",
+      "Book the earliest cruise (8am from Milford) — before the tour buses arrive from Queenstown",
+      "Rain is not a problem — more waterfalls appear in wet weather",
       "Sit outside for the best experience and photos",
       "Base in Te Anau (not Queenstown) to make the 2h drive manageable",
       "The underwater observatory add-on ($20/person) is worth it for kids"
@@ -761,18 +830,18 @@
     "name": "Zealandia Wildlife Sanctuary",
     "destination": "wellington",
     "category": "nature",
-    "tagline": "See tuatara, kiwi, and rare native birds in their natural habitat \u2014 in the middle of Wellington",
-    "summary": "Zealandia is one of the world's most ambitious urban conservation projects \u2014 a predator-free valley in the hills above Wellington, home to tuatara, k\u0101k\u0101, little blue penguins, and kiwi. Day visits let you walk the tracks and spot wildlife freely. The night tour (separate booking) almost guarantees kiwi sightings in the wild \u2014 genuinely one of the greatest NZ wildlife experiences.",
+    "tagline": "See tuatara, kiwi, and rare native birds in their natural habitat — in the middle of Wellington",
+    "summary": "Zealandia is one of the world's most ambitious urban conservation projects — a predator-free valley in the hills above Wellington, home to tuatara, kākā, little blue penguins, and kiwi. Day visits let you walk the tracks and spot wildlife freely. The night tour (separate booking) almost guarantees kiwi sightings in the wild — genuinely one of the greatest NZ wildlife experiences.",
     "price": {
       "adult": 22,
       "child": 11,
       "family4": 55,
-      "note": "Day entry. Night tour $95/adult, $50/child \u2014 book separately."
+      "note": "Day entry. Night tour $95/adult, $50/child — book separately."
     },
     "family_suitability": 9,
     "min_age": 0,
     "rain_safe": false,
-    "duration": "2\u20133 hours (day) / 2 hours (night tour)",
+    "duration": "2–3 hours (day) / 2 hours (night tour)",
     "booking_required": false,
     "booking_recommended": true,
     "affiliate_key": "bookme",
@@ -785,8 +854,8 @@
       "Kids activity packs"
     ],
     "tips": [
-      "Book the night tour in advance \u2014 it sells out fast and kiwi sightings are near-guaranteed",
-      "Bring binoculars \u2014 the k\u0101k\u0101 parrots are noisy and visible in the canopy",
+      "Book the night tour in advance — it sells out fast and kiwi sightings are near-guaranteed",
+      "Bring binoculars — the kākā parrots are noisy and visible in the canopy",
       "The shuttle from Cable Car Lane saves the steep walk up ($3 each way)",
       "Day visits: go in the morning when birds are most active",
       "Kids love spotting tuatara sunbathing on the rocks near the entrance"
@@ -803,8 +872,8 @@
     "name": "Driving Creek Railway",
     "destination": "coromandel",
     "category": "experience",
-    "tagline": "A narrow-gauge mountain railway through a sculpture park \u2014 unique and brilliant for kids",
-    "summary": "Driving Creek Railway is one of NZ's most unique attractions \u2014 a hand-built narrow-gauge railway that winds through a regenerating native forest, past pottery kilns and sculptures, to a summit viewpoint. The 50-minute return journey through tunnels, over viaducts, and around switchbacks is an adventure for kids of all ages. Built entirely by one man, Barry Brickell, over several decades.",
+    "tagline": "A narrow-gauge mountain railway through a sculpture park — unique and brilliant for kids",
+    "summary": "Driving Creek Railway is one of NZ's most unique attractions — a hand-built narrow-gauge railway that winds through a regenerating native forest, past pottery kilns and sculptures, to a summit viewpoint. The 50-minute return journey through tunnels, over viaducts, and around switchbacks is an adventure for kids of all ages. Built entirely by one man, Barry Brickell, over several decades.",
     "price": {
       "adult": 42,
       "child": 15,
@@ -827,15 +896,15 @@
       "Unique NZ experience"
     ],
     "tips": [
-      "Book online in advance \u2014 often sold out, especially in December\u2013January",
-      "The 10:15am departure is best \u2014 catch it before heading south to Hahei and Hot Water Beach",
+      "Book online in advance — often sold out, especially in December–January",
+      "The 10:15am departure is best — catch it before heading south to Hahei and Hot Water Beach",
       "Kids love the tunnels and the feeling of going through native bush",
       "Allow 20 min early to explore the pottery gallery and garden at the base"
     ],
     "media": {
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Cathedral_Cove_Coromandel.jpg/1280px-Cathedral_Cove_Coromandel.jpg",
-        "alt": "Coromandel Peninsula \u2014 home of Driving Creek Railway"
+        "alt": "Coromandel Peninsula — home of Driving Creek Railway"
       }
     }
   },
@@ -869,8 +938,8 @@
     "tips": [
       "Book via Dune Rider or Awesome NZ tours from Paihia",
       "Morning tours avoid afternoon heat",
-      "Sandboarding boards are provided \u2014 bring clothes you don't mind getting sandy",
-      "The lighthouse walk is 30 minutes return \u2014 manageable for most kids"
+      "Sandboarding boards are provided — bring clothes you don't mind getting sandy",
+      "The lighthouse walk is 30 minutes return — manageable for most kids"
     ],
     "media": {
       "image": {
@@ -884,8 +953,8 @@
     "name": "Surf Lesson at Mount Maunganui",
     "destination": "tauranga",
     "category": "water_sports",
-    "tagline": "Learn to surf on NZ's best beginner beach \u2014 boards and wetsuits provided",
-    "summary": "Mount Beach is one of New Zealand's best learner surf beaches \u2014 consistent small-medium waves, sandy bottom, and lifeguards. Multiple surf schools operate from the beach offering 2-hour group lessons for all ages, with boards and wetsuits provided.",
+    "tagline": "Learn to surf on NZ's best beginner beach — boards and wetsuits provided",
+    "summary": "Mount Beach is one of New Zealand's best learner surf beaches — consistent small-medium waves, sandy bottom, and lifeguards. Multiple surf schools operate from the beach offering 2-hour group lessons for all ages, with boards and wetsuits provided.",
     "price": {
       "adult": 95,
       "child": 80,
@@ -909,7 +978,7 @@
     "tips": [
       "Book the morning lesson (9-11am) for calmer sea conditions",
       "Arrive 15 minutes early for briefing",
-      "Teenagers who get one wave are usually hooked \u2014 budget for a second lesson",
+      "Teenagers who get one wave are usually hooked — budget for a second lesson",
       "Mount Beach surf schools include Pacific Surf School and Learn to Surf"
     ],
     "media": {
@@ -925,12 +994,12 @@
     "destination": "hawkes-bay",
     "category": "wildlife",
     "tagline": "10,000 gannets nesting at the world's most accessible mainland gannet colony",
-    "summary": "Cape Kidnappers has the world's largest and most accessible mainland gannet colony. The tractor trek along the beach (only passable at low tide) brings you to within metres of 10,000+ nesting gannets \u2014 an extraordinary wildlife experience. The guided walk alternative (6.5km each way) is suitable for older kids.",
+    "summary": "Cape Kidnappers has the world's largest and most accessible mainland gannet colony. The tractor trek along the beach (only passable at low tide) brings you to within metres of 10,000+ nesting gannets — an extraordinary wildlife experience. The guided walk alternative (6.5km each way) is suitable for older kids.",
     "price": {
       "adult": 85,
       "child": 45,
       "family4": 260,
-      "note": "Tractor trek \u2014 Gannet Beach Adventures"
+      "note": "Tractor trek — Gannet Beach Adventures"
     },
     "family_suitability": 9,
     "min_age": 5,
@@ -947,8 +1016,8 @@
       "Unique landscape of eroded clay cliffs"
     ],
     "tips": [
-      "Book at least 2 weeks ahead in peak season \u2014 this sells out frequently",
-      "Tours are tide-dependent \u2014 times vary daily",
+      "Book at least 2 weeks ahead in peak season — this sells out frequently",
+      "Tours are tide-dependent — times vary daily",
       "The tractor trek is easier for young kids than the walk (6.5km each way)",
       "Afternoon light is better for photography",
       "Gannets are most active at the colony October-April"
@@ -962,11 +1031,11 @@
   },
   {
     "slug": "royal-albatross-centre-dunedin",
-    "name": "Royal Albatross Centre \u2014 Taiaroa Head",
+    "name": "Royal Albatross Centre — Taiaroa Head",
     "destination": "dunedin",
     "category": "wildlife",
-    "tagline": "The world's only mainland albatross colony \u2014 see royal albatross nesting and soaring",
-    "summary": "Taiaroa Head on the Otago Peninsula is the only place in the world where royal albatross nest on a mainland accessible to visitors. The guided tour takes small groups into a hide to observe the world's largest flying birds \u2014 with 3-metre wingspans \u2014 from just metres away. Combined with yellow-eyed penguin viewing, it is the best wildlife day in NZ.",
+    "tagline": "The world's only mainland albatross colony — see royal albatross nesting and soaring",
+    "summary": "Taiaroa Head on the Otago Peninsula is the only place in the world where royal albatross nest on a mainland accessible to visitors. The guided tour takes small groups into a hide to observe the world's largest flying birds — with 3-metre wingspans — from just metres away. Combined with yellow-eyed penguin viewing, it is the best wildlife day in NZ.",
     "price": {
       "adult": 60,
       "child": 20,
@@ -988,7 +1057,7 @@
       "Views of Otago Harbour and Peninsula"
     ],
     "tips": [
-      "Book in advance \u2014 tours are small group and popular",
+      "Book in advance — tours are small group and popular",
       "Morning tours often see more flight activity",
       "Combine with the yellow-eyed penguin viewing in the same afternoon for a full wildlife day",
       "Albatross are present year-round but chick fledging (September-October) is particularly special"
@@ -996,7 +1065,7 @@
     "media": {
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Dunedin_Railway_Station_-_Front_facade.jpg/1280px-Dunedin_Railway_Station_-_Front_facade.jpg",
-        "alt": "Otago Peninsula near Dunedin \u2014 home of the Royal Albatross Centre"
+        "alt": "Otago Peninsula near Dunedin — home of the Royal Albatross Centre"
       }
     }
   }

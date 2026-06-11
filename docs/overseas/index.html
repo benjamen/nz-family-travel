@@ -92,8 +92,8 @@
   {
     "@context": "https://schema.org",
     "@type": "ItemList",
-    "name": "Overseas Family Travel from NZ \u2014 Thailand, Bali, Vietnam \u0026 More",
-    "description": "Honest guides for NZ families travelling overseas \u2014 real costs, flight times, and what actually works with kids.",
+    "name": "Overseas Family Travel from NZ — Thailand, Bali, Vietnam & More",
+    "description": "Honest guides for NZ families travelling overseas — real costs, flight times, and what actually works with kids.",
     "url": "https://nzfamilytravel.co.nz/overseas/",
     "numberOfItems": 9,
     "itemListElement": [
@@ -101,63 +101,63 @@
       {
         "@type": "ListItem",
         "position": 1,
-        "name": "Bali with Kids \u2014 The Honest NZ Family Guide (2026)",
+        "name": "Bali with Kids — The Honest NZ Family Guide (2026)",
         "url": "https://nzfamilytravel.co.nz/overseas/bali-with-kids/"
       },
       
       {
         "@type": "ListItem",
         "position": 2,
-        "name": "Cook Islands with Kids \u2014 Honest Family Guide 2026",
+        "name": "Cook Islands with Kids — Honest Family Guide 2026",
         "url": "https://nzfamilytravel.co.nz/overseas/cook-islands-with-kids/"
       },
       
       {
         "@type": "ListItem",
         "position": 3,
-        "name": "Fiji with Kids \u2014 Honest Family Guide 2026 (From a NZ Family)",
+        "name": "Fiji with Kids — Honest Family Guide 2026 (From a NZ Family)",
         "url": "https://nzfamilytravel.co.nz/overseas/fiji-with-kids/"
       },
       
       {
         "@type": "ListItem",
         "position": 4,
-        "name": "Gold Coast with Kids \u2014 NZ Family Guide 2026",
+        "name": "Gold Coast with Kids — NZ Family Guide 2026",
         "url": "https://nzfamilytravel.co.nz/overseas/gold-coast-australia-with-kids/"
       },
       
       {
         "@type": "ListItem",
         "position": 5,
-        "name": "Japan with Kids \u2014 NZ Family Guide 2026 (The Honest Version)",
+        "name": "Japan with Kids — NZ Family Guide 2026 (The Honest Version)",
         "url": "https://nzfamilytravel.co.nz/overseas/japan-with-kids/"
       },
       
       {
         "@type": "ListItem",
         "position": 6,
-        "name": "Samoa with Kids \u2014 Honest Family Guide 2026",
+        "name": "Samoa with Kids — Honest Family Guide 2026",
         "url": "https://nzfamilytravel.co.nz/overseas/samoa-with-kids/"
       },
       
       {
         "@type": "ListItem",
         "position": 7,
-        "name": "Singapore with Kids \u2014 NZ Family Guide 2026",
+        "name": "Singapore with Kids — NZ Family Guide 2026",
         "url": "https://nzfamilytravel.co.nz/overseas/singapore-with-kids/"
       },
       
       {
         "@type": "ListItem",
         "position": 8,
-        "name": "Thailand with Kids \u2014 The Honest Family Guide (2026)",
+        "name": "Thailand with Kids — The Honest Family Guide (2026)",
         "url": "https://nzfamilytravel.co.nz/overseas/thailand-with-kids/"
       },
       
       {
         "@type": "ListItem",
         "position": 9,
-        "name": "Vietnam with Kids \u2014 The Honest NZ Family Guide (2026)",
+        "name": "Vietnam with Kids — The Honest NZ Family Guide (2026)",
         "url": "https://nzfamilytravel.co.nz/overseas/vietnam-with-kids/"
       }
       
@@ -168,6 +168,21 @@
 
   <!-- GetYourGuide affiliate tracking -->
   <script async defer src="https://widget.getyourguide.com/dist/pa.umd.production.min.js" data-gyg-partner-id="TIXNVKM"></script>
+  <style>
+    .reviews-section h2 { margin-top: 1.5rem; }
+    .reviews-list { display: flex; flex-direction: column; gap: 1rem; margin-bottom: 1.5rem; }
+    .review-card { background: #fff; border: 1px solid #e5e7eb; border-radius: 10px; padding: 1rem 1.25rem; }
+    .review-stars { color: #f5a623; font-size: 1.1rem; letter-spacing: 2px; }
+    .review-meta { font-size: .85rem; color: #6b7280; margin: .25rem 0 .5rem; }
+    .review-text { margin: 0; }
+    .reviews-empty { color: #6b7280; }
+    .review-form { display: flex; flex-direction: column; gap: .75rem; max-width: 560px; }
+    .review-form input[type=text], .review-form textarea { padding: .65rem .8rem; border: 1px solid #d1d5db; border-radius: 8px; font: inherit; width: 100%; }
+    .review-form button { align-self: flex-start; padding: .65rem 1.4rem; background: #1f7a8c; color: #fff; border: 0; border-radius: 8px; font: inherit; cursor: pointer; }
+    .star-rating-input { display: inline-flex; flex-direction: row-reverse; font-size: 1.9rem; color: #d1d5db; cursor: pointer; }
+    .star-rating-input span { padding: 0 .05em; transition: color .12s; }
+    .star-rating-input span:hover, .star-rating-input span:hover ~ span, .star-rating-input span.sel, .star-rating-input span.sel ~ span { color: #f5a623; }
+  </style>
 </head>
 <body>
   <nav class="nav">
@@ -177,6 +192,7 @@
         <a href="/destinations/">Destinations</a>
         <a href="/itineraries/">Itineraries</a>
         <a href="/campervans/">Campervans</a>
+        <a href="/price-alerts/">Price Alerts</a>
         <a href="/activities/">Activities</a>
         <a href="/school-holidays/">Holidays</a>
         <a href="/weather/">Weather</a>
@@ -218,6 +234,8 @@
       <a href="https://www.booking.com/searchresults/nz.html?aid=PENDING_BOOKING_AID" class="aff-strip-item" rel="sponsored" target="_blank">🏕️ <strong>Find Accommodation</strong></a>
     </div>
   </div>
+
+  
 
   
 
@@ -720,6 +738,22 @@
     });
     updateBadge();
     if(window.renderMyTrip) window.renderMyTrip(read());
+  })();
+  </script>
+
+  <!-- Star rating input -->
+  <script>
+  (function(){
+    var stars = document.getElementById('star-input');
+    var field = document.getElementById('rating-val');
+    if(!stars || !field) return;
+    stars.querySelectorAll('span').forEach(function(s){
+      s.addEventListener('click', function(){
+        field.value = s.dataset.val;
+        stars.querySelectorAll('span').forEach(function(x){ x.classList.remove('sel'); });
+        s.classList.add('sel');
+      });
+    });
   })();
   </script>
 

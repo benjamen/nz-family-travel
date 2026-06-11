@@ -93,8 +93,8 @@
   {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "Things to Do in Wanaka with Kids \u2014 2026 Family Guide",
-    "description": "Best things to do in Wanaka with kids \u2014 Puzzling World, lake swimming, Mt Iron walk, skiing, and what makes Wanaka better than Queenstown for some families.",
+    "headline": "Things to Do in Wanaka with Kids — 2026 Family Guide",
+    "description": "Best things to do in Wanaka with kids — Puzzling World, lake swimming, Mt Iron walk, skiing, and what makes Wanaka better than Queenstown for some families.",
     "datePublished": "2026-05-01",
     "dateModified": "2026-05-01",
     "image": {"@type": "ImageObject", "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Wanaka_New_Zealand_-_Panorama.jpg/1280px-Wanaka_New_Zealand_-_Panorama.jpg", "width": 1200, "height": 630},
@@ -116,19 +116,19 @@
       {
         "@type": "Question",
         "name": "Is Wanaka better than Queenstown for families?",
-        "acceptedAnswer": {"@type": "Answer", "text": "It depends on what you want. Wanaka is quieter, less crowded, and better paced for families with young children or those who prefer a relaxed holiday. Queenstown has more activities (luge, jet boat, gondola, more restaurants). For families with kids 5\u201314 who want maximum activities, Queenstown wins. For families with toddlers or those who want a slower pace, Wanaka is the better choice."}
+        "acceptedAnswer": {"@type": "Answer", "text": "It depends on what you want. Wanaka is quieter, less crowded, and better paced for families with young children or those who prefer a relaxed holiday. Queenstown has more activities (luge, jet boat, gondola, more restaurants). For families with kids 5–14 who want maximum activities, Queenstown wins. For families with toddlers or those who want a slower pace, Wanaka is the better choice."}
       },
       
       {
         "@type": "Question",
         "name": "What is Puzzling World like for kids?",
-        "acceptedAnswer": {"@type": "Answer", "text": "Puzzling World is genuinely excellent for kids aged 4\u201314. The 3D wooden maze takes 30\u201360 minutes and kids can explore independently. The Illusion Rooms have holograms, a tilted room where water flows uphill, and optical illusions at a larger scale than science museums. Entry approx $25/adult, $18/child. Allow 2+ hours."}
+        "acceptedAnswer": {"@type": "Answer", "text": "Puzzling World is genuinely excellent for kids aged 4–14. The 3D wooden maze takes 30–60 minutes and kids can explore independently. The Illusion Rooms have holograms, a tilted room where water flows uphill, and optical illusions at a larger scale than science museums. Entry approx $25/adult, $18/child. Allow 2+ hours."}
       },
       
       {
         "@type": "Question",
         "name": "Can you swim in Lake Wanaka with kids?",
-        "acceptedAnswer": {"@type": "Answer", "text": "Yes \u2014 Lake Wanaka is clean and swimmable from December to March when water temperatures reach 18\u201320\u00b0C. The town beach area is sheltered and calm, good for young children. The lake is cold outside summer \u2014 wetsuits recommended for young children even in midsummer."}
+        "acceptedAnswer": {"@type": "Answer", "text": "Yes — Lake Wanaka is clean and swimmable from December to March when water temperatures reach 18–20°C. The town beach area is sheltered and calm, good for young children. The lake is cold outside summer — wetsuits recommended for young children even in midsummer."}
       },
       
       {
@@ -145,6 +145,21 @@
 
   <!-- GetYourGuide affiliate tracking -->
   <script async defer src="https://widget.getyourguide.com/dist/pa.umd.production.min.js" data-gyg-partner-id="TIXNVKM"></script>
+  <style>
+    .reviews-section h2 { margin-top: 1.5rem; }
+    .reviews-list { display: flex; flex-direction: column; gap: 1rem; margin-bottom: 1.5rem; }
+    .review-card { background: #fff; border: 1px solid #e5e7eb; border-radius: 10px; padding: 1rem 1.25rem; }
+    .review-stars { color: #f5a623; font-size: 1.1rem; letter-spacing: 2px; }
+    .review-meta { font-size: .85rem; color: #6b7280; margin: .25rem 0 .5rem; }
+    .review-text { margin: 0; }
+    .reviews-empty { color: #6b7280; }
+    .review-form { display: flex; flex-direction: column; gap: .75rem; max-width: 560px; }
+    .review-form input[type=text], .review-form textarea { padding: .65rem .8rem; border: 1px solid #d1d5db; border-radius: 8px; font: inherit; width: 100%; }
+    .review-form button { align-self: flex-start; padding: .65rem 1.4rem; background: #1f7a8c; color: #fff; border: 0; border-radius: 8px; font: inherit; cursor: pointer; }
+    .star-rating-input { display: inline-flex; flex-direction: row-reverse; font-size: 1.9rem; color: #d1d5db; cursor: pointer; }
+    .star-rating-input span { padding: 0 .05em; transition: color .12s; }
+    .star-rating-input span:hover, .star-rating-input span:hover ~ span, .star-rating-input span.sel, .star-rating-input span.sel ~ span { color: #f5a623; }
+  </style>
 </head>
 <body>
   <nav class="nav">
@@ -154,6 +169,7 @@
         <a href="/destinations/">Destinations</a>
         <a href="/itineraries/">Itineraries</a>
         <a href="/campervans/">Campervans</a>
+        <a href="/price-alerts/">Price Alerts</a>
         <a href="/activities/">Activities</a>
         <a href="/school-holidays/">Holidays</a>
         <a href="/weather/">Weather</a>
@@ -774,6 +790,22 @@ Queenstown makes more sense if you want maximum activities, teenage kids who nee
     });
     updateBadge();
     if(window.renderMyTrip) window.renderMyTrip(read());
+  })();
+  </script>
+
+  <!-- Star rating input -->
+  <script>
+  (function(){
+    var stars = document.getElementById('star-input');
+    var field = document.getElementById('rating-val');
+    if(!stars || !field) return;
+    stars.querySelectorAll('span').forEach(function(s){
+      s.addEventListener('click', function(){
+        field.value = s.dataset.val;
+        stars.querySelectorAll('span').forEach(function(x){ x.classList.remove('sel'); });
+        s.classList.add('sel');
+      });
+    });
   })();
   </script>
 

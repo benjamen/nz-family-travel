@@ -17,6 +17,7 @@ OUT     = ROOT / "docs"
 
 env = Environment(loader=FileSystemLoader(str(LAYOUTS)), autoescape=False)
 env.filters['url_encode'] = quote_plus
+env.filters['tojson'] = lambda v: json.dumps(v, ensure_ascii=False)
 
 def _to_iso_date(s):
     for fmt in ('%B %Y', '%b %Y', '%Y-%m-%d', '%d %B %Y'):
@@ -119,6 +120,16 @@ def build():
 
     # ── Holiday Park Finder ────────────────────────────────────────────────────
     render("holiday-parks.html", "holiday-parks/index.html", **ctx)
+
+    # ── Individual holiday park profile pages ─────────────────────────────────
+    import re as _re
+    for region in holiday_parks.get("regions", []):
+        for park in region.get("parks", []):
+            park["region_name"] = region["name"]
+            park["region_slug"] = region["slug"]
+            if "slug" not in park:
+                park["slug"] = _re.sub(r"[^a-z0-9]+", "-", park["name"].lower()).strip("-")
+            render("holiday-park.html", f"holiday-parks/{park['slug']}/index.html", park=park, **ctx)
 
     # ── Destinations hub ──────────────────────────────────────────────────────
     render("hub.html", "destinations/index.html",
@@ -244,6 +255,12 @@ def build():
                f"itineraries/{itin['slug']}/index.html",
                itinerary=itin,
                **ctx)
+
+    # ── Itinerary builder ─────────────────────────────────────────────────────
+    render("itinerary-builder.html", "itinerary-builder/index.html", **ctx)
+
+    # ── Price alerts signup ───────────────────────────────────────────────────
+    render("price-alerts.html", "price-alerts/index.html", **ctx)
 
     # ── Interactive NZ Map ───────────────────────────────────────────────────
     render("nz-map.html", "nz-map/index.html", **ctx)

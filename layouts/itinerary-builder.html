@@ -1,0 +1,150 @@
+{% extends "base.html" %}
+
+{% block title %}Itinerary Builder — Customise Your NZ Family Trip{% endblock %}
+{% block desc %}Build your own NZ family itinerary. Start from a proven template, swap activities day-by-day, save it, and print a PDF to take on your trip.{% endblock %}
+{% block canonical %}itinerary-builder/{% endblock %}
+{% block hreflang_path %}itinerary-builder/{% endblock %}
+
+{% block extra_head %}
+<script>var ITINERARIES = {{ itineraries | tojson }}; var ACTIVITIES = {{ activities | tojson }};</script>
+<style>
+  .ib-step { margin-bottom: 1.5rem; }
+  .ib-step h2 { margin-bottom: .5rem; }
+  .ib-select { padding: .65rem .8rem; border: 1px solid #d1d5db; border-radius: 8px; font: inherit; max-width: 460px; width: 100%; }
+  .ib-day { background: #fff; border: 1px solid #e5e7eb; border-radius: 10px; padding: 1rem 1.25rem; margin-bottom: 1rem; }
+  .ib-day h3 { margin: 0 0 .25rem; }
+  .ib-day-loc { color: #6b7280; font-size: .9rem; margin-bottom: .75rem; }
+  .ib-acts { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: .5rem; }
+  .ib-act { display: flex; justify-content: space-between; align-items: center; gap: 1rem; background: #f9fafb; border-radius: 8px; padding: .55rem .8rem; }
+  .ib-act-swap { padding: .35rem .9rem; background: #1f7a8c; color: #fff; border: 0; border-radius: 7px; font: inherit; font-size: .85rem; cursor: pointer; white-space: nowrap; }
+  .ib-act-swap[disabled] { background: #cbd5e1; cursor: default; }
+  .ib-swap-menu { margin-top: .5rem; background: #eef6f8; border-radius: 8px; padding: .5rem .8rem; }
+  .ib-swap-menu select { width: 100%; max-width: 100%; padding: .5rem; border: 1px solid #cbd5e1; border-radius: 7px; font: inherit; }
+  .ib-actions { display: flex; gap: .75rem; flex-wrap: wrap; margin: 1.5rem 0; }
+  .ib-summary { background: #fff; border: 2px solid #1f7a8c; border-radius: 10px; padding: 1.25rem 1.5rem; margin-top: 1.5rem; }
+  @media print {
+    .nav, .footer, .sticky-affiliate, .newsletter-strip, .ib-actions, .ib-step:first-of-type, .ib-act-swap, .ib-swap-menu { display: none !important; }
+    .ib-day { break-inside: avoid; border: 1px solid #999; }
+  }
+</style>
+{% endblock %}
+
+{% block hero %}
+<section class="page-hero">
+  <div class="hero-inner">
+    <div class="breadcrumb"><a href="/">Home</a> › <a href="/itineraries/">Itineraries</a> › Builder</div>
+    <h1>Build Your Own NZ Family Itinerary</h1>
+    <p>Start from a proven template, swap activities to suit your kids, then save or print it for your trip.</p>
+  </div>
+</section>
+{% endblock %}
+
+{% block content %}
+<section class="section">
+  <div class="ib-step">
+    <h2>1. Choose a starting template</h2>
+    <select id="ib-template" class="ib-select">
+      <option value="">— Select an itinerary —</option>
+    </select>
+  </div>
+
+  <div id="ib-days"></div>
+
+  <div class="ib-actions" id="ib-action-bar" hidden>
+    <button class="btn btn-primary" id="ib-save">💾 Save My Itinerary</button>
+    <button class="btn btn-outline" id="ib-print">🖨️ Print / PDF</button>
+  </div>
+
+  <div class="ib-summary" id="ib-summary" hidden></div>
+</section>
+{% endblock %}
+
+{% block extra_foot %}
+<script>
+(function(){
+  var KEY = 'nzft_custom_itinerary';
+  var sel = document.getElementById('ib-template');
+  var daysEl = document.getElementById('ib-days');
+  var bar = document.getElementById('ib-action-bar');
+  var summaryEl = document.getElementById('ib-summary');
+  var current = null;
+
+  ITINERARIES.forEach(function(it){
+    var o = document.createElement('option');
+    o.value = it.slug; o.textContent = it.title;
+    sel.appendChild(o);
+  });
+
+  function actsFor(location){
+    var loc = (location || '').toLowerCase();
+    return ACTIVITIES.filter(function(a){ return loc.indexOf(a.destination.toLowerCase()) !== -1; });
+  }
+
+  function render(){
+    daysEl.innerHTML = '';
+    if(!current){ bar.hidden = true; summaryEl.hidden = true; return; }
+    current.days.forEach(function(day, di){
+      var card = document.createElement('div');
+      card.className = 'ib-day';
+      var swaps = actsFor(day.location);
+      var acts = day.activities.map(function(act, ai){
+        var canSwap = swaps.length > 0;
+        return '<li class="ib-act"><span>' + esc(act) + '</span>' +
+          '<button class="ib-act-swap" data-d="' + di + '" data-a="' + ai + '"' +
+          (canSwap ? '' : ' disabled') + '>Swap</button></li>' +
+          '<div class="ib-swap-menu" data-menu="' + di + '-' + ai + '" hidden></div>';
+      }).join('');
+      card.innerHTML = '<h3>Day ' + day.day + ': ' + esc(day.title) + '</h3>' +
+        '<div class="ib-day-loc">📍 ' + esc(day.location) + '</div>' +
+        '<ul class="ib-acts">' + acts + '</ul>';
+      daysEl.appendChild(card);
+    });
+    bar.hidden = false;
+    summaryEl.hidden = true;
+  }
+
+  daysEl.addEventListener('click', function(e){
+    var btn = e.target.closest('.ib-act-swap');
+    if(!btn || btn.disabled) return;
+    var di = +btn.dataset.d, ai = +btn.dataset.a;
+    var menu = daysEl.querySelector('[data-menu="' + di + '-' + ai + '"]');
+    if(!menu.hidden){ menu.hidden = true; return; }
+    var swaps = actsFor(current.days[di].location);
+    menu.innerHTML = '<select><option value="">Replace with…</option>' +
+      swaps.map(function(a){ return '<option value="' + esc(a.name) + '">' + esc(a.name) + ' (' + esc(a.destination) + ')</option>'; }).join('') +
+      '</select>';
+    menu.hidden = false;
+    menu.querySelector('select').addEventListener('change', function(){
+      if(!this.value) return;
+      current.days[di].activities[ai] = this.value;
+      render();
+    });
+  });
+
+  document.getElementById('ib-save').addEventListener('click', function(){
+    localStorage.setItem(KEY, JSON.stringify(current));
+    var total = current.days.reduce(function(n, d){ return n + d.activities.length; }, 0);
+    summaryEl.innerHTML = '<h2>✅ Saved!</h2><p>Your custom <strong>' + esc(current.title) +
+      '</strong> has ' + current.days.length + ' days and ' + total +
+      ' activities. It\'s saved to this browser — come back any time.</p>';
+    summaryEl.hidden = false;
+    summaryEl.scrollIntoView({behavior: 'smooth'});
+  });
+
+  document.getElementById('ib-print').addEventListener('click', function(){ window.print(); });
+
+  sel.addEventListener('change', function(){
+    var base = ITINERARIES.find(function(i){ return i.slug === sel.value; });
+    current = base ? JSON.parse(JSON.stringify(base)) : null;
+    render();
+  });
+
+  try {
+    var saved = JSON.parse(localStorage.getItem(KEY));
+    if(saved && saved.slug){ sel.value = saved.slug; current = saved; render(); }
+  } catch(e){}
+
+  function esc(s){ return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+})();
+</script>
+{% endblock %}

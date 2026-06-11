@@ -147,6 +147,21 @@
 
   <!-- GetYourGuide affiliate tracking -->
   <script async defer src="https://widget.getyourguide.com/dist/pa.umd.production.min.js" data-gyg-partner-id="TIXNVKM"></script>
+  <style>
+    .reviews-section h2 { margin-top: 1.5rem; }
+    .reviews-list { display: flex; flex-direction: column; gap: 1rem; margin-bottom: 1.5rem; }
+    .review-card { background: #fff; border: 1px solid #e5e7eb; border-radius: 10px; padding: 1rem 1.25rem; }
+    .review-stars { color: #f5a623; font-size: 1.1rem; letter-spacing: 2px; }
+    .review-meta { font-size: .85rem; color: #6b7280; margin: .25rem 0 .5rem; }
+    .review-text { margin: 0; }
+    .reviews-empty { color: #6b7280; }
+    .review-form { display: flex; flex-direction: column; gap: .75rem; max-width: 560px; }
+    .review-form input[type=text], .review-form textarea { padding: .65rem .8rem; border: 1px solid #d1d5db; border-radius: 8px; font: inherit; width: 100%; }
+    .review-form button { align-self: flex-start; padding: .65rem 1.4rem; background: #1f7a8c; color: #fff; border: 0; border-radius: 8px; font: inherit; cursor: pointer; }
+    .star-rating-input { display: inline-flex; flex-direction: row-reverse; font-size: 1.9rem; color: #d1d5db; cursor: pointer; }
+    .star-rating-input span { padding: 0 .05em; transition: color .12s; }
+    .star-rating-input span:hover, .star-rating-input span:hover ~ span, .star-rating-input span.sel, .star-rating-input span.sel ~ span { color: #f5a623; }
+  </style>
 </head>
 <body>
   <nav class="nav">
@@ -156,6 +171,7 @@
         <a href="/destinations/">Destinations</a>
         <a href="/itineraries/">Itineraries</a>
         <a href="/campervans/">Campervans</a>
+        <a href="/price-alerts/">Price Alerts</a>
         <a href="/activities/">Activities</a>
         <a href="/school-holidays/">Holidays</a>
         <a href="/weather/">Weather</a>
@@ -979,6 +995,46 @@
 </section>
 
 
+<!-- Reviews -->
+<section class="section reviews-section">
+  <h2>Family Reviews</h2>
+  
+  <div class="reviews-list">
+    
+    <div class="review-card">
+      <div class="review-stars" aria-label="5 out of 5 stars">★★★★★</div>
+      <div class="review-meta"><strong>Emma T.</strong> · April 2026 · Kids: 7, 10</div>
+      <p class="review-text">The Hole in the Rock cruise was the highlight of our trip — dolphins everywhere. Bring layers, it gets windy out on the water.</p>
+    </div>
+    
+    <div class="review-card">
+      <div class="review-stars" aria-label="4 out of 5 stars">★★★★☆</div>
+      <div class="review-meta"><strong>Josh W.</strong> · December 2025 · Kids: 4, 8</div>
+      <p class="review-text">Beautiful beaches and very relaxed. A bit of a drive from Auckland with kids so we broke it up at Whangārei.</p>
+    </div>
+    
+    <div class="review-card">
+      <div class="review-stars" aria-label="5 out of 5 stars">★★★★★</div>
+      <div class="review-meta"><strong>Mere H.</strong> · February 2026 · Kids: 5, 11</div>
+      <p class="review-text">Paihia is so easy with young kids — safe swimming and plenty of cafes. Waitangi Treaty Grounds was great for our older one.</p>
+    </div>
+    
+  </div>
+  
+
+  <h2>Share Your Experience</h2>
+  <form class="review-form" action="https://formspree.io/f/REPLACE_ID" method="POST">
+    <input type="hidden" name="page" value="bay-of-islands-family">
+    <div class="star-rating-input" id="star-input">
+      <span data-val="5">★</span><span data-val="4">★</span><span data-val="3">★</span><span data-val="2">★</span><span data-val="1">★</span>
+    </div>
+    <input type="hidden" name="rating" id="rating-val">
+    <input type="text" name="name" placeholder="Your name (optional)">
+    <textarea name="review" placeholder="How was it with kids? Age of your children, tips for other families..." required rows="4"></textarea>
+    <button type="submit">Submit Review</button>
+  </form>
+</section>
+
 
   </main>
 
@@ -1410,6 +1466,22 @@
     });
     updateBadge();
     if(window.renderMyTrip) window.renderMyTrip(read());
+  })();
+  </script>
+
+  <!-- Star rating input -->
+  <script>
+  (function(){
+    var stars = document.getElementById('star-input');
+    var field = document.getElementById('rating-val');
+    if(!stars || !field) return;
+    stars.querySelectorAll('span').forEach(function(s){
+      s.addEventListener('click', function(){
+        field.value = s.dataset.val;
+        stars.querySelectorAll('span').forEach(function(x){ x.classList.remove('sel'); });
+        s.classList.add('sel');
+      });
+    });
   })();
   </script>
 

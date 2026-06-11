@@ -60,6 +60,10 @@
     </div>
   </div>
 
+  {% if hub_type == "itineraries" %}
+  <p style="margin:-1rem 0 2rem"><a href="/itinerary-builder/" class="btn btn-primary">Build your own itinerary →</a></p>
+  {% endif %}
+
   {% if hub_type == "activities" %}
   <div class="activity-filters" id="activity-filters">
     <div class="af-field">

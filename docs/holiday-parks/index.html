@@ -172,7 +172,7 @@
       "name": "What is a holiday park in New Zealand?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "A New Zealand holiday park (also called a motor camp or campsite) is a multi-option accommodation facility offering powered sites for campervans and tents, basic cabins, and self-contained units \u2014 all typically sharing communal kitchen, bathroom, and laundry facilities. Most have playgrounds, BBQ areas, and some have pools. They\u0027re the best-value family accommodation in NZ."
+        "text": "A New Zealand holiday park (also called a motor camp or campsite) is a multi-option accommodation facility offering powered sites for campervans and tents, basic cabins, and self-contained units — all typically sharing communal kitchen, bathroom, and laundry facilities. Most have playgrounds, BBQ areas, and some have pools. They're the best-value family accommodation in NZ."
       }
     },
     
@@ -181,7 +181,7 @@
       "name": "Are TOP 10 holiday parks worth it?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes \u2014 especially for families doing a multi-night NZ road trip. TOP 10 parks are independently assessed and meet consistent quality standards. The TOP 10 membership card ($49/year) gives 10% off all stays at 50+ parks nationwide, paying for itself quickly. Not all great parks are TOP 10 parks, but TOP 10 membership is reliable indicator of quality."
+        "text": "Yes — especially for families doing a multi-night NZ road trip. TOP 10 parks are independently assessed and meet consistent quality standards. The TOP 10 membership card ($49/year) gives 10% off all stays at 50+ parks nationwide, paying for itself quickly. Not all great parks are TOP 10 parks, but TOP 10 membership is reliable indicator of quality."
       }
     },
     
@@ -190,7 +190,7 @@
       "name": "How much does a holiday park cost per night in NZ?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Powered sites for campervans or tents cost $35\u2013$55/night for two adults. Cabins (shared bathrooms) run $80\u2013$130/night. Self-contained tourist units with private bathrooms cost $120\u2013$220/night. School holiday and Christmas/New Year prices are typically 20\u201340% higher than off-peak."
+        "text": "Powered sites for campervans or tents cost $35–$55/night for two adults. Cabins (shared bathrooms) run $80–$130/night. Self-contained tourist units with private bathrooms cost $120–$220/night. School holiday and Christmas/New Year prices are typically 20–40% higher than off-peak."
       }
     },
     
@@ -199,7 +199,7 @@
       "name": "Can you book NZ holiday parks online?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes \u2014 most NZ holiday parks can be booked directly on their own website, through TOP 10\u0027s website (top10.co.nz), or via Booking.com and Campable. Direct booking is usually cheapest. The TOP 10 website includes all 50+ TOP 10 parks and allows easy searching by region."
+        "text": "Yes — most NZ holiday parks can be booked directly on their own website, through TOP 10's website (top10.co.nz), or via Booking.com and Campable. Direct booking is usually cheapest. The TOP 10 website includes all 50+ TOP 10 parks and allows easy searching by region."
       }
     }
     
@@ -209,6 +209,21 @@
 
   <!-- GetYourGuide affiliate tracking -->
   <script async defer src="https://widget.getyourguide.com/dist/pa.umd.production.min.js" data-gyg-partner-id="TIXNVKM"></script>
+  <style>
+    .reviews-section h2 { margin-top: 1.5rem; }
+    .reviews-list { display: flex; flex-direction: column; gap: 1rem; margin-bottom: 1.5rem; }
+    .review-card { background: #fff; border: 1px solid #e5e7eb; border-radius: 10px; padding: 1rem 1.25rem; }
+    .review-stars { color: #f5a623; font-size: 1.1rem; letter-spacing: 2px; }
+    .review-meta { font-size: .85rem; color: #6b7280; margin: .25rem 0 .5rem; }
+    .review-text { margin: 0; }
+    .reviews-empty { color: #6b7280; }
+    .review-form { display: flex; flex-direction: column; gap: .75rem; max-width: 560px; }
+    .review-form input[type=text], .review-form textarea { padding: .65rem .8rem; border: 1px solid #d1d5db; border-radius: 8px; font: inherit; width: 100%; }
+    .review-form button { align-self: flex-start; padding: .65rem 1.4rem; background: #1f7a8c; color: #fff; border: 0; border-radius: 8px; font: inherit; cursor: pointer; }
+    .star-rating-input { display: inline-flex; flex-direction: row-reverse; font-size: 1.9rem; color: #d1d5db; cursor: pointer; }
+    .star-rating-input span { padding: 0 .05em; transition: color .12s; }
+    .star-rating-input span:hover, .star-rating-input span:hover ~ span, .star-rating-input span.sel, .star-rating-input span.sel ~ span { color: #f5a623; }
+  </style>
 </head>
 <body>
   <nav class="nav">
@@ -218,6 +233,7 @@
         <a href="/destinations/">Destinations</a>
         <a href="/itineraries/">Itineraries</a>
         <a href="/campervans/">Campervans</a>
+        <a href="/price-alerts/">Price Alerts</a>
         <a href="/activities/">Activities</a>
         <a href="/school-holidays/">Holidays</a>
         <a href="/weather/">Weather</a>
@@ -1719,6 +1735,22 @@
     });
     updateBadge();
     if(window.renderMyTrip) window.renderMyTrip(read());
+  })();
+  </script>
+
+  <!-- Star rating input -->
+  <script>
+  (function(){
+    var stars = document.getElementById('star-input');
+    var field = document.getElementById('rating-val');
+    if(!stars || !field) return;
+    stars.querySelectorAll('span').forEach(function(s){
+      s.addEventListener('click', function(){
+        field.value = s.dataset.val;
+        stars.querySelectorAll('span').forEach(function(x){ x.classList.remove('sel'); });
+        s.classList.add('sel');
+      });
+    });
   })();
   </script>
 

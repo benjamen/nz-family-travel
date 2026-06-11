@@ -204,7 +204,7 @@
       "name": "What is the best month to visit New Zealand with kids?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "January and February are consistently the best months across most of NZ \u2014 warm, long days, most activities running. December is peak season but more expensive and crowded. October\u2013November is the best shoulder season for value-conscious families."
+        "text": "January and February are consistently the best months across most of NZ — warm, long days, most activities running. December is peak season but more expensive and crowded. October–November is the best shoulder season for value-conscious families."
       }
     },
     
@@ -213,7 +213,7 @@
       "name": "Is New Zealand worth visiting in winter with kids?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes \u2014 especially if you\u0027re ski-focused. Queenstown and Wanaka are excellent for skiing in July\u2013August. For non-ski families, winter is much quieter and cheaper, though the South Island in particular gets cold. Rotorua, Auckland and Wellington work well year-round."
+        "text": "Yes — especially if you're ski-focused. Queenstown and Wanaka are excellent for skiing in July–August. For non-ski families, winter is much quieter and cheaper, though the South Island in particular gets cold. Rotorua, Auckland and Wellington work well year-round."
       }
     },
     
@@ -222,7 +222,7 @@
       "name": "What is the cheapest time to visit New Zealand?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "May\u2013September (excluding school holiday weeks in July) offers the cheapest accommodation and campervan rates. Shoulder seasons \u2014 October\u2013November and March\u2013April \u2014 offer a good balance of decent weather and lower prices."
+        "text": "May–September (excluding school holiday weeks in July) offers the cheapest accommodation and campervan rates. Shoulder seasons — October–November and March–April — offer a good balance of decent weather and lower prices."
       }
     },
     
@@ -231,7 +231,7 @@
       "name": "Does New Zealand have four seasons?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes. Summer (December\u2013February), Autumn (March\u2013May), Winter (June\u2013August), Spring (September\u2013November). The South Island has more extreme seasons \u2014 colder winters, hotter summers in central/eastern areas. The North Island is milder year-round."
+        "text": "Yes. Summer (December–February), Autumn (March–May), Winter (June–August), Spring (September–November). The South Island has more extreme seasons — colder winters, hotter summers in central/eastern areas. The North Island is milder year-round."
       }
     },
     
@@ -240,7 +240,7 @@
       "name": "When does it rain most in New Zealand?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "It depends heavily on region. The West Coast of the South Island (Greymouth, Westport) is one of the wettest places on Earth year-round. Northland and Bay of Islands have a distinct wet season June\u2013August. The east coast regions (Hawke\u0027s Bay, Marlborough, Canterbury) are drier. Wellington is windy with rain distributed through the year."
+        "text": "It depends heavily on region. The West Coast of the South Island (Greymouth, Westport) is one of the wettest places on Earth year-round. Northland and Bay of Islands have a distinct wet season June–August. The east coast regions (Hawke's Bay, Marlborough, Canterbury) are drier. Wellington is windy with rain distributed through the year."
       }
     }
     
@@ -250,6 +250,21 @@
 
   <!-- GetYourGuide affiliate tracking -->
   <script async defer src="https://widget.getyourguide.com/dist/pa.umd.production.min.js" data-gyg-partner-id="TIXNVKM"></script>
+  <style>
+    .reviews-section h2 { margin-top: 1.5rem; }
+    .reviews-list { display: flex; flex-direction: column; gap: 1rem; margin-bottom: 1.5rem; }
+    .review-card { background: #fff; border: 1px solid #e5e7eb; border-radius: 10px; padding: 1rem 1.25rem; }
+    .review-stars { color: #f5a623; font-size: 1.1rem; letter-spacing: 2px; }
+    .review-meta { font-size: .85rem; color: #6b7280; margin: .25rem 0 .5rem; }
+    .review-text { margin: 0; }
+    .reviews-empty { color: #6b7280; }
+    .review-form { display: flex; flex-direction: column; gap: .75rem; max-width: 560px; }
+    .review-form input[type=text], .review-form textarea { padding: .65rem .8rem; border: 1px solid #d1d5db; border-radius: 8px; font: inherit; width: 100%; }
+    .review-form button { align-self: flex-start; padding: .65rem 1.4rem; background: #1f7a8c; color: #fff; border: 0; border-radius: 8px; font: inherit; cursor: pointer; }
+    .star-rating-input { display: inline-flex; flex-direction: row-reverse; font-size: 1.9rem; color: #d1d5db; cursor: pointer; }
+    .star-rating-input span { padding: 0 .05em; transition: color .12s; }
+    .star-rating-input span:hover, .star-rating-input span:hover ~ span, .star-rating-input span.sel, .star-rating-input span.sel ~ span { color: #f5a623; }
+  </style>
 </head>
 <body>
   <nav class="nav">
@@ -259,6 +274,7 @@
         <a href="/destinations/">Destinations</a>
         <a href="/itineraries/">Itineraries</a>
         <a href="/campervans/">Campervans</a>
+        <a href="/price-alerts/">Price Alerts</a>
         <a href="/activities/">Activities</a>
         <a href="/school-holidays/">Holidays</a>
         <a href="/weather/">Weather</a>
@@ -3215,6 +3231,22 @@
     });
     updateBadge();
     if(window.renderMyTrip) window.renderMyTrip(read());
+  })();
+  </script>
+
+  <!-- Star rating input -->
+  <script>
+  (function(){
+    var stars = document.getElementById('star-input');
+    var field = document.getElementById('rating-val');
+    if(!stars || !field) return;
+    stars.querySelectorAll('span').forEach(function(s){
+      s.addEventListener('click', function(){
+        field.value = s.dataset.val;
+        stars.querySelectorAll('span').forEach(function(x){ x.classList.remove('sel'); });
+        s.classList.add('sel');
+      });
+    });
   })();
   </script>
 

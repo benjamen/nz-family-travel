@@ -1,0 +1,82 @@
+{% extends "base.html" %}
+
+{% block title %}Campervan & Activity Price Alerts — NZ Family Travel{% endblock %}
+{% block desc %}Get free price alerts for NZ campervan hire (Jucy, Maui, Britz, Mighty, Apollo) and family activities like bungy, whale watching and thermal pools.{% endblock %}
+{% block canonical %}price-alerts/{% endblock %}
+{% block hreflang_path %}price-alerts/{% endblock %}
+
+{% block extra_head %}
+<style>
+  .pa-form { max-width: 620px; }
+  .pa-group { margin-bottom: 1.75rem; }
+  .pa-group > legend { font-weight: 700; font-size: 1.05rem; margin-bottom: .75rem; padding: 0; }
+  .pa-checks { display: flex; flex-wrap: wrap; gap: .6rem .9rem; }
+  .pa-check { display: inline-flex; align-items: center; gap: .45rem; background: #f9fafb; border: 1px solid #e5e7eb; border-radius: 8px; padding: .55rem .9rem; cursor: pointer; }
+  .pa-check input { margin: 0; }
+  .pa-email { width: 100%; padding: .7rem .9rem; border: 1px solid #d1d5db; border-radius: 8px; font: inherit; }
+  .pa-form button { margin-top: 1rem; padding: .75rem 1.6rem; background: #1f7a8c; color: #fff; border: 0; border-radius: 8px; font: inherit; font-weight: 600; cursor: pointer; }
+  .pa-thanks { background: #ecfdf5; border: 2px solid #10b981; border-radius: 10px; padding: 1.5rem; }
+</style>
+{% endblock %}
+
+{% block hero %}
+<section class="page-hero">
+  <div class="hero-inner">
+    <div class="breadcrumb"><a href="/">Home</a> › Price Alerts</div>
+    <h1>Get Campervan & Activity Price Alerts</h1>
+    <p>Tell us what you're watching and we'll email you when prices drop. Free, no spam.</p>
+  </div>
+</section>
+{% endblock %}
+
+{% block content %}
+<section class="section">
+  <form class="pa-form" id="pa-form" action="https://formspree.io/f/REPLACE_ID" method="POST">
+    <fieldset class="pa-group">
+      <legend>🚐 Campervans to watch</legend>
+      <div class="pa-checks">
+        {% for van in ["Jucy", "Maui", "Britz", "Mighty", "Apollo"] %}
+        <label class="pa-check"><input type="checkbox" name="campervans" value="{{ van }}"> {{ van }}</label>
+        {% endfor %}
+      </div>
+    </fieldset>
+
+    <fieldset class="pa-group">
+      <legend>🎫 Activity categories</legend>
+      <div class="pa-checks">
+        {% for cat in ["Bungy", "Whale watching", "Thermal pools", "Sky diving"] %}
+        <label class="pa-check"><input type="checkbox" name="activities" value="{{ cat }}"> {{ cat }}</label>
+        {% endfor %}
+      </div>
+    </fieldset>
+
+    <fieldset class="pa-group">
+      <legend>📧 Where to send alerts</legend>
+      <input type="email" name="email" class="pa-email" placeholder="your@email.com" required autocomplete="email">
+    </fieldset>
+
+    <button type="submit">🔔 Set up my price alerts</button>
+  </form>
+
+  <div class="pa-thanks" id="pa-thanks" hidden>
+    <h2>🎉 You're all set!</h2>
+    <p>We'll email you when prices drop on the campervans and activities you picked. Keep an eye on your inbox.</p>
+  </div>
+</section>
+{% endblock %}
+
+{% block extra_foot %}
+<script>
+(function(){
+  var form = document.getElementById('pa-form');
+  var thanks = document.getElementById('pa-thanks');
+  if(!form) return;
+  form.addEventListener('submit', function(e){
+    e.preventDefault();
+    form.hidden = true;
+    thanks.hidden = false;
+    thanks.scrollIntoView({behavior: 'smooth'});
+  });
+})();
+</script>
+{% endblock %}

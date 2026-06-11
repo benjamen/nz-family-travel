@@ -93,8 +93,8 @@
   {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "Things to Do in Queenstown with Kids \u2014 2026 Family Guide",
-    "description": "Best things to do in Queenstown with kids \u2014 Skyline luge, Arrowtown, Kiwi Park, lake activities, skiing, and what actually works by age. Honest NZ family guide 2026.",
+    "headline": "Things to Do in Queenstown with Kids — 2026 Family Guide",
+    "description": "Best things to do in Queenstown with kids — Skyline luge, Arrowtown, Kiwi Park, lake activities, skiing, and what actually works by age. Honest NZ family guide 2026.",
     "datePublished": "2026-05-01",
     "dateModified": "2026-05-01",
     "image": {"@type": "ImageObject", "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Queenstown_New_Zealand_at_dusk.jpg/1280px-Queenstown_New_Zealand_at_dusk.jpg", "width": 1200, "height": 630},
@@ -116,25 +116,25 @@
       {
         "@type": "Question",
         "name": "Is Queenstown good for kids?",
-        "acceptedAnswer": {"@type": "Answer", "text": "Yes \u2014 Queenstown has excellent family activities across all ages. The Skyline luge is the standout for ages 5+. Arrowtown is free and great for all ages. The TSS Earnslaw cruise works for toddlers upward. In winter, The Remarkables ski field has excellent children\u0027s ski school from age 3."}
+        "acceptedAnswer": {"@type": "Answer", "text": "Yes — Queenstown has excellent family activities across all ages. The Skyline luge is the standout for ages 5+. Arrowtown is free and great for all ages. The TSS Earnslaw cruise works for toddlers upward. In winter, The Remarkables ski field has excellent children's ski school from age 3."}
       },
       
       {
         "@type": "Question",
         "name": "How many days do you need in Queenstown with kids?",
-        "acceptedAnswer": {"@type": "Answer", "text": "Two days is the minimum to see the highlights (luge, Arrowtown, waterfront). Three days is comfortable and allows for a day trip to Wanaka or a day at the ski fields in winter. Four to five days if you\u0027re skiing seriously \u2014 you\u0027ll want two ski days at minimum to justify the equipment hire cost."}
+        "acceptedAnswer": {"@type": "Answer", "text": "Two days is the minimum to see the highlights (luge, Arrowtown, waterfront). Three days is comfortable and allows for a day trip to Wanaka or a day at the ski fields in winter. Four to five days if you're skiing seriously — you'll want two ski days at minimum to justify the equipment hire cost."}
       },
       
       {
         "@type": "Question",
         "name": "What is the best age for kids to visit Queenstown?",
-        "acceptedAnswer": {"@type": "Answer", "text": "Ages 5\u201314 get the most from Queenstown. The luge minimum age is 3 (with adult) or 6 (solo). Ski school takes children from age 3. Toddlers can enjoy the waterfront, gardens, and the boat cruise. Teenagers are well-catered for with the more extreme adventure options."}
+        "acceptedAnswer": {"@type": "Answer", "text": "Ages 5–14 get the most from Queenstown. The luge minimum age is 3 (with adult) or 6 (solo). Ski school takes children from age 3. Toddlers can enjoy the waterfront, gardens, and the boat cruise. Teenagers are well-catered for with the more extreme adventure options."}
       },
       
       {
         "@type": "Question",
         "name": "Is the Queenstown luge worth it for kids?",
-        "acceptedAnswer": {"@type": "Answer", "text": "Yes \u2014 the Skyline luge is consistently the activity that gets the best reaction from kids visiting Queenstown. The gravity-powered carts on three tracks of varying speed are genuinely thrilling, and most kids want to ride multiple times. Buy a multi-ride pass (3 minimum, 5 is better) for the best value."}
+        "acceptedAnswer": {"@type": "Answer", "text": "Yes — the Skyline luge is consistently the activity that gets the best reaction from kids visiting Queenstown. The gravity-powered carts on three tracks of varying speed are genuinely thrilling, and most kids want to ride multiple times. Buy a multi-ride pass (3 minimum, 5 is better) for the best value."}
       },
       
       {
@@ -151,6 +151,21 @@
 
   <!-- GetYourGuide affiliate tracking -->
   <script async defer src="https://widget.getyourguide.com/dist/pa.umd.production.min.js" data-gyg-partner-id="TIXNVKM"></script>
+  <style>
+    .reviews-section h2 { margin-top: 1.5rem; }
+    .reviews-list { display: flex; flex-direction: column; gap: 1rem; margin-bottom: 1.5rem; }
+    .review-card { background: #fff; border: 1px solid #e5e7eb; border-radius: 10px; padding: 1rem 1.25rem; }
+    .review-stars { color: #f5a623; font-size: 1.1rem; letter-spacing: 2px; }
+    .review-meta { font-size: .85rem; color: #6b7280; margin: .25rem 0 .5rem; }
+    .review-text { margin: 0; }
+    .reviews-empty { color: #6b7280; }
+    .review-form { display: flex; flex-direction: column; gap: .75rem; max-width: 560px; }
+    .review-form input[type=text], .review-form textarea { padding: .65rem .8rem; border: 1px solid #d1d5db; border-radius: 8px; font: inherit; width: 100%; }
+    .review-form button { align-self: flex-start; padding: .65rem 1.4rem; background: #1f7a8c; color: #fff; border: 0; border-radius: 8px; font: inherit; cursor: pointer; }
+    .star-rating-input { display: inline-flex; flex-direction: row-reverse; font-size: 1.9rem; color: #d1d5db; cursor: pointer; }
+    .star-rating-input span { padding: 0 .05em; transition: color .12s; }
+    .star-rating-input span:hover, .star-rating-input span:hover ~ span, .star-rating-input span.sel, .star-rating-input span.sel ~ span { color: #f5a623; }
+  </style>
 </head>
 <body>
   <nav class="nav">
@@ -160,6 +175,7 @@
         <a href="/destinations/">Destinations</a>
         <a href="/itineraries/">Itineraries</a>
         <a href="/campervans/">Campervans</a>
+        <a href="/price-alerts/">Price Alerts</a>
         <a href="/activities/">Activities</a>
         <a href="/school-holidays/">Holidays</a>
         <a href="/weather/">Weather</a>
@@ -792,6 +808,22 @@ The honest caveat: Queenstown is expensive. Accommodation, activities, and food 
     });
     updateBadge();
     if(window.renderMyTrip) window.renderMyTrip(read());
+  })();
+  </script>
+
+  <!-- Star rating input -->
+  <script>
+  (function(){
+    var stars = document.getElementById('star-input');
+    var field = document.getElementById('rating-val');
+    if(!stars || !field) return;
+    stars.querySelectorAll('span').forEach(function(s){
+      s.addEventListener('click', function(){
+        field.value = s.dataset.val;
+        stars.querySelectorAll('span').forEach(function(x){ x.classList.remove('sel'); });
+        s.classList.add('sel');
+      });
+    });
   })();
   </script>
 

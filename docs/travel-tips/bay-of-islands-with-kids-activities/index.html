@@ -93,8 +93,8 @@
   {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "Bay of Islands with Kids \u2014 Family Activities Guide 2026",
-    "description": "Best things to do in the Bay of Islands with kids \u2014 dolphins, Waitangi Treaty Grounds, Hole in the Rock, beaches, and what works by age. Honest NZ family guide.",
+    "headline": "Bay of Islands with Kids — Family Activities Guide 2026",
+    "description": "Best things to do in the Bay of Islands with kids — dolphins, Waitangi Treaty Grounds, Hole in the Rock, beaches, and what works by age. Honest NZ family guide.",
     "datePublished": "2026-05-01",
     "dateModified": "2026-05-01",
     "image": {"@type": "ImageObject", "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Bay_of_Islands_New_Zealand.jpg/1280px-Bay_of_Islands_New_Zealand.jpg", "width": 1200, "height": 630},
@@ -116,25 +116,25 @@
       {
         "@type": "Question",
         "name": "Is the Bay of Islands good for families with young kids?",
-        "acceptedAnswer": {"@type": "Answer", "text": "Yes \u2014 the Bay of Islands is one of the best family destinations in Northland. The calm inner bay beaches are safe and warm in summer, dolphin cruises work for kids from age 3, and the Haruru Falls boardwalk is pram-accessible. Paihia is a compact, walkable family base with good accommodation options."}
+        "acceptedAnswer": {"@type": "Answer", "text": "Yes — the Bay of Islands is one of the best family destinations in Northland. The calm inner bay beaches are safe and warm in summer, dolphin cruises work for kids from age 3, and the Haruru Falls boardwalk is pram-accessible. Paihia is a compact, walkable family base with good accommodation options."}
       },
       
       {
         "@type": "Question",
         "name": "How far is the Bay of Islands from Auckland?",
-        "acceptedAnswer": {"@type": "Answer", "text": "About 3.5 hours by car from Auckland via State Highway 1. The drive north through Northland is interesting \u2014 Whangarei (2 hours) is worth a short stop for the Whangarei Falls. A long weekend (3 nights) works well; 4\u20135 nights is comfortable if you want to slow down."}
+        "acceptedAnswer": {"@type": "Answer", "text": "About 3.5 hours by car from Auckland via State Highway 1. The drive north through Northland is interesting — Whangarei (2 hours) is worth a short stop for the Whangarei Falls. A long weekend (3 nights) works well; 4–5 nights is comfortable if you want to slow down."}
       },
       
       {
         "@type": "Question",
         "name": "Can kids swim with dolphins in the Bay of Islands?",
-        "acceptedAnswer": {"@type": "Answer", "text": "Yes, but with age restrictions. Most operators set a minimum age of 8 for swimming with dolphins. All ages can watch from the boat, which is still an excellent experience \u2014 dolphin pods of 50\u2013100 common dolphins are not unusual. Book with Explore NZ or Fullers GreatSights from Paihia wharf."}
+        "acceptedAnswer": {"@type": "Answer", "text": "Yes, but with age restrictions. Most operators set a minimum age of 8 for swimming with dolphins. All ages can watch from the boat, which is still an excellent experience — dolphin pods of 50–100 common dolphins are not unusual. Book with Explore NZ or Fullers GreatSights from Paihia wharf."}
       },
       
       {
         "@type": "Question",
         "name": "Is Waitangi Treaty Grounds worth visiting with kids?",
-        "acceptedAnswer": {"@type": "Answer", "text": "Yes, for kids aged 6 and up. The cultural performance is engaging, the museum is well-presented, and the waka taua (war canoe) in the boat house is extraordinary. Children under 15 are free. The grounds connect to a coastal walk and beach \u2014 combine it with the Haruru Falls boardwalk for a full morning."}
+        "acceptedAnswer": {"@type": "Answer", "text": "Yes, for kids aged 6 and up. The cultural performance is engaging, the museum is well-presented, and the waka taua (war canoe) in the boat house is extraordinary. Children under 15 are free. The grounds connect to a coastal walk and beach — combine it with the Haruru Falls boardwalk for a full morning."}
       }
       
     ]
@@ -145,6 +145,21 @@
 
   <!-- GetYourGuide affiliate tracking -->
   <script async defer src="https://widget.getyourguide.com/dist/pa.umd.production.min.js" data-gyg-partner-id="TIXNVKM"></script>
+  <style>
+    .reviews-section h2 { margin-top: 1.5rem; }
+    .reviews-list { display: flex; flex-direction: column; gap: 1rem; margin-bottom: 1.5rem; }
+    .review-card { background: #fff; border: 1px solid #e5e7eb; border-radius: 10px; padding: 1rem 1.25rem; }
+    .review-stars { color: #f5a623; font-size: 1.1rem; letter-spacing: 2px; }
+    .review-meta { font-size: .85rem; color: #6b7280; margin: .25rem 0 .5rem; }
+    .review-text { margin: 0; }
+    .reviews-empty { color: #6b7280; }
+    .review-form { display: flex; flex-direction: column; gap: .75rem; max-width: 560px; }
+    .review-form input[type=text], .review-form textarea { padding: .65rem .8rem; border: 1px solid #d1d5db; border-radius: 8px; font: inherit; width: 100%; }
+    .review-form button { align-self: flex-start; padding: .65rem 1.4rem; background: #1f7a8c; color: #fff; border: 0; border-radius: 8px; font: inherit; cursor: pointer; }
+    .star-rating-input { display: inline-flex; flex-direction: row-reverse; font-size: 1.9rem; color: #d1d5db; cursor: pointer; }
+    .star-rating-input span { padding: 0 .05em; transition: color .12s; }
+    .star-rating-input span:hover, .star-rating-input span:hover ~ span, .star-rating-input span.sel, .star-rating-input span.sel ~ span { color: #f5a623; }
+  </style>
 </head>
 <body>
   <nav class="nav">
@@ -154,6 +169,7 @@
         <a href="/destinations/">Destinations</a>
         <a href="/itineraries/">Itineraries</a>
         <a href="/campervans/">Campervans</a>
+        <a href="/price-alerts/">Price Alerts</a>
         <a href="/activities/">Activities</a>
         <a href="/school-holidays/">Holidays</a>
         <a href="/weather/">Weather</a>
@@ -774,6 +790,22 @@ For families, Russell is a good half-day: ferry over, walk the waterfront, lunch
     });
     updateBadge();
     if(window.renderMyTrip) window.renderMyTrip(read());
+  })();
+  </script>
+
+  <!-- Star rating input -->
+  <script>
+  (function(){
+    var stars = document.getElementById('star-input');
+    var field = document.getElementById('rating-val');
+    if(!stars || !field) return;
+    stars.querySelectorAll('span').forEach(function(s){
+      s.addEventListener('click', function(){
+        field.value = s.dataset.val;
+        stars.querySelectorAll('span').forEach(function(x){ x.classList.remove('sel'); });
+        s.classList.add('sel');
+      });
+    });
   })();
   </script>
 

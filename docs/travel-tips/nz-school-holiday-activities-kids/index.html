@@ -93,8 +93,8 @@
   {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "Best School Holiday Activities for Kids in NZ \u2014 2026 Guide",
-    "description": "Best school holiday activities for kids across NZ \u2014 by city, budget, age, and season. Free options, what books out fast, and how to avoid the holiday crowds.",
+    "headline": "Best School Holiday Activities for Kids in NZ — 2026 Guide",
+    "description": "Best school holiday activities for kids across NZ — by city, budget, age, and season. Free options, what books out fast, and how to avoid the holiday crowds.",
     "datePublished": "2026-05-01",
     "dateModified": "2026-05-01",
     "image": {"@type": "ImageObject", "url": "https://images.unsplash.com/photo-1526956522266-c3e4c51e5e2e?w=1200&q=80", "width": 1200, "height": 630},
@@ -122,7 +122,7 @@
       {
         "@type": "Question",
         "name": "What fills up fast during NZ school holidays?",
-        "acceptedAnswer": {"@type": "Answer", "text": "Zealandia night tours (Wellington), Te Papa school holiday programmes, ski lift passes for July, dolphin swim tours in the Bay of Islands and Akaroa, and Abel Tasman Great Walk huts (summer). Book 4\u20138 weeks ahead for school holidays, 6+ months ahead for summer Great Walk accommodation."}
+        "acceptedAnswer": {"@type": "Answer", "text": "Zealandia night tours (Wellington), Te Papa school holiday programmes, ski lift passes for July, dolphin swim tours in the Bay of Islands and Akaroa, and Abel Tasman Great Walk huts (summer). Book 4–8 weeks ahead for school holidays, 6+ months ahead for summer Great Walk accommodation."}
       },
       
       {
@@ -134,7 +134,7 @@
       {
         "@type": "Question",
         "name": "What can you do in NZ school holidays on a budget?",
-        "acceptedAnswer": {"@type": "Answer", "text": "NZ has excellent free school holiday activities: Te Papa in Wellington (free), Auckland Museum permanent collection (free for NZ residents), all public beaches, Rotorua\u0027s Kuirau Park thermal park (free), Queenstown Gardens and Arrowtown (free), and Christchurch Botanic Gardens (free). Mix one paid activity per day with free parks and beaches to keep costs manageable."}
+        "acceptedAnswer": {"@type": "Answer", "text": "NZ has excellent free school holiday activities: Te Papa in Wellington (free), Auckland Museum permanent collection (free for NZ residents), all public beaches, Rotorua's Kuirau Park thermal park (free), Queenstown Gardens and Arrowtown (free), and Christchurch Botanic Gardens (free). Mix one paid activity per day with free parks and beaches to keep costs manageable."}
       }
       
     ]
@@ -145,6 +145,21 @@
 
   <!-- GetYourGuide affiliate tracking -->
   <script async defer src="https://widget.getyourguide.com/dist/pa.umd.production.min.js" data-gyg-partner-id="TIXNVKM"></script>
+  <style>
+    .reviews-section h2 { margin-top: 1.5rem; }
+    .reviews-list { display: flex; flex-direction: column; gap: 1rem; margin-bottom: 1.5rem; }
+    .review-card { background: #fff; border: 1px solid #e5e7eb; border-radius: 10px; padding: 1rem 1.25rem; }
+    .review-stars { color: #f5a623; font-size: 1.1rem; letter-spacing: 2px; }
+    .review-meta { font-size: .85rem; color: #6b7280; margin: .25rem 0 .5rem; }
+    .review-text { margin: 0; }
+    .reviews-empty { color: #6b7280; }
+    .review-form { display: flex; flex-direction: column; gap: .75rem; max-width: 560px; }
+    .review-form input[type=text], .review-form textarea { padding: .65rem .8rem; border: 1px solid #d1d5db; border-radius: 8px; font: inherit; width: 100%; }
+    .review-form button { align-self: flex-start; padding: .65rem 1.4rem; background: #1f7a8c; color: #fff; border: 0; border-radius: 8px; font: inherit; cursor: pointer; }
+    .star-rating-input { display: inline-flex; flex-direction: row-reverse; font-size: 1.9rem; color: #d1d5db; cursor: pointer; }
+    .star-rating-input span { padding: 0 .05em; transition: color .12s; }
+    .star-rating-input span:hover, .star-rating-input span:hover ~ span, .star-rating-input span.sel, .star-rating-input span.sel ~ span { color: #f5a623; }
+  </style>
 </head>
 <body>
   <nav class="nav">
@@ -154,6 +169,7 @@
         <a href="/destinations/">Destinations</a>
         <a href="/itineraries/">Itineraries</a>
         <a href="/campervans/">Campervans</a>
+        <a href="/price-alerts/">Price Alerts</a>
         <a href="/activities/">Activities</a>
         <a href="/school-holidays/">Holidays</a>
         <a href="/weather/">Weather</a>
@@ -807,6 +823,22 @@
     });
     updateBadge();
     if(window.renderMyTrip) window.renderMyTrip(read());
+  })();
+  </script>
+
+  <!-- Star rating input -->
+  <script>
+  (function(){
+    var stars = document.getElementById('star-input');
+    var field = document.getElementById('rating-val');
+    if(!stars || !field) return;
+    stars.querySelectorAll('span').forEach(function(s){
+      s.addEventListener('click', function(){
+        field.value = s.dataset.val;
+        stars.querySelectorAll('span').forEach(function(x){ x.classList.remove('sel'); });
+        s.classList.add('sel');
+      });
+    });
   })();
   </script>
 
