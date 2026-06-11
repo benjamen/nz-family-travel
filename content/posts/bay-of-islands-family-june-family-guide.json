@@ -1,0 +1,53 @@
+{
+  "title": "Bay of Islands June",
+  "short_title": "BOI June",
+  "meta_desc": "Discover the best of Bay of Islands in June with kids: weather, events, crowd levels, and practical tips for a fun family holiday in NZ's winterless north",
+  "intro": "June in the Bay of Islands is a great time to visit with kids, with mild winter weather, fewer crowds, and a range of exciting activities to enjoy. The region's subtropical climate means average highs of 17°C and average lows of 9°C, making it ideal for outdoor adventures. From dolphin watching cruises to exploring the Waitangi Treaty Grounds, there's something for everyone in the Bay of Islands",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Weather and What's On",
+      "body": "<p>June is the start of winter in New Zealand, but the Bay of Islands is known for its mild climate, making it an ideal destination for families. Average temperatures range from 9°C to 17°C, with an average of 12 hours of sunlight per day. This month, the Bay of Islands Winter Festival takes place, featuring live music, food stalls, and activities for kids.</p> <p>The festival is a great way to experience the local culture and community, and many of the events are free or low-cost, making it accessible to families on a budget. Some popular events include the Winter Festival Parade, the Bay of Islands Market, and the Waitangi Winter Festival Concert.</p>",
+      "list": [
+        "Bay of Islands Winter Festival (mid-June)",
+        "Waitangi Winter Festival Concert (late June)"
+      ]
+    },
+    {
+      "heading": "Best Activities for June",
+      "body": "<p>June is a great time to enjoy the Bay of Islands' outdoor activities, such as sailing, swimming, and hiking. The calm winter waters make it ideal for kayaking, paddleboarding, or taking a dolphin watching cruise. The Waitangi Treaty Grounds are also a must-visit, with its rich history and cultural significance.</p> <p>For a unique experience, take a sailing trip to a private island, where you can enjoy a picnic lunch and snorkel in the crystal-clear waters. The Haruru Falls Walk is another highlight, with its stunning scenery and easy walking trails.</p>",
+      "list": [
+        "Dolphin Watching Cruise ($90-$120 per person)",
+        "Waitangi Treaty Grounds ($50-$70 per person)",
+        "Hole in the Rock (Cape Brett cruise, $80-$100 per person)"
+      ]
+    },
+    {
+      "heading": "Crowd Levels and Bookings",
+      "body": "<p>Crowd levels in the Bay of Islands are generally lower in June, making it a great time to visit if you prefer fewer tourists. However, some popular activities and attractions may still require booking in advance, especially during school holidays.</p> <p>It's recommended to book your accommodation, dolphin watching cruises, and Waitangi Treaty Grounds visits at least 2-3 weeks in advance to avoid disappointment. You can book online or through a local tour operator.</p>",
+      "list": [
+        "Book dolphin watching cruises at least 2 weeks in advance",
+        "Book Waitangi Treaty Grounds visits at least 1 week in advance"
+      ]
+    },
+    {
+      "heading": "Practical Tips for Families",
+      "body": "<p>When visiting the Bay of Islands with kids, it's essential to be prepared for the winter weather. Pack warm clothing, including jackets, hats, and gloves, as well as waterproof gear for outdoor activities.</p> <p>Additionally, consider booking accommodation with a kitchen or self-catering facilities to save money on food and snacks. Many apartments and holiday homes in Paihia offer these facilities, starting from around $200 per night for a family of four.</p>",
+      "list": [
+        "Pack warm clothing and waterproof gear",
+        "Book accommodation with self-catering facilities",
+        "Bring sunscreen and sunhats for outdoor activities",
+        "Check the weather forecast before heading out"
+      ],
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "bay-of-islands-family-june-family-guide",
+  "updated": "June 2026",
+  "auto_generated": true,
+  "generated_date": "2026-06-04"
+}

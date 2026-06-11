@@ -1,0 +1,55 @@
+{
+  "title": "Te Puia Review",
+  "short_title": "Te Puia",
+  "meta_desc": "Discover Te Puia in Rotorua, NZ. Learn about this world-class attraction, its suitability for families, and insider tips for a great visit with kids.",
+  "intro": "Te Puia in Rotorua is a must-visit attraction for families, offering a unique glimpse into New Zealand's rich cultural heritage and breathtaking natural wonders. With its world-class facilities and interactive exhibits, Te Puia is an ideal destination for families with kids of all ages. At $65 per adult and $33 per child, it's an affordable and memorable experience.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "What to Expect",
+      "body": "<p>Te Puia is an immersive experience that combines stunning natural beauty with rich cultural heritage. The Pohutu Geyser, New Zealand's largest, erupts almost every hour, while the kiwi house offers a rare glimpse of these elusive birds. The working Maori arts school provides a unique insight into traditional crafts and customs.</p> <p>The attraction is suitable for children of all ages, from 0+, making it an ideal destination for families. With a duration of 2-3 hours, it's a great way to spend a morning or afternoon.</p>",
+      "list": [
+        "Pohutu Geyser eruptions",
+        "Kiwi house with live kiwi birds",
+        "Working Maori arts school"
+      ]
+    },
+    {
+      "heading": "Value for Money",
+      "body": "<p>At $65 per adult and $33 per child, Te Puia offers great value for money. The attraction provides a unique and memorable experience that combines natural beauty, culture, and education. While it may seem pricey for some families, the quality of the exhibits and the interactive experiences make it well worth the cost.</p>",
+      "table": {
+        "headers": [
+          "Ticket Type",
+          "Price"
+        ],
+        "rows": [
+          [
+            "Adult",
+            "$65"
+          ],
+          [
+            "Child",
+            "$33"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Insider Tips and Best Time to Visit",
+      "body": "<p>To make the most of your visit, it's best to arrive early in the morning or later in the afternoon to avoid the crowds. The evening cultural performances are also a great way to experience the attraction, but be sure to book in advance as they can sell out quickly.</p> <p>It's also a good idea to plan your visit around the Pohutu Geyser eruptions, which occur almost every hour. This will ensure that you and your family can witness this natural wonder up close.</p>"
+    },
+    {
+      "heading": "Booking and Saving Money",
+      "body": "<p>To book your tickets, simply visit the Te Puia website or purchase them at the gate. It's a good idea to book in advance, especially during peak season, to avoid missing out on this popular attraction.</p> <p>While there aren't many discounts available, it's worth keeping an eye on the Te Puia website for any special promotions or packages that may be available.</p>",
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "te-puia-rotorua-family-review-2026-06",
+  "updated": "June 2026",
+  "auto_generated": true,
+  "generated_date": "2026-06-05"
+}

@@ -63,6 +63,8 @@ def build():
 
     site            = load("site")
     destinations    = load("destinations")
+    _required = ("three_day_itinerary", "budget_breakdown", "top_activities", "where_to_stay")
+    destinations    = [d for d in destinations if all(d.get(k) for k in _required)]
     activities      = load("activities")
     itineraries     = load("itineraries")
     campervans      = load("campervans")
@@ -245,6 +247,9 @@ def build():
 
     # ── Interactive NZ Map ───────────────────────────────────────────────────
     render("nz-map.html", "nz-map/index.html", **ctx)
+
+    # ── My Trip saved items page ─────────────────────────────────────────────
+    render("my-trip.html", "my-trip/index.html", **ctx)
 
     # ── Campervans hub ────────────────────────────────────────────────────────
     render("campervans.html", "campervans/index.html", **ctx)
@@ -472,6 +477,22 @@ def build():
         "this never affects our recommendations.\n"
         f"Contact: {site['contact_email']}\n"
     )
+
+    # ── Search index (Fuse.js) ────────────────────────────────────────────────
+    search_index = []
+    for d in destinations:
+        search_index.append({"title": d["name"], "url": f"/destinations/{d['slug']}/",
+                             "type": "destination", "text": f"{d.get('tagline', '')} {d.get('summary', '')}".strip()})
+    for i in itineraries:
+        search_index.append({"title": i.get("title", i["slug"]), "url": f"/itineraries/{i['slug']}/",
+                             "type": "itinerary", "text": f"{i.get('subtitle', '')} {i.get('tagline', '')}".strip()})
+    for a in activities:
+        search_index.append({"title": a["name"], "url": f"/activity/{a['slug']}/",
+                             "type": "activity", "text": f"{a.get('tagline', '')} {a.get('summary', '')}".strip()})
+    for g in guides + posts:
+        search_index.append({"title": g.get("title", g["slug"]), "url": f"/travel-tips/{g['slug']}/",
+                             "type": "travel-tip", "text": g.get("intro", "")})
+    (OUT / "search-index.json").write_text(json.dumps(search_index))
 
     # ── CNAME ─────────────────────────────────────────────────────────────────
     (OUT / "CNAME").write_text("nzfamilytravel.co.nz")

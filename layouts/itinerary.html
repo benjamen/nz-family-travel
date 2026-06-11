@@ -65,6 +65,7 @@
       <span>💰 {{ itinerary.budget_family4 }} (family 4)</span>
       <span>🌤️ Best: {{ itinerary.best_season }}</span>
     </div>
+    <button class="save-btn" data-type="itinerary" data-slug="{{ itinerary.slug }}" data-name="{{ itinerary.title }}" data-url="/itineraries/{{ itinerary.slug }}/" aria-pressed="false"><span class="save-icon">♡</span> <span class="save-label">Save</span></button>
   </div>
 </section>
 {% endblock %}

@@ -140,6 +140,11 @@
         <a href="/travel-tips/">Tips & Guides</a>
         <a href="/overseas/">Overseas</a>
         <a href="/nz-map/">Map</a>
+        <a href="/my-trip/" class="nav-mytrip">♥ My Trip <span class="mytrip-badge" id="mytrip-badge" hidden>0</span></a>
+      </div>
+      <div class="nav-search">
+        <input type="search" id="site-search" placeholder="Search…" aria-label="Search the site" autocomplete="off">
+        <div class="search-results" id="search-results" role="listbox" hidden></div>
       </div>
       <button class="nav-hamburger" id="nav-hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="nav-links">
         <span></span><span></span><span></span>
@@ -160,6 +165,7 @@
       <span class="badge-age">Ages 2+</span>
       <span class="badge-duration">⏱ 3.5 hours</span>
     </div>
+    <button class="save-btn" data-type="activity" data-slug="dolphins-bay-of-islands" data-name="Dolphin Watching Cruise" data-url="/activity/dolphins-bay-of-islands/" aria-pressed="false"><span class="save-icon">♡</span> <span class="save-label">Save</span></button>
   </div>
 </section>
 
@@ -354,43 +360,43 @@
           <strong>Destinations</strong>
           <ul>
             
+            <li><a href="/destinations/auckland-with-kids/">Auckland</a></li>
+            
+            <li><a href="/destinations/bay-of-islands-family/">Bay of Islands</a></li>
+            
+            <li><a href="/destinations/christchurch-with-kids/">Christchurch</a></li>
+            
+            <li><a href="/destinations/coromandel-with-kids/">Coromandel</a></li>
+            
+            <li><a href="/destinations/dunedin-family-guide/">Dunedin</a></li>
+            
+            <li><a href="/destinations/fiordland-milford-sound-family/">Fiordland & Milford Sound</a></li>
+            
+            <li><a href="/destinations/gisborne-east-cape-family/">Gisborne & East Cape</a></li>
+            
+            <li><a href="/destinations/hawkes-bay-family-guide/">Hawke's Bay</a></li>
+            
+            <li><a href="/destinations/marlborough-blenheim-family/">Marlborough & Blenheim</a></li>
+            
+            <li><a href="/destinations/nelson-abel-tasman-family/">Nelson & Abel Tasman</a></li>
+            
+            <li><a href="/destinations/new-plymouth-taranaki-family/">New Plymouth & Taranaki</a></li>
+            
+            <li><a href="/destinations/northland-cape-reinga-family/">Northland</a></li>
+            
             <li><a href="/destinations/queenstown-with-kids/">Queenstown</a></li>
             
             <li><a href="/destinations/rotorua-family-guide/">Rotorua</a></li>
             
             <li><a href="/destinations/taupo-with-kids/">Taupo</a></li>
             
-            <li><a href="/destinations/christchurch-with-kids/">Christchurch</a></li>
-            
-            <li><a href="/destinations/bay-of-islands-family/">Bay of Islands</a></li>
+            <li><a href="/destinations/tauranga-mount-maunganui-family/">Tauranga / Mount Maunganui</a></li>
             
             <li><a href="/destinations/wanaka-with-kids/">Wanaka</a></li>
             
             <li><a href="/destinations/wellington-with-kids/">Wellington</a></li>
             
-            <li><a href="/destinations/nelson-abel-tasman-family/">Nelson & Abel Tasman</a></li>
-            
-            <li><a href="/destinations/coromandel-with-kids/">Coromandel</a></li>
-            
-            <li><a href="/destinations/fiordland-milford-sound-family/">Fiordland & Milford Sound</a></li>
-            
-            <li><a href="/destinations/northland-cape-reinga-family/">Northland</a></li>
-            
-            <li><a href="/destinations/tauranga-mount-maunganui-family/">Tauranga / Mount Maunganui</a></li>
-            
-            <li><a href="/destinations/hawkes-bay-family-guide/">Hawke's Bay</a></li>
-            
-            <li><a href="/destinations/dunedin-family-guide/">Dunedin</a></li>
-            
-            <li><a href="/destinations/auckland-with-kids/">Auckland</a></li>
-            
-            <li><a href="/destinations/new-plymouth-taranaki-family/">New Plymouth & Taranaki</a></li>
-            
-            <li><a href="/destinations/marlborough-blenheim-family/">Marlborough & Blenheim</a></li>
-            
             <li><a href="/destinations/west-coast-family-guide/">West Coast</a></li>
-            
-            <li><a href="/destinations/gisborne-east-cape-family/">Gisborne & East Cape</a></li>
             
           </ul>
         </div>
@@ -462,6 +468,8 @@
           <strong>Tools</strong>
           <ul>
             
+            <li><a href="/tools/free-packing-list/">Free NZ Family Road Trip Packing Checklist (PDF)</a></li>
+            
             <li><a href="/tools/nz-best-month-to-visit/">Best Month to Visit NZ — Weather, Prices & Crowds by Month</a></li>
             
             <li><a href="/tools/nz-driving-times/">NZ Driving Times — Family Road Trip Distance Chart</a></li>
@@ -525,6 +533,8 @@
             <li><a href="/travel-tips/nz-family-travel-december/">NZ in December</a></li>
             
             <li><a href="/travel-tips/nz-family-travel-insurance-guide/">NZ Travel Insurance</a></li>
+            
+            <li><a href="/travel-tips/nz-flying-with-kids-domestic/">Flying with Kids</a></li>
             
             <li><a href="/travel-tips/nz-holiday-parks-complete-guide/">NZ Holiday Parks</a></li>
             
@@ -659,6 +669,90 @@
       };
       document.body.appendChild(script);
     })();
+  </script>
+
+  <!-- Site search (Fuse.js) -->
+  <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js" defer></script>
+  <script>
+  (function(){
+    var input = document.getElementById('site-search');
+    var box = document.getElementById('search-results');
+    if(!input || !box) return;
+    var fuse = null, loading = false;
+    var badge = {destination:'Destination', itinerary:'Itinerary', activity:'Activity', 'travel-tip':'Tip'};
+    function load(){
+      if(fuse || loading) return;
+      loading = true;
+      fetch('/search-index.json').then(function(r){return r.json();}).then(function(data){
+        function start(){
+          fuse = new Fuse(data, {keys:['title','text'], threshold:0.4, ignoreLocation:true});
+          render();
+        }
+        if(window.Fuse){ start(); }
+        else { var t=setInterval(function(){ if(window.Fuse){ clearInterval(t); start(); } }, 50); }
+      }).catch(function(){ loading = false; });
+    }
+    function render(){
+      var q = input.value.trim();
+      if(!fuse || !q){ box.hidden = true; box.innerHTML = ''; return; }
+      var results = fuse.search(q).slice(0, 8);
+      if(!results.length){ box.innerHTML = '<div class="sr-empty">No results</div>'; box.hidden = false; return; }
+      box.innerHTML = results.map(function(r){
+        var it = r.item;
+        return '<a class="sr-item" href="'+it.url+'"><span class="sr-title">'+
+          it.title.replace(/</g,'&lt;')+'</span><span class="sr-badge">'+(badge[it.type]||it.type)+'</span></a>';
+      }).join('');
+      box.hidden = false;
+    }
+    input.addEventListener('focus', load);
+    input.addEventListener('input', render);
+    document.addEventListener('click', function(e){
+      if(!e.target.closest('.nav-search')){ box.hidden = true; }
+    });
+  })();
+  </script>
+
+  <!-- My Trip — localStorage save/bookmark system -->
+  <script>
+  (function(){
+    var KEY = 'nzft_saved';
+    function read(){ try { return JSON.parse(localStorage.getItem(KEY)) || []; } catch(e){ return []; } }
+    function write(items){ localStorage.setItem(KEY, JSON.stringify(items)); }
+    function isSaved(items, type, slug){ return items.some(function(i){ return i.type===type && i.slug===slug; }); }
+    function updateBadge(){
+      var badge = document.getElementById('mytrip-badge');
+      if(!badge) return;
+      var n = read().length;
+      badge.textContent = n;
+      badge.hidden = n === 0;
+    }
+    function paint(btn, saved){
+      btn.classList.toggle('is-saved', saved);
+      btn.setAttribute('aria-pressed', saved ? 'true' : 'false');
+      var icon = btn.querySelector('.save-icon');
+      var label = btn.querySelector('.save-label');
+      if(icon) icon.textContent = saved ? '♥' : '♡';
+      if(label) label.textContent = saved ? 'Saved' : 'Save';
+    }
+    document.querySelectorAll('.save-btn').forEach(function(btn){
+      var type = btn.dataset.type, slug = btn.dataset.slug;
+      paint(btn, isSaved(read(), type, slug));
+      btn.addEventListener('click', function(){
+        var items = read();
+        if(isSaved(items, type, slug)){
+          items = items.filter(function(i){ return !(i.type===type && i.slug===slug); });
+          paint(btn, false);
+        } else {
+          items.push({type:type, slug:slug, name:btn.dataset.name, url:btn.dataset.url});
+          paint(btn, true);
+        }
+        write(items);
+        updateBadge();
+      });
+    });
+    updateBadge();
+    if(window.renderMyTrip) window.renderMyTrip(read());
+  })();
   </script>
 
   

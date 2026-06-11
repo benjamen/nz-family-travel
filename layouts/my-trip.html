@@ -1,0 +1,82 @@
+{% extends "base.html" %}
+
+{% block title %}My Trip — Saved NZ Family Travel Ideas{% endblock %}
+{% block desc %}Your saved NZ family destinations, activities and itineraries — all in one place. Saved on this device, no login required.{% endblock %}
+{% block canonical %}my-trip/{% endblock %}
+
+{% block hero %}
+<section class="page-hero">
+  <div class="hero-inner">
+    <div class="breadcrumb"><a href="/">Home</a> › My Trip</div>
+    <h1>♥ My Trip</h1>
+    <p>Destinations, activities and itineraries you've saved. Stored on this device only — no account needed.</p>
+  </div>
+</section>
+{% endblock %}
+
+{% block content %}
+<section class="section">
+  <div id="mytrip-empty" class="mytrip-empty" hidden>
+    <p>You haven't saved anything yet. Tap the <strong>♡ Save</strong> button on any destination, activity or itinerary to build your trip.</p>
+    <p>
+      <a class="btn" href="{{ site.base_path }}/destinations/">Browse destinations</a>
+      <a class="btn btn-outline" href="{{ site.base_path }}/itineraries/">Browse itineraries</a>
+    </p>
+  </div>
+
+  <div id="mytrip-content" hidden>
+    <div class="mytrip-group" data-group="destination">
+      <h2>📍 Destinations</h2>
+      <ul class="mytrip-list"></ul>
+    </div>
+    <div class="mytrip-group" data-group="activity">
+      <h2>🎟️ Activities</h2>
+      <ul class="mytrip-list"></ul>
+    </div>
+    <div class="mytrip-group" data-group="itinerary">
+      <h2>🗺️ Itineraries</h2>
+      <ul class="mytrip-list"></ul>
+    </div>
+  </div>
+</section>
+{% endblock %}
+
+{% block extra_foot %}
+<script>
+window.renderMyTrip = function(items){
+  var basePath = '{{ site.base_path }}';
+  var empty = document.getElementById('mytrip-empty');
+  var content = document.getElementById('mytrip-content');
+  if(!empty || !content) return;
+  var hasAny = items.length > 0;
+  empty.hidden = hasAny;
+  content.hidden = !hasAny;
+
+  document.querySelectorAll('.mytrip-group').forEach(function(group){
+    var type = group.dataset.group;
+    var list = group.querySelector('.mytrip-list');
+    var matches = items.filter(function(i){ return i.type === type; });
+    group.hidden = matches.length === 0;
+    list.innerHTML = matches.map(function(i){
+      var name = (i.name || '').replace(/</g,'&lt;');
+      return '<li class="mytrip-item">'+
+        '<a href="'+basePath+i.url+'">'+name+'</a>'+
+        '<button class="mytrip-remove" data-type="'+i.type+'" data-slug="'+i.slug+'" aria-label="Remove">✕</button>'+
+        '</li>';
+    }).join('');
+  });
+
+  document.querySelectorAll('.mytrip-remove').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var KEY = 'nzft_saved';
+      var saved = JSON.parse(localStorage.getItem(KEY)) || [];
+      saved = saved.filter(function(i){ return !(i.type===btn.dataset.type && i.slug===btn.dataset.slug); });
+      localStorage.setItem(KEY, JSON.stringify(saved));
+      window.renderMyTrip(saved);
+      var badge = document.getElementById('mytrip-badge');
+      if(badge){ badge.textContent = saved.length; badge.hidden = saved.length === 0; }
+    });
+  });
+};
+</script>
+{% endblock %}

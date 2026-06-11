@@ -1,0 +1,75 @@
+{
+  "title": "Rotorua Budget Guide",
+  "short_title": "Rotorua",
+  "meta_desc": "Discover how to visit Rotorua on a family budget, with daily costs, free activities, and accommodation options from $250-450/day for a family of four.",
+  "intro": "Rotorua is a geothermal wonderland that offers something for everyone, with a wide range of activities and attractions that cater to all ages. As a family destination, Rotorua is hard to beat, with its unique blend of natural beauty, culture, and adventure. With some planning, you can have a fantastic family holiday in Rotorua without breaking the bank, with realistic daily costs of around $250-450/day for a family of four.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Accommodation Options",
+      "body": "<p>When it comes to accommodation in Rotorua, you have a wide range of options to suit all budgets. At the cheaper end, you can find holiday parks and campgrounds from around $40-60 per night for a family of four. Mid-range options include motels and apartments, which can cost between $150-250 per night. If you're looking to save money, consider staying in a holiday park or campground, and opt for self-catering accommodation to reduce food costs.</p><p>Some popular accommodation options in Rotorua include the Rotorua Top 10 Holiday Resort, which offers a range of accommodation options from camping sites to motel units, and the Quest Rotorua Central, which offers self-contained apartments in the heart of the city.</p>",
+      "list": [
+        "Holiday parks and campgrounds ($40-60/night)",
+        "Motels and apartments ($150-250/night)"
+      ]
+    },
+    {
+      "heading": "Free Activities",
+      "body": "<p>Rotorua has a range of free activities that are perfect for families. The Government Gardens and croquet lawn are a great place to spend an afternoon, and the Lake Rotorua foreshore walk offers stunning views of the lake. Kuirau Park is a free public geothermal park that's home to hot bubbling mud pools, steam vents, and a foot spa. These activities are a great way to experience the unique geothermal landscape of Rotorua without breaking the bank.</p>",
+      "list": [
+        "Government Gardens and croquet lawn",
+        "Lake Rotorua foreshore walk",
+        "Kuirau Park"
+      ]
+    },
+    {
+      "heading": "Budget Breakdown",
+      "body": "<p>To give you a better idea of what to expect, here's a rough 3-day budget breakdown for a family of four:</p>",
+      "table": {
+        "headers": [
+          "Day",
+          "Accommodation",
+          "Food",
+          "Activities",
+          "Total"
+        ],
+        "rows": [
+          [
+            "Day 1",
+            "$200",
+            "$80",
+            "$100",
+            "$380"
+          ],
+          [
+            "Day 2",
+            "$200",
+            "$80",
+            "$120",
+            "$400"
+          ],
+          [
+            "Day 3",
+            "$200",
+            "$80",
+            "$90",
+            "$370"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Where to Save and Splurge",
+      "body": "<p>To make the most of your budget, consider saving money on accommodation and food by opting for self-catering and cooking your own meals. You can also save money by visiting some of the free attractions in Rotorua, such as Kuirau Park and the Government Gardens. On the other hand, some activities are worth splashing out on, such as the Te Puia geothermal park and the Skyline Rotorua Gondola and Luge, which offer a unique and unforgettable experience.</p><p>Some activities, such as the Agrodome Farm Show and the OGO Rotorua zorbing experience, are also worth considering, but may not be essential for every family. By prioritizing your spending and making some smart choices, you can have a fantastic family holiday in Rotorua without breaking the bank.</p>",
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "rotorua-family-guide-budget-family-guide-2026-06",
+  "updated": "June 2026",
+  "auto_generated": true,
+  "generated_date": "2026-06-10"
+}

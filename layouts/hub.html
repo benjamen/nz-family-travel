@@ -60,9 +60,51 @@
     </div>
   </div>
 
+  {% if hub_type == "activities" %}
+  <div class="activity-filters" id="activity-filters">
+    <div class="af-field">
+      <label for="af-region">Region</label>
+      <select id="af-region">
+        <option value="">All regions</option>
+        {% for d_slug in items | map(attribute='destination') | unique | sort %}
+        <option value="{{ d_slug }}">{{ d_slug | title }}</option>
+        {% endfor %}
+      </select>
+    </div>
+    <div class="af-field">
+      <label for="af-age">Suitable for</label>
+      <select id="af-age">
+        <option value="">Any age</option>
+        <option value="0">All ages (0+)</option>
+        <option value="3">Toddlers (3+)</option>
+        <option value="5">Young kids (5+)</option>
+        <option value="7">Older kids (7+)</option>
+      </select>
+    </div>
+    <div class="af-field">
+      <label for="af-price">Max adult price</label>
+      <select id="af-price">
+        <option value="">Any price</option>
+        <option value="0">Free</option>
+        <option value="30">Under $30</option>
+        <option value="60">Under $60</option>
+        <option value="100">Under $100</option>
+      </select>
+    </div>
+    <div class="af-field af-check">
+      <label><input type="checkbox" id="af-rain"> Rain-safe only</label>
+    </div>
+    <p class="af-count" id="af-count"></p>
+  </div>
+  {% endif %}
+
   <div class="hub-grid">
     {% for item in items %}
-    <a href="/{{ item_url_prefix }}/{{ item[item_slug_field] }}/" class="hub-card">
+    <a href="/{{ item_url_prefix }}/{{ item[item_slug_field] }}/" class="hub-card"{% if hub_type == "activities" %}
+       data-region="{{ item.destination }}"
+       data-minage="{{ item.min_age | default(0) }}"
+       data-price="{{ item.price.adult if item.price else 0 }}"
+       data-rain="{{ 'true' if item.rain_safe else 'false' }}"{% endif %}>
       <h3>{{ item[item_name_field] }}</h3>
       <p>{{ item[item_desc_field][:120] }}{% if item[item_desc_field]|length > 120 %}…{% endif %}</p>
       {% if hub_type == "destinations" %}
@@ -96,4 +138,39 @@
   </div>
 </section>
 
+{% endblock %}
+
+{% block extra_foot %}
+{% if hub_type == "activities" %}
+<script>
+(function(){
+  var panel = document.getElementById('activity-filters');
+  var grid = document.querySelector('.hub-grid');
+  if(!panel || !grid) return;
+  var region = document.getElementById('af-region');
+  var age = document.getElementById('af-age');
+  var price = document.getElementById('af-price');
+  var rain = document.getElementById('af-rain');
+  var count = document.getElementById('af-count');
+  var cards = Array.prototype.slice.call(grid.querySelectorAll('.hub-card'));
+  function apply(){
+    var r = region.value, a = age.value, p = price.value, rainOnly = rain.checked;
+    var shown = 0;
+    cards.forEach(function(card){
+      var ok = true;
+      if(r && card.dataset.region !== r) ok = false;
+      if(a !== '' && parseInt(card.dataset.minage,10) > parseInt(a,10)) ok = false;
+      if(p !== '' && parseInt(card.dataset.price,10) > parseInt(p,10)) ok = false;
+      if(rainOnly && card.dataset.rain !== 'true') ok = false;
+      card.style.display = ok ? '' : 'none';
+      if(ok) shown++;
+    });
+    count.textContent = shown + ' activit' + (shown === 1 ? 'y' : 'ies') + ' shown';
+  }
+  [region, age, price].forEach(function(el){ el.addEventListener('change', apply); });
+  rain.addEventListener('change', apply);
+  apply();
+})();
+</script>
+{% endif %}
 {% endblock %}

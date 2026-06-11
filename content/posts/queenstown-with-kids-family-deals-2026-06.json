@@ -1,0 +1,76 @@
+{
+  "title": "Queenstown Family Deals",
+  "short_title": "QT Deals",
+  "meta_desc": "Find the best family deals in Queenstown, NZ. Bookme activity discounts, campervan hire, and more. Plan a fun and affordable family holiday in Queenstown, the adventure capital of the world, with prices from $350–600/day for a family of 4.",
+  "intro": "Queenstown is an ideal destination for families, offering a range of exciting activities and stunning scenery. With some smart planning, you can have a fantastic holiday without breaking the bank. Currently, you can find deals such as up to 40% off activities on Bookme.co.nz and family campervans from $89/day on Discover Cars.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Current Booking Deals and Discounts",
+      "body": "<p>There are several current deals that can help make your family holiday in Queenstown more affordable. Bookme.co.nz is offering up to 40% off activities, including the popular Skyline Gondola & Luge and Ziptrek Ecotours. Discover Cars has family campervans available from $89/day, which can be a cost-effective way to explore the area.</p> <p>Additionally, Booking.com is offering free cancellation on most holiday park and motel bookings, providing you with more flexibility when planning your trip. Cover-More is also offering comprehensive family travel insurance from $4.50/day, giving you peace of mind while you're away.</p>",
+      "list": [
+        "Up to 40% off activities on Bookme.co.nz",
+        "Family campervans from $89/day on Discover Cars",
+        "Free cancellation on most bookings on Booking.com",
+        "Comprehensive family travel insurance from $4.50/day on Cover-More"
+      ]
+    },
+    {
+      "heading": "Best-Value Activities",
+      "body": "<p>Some of the best-value activities in Queenstown include the Skyline Gondola & Luge, which costs around $40-$60 per person, and Ziptrek Ecotours, which costs around $150-$200 per person. The Queenstown Ice Arena is another great option, with prices from $20-$30 per person.</p> <p>For something a bit different, consider taking a ride on the Kjet or Dart River Jet, which costs around $120-$150 per person. The TSS Earnslaw Steamship is also a great option, with prices from $80-$120 per person.</p>",
+      "table": {
+        "headers": [
+          "Activity",
+          "Price (per person)"
+        ],
+        "rows": [
+          [
+            "Skyline Gondola & Luge",
+            "$40-$60"
+          ],
+          [
+            "Ziptrek Ecotours",
+            "$150-$200"
+          ],
+          [
+            "Queenstown Ice Arena",
+            "$20-$30"
+          ],
+          [
+            "Kjet / Dart River Jet",
+            "$120-$150"
+          ],
+          [
+            "TSS Earnslaw Steamship",
+            "$80-$120"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Money-Saving Tips for Families",
+      "body": "<p>Here are some tips to help you save money on your family holiday in Queenstown:</p>",
+      "list": [
+        "Book your activities and accommodation in advance to get the best prices",
+        "Consider visiting during the shoulder season (April-May or September-October) when prices are lower",
+        "Look for packages that include activities and accommodation, which can often be cheaper than booking separately",
+        "Take advantage of free activities such as the Queenstown Gardens and frisbee golf, and the Lake Wakatipu foreshore walk",
+        "Pack a picnic lunch instead of buying food at restaurants or cafes",
+        "Use public transport or walk/bike whenever possible to save on transport costs"
+      ]
+    },
+    {
+      "heading": "When to Book for Best Prices",
+      "body": "<p>It's a good idea to book your activities and accommodation in advance to get the best prices. For popular activities like the Skyline Gondola & Luge and Ziptrek Ecotours, it's recommended to book at least a week in advance. For accommodation, it's best to book at least a month in advance to get the best prices.</p> <p>Additionally, consider booking during the shoulder season (April-May or September-October) when prices are lower. You can also use Bookme.co.nz to find deals and discounts on activities, and Discover Cars to find affordable campervan hire.</p>",
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "queenstown-with-kids-family-deals-2026-06",
+  "updated": "June 2026",
+  "auto_generated": true,
+  "generated_date": "2026-06-07"
+}

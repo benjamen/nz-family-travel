@@ -65,6 +65,7 @@
       <div class="dest-verdict-pill" style="background:rgba(255,255,255,.15);border-color:rgba(255,255,255,.3);color:#fff;margin-top:1rem">
         <span>✓ {{ destination.verdict }}</span>
       </div>
+      <button class="save-btn save-btn-light" data-type="destination" data-slug="{{ destination.slug }}" data-name="{{ destination.name }}" data-url="/destinations/{{ destination.slug }}/" aria-pressed="false"><span class="save-icon">♡</span> <span class="save-label">Save</span></button>
       <p class="img-credit">📷 {{ destination.media.hero_image.credit }}</p>
     </div>
   </div>
@@ -80,6 +81,7 @@
     <h1>{{ destination.name }} with Kids — 2026 Family Guide</h1>
     <p>{{ destination.tagline }}</p>
     <div class="dest-verdict-pill"><span>✓ {{ destination.verdict }}</span></div>
+    <button class="save-btn" data-type="destination" data-slug="{{ destination.slug }}" data-name="{{ destination.name }}" data-url="/destinations/{{ destination.slug }}/" aria-pressed="false"><span class="save-icon">♡</span> <span class="save-label">Save</span></button>
   </div>
 </section>
 {% endif %}
@@ -294,6 +296,7 @@
 </section>
 
 <!-- 3-day itinerary -->
+{% if destination.three_day_itinerary %}
 <section class="section">
   <h2>3-Day {{ destination.name }} Family Itinerary</h2>
   <p class="section-intro">A structured day-by-day plan — adjust to your pace.</p>
@@ -318,6 +321,7 @@
     <a href="{{ site.affiliates.discover_cars.url }}" class="btn btn-primary" rel="sponsored" target="_blank">Compare Campervans for This Trip →</a>
   </div>
 </section>
+{% endif %}
 
 <!-- Where to stay -->
 <section class="section">
@@ -344,6 +348,7 @@
 </section>
 
 <!-- Budget breakdown -->
+{% if destination.budget_breakdown %}
 <section class="section">
   <h2>{{ destination.name }} Family Holiday Budget</h2>
   <div class="budget-table">
@@ -356,6 +361,7 @@
     <a href="/tools/nz-family-travel-budget-calculator/" class="btn btn-outline">Use the full budget calculator →</a>
   </div>
 </section>
+{% endif %}
 
 <!-- FAQ -->
 <section class="section">

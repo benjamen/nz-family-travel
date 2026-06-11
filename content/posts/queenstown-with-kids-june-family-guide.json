@@ -1,0 +1,55 @@
+{
+  "title": "Queenstown June Fun",
+  "short_title": "June in QT",
+  "meta_desc": "Discover Queenstown in June with kids: weather, events, and activities for a fun family holiday in the adventure capital of the world, with prices and tips.",
+  "intro": "Queenstown is an excellent destination for a family holiday in June, with crisp winter weather and a range of activities to suit all ages. The town is less crowded than in summer, making it easier to book accommodations and popular attractions. With prices starting from $350-600 per day for a family of four, Queenstown is a great value destination for families.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Weather in June",
+      "body": "<p>June is winter in Queenstown, with average highs of 8°C and lows of 0°C. It's a great time to enjoy the town's winter sports and activities, such as skiing and ice skating.</p><p>The weather can be unpredictable, so it's essential to pack warm clothing, including jackets, gloves, and hats.</p>",
+      "list": [
+        "Average high: 8°C",
+        "Average low: 0°C",
+        "Winter sports and activities available"
+      ]
+    },
+    {
+      "heading": "What's On in June",
+      "body": "<p>June is a great time to visit Queenstown, with a range of events and activities to suit all ages. The Queenstown Winter Festival takes place in June, featuring live music, fireworks, and ski competitions.</p><p>The Remarkables Market is also open every Saturday, offering a range of fresh food, local crafts, and kids' activities.</p>",
+      "list": [
+        "Queenstown Winter Festival",
+        "Remarkables Market every Saturday"
+      ]
+    },
+    {
+      "heading": "Best Activities for Families",
+      "body": "<p>Queenstown has a range of activities suitable for families with children aged 5 and above. The Skyline Gondola and Luge is a must-do, with stunning views of the town and lake.</p><p>The Queenstown Ice Arena is another great option, with ice skating and hockey sessions available.</p>",
+      "list": [
+        "Skyline Gondola and Luge: $40-$60 per person",
+        "Queenstown Ice Arena: $15-$25 per person",
+        "Kjet / Dart River Jet: $100-$150 per person"
+      ]
+    },
+    {
+      "heading": "Practical Tips for Families",
+      "body": "<p>Book your accommodations and popular attractions in advance to avoid peak season prices.</p><p>Consider purchasing a Queenstown Winter Festival pass for access to multiple events and activities.</p>",
+      "list": [
+        "Book ahead to avoid peak prices",
+        "Purchase a Queenstown Winter Festival pass",
+        "Pack warm clothing for winter weather",
+        "Take advantage of free activities, such as the Queenstown Gardens and Lake Wakatipu foreshore walk",
+        "Drive time from Queenstown Airport to town: 10-15 minutes, $20-$30 by taxi"
+      ],
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "queenstown-with-kids-june-family-guide",
+  "updated": "June 2026",
+  "auto_generated": true,
+  "generated_date": "2026-06-12"
+}

@@ -1,0 +1,66 @@
+{
+  "title": "Taupo in June",
+  "short_title": "Winter Fun",
+  "meta_desc": "Discover Taupo in June with kids, enjoy Huka Falls, Lake Taupo, and thermal pools with a budget of $200-350/day for a family of 4, suitable for all ages",
+  "intro": "Taupo is a great mid-island stop, offering a mix of free and paid activities for families, including the spectacular Huka Falls and Lake Taupo. In June, the weather is cool, with average highs of 12°C and lows of 2°C, making it perfect for outdoor activities like hiking and swimming in the thermal pools. With a budget of $200-350/day for a family of 4, you can enjoy all that Taupo has to offer.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Weather and What's On",
+      "body": "<p>In June, Taupo experiences winter, with cooler temperatures and some rainfall. However, this doesn't stop the fun, as many attractions are indoors or can be enjoyed in the cooler weather.</p><p>The Matariki Festival is on in June, celebrating the Maori New Year with cultural events, performances, and fireworks. It's a great time to experience the local culture and community.</p>",
+      "list": [
+        "Matariki Festival",
+        "Winter hiking and biking",
+        "Thermal pool swimming"
+      ]
+    },
+    {
+      "heading": "Best Activities for June",
+      "body": "<p>The Huka Falls are a must-visit, and in June, you can enjoy the scenic walkway and viewing platform without the crowds. The Wairakei Terraces & Thermal Pools are also a great option, with warm water and stunning scenery.</p><p>For teens and adults, Skydive Taupo is an adrenaline-pumping activity, with prices starting from $299 per person. The Huka Jet is another exciting option, with prices from $89 per person.</p>",
+      "table": {
+        "headers": [
+          "Activity",
+          "Price (per person)"
+        ],
+        "rows": [
+          [
+            "Skydive Taupo",
+            "$299"
+          ],
+          [
+            "Huka Jet",
+            "$89"
+          ],
+          [
+            "Wairakei Terraces & Thermal Pools",
+            "$25"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Crowd Levels and Booking Ahead",
+      "body": "<p>In June, the crowds are smaller compared to the peak summer months, making it easier to enjoy the attractions without long wait times. However, it's still a good idea to book ahead for popular activities like Skydive Taupo and the Huka Jet.</p><p>The AC Baths and Wairakei Terraces & Thermal Pools can get busy on weekends and school holidays, so it's a good idea to plan your visit during the week if possible.</p>"
+    },
+    {
+      "heading": "Practical Tips for Families",
+      "body": "<p-Taupo is a family-friendly town, with many attractions and activities suitable for all ages. Here are some practical tips for families visiting in June:</p>",
+      "list": [
+        "Pack warm clothing, including jackets and gloves, as it can get cool in the mornings and evenings",
+        "Bring a picnic lunch to enjoy at one of the many parks or scenic spots",
+        "Take advantage of the free activities, such as the Huka Falls viewing platform and walkway, and the Spa Thermal Park outdoor hot springs",
+        "Book a family-friendly accommodation that offers amenities like a kitchen and laundry facilities",
+        "Check the weather forecast before heading out and plan your activities accordingly"
+      ],
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "taupo-with-kids-june-family-guide",
+  "updated": "June 2026",
+  "auto_generated": true,
+  "generated_date": "2026-06-09"
+}

@@ -1,0 +1,64 @@
+{
+  "title": "Hawke's Bay Hidden Gems",
+  "short_title": "HB Gems",
+  "meta_desc": "Discover Hawke's Bay's best kept secrets, from Art Deco Napier to Cape Kidnappers gannets, perfect for families with kids aged 5+, on a budget of $180-340/day",
+  "intro": "Hawke's Bay is a treasure trove of family-friendly activities and hidden gems waiting to be uncovered. From the stunning Art Deco architecture of Napier to the picturesque coastline and scenic beaches, there's something for everyone in this beautiful region. With a range of free activities and affordable prices, Hawke's Bay is an ideal destination for families on a budget of $180-340/day.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Insider Tips for Families",
+      "body": "<p>When visiting Hawke's Bay, consider exploring the region's many beaches, such as Ocean Beach and Waimarama Beach, which offer perfect spots for swimming and sunbathing. The Cape Kidnappers Gannet Colony is another must-visit attraction, with guided tours available for families with kids aged 5+.</p> <p>For a unique experience, book a Cape Kidnapper tractor trek at low tide with Gannet Beach Adventures, which costs around $120-$150 per family. This is a more dramatic way to see the gannets than the walking track and is only accessible at low tide.</p>",
+      "list": [
+        "Cape Kidnappers Gannet Colony: guided tours from $50-$70 per person",
+        "Gannet Beach Adventures tractor trek: $120-$150 per family",
+        "Ocean Beach and Waimarama Beach: free admission"
+      ]
+    },
+    {
+      "heading": "Free Activities in Hawke's Bay",
+      "body": "<p>Hawke's Bay offers a range of free activities that are perfect for families. The Napier Art Deco walk is a great way to explore the city's stunning architecture, and the Marine Parade is a beautiful spot for a picnic or a stroll. The parade features sunken gardens, free fountains, and a skate park, making it a great spot for kids to burn off energy.</p> <p>Waimarama Beach, located 30 minutes south of Napier, is another free activity that's perfect for families. The beach features a long black sand beach backed by cliffs, making it a great spot for swimming and sunbathing.</p>",
+      "list": [
+        "Napier Art Deco walk: free admission",
+        "Marine Parade: free admission",
+        "Waimarama Beach: free admission"
+      ]
+    },
+    {
+      "heading": "Hidden Gems to Explore",
+      "body": "<p>One of the hidden gems of Hawke's Bay is the Matahiwi Marae near Hastings. This authentic Maori marae offers open visits, but be sure to call ahead to arrange a time. The marae is a great place to learn about Maori culture and history, and is a unique experience that's not to be missed.</p> <p>Another hidden gem is the strawberry farm picking, which is a great activity for kids. The farm offers pick-your-own strawberries, and the cost is around $10-$15 per person.</p>",
+      "list": [
+        "Matahiwi Marae: free admission, but call ahead to arrange a visit",
+        "Strawberry farm picking: $10-$15 per person"
+      ]
+    },
+    {
+      "heading": "Getting Around Hawke's Bay",
+      "body": "<p>Hawke's Bay is easy to get around, with many attractions located within a short drive of each other. The drive from Napier to Cape Kidnappers takes around 30 minutes, while the drive from Napier to Waimarama Beach takes around 30-40 minutes.</p> <p>There are also many accommodation options available in Hawke's Bay, ranging from budget-friendly motels to luxury hotels. The cost of accommodation varies, but expect to pay around $150-$250 per night for a family-friendly motel or hotel.</p>",
+      "table": {
+        "headers": [
+          "Attraction",
+          "Drive Time from Napier"
+        ],
+        "rows": [
+          [
+            "Cape Kidnappers",
+            "30 minutes"
+          ],
+          [
+            "Waimarama Beach",
+            "30-40 minutes"
+          ]
+        ]
+      },
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "hawkes-bay-family-guide-hidden-gems-families",
+  "updated": "June 2026",
+  "auto_generated": true,
+  "generated_date": "2026-06-07"
+}

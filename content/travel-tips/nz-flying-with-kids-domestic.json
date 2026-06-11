@@ -1,0 +1,79 @@
+{
+  "slug": "nz-flying-with-kids-domestic",
+  "short_title": "Flying with Kids",
+  "title": "Flying Domestic in NZ with Kids — Air NZ Tips, Baggage, and Seat Selection",
+  "meta_desc": "Flying domestic in NZ with kids? Get Air NZ tips, baggage allowance, and seat selection advice for a stress-free family flight",
+  "intro": "Flying with kids can be daunting, especially on domestic routes. With Air NZ's varying baggage allowances and seat selection options, it's essential to plan ahead. A recent flight from Auckland to Queenstown with our family of four cost $1,200, highlighting the need for smart booking strategies.",
+  "updated": "June 2026",
+  "reading_time": 9,
+  "sections": [
+    {
+      "heading": "Air NZ Domestic Routes and Prices",
+      "body": "Air NZ operates numerous domestic routes, including popular ones like Auckland to Queenstown, Christchurch, and Wellington. Prices vary depending on the route, time of year, and how far in advance you book. For example, a one-way economy ticket from Auckland to Queenstown can cost between $150-$300 per person."
+    },
+    {
+      "heading": "Baggage Allowance and Fees",
+      "list": [
+        "Air NZ's standard domestic baggage allowance is 1x 23kg checked bag per person",
+        "Additional checked bags cost $20-$30 per bag, depending on the route",
+        "Infants (0-23 months) have a 10kg baggage allowance, while children (2-11 years) have the same allowance as adults"
+      ]
+    },
+    {
+      "heading": "Family Seating Options",
+      "table": {
+        "headers": [
+          "Route",
+          "Seat Type",
+          "Price (per person)"
+        ],
+        "rows": [
+          [
+            "Auckland to Queenstown",
+            "Standard",
+            "$150-$300"
+          ],
+          [
+            "Auckland to Queenstown",
+            "Premium",
+            "$300-$500"
+          ],
+          [
+            "Auckland to Wellington",
+            "Standard",
+            "$100-$200"
+          ],
+          [
+            "Auckland to Wellington",
+            "Premium",
+            "$200-$350"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Comparing Queenstown, Christchurch, and Wellington Routes",
+      "body": "When flying domestic with kids, it's essential to consider the airport facilities and activities available at your destination. Queenstown Airport has a dedicated family area with a play zone and nursing room, while Christchurch Airport offers a more extensive range of dining and shopping options. Wellington Airport, on the other hand, is smaller but more convenient for city-based activities."
+    },
+    {
+      "heading": "Tips for Flying with Kids",
+      "list": [
+        "Book seats together to ensure your family is seated as a unit",
+        "Consider booking a morning flight to avoid peak traffic and long queues",
+        "Pack entertainment and snacks to keep your kids occupied during the flight"
+      ]
+    },
+    {
+      "heading": "Plan Your Family Trip with Our Tools",
+      "cta": {
+        "text": "Use our NZ Family Travel Budget Calculator to plan your next trip",
+        "url": "/tools/nz-family-travel-budget-calculator/",
+        "affiliate": false
+      }
+    },
+    {
+      "heading": "Accommodation Options at Your Destination",
+      "body": "Once you've booked your flights, consider your accommodation options. For a family-friendly stay in Queenstown, try the Millennium Hotel Queenstown, which offers rooms from $250 per night. In Wellington, the Copthorne Hotel Wellington has rooms from $180 per night and is within walking distance to the city centre."
+    }
+  ]
+}

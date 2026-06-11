@@ -1,0 +1,76 @@
+{
+  "title": "Tauranga on a Budget",
+  "short_title": "Mount Maunganui",
+  "meta_desc": "Visit Tauranga and Mount Maunganui on a family budget of $180-380/day, with free activities, affordable accommodation, and tips to save money",
+  "intro": "Tauranga and Mount Maunganui are a classic Kiwi summer holiday destination, offering a range of activities and amenities for families. With some planning, you can have a great time without breaking the bank. Here's a guide to help you visit Tauranga and Mount Maunganui on a family budget.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Accommodation Options",
+      "body": "<p>Accommodation in Tauranga and Mount Maunganui ranges from budget-friendly holiday parks to mid-range apartments and hotels. For a family of four, you can expect to pay around $150-300 per night for a self-contained unit or apartment.</p><p>Camping is also a great option, with several holiday parks in the area offering powered and unpowered sites from $40-60 per night. If you're looking for a more luxurious stay, there are also several high-end hotels and resorts in the area, but these will blow your budget.</p>",
+      "list": [
+        "Holiday parks: $40-60 per night",
+        "Self-contained units: $150-300 per night",
+        "Mid-range hotels: $200-400 per night"
+      ]
+    },
+    {
+      "heading": "Free Activities",
+      "body": "<p>One of the best things about Tauranga and Mount Maunganui is the range of free activities on offer. The beach is the main attraction, with Mount Beach offering gentle surf and lifeguards during the summer months.</p><p>You can also walk to the summit of Mount Maunganui, which offers stunning views of the Bay of Plenty. Papamoa Hills Regional Park is another great spot for a walk, with several tracks to choose from and great views over the bay.</p>",
+      "list": [
+        "Mount Beach",
+        "Walk to the summit of Mount Maunganui",
+        "Papamoa Hills Regional Park"
+      ]
+    },
+    {
+      "heading": "Budget Breakdown",
+      "body": "<p>Here's a rough breakdown of what you might expect to pay for a 3-day trip to Tauranga and Mount Maunganui:</p>",
+      "table": {
+        "headers": [
+          "Day",
+          "Accommodation",
+          "Food",
+          "Activities",
+          "Total"
+        ],
+        "rows": [
+          [
+            "Day 1",
+            "$200",
+            "$80",
+            "$50",
+            "$330"
+          ],
+          [
+            "Day 2",
+            "$200",
+            "$80",
+            "$20",
+            "$300"
+          ],
+          [
+            "Day 3",
+            "$200",
+            "$80",
+            "$30",
+            "$310"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Tips to Save Money",
+      "body": "<p>To save money on your trip to Tauranga and Mount Maunganui, consider self-catering instead of eating out for every meal. You can buy groceries at one of the local supermarkets and prepare your own meals.</p><p>Another tip is to take advantage of the free activities on offer, such as the beach and walks in the regional park. You can also save money by booking your accommodation and activities in advance, as many places offer discounts for early bookings.</p>",
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "tauranga-mount-maunganui-family-budget-family-guide-2026-06",
+  "updated": "June 2026",
+  "auto_generated": true,
+  "generated_date": "2026-06-11"
+}

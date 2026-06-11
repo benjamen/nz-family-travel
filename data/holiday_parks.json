@@ -13,9 +13,26 @@
           "family_score": 5,
           "best_for": "Beach access, Bay of Islands cruises",
           "price_range": "$45–$180/night",
-          "highlights": ["Waterfront location", "Walk to ferry terminal", "Good playground", "Clean facilities"],
+          "highlights": [
+            "Waterfront location",
+            "Walk to ferry terminal",
+            "Good playground",
+            "Clean facilities"
+          ],
           "book_url": "https://www.top10.co.nz/parks/paihia-top-10-holiday-park",
-          "affiliate": true
+          "affiliate": true,
+          "slug": "paihia-beach-holiday-park",
+          "region": "Northland & Bay of Islands",
+          "region_slug": "northland",
+          "amenities": [
+            "Waterfront location",
+            "Walk to ferry terminal",
+            "Good playground",
+            "Clean facilities"
+          ],
+          "price_per_night": "$45–$180/night",
+          "booking_url": "https://www.top10.co.nz/parks/paihia-top-10-holiday-park",
+          "description": "A waterfront family base in the Bay of Islands, walking distance to the ferry terminal and cruise departures. Clean facilities and a good playground make it an easy stop for families exploring Northland's beaches and dolphin tours."
         },
         {
           "name": "Paihia TOP 10 Holiday Park",
@@ -24,9 +41,26 @@
           "family_score": 5,
           "best_for": "Budget families, central location",
           "price_range": "$40–$160/night",
-          "highlights": ["TOP 10 benefits", "Pool", "Central to town", "Camp kitchen"],
+          "highlights": [
+            "TOP 10 benefits",
+            "Pool",
+            "Central to town",
+            "Camp kitchen"
+          ],
           "book_url": "https://www.top10.co.nz",
-          "affiliate": true
+          "affiliate": true,
+          "slug": "paihia-top-10-holiday-park",
+          "region": "Northland & Bay of Islands",
+          "region_slug": "northland",
+          "amenities": [
+            "TOP 10 benefits",
+            "Pool",
+            "Central to town",
+            "Camp kitchen"
+          ],
+          "price_per_night": "$40–$160/night",
+          "booking_url": "https://www.top10.co.nz",
+          "description": "A central, budget-friendly TOP 10 park in the heart of Paihia. With a pool, camp kitchen and town on your doorstep, it's a reliable choice for families touring the Bay of Islands on a budget."
         },
         {
           "name": "Matauri Bay Holiday Park",
@@ -35,9 +69,26 @@
           "family_score": 5,
           "best_for": "Secluded beach, snorkelling",
           "price_range": "$30–$120/night",
-          "highlights": ["Stunning beach", "Snorkelling off beach", "Quiet and relaxed", "Affordable"],
+          "highlights": [
+            "Stunning beach",
+            "Snorkelling off beach",
+            "Quiet and relaxed",
+            "Affordable"
+          ],
           "book_url": "https://www.booking.com/searchresults.html?ss=Matauri+Bay+Holiday+Park",
-          "affiliate": true
+          "affiliate": true,
+          "slug": "matauri-bay-holiday-park",
+          "region": "Northland & Bay of Islands",
+          "region_slug": "northland",
+          "amenities": [
+            "Stunning beach",
+            "Snorkelling off beach",
+            "Quiet and relaxed",
+            "Affordable"
+          ],
+          "price_per_night": "$30–$120/night",
+          "booking_url": "https://www.booking.com/searchresults.html?ss=Matauri+Bay+Holiday+Park",
+          "description": "A secluded, affordable park right on a stunning Northland beach with snorkelling off the sand. Quiet and relaxed, it suits families wanting to escape the crowds and spend days in the water."
         }
       ]
     },
@@ -53,9 +104,26 @@
           "family_score": 5,
           "best_for": "Hot Water Beach access, natural hot pools",
           "price_range": "$50–$200/night",
-          "highlights": ["Walk to Hot Water Beach", "Excellent pool complex", "Camp shop", "Summer entertainment"],
+          "highlights": [
+            "Walk to Hot Water Beach",
+            "Excellent pool complex",
+            "Camp shop",
+            "Summer entertainment"
+          ],
           "book_url": "https://www.top10.co.nz/parks/hot-water-beach-top-10-holiday-park",
-          "affiliate": true
+          "affiliate": true,
+          "slug": "hot-water-beach-top-10-holiday-park",
+          "region": "Coromandel",
+          "region_slug": "coromandel",
+          "amenities": [
+            "Walk to Hot Water Beach",
+            "Excellent pool complex",
+            "Camp shop",
+            "Summer entertainment"
+          ],
+          "price_per_night": "$50–$200/night",
+          "booking_url": "https://www.top10.co.nz/parks/hot-water-beach-top-10-holiday-park",
+          "description": "Walk straight to the famous Hot Water Beach where you can dig your own thermal spa pool at low tide. An excellent pool complex, camp shop and summer entertainment make this a standout Coromandel family park."
         },
         {
           "name": "Hahei Beach Accommodation",
@@ -64,9 +132,24 @@
           "family_score": 4,
           "best_for": "Cathedral Cove access, boutique feel",
           "price_range": "$40–$180/night",
-          "highlights": ["5 min walk to Cathedral Cove track", "Quiet beach village", "Good for older kids"],
+          "highlights": [
+            "5 min walk to Cathedral Cove track",
+            "Quiet beach village",
+            "Good for older kids"
+          ],
           "book_url": "https://www.booking.com/searchresults.html?ss=Hahei+New+Zealand",
-          "affiliate": true
+          "affiliate": true,
+          "slug": "hahei-beach-accommodation",
+          "region": "Coromandel",
+          "region_slug": "coromandel",
+          "amenities": [
+            "5 min walk to Cathedral Cove track",
+            "Quiet beach village",
+            "Good for older kids"
+          ],
+          "price_per_night": "$40–$180/night",
+          "booking_url": "https://www.booking.com/searchresults.html?ss=Hahei+New+Zealand",
+          "description": "A boutique-feel base just five minutes' walk from the Cathedral Cove track. Set in a quiet beach village, it's best for families with older kids who want to explore the Coromandel's most famous coastline."
         },
         {
           "name": "Whitianga Holiday Park",
@@ -75,9 +158,26 @@
           "family_score": 4,
           "best_for": "Central Coromandel base, ferry to Cathedral Cove",
           "price_range": "$40–$160/night",
-          "highlights": ["Near ferry wharf", "Good facilities", "Central town location", "Family cabins"],
+          "highlights": [
+            "Near ferry wharf",
+            "Good facilities",
+            "Central town location",
+            "Family cabins"
+          ],
           "book_url": "https://www.top10.co.nz",
-          "affiliate": true
+          "affiliate": true,
+          "slug": "whitianga-holiday-park",
+          "region": "Coromandel",
+          "region_slug": "coromandel",
+          "amenities": [
+            "Near ferry wharf",
+            "Good facilities",
+            "Central town location",
+            "Family cabins"
+          ],
+          "price_per_night": "$40–$160/night",
+          "booking_url": "https://www.top10.co.nz",
+          "description": "A central Coromandel base near the Whitianga ferry wharf, with family cabins and good facilities. A practical choice for reaching Cathedral Cove and the wider Mercury Bay area."
         }
       ]
     },
@@ -93,9 +193,26 @@
           "family_score": 5,
           "best_for": "Central Rotorua base, geothermal pools on-site",
           "price_range": "$45–$200/night",
-          "highlights": ["Natural geothermal spa pool", "5 min walk to town", "Great playground", "Camp kitchen"],
+          "highlights": [
+            "Natural geothermal spa pool",
+            "5 min walk to town",
+            "Great playground",
+            "Camp kitchen"
+          ],
           "book_url": "https://www.top10.co.nz/parks/rotorua-top-10-holiday-park",
-          "affiliate": true
+          "affiliate": true,
+          "slug": "rotorua-top-10-holiday-park",
+          "region": "Rotorua & Taupo",
+          "region_slug": "rotorua-taupo",
+          "amenities": [
+            "Natural geothermal spa pool",
+            "5 min walk to town",
+            "Great playground",
+            "Camp kitchen"
+          ],
+          "price_per_night": "$45–$200/night",
+          "booking_url": "https://www.top10.co.nz/parks/rotorua-top-10-holiday-park",
+          "description": "A central Rotorua park with its own natural geothermal spa pool, a five-minute walk from town. A great playground and camp kitchen make it an easy family base for exploring Rotorua's geysers and Redwoods."
         },
         {
           "name": "Taupo DeBretts Spa Resort",
@@ -104,9 +221,26 @@
           "family_score": 5,
           "best_for": "Thermal pools, family spa experience",
           "price_range": "$55–$250/night",
-          "highlights": ["Massive thermal pools included", "Waterslide", "Private thermal pools", "Good cabins"],
+          "highlights": [
+            "Massive thermal pools included",
+            "Waterslide",
+            "Private thermal pools",
+            "Good cabins"
+          ],
           "book_url": "https://www.booking.com/hotel/nz/taupo-de-bretts-spa-resort.html",
-          "affiliate": true
+          "affiliate": true,
+          "slug": "taupo-debretts-spa-resort",
+          "region": "Rotorua & Taupo",
+          "region_slug": "rotorua-taupo",
+          "amenities": [
+            "Massive thermal pools included",
+            "Waterslide",
+            "Private thermal pools",
+            "Good cabins"
+          ],
+          "price_per_night": "$55–$250/night",
+          "booking_url": "https://www.booking.com/hotel/nz/taupo-de-bretts-spa-resort.html",
+          "description": "A family spa experience with massive thermal pools and a waterslide included in your stay. Private thermal pools and good cabins make this a memorable, slightly higher-end Taupo stay."
         },
         {
           "name": "All Seasons Holiday Park Taupo",
@@ -115,9 +249,24 @@
           "family_score": 4,
           "best_for": "Budget families in Taupo",
           "price_range": "$35–$150/night",
-          "highlights": ["Lake Taupo views", "Affordable", "Good kitchen facilities"],
+          "highlights": [
+            "Lake Taupo views",
+            "Affordable",
+            "Good kitchen facilities"
+          ],
           "book_url": "https://www.top10.co.nz",
-          "affiliate": true
+          "affiliate": true,
+          "slug": "all-seasons-holiday-park-taupo",
+          "region": "Rotorua & Taupo",
+          "region_slug": "rotorua-taupo",
+          "amenities": [
+            "Lake Taupo views",
+            "Affordable",
+            "Good kitchen facilities"
+          ],
+          "price_per_night": "$35–$150/night",
+          "booking_url": "https://www.top10.co.nz",
+          "description": "A budget-friendly Taupo park with lake views and good kitchen facilities. An affordable base for families exploring Lake Taupo, Huka Falls and the central plateau."
         }
       ]
     },
@@ -133,9 +282,26 @@
           "family_score": 4,
           "best_for": "Wellington city proximity, large park",
           "price_range": "$40–$160/night",
-          "highlights": ["Large holiday park", "Close to Wellington", "Good facilities", "Playground"],
+          "highlights": [
+            "Large holiday park",
+            "Close to Wellington",
+            "Good facilities",
+            "Playground"
+          ],
           "book_url": "https://www.top10.co.nz",
-          "affiliate": true
+          "affiliate": true,
+          "slug": "hutt-park-holiday-cottages",
+          "region": "Wellington Region",
+          "region_slug": "wellington",
+          "amenities": [
+            "Large holiday park",
+            "Close to Wellington",
+            "Good facilities",
+            "Playground"
+          ],
+          "price_per_night": "$40–$160/night",
+          "booking_url": "https://www.top10.co.nz",
+          "description": "A large, well-equipped holiday park close to Wellington city, with a playground and good facilities. A handy base for families visiting Te Papa, the cable car and the capital's attractions."
         },
         {
           "name": "Paraparaumu Beach Holiday Park",
@@ -144,9 +310,26 @@
           "family_score": 5,
           "best_for": "Beach access, Kapiti Island views",
           "price_range": "$40–$150/night",
-          "highlights": ["Beach access", "Kapiti Island views", "Great for kids", "Quiet location"],
+          "highlights": [
+            "Beach access",
+            "Kapiti Island views",
+            "Great for kids",
+            "Quiet location"
+          ],
           "book_url": "https://www.booking.com/searchresults.html?ss=Paraparaumu+Beach+Holiday+Park",
-          "affiliate": true
+          "affiliate": true,
+          "slug": "paraparaumu-beach-holiday-park",
+          "region": "Wellington Region",
+          "region_slug": "wellington",
+          "amenities": [
+            "Beach access",
+            "Kapiti Island views",
+            "Great for kids",
+            "Quiet location"
+          ],
+          "price_per_night": "$40–$150/night",
+          "booking_url": "https://www.booking.com/searchresults.html?ss=Paraparaumu+Beach+Holiday+Park",
+          "description": "A quiet Kapiti Coast park with beach access and views across to Kapiti Island. Great for younger kids, with safe swimming and an easy day trip to the island bird sanctuary."
         }
       ]
     },
@@ -162,9 +345,26 @@
           "family_score": 5,
           "best_for": "Abel Tasman gateway, sunniest region in NZ",
           "price_range": "$45–$190/night",
-          "highlights": ["TOP 10 benefits", "Close to Abel Tasman National Park", "Pool", "Good cabins"],
+          "highlights": [
+            "TOP 10 benefits",
+            "Close to Abel Tasman National Park",
+            "Pool",
+            "Good cabins"
+          ],
           "book_url": "https://www.top10.co.nz/parks/nelson-top-10-holiday-park",
-          "affiliate": true
+          "affiliate": true,
+          "slug": "nelson-top-10-holiday-park",
+          "region": "Nelson & Marlborough",
+          "region_slug": "nelson-marlborough",
+          "amenities": [
+            "TOP 10 benefits",
+            "Close to Abel Tasman National Park",
+            "Pool",
+            "Good cabins"
+          ],
+          "price_per_night": "$45–$190/night",
+          "booking_url": "https://www.top10.co.nz/parks/nelson-top-10-holiday-park",
+          "description": "The gateway to Abel Tasman National Park in NZ's sunniest region. With a pool, good cabins and full TOP 10 benefits, it's a comfortable family base for kayaking and golden-sand beaches."
         },
         {
           "name": "Kaiteriteri Beach Motor Camp",
@@ -173,9 +373,26 @@
           "family_score": 5,
           "best_for": "Abel Tasman National Park, golden sand beach",
           "price_range": "$50–$220/night",
-          "highlights": ["Right on Kaiteriteri Beach", "Abel Tasman water taxis depart here", "Summer buzzing atmosphere", "Book months ahead"],
+          "highlights": [
+            "Right on Kaiteriteri Beach",
+            "Abel Tasman water taxis depart here",
+            "Summer buzzing atmosphere",
+            "Book months ahead"
+          ],
           "book_url": "https://www.booking.com/searchresults.html?ss=Kaiteriteri+Beach+Motor+Camp",
-          "affiliate": true
+          "affiliate": true,
+          "slug": "kaiteriteri-beach-motor-camp",
+          "region": "Nelson & Marlborough",
+          "region_slug": "nelson-marlborough",
+          "amenities": [
+            "Right on Kaiteriteri Beach",
+            "Abel Tasman water taxis depart here",
+            "Summer buzzing atmosphere",
+            "Book months ahead"
+          ],
+          "price_per_night": "$50–$220/night",
+          "booking_url": "https://www.booking.com/searchresults.html?ss=Kaiteriteri+Beach+Motor+Camp",
+          "description": "Right on golden Kaiteriteri Beach where the Abel Tasman water taxis depart. The summer atmosphere is buzzing and sites book out months ahead, so plan early for a beachfront family holiday."
         },
         {
           "name": "Picton TOP 10 Holiday Park",
@@ -184,9 +401,24 @@
           "family_score": 4,
           "best_for": "Marlborough Sounds base, ferry terminal proximity",
           "price_range": "$40–$160/night",
-          "highlights": ["Walk to ferry terminal", "Marlborough Sounds access", "Clean and well-run"],
+          "highlights": [
+            "Walk to ferry terminal",
+            "Marlborough Sounds access",
+            "Clean and well-run"
+          ],
           "book_url": "https://www.top10.co.nz",
-          "affiliate": true
+          "affiliate": true,
+          "slug": "picton-top-10-holiday-park",
+          "region": "Nelson & Marlborough",
+          "region_slug": "nelson-marlborough",
+          "amenities": [
+            "Walk to ferry terminal",
+            "Marlborough Sounds access",
+            "Clean and well-run"
+          ],
+          "price_per_night": "$40–$160/night",
+          "booking_url": "https://www.top10.co.nz",
+          "description": "A clean, well-run park within walking distance of the Picton ferry terminal and Marlborough Sounds. An ideal first or last stop for families crossing Cook Strait."
         }
       ]
     },
@@ -202,9 +434,26 @@
           "family_score": 5,
           "best_for": "City base, heated pool, close to Hagley Park",
           "price_range": "$45–$200/night",
-          "highlights": ["Heated indoor pool", "Walking distance to city attractions", "Great playground", "Good cabins and units"],
+          "highlights": [
+            "Heated indoor pool",
+            "Walking distance to city attractions",
+            "Great playground",
+            "Good cabins and units"
+          ],
           "book_url": "https://www.top10.co.nz/parks/christchurch-top-10-holiday-park",
-          "affiliate": true
+          "affiliate": true,
+          "slug": "christchurch-top-10-holiday-park",
+          "region": "Canterbury & West Coast",
+          "region_slug": "canterbury",
+          "amenities": [
+            "Heated indoor pool",
+            "Walking distance to city attractions",
+            "Great playground",
+            "Good cabins and units"
+          ],
+          "price_per_night": "$45–$200/night",
+          "booking_url": "https://www.top10.co.nz/parks/christchurch-top-10-holiday-park",
+          "description": "A city base with a heated indoor pool, great playground and a range of cabins and units. Walking distance to attractions and close to Hagley Park, it's a comfortable Canterbury family stay."
         },
         {
           "name": "Hokitika Holiday Park",
@@ -213,9 +462,26 @@
           "family_score": 4,
           "best_for": "West Coast base, greenstone and glowworm caves nearby",
           "price_range": "$35–$140/night",
-          "highlights": ["Quiet and clean", "Walk to beach", "Good base for Franz Josef", "Affordable"],
+          "highlights": [
+            "Quiet and clean",
+            "Walk to beach",
+            "Good base for Franz Josef",
+            "Affordable"
+          ],
           "book_url": "https://www.booking.com/searchresults.html?ss=Hokitika+Holiday+Park",
-          "affiliate": true
+          "affiliate": true,
+          "slug": "hokitika-holiday-park",
+          "region": "Canterbury & West Coast",
+          "region_slug": "canterbury",
+          "amenities": [
+            "Quiet and clean",
+            "Walk to beach",
+            "Good base for Franz Josef",
+            "Affordable"
+          ],
+          "price_per_night": "$35–$140/night",
+          "booking_url": "https://www.booking.com/searchresults.html?ss=Hokitika+Holiday+Park",
+          "description": "A quiet, affordable West Coast base with a walk to the beach and easy access to greenstone shopping and glowworm caves. A good overnight stop on the way to the glaciers."
         },
         {
           "name": "Franz Josef TOP 10 Holiday Park",
@@ -224,9 +490,24 @@
           "family_score": 4,
           "best_for": "Glacier access, West Coast adventure",
           "price_range": "$45–$180/night",
-          "highlights": ["Walking distance to glacier walks", "Hot pool on-site", "Affordable for glacier region"],
+          "highlights": [
+            "Walking distance to glacier walks",
+            "Hot pool on-site",
+            "Affordable for glacier region"
+          ],
           "book_url": "https://www.top10.co.nz",
-          "affiliate": true
+          "affiliate": true,
+          "slug": "franz-josef-top-10-holiday-park",
+          "region": "Canterbury & West Coast",
+          "region_slug": "canterbury",
+          "amenities": [
+            "Walking distance to glacier walks",
+            "Hot pool on-site",
+            "Affordable for glacier region"
+          ],
+          "price_per_night": "$45–$180/night",
+          "booking_url": "https://www.top10.co.nz",
+          "description": "Walking distance to the Franz Josef glacier walks with an on-site hot pool to soak in afterwards. Affordable for the glacier region and a solid base for West Coast adventures."
         }
       ]
     },
@@ -242,9 +523,26 @@
           "family_score": 5,
           "best_for": "Lake and mountain views, close to everything",
           "price_range": "$55–$280/night",
-          "highlights": ["Lake Wakatipu views", "TOP 10 benefits", "Walk to town", "Ski season popular"],
+          "highlights": [
+            "Lake Wakatipu views",
+            "TOP 10 benefits",
+            "Walk to town",
+            "Ski season popular"
+          ],
           "book_url": "https://www.top10.co.nz/parks/queenstown-lakeview-top-10-holiday-park",
-          "affiliate": true
+          "affiliate": true,
+          "slug": "queenstown-lakeview-top-10",
+          "region": "Queenstown & Wanaka",
+          "region_slug": "queenstown-wanaka",
+          "amenities": [
+            "Lake Wakatipu views",
+            "TOP 10 benefits",
+            "Walk to town",
+            "Ski season popular"
+          ],
+          "price_per_night": "$55–$280/night",
+          "booking_url": "https://www.top10.co.nz/parks/queenstown-lakeview-top-10-holiday-park",
+          "description": "A walk-to-town Queenstown park with lake and mountain views from many sites. Central and family-friendly, it puts gondola rides, lake cruises and adventure activities within easy reach."
         },
         {
           "name": "Creeksyde TOP 10 Queenstown",
@@ -253,9 +551,24 @@
           "family_score": 4,
           "best_for": "Quieter location, more affordable Queenstown base",
           "price_range": "$45–$200/night",
-          "highlights": ["Peaceful creekside setting", "Short drive to town", "Good value for Queenstown"],
+          "highlights": [
+            "Peaceful creekside setting",
+            "Short drive to town",
+            "Good value for Queenstown"
+          ],
           "book_url": "https://www.top10.co.nz",
-          "affiliate": true
+          "affiliate": true,
+          "slug": "creeksyde-top-10-queenstown",
+          "region": "Queenstown & Wanaka",
+          "region_slug": "queenstown-wanaka",
+          "amenities": [
+            "Peaceful creekside setting",
+            "Short drive to town",
+            "Good value for Queenstown"
+          ],
+          "price_per_night": "$45–$200/night",
+          "booking_url": "https://www.top10.co.nz",
+          "description": "Creeksyde TOP 10 Queenstown in Queenstown — best for quieter location, more affordable queenstown base. A family-friendly holiday park with peaceful creekside setting, short drive to town, good value for queenstown."
         },
         {
           "name": "Wanaka TOP 10 Holiday Park",
@@ -264,9 +577,26 @@
           "family_score": 5,
           "best_for": "Lake Wanaka access, Puzzling World nearby",
           "price_range": "$50–$240/night",
-          "highlights": ["Walk to Lake Wanaka", "Excellent facilities", "Good value vs Queenstown", "Puzzling World 5 min"],
+          "highlights": [
+            "Walk to Lake Wanaka",
+            "Excellent facilities",
+            "Good value vs Queenstown",
+            "Puzzling World 5 min"
+          ],
           "book_url": "https://www.top10.co.nz/parks/wanaka-top-10-holiday-park",
-          "affiliate": true
+          "affiliate": true,
+          "slug": "wanaka-top-10-holiday-park",
+          "region": "Queenstown & Wanaka",
+          "region_slug": "queenstown-wanaka",
+          "amenities": [
+            "Walk to Lake Wanaka",
+            "Excellent facilities",
+            "Good value vs Queenstown",
+            "Puzzling World 5 min"
+          ],
+          "price_per_night": "$50–$240/night",
+          "booking_url": "https://www.top10.co.nz/parks/wanaka-top-10-holiday-park",
+          "description": "Wanaka TOP 10 Holiday Park in Wanaka — best for lake wanaka access, puzzling world nearby. A family-friendly holiday park with walk to lake wanaka, excellent facilities, good value vs queenstown."
         }
       ]
     },
@@ -282,9 +612,26 @@
           "family_score": 5,
           "best_for": "Milford Sound gateway, Fiordland base",
           "price_range": "$45–$190/night",
-          "highlights": ["Perfect Milford Sound base", "Lakefront location", "Well-run facilities", "TOP 10 benefits"],
+          "highlights": [
+            "Perfect Milford Sound base",
+            "Lakefront location",
+            "Well-run facilities",
+            "TOP 10 benefits"
+          ],
           "book_url": "https://www.top10.co.nz/parks/te-anau-top-10-holiday-park",
-          "affiliate": true
+          "affiliate": true,
+          "slug": "te-anau-top-10-holiday-park",
+          "region": "Southland & Fiordland",
+          "region_slug": "southland",
+          "amenities": [
+            "Perfect Milford Sound base",
+            "Lakefront location",
+            "Well-run facilities",
+            "TOP 10 benefits"
+          ],
+          "price_per_night": "$45–$190/night",
+          "booking_url": "https://www.top10.co.nz/parks/te-anau-top-10-holiday-park",
+          "description": "Te Anau TOP 10 Holiday Park in Te Anau — best for milford sound gateway, fiordland base. A family-friendly holiday park with perfect milford sound base, lakefront location, well-run facilities."
         },
         {
           "name": "Invercargill TOP 10 Holiday Park",
@@ -293,9 +640,24 @@
           "family_score": 3,
           "best_for": "Bluff gateway, Catlins road trip base",
           "price_range": "$35–$140/night",
-          "highlights": ["Good value", "Clean facilities", "Good for southbound road trips"],
+          "highlights": [
+            "Good value",
+            "Clean facilities",
+            "Good for southbound road trips"
+          ],
           "book_url": "https://www.top10.co.nz",
-          "affiliate": true
+          "affiliate": true,
+          "slug": "invercargill-top-10-holiday-park",
+          "region": "Southland & Fiordland",
+          "region_slug": "southland",
+          "amenities": [
+            "Good value",
+            "Clean facilities",
+            "Good for southbound road trips"
+          ],
+          "price_per_night": "$35–$140/night",
+          "booking_url": "https://www.top10.co.nz",
+          "description": "Invercargill TOP 10 Holiday Park in Invercargill — best for bluff gateway, catlins road trip base. A family-friendly holiday park with good value, clean facilities, good for southbound road trips."
         }
       ]
     }

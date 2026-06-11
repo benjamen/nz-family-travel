@@ -1,0 +1,59 @@
+{
+  "title": "Christchurch Hidden Gems",
+  "short_title": "Chch Secrets",
+  "meta_desc": "Discover 6 hidden gems in Christchurch perfect for families, including free activities, insider tips and affordable attractions from $10-$30 per person",
+  "intro": "Christchurch is a city full of surprises, with a wide range of activities and attractions to suit all ages and budgets. From world-class museums to beautiful parks and gardens, there's something for everyone in this vibrant city. In this article, we'll explore some of the lesser-known spots and insider tips that make Christchurch a great destination for families.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Free Museums and Galleries",
+      "body": "<p>One of the best things about Christchurch is its free museums and galleries. The Canterbury Museum is a must-visit, with its world-class natural history and Antarctic exhibitions. Kids love the Antarctic section, which features real gear and interactive displays. The Christchurch Art Gallery is another great spot, with rotating exhibitions and a excellent café.</p><p>Both of these attractions are completely free, making them a great option for families on a budget. The Canterbury Museum is open daily from 9am-5pm, while the Christchurch Art Gallery is open daily from 10am-5pm.</p>",
+      "list": [
+        "Canterbury Museum: free, open daily 9am-5pm",
+        "Christchurch Art Gallery: free, open daily 10am-5pm"
+      ]
+    },
+    {
+      "heading": "Parks and Gardens",
+      "body": "<p>Christchurch is known as the Garden City, and for good reason. The Botanic Gardens are a stunning spot, with beautiful gardens, a playground and a lake. Admission is free, making it a great option for families. Hagley Park is another great spot, with plenty of space to run around and a lake with paddle boats for hire.</p><p>Te Ana Ngāi Tahu Rock Art Centre is a unique attraction that's free to visit from Tuesday to Friday. It features a collection of Maori rock art and offers a glimpse into New Zealand's history and culture.</p>",
+      "list": [
+        "Botanic Gardens: free, open daily",
+        "Hagley Park: free, open daily",
+        "Te Ana Ngāi Tahu Rock Art Centre: free, open Tue-Fri"
+      ]
+    },
+    {
+      "heading": "Insider Tips",
+      "body": "<p>For a unique and affordable activity, try punting on the Avon River. This costs around $25 per person and is a great way to see the city from a different perspective. The Christchurch Gondola is another great option, with stunning views of the city and the Southern Alps. Tickets cost around $30 per person.</p><p>The International Antarctic Centre is a world-class attraction that's a must-visit for families. Tickets cost around $59 per person, but it's worth it for the interactive exhibits and real Antarctic gear on display.</p>",
+      "table": {
+        "headers": [
+          "Attraction",
+          "Cost"
+        ],
+        "rows": [
+          [
+            "Punting on the Avon",
+            "$25 per person"
+          ],
+          [
+            "Christchurch Gondola",
+            "$30 per person"
+          ],
+          [
+            "International Antarctic Centre",
+            "$59 per person"
+          ]
+        ]
+      },
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "christchurch-with-kids-hidden-gems-families",
+  "updated": "June 2026",
+  "auto_generated": true,
+  "generated_date": "2026-06-08"
+}

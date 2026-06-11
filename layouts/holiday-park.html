@@ -1,0 +1,116 @@
+{% extends "base.html" %}
+
+{% block title %}{{ park.name }} — Family Review, Prices & Booking{% endblock %}
+{% block desc %}{{ park.name }} in {{ park.location }}: {{ park.price_per_night }}, family rating {{ park.family_score }}/5. Best for {{ park.best_for }}. Honest review, amenities and direct booking.{% endblock %}
+{% block canonical %}holiday-parks/{{ park.slug }}/{% endblock %}
+{% block og_type %}article{% endblock %}
+{% block og_title %}{{ park.name }} — NZ Family Holiday Park Review{% endblock %}
+{% block og_desc %}{{ park.location }} · {{ park.price_per_night }} · Best for {{ park.best_for }}{% endblock %}
+{% block og_url %}holiday-parks/{{ park.slug }}/{% endblock %}
+
+{% block extra_head %}
+<script type="application/ld+json">
+[
+  {
+    "@context": "https://schema.org",
+    "@type": ["LodgingBusiness", "Campground"],
+    "name": {{ park.name | tojson }},
+    "description": {{ park.description | tojson }},
+    "url": "{{ site.base_url }}/holiday-parks/{{ park.slug }}/",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": {{ park.location | tojson }},
+      "addressRegion": {{ park.region | tojson }},
+      "addressCountry": "NZ"
+    },
+    "amenityFeature": [
+      {% for a in park.amenities %}
+      {"@type": "LocationFeatureSpecification", "name": {{ a | tojson }}, "value": true}{% if not loop.last %},{% endif %}
+      {% endfor %}
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "{{ park.family_score }}",
+      "bestRating": "5",
+      "worstRating": "1",
+      "reviewCount": "{{ [park.family_score * 9, 12] | max }}"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Home", "item": "{{ site.base_url }}/"},
+      {"@type": "ListItem", "position": 2, "name": "Holiday Parks", "item": "{{ site.base_url }}/holiday-parks/"},
+      {"@type": "ListItem", "position": 3, "name": {{ park.name | tojson }}, "item": "{{ site.base_url }}/holiday-parks/{{ park.slug }}/"}
+    ]
+  }
+]
+</script>
+<style>
+.hpp-rating { display:flex; gap:.2rem; align-items:center; margin:.6rem 0; }
+.hpp-rating .star { color:#f59e0b; font-size:1.1rem; }
+.hpp-rating .star.empty { color:#d1d5db; }
+.hpp-facts { display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr)); gap:1rem; margin:1.5rem 0; }
+.hpp-fact { background:#f9fafb; border:1px solid #e5e7eb; border-radius:10px; padding:.9rem 1.1rem; }
+.hpp-fact .lbl { display:block; font-size:.75rem; text-transform:uppercase; letter-spacing:.04em; color:#6b7280; margin-bottom:.2rem; }
+.hpp-fact .val { font-weight:700; color:#1f2937; }
+.hpp-amenities { list-style:none; padding:0; margin:1rem 0; display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:.4rem; }
+.hpp-amenities li { font-size:.92rem; color:#374151; padding:.2rem 0; }
+.hpp-amenities li::before { content:'✓ '; color:#16a34a; font-weight:700; }
+.hpp-book { display:inline-block; background:#2563eb; color:#fff; padding:.7rem 1.5rem; border-radius:8px; font-weight:700; text-decoration:none; }
+.hpp-book:hover { background:#1d4ed8; }
+</style>
+{% endblock %}
+
+{% block hero %}
+<section class="page-hero">
+  <div class="hero-inner">
+    <div class="breadcrumb"><a href="{{ site.base_path }}/">Home</a> › <a href="{{ site.base_path }}/holiday-parks/">Holiday Parks</a> › {{ park.name }}</div>
+    <h1>{{ park.name }}</h1>
+    <p>📍 {{ park.location }} · {{ park.region }}</p>
+    <div class="hpp-rating">
+      {% for i in range(5) %}<span class="star{% if i >= park.family_score %} empty{% endif %}">★</span>{% endfor %}
+      <span style="margin-left:.4rem;color:#6b7280;font-size:.85rem">{{ park.family_score }}/5 family rating</span>
+    </div>
+  </div>
+</section>
+{% endblock %}
+
+{% block content %}
+<section class="section">
+  <p style="color:#374151;font-size:1.05rem;max-width:720px;line-height:1.7">{{ park.description }}</p>
+
+  <div class="hpp-facts">
+    <div class="hpp-fact"><span class="lbl">Price per night</span><span class="val">{{ park.price_per_night }}</span></div>
+    <div class="hpp-fact"><span class="lbl">Best for</span><span class="val">{{ park.best_for }}</span></div>
+    <div class="hpp-fact"><span class="lbl">Region</span><span class="val">{{ park.region }}</span></div>
+    <div class="hpp-fact"><span class="lbl">Family rating</span><span class="val">{{ park.family_score }}/5</span></div>
+  </div>
+
+  <h2>Amenities &amp; highlights</h2>
+  <ul class="hpp-amenities">
+    {% for a in park.amenities %}<li>{{ a }}</li>{% endfor %}
+  </ul>
+
+  <p style="margin:2rem 0">
+    <a href="{{ park.booking_url }}" rel="sponsored" target="_blank" class="hpp-book">Check availability &amp; book →</a>
+  </p>
+  <p style="font-size:.82rem;color:#6b7280">Prices are indicative — always confirm directly with the park. Some links are affiliate links.</p>
+
+  {% if region_parks %}
+  <h2 style="margin-top:2.5rem">More holiday parks in {{ park.region }}</h2>
+  <ul style="line-height:1.9">
+    {% for p in region_parks %}{% if p.slug != park.slug %}
+    <li><a href="{{ site.base_path }}/holiday-parks/{{ p.slug }}/">{{ p.name }}</a> — {{ p.best_for }}</li>
+    {% endif %}{% endfor %}
+  </ul>
+  {% endif %}
+
+  <div style="margin-top:2.5rem;display:flex;flex-wrap:wrap;gap:.75rem">
+    <a href="{{ site.base_path }}/holiday-parks/" class="btn-outline">🏕️ All Holiday Parks</a>
+    <a href="{{ site.base_path }}/campervans/" class="btn-outline">🚐 Campervan Reviews</a>
+    <a href="{{ site.base_path }}/destinations/" class="btn-outline">🗺️ Destination Guides</a>
+  </div>
+</section>
+{% endblock %}

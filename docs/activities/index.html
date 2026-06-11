@@ -282,6 +282,11 @@
         <a href="/travel-tips/">Tips & Guides</a>
         <a href="/overseas/">Overseas</a>
         <a href="/nz-map/">Map</a>
+        <a href="/my-trip/" class="nav-mytrip">♥ My Trip <span class="mytrip-badge" id="mytrip-badge" hidden>0</span></a>
+      </div>
+      <div class="nav-search">
+        <input type="search" id="site-search" placeholder="Search…" aria-label="Search the site" autocomplete="off">
+        <div class="search-results" id="search-results" role="listbox" hidden></div>
       </div>
       <button class="nav-hamburger" id="nav-hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="nav-links">
         <span></span><span></span><span></span>
@@ -312,9 +317,77 @@
     </div>
   </div>
 
+  
+  <div class="activity-filters" id="activity-filters">
+    <div class="af-field">
+      <label for="af-region">Region</label>
+      <select id="af-region">
+        <option value="">All regions</option>
+        
+        <option value="bay-of-islands">Bay-Of-Islands</option>
+        
+        <option value="christchurch">Christchurch</option>
+        
+        <option value="coromandel">Coromandel</option>
+        
+        <option value="dunedin">Dunedin</option>
+        
+        <option value="fiordland">Fiordland</option>
+        
+        <option value="hawkes-bay">Hawkes-Bay</option>
+        
+        <option value="nelson">Nelson</option>
+        
+        <option value="northland">Northland</option>
+        
+        <option value="queenstown">Queenstown</option>
+        
+        <option value="rotorua">Rotorua</option>
+        
+        <option value="taupo">Taupo</option>
+        
+        <option value="tauranga">Tauranga</option>
+        
+        <option value="wanaka">Wanaka</option>
+        
+        <option value="wellington">Wellington</option>
+        
+      </select>
+    </div>
+    <div class="af-field">
+      <label for="af-age">Suitable for</label>
+      <select id="af-age">
+        <option value="">Any age</option>
+        <option value="0">All ages (0+)</option>
+        <option value="3">Toddlers (3+)</option>
+        <option value="5">Young kids (5+)</option>
+        <option value="7">Older kids (7+)</option>
+      </select>
+    </div>
+    <div class="af-field">
+      <label for="af-price">Max adult price</label>
+      <select id="af-price">
+        <option value="">Any price</option>
+        <option value="0">Free</option>
+        <option value="30">Under $30</option>
+        <option value="60">Under $60</option>
+        <option value="100">Under $100</option>
+      </select>
+    </div>
+    <div class="af-field af-check">
+      <label><input type="checkbox" id="af-rain"> Rain-safe only</label>
+    </div>
+    <p class="af-count" id="af-count"></p>
+  </div>
+  
+
   <div class="hub-grid">
     
-    <a href="/activity/skyline-gondola-luge-queenstown/" class="hub-card">
+    <a href="/activity/skyline-gondola-luge-queenstown/" class="hub-card"
+       data-region="queenstown"
+       data-minage="3"
+       data-price="50"
+       data-rain="true">
       <h3>Skyline Gondola & Luge</h3>
       <p>Queenstown's most iconic family activity — gondola up, luge down</p>
       
@@ -327,7 +400,11 @@
       <span class="hub-link">View details →</span>
     </a>
     
-    <a href="/activity/te-puia-rotorua/" class="hub-card">
+    <a href="/activity/te-puia-rotorua/" class="hub-card"
+       data-region="rotorua"
+       data-minage="0"
+       data-price="65"
+       data-rain="true">
       <h3>Te Puia</h3>
       <p>Geysers, kiwi birds, and living Maori culture in one park</p>
       
@@ -340,7 +417,11 @@
       <span class="hub-link">View details →</span>
     </a>
     
-    <a href="/activity/wai-o-tapu-rotorua/" class="hub-card">
+    <a href="/activity/wai-o-tapu-rotorua/" class="hub-card"
+       data-region="rotorua"
+       data-minage="0"
+       data-price="40"
+       data-rain="false">
       <h3>Wai-O-Tapu Thermal Wonderland</h3>
       <p>Alien-coloured thermal pools that look like they're from another planet</p>
       
@@ -353,7 +434,11 @@
       <span class="hub-link">View details →</span>
     </a>
     
-    <a href="/activity/agrodome-rotorua/" class="hub-card">
+    <a href="/activity/agrodome-rotorua/" class="hub-card"
+       data-region="rotorua"
+       data-minage="2"
+       data-price="44"
+       data-rain="true">
       <h3>Agrodome Farm Show</h3>
       <p>NZ farm life made fun — sheepdogs, sheep shearing, and bottle-feeding lambs</p>
       
@@ -366,7 +451,11 @@
       <span class="hub-link">View details →</span>
     </a>
     
-    <a href="/activity/international-antarctic-centre-christchurch/" class="hub-card">
+    <a href="/activity/international-antarctic-centre-christchurch/" class="hub-card"
+       data-region="christchurch"
+       data-minage="3"
+       data-price="65"
+       data-rain="true">
       <h3>International Antarctic Centre</h3>
       <p>Experience Antarctica — without actually going — in a world-class attraction</p>
       
@@ -379,7 +468,11 @@
       <span class="hub-link">View details →</span>
     </a>
     
-    <a href="/activity/huka-falls-taupo/" class="hub-card">
+    <a href="/activity/huka-falls-taupo/" class="hub-card"
+       data-region="taupo"
+       data-minage="0"
+       data-price="0"
+       data-rain="false">
       <h3>Huka Falls</h3>
       <p>New Zealand's most visited natural attraction — and it's completely free</p>
       
@@ -392,7 +485,11 @@
       <span class="hub-link">View details →</span>
     </a>
     
-    <a href="/activity/huka-jet-taupo/" class="hub-card">
+    <a href="/activity/huka-jet-taupo/" class="hub-card"
+       data-region="taupo"
+       data-minage="3"
+       data-price="129"
+       data-rain="false">
       <h3>Huka Jet Boat</h3>
       <p>NZ's most thrilling 30 minutes — jet boat through a river gorge at full speed</p>
       
@@ -405,7 +502,11 @@
       <span class="hub-link">View details →</span>
     </a>
     
-    <a href="/activity/waitangi-treaty-grounds/" class="hub-card">
+    <a href="/activity/waitangi-treaty-grounds/" class="hub-card"
+       data-region="bay-of-islands"
+       data-minage="5"
+       data-price="40"
+       data-rain="true">
       <h3>Waitangi Treaty Grounds</h3>
       <p>Where NZ was founded — and one of the most important historic sites in the country</p>
       
@@ -418,7 +519,11 @@
       <span class="hub-link">View details →</span>
     </a>
     
-    <a href="/activity/dolphins-bay-of-islands/" class="hub-card">
+    <a href="/activity/dolphins-bay-of-islands/" class="hub-card"
+       data-region="bay-of-islands"
+       data-minage="2"
+       data-price="120"
+       data-rain="false">
       <h3>Dolphin Watching Cruise</h3>
       <p>Wild dolphin encounters in the Bay of Islands — a bucket-list experience for kids</p>
       
@@ -431,7 +536,11 @@
       <span class="hub-link">View details →</span>
     </a>
     
-    <a href="/activity/puzzling-world-wanaka/" class="hub-card">
+    <a href="/activity/puzzling-world-wanaka/" class="hub-card"
+       data-region="wanaka"
+       data-minage="4"
+       data-price="24"
+       data-rain="true">
       <h3>Puzzling World</h3>
       <p>Wanaka's quirkiest attraction — illusions, mazes, and mind-bending puzzle rooms</p>
       
@@ -444,7 +553,11 @@
       <span class="hub-link">View details →</span>
     </a>
     
-    <a href="/activity/christchurch-gondola/" class="hub-card">
+    <a href="/activity/christchurch-gondola/" class="hub-card"
+       data-region="christchurch"
+       data-minage="0"
+       data-price="32"
+       data-rain="true">
       <h3>Christchurch Gondola</h3>
       <p>360° views of Christchurch, Banks Peninsula, and the Southern Alps</p>
       
@@ -457,7 +570,11 @@
       <span class="hub-link">View details →</span>
     </a>
     
-    <a href="/activity/orana-wildlife-park-christchurch/" class="hub-card">
+    <a href="/activity/orana-wildlife-park-christchurch/" class="hub-card"
+       data-region="christchurch"
+       data-minage="0"
+       data-price="32"
+       data-rain="false">
       <h3>Orana Wildlife Park</h3>
       <p>NZ's only open-range zoo — where giraffes eat from your hand</p>
       
@@ -470,7 +587,11 @@
       <span class="hub-link">View details →</span>
     </a>
     
-    <a href="/activity/te-papa-wellington/" class="hub-card">
+    <a href="/activity/te-papa-wellington/" class="hub-card"
+       data-region="wellington"
+       data-minage="0"
+       data-price="0"
+       data-rain="true">
       <h3>Te Papa Museum</h3>
       <p>NZ's national museum — free, world-class, and kids can spend all day here</p>
       
@@ -483,7 +604,11 @@
       <span class="hub-link">View details →</span>
     </a>
     
-    <a href="/activity/wellington-cable-car/" class="hub-card">
+    <a href="/activity/wellington-cable-car/" class="hub-card"
+       data-region="wellington"
+       data-minage="0"
+       data-price="12"
+       data-rain="true">
       <h3>Wellington Cable Car</h3>
       <p>Wellington's iconic red cable car — one of NZ's most recognisable experiences</p>
       
@@ -496,7 +621,11 @@
       <span class="hub-link">View details →</span>
     </a>
     
-    <a href="/activity/abel-tasman-water-taxi/" class="hub-card">
+    <a href="/activity/abel-tasman-water-taxi/" class="hub-card"
+       data-region="nelson"
+       data-minage="0"
+       data-price="70"
+       data-rain="false">
       <h3>Abel Tasman Water Taxi & Beach Day</h3>
       <p>Golden beaches and clear water in NZ's sunniest national park — all via water taxi</p>
       
@@ -509,7 +638,11 @@
       <span class="hub-link">View details →</span>
     </a>
     
-    <a href="/activity/hot-water-beach-coromandel/" class="hub-card">
+    <a href="/activity/hot-water-beach-coromandel/" class="hub-card"
+       data-region="coromandel"
+       data-minage="0"
+       data-price="0"
+       data-rain="false">
       <h3>Hot Water Beach</h3>
       <p>Dig your own hot pool in the sand — one of NZ's most unique experiences</p>
       
@@ -522,7 +655,11 @@
       <span class="hub-link">View details →</span>
     </a>
     
-    <a href="/activity/milford-sound-cruise/" class="hub-card">
+    <a href="/activity/milford-sound-cruise/" class="hub-card"
+       data-region="fiordland"
+       data-minage="0"
+       data-price="95"
+       data-rain="true">
       <h3>Milford Sound Nature Cruise</h3>
       <p>The most dramatic 2 hours in New Zealand — sheer peaks, waterfalls, and wildlife</p>
       
@@ -535,7 +672,11 @@
       <span class="hub-link">View details →</span>
     </a>
     
-    <a href="/activity/zealandia-wellington/" class="hub-card">
+    <a href="/activity/zealandia-wellington/" class="hub-card"
+       data-region="wellington"
+       data-minage="0"
+       data-price="22"
+       data-rain="false">
       <h3>Zealandia Wildlife Sanctuary</h3>
       <p>See tuatara, kiwi, and rare native birds in their natural habitat — in the middle of Wellington</p>
       
@@ -548,7 +689,11 @@
       <span class="hub-link">View details →</span>
     </a>
     
-    <a href="/activity/driving-creek-railway-coromandel/" class="hub-card">
+    <a href="/activity/driving-creek-railway-coromandel/" class="hub-card"
+       data-region="coromandel"
+       data-minage="0"
+       data-price="42"
+       data-rain="true">
       <h3>Driving Creek Railway</h3>
       <p>A narrow-gauge mountain railway through a sculpture park — unique and brilliant for kids</p>
       
@@ -561,7 +706,11 @@
       <span class="hub-link">View details →</span>
     </a>
     
-    <a href="/activity/cape-reinga-tour-northland/" class="hub-card">
+    <a href="/activity/cape-reinga-tour-northland/" class="hub-card"
+       data-region="northland"
+       data-minage="5"
+       data-price="99"
+       data-rain="false">
       <h3>Cape Reinga and Ninety Mile Beach Tour</h3>
       <p>Drive Ninety Mile Beach, sandboard the dunes, and stand at the very tip of New Zealand</p>
       
@@ -574,7 +723,11 @@
       <span class="hub-link">View details →</span>
     </a>
     
-    <a href="/activity/mount-maunganui-surf-lesson/" class="hub-card">
+    <a href="/activity/mount-maunganui-surf-lesson/" class="hub-card"
+       data-region="tauranga"
+       data-minage="7"
+       data-price="95"
+       data-rain="false">
       <h3>Surf Lesson at Mount Maunganui</h3>
       <p>Learn to surf on NZ's best beginner beach — boards and wetsuits provided</p>
       
@@ -587,7 +740,11 @@
       <span class="hub-link">View details →</span>
     </a>
     
-    <a href="/activity/cape-kidnappers-gannet-tour/" class="hub-card">
+    <a href="/activity/cape-kidnappers-gannet-tour/" class="hub-card"
+       data-region="hawkes-bay"
+       data-minage="5"
+       data-price="85"
+       data-rain="false">
       <h3>Cape Kidnappers Gannet Colony Tour</h3>
       <p>10,000 gannets nesting at the world's most accessible mainland gannet colony</p>
       
@@ -600,7 +757,11 @@
       <span class="hub-link">View details →</span>
     </a>
     
-    <a href="/activity/royal-albatross-centre-dunedin/" class="hub-card">
+    <a href="/activity/royal-albatross-centre-dunedin/" class="hub-card"
+       data-region="dunedin"
+       data-minage="5"
+       data-price="60"
+       data-rain="true">
       <h3>Royal Albatross Centre — Taiaroa Head</h3>
       <p>The world's only mainland albatross colony — see royal albatross nesting and soaring</p>
       
@@ -655,43 +816,43 @@
           <strong>Destinations</strong>
           <ul>
             
+            <li><a href="/destinations/auckland-with-kids/">Auckland</a></li>
+            
+            <li><a href="/destinations/bay-of-islands-family/">Bay of Islands</a></li>
+            
+            <li><a href="/destinations/christchurch-with-kids/">Christchurch</a></li>
+            
+            <li><a href="/destinations/coromandel-with-kids/">Coromandel</a></li>
+            
+            <li><a href="/destinations/dunedin-family-guide/">Dunedin</a></li>
+            
+            <li><a href="/destinations/fiordland-milford-sound-family/">Fiordland & Milford Sound</a></li>
+            
+            <li><a href="/destinations/gisborne-east-cape-family/">Gisborne & East Cape</a></li>
+            
+            <li><a href="/destinations/hawkes-bay-family-guide/">Hawke's Bay</a></li>
+            
+            <li><a href="/destinations/marlborough-blenheim-family/">Marlborough & Blenheim</a></li>
+            
+            <li><a href="/destinations/nelson-abel-tasman-family/">Nelson & Abel Tasman</a></li>
+            
+            <li><a href="/destinations/new-plymouth-taranaki-family/">New Plymouth & Taranaki</a></li>
+            
+            <li><a href="/destinations/northland-cape-reinga-family/">Northland</a></li>
+            
             <li><a href="/destinations/queenstown-with-kids/">Queenstown</a></li>
             
             <li><a href="/destinations/rotorua-family-guide/">Rotorua</a></li>
             
             <li><a href="/destinations/taupo-with-kids/">Taupo</a></li>
             
-            <li><a href="/destinations/christchurch-with-kids/">Christchurch</a></li>
-            
-            <li><a href="/destinations/bay-of-islands-family/">Bay of Islands</a></li>
+            <li><a href="/destinations/tauranga-mount-maunganui-family/">Tauranga / Mount Maunganui</a></li>
             
             <li><a href="/destinations/wanaka-with-kids/">Wanaka</a></li>
             
             <li><a href="/destinations/wellington-with-kids/">Wellington</a></li>
             
-            <li><a href="/destinations/nelson-abel-tasman-family/">Nelson & Abel Tasman</a></li>
-            
-            <li><a href="/destinations/coromandel-with-kids/">Coromandel</a></li>
-            
-            <li><a href="/destinations/fiordland-milford-sound-family/">Fiordland & Milford Sound</a></li>
-            
-            <li><a href="/destinations/northland-cape-reinga-family/">Northland</a></li>
-            
-            <li><a href="/destinations/tauranga-mount-maunganui-family/">Tauranga / Mount Maunganui</a></li>
-            
-            <li><a href="/destinations/hawkes-bay-family-guide/">Hawke's Bay</a></li>
-            
-            <li><a href="/destinations/dunedin-family-guide/">Dunedin</a></li>
-            
-            <li><a href="/destinations/auckland-with-kids/">Auckland</a></li>
-            
-            <li><a href="/destinations/new-plymouth-taranaki-family/">New Plymouth & Taranaki</a></li>
-            
-            <li><a href="/destinations/marlborough-blenheim-family/">Marlborough & Blenheim</a></li>
-            
             <li><a href="/destinations/west-coast-family-guide/">West Coast</a></li>
-            
-            <li><a href="/destinations/gisborne-east-cape-family/">Gisborne & East Cape</a></li>
             
           </ul>
         </div>
@@ -763,6 +924,8 @@
           <strong>Tools</strong>
           <ul>
             
+            <li><a href="/tools/free-packing-list/">Free NZ Family Road Trip Packing Checklist (PDF)</a></li>
+            
             <li><a href="/tools/nz-best-month-to-visit/">Best Month to Visit NZ — Weather, Prices & Crowds by Month</a></li>
             
             <li><a href="/tools/nz-driving-times/">NZ Driving Times — Family Road Trip Distance Chart</a></li>
@@ -826,6 +989,8 @@
             <li><a href="/travel-tips/nz-family-travel-december/">NZ in December</a></li>
             
             <li><a href="/travel-tips/nz-family-travel-insurance-guide/">NZ Travel Insurance</a></li>
+            
+            <li><a href="/travel-tips/nz-flying-with-kids-domestic/">Flying with Kids</a></li>
             
             <li><a href="/travel-tips/nz-holiday-parks-complete-guide/">NZ Holiday Parks</a></li>
             
@@ -962,6 +1127,123 @@
     })();
   </script>
 
+  <!-- Site search (Fuse.js) -->
+  <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js" defer></script>
+  <script>
+  (function(){
+    var input = document.getElementById('site-search');
+    var box = document.getElementById('search-results');
+    if(!input || !box) return;
+    var fuse = null, loading = false;
+    var badge = {destination:'Destination', itinerary:'Itinerary', activity:'Activity', 'travel-tip':'Tip'};
+    function load(){
+      if(fuse || loading) return;
+      loading = true;
+      fetch('/search-index.json').then(function(r){return r.json();}).then(function(data){
+        function start(){
+          fuse = new Fuse(data, {keys:['title','text'], threshold:0.4, ignoreLocation:true});
+          render();
+        }
+        if(window.Fuse){ start(); }
+        else { var t=setInterval(function(){ if(window.Fuse){ clearInterval(t); start(); } }, 50); }
+      }).catch(function(){ loading = false; });
+    }
+    function render(){
+      var q = input.value.trim();
+      if(!fuse || !q){ box.hidden = true; box.innerHTML = ''; return; }
+      var results = fuse.search(q).slice(0, 8);
+      if(!results.length){ box.innerHTML = '<div class="sr-empty">No results</div>'; box.hidden = false; return; }
+      box.innerHTML = results.map(function(r){
+        var it = r.item;
+        return '<a class="sr-item" href="'+it.url+'"><span class="sr-title">'+
+          it.title.replace(/</g,'&lt;')+'</span><span class="sr-badge">'+(badge[it.type]||it.type)+'</span></a>';
+      }).join('');
+      box.hidden = false;
+    }
+    input.addEventListener('focus', load);
+    input.addEventListener('input', render);
+    document.addEventListener('click', function(e){
+      if(!e.target.closest('.nav-search')){ box.hidden = true; }
+    });
+  })();
+  </script>
+
+  <!-- My Trip — localStorage save/bookmark system -->
+  <script>
+  (function(){
+    var KEY = 'nzft_saved';
+    function read(){ try { return JSON.parse(localStorage.getItem(KEY)) || []; } catch(e){ return []; } }
+    function write(items){ localStorage.setItem(KEY, JSON.stringify(items)); }
+    function isSaved(items, type, slug){ return items.some(function(i){ return i.type===type && i.slug===slug; }); }
+    function updateBadge(){
+      var badge = document.getElementById('mytrip-badge');
+      if(!badge) return;
+      var n = read().length;
+      badge.textContent = n;
+      badge.hidden = n === 0;
+    }
+    function paint(btn, saved){
+      btn.classList.toggle('is-saved', saved);
+      btn.setAttribute('aria-pressed', saved ? 'true' : 'false');
+      var icon = btn.querySelector('.save-icon');
+      var label = btn.querySelector('.save-label');
+      if(icon) icon.textContent = saved ? '♥' : '♡';
+      if(label) label.textContent = saved ? 'Saved' : 'Save';
+    }
+    document.querySelectorAll('.save-btn').forEach(function(btn){
+      var type = btn.dataset.type, slug = btn.dataset.slug;
+      paint(btn, isSaved(read(), type, slug));
+      btn.addEventListener('click', function(){
+        var items = read();
+        if(isSaved(items, type, slug)){
+          items = items.filter(function(i){ return !(i.type===type && i.slug===slug); });
+          paint(btn, false);
+        } else {
+          items.push({type:type, slug:slug, name:btn.dataset.name, url:btn.dataset.url});
+          paint(btn, true);
+        }
+        write(items);
+        updateBadge();
+      });
+    });
+    updateBadge();
+    if(window.renderMyTrip) window.renderMyTrip(read());
+  })();
+  </script>
+
   
+
+<script>
+(function(){
+  var panel = document.getElementById('activity-filters');
+  var grid = document.querySelector('.hub-grid');
+  if(!panel || !grid) return;
+  var region = document.getElementById('af-region');
+  var age = document.getElementById('af-age');
+  var price = document.getElementById('af-price');
+  var rain = document.getElementById('af-rain');
+  var count = document.getElementById('af-count');
+  var cards = Array.prototype.slice.call(grid.querySelectorAll('.hub-card'));
+  function apply(){
+    var r = region.value, a = age.value, p = price.value, rainOnly = rain.checked;
+    var shown = 0;
+    cards.forEach(function(card){
+      var ok = true;
+      if(r && card.dataset.region !== r) ok = false;
+      if(a !== '' && parseInt(card.dataset.minage,10) > parseInt(a,10)) ok = false;
+      if(p !== '' && parseInt(card.dataset.price,10) > parseInt(p,10)) ok = false;
+      if(rainOnly && card.dataset.rain !== 'true') ok = false;
+      card.style.display = ok ? '' : 'none';
+      if(ok) shown++;
+    });
+    count.textContent = shown + ' activit' + (shown === 1 ? 'y' : 'ies') + ' shown';
+  }
+  [region, age, price].forEach(function(el){ el.addEventListener('change', apply); });
+  rain.addEventListener('change', apply);
+  apply();
+})();
+</script>
+
+
 </body>
 </html>

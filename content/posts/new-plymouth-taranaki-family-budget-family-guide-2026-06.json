@@ -1,0 +1,86 @@
+{
+  "title": "New Plymouth Budget Guide",
+  "short_title": "Taranaki on a Budget",
+  "meta_desc": "Discover how to visit New Plymouth & Taranaki on a family budget of $150-250/day, with free activities, affordable accommodation, and tips to save money.",
+  "intro": "New Plymouth is a hidden gem for family travel in New Zealand, offering a mix of outdoor adventure, cultural experiences, and natural beauty. With some planning, you can have a fantastic holiday in Taranaki without breaking the bank. Here's a guide to help you make the most of your trip on a budget of $150-250 per day for a family of four.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Accommodation Options",
+      "body": "<p>For budget-friendly accommodation, consider staying in a holiday park or a motel. Prices start from around $120 per night for a family unit. Mid-range options like apartments and cottages are available from $180-250 per night. You can also look into booking a house through a website like Bookabach, which can be more cost-effective for larger families.</p><p>Some popular options include the New Plymouth Top 10 Holiday Resort, which offers a range of accommodation types, and the Fitzroy Beach Motel, which has apartments and studios.</p>",
+      "list": [
+        "Holiday parks from $120/night",
+        "Motels from $150/night",
+        "Apartments and cottages from $180-250/night",
+        "Bookabach houses from $200-300/night"
+      ]
+    },
+    {
+      "heading": "Free Activities",
+      "body": "<p>New Plymouth has plenty of free activities to enjoy, including the stunning Pukekura Park, which features a boating lake, playground, and zoo. The coastal walkway is another must-do, stretching 13km along the dramatic black sand surf beaches.</p><p>Brooklands Zoo is a small but charming zoo that's free to visit, and the Govett-Brewster Art Gallery/Len Lye Centre offers free entry. For nature lovers, Dawson Falls and Lake Mangamahoe are both within a 30-minute drive from the city and offer spectacular scenery and easy walks.</p>",
+      "list": [
+        "Pukekura Park",
+        "Coastal walkway",
+        "Brooklands Zoo",
+        "Govett-Brewster Art Gallery/Len Lye Centre",
+        "Dawson Falls",
+        "Lake Mangamahoe"
+      ]
+    },
+    {
+      "heading": "Budget Breakdown",
+      "body": "<p>Here's a rough estimate of what you might spend on a 3-day trip to New Plymouth:</p>",
+      "table": {
+        "headers": [
+          "Day",
+          "Accommodation",
+          "Food",
+          "Activities",
+          "Total"
+        ],
+        "rows": [
+          [
+            "Day 1",
+            "$150",
+            "$80",
+            "$20",
+            "$250"
+          ],
+          [
+            "Day 2",
+            "$150",
+            "$100",
+            "$30",
+            "$280"
+          ],
+          [
+            "Day 3",
+            "$150",
+            "$80",
+            "$20",
+            "$250"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Tips to Save Money",
+      "body": "<p>To make the most of your budget, consider self-catering instead of eating out for every meal. You can also save money by packing your own snacks and water for the day instead of buying them at cafes or shops.</p><p>Look out for special deals and discounts on accommodation and activities, and be flexible with your travel dates to get the best prices.</p>",
+      "list": [
+        "Self-catering",
+        "Pack your own snacks and water",
+        "Look for special deals and discounts",
+        "Be flexible with travel dates"
+      ],
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "new-plymouth-taranaki-family-budget-family-guide-2026-06",
+  "updated": "June 2026",
+  "auto_generated": true,
+  "generated_date": "2026-06-06"
+}

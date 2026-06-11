@@ -1,0 +1,51 @@
+{
+  "title": "Nelson Deals",
+  "short_title": "Nelson",
+  "meta_desc": "Discover the best family deals in Nelson & Abel Tasman for June 2026, including booking discounts, activity savings, and money-saving tips for a budget-friendly holiday.",
+  "intro": "Nelson and Abel Tasman are NZ's sunniest region, offering golden beaches, clear water, and beautiful coastal walks. For a family of four, budget $220–400 per day. Bookme.co.nz offers activity discounts, including up to 40% off some experiences. Discover Cars provides campervan deals from $89 per day.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Current Booking Deals",
+      "body": "<p>Bookme.co.nz is offering discounts of up to 40% off activities in various NZ locations, including Rotorua, Queenstown, Bay of Islands, and Auckland. While these deals aren't specific to Nelson and Abel Tasman, they can help with planning a broader NZ family holiday.</p><p>Discover Cars has family campervans available from $89 per day, allowing you to compare prices across different providers like Jucy, Maui, Britz, and Mighty in one search.</p>",
+      "list": [
+        "Up to 40% off activities with Bookme.co.nz",
+        "Family campervans from $89/day with Discover Cars"
+      ]
+    },
+    {
+      "heading": "Best-Value Activities",
+      "body": "<p>For a budget-friendly family holiday in Nelson and Abel Tasman, consider activities like the Abel Tasman Water Taxi + Beach Day, Sea Kayaking Abel Tasman, and the Farewell Spit Tour. These experiences offer a great balance of adventure, education, and relaxation.</p><p>Free activities in the area include visiting Tahunanui Beach, walking sections of the Abel Tasman coastal track, and exploring Nelson's Centre of New Zealand hill walk for panoramic views.</p>",
+      "list": [
+        "Abel Tasman Water Taxi + Beach Day",
+        "Sea Kayaking Abel Tasman",
+        "Farewell Spit Tour"
+      ]
+    },
+    {
+      "heading": "Money-Saving Tips",
+      "body": "<p>To save money on your family holiday in Nelson and Abel Tasman, book your activities and accommodations well in advance to secure the best prices. Consider visiting during the shoulder season when prices are generally lower.</p><p>Additionally, pack your own food and snacks instead of relying on restaurants and cafes, which can help reduce your daily expenses.</p>",
+      "list": [
+        "Book activities and accommodations in advance",
+        "Visit during the shoulder season",
+        "Pack your own food and snacks",
+        "Use free activities like visiting Tahunanui Beach and walking the Abel Tasman coastal track",
+        "Compare prices for campervans and holiday parks",
+        "Use travel insurance like Cover-More for peace of mind"
+      ]
+    },
+    {
+      "heading": "When to Book for Best Prices",
+      "body": "<p>For the best prices, book your holiday in Nelson and Abel Tasman at least 2-3 months in advance. This allows you to secure discounts on activities, accommodations, and campervan rentals.</p><p>Keep an eye on the Bookme.co.nz website for activity discounts and Discover Cars for campervan deals.</p>",
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "nelson-abel-tasman-family-family-deals-2026-06",
+  "updated": "June 2026",
+  "auto_generated": true,
+  "generated_date": "2026-06-04"
+}

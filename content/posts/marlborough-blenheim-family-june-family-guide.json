@@ -1,0 +1,80 @@
+{
+  "title": "June in Marlborough",
+  "short_title": "Marlborough June",
+  "meta_desc": "Discover Marlborough & Blenheim with kids in June: weather, events, crowd levels, and family-friendly activities for a sun-kissed holiday in NZ's sunniest region, with prices and age suitability",
+  "intro": "Marlborough and Blenheim are perfect for a family holiday in June, offering mild winter weather, exciting events, and plenty of outdoor activities. With its stunning natural beauty, delicious food, and warm hospitality, this region is an ideal destination for families. From dolphin watch cruises to exploring the Queen Charlotte Track, there's something for everyone in Marlborough.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Weather in June",
+      "body": "<p>June is the start of winter in Marlborough, but the region still experiences mild temperatures, with average highs of 12°C and lows of 2°C. It's a great time to enjoy outdoor activities like hiking, biking, or taking a scenic drive along the coast.</p><p>The weather is usually calm and settled, making it perfect for water activities like kayaking or taking a boat tour. However, it's essential to pack layers, as the temperature can drop significantly at night.</p>",
+      "list": [
+        "Average high temperature: 12°C",
+        "Average low temperature: 2°C",
+        "Sunshine hours: 8-10 hours per day"
+      ]
+    },
+    {
+      "heading": "What's On in June",
+      "body": "<p>June is a great time to visit Marlborough, with several events and festivals happening throughout the month. The Marlborough Wine and Food Festival is a highlight, featuring local wines, food, and live music.</p><p>Families can also enjoy the Picton Winter Festival, which includes a range of activities like ice skating, face painting, and live entertainment. The festival usually takes place in late June and is a fun event for all ages.</p>",
+      "table": {
+        "headers": [
+          "Event",
+          "Date",
+          "Price"
+        ],
+        "rows": [
+          [
+            "Marlborough Wine and Food Festival",
+            "Mid-June",
+            "Free entry, $20-$50 for wine and food tastings"
+          ],
+          [
+            "Picton Winter Festival",
+            "Late June",
+            "Free entry, $10-$20 for activities"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Best Activities for Families",
+      "body": "<p>Marlborough has plenty of family-friendly activities to enjoy in June. The dolphin watch cruise is a must-do, with prices starting from $80 per adult and $40 per child (5-15 years). The Queen Charlotte Track is also a great option, with short sections suitable for families with kids aged 5+.</p><p>Sea kayaking in the Marlborough Sounds is another popular activity, with guided tours available for $100-$150 per person. The Edwin Fox Maritime Museum is a great place to visit on a rainy day, with entry prices starting from $10 per adult and $5 per child.</p>",
+      "list": [
+        "Dolphin watch cruise: $80-$120 per adult, $40-$60 per child",
+        "Queen Charlotte Track: free entry, guided tours available",
+        "Sea kayaking: $100-$150 per person",
+        "Edwin Fox Maritime Museum: $10-$20 per adult, $5-$10 per child"
+      ]
+    },
+    {
+      "heading": "Crowd Levels and Booking Ahead",
+      "body": "<p>June is a relatively quiet month in Marlborough, with fewer tourists compared to the peak summer months. However, it's still essential to book ahead for popular activities and accommodations, especially during school holidays.</p><p>Families should book their dolphin watch cruise and sea kayaking tours at least 2-3 weeks in advance to avoid disappointment. Accommodations in Blenheim and Picton can fill up quickly, so it's a good idea to book your hotel or motel at least 1-2 months ahead.</p>",
+      "list": [
+        "Book dolphin watch cruise and sea kayaking tours 2-3 weeks in advance",
+        "Book accommodations 1-2 months ahead",
+        "Check for school holiday dates and plan accordingly"
+      ]
+    },
+    {
+      "heading": "Practical Tips for Families",
+      "body": "<p>Marlborough is a fantastic destination for families, with plenty of outdoor activities and attractions to enjoy. Here are some practical tips to keep in mind when visiting with kids:</p><p>Firstly, pack layers for your family, as the temperature can drop significantly at night. Secondly, don't forget to bring sunscreen and sun hats, as the sun can still be strong in June.</p><p>Thirdly, consider purchasing a family pass for the Marlborough Sounds' scenic cruises, which can save you money and provide flexibility. Lastly, take advantage of the free activities in the area, such as the Picton foreshore and Waitohi Picton play area, to keep your kids entertained without breaking the bank.</p>",
+      "list": [
+        "Pack layers for your family",
+        "Bring sunscreen and sun hats",
+        "Consider purchasing a family pass for scenic cruises",
+        "Take advantage of free activities in the area",
+        "Check the weather forecast before heading out"
+      ],
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "marlborough-blenheim-family-june-family-guide",
+  "updated": "June 2026",
+  "auto_generated": true,
+  "generated_date": "2026-06-07"
+}

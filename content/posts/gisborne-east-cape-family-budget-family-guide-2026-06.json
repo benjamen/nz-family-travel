@@ -1,0 +1,73 @@
+{
+  "title": "Gisborne & East Cape",
+  "short_title": "East Cape",
+  "meta_desc": "Visit Gisborne & East Cape on a family budget of $120-200/day. Discover free activities, accommodation options and tips to save money.",
+  "intro": "Gisborne and the East Cape are hidden gems for family travel in New Zealand, offering a unique blend of culture, adventure, and natural beauty. With a daily budget of $120-200 for a family of four, you can experience the world's first sunrise, surf beaches, and remote Maori heartland. From free activities to mid-range accommodation options, we'll show you how to make the most of your trip.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Accommodation Options",
+      "body": "<p>Gisborne and the East Cape offer a range of accommodation options to suit different budgets. You can find budget-friendly motels and holiday parks for around $100-150 per night for a family of four. Mid-range options like self-contained apartments and holiday homes are available for $200-300 per night.</p><p>Consider staying in Gisborne city for easy access to amenities and activities, or opt for a more rural setting in the East Cape for a quieter, more peaceful experience.</p>",
+      "list": [
+        "Budget-friendly motels and holiday parks ($100-150/night)",
+        "Mid-range self-contained apartments and holiday homes ($200-300/night)"
+      ]
+    },
+    {
+      "heading": "Free Activities",
+      "body": "<p>The East Cape region is full of free activities that are perfect for families. Visit Wainui and Midway Beaches for some surf and sun, or head to the Rere Rockslide for a fun and free water slide experience.</p><p>The East Cape road drive is also free, offering stunning coastal views and historic marae sites to explore. Tolaga Bay Wharf is another must-visit, with its peaceful atmosphere and fishing opportunities.</p>",
+      "list": [
+        "Wainui and Midway Beaches",
+        "Rere Rockslide",
+        "East Cape road drive",
+        "Tolaga Bay Wharf"
+      ]
+    },
+    {
+      "heading": "Budget Breakdown",
+      "body": "<p>Here's a rough 3-day budget breakdown for a family of four:</p>",
+      "table": {
+        "headers": [
+          "Day",
+          "Activity",
+          "Cost"
+        ],
+        "rows": [
+          [
+            "Day 1",
+            "Accommodation and food",
+            "$150"
+          ],
+          [
+            "Day 2",
+            "East Cape Lighthouse and Tolaga Bay Wharf",
+            "$50"
+          ],
+          [
+            "Day 3",
+            "Wainui Beach surf lessons and Rere Rockslide",
+            "$100"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Tips to Save Money",
+      "body": "<p>To save money on your trip, consider self-catering accommodation options and cooking your own meals. Pack a picnic lunch for day trips and avoid eating out for every meal.</p><p>Also, take advantage of free activities and explore the region's natural beauty instead of spending money on paid attractions.</p>",
+      "list": [
+        "Self-catering accommodation",
+        "Cooking your own meals",
+        "Packing a picnic lunch"
+      ],
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "gisborne-east-cape-family-budget-family-guide-2026-06",
+  "updated": "June 2026",
+  "auto_generated": true,
+  "generated_date": "2026-06-04"
+}

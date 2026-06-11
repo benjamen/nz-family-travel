@@ -1,0 +1,77 @@
+{
+  "title": "Christchurch in June",
+  "short_title": "June in Chch",
+  "meta_desc": "Discover Christchurch with kids in June, a great time to visit with mild weather, exciting events, and plenty of family-friendly activities to enjoy, all within a budget of $200-350/day for a family of four.",
+  "intro": "Christchurch is a fantastic destination for families in June, offering a mix of indoor and outdoor activities that cater to all ages. With its mild winter weather, June is an excellent time to explore the city's many attractions without the crowds. From the International Antarctic Centre to the Christchurch Gondola, there's something for everyone to enjoy.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Weather and What's On",
+      "body": "<p>June is winter in Christchurch, but the weather is generally mild, with average highs of 12°C (54°F) and lows of 2°C (36°F). It's a great time to enjoy the city's many indoor attractions, such as the Canterbury Museum and the Christchurch Art Gallery, both of which are free. This month, the city also hosts the Christchurch Winter Festival, featuring live music, food, and craft stalls.</p><p>For families, the festival offers a range of activities, including ice skating, face painting, and a winter wonderland-themed playground. The festival takes place from June 15th to 17th, and tickets start at $10 for adults and $5 for children.</p>",
+      "list": [
+        "Christchurch Winter Festival (June 15-17)",
+        "Matariki celebrations at the Canterbury Museum (free)"
+      ]
+    },
+    {
+      "heading": "Best Activities for June",
+      "body": "<p>June is a great time to visit some of Christchurch's top attractions, which offer a range of indoor and outdoor activities. The International Antarctic Centre is a must-visit, with its interactive exhibits and real Antarctic gear. The Christchurch Gondola is another highlight, offering stunning views of the city and the Southern Alps.</p><p>The Willowbank Wildlife Reserve and Orana Wildlife Park are also great options, with their animal encounters and behind-the-scenes tours. For a more relaxing experience, take a punt down the Avon River, which offers a unique perspective on the city's beautiful botanic gardens.</p>",
+      "table": {
+        "headers": [
+          "Attraction",
+          "Price (family of 4)"
+        ],
+        "rows": [
+          [
+            "International Antarctic Centre",
+            "$60-$80"
+          ],
+          [
+            "Christchurch Gondola",
+            "$50-$70"
+          ],
+          [
+            "Willowbank Wildlife Reserve",
+            "$40-$60"
+          ],
+          [
+            "Orana Wildlife Park",
+            "$50-$70"
+          ],
+          [
+            "Punting on the Avon",
+            "$30-$50"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Crowd Levels and Booking Ahead",
+      "body": "<p>June is a relatively quiet month in Christchurch, with fewer tourists than the peak summer months. However, it's still a good idea to book ahead for popular attractions and activities, especially during the school holidays (June 29th to July 14th).</p><p>Be sure to book your tickets for the International Antarctic Centre and the Christchurch Gondola in advance, as they can sell out quickly. You can also book a guided tour of the Canterbury Museum or the Christchurch Art Gallery, which offer a more in-depth look at the city's history and culture.</p>",
+      "list": [
+        "Book International Antarctic Centre tickets at least 2 days in advance",
+        "Book Christchurch Gondola tickets at least 1 day in advance"
+      ]
+    },
+    {
+      "heading": "Practical Tips for Families",
+      "body": "<p>Christchurch is a very family-friendly city, with plenty of parks, playgrounds, and outdoor spaces to explore. However, it's still important to plan ahead and pack accordingly for the winter weather.</p><p>Be sure to bring warm clothing, including hats, gloves, and scarves, as well as waterproof jackets and umbrellas. You should also pack comfortable shoes or boots, as you'll likely be doing a lot of walking.</p>",
+      "list": [
+        "Pack warm clothing, including hats, gloves, and scarves",
+        "Bring waterproof jackets and umbrellas",
+        "Wear comfortable shoes or boots",
+        "Download the Christchurch City Council's app for maps and guides",
+        "Take advantage of the city's many free attractions, including the Canterbury Museum and the Christchurch Art Gallery"
+      ],
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "christchurch-with-kids-june-family-guide",
+  "updated": "June 2026",
+  "auto_generated": true,
+  "generated_date": "2026-06-05"
+}

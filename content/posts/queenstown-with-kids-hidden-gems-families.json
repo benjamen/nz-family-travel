@@ -1,0 +1,54 @@
+{
+  "title": "Queenstown Hidden Gems",
+  "short_title": "QT Gems",
+  "meta_desc": "Discover Queenstown's best-kept secrets for families, from free walks to local markets, and enjoy a stress-free holiday with kids in the adventure capital of the world, with prices from $350-600/day for a family of 4",
+  "intro": "Queenstown is renowned for its adventure activities, but it also boasts a treasure trove of hidden gems that are perfect for families. From scenic walks to local markets, these secrets will make your family holiday even more unforgettable. With a budget of $350-600/day for a family of four, you can enjoy the best of Queenstown without breaking the bank.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Exploring Kelvin Heights Peninsula",
+      "body": "<p>The Kelvin Heights Peninsula loop walk is a 45-minute stroll that offers breathtaking views of Lake Wakatipu and the surrounding mountains. This walk is suitable for families with kids aged 5+, and the best part is that it's free and rarely crowded with tourists.</p><p>To get to the Kelvin Heights Peninsula, drive from Queenstown's town centre for approximately 10 minutes, or take a scenic bike ride along the waterfront path. There are no costs associated with this activity, making it an excellent addition to your family holiday.</p>",
+      "list": [
+        "Duration: 45 minutes",
+        "Age suitability: 5+",
+        "Cost: Free"
+      ]
+    },
+    {
+      "heading": "Saturday Markets and Local Delights",
+      "body": "<p>The Remarkables Market, held every Saturday during summer, is a must-visit for families. Kids will love the lively atmosphere, and you can indulge in fresh local food and unique crafts. This market is an excellent way to experience the community spirit of Queenstown.</p><p>The market operates from 9 am to 2 pm, and admission is free. You can find the market at the Remarkables Park Town Centre, a 15-minute drive from Queenstown's town centre.</p>",
+      "list": [
+        "Market location: Remarkables Park Town Centre",
+        "Operating hours: 9 am - 2 pm (Saturdays)",
+        "Admission: Free"
+      ]
+    },
+    {
+      "heading": "More Hidden Gems to Discover",
+      "body": "<p>In addition to the Kelvin Heights Peninsula walk and the Remarkables Market, Queenstown has plenty of other hidden gems to explore. The Queenstown Gardens, a beautifully maintained park with a stunning rose garden, is an excellent spot for a family picnic.</p><p>Frisbee golf is another fun activity that's perfect for families with kids aged 5+. The course is located within the Queenstown Gardens and is free to play. You can also take a leisurely walk along the Lake Wakatipu foreshore, which offers spectacular views of the lake and surrounding mountains.</p>",
+      "list": [
+        "Queenstown Gardens: Free admission, suitable for all ages",
+        "Frisbee golf: Free, suitable for kids aged 5+",
+        "Lake Wakatipu foreshore walk: Free, suitable for all ages"
+      ]
+    },
+    {
+      "heading": "Insider Tips for a Stress-Free Holiday",
+      "body": "<p>To make the most of your family holiday in Queenstown, consider purchasing a Queenstown Card, which grants you discounts and access to various attractions. You can also take advantage of the town's bike-friendly paths and rent bikes for a fun day out.</p><p>For a unique experience, take a drive to the nearby town of Glenorchy, which offers stunning views of Lake Wakatipu and the surrounding mountains. The drive takes approximately 45 minutes, and there are plenty of picnic spots along the way.</p>",
+      "list": [
+        "Queenstown Card: Discounts and attraction access",
+        "Bike rentals: Available for all ages",
+        "Glenorchy drive: 45 minutes, suitable for all ages"
+      ],
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "queenstown-with-kids-hidden-gems-families",
+  "updated": "June 2026",
+  "auto_generated": true,
+  "generated_date": "2026-06-04"
+}

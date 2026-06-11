@@ -1,0 +1,87 @@
+{
+  "title": "West Coast on Budget",
+  "short_title": "West Coast",
+  "meta_desc": "Explore NZ's West Coast with your family without breaking the bank. Discover free activities, budget accommodation and where to splurge on your $150-250/day family holiday",
+  "intro": "The West Coast is a must-visit destination for any family looking for a unique and adventurous holiday. With its stunning natural beauty, rich history and range of activities, it's an ideal place to explore. The best part? It can be done on a budget of $150-250/day for a family of four.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Introduction to West Coast",
+      "body": "<p>The West Coast of New Zealand is known for its rugged landscape, stunning beaches and rich history. From the famous Pancake Rocks at Punakaiki to the breathtaking glaciers at Franz Josef and Fox, there's no shortage of exciting activities to enjoy. And with many free or low-cost activities, it's an ideal destination for families on a budget.</p><p>When planning your trip, consider visiting during the shoulder season (April-May or September-October) when prices are lower and the weather is still mild. Book your accommodation and activities in advance to avoid peak season prices.</p>",
+      "list": [
+        "Punakaiki Pancake Rocks and Blowholes (free)",
+        "Franz Josef Glacier valley walk (free)",
+        "Hokitika Gorge walkway (free)"
+      ]
+    },
+    {
+      "heading": "Accommodation Options",
+      "body": "<p>Accommodation on the West Coast ranges from budget-friendly camping and holiday parks to mid-range motels and hotels. Consider staying in Hokitika or Greymouth for easy access to many of the region's attractions. Camping sites start from around $20/night, while motels and hotels start from around $120/night.</p><p>Look for accommodation that offers a kitchen or kitchenette to save money on food. You can also consider booking a bach or holiday home through a website like Bookabach, which can often be more cost-effective than booking multiple motel rooms.</p>",
+      "list": [
+        "Camping and holiday parks ($20-50/night)",
+        "Motels and hotels ($120-250/night)",
+        "Bach or holiday home (from $150/night)"
+      ]
+    },
+    {
+      "heading": "Free Activities and Attractions",
+      "body": "<p>The West Coast is home to many free or low-cost activities and attractions. Some of the top picks include the Punakaiki Pancake Rocks, Franz Josef Glacier valley walk and Hokitika Gorge walkway. These activities offer a great way to experience the region's natural beauty without breaking the bank.</p><p>Other free activities include visiting the Hokitika town, exploring the local beaches and going on a scenic drive. Be sure to check the weather forecast before heading out, as some activities may be weather-dependent.</p>",
+      "list": [
+        "Punakaiki Pancake Rocks and Blowholes (free)",
+        "Franz Josef Glacier valley walk (free)",
+        "Hokitika Gorge walkway (free)",
+        "Hokitika town (free)",
+        "Local beaches (free)"
+      ]
+    },
+    {
+      "heading": "Budget Breakdown",
+      "body": "<p>Here's a rough 3-day budget breakdown for a family of four:</p>",
+      "table": {
+        "headers": [
+          "Day",
+          "Accommodation",
+          "Food",
+          "Activities",
+          "Total"
+        ],
+        "rows": [
+          [
+            "Day 1",
+            "$150",
+            "$50",
+            "$20",
+            "$220"
+          ],
+          [
+            "Day 2",
+            "$150",
+            "$50",
+            "$30",
+            "$230"
+          ],
+          [
+            "Day 3",
+            "$150",
+            "$50",
+            "$20",
+            "$220"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Where to Save and Splurge",
+      "body": "<p>To save money on your West Coast holiday, consider cooking your own meals instead of eating out, and opt for free or low-cost activities. You can also save money by booking your accommodation and activities in advance.</p><p>It's worth splurging on activities like a guided glacier hike or a scenic flight, which offer a unique and unforgettable experience. You may also want to splurge on a special dinner or picnic to enjoy the region's local cuisine.</p>",
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "west-coast-family-guide-budget-family-guide-2026-06",
+  "updated": "June 2026",
+  "auto_generated": true,
+  "generated_date": "2026-06-09"
+}

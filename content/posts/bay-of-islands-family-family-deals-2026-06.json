@@ -1,0 +1,68 @@
+{
+  "title": "Bay of Islands Deals",
+  "short_title": "BOI Savings",
+  "meta_desc": "Discover the best family deals in Bay of Islands, including activity discounts, campervan hires, and travel insurance, to make your holiday more affordable and enjoyable for your family.",
+  "intro": "The Bay of Islands is a top destination for family holidays in New Zealand, with its beautiful beaches, dolphin watching cruises, and historic Waitangi Treaty Grounds. To make the most of your trip, we've rounded up the best current deals and discounts. With prices starting from $89/day for a family campervan and up to 40% off activities, you can have a fun and memorable holiday without breaking the bank.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Current Booking Deals and Discounts",
+      "body": "<p>Bookme.co.nz is offering up to 40% off activities in the Bay of Islands, including dolphin watching cruises and Cape Brett cruises. You can also find discounts on campervan hires from $89/day with Discover Cars. Additionally, Booking.com is offering free cancellation on most holiday park and motel bookings.</p><p>Cover-More travel insurance is also available from $4.50/day, providing comprehensive coverage for your family's trip.</p>",
+      "list": [
+        "Up to 40% off activities with Bookme.co.nz",
+        "Campervan hires from $89/day with Discover Cars",
+        "Free cancellation on most bookings with Booking.com",
+        "Travel insurance from $4.50/day with Cover-More"
+      ]
+    },
+    {
+      "heading": "Best-Value Activities",
+      "body": "<p>The Bay of Islands offers a range of activities that are great value for families. A dolphin watching cruise, which typically costs around $120 per person, can be booked for up to 40% off with Bookme.co.nz. The Waitangi Treaty Grounds, which costs around $50 per person, offers a discounted family pass for $120.</p><p>Other best-value activities include the Hole in the Rock cruise, which costs around $120 per person, and the Haruru Falls walk, which is free.</p>",
+      "table": {
+        "headers": [
+          "Activity",
+          "Price"
+        ],
+        "rows": [
+          [
+            "Dolphin watching cruise",
+            "$120 per person"
+          ],
+          [
+            "Waitangi Treaty Grounds",
+            "$50 per person"
+          ],
+          [
+            "Hole in the Rock cruise",
+            "$120 per person"
+          ],
+          [
+            "Haruru Falls walk",
+            "Free"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Money-Saving Tips for Families",
+      "body": "<p>To make the most of your family holiday in the Bay of Islands, here are some money-saving tips. Firstly, book your activities and accommodation in advance to get the best prices. Secondly, consider hiring a campervan instead of booking separate accommodation and transportation.</p><p>Thirdly, pack your own food and snacks instead of eating out for every meal. Fourthly, take advantage of free activities such as the Haruru Falls walk and the Waitangi Beach.</p><p>Fifthly, book your travel insurance in advance to get the best price. Lastly, consider visiting during the off-season to get cheaper prices for activities and accommodation.</p>",
+      "list": [
+        "Book activities and accommodation in advance",
+        "Hire a campervan instead of separate accommodation and transportation",
+        "Pack your own food and snacks",
+        "Take advantage of free activities",
+        "Book travel insurance in advance",
+        "Visit during the off-season"
+      ],
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "bay-of-islands-family-family-deals-2026-06",
+  "updated": "June 2026",
+  "auto_generated": true,
+  "generated_date": "2026-06-12"
+}

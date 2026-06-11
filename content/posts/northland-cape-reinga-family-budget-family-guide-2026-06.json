@@ -1,0 +1,76 @@
+{
+  "title": "Northland on a Budget",
+  "short_title": "Northland",
+  "meta_desc": "Explore Northland's subtropical north with family on a budget of $200-380/day, discover Cape Reinga, Ninety Mile Beach, and ancient kauri forests with our guide",
+  "intro": "Northland is a treasure trove of natural wonders and rich Maori history, perfect for a family holiday. With a daily budget of $200-380 for a family of four, you can experience the best of this subtropical region. From free activities like walking on Ninety Mile Beach to visiting the historic Waitangi Treaty Grounds, we've got you covered.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Accommodation Options",
+      "body": "<p>For a family of four, accommodation options in Northland range from budget-friendly holiday parks to mid-range motels and apartments. You can expect to pay around $120-200 per night for a basic motel or apartment. Holiday parks, on the other hand, offer more affordable options, with prices starting from $40-60 per night for a campsite or basic cabin.</p><p>Some popular options include the Top 10 Holiday Resort in Bay of Islands, which offers a range of accommodation types, including apartments and campsites, from $150-300 per night. Another option is the Mangawhai Heads Holiday Park, which offers cabins and campsites from $60-150 per night.</p>",
+      "list": [
+        "Holiday parks: $40-60 per night",
+        "Basic motels: $120-200 per night",
+        "Mid-range apartments: $150-300 per night"
+      ]
+    },
+    {
+      "heading": "Free Activities",
+      "body": "<p>Northland offers a range of free activities that are perfect for families. One of the highlights is the Cape Reinga walkway, a 30-minute return walk to the very tip of New Zealand. You can also drive along Ninety Mile Beach, although be aware that some parts of the beach require a 4WD vehicle.</p><p>Other free activities include walking on the beach at Mangawhai Heads, exploring the estuary, and visiting the Hokianga Harbour dunes. These activities are not only free but also offer a great way to experience the natural beauty of Northland.</p>",
+      "list": [
+        "Cape Reinga walkway",
+        "Ninety Mile Beach driving and walking",
+        "Mangawhai Heads beach walk and estuary"
+      ]
+    },
+    {
+      "heading": "Budget Breakdown",
+      "body": "<p>To help you plan your trip, we've put together a rough 3-day budget breakdown. This includes accommodation, food, and activities, and should give you an idea of what to expect.</p>",
+      "table": {
+        "headers": [
+          "Day",
+          "Accommodation",
+          "Food",
+          "Activities",
+          "Total"
+        ],
+        "rows": [
+          [
+            "1",
+            "$150",
+            "$80",
+            "$50",
+            "$280"
+          ],
+          [
+            "2",
+            "$150",
+            "$80",
+            "$70",
+            "$300"
+          ],
+          [
+            "3",
+            "$150",
+            "$80",
+            "$30",
+            "$260"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Where to Save and Splurge",
+      "body": "<p>To make the most of your budget, consider saving money on accommodation and food by opting for budget-friendly options. You can also save money by taking advantage of free activities like walking on the beach or exploring the estuary.</p><p>On the other hand, consider splurging on activities like visiting the Waitangi Treaty Grounds or taking a guided tour of the ancient kauri forests. These activities offer a unique and enriching experience that will make your trip to Northland truly unforgettable.</p>",
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "northland-cape-reinga-family-budget-family-guide-2026-06",
+  "updated": "June 2026",
+  "auto_generated": true,
+  "generated_date": "2026-06-07"
+}

@@ -1,0 +1,83 @@
+{
+  "title": "Hamilton & Waikato on Budget",
+  "short_title": "Waikato Budget",
+  "meta_desc": "Explore Hamilton & Waikato with your family without breaking the bank. Discover free activities, affordable accommodation, and top attractions for $180-340/day.",
+  "intro": "Hamilton and Waikato, often overlooked, is a hidden gem for family travel in New Zealand. With its beautiful gardens, excellent museums, and stunning rural landscapes, there's something for everyone. For a family of four, you can expect to spend around $180-340 per day, making it an affordable destination for all.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Accommodation Options",
+      "body": "<p>For budget-conscious families, consider staying in Hamilton city, where you can find affordable motels and holiday parks. The Albert Court Motor Lodge starts at $120 per night for a family room, while the Hamilton City Holiday Park offers cabins from $80 per night.</p><p>For a mid-range option, the Novotel Hamilton Tainui is a great choice, with rooms starting at $180 per night. Alternatively, you can rent a house or apartment through Booking.com or Airbnb, which can be more cost-effective for larger families.</p>",
+      "list": [
+        "Albert Court Motor Lodge: $120/night",
+        "Hamilton City Holiday Park: $80/night",
+        "Novotel Hamilton Tainui: $180/night"
+      ]
+    },
+    {
+      "heading": "Free Activities",
+      "body": "<p>Hamilton and Waikato offer plenty of free activities for families to enjoy. The Hamilton Gardens are a must-visit, with its stunning themed gardens and playgrounds. The Waikato Museum is also free, with interactive exhibits and a great collection of New Zealand art.</p><p>You can also explore the city's riverside walkway, which offers beautiful views of the Waikato River. For outdoor enthusiasts, the Waitakaruru Arboretum and the Sanatorium Hill Reserve are great spots for picnics and walks.</p>",
+      "list": [
+        "Hamilton Gardens",
+        "Waikato Museum",
+        "Riverside walkway",
+        "Waitakaruru Arboretum",
+        "Sanatorium Hill Reserve"
+      ]
+    },
+    {
+      "heading": "Top Attractions and Budget Breakdown",
+      "body": "<p>While there are plenty of free activities, some top attractions are worth splashing out on. Hobbiton Movie Set is a must-visit for any Lord of the Rings fan, with tickets starting at $89 per adult and $44 per child. The Waitomo Glowworm Caves are another popular attraction, with tickets starting at $50 per adult and $25 per child.</p><p>Here's a rough 3-day budget breakdown for a family of four:</p>",
+      "table": {
+        "headers": [
+          "Day",
+          "Accommodation",
+          "Food",
+          "Activities",
+          "Total"
+        ],
+        "rows": [
+          [
+            "Day 1",
+            "$150",
+            "$80",
+            "$100",
+            "$330"
+          ],
+          [
+            "Day 2",
+            "$150",
+            "$80",
+            "$120",
+            "$350"
+          ],
+          [
+            "Day 3",
+            "$150",
+            "$80",
+            "$90",
+            "$320"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Tips for Saving Money",
+      "body": "<p>To save money, consider cooking your own meals instead of eating out. Many accommodation options offer kitchen facilities, and you can stock up on groceries at the local supermarket.</p><p>Another tip is to look for package deals or discounts on attraction tickets. The Hamilton and Waikato tourism website often offers special promotions and deals, so be sure to check it out before your trip.</p>",
+      "list": [
+        "Cook your own meals",
+        "Look for package deals or discounts",
+        "Check the tourism website for promotions"
+      ],
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "hamilton-waikato-with-kids-budget-family-guide-2026-06",
+  "updated": "June 2026",
+  "auto_generated": true,
+  "generated_date": "2026-06-12"
+}

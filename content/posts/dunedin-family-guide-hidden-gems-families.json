@@ -1,0 +1,64 @@
+{
+  "title": "Dunedin Hidden Gems",
+  "short_title": "Dunedin Secrets",
+  "meta_desc": "Discover Dunedin's best-kept secrets, suitable for families with kids, including free activities and insider tips, with prices from $10-$30 per person",
+  "intro": "Dunedin is a treasure trove of family-friendly activities, but some of its best experiences remain hidden from mainstream guides. From unique wildlife encounters to fascinating historical sites, we'll uncover the city's lesser-known gems that are perfect for families with kids aged 5+. With a budget of $200-380 per day for a family of four, you can enjoy a mix of free and paid activities that cater to all interests.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Larnach Castle: A Gothic Gem",
+      "body": "<p>Larnach Castle is New Zealand's only castle, located just 30 minutes from Dunedin's city centre. This stunning Gothic-style castle offers breathtaking views, beautiful gardens, and a fascinating history that kids will love. With its dramatic architecture and genuine ghost stories, Larnach Castle is an ideal spot for families to explore.</p><p>To get to Larnach Castle, drive from Dunedin city centre via Highcliff Road, which takes approximately 30 minutes. Admission prices are $30 for adults, $10 for children (5-15 years), and free for children under 5 years.</p>",
+      "list": [
+        "Admission: $30 adult, $10 child (5-15 years), free for under 5s",
+        "Open daily from 9 am to 5 pm"
+      ]
+    },
+    {
+      "heading": "Penguin Place: Intimate Wildlife Experience",
+      "body": "<p>Penguin Place is a private conservation reserve that offers an intimate and unforgettable yellow-eyed penguin viewing experience. As one of the best places in New Zealand to see these unique birds, Penguin Place is a must-visit for families with kids who love wildlife.</p><p>Located on the Otago Peninsula, Penguin Place is approximately 45 minutes from Dunedin city centre. The cost of the tour is around $60 per person, with discounts available for children and families.</p>",
+      "table": {
+        "headers": [
+          "Tour Type",
+          "Price"
+        ],
+        "rows": [
+          [
+            "Standard Tour",
+            "$60 per person"
+          ],
+          [
+            "Family Tour (2 adults, 2 children)",
+            "$200"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Free Activities for Families",
+      "body": "<p>Dunedin offers a range of free activities that are perfect for families with kids. One of the most popular spots is Baldwin Street, the world's steepest street, where kids can walk or run up the 1:2.86 gradient and take a photo at the top.</p><p>Another great spot is the Dunedin Railway Station, which features stunning Flemish Renaissance architecture and is one of New Zealand's most photographed buildings. The Otago Settlers Museum is also free to visit and provides an excellent history of European and Maori settlement in Otago.</p>",
+      "list": [
+        "Baldwin Street: walk or run up the world's steepest street",
+        "Dunedin Railway Station: admire the stunning architecture",
+        "Otago Settlers Museum: learn about Otago's history"
+      ]
+    },
+    {
+      "heading": "Insider Tips and Local Secrets",
+      "body": "<p>For a unique and memorable experience, consider visiting the Royal Albatross Centre at Taiaroa Head, where you can see these majestic birds up close. Another insider tip is to take a scenic drive along the Otago Peninsula, which offers breathtaking views of the coastline and surrounding landscape.</p><p>Finally, be sure to check out the Speight's Brewery tour, which is a great way to learn about Dunedin's beer-making history and sample some of the local brews. With its rich history, stunning architecture, and unique wildlife experiences, Dunedin is a city that has something for everyone.</p>",
+      "list": [
+        "Royal Albatross Centre: see albatross up close",
+        "Otago Peninsula scenic drive: enjoy breathtaking views",
+        "Speight's Brewery tour: learn about Dunedin's beer history"
+      ],
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "dunedin-family-guide-hidden-gems-families",
+  "updated": "June 2026",
+  "auto_generated": true,
+  "generated_date": "2026-06-06"
+}

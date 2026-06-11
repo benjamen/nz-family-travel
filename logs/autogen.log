@@ -452,3 +452,349 @@ Generated 4 articles.
 Rebuilding site...
   Build complete — 300 HTML pages → /home/ben/nz-family-travel/docs/
   Pushed to GitHub Pages
+
+Today's 5 articles (2026-06-04):
+
+  1. [deals          ] Nelson & Abel Tasman                — nelson-abel-tasman-family-family-deals-2026-06
+     WILL GENERATE
+  2. [month_guide    ] Bay of Islands                      — bay-of-islands-family-june-family-guide
+     WILL GENERATE
+  3. [budget         ] Gisborne & East Cape                — gisborne-east-cape-family-budget-family-guide-2026-06
+     WILL GENERATE
+  4. [activity_review] International Antarctic Centre      — international-antarctic-centre-christchurch-family-review-2026-06
+     WILL GENERATE
+  5. [hidden_gems    ] Queenstown                          — queenstown-with-kids-hidden-gems-families
+     WILL GENERATE
+
+[1/5] Generating: nelson-abel-tasman-family-family-deals-2026-06
+  Calling Groq (llama-3.3-70b-versatile)...
+  Saved: content/posts/nelson-abel-tasman-family-family-deals-2026-06.json
+
+[2/5] Generating: bay-of-islands-family-june-family-guide
+  Calling Groq (llama-3.3-70b-versatile)...
+  Saved: content/posts/bay-of-islands-family-june-family-guide.json
+
+[3/5] Generating: gisborne-east-cape-family-budget-family-guide-2026-06
+  Calling Groq (llama-3.3-70b-versatile)...
+  Saved: content/posts/gisborne-east-cape-family-budget-family-guide-2026-06.json
+
+[4/5] Generating: international-antarctic-centre-christchurch-family-review-2026-06
+  Calling Groq (llama-3.3-70b-versatile)...
+  Saved: content/posts/international-antarctic-centre-christchurch-family-review-2026-06.json
+
+[5/5] Generating: queenstown-with-kids-hidden-gems-families
+  Calling Groq (llama-3.3-70b-versatile)...
+  Saved: content/posts/queenstown-with-kids-hidden-gems-families.json
+
+Generated 5 articles.
+
+Rebuilding site...
+BUILD ERROR: {% endblock %}
+^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ben/nz-family-travel/layouts/destination.html", line 301, in block 'content'
+    {% for day_key, day in destination.three_day_itinerary.items() %}
+^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ben/nz-family-travel/.venv/lib/python3.12/site-packages/jinja2/environment.py", line 490, in getattr
+    return getattr(obj, attribute)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.UndefinedError: 'dict object' has no attribute 'three_day_itinerary'
+
+
+Today's 5 articles (2026-06-05):
+
+  1. [deals          ] West Coast                          — west-coast-family-guide-family-deals-2026-06
+     WILL GENERATE
+  2. [month_guide    ] Christchurch                        — christchurch-with-kids-june-family-guide
+     WILL GENERATE
+  3. [budget         ] Bay of Islands                      — bay-of-islands-family-budget-family-guide-2026-06
+     EXISTS
+  4. [activity_review] Te Puia                             — te-puia-rotorua-family-review-2026-06
+     WILL GENERATE
+  5. [hidden_gems    ] Tauranga / Mount Maunganui          — tauranga-mount-maunganui-family-hidden-gems-families
+     EXISTS
+
+[1/5] Generating: west-coast-family-guide-family-deals-2026-06
+  Calling Groq (llama-3.3-70b-versatile)...
+  Saved: content/posts/west-coast-family-guide-family-deals-2026-06.json
+
+[2/5] Generating: christchurch-with-kids-june-family-guide
+  Calling Groq (llama-3.3-70b-versatile)...
+  Saved: content/posts/christchurch-with-kids-june-family-guide.json
+
+[3/5] Skipping (already exists): bay-of-islands-family-budget-family-guide-2026-06
+
+[4/5] Generating: te-puia-rotorua-family-review-2026-06
+  Calling Groq (llama-3.3-70b-versatile)...
+  Saved: content/posts/te-puia-rotorua-family-review-2026-06.json
+
+[5/5] Skipping (already exists): tauranga-mount-maunganui-family-hidden-gems-families
+
+Generated 3 articles.
+
+Rebuilding site...
+BUILD ERROR: {% endblock %}
+^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ben/nz-family-travel/layouts/destination.html", line 301, in block 'content'
+    {% for day_key, day in destination.three_day_itinerary.items() %}
+^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ben/nz-family-travel/.venv/lib/python3.12/site-packages/jinja2/environment.py", line 490, in getattr
+    return getattr(obj, attribute)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.UndefinedError: 'dict object' has no attribute 'three_day_itinerary'
+
+
+Today's 5 articles (2026-06-06):
+
+  1. [deals          ] Wanaka                              — wanaka-with-kids-family-deals-2026-06
+     EXISTS
+  2. [month_guide    ] Nelson & Abel Tasman                — nelson-abel-tasman-family-june-family-guide
+     WILL GENERATE
+  3. [budget         ] New Plymouth & Taranaki             — new-plymouth-taranaki-family-budget-family-guide-2026-06
+     WILL GENERATE
+  4. [activity_review] International Antarctic Centre      — international-antarctic-centre-christchurch-family-review-2026-06
+     EXISTS
+  5. [hidden_gems    ] Dunedin                             — dunedin-family-guide-hidden-gems-families
+     WILL GENERATE
+
+[1/5] Skipping (already exists): wanaka-with-kids-family-deals-2026-06
+
+[2/5] Generating: nelson-abel-tasman-family-june-family-guide
+  Calling Groq (llama-3.3-70b-versatile)...
+  Saved: content/posts/nelson-abel-tasman-family-june-family-guide.json
+
+[3/5] Generating: new-plymouth-taranaki-family-budget-family-guide-2026-06
+  Calling Groq (llama-3.3-70b-versatile)...
+  Saved: content/posts/new-plymouth-taranaki-family-budget-family-guide-2026-06.json
+
+[4/5] Skipping (already exists): international-antarctic-centre-christchurch-family-review-2026-06
+
+[5/5] Generating: dunedin-family-guide-hidden-gems-families
+  Calling Groq (llama-3.3-70b-versatile)...
+  Saved: content/posts/dunedin-family-guide-hidden-gems-families.json
+
+Generated 3 articles.
+
+Rebuilding site...
+BUILD ERROR: {% endblock %}
+^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ben/nz-family-travel/layouts/destination.html", line 301, in block 'content'
+    {% for day_key, day in destination.three_day_itinerary.items() %}
+^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ben/nz-family-travel/.venv/lib/python3.12/site-packages/jinja2/environment.py", line 490, in getattr
+    return getattr(obj, attribute)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.UndefinedError: 'dict object' has no attribute 'three_day_itinerary'
+
+
+Today's 5 articles (2026-06-07):
+
+  1. [deals          ] Queenstown                          — queenstown-with-kids-family-deals-2026-06
+     WILL GENERATE
+  2. [month_guide    ] Marlborough & Blenheim              — marlborough-blenheim-family-june-family-guide
+     WILL GENERATE
+  3. [budget         ] Northland                           — northland-cape-reinga-family-budget-family-guide-2026-06
+     WILL GENERATE
+  4. [activity_review] Driving Creek Railway               — driving-creek-railway-coromandel-family-review-2026-06
+     WILL GENERATE
+  5. [hidden_gems    ] Hawke's Bay                         — hawkes-bay-family-guide-hidden-gems-families
+     WILL GENERATE
+
+[1/5] Generating: queenstown-with-kids-family-deals-2026-06
+  Calling Groq (llama-3.3-70b-versatile)...
+  Saved: content/posts/queenstown-with-kids-family-deals-2026-06.json
+
+[2/5] Generating: marlborough-blenheim-family-june-family-guide
+  Calling Groq (llama-3.3-70b-versatile)...
+  Saved: content/posts/marlborough-blenheim-family-june-family-guide.json
+
+[3/5] Generating: northland-cape-reinga-family-budget-family-guide-2026-06
+  Calling Groq (llama-3.3-70b-versatile)...
+  Saved: content/posts/northland-cape-reinga-family-budget-family-guide-2026-06.json
+
+[4/5] Generating: driving-creek-railway-coromandel-family-review-2026-06
+  Calling Groq (llama-3.3-70b-versatile)...
+  Saved: content/posts/driving-creek-railway-coromandel-family-review-2026-06.json
+
+[5/5] Generating: hawkes-bay-family-guide-hidden-gems-families
+  Calling Groq (llama-3.3-70b-versatile)...
+  Saved: content/posts/hawkes-bay-family-guide-hidden-gems-families.json
+
+Generated 5 articles.
+
+Rebuilding site...
+BUILD ERROR: {% endblock %}
+^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ben/nz-family-travel/layouts/destination.html", line 301, in block 'content'
+    {% for day_key, day in destination.three_day_itinerary.items() %}
+^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ben/nz-family-travel/.venv/lib/python3.12/site-packages/jinja2/environment.py", line 490, in getattr
+    return getattr(obj, attribute)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.UndefinedError: 'dict object' has no attribute 'three_day_itinerary'
+
+
+Today's 5 articles (2026-06-08):
+
+  1. [deals          ] Wanaka                              — wanaka-with-kids-family-deals-2026-06
+     EXISTS
+  2. [month_guide    ] New Plymouth & Taranaki             — new-plymouth-taranaki-family-june-family-guide
+     EXISTS
+  3. [budget         ] Taupo                               — taupo-with-kids-budget-family-guide-2026-06
+     WILL GENERATE
+  4. [activity_review] Te Puia                             — te-puia-rotorua-family-review-2026-06
+     EXISTS
+  5. [hidden_gems    ] Christchurch                        — christchurch-with-kids-hidden-gems-families
+     WILL GENERATE
+
+[1/5] Skipping (already exists): wanaka-with-kids-family-deals-2026-06
+
+[2/5] Skipping (already exists): new-plymouth-taranaki-family-june-family-guide
+
+[3/5] Generating: taupo-with-kids-budget-family-guide-2026-06
+  Calling Groq (llama-3.3-70b-versatile)...
+  Saved: content/posts/taupo-with-kids-budget-family-guide-2026-06.json
+
+[4/5] Skipping (already exists): te-puia-rotorua-family-review-2026-06
+
+[5/5] Generating: christchurch-with-kids-hidden-gems-families
+  Calling Groq (llama-3.3-70b-versatile)...
+  Saved: content/posts/christchurch-with-kids-hidden-gems-families.json
+
+Generated 2 articles.
+
+Rebuilding site...
+BUILD ERROR: {% endblock %}
+^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ben/nz-family-travel/layouts/destination.html", line 301, in block 'content'
+    {% for day_key, day in destination.three_day_itinerary.items() %}
+^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ben/nz-family-travel/.venv/lib/python3.12/site-packages/jinja2/environment.py", line 490, in getattr
+    return getattr(obj, attribute)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.UndefinedError: 'dict object' has no attribute 'three_day_itinerary'
+
+
+Today's 5 articles (2026-06-09):
+
+  1. [deals          ] Rotorua                             — rotorua-family-guide-family-deals-2026-06
+     WILL GENERATE
+  2. [month_guide    ] Taupo                               — taupo-with-kids-june-family-guide
+     WILL GENERATE
+  3. [budget         ] West Coast                          — west-coast-family-guide-budget-family-guide-2026-06
+     WILL GENERATE
+  4. [activity_review] Wai-O-Tapu Thermal Wonderland       — wai-o-tapu-rotorua-family-review-2026-06
+     WILL GENERATE
+  5. [hidden_gems    ] Queenstown                          — queenstown-with-kids-hidden-gems-families
+     EXISTS
+
+[1/5] Generating: rotorua-family-guide-family-deals-2026-06
+  Calling Groq (llama-3.3-70b-versatile)...
+  Saved: content/posts/rotorua-family-guide-family-deals-2026-06.json
+
+[2/5] Generating: taupo-with-kids-june-family-guide
+  Calling Groq (llama-3.3-70b-versatile)...
+  Saved: content/posts/taupo-with-kids-june-family-guide.json
+
+[3/5] Generating: west-coast-family-guide-budget-family-guide-2026-06
+  Calling Groq (llama-3.3-70b-versatile)...
+  Saved: content/posts/west-coast-family-guide-budget-family-guide-2026-06.json
+
+[4/5] Generating: wai-o-tapu-rotorua-family-review-2026-06
+  Calling Groq (llama-3.3-70b-versatile)...
+  Saved: content/posts/wai-o-tapu-rotorua-family-review-2026-06.json
+
+[5/5] Skipping (already exists): queenstown-with-kids-hidden-gems-families
+
+Generated 4 articles.
+
+Rebuilding site...
+BUILD ERROR: {% endblock %}
+^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ben/nz-family-travel/layouts/destination.html", line 301, in block 'content'
+    {% for day_key, day in destination.three_day_itinerary.items() %}
+^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ben/nz-family-travel/.venv/lib/python3.12/site-packages/jinja2/environment.py", line 490, in getattr
+    return getattr(obj, attribute)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.UndefinedError: 'dict object' has no attribute 'three_day_itinerary'
+
+
+Today's 5 articles (2026-06-10):
+
+  1. [deals          ] Wanaka                              — wanaka-with-kids-family-deals-2026-06
+     EXISTS
+  2. [month_guide    ] New Plymouth & Taranaki             — new-plymouth-taranaki-family-june-family-guide
+     EXISTS
+  3. [budget         ] Rotorua                             — rotorua-family-guide-budget-family-guide-2026-06
+     WILL GENERATE
+  4. [activity_review] Hot Water Beach                     — hot-water-beach-coromandel-family-review-2026-06
+     WILL GENERATE
+  5. [hidden_gems    ] Hawke's Bay                         — hawkes-bay-family-guide-hidden-gems-families
+     EXISTS
+
+[1/5] Skipping (already exists): wanaka-with-kids-family-deals-2026-06
+
+[2/5] Skipping (already exists): new-plymouth-taranaki-family-june-family-guide
+
+[3/5] Generating: rotorua-family-guide-budget-family-guide-2026-06
+  Calling Groq (llama-3.3-70b-versatile)...
+  Saved: content/posts/rotorua-family-guide-budget-family-guide-2026-06.json
+
+[4/5] Generating: hot-water-beach-coromandel-family-review-2026-06
+  Calling Groq (llama-3.3-70b-versatile)...
+  Saved: content/posts/hot-water-beach-coromandel-family-review-2026-06.json
+
+[5/5] Skipping (already exists): hawkes-bay-family-guide-hidden-gems-families
+
+Generated 2 articles.
+
+Rebuilding site...
+BUILD ERROR: {% endblock %}
+^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ben/nz-family-travel/layouts/destination.html", line 301, in block 'content'
+    {% for day_key, day in destination.three_day_itinerary.items() %}
+^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ben/nz-family-travel/.venv/lib/python3.12/site-packages/jinja2/environment.py", line 490, in getattr
+    return getattr(obj, attribute)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.UndefinedError: 'dict object' has no attribute 'three_day_itinerary'
+
+
+Today's 5 articles (2026-06-11):
+
+  1. [deals          ] Wanaka                              — wanaka-with-kids-family-deals-2026-06
+     EXISTS
+  2. [month_guide    ] New Plymouth & Taranaki             — new-plymouth-taranaki-family-june-family-guide
+     EXISTS
+  3. [budget         ] Tauranga / Mount Maunganui          — tauranga-mount-maunganui-family-budget-family-guide-2026-06
+     WILL GENERATE
+  4. [activity_review] Wai-O-Tapu Thermal Wonderland       — wai-o-tapu-rotorua-family-review-2026-06
+     EXISTS
+  5. [hidden_gems    ] Fiordland & Milford Sound           — fiordland-milford-sound-family-hidden-gems-families
+     EXISTS
+
+[1/5] Skipping (already exists): wanaka-with-kids-family-deals-2026-06
+
+[2/5] Skipping (already exists): new-plymouth-taranaki-family-june-family-guide
+
+[3/5] Generating: tauranga-mount-maunganui-family-budget-family-guide-2026-06
+  Calling Groq (llama-3.3-70b-versatile)...
+  Saved: content/posts/tauranga-mount-maunganui-family-budget-family-guide-2026-06.json
+
+[4/5] Skipping (already exists): wai-o-tapu-rotorua-family-review-2026-06
+
+[5/5] Skipping (already exists): fiordland-milford-sound-family-hidden-gems-families
+
+Generated 1 articles.
+
+Rebuilding site...
+BUILD ERROR: {% endblock %}
+^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ben/nz-family-travel/layouts/destination.html", line 301, in block 'content'
+    {% for day_key, day in destination.three_day_itinerary.items() %}
+^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ben/nz-family-travel/.venv/lib/python3.12/site-packages/jinja2/environment.py", line 490, in getattr
+    return getattr(obj, attribute)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.UndefinedError: 'dict object' has no attribute 'three_day_itinerary'
+

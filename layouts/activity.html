@@ -66,6 +66,7 @@
       <span class="badge-age">Ages {{ activity.min_age }}+</span>
       <span class="badge-duration">⏱ {{ activity.duration }}</span>
     </div>
+    <button class="save-btn" data-type="activity" data-slug="{{ activity.slug }}" data-name="{{ activity.name }}" data-url="/activity/{{ activity.slug }}/" aria-pressed="false"><span class="save-icon">♡</span> <span class="save-label">Save</span></button>
   </div>
 </section>
 {% endblock %}
