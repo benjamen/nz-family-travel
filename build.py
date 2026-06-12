@@ -329,6 +329,8 @@ def build():
         # Redirect pages at old /posts/ URLs → /travel-tips/
         redirect_tmpl = (
             '<!DOCTYPE html><html><head>'
+            '<meta charset="UTF-8">'
+            '<meta name="robots" content="noindex, follow">'
             '<meta http-equiv="refresh" content="0; url={dest}">'
             '<link rel="canonical" href="{dest}">'
             '<title>Redirecting…</title></head>'
