@@ -70,8 +70,12 @@
 <section class="section">
   <h2>Browse by Destination</h2>
   <div class="dest-grid">
+    {% set valid_activity_slugs = ['bay-of-islands','christchurch','coromandel','dunedin','fiordland','hawkes-bay','nelson','northland','queenstown','rotorua','taupo','tauranga','wanaka','wellington'] %}
     {% for dest in destinations %}
-    <a href="/activities/{{ dest.slug | replace('-with-kids','') | replace('-family-guide','') | replace('-family','') }}/" class="dest-card">{{ dest.name }}</a>
+    {% set act_slug = dest.slug | replace('-with-kids','') | replace('-family-guide','') | replace('-family','') %}
+    {% if act_slug in valid_activity_slugs %}
+    <a href="/activities/{{ act_slug }}/" class="dest-card">{{ dest.name }}</a>
+    {% endif %}
     {% endfor %}
   </div>
 </section>

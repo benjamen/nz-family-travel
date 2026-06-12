@@ -328,7 +328,7 @@ function showDest(slug) {
       <p style="font-size:.9rem;color:var(--gray-600);margin-bottom:1.25rem">${d.verdict}</p>
       <div class="mip-links">
         <a href="/destinations/${d.slug}/" class="btn btn-primary">Full guide →</a>
-        <a href="/activities/${d.slug.replace('-with-kids','').replace('-family-guide','').replace('-family','')}/" class="btn btn-outline btn-sm">Activities →</a>
+        ${(function(){const m={'auckland-with-kids':'auckland','bay-of-islands-family':'bay-of-islands','christchurch-with-kids':'christchurch','coromandel-with-kids':'coromandel','dunedin-family-guide':'dunedin','fiordland-milford-sound-family':'fiordland','hawkes-bay-family-guide':'hawkes-bay','nelson-abel-tasman-family':'nelson','northland-cape-reinga-family':'northland','queenstown-with-kids':'queenstown','rotorua-family-guide':'rotorua','taupo-family-guide':'taupo','tauranga-mount-maunganui-family':'tauranga','wanaka-family-guide':'wanaka','wellington-with-kids':'wellington'};return m[d.slug]?`<a href="/activities/${m[d.slug]}/" class="btn btn-outline btn-sm">Activities →</a>`:'';}())}
       </div>
     </div>
   `;
