@@ -40,8 +40,8 @@ ul, ol { padding-left: 1.25rem; }
 .nav { background: var(--white); border-bottom: 1px solid var(--gray-200); position: sticky; top: 0; z-index: 100; }
 .nav-inner { display: flex; align-items: center; justify-content: space-between; height: 60px; }
 .nav-logo { font-weight: 800; font-size: 1.1rem; color: var(--text); }
-.nav-links { display: flex; gap: 1.25rem; }
-.nav-links a { color: var(--gray-600); font-size: .88rem; font-weight: 500; }
+.nav-links { display: flex; gap: 1.25rem; flex-wrap: nowrap; align-items: center; }
+.nav-links a { color: var(--gray-600); font-size: .88rem; font-weight: 500; white-space: nowrap; }
 .nav-links a:hover { color: var(--brand); text-decoration: none; }
 
 /* === Nav search === */
