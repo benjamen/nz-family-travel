@@ -666,7 +666,7 @@
       campervans: Array.from(form.querySelectorAll('[name=campervans]:checked')).map(function(el){ return el.value; }),
       activities: Array.from(form.querySelectorAll('[name=activities]:checked')).map(function(el){ return el.value; })
     };
-    fetch('https://nzfamilytravel.co.nz/api/form.php', {
+    fetch('https://forms.optified.nz/form', {
       method: 'POST',
       headers: {'Content-Type': 'application/json'},
       body: JSON.stringify(body)
