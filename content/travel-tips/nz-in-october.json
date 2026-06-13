@@ -105,5 +105,19 @@
     "thumb": "https://images.unsplash.com/photo-1505228709967-7e61e12efdd2?w=600&q=70",
     "alt": "NZ spring hills green October",
     "credit": "Unsplash / Photo by Dan Meyers"
-  }
+  },
+  "faq": [
+    {
+      "question": "Is October a good month to visit NZ with kids?",
+      "answer": "October is one of the hidden gems of NZ travel — spring is in full bloom, temperatures are rising (17–22°C North Island), crowds are light, and prices are below summer peaks. Cherry blossoms in Queenstown and daffodils across the country are a bonus with young children."
+    },
+    {
+      "question": "What is NZ weather like in October?",
+      "answer": "October is spring. Auckland: 15–20°C, more settled than winter. Wellington: 13–17°C, still windy but drying out. Christchurch: 14–20°C — a beautiful month with clear days. Queenstown: 12–18°C, stunning with snow-capped peaks and green valley floors. Pack a light jacket and rain layer."
+    },
+    {
+      "question": "Are there family things to do in NZ in October?",
+      "answer": "October is great for: Queenstown biking and gondola, Christchurch Botanic Gardens in bloom, Bay of Islands (water gets swimmable), Hobbiton (small crowds), Wanaka's spring walks, and Hamilton Gardens. Most outdoor attractions are operating with shorter queues than summer."
+    }
+  ]
 }

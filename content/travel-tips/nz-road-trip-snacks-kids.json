@@ -78,5 +78,19 @@
     "thumb": "https://images.unsplash.com/photo-1553025934-296397db4010?w=600&q=70",
     "alt": "Kids road trip snacks packed for NZ journey",
     "credit": "Unsplash / Maarten van den Heuvel"
-  }
+  },
+  "faq": [
+    {
+      "question": "What are the best no-mess road trip snacks for kids?",
+      "answer": "Best no-mess options: Babybel cheese (sealed, no crumbs), rice crackers, veggies with hummus cups, dried apricots, Milo bars, bananas, and squeezable yoghurt pouches. Avoid chocolate (melts in NZ summer heat), anything with sauce, and loose chips."
+    },
+    {
+      "question": "Where can you stop for food on NZ road trips?",
+      "answer": "Most NZ towns have a New World or Countdown supermarket. Service stations (Z, BP, Mobil) have food courts — pies, hot dogs, and sandwiches. Regional highlights: Matamata for the Shire Store, Kaikōura for fresh crayfish, and Hokitika for whitebait patties."
+    },
+    {
+      "question": "How do you keep kids entertained on long NZ drives?",
+      "answer": "Download offline Netflix content before you leave WiFi range. Classic NZ road trip entertainment: Kids' I Spy with NZ animals, 'first to spot a sheep' game, road trip bingo cards, and audiobooks. Download the TrackMe app for ETA updates. Long stretches to plan for: Auckland to Napier (5+ hours), Christchurch to Queenstown (5.5 hours)."
+    }
+  ]
 }

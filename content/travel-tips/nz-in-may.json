@@ -121,5 +121,19 @@
     "thumb": "https://images.unsplash.com/photo-1433086966628-8de40b29beea?w=600&q=70",
     "alt": "Winter mist over NZ countryside in May",
     "credit": "Unsplash / Patrick Selin"
-  }
+  },
+  "faq": [
+    {
+      "question": "Is May a good time to visit NZ with kids?",
+      "answer": "May is the start of the quiet season — school is in session, crowds are minimal, and prices are at their lowest. Weather is cooler (13–19°C) but generally dry and clear. Good for families who want to see NZ without summer crowds, especially the South Island scenic drives."
+    },
+    {
+      "question": "What is NZ weather like in May?",
+      "answer": "May marks the start of autumn/early winter. Auckland: 14–18°C, damp. Wellington: 11–15°C, windy. Christchurch: 11–16°C, cold nights. Queenstown: 8–14°C, first snow appears on the ranges. Pack layers and waterproof jackets."
+    },
+    {
+      "question": "What should families do in NZ in May?",
+      "answer": "Indoor and activity-based options suit May best: Te Papa Museum (Wellington, free), Auckland War Memorial Museum, Waitomo Glowworm Caves, Rotorua geothermal parks (heated and steamy!), and whale watching in Kaikōura. The West Coast has fewer sandflies in cooler weather."
+    }
+  ]
 }

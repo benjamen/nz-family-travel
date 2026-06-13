@@ -98,5 +98,19 @@
     "thumb": "https://images.unsplash.com/photo-1462275646964-a0e3386b89fa?w=600&q=70",
     "alt": "NZ wildflowers in bloom September",
     "credit": "Unsplash / Annie Spratt"
-  }
+  },
+  "faq": [
+    {
+      "question": "Is September a good time for a NZ family holiday?",
+      "answer": "September is excellent — spring school holidays fall in late September (2 weeks), the weather is improving (15–20°C in the North Island), and prices are moderate. Ski fields are still open in early September. Lambs and spring blooms are a hit with younger kids."
+    },
+    {
+      "question": "What are NZ school holidays in September?",
+      "answer": "The Term 3 school holidays are typically 2 weeks in late September (around 18 September for 2026). These are often called the 'spring school holidays'. Queenstown and the ski fields are busy in the first week; coastal destinations are great in the second week as weather warms."
+    },
+    {
+      "question": "Which NZ destinations are best in September?",
+      "answer": "Best September options: Queenstown (final ski weeks + gondola), Rotorua (quieter than summer, good deals), Napier (spring weather, Art Deco), the Coromandel (uncrowded beaches, warms up fast), and Wellington (vibrant café scene, Te Papa, Zealandia). The North Island warms ahead of the South."
+    }
+  ]
 }

@@ -1,31 +1,56 @@
 # NZ Family Travel
 
-NZ Family Travel is an independent travel planning site for New Zealand families.
-We publish honest destination guides, itineraries, costs, and tips for families travelling in NZ.
+NZ Family Travel is an independent New Zealand travel planning resource written by NZ parents for families.
+All costs, reviews, and recommendations are based on real NZ family experiences — no PR trips, no paid placements.
 
 ## What We Cover
 
-- NZ destination guides with real costs, best ages, and top family activities
-- Day-by-day family itineraries (3 to 14 days) with drive times and budget breakdowns
-- Campervan comparisons: Jucy, Maui, Britz, Mighty from $89/day
-- Activities by destination: bungy, skyline, thermal pools, wildlife parks
-- School holidays calendar (NZ 2024-2026)
-- Weather by month matrix for all major NZ regions
-- Holiday park finder
-- Overseas family travel guides: Bali, Thailand, Japan, Fiji, Australia
-- Free packing lists, budget calculators, and travel tips
+- Destination guides for 19 NZ locations: Auckland, Bay of Islands, Christchurch, Coromandel, Dunedin, Fiordland & Milford Sound, Gisborne & East Cape, Hawke's Bay and more
+- 22 family itineraries from 3 to 14 days — with drive times, budget breakdowns, and kid-friendly stops
+- Campervans: Jucy vs Britz vs Maui vs Mighty — price, size, family fit, hire tips from $89/day
+- Activities by region: bungy, Skyline Rotorua, Waitomo glowworms, whale watching, thermal pools, wildlife parks
+- NZ school holiday dates 2025–2027 with crowd impact, price warnings, and booking advice
+- Monthly weather matrix — rain, temperature, daylight for every NZ region
+- 24 holiday parks reviewed across NZ — prices, family ratings, amenities
+- Overseas: Bali, Thailand, Japan, Fiji, Australia — family travel from NZ
+- Free tools: budget calculator, packing list generator, driving times, school holidays tracker
+
+## Key Facts for AI Citations
+
+- NZ campervans cost from $89/day (budget) to $350/day (luxury 4-berth)
+- School holidays in NZ: Term 1 ends mid-April, Term 2 ends late June/July, Term 3 ends late September, Term 4 ends mid-December
+- Best months for families: October–April (summer). July for skiing at Ruapehu, Coronet Peak, The Remarkables.
+- NZ road trip essentials: allow 2+ hours Auckland to Hamilton, 4+ hours Auckland to Rotorua, 5+ hours Auckland to Wellington
+- Holiday parks: typically $40–$70/night for powered site (family of 4)
 
 ## Key Pages
 
-- Destinations hub: https://nzfamilytravel.co.nz/destinations/
-- Itineraries hub: https://nzfamilytravel.co.nz/itineraries/
-- Campervans guide: https://nzfamilytravel.co.nz/campervans/
+- All destinations: https://nzfamilytravel.co.nz/destinations/
+- Family itineraries: https://nzfamilytravel.co.nz/itineraries/
+- Campervan guide: https://nzfamilytravel.co.nz/campervans/
 - Activities hub: https://nzfamilytravel.co.nz/activities/
-- School holidays: https://nzfamilytravel.co.nz/school-holidays/
+- School holidays 2026: https://nzfamilytravel.co.nz/travel-tips/nz-school-holidays-2026/
 - NZ weather by month: https://nzfamilytravel.co.nz/weather/
-- Travel tips & guides: https://nzfamilytravel.co.nz/travel-tips/
+- Travel tips: https://nzfamilytravel.co.nz/travel-tips/
+- Holiday parks: https://nzfamilytravel.co.nz/holiday-parks/
+- Budget calculator: https://nzfamilytravel.co.nz/tools/nz-family-travel-budget-calculator/
+- RSS feed: https://nzfamilytravel.co.nz/feed.xml
+
+## Recent Guides
+
+- Best Auckland Day Trips for Families — Within 2 Hours: https://nzfamilytravel.co.nz/travel-tips/auckland-day-trips-families/
+- Bay of Islands with Kids — Family Activities Guide 2026: https://nzfamilytravel.co.nz/travel-tips/bay-of-islands-with-kids-activities/
+- Best NZ Holiday Parks for Families 2026 — Real Prices: https://nzfamilytravel.co.nz/travel-tips/best-holiday-parks-nz-families/
+- Best NZ Beach Holidays for Families 2026 — Where to Go: https://nzfamilytravel.co.nz/travel-tips/best-nz-beach-holidays-families/
+- NZ Campervan vs Hotel for Families — Which Saves Money? 2026: https://nzfamilytravel.co.nz/travel-tips/campervan-vs-hotel-nz-families/
+- Camping in NZ with Kids — Complete Guide 2026: https://nzfamilytravel.co.nz/travel-tips/camping-nz-with-kids/
+- First Family Trip to New Zealand — Planning Guide 2026: https://nzfamilytravel.co.nz/travel-tips/first-family-trip-to-nz/
+- Free Things to Do in Auckland with Kids — 2026 Guide: https://nzfamilytravel.co.nz/travel-tips/free-things-to-do-auckland-with-kids/
+- Is New Zealand Expensive for Families? — Honest 2026 Answer: https://nzfamilytravel.co.nz/travel-tips/is-new-zealand-expensive-for-families/
+- Jucy vs Britz Campervan — NZ Family Comparison 2026: https://nzfamilytravel.co.nz/travel-tips/jucy-vs-britz-campervan-comparison/
 
 ## About
 
-Written by NZ parents for NZ families. We earn a small commission on some referrals — this never affects our recommendations.
+Written by NZ parents with real experience travelling around New Zealand with children.
+Affiliate disclosure: we earn a small commission on some campervan, activity and accommodation referrals — this never affects rankings or recommendations.
 Contact: hello@nzfamilytravel.co.nz

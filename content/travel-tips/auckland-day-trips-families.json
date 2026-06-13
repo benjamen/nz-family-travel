@@ -93,5 +93,19 @@
     "url": "/static/img/destinations/auckland-with-kids.jpg",
     "alt": "Auckland day trips with kids",
     "credit": "NZ Family Travel"
-  }
+  },
+  "faq": [
+    {
+      "question": "What is the best day trip from Auckland for families?",
+      "answer": "Waiheke Island is the most popular — 35 minutes by ferry with beaches, wineries, and kid-friendly olive groves. For inland trips, Waitomo Glowworm Caves (2.5 hours south) and Hobbiton (2 hours south) are family favourites."
+    },
+    {
+      "question": "How far is Rotorua from Auckland for a day trip?",
+      "answer": "Rotorua is about 2.5 to 3 hours from Auckland by car. It's doable as a day trip but most families stay overnight to enjoy the geothermal parks, Skyline Gondola, and evening cultural experiences without rushing."
+    },
+    {
+      "question": "Can you visit Waiheke Island with kids?",
+      "answer": "Yes — Waiheke is very family-friendly. Take the Fullers ferry from Auckland CBD (35 min), rent bikes, head to Onetangi Beach, or visit Stonyridge Vineyard's olive grove. Day return ferry tickets for a family of 4 cost around $150–$180."
+    }
+  ]
 }

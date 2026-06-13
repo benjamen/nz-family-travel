@@ -127,5 +127,19 @@
     "thumb": "https://images.unsplash.com/photo-1471286174890-9c112740fbef?w=600&q=70",
     "alt": "Toddler exploring NZ outdoors",
     "credit": "Unsplash / Janko Ferlič"
-  }
+  },
+  "faq": [
+    {
+      "question": "Is New Zealand good for toddlers?",
+      "answer": "New Zealand is excellent for toddlers — flat beaches, safe playgrounds, holiday parks with jumping pillows and splash pads, child-friendly cafés everywhere, and short-hop drives between attractions. Most popular attractions (Rotorua luge, Skyline gondola) have minimum age 3, not weight restrictions."
+    },
+    {
+      "question": "What are the best NZ destinations for toddlers?",
+      "answer": "Top picks: Rotorua (luge from age 3, geothermal park mud pools, Zorb), Mount Maunganui beach (safe, calm water, flat), Taupo (hot pools, Huka Falls walkway), Christchurch Botanic Gardens (free, great for toddler runs), and any safe sandy beach. Avoid Milford Sound day trip (long drive, cold, limited toddler-friendly facilities)."
+    },
+    {
+      "question": "How do you manage toddler car trips in New Zealand?",
+      "answer": "NZ drives between key stops average 2–4 hours — manageable for toddlers with good planning. Plan stops every 60–90 minutes: most highway towns have a playground, park, or picnic area. Download Plunket's app for locating baby change facilities. BYO entertainment — NZ rural areas have limited mobile coverage."
+    }
+  ]
 }

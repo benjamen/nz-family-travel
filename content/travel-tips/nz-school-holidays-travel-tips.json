@@ -75,5 +75,19 @@
     "thumb": "https://images.unsplash.com/photo-1502685104226-ee32379fefbe?w=600&q=70",
     "alt": "Kids enjoying NZ school holiday adventures",
     "credit": "Unsplash / Leo Rivas"
-  }
+  },
+  "faq": [
+    {
+      "question": "When are NZ school holidays in 2026?",
+      "answer": "NZ 2026 school holidays: Term 1 ends Friday 10 April (2 weeks off). Term 2 ends Friday 3 July (2 weeks off). Term 3 ends Friday 18 September (2 weeks off). Term 4 ends mid-December (6-week summer holiday). Exact dates vary slightly by region."
+    },
+    {
+      "question": "How much more expensive is NZ travel during school holidays?",
+      "answer": "School holiday accommodation rates typically increase 20–50% above regular prices. July school holidays (ski season) and the December–January summer holidays see the biggest price surges. Book 3–6 months ahead for popular destinations like Queenstown, Rotorua, and Coromandel."
+    },
+    {
+      "question": "Which NZ school holiday is least crowded?",
+      "answer": "The April (Term 1) school holidays are the least crowded. March/April weather is still warm (20–25°C), prices are lower than summer, and popular attractions have shorter queues. It's the best time for value-conscious families who want summer conditions without peak prices."
+    }
+  ]
 }

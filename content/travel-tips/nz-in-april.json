@@ -115,5 +115,19 @@
     "thumb": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=600&q=70",
     "alt": "NZ mountains and valleys in autumn",
     "credit": "Unsplash / Tim Swaan"
-  }
+  },
+  "faq": [
+    {
+      "question": "Is April a good time to visit NZ with kids?",
+      "answer": "April is excellent — the Term 1 school holidays fall in early-to-mid April (best time for families), weather is still mild (18–24°C), and tourist crowds have dropped from summer. Accommodation prices are 15–25% below January peaks while conditions remain good."
+    },
+    {
+      "question": "What are the school holidays in New Zealand in April?",
+      "answer": "The Term 1 school holidays are typically 2 weeks in April (exact dates vary — check the Ministry of Education website). For 2026 the break starts on Friday 10 April. This is the quietest and best-value school holiday period of the year."
+    },
+    {
+      "question": "What NZ activities are good for families in April?",
+      "answer": "April is great for: Rotorua (geothermal parks, luge — all-weather), Waitomo Glowworm Caves, Te Papa in Wellington (free), South Island road trips before winter, and the Abel Tasman (water taxi + beach walks in beautiful autumn colours). Most ski fields open in late June, not April."
+    }
+  ]
 }

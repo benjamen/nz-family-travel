@@ -86,5 +86,19 @@
     "url": "/static/img/destinations/camping-nz-with-kids.jpg",
     "alt": "New Zealand holiday park",
     "credit": "Wikimedia Commons"
-  }
+  },
+  "faq": [
+    {
+      "question": "What is the difference between a TOP 10 holiday park and a regular holiday park?",
+      "answer": "TOP 10 is a quality franchise — members must meet standards for facilities, cleanliness, and service. TOP 10 parks tend to have better playgrounds, TV rooms, jumping pillows, and communal kitchens. Regular holiday parks can be just as good (or better) at lower prices but vary more in quality."
+    },
+    {
+      "question": "How much does a NZ holiday park cost per night for a family?",
+      "answer": "Powered sites (electricity + water hookup): $40–$75/night for 2 adults + 2 kids. Cabins: $80–$140/night. Motel units: $130–$220/night. TOP 10 parks charge a premium of $10–$15 above standard parks. Prices increase 30–50% over Christmas/New Year and peak school holidays."
+    },
+    {
+      "question": "Can you stay at NZ holiday parks without a campervan?",
+      "answer": "Yes — all NZ holiday parks have cabins, tourist flats, and motel units for tent campers and those without campervans. Budget cabins (bring your own bedding) start from $60–$80/night. Most parks also have tent sites from $20–$40/night per adult. All have shared kitchens, bathrooms, and facilities."
+    }
+  ]
 }

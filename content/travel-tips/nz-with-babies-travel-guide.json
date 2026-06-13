@@ -130,5 +130,19 @@
     "thumb": "https://images.unsplash.com/photo-1565049793657-11cc47ec7c35?w=600&q=70",
     "alt": "Parent travelling with baby in NZ",
     "credit": "Unsplash / Kelly Sikkema"
-  }
+  },
+  "faq": [
+    {
+      "question": "Is it safe to travel to NZ with a baby?",
+      "answer": "New Zealand is very baby-friendly — ACC covers accident-related medical costs, hospitals are high quality, and most attractions accommodate prams. Main considerations: long flights to reach NZ, car seat hire, and checking holiday park/accommodation suitability. Travel insurance with medical cover is recommended."
+    },
+    {
+      "question": "What do you need when travelling NZ with a baby?",
+      "answer": "Essentials: good-quality car seat (hire from Rent-a-Seat or your campervan company), compact travel pram, baby carrier/sling for DOC walks, muslin cloths (NZ can be warm), insect repellent (DEET-free), and a first aid kit. Woolworths and Pak'nSave stock all baby supplies across NZ."
+    },
+    {
+      "question": "How old should a baby be before travelling around NZ?",
+      "answer": "No minimum age — but most families find 4–6 months easier than newborns (better sleep patterns, neck control for carriers). Avoid long campervan trips with babies under 3 months. Flying domestically is fine from birth with a doctor's clearance. Check airline policies for lap infants."
+    }
+  ]
 }

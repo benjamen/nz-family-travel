@@ -115,5 +115,19 @@
     "thumb": "https://images.unsplash.com/photo-1551524559-8af4e6624178?w=600&q=70",
     "alt": "Ski resort family holiday in NZ winter",
     "credit": "Unsplash / Alain Bonnardeaux"
-  }
+  },
+  "faq": [
+    {
+      "question": "What is NZ like in June for families?",
+      "answer": "June is the start of winter and the Term 2 school holidays (usually late June/early July). Ski season opens at most fields. It's the quietest period for coastal and geothermal tourism, with great deals. Rotorua's hot pools are especially enjoyable in cold weather."
+    },
+    {
+      "question": "Does NZ have school holidays in June?",
+      "answer": "Yes — the Term 2 school holidays fall in late June and early July (typically 2 weeks). This is the prime ski holiday period for NZ families. Queenstown and Wanaka get very busy over these weeks; book accommodation and ski passes months in advance."
+    },
+    {
+      "question": "Where should families go in NZ in June?",
+      "answer": "June is ideal for: Queenstown (ski season just starting at Coronet Peak), Rotorua (geothermal parks + thermal pools are magical in cold weather), Hobbiton (small crowds), Waitomo Caves, and the Auckland winter festival. Avoid beach holidays — water is too cold for swimming."
+    }
+  ]
 }

@@ -133,5 +133,19 @@
     "thumb": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=600&q=70",
     "alt": "Teenagers on NZ outdoor adventure",
     "credit": "Unsplash / Mateus Campos Felipe"
-  }
+  },
+  "faq": [
+    {
+      "question": "Is NZ a good destination for teenagers?",
+      "answer": "New Zealand is excellent for teenagers — adventure activities (bungy, skydive, surf lessons, jet boating), stunning landscapes for photography and social media, hiking, mountain biking, and skiing. Teens who enjoy the outdoors typically rate NZ as one of their best travel experiences."
+    },
+    {
+      "question": "What adventure activities can teenagers do in NZ?",
+      "answer": "Queenstown: bungy from age 10–13, skydive at 16+ (with parent consent), jet boating. Rotorua: white water rafting, zorbing, mountain biking. Raglan: surf lessons. Mt Ruapehu or Queenstown: skiing/snowboarding. Abel Tasman: sea kayaking. Most activities have a minimum weight rather than age requirement."
+    },
+    {
+      "question": "How do you keep teenagers engaged on a NZ family road trip?",
+      "answer": "Give teens some autonomy: let them plan one activity per day, give them the camera role, research restaurants, or navigate. Wi-Fi is available at most holiday parks and cafés. Download entertainment before remote stretches. Rotorua, Queenstown, and Auckland have excellent youth-targeted activities that don't feel 'family touristy'."
+    }
+  ]
 }

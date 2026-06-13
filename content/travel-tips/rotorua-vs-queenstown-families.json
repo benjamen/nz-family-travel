@@ -177,5 +177,19 @@
     "thumb": "https://images.unsplash.com/photo-1519699047748-de8e457a634e?w=600&q=70",
     "alt": "Comparing Rotorua and Queenstown NZ",
     "credit": "Unsplash / Sergey Pesterev"
-  }
+  },
+  "faq": [
+    {
+      "question": "Rotorua or Queenstown for a family holiday?",
+      "answer": "Rotorua is better for younger kids (geothermal parks, luge, Hobbiton nearby, Maori culture, affordable). Queenstown suits active families and teenagers (bungy, Skyline, skiing, jet boating). Budget-wise, Rotorua is significantly cheaper."
+    },
+    {
+      "question": "What is Rotorua famous for?",
+      "answer": "Rotorua is famous for its geothermal activity (boiling mud, geysers at Te Puia), Maori culture (cultural performances, hangi meals), and adventure tourism (Zorb, luge, white-water rafting). The distinctive sulphur smell is part of the experience."
+    },
+    {
+      "question": "What age is Queenstown suitable for kids?",
+      "answer": "Most families visit Queenstown with kids 8+. The Skyline Gondola and luge are suitable from age 3+. Bungy jumping requires minimum age 10–13 depending on the jump. Skiing at Coronet Peak or The Remarkables is great from age 4+ with lessons."
+    }
+  ]
 }

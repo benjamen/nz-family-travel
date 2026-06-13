@@ -87,5 +87,19 @@
     "url": "/static/img/destinations/nz-beaches-kids-summer.jpg",
     "alt": "New Zealand beach in summer",
     "credit": "Wikimedia Commons"
-  }
+  },
+  "faq": [
+    {
+      "question": "What are the safest beaches for kids in New Zealand?",
+      "answer": "Safest beaches are patrolled by surf lifesavers in summer: Mount Maunganui Main Beach, Tauranga, Orewa Beach (Auckland), New Brighton (Christchurch), Oriental Bay (Wellington). Always swim between the flags and check the water safety website."
+    },
+    {
+      "question": "Which NZ region has the best beaches for families?",
+      "answer": "The Bay of Plenty (Tauranga, Mt Maunganui) has the warmest, calmest water and excellent facilities. Northland and Coromandel also have stunning beaches but can have stronger surf. Avoid exposed west coast beaches (Piha, Bethells) for young children — strong rips."
+    },
+    {
+      "question": "When is the best time to visit NZ beaches with kids?",
+      "answer": "January to March is peak beach season with water temperatures of 18–22°C. December and April are good shoulder months with fewer crowds. Most beaches have lifeguards only in December–February on weekends and daily over Christmas school holidays."
+    }
+  ]
 }

@@ -140,5 +140,19 @@
     "thumb": "https://images.unsplash.com/photo-1527631746610-bea7253ae3d1?w=600&q=70",
     "alt": "Campervans parked at NZ holiday park",
     "credit": "Unsplash / Goh Rhy Yan"
-  }
+  },
+  "faq": [
+    {
+      "question": "Is Jucy or Britz better for families?",
+      "answer": "Britz is better for families — their 6-berth motorhomes are well-equipped with proper beds and kitchen facilities. Jucy is cheaper and better for couples or small families (2 adults + 1–2 children) who want a budget option. Britz is owned by Tourism Holdings, one of NZ's largest operators."
+    },
+    {
+      "question": "How much does a Britz 6-berth campervan cost in NZ?",
+      "answer": "Britz 6-berth motorhomes cost around $220–$350/day depending on season. Peak season (December–February) is most expensive. Book 3–6 months in advance for best availability and rates. One-way hires (Auckland to Christchurch) are available."
+    },
+    {
+      "question": "What is included in a Jucy campervan hire?",
+      "answer": "Standard inclusions: kitchen equipment (pots, cutlery, plates), bedding, and GPS. Extras usually include: additional driver fee ($5–$10/day), child seats ($6–$10/day), camping chairs/table ($5–$8/day). Fuel and camping fees are always extra."
+    }
+  ]
 }

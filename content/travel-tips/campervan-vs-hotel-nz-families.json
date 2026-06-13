@@ -147,5 +147,19 @@
     "thumb": "https://images.unsplash.com/photo-1519763816161-cf56e09d44a5?w=600&q=70",
     "alt": "Family road trip decision — car vs campervan",
     "credit": "Unsplash / Jesper Aggergaard"
-  }
+  },
+  "faq": [
+    {
+      "question": "Is a campervan or hotel cheaper for a NZ family holiday?",
+      "answer": "For a family of 4 staying 10+ nights, a campervan is usually cheaper when you factor in accommodation savings. Hotels in peak NZ season average $200–$350/night; a campervan holiday park site costs $40–$70/night. The campervan hire cost is offset by accommodation savings after about 7 nights."
+    },
+    {
+      "question": "What are the downsides of a campervan for families in NZ?",
+      "answer": "Cramped living space (especially in rain), no WiFi, kids need to adapt to sleeping in bunks, and driving a large vehicle takes getting used to. Also, campervans can be cold at night in the South Island even in summer."
+    },
+    {
+      "question": "Can you freedom camp in NZ with a family campervan?",
+      "answer": "Yes, if your campervan is certified self-contained (must have a toilet and grey water tank). Look for the blue certification sticker on the vehicle. Self-contained campervans can stay at freedom camping spots, which are free and in some of NZ's most scenic locations."
+    }
+  ]
 }

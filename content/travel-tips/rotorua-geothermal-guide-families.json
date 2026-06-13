@@ -81,5 +81,19 @@
     "url": "/static/img/destinations/rotorua-geothermal-guide-families.jpg",
     "alt": "Whakarewarewa geothermal area, Rotorua",
     "credit": "Wikimedia Commons"
-  }
+  },
+  "faq": [
+    {
+      "question": "Is Te Puia or Wai-O-Tapu better for families?",
+      "answer": "Te Puia is better for a cultural experience (Maori arts, kiwi house, geyser). Wai-O-Tapu is better for pure geothermal spectacle — colourful pools and the Lady Knox Geyser eruption at 10:15am daily. Many families do both on the same day."
+    },
+    {
+      "question": "How long does Wai-O-Tapu take with kids?",
+      "answer": "Allow 1.5 to 2 hours for a comfortable walk around all the colourful pools. Arrive by 10am to catch the Lady Knox Geyser at 10:15am. Entry is around $45 for adults, $15 for children (under 5 free)."
+    },
+    {
+      "question": "What is the best geothermal park in Rotorua for children?",
+      "answer": "Wai-O-Tapu is the most visually dramatic and photogenic — bright turquoise, orange, and yellow pools. Te Puia is best if you also want to see a kiwi (nocturnal house) and watch traditional Maori carving and weaving."
+    }
+  ]
 }

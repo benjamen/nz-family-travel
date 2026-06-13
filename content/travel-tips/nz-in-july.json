@@ -116,5 +116,19 @@
     "thumb": "https://images.unsplash.com/photo-1519863117922-f73b28e6a0a0?w=600&q=70",
     "alt": "Snow-covered NZ mountains in July",
     "credit": "Unsplash / Jonathan Müller"
-  }
+  },
+  "faq": [
+    {
+      "question": "Is July a good time to take kids skiing in NZ?",
+      "answer": "July is peak ski season — all major fields are open: Coronet Peak, The Remarkables (Queenstown), Cardrona and Treble Cone (Wanaka), Mt Ruapehu (central North Island). School holidays fall in early July. Book accommodation in Queenstown and Wanaka 3–6 months ahead."
+    },
+    {
+      "question": "How much does skiing cost for a family in NZ?",
+      "answer": "Expect $150–$250/person/day for lift passes + hire gear. A family of 4 (2 adults, 2 kids) with lessons can easily spend $1,500–$2,000/day all in. Save money with multi-day passes (significant discount), booking ski lessons in advance, and staying in Wanaka (cheaper than Queenstown)."
+    },
+    {
+      "question": "Are there non-ski activities for families in NZ in July?",
+      "answer": "Yes — Queenstown has the Skyline Gondola and luge (all-weather), Underwater Observatory, and plenty of restaurants. Rotorua is great in July: geothermal parks, luge, Te Puia cultural experiences. Wellington's Te Papa museum is a rainy-day favourite. Hobbiton is open year-round with small crowds."
+    }
+  ]
 }

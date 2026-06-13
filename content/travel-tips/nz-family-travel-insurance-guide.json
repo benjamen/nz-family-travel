@@ -105,5 +105,19 @@
     "thumb": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&q=70",
     "alt": "Family safe travel insurance NZ",
     "credit": "Unsplash / Victor Rodvang"
-  }
+  },
+  "faq": [
+    {
+      "question": "Do NZ families need travel insurance for domestic travel?",
+      "answer": "Domestic travel insurance is less essential than overseas but still useful for trip cancellation, rental car excess, and lost luggage. ACC covers accident-related medical costs in NZ. For rental car protection, check if your credit card includes collision damage waiver before buying separate cover."
+    },
+    {
+      "question": "What travel insurance should NZ families get for overseas trips?",
+      "answer": "Look for policies that include: unlimited medical cover, emergency evacuation, trip cancellation, and cover for kids' activities. Good NZ-based providers for families: NIB, Southern Cross, Cover-More. Compare at moneyhub.co.nz. Declare pre-existing conditions upfront."
+    },
+    {
+      "question": "Is travel insurance more expensive for families with children?",
+      "answer": "Many travel insurance providers include children under 18 for free when travelling with an insured adult. Check the fine print — some cap the number of children. Family policies are usually better value than insuring each person individually."
+    }
+  ]
 }

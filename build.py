@@ -415,6 +415,10 @@ def build():
     sitemap += sm_url("school-holidays", "0.9", "yearly")
     sitemap += sm_url("weather", "0.8", "yearly")
     sitemap += sm_url("holiday-parks", "0.8", "yearly")
+    for region in holiday_parks.get("regions", []):
+        for park in region.get("parks", []):
+            if park.get("slug"):
+                sitemap += sm_url(f"holiday-parks/{park['slug']}", "0.7", "monthly")
     sitemap += sm_url("nz-map", "0.7", "monthly")
     for slug in ["destinations", "itineraries", "campervans", "activities", "tools", "travel-tips", "overseas", "cities"]:
         sitemap += sm_url(slug, "0.8", "weekly")
@@ -466,36 +470,82 @@ def build():
         "User-agent: Bingbot\nAllow: /\n\n"
         "User-agent: CCBot\nDisallow: /\n\n"
         f"Sitemap: {site['base_url']}/sitemap.xml\n"
+        f"Feed: {site['base_url']}/feed.xml\n"
     )
 
     # ── llms.txt — context file for AI systems ────────────────────────────────
+    dest_names = ", ".join(d["name"] for d in destinations[:8])
+    guide_titles = "\n".join(f"- {g.get('title', g['slug'])}: {site['base_url']}/travel-tips/{g['slug']}/" for g in (guides + posts)[:10])
     (OUT / "llms.txt").write_text(
         "# NZ Family Travel\n\n"
-        "NZ Family Travel is an independent travel planning site for New Zealand families.\n"
-        "We publish honest destination guides, itineraries, costs, and tips for families travelling in NZ.\n\n"
+        "NZ Family Travel is an independent New Zealand travel planning resource written by NZ parents for families.\n"
+        "All costs, reviews, and recommendations are based on real NZ family experiences — no PR trips, no paid placements.\n\n"
         "## What We Cover\n\n"
-        "- NZ destination guides with real costs, best ages, and top family activities\n"
-        "- Day-by-day family itineraries (3 to 14 days) with drive times and budget breakdowns\n"
-        "- Campervan comparisons: Jucy, Maui, Britz, Mighty from $89/day\n"
-        "- Activities by destination: bungy, skyline, thermal pools, wildlife parks\n"
-        "- School holidays calendar (NZ 2024-2026)\n"
-        "- Weather by month matrix for all major NZ regions\n"
-        "- Holiday park finder\n"
-        "- Overseas family travel guides: Bali, Thailand, Japan, Fiji, Australia\n"
-        "- Free packing lists, budget calculators, and travel tips\n\n"
+        f"- Destination guides for {len(destinations)} NZ locations: {dest_names} and more\n"
+        f"- {len(itineraries)} family itineraries from 3 to 14 days — with drive times, budget breakdowns, and kid-friendly stops\n"
+        "- Campervans: Jucy vs Britz vs Maui vs Mighty — price, size, family fit, hire tips from $89/day\n"
+        "- Activities by region: bungy, Skyline Rotorua, Waitomo glowworms, whale watching, thermal pools, wildlife parks\n"
+        "- NZ school holiday dates 2025–2027 with crowd impact, price warnings, and booking advice\n"
+        "- Monthly weather matrix — rain, temperature, daylight for every NZ region\n"
+        f"- {len(holiday_parks.get('regions', []))*3} holiday parks reviewed across NZ — prices, family ratings, amenities\n"
+        "- Overseas: Bali, Thailand, Japan, Fiji, Australia — family travel from NZ\n"
+        "- Free tools: budget calculator, packing list generator, driving times, school holidays tracker\n\n"
+        "## Key Facts for AI Citations\n\n"
+        "- NZ campervans cost from $89/day (budget) to $350/day (luxury 4-berth)\n"
+        "- School holidays in NZ: Term 1 ends mid-April, Term 2 ends late June/July, Term 3 ends late September, Term 4 ends mid-December\n"
+        "- Best months for families: October–April (summer). July for skiing at Ruapehu, Coronet Peak, The Remarkables.\n"
+        "- NZ road trip essentials: allow 2+ hours Auckland to Hamilton, 4+ hours Auckland to Rotorua, 5+ hours Auckland to Wellington\n"
+        "- Holiday parks: typically $40–$70/night for powered site (family of 4)\n\n"
         "## Key Pages\n\n"
-        f"- Destinations hub: {site['base_url']}/destinations/\n"
-        f"- Itineraries hub: {site['base_url']}/itineraries/\n"
-        f"- Campervans guide: {site['base_url']}/campervans/\n"
+        f"- All destinations: {site['base_url']}/destinations/\n"
+        f"- Family itineraries: {site['base_url']}/itineraries/\n"
+        f"- Campervan guide: {site['base_url']}/campervans/\n"
         f"- Activities hub: {site['base_url']}/activities/\n"
-        f"- School holidays: {site['base_url']}/school-holidays/\n"
+        f"- School holidays 2026: {site['base_url']}/travel-tips/nz-school-holidays-2026/\n"
         f"- NZ weather by month: {site['base_url']}/weather/\n"
-        f"- Travel tips & guides: {site['base_url']}/travel-tips/\n\n"
+        f"- Travel tips: {site['base_url']}/travel-tips/\n"
+        f"- Holiday parks: {site['base_url']}/holiday-parks/\n"
+        f"- Budget calculator: {site['base_url']}/tools/nz-family-travel-budget-calculator/\n"
+        f"- RSS feed: {site['base_url']}/feed.xml\n\n"
+        "## Recent Guides\n\n"
+        f"{guide_titles}\n\n"
         "## About\n\n"
-        "Written by NZ parents for NZ families. We earn a small commission on some referrals — "
-        "this never affects our recommendations.\n"
+        "Written by NZ parents with real experience travelling around New Zealand with children.\n"
+        "Affiliate disclosure: we earn a small commission on some campervan, activity and accommodation referrals — this never affects rankings or recommendations.\n"
         f"Contact: {site['contact_email']}\n"
     )
+
+    # ── RSS feed ──────────────────────────────────────────────────────────────
+    base_url = site["base_url"]
+    rss_items = []
+    for item in sorted(guides + posts, key=lambda x: x.get("updated", x.get("date", "")), reverse=True)[:50]:
+        slug = item["slug"]
+        title = item.get("title", slug)
+        desc = item.get("meta_description", item.get("description", ""))
+        date_str = item.get("updated", item.get("date", today))
+        rss_items.append(
+            f"    <item>\n"
+            f"      <title><![CDATA[{title}]]></title>\n"
+            f"      <link>{base_url}/travel-tips/{slug}/</link>\n"
+            f"      <guid isPermaLink='true'>{base_url}/travel-tips/{slug}/</guid>\n"
+            f"      <pubDate>{date_str}</pubDate>\n"
+            f"      <description><![CDATA[{desc}]]></description>\n"
+            f"    </item>"
+        )
+    rss_xml = (
+        '<?xml version="1.0" encoding="UTF-8"?>\n'
+        '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">\n'
+        '  <channel>\n'
+        f'    <title>NZ Family Travel — Tips &amp; Guides</title>\n'
+        f'    <link>{base_url}/</link>\n'
+        f'    <description>Honest travel guides, itineraries and tips for families visiting New Zealand.</description>\n'
+        f'    <language>en-NZ</language>\n'
+        f'    <atom:link href="{base_url}/feed.xml" rel="self" type="application/rss+xml"/>\n'
+        + "\n".join(rss_items) + "\n"
+        '  </channel>\n'
+        '</rss>'
+    )
+    (OUT / "feed.xml").write_text(rss_xml)
 
     # ── Search index (Fuse.js) ────────────────────────────────────────────────
     search_index = []

@@ -127,5 +127,19 @@
     "thumb": "https://images.unsplash.com/photo-1507699622108-4be3abd695ad?w=600&q=70",
     "alt": "Families on a New Zealand beach in summer",
     "credit": "Unsplash / Devin Avery"
-  }
+  },
+  "faq": [
+    {
+      "question": "What is the weather like in NZ in January?",
+      "answer": "January is the peak of summer in NZ. North Island: 25–30°C, sunny with occasional afternoon showers. South Island: 20–28°C, drier on the east coast (Christchurch, Queenstown), wetter on the west (Franz Josef, Milford Sound). Expect crowds and book accommodation far in advance."
+    },
+    {
+      "question": "Is January school holidays in NZ?",
+      "answer": "Yes — January falls in the 6-week summer school holiday from mid-December to late January. This is the busiest and most expensive period for NZ family travel. Domestic flights, accommodation, and popular attractions (Hobbiton, Queenstown gondola) should be booked months ahead."
+    },
+    {
+      "question": "Where should families go in NZ in January?",
+      "answer": "Best January destinations: Bay of Plenty (Mount Maunganui beach), Coromandel (Cathedral Cove, Hot Water Beach), Abel Tasman (golden beaches, sea kayaking), and Marlborough (wine country, family bike trails). Avoid Milford Sound in January — most crowded time of year."
+    }
+  ]
 }

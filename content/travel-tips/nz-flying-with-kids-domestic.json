@@ -78,5 +78,19 @@
         "affiliate": false
       }
     }
+  ],
+  "faq": [
+    {
+      "question": "What is the baggage allowance for children on Air New Zealand?",
+      "answer": "Children over 2 paying full fare get the same baggage allowance as adults (1 checked bag up to 23kg on most fares). Infants under 2 on a lap ticket get a 10kg allowance. Car seats and pushchairs don't count toward your luggage allowance."
+    },
+    {
+      "question": "Can you bring a car seat on Air New Zealand?",
+      "answer": "Yes, Air New Zealand allows car seats to be checked in for free or used on board (if it's FAA-approved and fits the seat). Most families check car seats in the hold in a protective bag. Bassinets are available on select aircraft for infants under 1 year — request when booking."
+    },
+    {
+      "question": "How early should you arrive at the airport with kids in NZ?",
+      "answer": "Allow 90 minutes before domestic flights and 3 hours for international departures from Auckland. Most NZ domestic airports (Wellington, Christchurch, Queenstown) are compact — 60 minutes is often enough for experienced travellers, but 90 minutes is safer with children."
+    }
   ]
 }

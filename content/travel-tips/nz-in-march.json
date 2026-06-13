@@ -115,5 +115,19 @@
     "thumb": "https://images.unsplash.com/photo-1508739773434-c26b3d09e071?w=600&q=70",
     "alt": "Autumn colours in New Zealand",
     "credit": "Unsplash / Niko Photos"
-  }
+  },
+  "faq": [
+    {
+      "question": "Is March a good time for a NZ family holiday?",
+      "answer": "March is one of the best value months — summer weather continues (22–27°C), school holidays have ended, and prices are 20–30% lower than January. Beaches are still warm, Rotorua and Queenstown are quieter, and the April school holiday period is still weeks away."
+    },
+    {
+      "question": "What is the weather in NZ in March?",
+      "answer": "March is still warm across NZ. Auckland: 22–26°C, occasional showers. Wellington: 18–22°C. Christchurch: 20–25°C with dry, settled weather. Queenstown: 18–23°C — great hiking conditions. March often has the most stable weather of the NZ summer."
+    },
+    {
+      "question": "Which NZ destinations are best in March?",
+      "answer": "Marlborough and Nelson (post-harvest, warm, uncrowded), Napier and the Hawke's Bay (Art Deco and Harvest festival in mid-March), Mount Maunganui beach, and the Queenstown area. The West Coast (Franz Josef, Punakaiki) is also beautiful in March with fewer tour buses."
+    }
+  ]
 }

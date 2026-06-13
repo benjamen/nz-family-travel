@@ -173,5 +173,19 @@
     "thumb": "https://images.unsplash.com/photo-1526958097901-5e6d742d3371?w=600&q=70",
     "alt": "Family counting budget for NZ trip",
     "credit": "Unsplash / Michael Longmire"
-  }
+  },
+  "faq": [
+    {
+      "question": "How much does a NZ family holiday cost per day?",
+      "answer": "Budget (campervan, holiday parks, self-catering): $150–$250/day for a family of 4. Mid-range (motels, some restaurants): $350–$500/day. Comfortable (hotels, activities every day): $600–$900/day. The biggest costs are accommodation, car hire/campervan, and activities."
+    },
+    {
+      "question": "What is the most expensive part of a NZ family holiday?",
+      "answer": "Accommodation is usually the biggest cost ($150–$350/night for a family room in peak season). Activities can also add up fast — Hobbiton ($75/adult, $35/child), Te Puia ($45+/$15+), Skyline Queenstown ($60+/$35+). Budget families can save significantly by using holiday parks and self-catering."
+    },
+    {
+      "question": "Is New Zealand expensive for families?",
+      "answer": "NZ is moderately expensive by international standards. It's cheaper than Australia for most activities, comparable to the UK, and more expensive than Southeast Asia. Budget travellers can manage on $100–$150/person/day using campervans, holiday parks, and cooking their own meals."
+    }
+  ]
 }

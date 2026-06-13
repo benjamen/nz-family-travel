@@ -91,5 +91,19 @@
     "url": "/static/img/destinations/queenstown-vs-wanaka-families.jpg",
     "alt": "Lake Wanaka, New Zealand",
     "credit": "Wikimedia Commons"
-  }
+  },
+  "faq": [
+    {
+      "question": "Is Queenstown or Wanaka better for families?",
+      "answer": "Wanaka is better for relaxed family holidays: quieter, cheaper, and more relaxed. Queenstown is better if your family wants adventure activities like bungy, Skyline, and gondola rides. For young kids, Wanaka wins; for teenagers, Queenstown is more exciting."
+    },
+    {
+      "question": "How far is Wanaka from Queenstown?",
+      "answer": "About 70km via the Crown Range road (scenic but winding, ~1 hour) or 115km via Cromwell (easier with kids, ~1.5 hours). Many families do both in one trip using Queenstown as a base."
+    },
+    {
+      "question": "What is there to do in Wanaka with kids?",
+      "answer": "Puzzling World (kid favourite), Lake Wanaka for swimming and stand-up paddleboarding, Wanaka Beerworks (yes, kids allowed in the restaurant), Mt Iron walking track, and the Cardrona Alpine Resort for skiing in winter."
+    }
+  ]
 }

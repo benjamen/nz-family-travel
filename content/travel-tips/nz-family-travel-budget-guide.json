@@ -80,5 +80,19 @@
         "affiliate": false
       }
     }
+  ],
+  "faq": [
+    {
+      "question": "How can families save money on a NZ holiday?",
+      "answer": "Top savings tips: hire a campervan instead of hotels (saves $100–$200/night), buy groceries at Pak'nSave, visit free attractions (beaches, DOC walks, Te Papa museum in Wellington), travel in shoulder season (March–April or October–November), and book domestic flights early."
+    },
+    {
+      "question": "What is the cheapest time to visit NZ with kids?",
+      "answer": "May to August (winter) has the lowest prices for accommodation and flights, but weather is cold and wet in many areas. For families, the best value is March–April (late summer, fewer crowds) or October–November (spring, before school holiday premium rates kick in)."
+    },
+    {
+      "question": "Are there free activities for kids in New Zealand?",
+      "answer": "Many! Best free activities: all NZ beaches, Te Papa Museum (Wellington, free entry), Auckland Domain and Winter Gardens, Queenstown waterfront and Frankton Trail, Christchurch Botanic Gardens, most DOC short walks, and countless playground areas at holiday parks."
+    }
   ]
 }

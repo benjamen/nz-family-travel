@@ -91,5 +91,19 @@
     "url": "/static/img/destinations/north-vs-south-island-families.jpg",
     "alt": "New Zealand South Island landscape",
     "credit": "Wikimedia Commons"
-  }
+  },
+  "faq": [
+    {
+      "question": "Which NZ island is better for families — North or South?",
+      "answer": "The North Island is better for first-time family visits: shorter drives, more activities for younger kids (Rotorua, Hobbiton, beaches), and warmer weather. The South Island is better for families with teens who enjoy hiking, skiing, and dramatic scenery."
+    },
+    {
+      "question": "Can you see both islands in one NZ family trip?",
+      "answer": "Yes, but you'll need at least 2 weeks. The standard route is 4–5 days in Auckland/Northland, 3 days in Rotorua/Taupo, then cross to the South Island via the Interislander ferry from Wellington for 5–7 days."
+    },
+    {
+      "question": "How do you get from the North Island to the South Island with kids?",
+      "answer": "By ferry (Interislander or Bluebridge from Wellington to Picton — 3.5 hours) or by domestic flight. The ferry is a great experience for kids; flights are faster but add luggage stress. Book the ferry well in advance in summer."
+    }
+  ]
 }
