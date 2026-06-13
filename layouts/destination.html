@@ -168,14 +168,14 @@
   <div class="photo-gallery">
     {% if destination.media.hero_image %}
     <div class="gallery-main">
-      <img src="{{ destination.media.hero_image.url }}" alt="{{ destination.media.hero_image.alt }}" loading="lazy">
+      <img src="{{ destination.media.hero_image.url }}" alt="{{ destination.media.hero_image.alt }}" width="1200" height="630" loading="lazy">
       <span class="gallery-caption">{{ destination.name }} — {{ destination.media.hero_image.alt }}</span>
     </div>
     {% endif %}
     <div class="gallery-grid">
       {% for photo in destination.media.gallery %}
       <div class="gallery-item">
-        <img src="{{ photo.url }}" alt="{{ photo.alt }}" loading="lazy">
+        <img src="{{ photo.url }}" alt="{{ photo.alt }}" width="600" height="220" loading="lazy">
         <span class="gallery-caption">{{ photo.caption }}</span>
       </div>
       {% endfor %}

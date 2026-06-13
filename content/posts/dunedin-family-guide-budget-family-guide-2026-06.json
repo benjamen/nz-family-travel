@@ -1,0 +1,82 @@
+{
+  "title": "Dunedin Family Budget",
+  "short_title": "Dunedin Budget",
+  "meta_desc": "Visit Dunedin on a family budget of $200-380/day, explore wildlife, culture and history with our guide to free activities, accommodation and more",
+  "intro": "Dunedin is a city that offers a unique blend of wildlife, culture, and history, making it an ideal destination for families. With a daily budget of $200-380 for a family of four, you can experience the best of Dunedin without breaking the bank. From free activities like walking up the world's steepest street to splurging on a tour of the Royal Albatross Centre, we've got you covered.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Accommodation Options",
+      "body": "<p>When it comes to accommodation in Dunedin, you have a range of options to suit your budget. For a cheap option, consider staying at the Dunedin Holiday Park, which offers powered sites from $40 per night and cabins from $80 per night. For a mid-range option, the Mercure Dunedin Leisure Centre offers rooms from $180 per night.</p> <p>Another option is to rent a house or apartment through a website like Bookabach, which can be more cost-effective for families, especially if you're staying for a few nights. Prices start from around $120 per night for a two-bedroom apartment.</p>",
+      "list": [
+        "Dunedin Holiday Park: $40-80/night",
+        "Mercure Dunedin Leisure Centre: $180/night",
+        "Bookabach: from $120/night"
+      ]
+    },
+    {
+      "heading": "Free Activities",
+      "body": "<p>Dunedin has a range of free activities that are perfect for families. Take a walk up Baldwin Street, the world's steepest street, and take in the stunning views of the city. Visit the Otago Settlers Museum, which offers a fascinating look at the history of European and Maori settlement in Otago.</p> <p>Another great free activity is to take a photo in front of the stunning Flemish Renaissance architecture of the Dunedin Railway Station, which is New Zealand's most photographed building.</p>",
+      "list": [
+        "Walk up Baldwin Street",
+        "Visit the Otago Settlers Museum",
+        "Take a photo at the Dunedin Railway Station"
+      ]
+    },
+    {
+      "heading": "Budget Breakdown",
+      "body": "<p>To help you plan your trip to Dunedin, we've put together a rough 3-day budget breakdown. This assumes a family of four, with two adults and two children aged 5 and 7.</p> <p>Day 1: $250 - Accommodation ($180), Royal Albatross Centre tour ($40), dinner at a mid-range restaurant ($30)</p> <p>Day 2: $280 - Breakfast at a cafe ($20), Yellow-eyed penguin watching ($50), lunch at a food court ($20), Speight's Brewery tour ($30)</p> <p>Day 3: $220 - Breakfast at a supermarket ($10), visit to Larnach Castle ($60), lunch at a picnic spot ($10), walk up Baldwin Street (free)</p>",
+      "table": {
+        "headers": [
+          "Day",
+          "Accommodation",
+          "Activities",
+          "Food",
+          "Total"
+        ],
+        "rows": [
+          [
+            "Day 1",
+            "$180",
+            "$40",
+            "$30",
+            "$250"
+          ],
+          [
+            "Day 2",
+            "$0",
+            "$100",
+            "$40",
+            "$280"
+          ],
+          [
+            "Day 3",
+            "$0",
+            "$60",
+            "$20",
+            "$220"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Where to Save and Splurge",
+      "body": "<p>To make the most of your budget, consider saving money on accommodation by staying at a holiday park or renting a house. You can also save money on food by cooking your own meals or eating at cafes and food courts.</p> <p>However, there are some activities that are worth splurging on, such as the Royal Albatross Centre tour, which costs $40 per person. Another activity worth splurging on is the Yellow-eyed penguin watching, which costs $50 per person.</p>",
+      "list": [
+        "Save on accommodation",
+        "Save on food",
+        "Splurge on Royal Albatross Centre tour",
+        "Splurge on Yellow-eyed penguin watching"
+      ],
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "dunedin-family-guide-budget-family-guide-2026-06",
+  "updated": "June 2026",
+  "auto_generated": true,
+  "generated_date": "2026-06-13"
+}

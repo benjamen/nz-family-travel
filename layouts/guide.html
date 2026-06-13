@@ -2,6 +2,10 @@
 {% set _section = guide_section if guide_section is defined else 'travel-tips' %}
 {% set _section_label = guide_section_label if guide_section_label is defined else 'Travel Tips' %}
 {% set _pub_date = guide.generated_date if guide.generated_date is defined else guide.updated %}
+{# Normalise FAQs: data files use either `faqs` [{q,a}] or `faq` [{question,answer}] #}
+{% set _faqs = [] %}
+{% for f in (guide.faqs or []) %}{% set _ = _faqs.append({'q': f.q, 'a': f.a}) %}{% endfor %}
+{% for f in (guide.faq or []) %}{% set _ = _faqs.append({'q': f.question, 'a': f.answer}) %}{% endfor %}
 
 {% block extra_head %}
 <script type="application/ld+json">
@@ -32,12 +36,12 @@
     },
     "url": "{{ site.base_url }}/{{ _section }}/{{ guide.slug }}/"
   }
-  {% if guide.faqs %}
+  {% if _faqs %}
   ,{
     "@context": "https://schema.org",
     "@type": "FAQPage",
     "mainEntity": [
-      {% for faq in guide.faqs %}
+      {% for faq in _faqs %}
       {
         "@type": "Question",
         "name": {{ faq.q | tojson }},
@@ -79,7 +83,7 @@
 
 {% if guide.hero_image %}
 <div class="guide-hero-img">
-  <img src="{{ guide.hero_image.url }}" alt="{{ guide.hero_image.alt }}" loading="eager">
+  <img src="{{ guide.hero_image.url }}" alt="{{ guide.hero_image.alt }}" width="1200" height="630" loading="eager">
   {% if guide.hero_image.credit %}<span class="img-credit">📷 {{ guide.hero_image.credit }}</span>{% endif %}
 </div>
 {% endif %}
@@ -183,6 +187,20 @@
     {% endif %}
   </div>
   {% endif %}
+</section>
+{% endif %}
+
+{% if _faqs %}
+<section class="section faq-section">
+  <h2>Frequently Asked Questions</h2>
+  <div class="faq-list">
+    {% for faq in _faqs %}
+    <details class="faq-item">
+      <summary>{{ faq.q }}</summary>
+      <div class="faq-answer">{{ faq.a }}</div>
+    </details>
+    {% endfor %}
+  </div>
 </section>
 {% endif %}
 

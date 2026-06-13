@@ -1,0 +1,70 @@
+{
+  "slug": "nz-with-tweens-travel-guide",
+  "short_title": "NZ with Tweens",
+  "title": "NZ with Tweens (10-13) — Family Travel Guide 2026",
+  "meta_desc": "Planning a NZ family holiday with tweens aged 10-13? Best adventure activities, age minimums, costs, and itinerary ideas that keep older kids engaged.",
+  "focus_keyword": "nz holiday with 10 year old",
+  "schema_type": "Article",
+  "intro": "Travelling New Zealand with tweens aged 10 to 13 hits a sweet spot — they're old enough for most adventure activities, theme parks, and longer drives, but still travelling on your budget and schedule. This guide covers the best activities by age minimum, how to give tweens some independence, and itinerary ideas that keep this tricky age group genuinely engaged.",
+  "updated": "June 2026",
+  "reading_time": 7,
+  "h2_outline": [
+    "What's different about travelling NZ with tweens",
+    "Best NZ adventure activities for 10-13 year olds (with age minimums)",
+    "Giving tweens independence on a NZ trip",
+    "Best NZ destinations for tweens",
+    "Sample 7-day North Island itinerary for tweens",
+    "What it costs",
+    "Tips from NZ parents"
+  ],
+  "sections": [
+    {
+      "heading": "What's Different About Travelling NZ with Tweens",
+      "body": "<p>Tweens (10-13) are old enough to clear the minimum age on most NZ adventure activities — bungy, white-water rafting, zip-lining and luge — yet still want family time. The challenge is pacing: too many \"educational\" stops and they switch off, too much downtime and they're bored. The trick is building each day around one hands-on adventure they choose themselves.</p>"
+    },
+    {
+      "heading": "Best NZ Adventure Activities for 10-13 Year Olds",
+      "table": {
+        "headers": ["Activity", "Where", "Minimum Age", "Rough Cost (per child)"],
+        "rows": [
+          ["Skyline Luge", "Rotorua / Queenstown", "No min (ride alone ~6+)", "$30-50"],
+          ["White-water rafting (grade 3)", "Rotorua / Tongariro", "10-13", "$95-130"],
+          ["Velocity Valley / Agroventures", "Rotorua", "Varies by ride", "$40-70"],
+          ["Ziptrek Ecotours", "Queenstown", "6+", "$160-200"],
+          ["Shotover Jet", "Queenstown", "No min (advised 5+)", "$95-115"]
+        ]
+      }
+    },
+    {
+      "heading": "Giving Tweens Some Independence",
+      "list": [
+        "Let them plan one activity per day from a shortlist you pre-approve",
+        "Hand over the map / driving-times tool and make them navigator",
+        "Give a small daily spending budget for souvenirs and snacks",
+        "Let older tweens explore safe town centres (Queenstown, Taupo) within agreed limits"
+      ]
+    },
+    {
+      "heading": "Best NZ Destinations for Tweens",
+      "body": "<p>Queenstown is the obvious winner for action-loving tweens, with Rotorua a close second for value and variety. Wellington's Te Papa and the cable car suit rainy days, while a Bay of Islands sailing or dolphin trip lands well with this age group.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "question": "What age can kids do bungy jumping in NZ?",
+      "answer": "Most NZ bungy operators set a minimum age of 10 (and a minimum weight around 35kg), so many tweens qualify. Always confirm directly with the operator, as limits vary by site."
+    },
+    {
+      "question": "Is New Zealand good for a family holiday with an 11 or 12 year old?",
+      "answer": "Yes — tweens are old enough for most adventure activities and longer scenic drives, making NZ one of the best-value adventure destinations for this age. Build each day around one activity they choose to keep them engaged."
+    },
+    {
+      "question": "How much does a NZ family holiday with tweens cost?",
+      "answer": "Budget roughly NZ$350-500 per day for a family of four, including accommodation, a paid activity, food and fuel. Adventure activities for tweens add $30-130 per child per session."
+    }
+  ],
+  "hero_image": {
+    "url": "/static/img/destinations/nz-with-tweens-travel-guide.jpg",
+    "alt": "Tween-aged kids on a Skyline Luge adventure in New Zealand"
+  }
+}

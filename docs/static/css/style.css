@@ -200,6 +200,7 @@ ul, ol { padding-left: 1.25rem; }
 .faq-item summary::after { content: '+'; font-size: 1.2rem; color: var(--brand); }
 .faq-item[open] summary::after { content: '−'; }
 .faq-item p { padding: 0 1.25rem 1rem; font-size: .9rem; color: var(--gray-600); line-height: 1.7; }
+.faq-item .faq-answer { padding: 0 1.25rem 1rem; font-size: .9rem; color: var(--gray-600); line-height: 1.7; }
 
 /* === Affiliate strips === */
 .affiliate-strip { background: #0c4a6e; }
