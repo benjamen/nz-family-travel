@@ -27,7 +27,7 @@
     "datePublished": "{{ _pub_date | to_iso_date }}",
     "dateModified": "{{ _pub_date | to_iso_date }}",
     "image": {"@type": "ImageObject", "url": "{{ guide.hero_image.url if guide.hero_image else 'https://images.unsplash.com/photo-1507699622108-4be3abd695ad?w=1200&q=80' }}", "width": 1200, "height": 630},
-    "author": {"@type": "Person", "@id": "{{ site.base_url }}/about/#author", "name": "NZ Family Travel Team", "url": "{{ site.base_url }}/about/"},
+    "author": {"@type": "Person", "@id": "{{ site.base_url }}/about/#author", "name": "Benjamen", "url": "{{ site.base_url }}/about/"},
     "publisher": {
       "@type": "Organization",
       "@id": "{{ site.base_url }}/#organization",
@@ -70,7 +70,7 @@
     <h1>{{ guide.title }}</h1>
     <p>{{ guide.intro }}</p>
     <div class="guide-meta">
-      <span>By <a href="/about/" style="color:inherit;text-decoration:underline">NZ Family Travel Team</a></span>
+      <span>By <a href="/about/" style="color:inherit;text-decoration:underline">Benjamen</a></span>
       <span>Updated {{ guide.updated }}</span>
       {% if guide.reading_time %}<span>{{ guide.reading_time }} min read</span>{% endif %}
     </div>
