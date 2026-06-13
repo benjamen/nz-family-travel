@@ -1,0 +1,68 @@
+{
+  "title": "Hawke's Bay Family Deals",
+  "short_title": "HB Deals",
+  "meta_desc": "Discover the best family deals in Hawke's Bay, including activity discounts, campervan hire, and holiday parks with free cancellation, from $180-340/day for a family of 4",
+  "intro": "Hawke's Bay is a hidden gem for family holidays, with Art Deco Napier, Cape Kidnappers gannets, and NZ's best fruit. With the right deals and discounts, you can have a fantastic family holiday without breaking the bank. Here are the best family deals in Hawke's Bay for June 2026.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Current Booking Deals",
+      "body": "<p>Bookme.co.nz is offering up to 40% off activities in top NZ destinations, although Hawke's Bay is not currently included in the sale. However, you can still book activities like the Cape Kidnappers Gannet Colony tour or the Napier Aquarium through Bookme.co.nz at regular prices. For campervan hire, Discover Cars has family campervans from $89/day, which can be a cost-effective option for families.</p> <p>Booking.com has NZ holiday parks and motels with free cancellation on most bookings, which can give you peace of mind when planning your trip. Cover-More also offers comprehensive NZ and international family travel insurance from $4.50/day.</p>",
+      "list": [
+        "Up to 40% off activities with Bookme.co.nz",
+        "Family campervans from $89/day with Discover Cars",
+        "Free cancellation on holiday parks and motels with Booking.com",
+        "Comprehensive family travel insurance from $4.50/day with Cover-More"
+      ]
+    },
+    {
+      "heading": "Best-Value Activities",
+      "body": "<p>Some of the best-value activities in Hawke's Bay include the Cape Kidnappers Gannet Colony tour, which costs around $40-$60 per person, and the Napier Aquarium, which costs around $20-$30 per person. The Napier Art Deco walk is free, and you can also visit the Marine Parade and Waimarama Beach without spending a dime.</p> <p>For a unique experience, consider the Cape Kidnapper tractor trek at low tide, which costs around $50-$70 per person. You can also visit the Matahiwi Marae near Hastings, which offers open visits and a glimpse into authentic Maori culture.</p>",
+      "table": {
+        "headers": [
+          "Activity",
+          "Price (per person)"
+        ],
+        "rows": [
+          [
+            "Cape Kidnappers Gannet Colony tour",
+            "$40-$60"
+          ],
+          [
+            "Napier Aquarium",
+            "$20-$30"
+          ],
+          [
+            "Cape Kidnapper tractor trek",
+            "$50-$70"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Money-Saving Tips",
+      "body": "<p>To save money on your family holiday in Hawke's Bay, consider visiting during the off-season (April-May or September-October), when prices are lower. You can also save by booking your activities and accommodation in advance, and by using discount codes or vouchers.</p> <p>Here are some specific money-saving tips for families:</p>",
+      "list": [
+        "Visit during the off-season (April-May or September-October) for lower prices",
+        "Book your activities and accommodation in advance to save up to 20%",
+        "Use discount codes or vouchers for activities and attractions",
+        "Consider a family campervan instead of separate accommodation and transport",
+        "Pack your own food and snacks instead of buying them at tourist spots",
+        "Take advantage of free activities like the Napier Art Deco walk and Waimarama Beach"
+      ]
+    },
+    {
+      "heading": "When to Book for Best Prices",
+      "body": "<p>To get the best prices for your family holiday in Hawke's Bay, it's a good idea to book your activities and accommodation at least 2-3 months in advance. This will give you access to early bird discounts and ensure that you get the accommodation and activities you want.</p> <p>Keep an eye on the Bookme.co.nz website for last-minute deals and discounts, and be flexible with your travel dates to get the best prices.</p>",
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "hawkes-bay-family-guide-family-deals-2026-06",
+  "updated": "June 2026",
+  "auto_generated": true,
+  "generated_date": "2026-06-14"
+}

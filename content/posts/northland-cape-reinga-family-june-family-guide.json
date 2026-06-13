@@ -1,0 +1,63 @@
+{
+  "title": "June in Northland",
+  "short_title": "Northland Jun",
+  "meta_desc": "Discover Northland with kids in June: warm weather, exciting activities, and fewer crowds. Perfect for a family holiday, with prices from $200-380/day for a family of 4",
+  "intro": "Northland in June is a hidden gem for family travel. With mild winter weather and smaller crowds, it's an ideal time to explore Cape Reinga, Ninety Mile Beach, and the ancient kauri forests. Suitable for children aged 4+, Northland offers a unique blend of natural beauty, rich history, and adventure.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Weather and What's On",
+      "body": "<p>June in Northland brings mild winter weather, with average highs of 17°C and lows of 10°C. It's an excellent time for outdoor activities like hiking, beach walks, and exploring the region's stunning natural beauty. This month, you can also catch the Matariki Festival, celebrating the Maori New Year, with various events and activities across the region.</p> <p>Some popular attractions and activities include the Cape Reinga Lighthouse, Ninety Mile Beach sandboarding, and the Kauri Museum in Matakohe. Don't miss the free activities like the Cape Reinga walkway, Ninety Mile Beach driving (4WD only), and the Mangawhai Heads beach walk and estuary.</p>",
+      "list": [
+        "Matariki Festival",
+        "Cape Reinga Lighthouse",
+        "Ninety Mile Beach sandboarding",
+        "Kauri Museum"
+      ]
+    },
+    {
+      "heading": "Crowd Levels and Best Activities",
+      "body": "<p>June is considered the off-season in Northland, which means fewer crowds and a more relaxed atmosphere. This is an excellent time to visit popular attractions and enjoy the region's natural beauty without the peak season rush.</p> <p>Some of the best activities for families in June include visiting the Waitangi Treaty Grounds, exploring the Hokianga Harbour dunes, and discovering the hidden gems like Matai Bay and Tokerau Beach on the Karikari Peninsula.</p>",
+      "table": {
+        "headers": [
+          "Activity",
+          "Price (per family of 4)"
+        ],
+        "rows": [
+          [
+            "Cape Reinga Lighthouse",
+            "$20-$30"
+          ],
+          [
+            "Ninety Mile Beach sandboarding",
+            "$50-$70"
+          ],
+          [
+            "Kauri Museum",
+            "$40-$60"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Practical Tips for Families",
+      "body": "<p>When visiting Northland with kids in June, it's essential to pack warm clothing for the cooler mornings and evenings. Don't forget to bring sunscreen, hats, and sunglasses for outdoor activities during the day.</p> <p>Book your accommodations and popular attractions ahead of time to avoid any last-minute hassles. Consider renting a 4WD vehicle to explore the region's rugged terrain and enjoy activities like Ninety Mile Beach driving.</p>",
+      "list": [
+        "Pack warm clothing",
+        "Book accommodations and attractions ahead",
+        "Rent a 4WD vehicle",
+        "Bring sunscreen and hats",
+        "Check the weather forecast before heading out"
+      ],
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "northland-cape-reinga-family-june-family-guide",
+  "updated": "June 2026",
+  "auto_generated": true,
+  "generated_date": "2026-06-14"
+}
