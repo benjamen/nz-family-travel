@@ -517,18 +517,40 @@ def build():
 
     # ── RSS feed ──────────────────────────────────────────────────────────────
     base_url = site["base_url"]
+
+    def to_rfc822(date_str):
+        from email.utils import format_datetime
+        from datetime import datetime
+        import re
+        if not date_str:
+            return format_datetime(datetime.now())
+        # "June 2026" → first of that month
+        m = re.match(r'(\w+)\s+(\d{4})', str(date_str))
+        if m:
+            try:
+                dt = datetime.strptime(f"01 {m.group(1)} {m.group(2)}", "%d %B %Y")
+                return format_datetime(dt)
+            except ValueError:
+                pass
+        # ISO date "2026-06-13"
+        m2 = re.match(r'(\d{4}-\d{2}-\d{2})', str(date_str))
+        if m2:
+            dt = datetime.strptime(m2.group(1), "%Y-%m-%d")
+            return format_datetime(dt)
+        return format_datetime(datetime.now())
+
     rss_items = []
     for item in sorted(guides + posts, key=lambda x: x.get("updated", x.get("date", "")), reverse=True)[:50]:
         slug = item["slug"]
         title = item.get("title", slug)
-        desc = item.get("meta_description", item.get("description", ""))
+        desc = item.get("meta_desc", item.get("meta_description", item.get("description", "")))
         date_str = item.get("updated", item.get("date", today))
         rss_items.append(
             f"    <item>\n"
             f"      <title><![CDATA[{title}]]></title>\n"
             f"      <link>{base_url}/travel-tips/{slug}/</link>\n"
             f"      <guid isPermaLink='true'>{base_url}/travel-tips/{slug}/</guid>\n"
-            f"      <pubDate>{date_str}</pubDate>\n"
+            f"      <pubDate>{to_rfc822(date_str)}</pubDate>\n"
             f"      <description><![CDATA[{desc}]]></description>\n"
             f"    </item>"
         )
