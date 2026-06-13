@@ -1,7 +1,7 @@
 {
   "slug": "nz-7-day-north-island-family-itinerary",
   "short_title": "7-Day North Island Grand Tour",
-  "title": "7-Day North Island Family Road Trip — Complete Loop with Highlights",
+  "title": "7-Day North Island Family Road Trip — Complete Loop Guide",
   "meta_desc": "Complete 7-day North Island family itinerary covering Auckland, Bay of Islands, Rotorua, Tongariro, Wellington. Drive times, daily costs, family activities, and budget breakdown.",
   "intro": "Seven days is the sweet spot for a proper North Island family experience. This itinerary covers the big family highlights — geysers and hot pools (Rotorua), volcanic wonders (Tongariro), the capital city (Wellington), and cultural treasures (Māori heritage sites). You'll understand why NZ is magic for families.",
   "updated": "June 2026",
@@ -10,15 +10,63 @@
     {
       "heading": "7-Day North Island Overview",
       "table": {
-        "headers": ["Day", "Location", "Drive Time", "Key Activities", "Budget (Family of 4)"],
+        "headers": [
+          "Day",
+          "Location",
+          "Drive Time",
+          "Key Activities",
+          "Budget (Family of 4)"
+        ],
         "rows": [
-          ["Day 1", "Auckland → Northland", "2.5 hrs", "Bay of Islands, dolphins, Haruru Falls", "$100 + $150 accom + $150 activity"],
-          ["Day 2", "Bay of Islands (full day)", "0 hrs", "Dolphin cruise, kayaking, beach, historic sites", "$250 activity + $180 meals"],
-          ["Day 3", "Northland → Rotorua", "4 hrs", "Drive via Whangarei, arrive Rotorua afternoon", "$100 + $150 accom + $50 optional"],
-          ["Day 4", "Rotorua (full day)", "0 hrs", "Te Puia geyser, hot pools, luge, Hobbiton option", "$300 activity + $200 meals"],
-          ["Day 5", "Rotorua → Tongariro", "3 hrs", "Taupo stop (Huka Falls), Tongariro area", "$120 + $150 accom + $100 activity"],
-          ["Day 6", "Tongariro → Wellington", "3.5 hrs", "Volcano walks, drive to capital, Te Papa Museum", "$100 + $100 accom + $150 meals"],
-          ["Day 7", "Wellington", "0 hrs", "Te Papa, waterfront, cafes, fly out or stay longer", "Meals + optional activities"]
+          [
+            "Day 1",
+            "Auckland → Northland",
+            "2.5 hrs",
+            "Bay of Islands, dolphins, Haruru Falls",
+            "$100 + $150 accom + $150 activity"
+          ],
+          [
+            "Day 2",
+            "Bay of Islands (full day)",
+            "0 hrs",
+            "Dolphin cruise, kayaking, beach, historic sites",
+            "$250 activity + $180 meals"
+          ],
+          [
+            "Day 3",
+            "Northland → Rotorua",
+            "4 hrs",
+            "Drive via Whangarei, arrive Rotorua afternoon",
+            "$100 + $150 accom + $50 optional"
+          ],
+          [
+            "Day 4",
+            "Rotorua (full day)",
+            "0 hrs",
+            "Te Puia geyser, hot pools, luge, Hobbiton option",
+            "$300 activity + $200 meals"
+          ],
+          [
+            "Day 5",
+            "Rotorua → Tongariro",
+            "3 hrs",
+            "Taupo stop (Huka Falls), Tongariro area",
+            "$120 + $150 accom + $100 activity"
+          ],
+          [
+            "Day 6",
+            "Tongariro → Wellington",
+            "3.5 hrs",
+            "Volcano walks, drive to capital, Te Papa Museum",
+            "$100 + $100 accom + $150 meals"
+          ],
+          [
+            "Day 7",
+            "Wellington",
+            "0 hrs",
+            "Te Papa, waterfront, cafes, fly out or stay longer",
+            "Meals + optional activities"
+          ]
         ]
       }
     },
@@ -53,41 +101,149 @@
     {
       "heading": "Seasonal Variations & Flexibility",
       "table": {
-        "headers": ["Season", "Months", "Weather", "Changes to Itinerary"],
+        "headers": [
+          "Season",
+          "Months",
+          "Weather",
+          "Changes to Itinerary"
+        ],
         "rows": [
-          ["Spring", "Sep–Nov", "12–20°C, variable wind", "All activities available. Fewer crowds. May need layers for mornings."],
-          ["Summer", "Dec–Feb", "18–25°C, warm", "Peak season — book everything in advance (4–8 weeks). UV very high. More crowds at all attractions."],
-          ["Autumn", "Mar–May", "15–22°C, stable", "Best season for families. Perfect weather, lower prices, fewer crowds. Highly recommended."],
-          ["Winter", "Jun–Aug", "8–15°C, cold, frost", "Tongariro area can have snow/frost — spectacular but cold. Bring extra warm layers. Volcanic walks still accessible but icy. Lower prices."]
+          [
+            "Spring",
+            "Sep–Nov",
+            "12–20°C, variable wind",
+            "All activities available. Fewer crowds. May need layers for mornings."
+          ],
+          [
+            "Summer",
+            "Dec–Feb",
+            "18–25°C, warm",
+            "Peak season — book everything in advance (4–8 weeks). UV very high. More crowds at all attractions."
+          ],
+          [
+            "Autumn",
+            "Mar–May",
+            "15–22°C, stable",
+            "Best season for families. Perfect weather, lower prices, fewer crowds. Highly recommended."
+          ],
+          [
+            "Winter",
+            "Jun–Aug",
+            "8–15°C, cold, frost",
+            "Tongariro area can have snow/frost — spectacular but cold. Bring extra warm layers. Volcanic walks still accessible but icy. Lower prices."
+          ]
         ]
       }
     },
     {
       "heading": "7-Day Budget Breakdown",
       "table": {
-        "headers": ["Category", "Low Budget", "Mid-Range", "Comfort"],
+        "headers": [
+          "Category",
+          "Low Budget",
+          "Mid-Range",
+          "Comfort"
+        ],
         "rows": [
-          ["Accommodation (6 nights: Bay of Islands 1, Rotorua 2, Tongariro 2, Wellington 1)", "$750–900", "$950–1,250", "$1,400–1,800"],
-          ["Petrol (fuel, ~1,000km)", "$300–400", "$300–400", "$300–400"],
-          ["Meals (all days, mix of casual & dinners)", "$600–750", "$900–1,150", "$1,300–1,700"],
-          ["Activities (geysers, luge, dolphins, Te Papa, walks)", "$400–600", "$600–900", "$1,000–1,500"],
-          ["Optional (Hobbiton, special dinners, tours)", "$0–200", "$200–400", "$400–800"],
-          ["**Total 7 days**", "**$2,050–2,850**", "**$2,950–4,100**", "**$4,400–6,200**"]
+          [
+            "Accommodation (6 nights: Bay of Islands 1, Rotorua 2, Tongariro 2, Wellington 1)",
+            "$750–900",
+            "$950–1,250",
+            "$1,400–1,800"
+          ],
+          [
+            "Petrol (fuel, ~1,000km)",
+            "$300–400",
+            "$300–400",
+            "$300–400"
+          ],
+          [
+            "Meals (all days, mix of casual & dinners)",
+            "$600–750",
+            "$900–1,150",
+            "$1,300–1,700"
+          ],
+          [
+            "Activities (geysers, luge, dolphins, Te Papa, walks)",
+            "$400–600",
+            "$600–900",
+            "$1,000–1,500"
+          ],
+          [
+            "Optional (Hobbiton, special dinners, tours)",
+            "$0–200",
+            "$200–400",
+            "$400–800"
+          ],
+          [
+            "**Total 7 days**",
+            "**$2,050–2,850**",
+            "**$2,950–4,100**",
+            "**$4,400–6,200**"
+          ]
         ]
       }
     },
     {
       "heading": "Best Accommodation by Stop",
       "table": {
-        "headers": ["Location", "Accommodation", "Type", "Price/Night", "Best For"],
+        "headers": [
+          "Location",
+          "Accommodation",
+          "Type",
+          "Price/Night",
+          "Best For"
+        ],
         "rows": [
-          ["Bay of Islands", "TOP 10 Holiday Park Paihia", "Holiday park", "$130–170", "Beach location, family activities, pools"],
-          ["Bay of Islands", "Palm Beach Resort", "Resort", "$140–190", "Premium, beachfront, more amenities"],
-          ["Rotorua", "Top 10 Holiday Park Rotorua", "Holiday park", "$140–180", "Standard, good value, family-friendly"],
-          ["Rotorua", "Hilton Lake Rotorua", "4-star hotel", "$220–320", "Premium, excellent views, fine dining"],
-          ["Tongariro", "TOP 10 Holiday Park Whakapapa", "Holiday park", "$120–160", "Best family option, central location"],
-          ["Wellington", "Top 10 Holiday Park Wellington", "Holiday park", "$130–170", "Good value, city edge, family facilities"],
-          ["Wellington", "Museum Hotel", "Boutique hotel", "$160–240", "Walking distance to Te Papa, premium location"]
+          [
+            "Bay of Islands",
+            "TOP 10 Holiday Park Paihia",
+            "Holiday park",
+            "$130–170",
+            "Beach location, family activities, pools"
+          ],
+          [
+            "Bay of Islands",
+            "Palm Beach Resort",
+            "Resort",
+            "$140–190",
+            "Premium, beachfront, more amenities"
+          ],
+          [
+            "Rotorua",
+            "Top 10 Holiday Park Rotorua",
+            "Holiday park",
+            "$140–180",
+            "Standard, good value, family-friendly"
+          ],
+          [
+            "Rotorua",
+            "Hilton Lake Rotorua",
+            "4-star hotel",
+            "$220–320",
+            "Premium, excellent views, fine dining"
+          ],
+          [
+            "Tongariro",
+            "TOP 10 Holiday Park Whakapapa",
+            "Holiday park",
+            "$120–160",
+            "Best family option, central location"
+          ],
+          [
+            "Wellington",
+            "Top 10 Holiday Park Wellington",
+            "Holiday park",
+            "$130–170",
+            "Good value, city edge, family facilities"
+          ],
+          [
+            "Wellington",
+            "Museum Hotel",
+            "Boutique hotel",
+            "$160–240",
+            "Walking distance to Te Papa, premium location"
+          ]
         ]
       }
     },
@@ -128,12 +284,37 @@
     {
       "heading": "Activity Difficulty by Age",
       "table": {
-        "headers": ["Age Group", "Must-Do", "Skip", "Highlight"],
+        "headers": [
+          "Age Group",
+          "Must-Do",
+          "Skip",
+          "Highlight"
+        ],
         "rows": [
-          ["Toddlers (0–3)", "Beaches, hot pools, easy walks, Te Papa (2 hrs)", "Alpine Crossing, long hikes", "Beach time is often the memory"],
-          ["Young kids (4–8)", "Rotorua geyser, dolphin cruise, Huka Falls, easy volcano walks, Te Papa", "Alpine Crossing, Cape Reinga long drive", "Rotorua luge is the standout memory"],
-          ["Older kids (9–12)", "All activities, Tongariro Alpine Crossing if fit, Hobbiton, Te Papa", "Baby activities", "Capable of the full experience"],
-          ["Teens (13+)", "Alpine Crossing, long hikes, Hobbiton, Te Papa, Cape Reinga if interested", "Toddler activities", "Challenge them; they're capable of everything"]
+          [
+            "Toddlers (0–3)",
+            "Beaches, hot pools, easy walks, Te Papa (2 hrs)",
+            "Alpine Crossing, long hikes",
+            "Beach time is often the memory"
+          ],
+          [
+            "Young kids (4–8)",
+            "Rotorua geyser, dolphin cruise, Huka Falls, easy volcano walks, Te Papa",
+            "Alpine Crossing, Cape Reinga long drive",
+            "Rotorua luge is the standout memory"
+          ],
+          [
+            "Older kids (9–12)",
+            "All activities, Tongariro Alpine Crossing if fit, Hobbiton, Te Papa",
+            "Baby activities",
+            "Capable of the full experience"
+          ],
+          [
+            "Teens (13+)",
+            "Alpine Crossing, long hikes, Hobbiton, Te Papa, Cape Reinga if interested",
+            "Toddler activities",
+            "Challenge them; they're capable of everything"
+          ]
         ]
       }
     },

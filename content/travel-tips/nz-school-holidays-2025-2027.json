@@ -1,7 +1,7 @@
 {
   "slug": "nz-school-holidays-2025-2027",
   "short_title": "NZ School Holiday Dates 2025–2027",
-  "title": "NZ School Holiday Dates 2025–2027 — Term Dates & Planning Guide",
+  "title": "NZ School Holiday Dates 2025–2027 — Planning Guide",
   "meta_desc": "Complete list of NZ school holidays 2025–2027 by region — Auckland, Wellington, Christchurch, Hamilton, Tauranga. Includes teacher-only days, Easter dates, and school websites.",
   "intro": "New Zealand has four mandatory school holiday blocks per year, plus regional variations and teacher-only days that differ by region. This guide covers exact dates for 2025–2027 broken down by region, Easter variations, and which days teachers are working but students aren't. Use this to plan your family trips, book accommodation, and understand why Zealandia night tours (Wellington) and ski lifts (Queenstown) book out months ahead.",
   "key_takeaway": "All NZ regions follow the same four school holidays (April, July, October, December–January), but start/end dates vary by region by 1–2 weeks. Teacher-only days (5–8 per year) differ by region too. July = ski season peak. Summer = beach season, premium pricing, bookings needed 2–3 months ahead. Easter moves annually — 2025: April 20, 2026: April 5, 2027: March 28.",
@@ -12,51 +12,202 @@
       "heading": "National School Holiday Blocks 2025–2027",
       "body": "New Zealand schools have four mandatory holiday periods per year. All regions share the same approximate dates, but Auckland, Wellington, and Christchurch stagger their start/end dates by 1–2 weeks. This guide provides exact dates for the major regions.",
       "table": {
-        "headers": ["Holiday Period", "NZ Duration", "Character", "Travel Implications"],
+        "headers": [
+          "Holiday Period",
+          "NZ Duration",
+          "Character",
+          "Travel Implications"
+        ],
         "rows": [
-          ["Autumn (Term 1)", "2 weeks, mid-late April", "Golden weather, low crowds, mild temps 15–20°C", "Good for wine regions, Hawke's Bay, Rotorua (fewer queues)"],
-          ["Winter (Term 2)", "2 weeks, early-mid July", "Ski season peak, cold 5–10°C", "Queenstown, Wanaka, Ruapehu busiest; book 3+ months ahead"],
-          ["Spring (Term 3)", "2 weeks, late September–early October", "Warming up 12–18°C, spring flowers, shoulder season", "Abel Tasman, Nelson, Bay of Islands; moderate crowds, good deals"],
-          ["Summer (Term 4)", "6 weeks, mid-December–late January", "Peak beach season, hot 20–28°C, school holiday premium pricing", "Coromandel, Northland, Bay of Islands; book 2–3 months ahead, expect crowds"]
+          [
+            "Autumn (Term 1)",
+            "2 weeks, mid-late April",
+            "Golden weather, low crowds, mild temps 15–20°C",
+            "Good for wine regions, Hawke's Bay, Rotorua (fewer queues)"
+          ],
+          [
+            "Winter (Term 2)",
+            "2 weeks, early-mid July",
+            "Ski season peak, cold 5–10°C",
+            "Queenstown, Wanaka, Ruapehu busiest; book 3+ months ahead"
+          ],
+          [
+            "Spring (Term 3)",
+            "2 weeks, late September–early October",
+            "Warming up 12–18°C, spring flowers, shoulder season",
+            "Abel Tasman, Nelson, Bay of Islands; moderate crowds, good deals"
+          ],
+          [
+            "Summer (Term 4)",
+            "6 weeks, mid-December–late January",
+            "Peak beach season, hot 20–28°C, school holiday premium pricing",
+            "Coromandel, Northland, Bay of Islands; book 2–3 months ahead, expect crowds"
+          ]
         ]
       }
     },
     {
       "heading": "School Holiday Dates by Region 2025",
       "table": {
-        "headers": ["Holiday", "Auckland", "Wellington", "Christchurch", "Hamilton", "Tauranga"],
+        "headers": [
+          "Holiday",
+          "Auckland",
+          "Wellington",
+          "Christchurch",
+          "Hamilton",
+          "Tauranga"
+        ],
         "rows": [
-          ["Autumn Term 1", "Apr 7–18, 2025", "Apr 7–18, 2025", "Apr 7–18, 2025", "Apr 7–18, 2025", "Apr 7–18, 2025"],
-          ["Easter Mon 2025", "April 21 (not a school holiday)", "April 21 (not a school holiday)", "April 21 (not a school holiday)", "April 21", "April 21"],
-          ["Winter Term 2", "Jul 7–18, 2025", "Jul 7–18, 2025", "Jul 7–18, 2025", "Jul 7–18, 2025", "Jul 7–18, 2025"],
-          ["Spring Term 3", "Sep 29–Oct 10, 2025", "Sep 29–Oct 10, 2025", "Oct 6–17, 2025", "Oct 6–17, 2025", "Oct 6–17, 2025"],
-          ["Summer Term 4", "Dec 8, 2025–Jan 30, 2026", "Dec 8, 2025–Jan 30, 2026", "Dec 1, 2025–Jan 30, 2026", "Dec 8, 2025–Jan 30, 2026", "Dec 8, 2025–Jan 30, 2026"]
+          [
+            "Autumn Term 1",
+            "Apr 7–18, 2025",
+            "Apr 7–18, 2025",
+            "Apr 7–18, 2025",
+            "Apr 7–18, 2025",
+            "Apr 7–18, 2025"
+          ],
+          [
+            "Easter Mon 2025",
+            "April 21 (not a school holiday)",
+            "April 21 (not a school holiday)",
+            "April 21 (not a school holiday)",
+            "April 21",
+            "April 21"
+          ],
+          [
+            "Winter Term 2",
+            "Jul 7–18, 2025",
+            "Jul 7–18, 2025",
+            "Jul 7–18, 2025",
+            "Jul 7–18, 2025",
+            "Jul 7–18, 2025"
+          ],
+          [
+            "Spring Term 3",
+            "Sep 29–Oct 10, 2025",
+            "Sep 29–Oct 10, 2025",
+            "Oct 6–17, 2025",
+            "Oct 6–17, 2025",
+            "Oct 6–17, 2025"
+          ],
+          [
+            "Summer Term 4",
+            "Dec 8, 2025–Jan 30, 2026",
+            "Dec 8, 2025–Jan 30, 2026",
+            "Dec 1, 2025–Jan 30, 2026",
+            "Dec 8, 2025–Jan 30, 2026",
+            "Dec 8, 2025–Jan 30, 2026"
+          ]
         ]
       }
     },
     {
       "heading": "School Holiday Dates by Region 2026",
       "table": {
-        "headers": ["Holiday", "Auckland", "Wellington", "Christchurch", "Hamilton", "Tauranga"],
+        "headers": [
+          "Holiday",
+          "Auckland",
+          "Wellington",
+          "Christchurch",
+          "Hamilton",
+          "Tauranga"
+        ],
         "rows": [
-          ["Autumn Term 1", "Apr 6–17, 2026", "Apr 6–17, 2026", "Apr 6–17, 2026", "Apr 6–17, 2026", "Apr 6–17, 2026"],
-          ["Easter Mon 2026", "April 5 (not a school holiday)", "April 5 (not a school holiday)", "April 5 (not a school holiday)", "April 5", "April 5"],
-          ["Winter Term 2", "Jul 6–17, 2026", "Jul 6–17, 2026", "Jul 6–17, 2026", "Jul 6–17, 2026", "Jul 6–17, 2026"],
-          ["Spring Term 3", "Sep 28–Oct 9, 2026", "Sep 28–Oct 9, 2026", "Oct 5–16, 2026", "Oct 5–16, 2026", "Oct 5–16, 2026"],
-          ["Summer Term 4", "Dec 7, 2026–Jan 29, 2027", "Dec 7, 2026–Jan 29, 2027", "Nov 30, 2026–Jan 29, 2027", "Dec 7, 2026–Jan 29, 2027", "Dec 7, 2026–Jan 29, 2027"]
+          [
+            "Autumn Term 1",
+            "Apr 6–17, 2026",
+            "Apr 6–17, 2026",
+            "Apr 6–17, 2026",
+            "Apr 6–17, 2026",
+            "Apr 6–17, 2026"
+          ],
+          [
+            "Easter Mon 2026",
+            "April 5 (not a school holiday)",
+            "April 5 (not a school holiday)",
+            "April 5 (not a school holiday)",
+            "April 5",
+            "April 5"
+          ],
+          [
+            "Winter Term 2",
+            "Jul 6–17, 2026",
+            "Jul 6–17, 2026",
+            "Jul 6–17, 2026",
+            "Jul 6–17, 2026",
+            "Jul 6–17, 2026"
+          ],
+          [
+            "Spring Term 3",
+            "Sep 28–Oct 9, 2026",
+            "Sep 28–Oct 9, 2026",
+            "Oct 5–16, 2026",
+            "Oct 5–16, 2026",
+            "Oct 5–16, 2026"
+          ],
+          [
+            "Summer Term 4",
+            "Dec 7, 2026–Jan 29, 2027",
+            "Dec 7, 2026–Jan 29, 2027",
+            "Nov 30, 2026–Jan 29, 2027",
+            "Dec 7, 2026–Jan 29, 2027",
+            "Dec 7, 2026–Jan 29, 2027"
+          ]
         ]
       }
     },
     {
       "heading": "School Holiday Dates by Region 2027",
       "table": {
-        "headers": ["Holiday", "Auckland", "Wellington", "Christchurch", "Hamilton", "Tauranga"],
+        "headers": [
+          "Holiday",
+          "Auckland",
+          "Wellington",
+          "Christchurch",
+          "Hamilton",
+          "Tauranga"
+        ],
         "rows": [
-          ["Autumn Term 1", "Apr 5–16, 2027", "Apr 5–16, 2027", "Apr 5–16, 2027", "Apr 5–16, 2027", "Apr 5–16, 2027"],
-          ["Easter Mon 2027", "March 29 (not a school holiday)", "March 29 (not a school holiday)", "March 29 (not a school holiday)", "March 29", "March 29"],
-          ["Winter Term 2", "Jul 5–16, 2027", "Jul 5–16, 2027", "Jul 5–16, 2027", "Jul 5–16, 2027", "Jul 5–16, 2027"],
-          ["Spring Term 3", "Sep 27–Oct 8, 2027", "Sep 27–Oct 8, 2027", "Oct 4–15, 2027", "Oct 4–15, 2027", "Oct 4–15, 2027"],
-          ["Summer Term 4", "Dec 6, 2027–Jan 28, 2028", "Dec 6, 2027–Jan 28, 2028", "Nov 29, 2027–Jan 28, 2028", "Dec 6, 2027–Jan 28, 2028", "Dec 6, 2027–Jan 28, 2028"]
+          [
+            "Autumn Term 1",
+            "Apr 5–16, 2027",
+            "Apr 5–16, 2027",
+            "Apr 5–16, 2027",
+            "Apr 5–16, 2027",
+            "Apr 5–16, 2027"
+          ],
+          [
+            "Easter Mon 2027",
+            "March 29 (not a school holiday)",
+            "March 29 (not a school holiday)",
+            "March 29 (not a school holiday)",
+            "March 29",
+            "March 29"
+          ],
+          [
+            "Winter Term 2",
+            "Jul 5–16, 2027",
+            "Jul 5–16, 2027",
+            "Jul 5–16, 2027",
+            "Jul 5–16, 2027",
+            "Jul 5–16, 2027"
+          ],
+          [
+            "Spring Term 3",
+            "Sep 27–Oct 8, 2027",
+            "Sep 27–Oct 8, 2027",
+            "Oct 4–15, 2027",
+            "Oct 4–15, 2027",
+            "Oct 4–15, 2027"
+          ],
+          [
+            "Summer Term 4",
+            "Dec 6, 2027–Jan 28, 2028",
+            "Dec 6, 2027–Jan 28, 2028",
+            "Nov 29, 2027–Jan 28, 2028",
+            "Dec 6, 2027–Jan 28, 2028",
+            "Dec 6, 2027–Jan 28, 2028"
+          ]
         ]
       }
     },
@@ -64,11 +215,35 @@
       "heading": "Easter Dates (Moving Holiday) 2025–2027",
       "body": "Easter dates move every year based on the lunar calendar. Schools don't close specifically for Easter (it falls during school holiday periods), but Easter holidays often straddle school term dates. Check school websites for Easter Monday variations by region.",
       "table": {
-        "headers": ["Year", "Easter Friday", "Easter Sunday", "Easter Monday", "School Implication"],
+        "headers": [
+          "Year",
+          "Easter Friday",
+          "Easter Sunday",
+          "Easter Monday",
+          "School Implication"
+        ],
         "rows": [
-          ["2025", "April 18", "April 20", "April 21", "Falls within April school holidays (most regions already off)"],
-          ["2026", "April 3", "April 5", "April 6", "Falls within April school holidays (most regions already off)"],
-          ["2027", "March 26", "March 28", "March 29", "Falls during term time for most regions — some may close specifically for Easter"]
+          [
+            "2025",
+            "April 18",
+            "April 20",
+            "April 21",
+            "Falls within April school holidays (most regions already off)"
+          ],
+          [
+            "2026",
+            "April 3",
+            "April 5",
+            "April 6",
+            "Falls within April school holidays (most regions already off)"
+          ],
+          [
+            "2027",
+            "March 26",
+            "March 28",
+            "March 29",
+            "Falls during term time for most regions — some may close specifically for Easter"
+          ]
         ]
       }
     },
@@ -77,13 +252,43 @@
       "body": "Teachers work on these days, but students are not in school. These vary by region and by school. Most regions have 5–8 teacher-only days per year, typically at the start or end of term.",
       "body_extra": "<h3>Auckland & Waikato (Hamilton, Tauranga)</h3><p>Teacher-only days typically scheduled: early July (before ski holiday), early October (before spring holiday), late January (after summer), plus 1–2 term-start days in February. Check individual school websites — these vary.</p><h3>Wellington</h3><p>Same pattern as Auckland. Wellington schools may add an extra teacher day in September. Check Victoria University school partnership websites for specific dates.</p><h3>Christchurch & Canterbury</h3><p>Christchurch schools often have teacher-only days: late January, mid-February (term start), early October. Christchurch may shift slightly to accommodate South Island travel logistics.</p>",
       "table": {
-        "headers": ["Region", "Typical Teacher-Only Days", "When They Occur", "How Many Per Year"],
+        "headers": [
+          "Region",
+          "Typical Teacher-Only Days",
+          "When They Occur",
+          "How Many Per Year"
+        ],
         "rows": [
-          ["Auckland", "Approx 5–6 days", "Start of terms, mid-year planning", "5–6"],
-          ["Wellington", "Approx 5–6 days", "Start of terms, professional development", "5–6"],
-          ["Christchurch", "Approx 6–7 days", "Start of terms, plus extra in October", "6–7"],
-          ["Hamilton (Waikato)", "Approx 5–6 days", "Aligns with Auckland", "5–6"],
-          ["Tauranga (Bay of Plenty)", "Approx 5–6 days", "Aligns with Auckland", "5–6"]
+          [
+            "Auckland",
+            "Approx 5–6 days",
+            "Start of terms, mid-year planning",
+            "5–6"
+          ],
+          [
+            "Wellington",
+            "Approx 5–6 days",
+            "Start of terms, professional development",
+            "5–6"
+          ],
+          [
+            "Christchurch",
+            "Approx 6–7 days",
+            "Start of terms, plus extra in October",
+            "6–7"
+          ],
+          [
+            "Hamilton (Waikato)",
+            "Approx 5–6 days",
+            "Aligns with Auckland",
+            "5–6"
+          ],
+          [
+            "Tauranga (Bay of Plenty)",
+            "Approx 5–6 days",
+            "Aligns with Auckland",
+            "5–6"
+          ]
         ]
       }
     },
@@ -202,17 +407,72 @@
   "schema": {
     "type": "SpecialAnnouncement",
     "event_dates": [
-      {"name": "Autumn School Holiday 2025", "startDate": "2025-04-07", "endDate": "2025-04-18", "description": "Autumn school holidays across most of NZ, April 2025"},
-      {"name": "Winter School Holiday 2025", "startDate": "2025-07-07", "endDate": "2025-07-18", "description": "Winter school holidays — peak ski season, July 2025"},
-      {"name": "Spring School Holiday 2025", "startDate": "2025-09-29", "endDate": "2025-10-10", "description": "Spring school holidays, late September–early October 2025 (regions vary)"},
-      {"name": "Summer School Holiday 2026", "startDate": "2025-12-08", "endDate": "2026-01-30", "description": "Summer school holidays, December 2025–January 2026 — 6 weeks, peak beach season"},
-      {"name": "Autumn School Holiday 2026", "startDate": "2026-04-06", "endDate": "2026-04-17", "description": "Autumn school holidays across most of NZ, April 2026"},
-      {"name": "Winter School Holiday 2026", "startDate": "2026-07-06", "endDate": "2026-07-17", "description": "Winter school holidays — peak ski season, July 2026"},
-      {"name": "Spring School Holiday 2026", "startDate": "2026-09-28", "endDate": "2026-10-09", "description": "Spring school holidays, late September–early October 2026 (regions vary)"},
-      {"name": "Summer School Holiday 2027", "startDate": "2026-12-07", "endDate": "2027-01-29", "description": "Summer school holidays, December 2026–January 2027 — 6 weeks, peak beach season"},
-      {"name": "Easter 2025", "startDate": "2025-04-18", "endDate": "2025-04-21", "description": "Easter 2025 — Friday April 18, Sunday April 20, Monday April 21"},
-      {"name": "Easter 2026", "startDate": "2026-04-03", "endDate": "2026-04-06", "description": "Easter 2026 — Friday April 3, Sunday April 5, Monday April 6"},
-      {"name": "Easter 2027", "startDate": "2027-03-26", "endDate": "2027-03-29", "description": "Easter 2027 — Friday March 26, Sunday March 28, Monday March 29"}
+      {
+        "name": "Autumn School Holiday 2025",
+        "startDate": "2025-04-07",
+        "endDate": "2025-04-18",
+        "description": "Autumn school holidays across most of NZ, April 2025"
+      },
+      {
+        "name": "Winter School Holiday 2025",
+        "startDate": "2025-07-07",
+        "endDate": "2025-07-18",
+        "description": "Winter school holidays — peak ski season, July 2025"
+      },
+      {
+        "name": "Spring School Holiday 2025",
+        "startDate": "2025-09-29",
+        "endDate": "2025-10-10",
+        "description": "Spring school holidays, late September–early October 2025 (regions vary)"
+      },
+      {
+        "name": "Summer School Holiday 2026",
+        "startDate": "2025-12-08",
+        "endDate": "2026-01-30",
+        "description": "Summer school holidays, December 2025–January 2026 — 6 weeks, peak beach season"
+      },
+      {
+        "name": "Autumn School Holiday 2026",
+        "startDate": "2026-04-06",
+        "endDate": "2026-04-17",
+        "description": "Autumn school holidays across most of NZ, April 2026"
+      },
+      {
+        "name": "Winter School Holiday 2026",
+        "startDate": "2026-07-06",
+        "endDate": "2026-07-17",
+        "description": "Winter school holidays — peak ski season, July 2026"
+      },
+      {
+        "name": "Spring School Holiday 2026",
+        "startDate": "2026-09-28",
+        "endDate": "2026-10-09",
+        "description": "Spring school holidays, late September–early October 2026 (regions vary)"
+      },
+      {
+        "name": "Summer School Holiday 2027",
+        "startDate": "2026-12-07",
+        "endDate": "2027-01-29",
+        "description": "Summer school holidays, December 2026–January 2027 — 6 weeks, peak beach season"
+      },
+      {
+        "name": "Easter 2025",
+        "startDate": "2025-04-18",
+        "endDate": "2025-04-21",
+        "description": "Easter 2025 — Friday April 18, Sunday April 20, Monday April 21"
+      },
+      {
+        "name": "Easter 2026",
+        "startDate": "2026-04-03",
+        "endDate": "2026-04-06",
+        "description": "Easter 2026 — Friday April 3, Sunday April 5, Monday April 6"
+      },
+      {
+        "name": "Easter 2027",
+        "startDate": "2027-03-26",
+        "endDate": "2027-03-29",
+        "description": "Easter 2027 — Friday March 26, Sunday March 28, Monday March 29"
+      }
     ]
   }
 }
