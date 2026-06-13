@@ -6,19 +6,32 @@
 
 {% block extra_head %}
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "AboutPage",
-  "name": "About NZ Family Travel",
-  "description": "NZ Family Travel is built by New Zealand parents who have done these trips with their own kids.",
-  "url": "{{ site.base_url }}/about/",
-  "publisher": {
-    "@type": "Organization",
-    "name": "NZ Family Travel",
-    "url": "{{ site.base_url }}",
-    "contactPoint": {"@type": "ContactPoint", "email": "{{ site.contact_email }}", "contactType": "customer support"}
-  }
-}
+{"@context":"https://schema.org","@graph":[
+  {"@type":"AboutPage",
+   "name":"About NZ Family Travel",
+   "description":"NZ Family Travel is built by New Zealand parents who have done these trips with their own kids.",
+   "url":"{{ site.base_url }}/about/",
+   "breadcrumb":{"@type":"BreadcrumbList","itemListElement":[
+     {"@type":"ListItem","position":1,"name":"Home","item":"{{ site.base_url }}/"},
+     {"@type":"ListItem","position":2,"name":"About","item":"{{ site.base_url }}/about/"}
+   ]}},
+  {"@type":"Person",
+   "@id":"{{ site.base_url }}/about/#author",
+   "name":"NZ Family Travel Team",
+   "jobTitle":"Founder, NZ Family Travel",
+   "description":"NZ parents who travel regularly with their own children. Built NZ Family Travel to answer the questions they couldn't find good answers to when planning family trips.",
+   "url":"{{ site.base_url }}/about/",
+   "email":"{{ site.contact_email }}",
+   "knowsAbout":["New Zealand family travel","NZ campervans","NZ school holidays","NZ holiday parks","NZ activities for kids","NZ road trips"],
+   "worksFor":{"@id":"{{ site.base_url }}/#organization"}},
+  {"@type":"Organization",
+   "@id":"{{ site.base_url }}/#organization",
+   "name":"NZ Family Travel",
+   "url":"{{ site.base_url }}",
+   "logo":{"@type":"ImageObject","url":"{{ site.base_url }}/static/img/favicon.svg"},
+   "contactPoint":{"@type":"ContactPoint","email":"{{ site.contact_email }}","contactType":"customer support"},
+   "founder":{"@id":"{{ site.base_url }}/about/#author"}}
+]}
 </script>
 {% endblock %}
 

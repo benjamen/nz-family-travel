@@ -81,19 +81,32 @@
   </script>
   
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "AboutPage",
-  "name": "About NZ Family Travel",
-  "description": "NZ Family Travel is built by New Zealand parents who have done these trips with their own kids.",
-  "url": "https://nzfamilytravel.co.nz/about/",
-  "publisher": {
-    "@type": "Organization",
-    "name": "NZ Family Travel",
-    "url": "https://nzfamilytravel.co.nz",
-    "contactPoint": {"@type": "ContactPoint", "email": "hello@nzfamilytravel.co.nz", "contactType": "customer support"}
-  }
-}
+{"@context":"https://schema.org","@graph":[
+  {"@type":"AboutPage",
+   "name":"About NZ Family Travel",
+   "description":"NZ Family Travel is built by New Zealand parents who have done these trips with their own kids.",
+   "url":"https://nzfamilytravel.co.nz/about/",
+   "breadcrumb":{"@type":"BreadcrumbList","itemListElement":[
+     {"@type":"ListItem","position":1,"name":"Home","item":"https://nzfamilytravel.co.nz/"},
+     {"@type":"ListItem","position":2,"name":"About","item":"https://nzfamilytravel.co.nz/about/"}
+   ]}},
+  {"@type":"Person",
+   "@id":"https://nzfamilytravel.co.nz/about/#author",
+   "name":"NZ Family Travel Team",
+   "jobTitle":"Founder, NZ Family Travel",
+   "description":"NZ parents who travel regularly with their own children. Built NZ Family Travel to answer the questions they couldn't find good answers to when planning family trips.",
+   "url":"https://nzfamilytravel.co.nz/about/",
+   "email":"hello@nzfamilytravel.co.nz",
+   "knowsAbout":["New Zealand family travel","NZ campervans","NZ school holidays","NZ holiday parks","NZ activities for kids","NZ road trips"],
+   "worksFor":{"@id":"https://nzfamilytravel.co.nz/#organization"}},
+  {"@type":"Organization",
+   "@id":"https://nzfamilytravel.co.nz/#organization",
+   "name":"NZ Family Travel",
+   "url":"https://nzfamilytravel.co.nz",
+   "logo":{"@type":"ImageObject","url":"https://nzfamilytravel.co.nz/static/img/favicon.svg"},
+   "contactPoint":{"@type":"ContactPoint","email":"hello@nzfamilytravel.co.nz","contactType":"customer support"},
+   "founder":{"@id":"https://nzfamilytravel.co.nz/about/#author"}}
+]}
 </script>
 
   <!-- GetYourGuide affiliate tracking -->
