@@ -1,0 +1,84 @@
+{
+  "slug": "nz-maori-culture-kids",
+  "short_title": "Maori Culture",
+  "title": "Experiencing Maori Culture in NZ with Kids — Best Cultural Experiences",
+  "meta_desc": "Discover the best Maori cultural experiences in NZ for kids, from Te Puia to Waitangi",
+  "intro": "Experiencing Maori culture is a highlight of any New Zealand trip, and with kids, it's essential to choose attractions that are both fun and educational. Te Puia in Rotorua is a great place to start, with its mix of geothermal wonders and traditional Maori performances. For a truly authentic experience, consider visiting a local marae or attending a cultural festival",
+  "updated": "June 2026",
+  "reading_time": 9,
+  "sections": [
+    {
+      "heading": "Top Maori Cultural Attractions",
+      "list": [
+        "Te Puia: $50-$70 NZD per person for a guided tour",
+        "Mitai Maori Village: $115-$145 NZD per person for a dinner and show package",
+        "Waitangi Treaty Grounds: $50-$70 NZD per person for a guided tour",
+        "Whakarewarewa Maori Village: $35-$50 NZD per person for a self-guided tour"
+      ]
+    },
+    {
+      "heading": "Authentic vs Tourist Experiences",
+      "body": "When choosing a Maori cultural experience, it's essential to consider what's authentic and what's tailored for tourists. For example, Hobbiton Movie Set is a popular attraction, but it's not a traditional Maori experience. On the other hand, visiting a local marae or attending a cultural festival can provide a more genuine insight into Maori culture."
+    },
+    {
+      "heading": "Age Suitability",
+      "table": {
+        "headers": [
+          "Attraction",
+          "Age Range",
+          "Price (NZD)"
+        ],
+        "rows": [
+          [
+            "Te Puia",
+            "5-15 years",
+            "30-$50"
+          ],
+          [
+            "Mitai Maori Village",
+            "10-18 years",
+            "80-$120"
+          ],
+          [
+            "Waitangi Treaty Grounds",
+            "8-16 years",
+            "25-$40"
+          ],
+          [
+            "Whakarewarewa Maori Village",
+            "5-15 years",
+            "20-$30"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Getting There",
+      "body": "Drive times from major cities: Auckland to Rotorua (3 hours), Wellington to Rotorua (5.5 hours), Queenstown to Rotorua (9 hours). Consider renting a campervan or booking a guided tour to make the most of your trip."
+    },
+    {
+      "heading": "Budgeting for Your Trip",
+      "cta": {
+        "text": "Use our NZ family travel budget calculator",
+        "url": "/tools/nz-family-travel-budget-calculator/",
+        "affiliate": false
+      }
+    },
+    {
+      "heading": "Accommodation Options",
+      "list": [
+        "Campervans: rent from $100-$200 NZD per day",
+        "Holiday parks: $30-$70 NZD per night for a family cabin",
+        "Hotels: $150-$300 NZD per night for a family room"
+      ]
+    },
+    {
+      "heading": "Plan Your Trip",
+      "cta": {
+        "text": "Explore our destinations page for more travel ideas",
+        "url": "/destinations/",
+        "affiliate": false
+      }
+    }
+  ]
+}
