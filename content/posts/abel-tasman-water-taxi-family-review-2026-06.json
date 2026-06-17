@@ -1,0 +1,55 @@
+{
+  "title": "Abel Tasman Family Fun",
+  "short_title": "Abel Tasman",
+  "meta_desc": "Experience Abel Tasman National Park with kids on a water taxi & beach day. Get insider tips, prices & how to book for a fun family day out in Nelson, NZ.",
+  "intro": "Looking for a fun and stress-free way to experience Abel Tasman National Park with your family? The Abel Tasman Water Taxi & Beach Day is a great option, allowing you to explore the park's stunning beaches without having to commit to a multi-day tramp. With prices starting at $45 per child and $70 per adult, it's an affordable day out for the whole family.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "What to Expect",
+      "body": "<p>The Abel Tasman Water Taxi & Beach Day is a full-day activity that's suitable for families with children of all ages, from 0+. You'll start the day by hopping on the water taxi at either Kaiteriteri or Marahau, and then get dropped off at one of the park's stunning beaches, such as Anchorage Bay or Bark Bay.</p> <p>Once you're on the beach, you're free to spend the day swimming, exploring, and relaxing in the sun. The beaches in Abel Tasman National Park are truly world-class, with golden sand and crystal-clear water.</p> <p>The water taxi will then pick you up at the end of the day and take you back to where you started. It's a hassle-free way to experience the park's beautiful beaches without having to worry about transport or accommodation.</p>",
+      "list": [
+        "Depart from Kaiteriteri or Marahau",
+        "Get dropped off at Anchorage Bay or Bark Bay",
+        "Spend the day swimming and exploring"
+      ]
+    },
+    {
+      "heading": "Value for Money and Age Suitability",
+      "body": "<p>The Abel Tasman Water Taxi & Beach Day is great value for money, with prices starting at $45 per child and $70 per adult. It's a full-day activity, so you'll get plenty of time to enjoy the beach and make the most of your money.</p> <p>The activity is suitable for families with children of all ages, from 0+. The beaches are stroller-friendly, and there are plenty of shade trees and picnic tables to make it easy to spend the day with young children.</p>",
+      "table": {
+        "headers": [
+          "Age",
+          "Price"
+        ],
+        "rows": [
+          [
+            "Adult",
+            "$70"
+          ],
+          [
+            "Child",
+            "$45"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Insider Tips and Best Time to Visit",
+      "body": "<p>To make the most of your Abel Tasman Water Taxi & Beach Day, be sure to book in advance, especially during peak season (December to February). It's also a good idea to pack plenty of sunscreen, hats, and water, as the sun can be strong in the park.</p> <p>The best time to visit Abel Tasman National Park is during the summer months (December to February), when the weather is warm and sunny. However, if you're looking for a more relaxed atmosphere and lower prices, consider visiting during the shoulder season (October to November or March to April).</p>"
+    },
+    {
+      "heading": "How to Book and Save Money",
+      "body": "<p>To book your Abel Tasman Water Taxi & Beach Day, simply visit the official website or contact the operator directly. You can also book through a local tourist information center or travel agent.</p> <p>To save money, be sure to book in advance and take advantage of any special deals or discounts that may be available. You can also consider visiting during the shoulder season, when prices are often lower.</p>",
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "abel-tasman-water-taxi-family-review-2026-06",
+  "updated": "June 2026",
+  "auto_generated": true,
+  "generated_date": "2026-06-18"
+}
