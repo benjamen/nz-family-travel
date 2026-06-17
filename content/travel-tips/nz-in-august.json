@@ -2,101 +2,93 @@
   "slug": "nz-in-august",
   "short_title": "NZ in August",
   "title": "NZ Family Holiday in August — Ski Season & Winter Value",
-  "meta_desc": "NZ in August with kids: the tail end of ski season, no school holidays, and genuinely excellent value. What's worth doing, and where August surprises you.",
-  "intro": "August is an underrated month for NZ family travel. The school holidays are done, the ski fields are still running (often with great snow cover from July storms), and prices drop noticeably compared to July. It's a month that rewards families who are flexible — mid-week ski trips at Cardrona or Mt Hutt can be half the cost of July school holiday prices, with empty slopes to match. The weather remains cold but August often brings some of the clearest days of winter.",
-  "updated": "May 2026",
-  "reading_time": 6,
+  "meta_desc": "NZ in August with kids: the tail end of ski season, no school holidays, whale watching at Kaikōura, and genuinely excellent value. Where to go, what to do, and costs.",
+  "intro": "August is one of New Zealand's most underrated months for family travel. The July school holidays are over, the ski fields are still running — often with the deepest, most reliable snow of the season — and prices drop noticeably compared to July. It's a month that rewards flexible families: mid-week ski trips at Cardrona or Mt Hutt can be half the cost of July school-holiday prices, with near-empty slopes to match. August is still winter, but it's the tail end: the days are slowly lengthening, whale-watching season is ramping up at Kaikōura, and the first spring blossoms start appearing in Central Otago. This guide covers the best August destinations, what to do beyond skiing, August weather by region, costs, and a packing list.",
+  "updated": "June 2026",
+  "reading_time": 9,
+  "key_takeaway": "August is the best-value winter month in NZ: no school holidays means cheaper, quieter ski trips and easy last-minute bookings. Beyond skiing, it's prime time for Kaikōura whale watching, Rotorua hot pools, and the first signs of spring in Queenstown.",
   "sections": [
     {
       "heading": "Why August is Better Than July for Budget Ski Trips",
       "list": [
-        "No school holidays in August (except for Auckland Anniversary in late January — not relevant in August)",
-        "Weekday lift tickets at major ski fields are 20-30% cheaper than July school holiday pricing",
+        "No school holidays in August — slopes and accommodation are far quieter than the July peak",
+        "Weekday lift tickets at major ski fields are 20–30% cheaper than July school-holiday pricing",
         "Holiday parks in Queenstown and Wanaka have availability without booking months ahead",
-        "Ski rental and lessons are easier to book last-minute",
-        "Snow quality is often excellent in August — July storms pack down to firm groomed runs that experienced skiers love",
-        "Flights from Auckland to Queenstown/Christchurch are at winter off-peak prices"
+        "Ski rental and lessons are easy to book at short notice",
+        "Snow quality is often excellent in August — July storms pack down into firm, groomed runs with the deepest base of the season",
+        "Flights from Auckland to Queenstown and Christchurch sit at winter off-peak prices"
       ]
     },
     {
-      "heading": "August Weather Across NZ",
+      "heading": "Best Destinations for August in NZ",
+      "body": "<p>August suits families who lean into winter. Ski towns are quieter and cheaper than July; thermal regions are at their atmospheric best; and the east coast offers whale watching and the first hints of spring. Here are the standout destinations with a rough nightly cost for a family of four.</p>",
       "table": {
-        "headers": [
-          "Region",
-          "Average high",
-          "Rain days",
-          "Notes"
-        ],
+        "headers": ["Destination", "Why August", "Typical cost/night (family of 4)"],
         "rows": [
-          [
-            "Auckland / Northland",
-            "15C",
-            "13 days",
-            "Gradually improving; often sunny stretches"
-          ],
-          [
-            "Rotorua / Bay of Plenty",
-            "13C",
-            "12 days",
-            "Thermal regions are excellent in August"
-          ],
-          [
-            "Wellington",
-            "11C",
-            "14 days",
-            "Still windy and cold — not a beach month"
-          ],
-          [
-            "Nelson / Marlborough",
-            "14C",
-            "11 days",
-            "Sunnier than Wellington, reasonable for outdoor activity"
-          ],
-          [
-            "Christchurch",
-            "12C",
-            "11 days",
-            "Cold but often clear — Mt Hutt is usually excellent in August"
-          ],
-          [
-            "Queenstown / Wanaka",
-            "10C",
-            "10 days",
-            "Good ski conditions; far less crowded than July"
-          ],
-          [
-            "Fiordland",
-            "9C",
-            "15 days",
-            "Milford Sound is dramatic — road conditions need checking"
-          ]
+          ["Queenstown / Wanaka", "Deep snow, quiet slopes, last full month of reliable skiing — and the first spring blossoms appear late in the month", "$180–$320 (cheaper than July)"],
+          ["Kaikōura", "Whale-watching season ramping up; sperm whales year-round plus winter orca and humpbacks", "$150–$240"],
+          ["Rotorua", "Hot pools and thermal parks are magical in the cold; quiet Māori cultural experiences", "$150–$230"],
+          ["Christchurch", "Clear, frosty days, the Antarctic Centre, and Mt Hutt 90 minutes away", "$140–$230"],
+          ["Nelson / Marlborough", "Sunniest winter region; the start of better outdoor weather", "$150–$230"]
+        ]
+      }
+    },
+    {
+      "heading": "August Weather Across NZ",
+      "body": "<p>August is mid-winter but on the turn — days are getting longer and August often brings some of the clearest skies of the season. The South Island stays cold (great for skiing); the North Island is mild and improving. Pack warm layers everywhere and wet-weather gear for Auckland and the west.</p>",
+      "table": {
+        "headers": ["Region", "Average high", "Rain days", "Notes"],
+        "rows": [
+          ["Auckland / Northland", "15°C", "13 days", "Gradually improving; often sunny stretches between fronts"],
+          ["Rotorua / Bay of Plenty", "13°C", "12 days", "Thermal regions are excellent in August"],
+          ["Wellington", "11°C", "14 days", "Still windy and cold — not a beach month"],
+          ["Nelson / Marlborough", "14°C", "11 days", "Sunnier than Wellington; reasonable for outdoor activity"],
+          ["Christchurch", "12°C", "11 days", "Cold but often clear — Mt Hutt is usually excellent in August"],
+          ["Queenstown / Wanaka", "10°C", "10 days", "Good ski conditions; far less crowded than July"],
+          ["Fiordland", "9°C", "15 days", "Milford Sound is dramatic — always check road conditions"]
         ]
       }
     },
     {
       "heading": "Non-Ski August Activities",
       "list": [
-        "Whale watching at Kaikōura: August is in season — sperm whales are seen year-round but humpbacks and orca increase in winter/spring.",
-        "Rotorua: winter is the best time for Māori cultural experiences — Te Puia and Tamaki Maori Village both run year-round and aren't crowded in August.",
-        "Christchurch: Antarctic Centre is excellent on cold days. The botanical glasshouses are warm and free.",
-        "Northland: Far North is milder in winter than Auckland — Cape Reinga is uncrowded and dramatic under winter sky.",
-        "Wellington: Te Papa (Māori and natural history museum), absolutely free, world-class, and fully indoor."
+        "Whale watching at Kaikōura: August is prime season — sperm whales are seen year-round, while humpbacks and orca pass through more often in winter and early spring. Book 2–3 days in a row to allow for any weather cancellations.",
+        "Rotorua: winter is the best time for Māori cultural experiences — Te Puia and the evening cultural performances run year-round and aren't crowded in August. Pair with the hot pools at Polynesian Spa.",
+        "Christchurch: the International Antarctic Centre is perfect on a cold day, and the Botanic Gardens glasshouses are warm and free.",
+        "Spring flowers in Central Otago: late August brings the first blossoms to Queenstown, Cromwell and Alexandra — a lovely sign the season is turning.",
+        "Wellington: Te Papa is free, world-class and fully indoor — ideal for a rainy August day with kids."
       ]
     },
     {
-      "heading": "August Planning Tips",
+      "heading": "August Cost Guide",
+      "body": "<p>August is the cheapest month of the year for a NZ family holiday — even cheaper than July outside the ski fields, because there are no school holidays driving demand. Ski-town accommodation that's fully booked and premium-priced in July often has availability and lower rates in August, especially mid-week.</p><p>As a family-of-four guide: a non-ski city or thermal break runs around $280–$420/day all in. A mid-week ski day is the main expense — budget $130–$220 per person for a lift pass and hire gear, noticeably less than July school-holiday rates. Campervan hire is at rock-bottom winter pricing, making August arguably the best month of the year to grab a deal. Save further with multi-day passes booked online, self-catering, and travelling mid-week.</p>"
+    },
+    {
+      "heading": "Packing List for NZ in August",
       "list": [
-        "August school holiday deal: many NZ attractions run mid-winter school holiday programmes — check local event listings for your destination",
-        "Ski fields typically close in late September — August is the last full month of reliable ski season in most resorts",
-        "Kaikōura whale watching: book 2-3 days in a row to account for any weather cancellations",
-        "Wellington August events include various festivals — check WHAT'S ON Wellington before booking",
-        "Campervan hire in August is at rock-bottom pricing — best month of the year to get a deal"
+        "Warm layers: thermals, fleece and a jumper for everyone (still proper winter in the south)",
+        "Waterproof jacket — August can be wet, especially in Auckland and the west",
+        "Hats, gloves and scarves, with spares for the kids",
+        "Waterproof boots with grip for frosty mornings",
+        "Ski gear or budget for hire if you're heading to the slopes",
+        "Swimwear and quick-dry towels for the hot pools",
+        "Warm, windproof layers for Kaikōura whale-watching boats — it's cold on the water"
       ],
       "cta": {
         "text": "Compare August campervan prices",
         "url": "https://www.discovercars.com/",
         "affiliate": true
       }
+    },
+    {
+      "heading": "August Planning Tips",
+      "list": [
+        "Ski fields typically close in late September — August is the last full month of reliable ski season in most resorts",
+        "Travel mid-week for the lowest lift and accommodation prices",
+        "Kaikōura whale watching: book 2–3 days in a row to account for any weather cancellations",
+        "Check local event listings — some destinations run mid-winter festivals and family programmes into August",
+        "Campervan hire in August is at rock-bottom pricing — the best month of the year to get a deal"
+      ]
     }
   ],
   "hero_image": {
@@ -105,18 +97,26 @@
     "alt": "Early spring thaw in New Zealand August",
     "credit": "Unsplash / Adam Kool"
   },
-  "faq": [
+  "faqs": [
     {
-      "question": "Is August good for skiing in New Zealand?",
-      "answer": "August is typically the best snow month in NZ with the deepest base and most reliable conditions. Most ski fields are fully open: Coronet Peak, The Remarkables, Cardrona, Treble Cone, and Mt Ruapehu. Late August can see early thaw at lower elevations but higher terrain stays good."
+      "q": "Is August good for skiing in New Zealand?",
+      "a": "August is typically the best snow month in NZ, with the deepest base and most reliable conditions. Most ski fields are fully open: Coronet Peak, The Remarkables, Cardrona, Treble Cone, and Mt Ruapehu. Late August can see early thaw at lower elevations, but higher terrain stays good — and with no school holidays, it's cheaper and quieter than July."
     },
     {
-      "question": "What is the weather in NZ in August?",
-      "answer": "August is mid-winter across NZ. Queenstown: 4–10°C, cold nights, sunny days. Christchurch: 5–11°C, frosty mornings. Wellington: 8–12°C, very windy. Auckland: 10–14°C, wettest month of the year. Pack serious winter layers for the South Island and wet-weather gear for Auckland."
+      "q": "What is the weather in NZ in August?",
+      "a": "August is mid-winter across NZ but on the turn. Queenstown: 4–10°C, cold nights, often sunny days. Christchurch: 5–11°C, frosty mornings. Wellington: 8–12°C, very windy. Auckland: 10–15°C and one of the wetter months. Pack serious winter layers for the South Island and wet-weather gear for Auckland."
     },
     {
-      "question": "What can families do in NZ in August besides skiing?",
-      "answer": "Rotorua (hot pools in cold weather is magical), Wellington's Te Papa and Zealandia wildlife sanctuary, Auckland's Kelly Tarlton's Aquarium, Waitomo Glowworm Caves, and the Marlborough Wine Trail (adult activity but kid-friendly wineries exist). Whale watching in Kaikōura is excellent year-round."
+      "q": "What can families do in NZ in August besides skiing?",
+      "a": "Plenty: whale watching at Kaikōura, Rotorua's hot pools and thermal parks, Wellington's Te Papa and Zealandia wildlife sanctuary, Auckland's Kelly Tarlton's, the Waitomo glowworm caves, and Christchurch's International Antarctic Centre. Late August also brings the first spring blossoms to Central Otago."
+    },
+    {
+      "q": "Is August cheaper than July in NZ?",
+      "a": "Yes — August is generally the best-value winter month because there are no school holidays. Ski-town accommodation and lift passes are 20–30% cheaper than July school-holiday rates, especially mid-week, and campervan hire hits rock-bottom winter pricing. Book online and travel mid-week for the best deals."
+    },
+    {
+      "q": "Can you see whales in NZ in August?",
+      "a": "Yes — Kaikōura is the place. Sperm whales are present year-round, and winter into early spring is a good time for orca and humpbacks passing through. August is firmly in season. Book a few consecutive days in case a tour is cancelled for weather, and pack warm, windproof layers for the boat."
     }
   ]
 }

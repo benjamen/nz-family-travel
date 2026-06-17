@@ -1,108 +1,86 @@
 {
   "slug": "nz-in-july",
   "short_title": "NZ in July",
-  "title": "NZ Family Holiday in July — Winter School Holidays & Skiing",
-  "meta_desc": "NZ in July with kids: the peak of ski season and the July school holidays. Where to ski, what to do without snow, and how to book the July school holiday period without overspending.",
-  "intro": "July is New Zealand's winter school holiday month — the ski fields are in full swing, holiday parks in Queenstown and Wanaka are booked solid, and families from across NZ descend on the South Island for ski trips. If skiing is your goal, July is the month to do it. If you're not skiing, the smart move is to head to the North Island where winter is mild and attractions are uncrowded.",
-  "updated": "May 2026",
-  "reading_time": 7,
+  "title": "NZ Family Holiday July 2026 — Ski Season, School Holidays & Costs",
+  "meta_desc": "NZ family holiday July 2026: school holiday dates, best winter destinations, ski fields, July weather by region, costs, and a packing list for NZ in July with kids.",
+  "intro": "July is the heart of a New Zealand winter — and it is one of the most rewarding (and most misunderstood) months for a family holiday. Yes, much of the country is cold and wet, but July is also when the ski fields are in full swing, when the July school holidays give you a natural two-week window to travel, and when prices outside the ski towns drop noticeably. If you choose the right destination, a NZ family holiday in July can be genuinely brilliant: snowy mountains, steaming hot pools, quiet museums, and far fewer crowds than the summer peak. This guide covers the July 2026 school holiday dates, the best destinations, what it actually costs, and exactly what to pack.",
+  "updated": "June 2026",
+  "reading_time": 9,
+  "key_takeaway": "July is a great NZ family holiday month if you embrace winter — head to Queenstown for skiing, Rotorua for hot pools and thermal parks, or a major city for indoor attractions. Outside the ski resorts, July is low season, so accommodation is 20–40% cheaper than summer.",
   "sections": [
     {
-      "heading": "July School Holidays (2026 Dates)",
-      "body": "NZ school holidays in July 2026 run approximately July 11–26 for most regions (check your region's specific dates). This is the peak week for ski fields — book accommodation 8–12 weeks ahead for Queenstown, Wanaka, and Methven during these weeks."
+      "heading": "Is July a Good Time for a NZ Family Holiday?",
+      "body": "<p>Honestly? July is cold and often wet across much of New Zealand — there's no point pretending otherwise. Most of the North Island sits around 12–14°C during the day, and the South Island can drop below freezing overnight. If your idea of a holiday is beaches and sunshine, July is not your month.</p><p>But July has real advantages for families. The July school holidays mean you can travel without pulling kids out of class. The ski fields are open and at their best. Crowds are far lower than the December–February peak, so attractions, restaurants and even Hobbiton feel relaxed. And — crucially for families on a budget — accommodation outside the ski towns is genuinely cheap, often 20–40% below summer rates.</p><p>The trick is matching your destination to the season. Skiing? Head to Queenstown, Wanaka or Mt Hutt. Not skiing? Choose a destination built for winter: Rotorua's thermal parks, Auckland's indoor attractions, or a city base with plenty of rainy-day options. Done right, July is one of the best-value family holiday months of the year.</p>"
     },
     {
-      "heading": "July Weather Across NZ",
+      "heading": "NZ School Holidays July 2026 — Dates",
+      "body": "<p>The July school holidays mark the end of Term 2 and the start of Term 3. Dates vary slightly by region and school (each board of trustees can set its own start and finish days within a few days of the national guideline), so always confirm with your specific school. As a guide, Term 2 ends in early-to-mid July and Term 3 begins in late July, giving roughly a two-week break.</p><p>Book ski-town accommodation 8–12 weeks ahead for these weeks — Queenstown, Wanaka and Methven fill up fast during the July school holidays.</p>",
       "table": {
-        "headers": [
-          "Region",
-          "Average high",
-          "Rain days",
-          "Snow?",
-          "Notes"
-        ],
+        "headers": ["Region", "Term 2 ends (approx)", "Term 3 starts (approx)"],
         "rows": [
-          [
-            "Auckland",
-            "14C",
-            "15 days",
-            "None",
-            "Cold and grey — but mild by global standards. Indoor attractions are excellent."
-          ],
-          [
-            "Rotorua",
-            "12C",
-            "13 days",
-            "Very rare",
-            "Thermal attractions hit peak season in the steam-filled cold"
-          ],
-          [
-            "Wellington",
-            "10C",
-            "15 days",
-            "Very rare",
-            "Cold and windy — stick to Te Papa and City Gallery"
-          ],
-          [
-            "Christchurch",
-            "10C",
-            "12 days",
-            "On Mt Hutt",
-            "Cold and dry; Mt Hutt 90 minutes away is the key drawcard"
-          ],
-          [
-            "Queenstown",
-            "8C",
-            "10 days",
-            "Yes — ski fields",
-            "Peak month — book early, expect busy slopes"
-          ],
-          [
-            "Wanaka",
-            "8C",
-            "9 days",
-            "Yes — Cardrona/Treble Cone",
-            "Slightly quieter than Queenstown; excellent family ski resort"
-          ],
-          [
-            "Fiordland",
-            "7C",
-            "17 days",
-            "On peaks",
-            "Very wet; Milford Sound is dramatic but the drive requires care"
-          ]
+          ["Auckland", "Fri 3 July 2026", "Mon 20 July 2026"],
+          ["Wellington", "Fri 3 July 2026", "Mon 20 July 2026"],
+          ["Canterbury / Christchurch", "Fri 3 July 2026", "Mon 20 July 2026"],
+          ["Otago / Queenstown", "Fri 3 July 2026", "Mon 20 July 2026"],
+          ["Waikato", "Fri 3 July 2026", "Mon 20 July 2026"],
+          ["Bay of Plenty", "Fri 3 July 2026", "Mon 20 July 2026"]
         ]
       }
     },
     {
-      "heading": "NZ Ski Resorts for Kids — July Guide",
+      "heading": "Best Destinations for July in NZ",
+      "body": "<p>Some places shine in winter and others go quiet. Here are the destinations that are genuinely worth the trip in July, with a rough nightly accommodation cost for a family of four.</p>",
+      "table": {
+        "headers": ["Destination", "Why July", "Typical cost/night (family of 4)"],
+        "rows": [
+          ["Queenstown", "Peak ski season — Coronet Peak and The Remarkables on the doorstep, plus all-weather gondola and luge", "$220–$380"],
+          ["Rotorua", "Thermal parks and hot pools are spectacular in cold air; loads of indoor and rain-safe options", "$150–$240"],
+          ["Auckland", "Mild winter, world-class indoor attractions, school holiday programmes everywhere", "$170–$280"],
+          ["Christchurch", "Dry winter days, winter events, and Mt Hutt 90 minutes away for skiing", "$150–$240"],
+          ["Abel Tasman / Nelson", "Sunniest region in NZ — the tail of good hiking weather before deep winter", "$150–$230"]
+        ]
+      }
+    },
+    {
+      "heading": "Top Activities for NZ Families in July",
       "list": [
-        "Coronet Peak (Queenstown): Learners' area, ski school from age 3, good beginner terrain. The most accessible Queenstown resort.",
-        "The Remarkables (Queenstown): better for intermediate skiers, stunning scenery, slightly less crowded than Coronet.",
-        "Cardrona (Wanaka): NZ's best family ski resort — dedicated kids' zones, excellent ski school, terrain parks. Book ski school at least 2 weeks ahead in July.",
-        "Mt Hutt (Methven): 1.5 hrs from Christchurch, excellent facilities, more affordable than Queenstown-based resorts.",
-        "Treble Cone (Wanaka): advanced terrain — not suitable for beginners but spectacular for experienced families.",
-        "Budget tip: buy multi-day passes online in advance — saves 20-30% vs gate prices."
+        "Ski fields: Cardrona and Coronet Peak (Queenstown/Wanaka), Mt Hutt (Christchurch), and Ruapehu's Whakapapa & Tūroa (Central Plateau) all run ski schools and family lift passes. Book lessons 2 weeks ahead in school holidays.",
+        "Indoor attractions for cold days: trampoline parks, Kelly Tarlton's and MOTAT (Auckland), Te Papa (Wellington), and Canterbury Museum (Christchurch). Most have school-holiday programmes.",
+        "Hot pools: Rotorua's Polynesian Spa, Taupo's hot springs, and Hanmer Springs are pure magic on a cold July day — kids will happily soak for hours.",
+        "Dark sky experiences: Tekapo and the Mackenzie region offer some of the clearest winter night skies on earth — bundle up and book a stargazing tour.",
+        "Thermal walks: Wai-O-Tapu, Te Puia and Hells Gate (Rotorua) are at their most dramatic when steam meets cold air."
       ]
     },
     {
-      "heading": "July Without Skiing — North Island Advantage",
-      "list": [
-        "Rotorua in July: the steam from Wai-O-Tapu, Te Puia, and Hells Gate is at its most dramatic in cold air. Rainbow Springs is year-round and excellent for kids.",
-        "Auckland: Kelly Tarlton's, MOTAT, Auckland Museum, Rainbows End theme park (school holiday deals), and Sky Tower — all weather-proof.",
-        "Hobbiton (Matamata): quieter in July weekdays. The evening Harvest Festival tour runs during school holidays — book ahead.",
-        "Waitomo Caves: magical at any time of year. The glowworm experience is entirely underground and weather-independent.",
-        "Hamilton Gardens: free entry, large and sheltered — great for a half-day with kids of any age."
-      ]
+      "heading": "July Weather by Region",
+      "body": "<p>July is mid-winter, so plan for cold and pack layers. The North Island stays mild by global standards; the South Island gets genuinely cold, especially overnight. Rain is common in the west and north; the east coast and Central Otago are drier but colder.</p>",
+      "table": {
+        "headers": ["Region", "Avg high", "Rain days", "Notes"],
+        "rows": [
+          ["Auckland", "14°C", "15 days", "Cool and damp but rarely freezing; indoor attractions excellent"],
+          ["Wellington", "12°C", "15 days", "Cold and windy — pack a proper jacket"],
+          ["Christchurch", "9°C", "12 days", "Crisp, dry days and frosty mornings; great winter base"],
+          ["Rotorua", "12°C", "13 days", "Cool and steamy — perfect hot pool weather"],
+          ["Queenstown", "8°C", "10 days", "Cold, often sub-zero overnight; snow on the ski fields"],
+          ["Nelson", "13°C", "9 days", "Sunniest region in NZ — driest winter option"]
+        ]
+      }
     },
     {
-      "heading": "July Booking Checklist",
+      "heading": "Cost Guide for July",
+      "body": "<p>Outside the ski towns, July is shoulder-to-low season, which means real savings. Accommodation in Auckland, Rotorua and Christchurch typically runs 20–40% cheaper than the summer peak, and you'll rarely need to book months ahead. The main July expense is skiing — lift passes and hire gear add up fast.</p><p>As a rough family-of-four guide: a non-ski city break costs around $300–$450/day all in (accommodation, food, one paid activity). A ski day is the big spend — budget $150–$250 per person for a lift pass and hire gear, so a family ski day can easily reach $1,200–$1,800 once lessons are included. Save by booking multi-day passes online (20–30% off gate prices), staying in Wanaka rather than Queenstown, and self-catering where you can.</p>"
+    },
+    {
+      "heading": "Packing List for NZ in July",
       "list": [
-        "Ski accommodation in Queenstown/Wanaka: book 8-12 weeks ahead for school holiday weeks",
-        "Ski school: book at same time as accommodation — lessons fill up fast in school holidays",
-        "Hire equipment in advance online (cheaper and avoids queues): Rent a Set / Snowzone online booking",
-        "Campervan: some operators don't allow ski field driving — check T&Cs or hire a 4WD instead",
-        "Chains: mandatory for Coronet Peak and The Remarkables road — rental shops include them in ski packages"
+        "Warm layers: thermals, fleece, and a warm jumper for each family member (it's a jumper here, not a sweater!)",
+        "Waterproof jacket and over-trousers — July rain is common, especially in the west",
+        "Hats, gloves and scarves for everyone, plus spares for the kids",
+        "Good waterproof boots or shoes with grip — frosty mornings are slippery",
+        "Ski gear if skiing — or budget for hire, which is often easier and cheaper than flying with your own",
+        "Sunscreen and sunglasses — winter glare off snow burns faster than you'd think",
+        "Swimwear and quick-dry towels for the hot pools",
+        "Layers you can peel off indoors — NZ buildings can be chilly, so dressing in layers works best"
       ],
       "cta": {
         "text": "Compare July campervan prices",
@@ -117,18 +95,30 @@
     "alt": "Snow-covered NZ mountains in July",
     "credit": "Unsplash / Jonathan Müller"
   },
-  "faq": [
+  "faqs": [
     {
-      "question": "Is July a good time to take kids skiing in NZ?",
-      "answer": "July is peak ski season — all major fields are open: Coronet Peak, The Remarkables (Queenstown), Cardrona and Treble Cone (Wanaka), Mt Ruapehu (central North Island). School holidays fall in early July. Book accommodation in Queenstown and Wanaka 3–6 months ahead."
+      "q": "Is NZ cold in July?",
+      "a": "Yes — July is mid-winter. The North Island stays mild (around 12–14°C by day) but the South Island gets genuinely cold, often dropping below freezing overnight in places like Queenstown and the Mackenzie region. Pack warm layers, a waterproof jacket, and good shoes wherever you go."
     },
     {
-      "question": "How much does skiing cost for a family in NZ?",
-      "answer": "Expect $150–$250/person/day for lift passes + hire gear. A family of 4 (2 adults, 2 kids) with lessons can easily spend $1,500–$2,000/day all in. Save money with multi-day passes (significant discount), booking ski lessons in advance, and staying in Wanaka (cheaper than Queenstown)."
+      "q": "Can we ski in NZ in July?",
+      "a": "Absolutely — July is peak ski season. All the major fields are open: Coronet Peak and The Remarkables (Queenstown), Cardrona and Treble Cone (Wanaka), Mt Hutt (near Christchurch), and Whakapapa & Tūroa on Mt Ruapehu in the North Island. Book ski school and accommodation 8–12 weeks ahead for the July school holidays."
     },
     {
-      "question": "Are there non-ski activities for families in NZ in July?",
-      "answer": "Yes — Queenstown has the Skyline Gondola and luge (all-weather), Underwater Observatory, and plenty of restaurants. Rotorua is great in July: geothermal parks, luge, Te Puia cultural experiences. Wellington's Te Papa museum is a rainy-day favourite. Hobbiton is open year-round with small crowds."
+      "q": "What are the cheapest July destinations in NZ?",
+      "a": "Outside the ski towns, July is low season, so the best value is in cities and thermal towns: Rotorua, Christchurch and Auckland all have accommodation 20–40% cheaper than summer. Nelson is the driest and sunniest option. Queenstown and Wanaka are the most expensive in July because of ski demand."
+    },
+    {
+      "q": "Is the July school holiday period crowded?",
+      "a": "Only in the ski towns. Queenstown, Wanaka and Methven (Mt Hutt) get very busy during the July school holidays, so book early. Everywhere else — cities, thermal parks, museums — is far quieter than the summer peak, making July a relaxed time to visit non-ski destinations."
+    },
+    {
+      "q": "What's open in NZ in July?",
+      "a": "Almost everything indoors and weather-proof: museums (Te Papa, Auckland Museum, Canterbury Museum), thermal parks (Wai-O-Tapu, Te Puia), hot pools (Polynesian Spa, Hanmer Springs), Hobbiton, Waitomo Caves, and all the major ski fields. Some seasonal beach and hiking operators reduce hours, so check ahead for coastal activities."
+    },
+    {
+      "q": "When are the NZ school holidays in July 2026?",
+      "a": "Term 2 ends in early July (around Friday 3 July 2026) and Term 3 begins in late July (around Monday 20 July 2026), giving roughly a two-week break. Exact dates vary slightly by region and school, so confirm with your child's school before booking."
     }
   ]
 }
