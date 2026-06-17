@@ -1,0 +1,90 @@
+{
+  "slug": "nz-west-coast-with-kids",
+  "short_title": "West Coast Adventure",
+  "title": "NZ West Coast Road Trip with Kids — Pancake Rocks, Glaciers, and Rainforest",
+  "meta_desc": "Explore NZ's West Coast with kids, visiting Pancake Rocks, glaciers, and rainforests on a fun family road trip",
+  "intro": "The West Coast of New Zealand's South Island is a rugged and beautiful destination that's perfect for a family road trip. With its stunning landscapes, exciting outdoor activities, and unique attractions like the Pancake Rocks, it's an ideal place to create lifelong memories with your kids. However, before you embark on your adventure, it's essential to consider the realities of traveling with children in this region.",
+  "updated": "June 2026",
+  "reading_time": 9,
+  "sections": [
+    {
+      "heading": "Westland Itinerary",
+      "body": "A typical West Coast road trip with kids starts in Greymouth and ends in Haast, covering a distance of around 430 km. Along the way, you'll pass through charming towns like Hokitika and Franz Josef, with plenty of opportunities to stop and explore. Be sure to check the weather forecast before you leave, as the West Coast is known for its unpredictable and often rainy conditions."
+    },
+    {
+      "heading": "Must-See Attractions",
+      "list": [
+        "Pancake Rocks at Punakaiki ($10 per person, free for kids under 5)",
+        "Franz Josef Glacier ($35 per person for a guided tour, kids under 8 not recommended)",
+        "Fox Glacier ($40 per person for a guided tour, kids under 8 not recommended)",
+        "Lake Matheson ($10 per person, free for kids under 5)"
+      ]
+    },
+    {
+      "heading": "Driving Distances and Times",
+      "table": {
+        "headers": [
+          "Location",
+          "Distance from Previous Stop",
+          "Drive Time"
+        ],
+        "rows": [
+          [
+            "Greymouth to Punakaiki",
+            "45 km",
+            "30-40 minutes"
+          ],
+          [
+            "Punakaiki to Franz Josef",
+            "110 km",
+            "1 hour 20 minutes"
+          ],
+          [
+            "Franz Josef to Fox Glacier",
+            "25 km",
+            "20-30 minutes"
+          ],
+          [
+            "Fox Glacier to Haast",
+            "120 km",
+            "1 hour 30 minutes"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Franz Josef and Fox Glacier Reality Check",
+      "body": "While the glaciers are undoubtedly one of the West Coast's main attractions, they may not be suitable for young children due to the strenuous hiking and safety concerns. Consider alternative activities in the area, such as a scenic flight ($150-$200 per person) or a visit to the Franz Josef Glacier Hot Pools ($25 per person, kids under 5 free)."
+    },
+    {
+      "heading": "Accommodation Options",
+      "list": [
+        "Franz Josef Top 10 Holiday Resort (from $40 per night for a campsite, $120 per night for a cabin)",
+        "Fox Glacier Lodge (from $100 per night for a room)",
+        "Hokitika Holiday Park (from $30 per night for a campsite, $90 per night for a cabin)"
+      ]
+    },
+    {
+      "heading": "Budgeting for Your Trip",
+      "body": "To help you plan and budget for your West Coast road trip, check out our NZ Family Travel Budget Calculator. This handy tool will give you a detailed breakdown of your estimated costs, including accommodation, food, and activities.",
+      "cta": {
+        "text": "Try our NZ Family Travel Budget Calculator",
+        "url": "/tools/nz-family-travel-budget-calculator/",
+        "affiliate": false
+      }
+    },
+    {
+      "heading": "Campervan Hire",
+      "body": "If you're considering renting a campervan for your West Coast adventure, be sure to check out our campervan hire options. We have a range of vehicles to suit all budgets and family sizes, from compact 2-berth campervans to spacious 6-berth motorhomes.",
+      "cta": {
+        "text": "Explore our campervan hire options",
+        "url": "/campervans/",
+        "affiliate": false
+      }
+    },
+    {
+      "heading": "Conclusion",
+      "body": "A West Coast road trip with kids can be an incredible experience, with its stunning landscapes, exciting outdoor activities, and unique attractions. With careful planning and budgeting, you can create lifelong memories with your family in this beautiful region of New Zealand."
+    }
+  ]
+}
