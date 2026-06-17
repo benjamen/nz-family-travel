@@ -1,0 +1,80 @@
+{
+  "title": "Christchurch on Budget",
+  "short_title": "Christchurch",
+  "meta_desc": "Discover how to visit Christchurch with your family on a budget of $200-350/day, including free activities, affordable accommodation, and top attractions",
+  "intro": "Christchurch is a surprisingly great destination for families, with a wide range of activities and attractions to suit all ages and budgets. With some planning, you can have a fantastic family holiday in Christchurch without breaking the bank. From free activities like the Botanic Gardens to affordable accommodation options, we'll show you how to make the most of your trip.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Accommodation Options",
+      "body": "<p>Christchurch has a wide range of accommodation options to suit all budgets. For a family of four, you can expect to pay around $120-200 per night for a mid-range hotel or motel. Consider staying in a self-contained apartment or holiday home, which can be more cost-effective and provide more space for your family.</p> <p>Some affordable options include the Ibis Christchurch Hotel, which costs around $150 per night, or the Christchurch Top 10 Holiday Resort, which offers self-contained units from $120 per night.</p>",
+      "list": [
+        "Ibis Christchurch Hotel: $150/night",
+        "Christchurch Top 10 Holiday Resort: $120/night"
+      ]
+    },
+    {
+      "heading": "Free Activities",
+      "body": "<p>Christchurch has plenty of free activities to enjoy with your family. The Botanic Gardens are a must-visit, with stunning gardens and a peaceful atmosphere. Hagley Park is another great spot for a picnic or a game of cricket.</p> <p>The Canterbury Museum is also completely free, with world-class natural history and Antarctic exhibitions that kids will love. The Christchurch Art Gallery is another free attraction, with rotating exhibitions and kids' programmes.</p>",
+      "list": [
+        "Botanic Gardens",
+        "Hagley Park",
+        "Canterbury Museum",
+        "Christchurch Art Gallery"
+      ]
+    },
+    {
+      "heading": "Top Attractions",
+      "body": "<p>Some of Christchurch's top attractions are worth splashing out on. The International Antarctic Centre is a must-visit, with its unique and interactive exhibits. The Christchurch Gondola is another great attraction, with stunning views of the city and surrounding mountains.</p> <p>Consider purchasing a family pass for these attractions, which can be more cost-effective than buying individual tickets. The International Antarctic Centre costs around $60 for a family pass, while the Christchurch Gondola costs around $50.</p>",
+      "list": [
+        "International Antarctic Centre: $60/family pass",
+        "Christchurch Gondola: $50/family pass"
+      ]
+    },
+    {
+      "heading": "Budget Breakdown",
+      "body": "<p>Here's a rough 3-day budget breakdown for a family of four visiting Christchurch:</p>",
+      "table": {
+        "headers": [
+          "Day",
+          "Accommodation",
+          "Food",
+          "Activities",
+          "Total"
+        ],
+        "rows": [
+          [
+            "Day 1",
+            "$150",
+            "$80",
+            "$100",
+            "$330"
+          ],
+          [
+            "Day 2",
+            "$150",
+            "$80",
+            "$120",
+            "$350"
+          ],
+          [
+            "Day 3",
+            "$150",
+            "$80",
+            "$90",
+            "$320"
+          ]
+        ]
+      },
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "christchurch-with-kids-budget-family-guide-2026-06",
+  "updated": "June 2026",
+  "auto_generated": true,
+  "generated_date": "2026-06-17"
+}

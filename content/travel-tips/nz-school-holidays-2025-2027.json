@@ -3,6 +3,8 @@
   "short_title": "NZ School Holiday Dates 2025–2027",
   "title": "NZ School Holiday Dates 2025–2027 — Planning Guide",
   "meta_desc": "Complete list of NZ school holidays 2025–2027 by region — Auckland, Wellington, Christchurch, Hamilton, Tauranga. Includes teacher-only days, Easter dates, and school websites.",
+  "focus_keyword": "NZ school holidays 2026",
+  "schema_type": "Article",
   "intro": "New Zealand has four mandatory school holiday blocks per year, plus regional variations and teacher-only days that differ by region. This guide covers exact dates for 2025–2027 broken down by region, Easter variations, and which days teachers are working but students aren't. Use this to plan your family trips, book accommodation, and understand why Zealandia night tours (Wellington) and ski lifts (Queenstown) book out months ahead.",
   "key_takeaway": "All NZ regions follow the same four school holidays (April, July, October, December–January), but start/end dates vary by region by 1–2 weeks. Teacher-only days (5–8 per year) differ by region too. July = ski season peak. Summer = beach season, premium pricing, bookings needed 2–3 months ahead. Easter moves annually — 2025: April 20, 2026: April 5, 2027: March 28.",
   "updated": "June 2026",
@@ -45,6 +47,98 @@
           ]
         ]
       }
+    },
+    {
+      "heading": "Quick Reference — All 2026 NZ School Holiday Dates",
+      "body": "<p>Here's every 2026 school holiday in one table. Dates are nationwide approximations — Auckland starts Term 1 one day earlier, and Canterbury (Christchurch) often starts the summer break a week earlier. Always confirm with your child's school.</p>",
+      "table": {
+        "headers": [
+          "Holiday",
+          "Dates 2026",
+          "Length",
+          "Book ahead"
+        ],
+        "rows": [
+          [
+            "Summer 2025/26",
+            "Fri 19 Dec 2025 – Tue 27 Jan 2026",
+            "~6 weeks",
+            "Campervans by Sep, parks by Aug"
+          ],
+          [
+            "Autumn (Easter)",
+            "Fri 10 Apr – Sun 26 Apr 2026",
+            "~2 weeks",
+            "4–6 weeks ahead"
+          ],
+          [
+            "Winter (July)",
+            "Sat 27 Jun – Sun 12 Jul 2026",
+            "~2 weeks",
+            "3–4 months for ski towns"
+          ],
+          [
+            "Spring",
+            "Sat 19 Sep – Sun 4 Oct 2026",
+            "~2 weeks",
+            "4–6 weeks ahead"
+          ],
+          [
+            "Summer 2026/27",
+            "Sat 19 Dec 2026 onwards",
+            "~6 weeks",
+            "Start planning by Sep 2026"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "2026 NZ School Term Dates",
+      "body": "<p>NZ schools run four terms a year. These are the 2026 term dates (Auckland begins Term 1 a day earlier due to Auckland Anniversary). Term 4 end dates are approximate and confirmed by each school late in the year.</p>",
+      "table": {
+        "headers": [
+          "Term",
+          "Start",
+          "End"
+        ],
+        "rows": [
+          [
+            "Term 1",
+            "Wed 28 Jan (Auckland 27 Jan)",
+            "Thu 9 Apr 2026"
+          ],
+          [
+            "Term 2",
+            "Mon 27 Apr 2026",
+            "Fri 26 Jun 2026"
+          ],
+          [
+            "Term 3",
+            "Mon 13 Jul 2026",
+            "Fri 18 Sep 2026"
+          ],
+          [
+            "Term 4",
+            "Mon 5 Oct 2026",
+            "Fri 18 Dec 2026 (approx)"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Public Holidays That Affect Travel in 2026",
+      "body": "<p>Public holidays change what's open, push up accommodation demand, and create long weekends families travel on. The big ones to plan around in 2026:</p>",
+      "list": [
+        "Waitangi Day — Fri 6 Feb 2026 (long weekend, beaches busy)",
+        "Good Friday — Fri 3 Apr 2026 (restricted trading; most shops shut, supermarkets closed)",
+        "Easter Sunday — Sun 5 Apr 2026 (restricted trading; falls inside autumn school holidays)",
+        "Easter Monday — Mon 6 Apr 2026 (shops trade normally)",
+        "Anzac Day — Sat 25 Apr 2026 (restricted trading until 1pm; near end of autumn break)",
+        "King's Birthday — Mon 1 Jun 2026 (long weekend, pre-ski-season getaways)",
+        "Matariki — Fri 10 Jul 2026 (long weekend, falls inside winter school holidays)",
+        "Labour Day — Mon 26 Oct 2026 (long weekend, end of spring season)",
+        "Christmas Day & Boxing Day — Fri 25 / Sat 26 Dec 2026 (restricted trading; peak summer crowds begin)"
+      ]
     },
     {
       "heading": "School Holiday Dates by Region 2025",
@@ -293,27 +387,8 @@
       }
     },
     {
-      "heading": "School Holiday Planning by Travel Type",
-      "sections": [
-        {
-          "heading": "If You're Visiting in Winter (July School Holidays)",
-          "body": "July is peak ski season in NZ. Queenstown, Wanaka, and Ruapehu are busiest. Book accommodation 3–4 months ahead (April for July travel). Ski lift passes sell out; book before you arrive. The luge at Queenstown/Wanaka waits can reach 45+ minutes mid-morning. Arrive at opening (9am) or after 3pm. Wellington's Zealandia night tours (world-class native bird experience, only 3 tours per night) sell out 6+ weeks ahead — book immediately.",
-          "link_text": "See: July school holiday activities guide",
-          "link_url": "/travel-tips/nz-school-holiday-activities-kids"
-        },
-        {
-          "heading": "If You're Visiting in Summer (December–January)",
-          "body": "Summer school holidays are long (6 weeks in NZ, Dec–Jan) and overlap Christmas and New Year. All coastal destinations book out 8–12 weeks ahead. The Coromandel (Hot Water Beach, beaches) books out 3+ months in advance. Northland (Bay of Islands, Cape Reinga) fills fast. Expect premium pricing on everything — accommodation can be 2–3× normal cost. Tent sites and holiday parks are busiest Boxing Day through early January. Plan 2–3 months ahead minimum."
-        },
-        {
-          "heading": "If You're Visiting in Autumn (April School Holidays)",
-          "body": "April is low-key by NZ standards — excellent weather (15–20°C, golden light), few crowds. Hawke's Bay, Rotorua, and wine regions are perfect. Accommodation books out 4–6 weeks ahead (not immediately). This is when teachers recommend visiting because attractions are less crowded but still fully operational."
-        },
-        {
-          "heading": "If You're Visiting in Spring (October School Holidays)",
-          "body": "October is shoulder season — warming up (12–18°C), moderate crowds, moderate prices. Abel Tasman, Nelson, and the top of the South Island are ideal. Book 4–6 weeks ahead. This is often the best value–experience ratio for families."
-        }
-      ]
+      "heading": "Plan Each 2026 Holiday — Activity Guides & Booking Windows",
+      "body": "<p>Each NZ school holiday has its own character, weather, and booking rhythm. Here's how to plan each one, with links to our detailed activity guides for every period.</p><p><strong>Winter (July) — peak ski season.</strong> July is the busiest, most expensive holiday for snow travel. Queenstown, Wanaka, and Ruapehu fill first; book accommodation 3–4 months ahead (April for July travel) and buy ski lift passes before you arrive. The Skyline luge in Queenstown can hit 45-minute waits mid-morning — go at 9am opening or after 3pm. Wellington's Zealandia night tours (only three per night) sell out 6+ weeks ahead. See our full <a href=\"/travel-tips/nz-winter-school-holidays-activities/\">NZ winter school holidays activities guide</a>, plus city-specific picks for <a href=\"/travel-tips/school-holiday-activities-auckland-winter-2026/\">Auckland</a>, <a href=\"/travel-tips/school-holiday-activities-wellington-winter-2026/\">Wellington</a>, and <a href=\"/travel-tips/school-holiday-activities-christchurch-winter-2026/\">Christchurch</a> winter 2026.</p><p><strong>Summer (December–January) — the big one.</strong> Six weeks long and overlapping Christmas and New Year. Coastal destinations book out 8–12 weeks ahead; the Coromandel and Bay of Islands fill 3+ months in advance. Campervans sell out by September and Top 10 holiday parks by August. Expect premium pricing — accommodation can be 2–3× normal cost over Boxing Day to early January. Start planning now with our <a href=\"/travel-tips/nz-summer-school-holidays-2026-2027/\">summer school holidays 2026/27 guide</a>.</p><p><strong>Autumn (April) — best value, settled weather.</strong> Mild 15–20°C days, golden light, and far fewer crowds. Hawke's Bay, Rotorua, and the wine regions shine. Accommodation books 4–6 weeks ahead rather than months. Easter falls inside this break in 2026 — see our <a href=\"/travel-tips/nz-easter-holiday-ideas-families/\">NZ Easter holiday ideas</a> and <a href=\"/travel-tips/nz-easter-school-holidays-2027/\">Easter 2027 guide</a>.</p><p><strong>Spring (September–October) — the underrated one.</strong> Warming up (12–18°C), thinning crowds, and lower prices. Abel Tasman, Nelson, and the top of the South Island are ideal. Book 4–6 weeks ahead for the best value-to-experience ratio of the year.</p><p>For a calendar view of every holiday with destination suggestions, see the <a href=\"/school-holidays/\">NZ school holidays hub</a>. Or use our <a href=\"/tools/school-holiday-activity-finder/\">interactive school holiday activity finder</a> to filter 70+ ideas by city, age group and season.</p>"
     },
     {
       "heading": "Regional School Website Links for Confirmation",

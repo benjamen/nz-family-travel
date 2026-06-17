@@ -1,174 +1,217 @@
 {
   "slug": "nz-family-road-trip-hub",
-  "short_title": "NZ Family Road Trip Hub",
-  "title": "NZ Family Road Trip — Complete Hub Guide for 2026",
-  "meta_desc": "The complete guide to NZ family road trips in 2026. Routes, driving tips, accommodation, activities, packing lists, and how to keep kids happy on long drives.",
-  "intro": "New Zealand is one of the world's great road trip destinations — compact enough to drive properly in 2–4 weeks, varied enough that every day looks different, and with good-quality roads and accommodation infrastructure. Family road trips work particularly well in NZ because self-contained travel lets you set your own pace, stay in holiday parks, and access beaches and national parks that are hard to reach otherwise.",
-  "updated": "May 2026",
-  "reading_time": 10,
+  "short_title": "NZ Family Road Trip Guide",
+  "title": "NZ Family Road Trip Guide 2026 — Routes, Costs & Tips for Travelling with Kids",
+  "meta_desc": "Plan the perfect NZ road trip with kids in 2026. Best North & South Island routes, campervan vs car costs, DOC campsites, packing lists and driving distances.",
+  "focus_keyword": "nz road trip with kids",
+  "schema_type": "Article",
+  "intro": "A NZ road trip with kids is one of the easiest big adventures you can take as a family — driving distances are short, the scenery changes every hour, and you're rarely more than a beach or a hot pool away from your next stop. We've driven both islands with our crew, from the Coromandel to Milford Sound, and the freedom of pulling over at Huka Falls or a DOC campsite by a lake is hard to beat. This guide covers the best routes, what it actually costs, and how to keep everyone sane in the back seat.",
+  "updated": "June 2026",
+  "reading_time": 14,
   "sections": [
     {
-      "heading": "NZ Family Road Trip Routes — Overview",
-      "table": {
-        "headers": [
-          "Route",
-          "Duration",
-          "Best For",
-          "Distance",
-          "Difficulty"
-        ],
-        "rows": [
-          [
-            "North Island Circuit",
-            "10–14 days",
-            "First-time visitors, young children",
-            "~1,800km",
-            "Easy"
-          ],
-          [
-            "South Island Circuit",
-            "12–16 days",
-            "Families who want scenery, older children",
-            "~2,200km",
-            "Moderate"
-          ],
-          [
-            "Both Islands (full NZ)",
-            "21–28 days",
-            "Once-in-a-lifetime trip, all ages",
-            "~4,000km",
-            "Easy-moderate"
-          ],
-          [
-            "Auckland to Queenstown one-way",
-            "10–14 days",
-            "Families flying in/out of different airports",
-            "~2,500km",
-            "Easy-moderate"
-          ],
-          [
-            "Northland Loop (from Auckland)",
-            "5–7 days",
-            "Short trip, beach focus, young kids",
-            "~900km",
-            "Easy"
-          ],
-          [
-            "Canterbury/West Coast loop",
-            "7–10 days",
-            "South Island in depth, older children",
-            "~1,200km",
-            "Moderate"
-          ]
-        ]
-      }
-    },
-    {
-      "heading": "North Island Family Road Trip — Recommended Route",
-      "body": "The classic North Island family road trip starts and ends in Auckland and takes 10–14 days at a relaxed pace:\n\n**Day 1–2: Auckland** — settle in, visit the waterfront, Auckland Zoo, or Waiheke Island\n**Day 3–4: Northland** — Paihia/Bay of Islands (dolphins, history, beach), Cape Reinga if time allows\n**Day 5–6: Coromandel/Waikato** — Cathedral Cove, Hot Water Beach, Thames\n**Day 7–9: Rotorua** — geothermal parks, luge, Māori culture (the highlight for most families)\n**Day 10–11: Taupo** — Huka Falls, Lake Taupo, Waipahihi Botanical Reserve\n**Day 12–13: Wellington** — capital city, Te Papa (free), Zealandia, Wellington Zoo\n**Day 14: Return to Auckland via SH1**\n\nThis route works well for children of all ages. Rotorua and the Bay of Islands are the highlights for most kids."
-    },
-    {
-      "heading": "South Island Family Road Trip — Recommended Route",
-      "body": "The classic South Island route starts in Christchurch and ends in Queenstown (or loops back):\n\n**Day 1–2: Christchurch** — recovery, International Antarctic Centre, Willowbank Wildlife Reserve\n**Day 3–4: Kaikōura** — whale watching, seals, swimming, beach walks\n**Day 5–6: Nelson/Abel Tasman** — golden sand beaches, kayaking, national park walks\n**Day 7–8: West Coast** — Pancake Rocks, Hokitika Gorge, Franz Josef Glacier area\n**Day 9–10: Queenstown** — gondola, luge, lake, Arrowtown\n**Day 11–12: Te Anau/Fiordland** — Milford Sound day trip, glowworm caves\n**Day 13–14: Dunedin** — Otago Peninsula, penguins, albatross colony\n**Day 15–16: Return to Christchurch via SH1**\n\nThe South Island is more spectacular but involves longer drives. Best for children aged 5+."
-    },
-    {
-      "heading": "Driving with Kids in NZ — Tips",
+      "heading": "Why New Zealand is Perfect for Road Trips with Kids",
+      "body": "<p>New Zealand is built for family road trips. The whole country is roughly the size of the UK or Japan, but with five million people — which means short driving legs between attractions and very little traffic once you leave the cities. You can drive Auckland to Wellington in a day, or Christchurch to Queenstown in under five hours, with beaches, hot pools and playgrounds the whole way.</p><p>The infrastructure makes it genuinely family-friendly: campervan hire is everywhere, the Department of Conservation (DOC) runs hundreds of cheap, scenic campsites, and TOP 10 holiday parks offer reliable cabins with playgrounds and jumping pillows. Roads are good quality, signposting is clear, and you drive on the left. Best of all, the variety means kids are never bored — geothermal geysers one day, alpine lakes the next, golden-sand beaches after that.</p>",
       "list": [
-        "Maximum 2–3 hours driving per day with children under 5 — they hit a wall hard",
-        "Children 4–8 can handle 3–4 hours if there are interesting stops along the way",
-        "Plan stops every 90 minutes maximum — short leg stretches prevent meltdowns",
-        "Download movies and audio books before leaving — cell coverage is patchy outside cities",
-        "Bring snacks in a cooler bag — service stations are sparse and expensive in rural NZ",
-        "Check road conditions before mountain passes — Haast Pass, Lewis Pass, and Crown Range can be weather-affected",
-        "NZ roads outside cities are mostly single-lane (one lane each way) — passing requires overtaking on blind curves, which surprises overseas visitors",
-        "Rental car child seat availability is limited — book well in advance, or bring your own",
-        "School holiday traffic on SH1 is significant — allow extra time or travel mid-week"
+        "Short driving distances — most legs are 1–4 hours between great stops",
+        "Campervans widely available from $150–$250/day, fully self-contained",
+        "Hundreds of cheap DOC campsites (many $8–$15/adult, kids often free)",
+        "Reliable TOP 10 holiday parks with playgrounds, pools and jumping pillows",
+        "Constant scenery changes keep kids engaged — beach, bush, volcano, mountain"
       ]
     },
     {
-      "heading": "Rental Car vs Campervan for NZ Family Road Trip",
+      "heading": "Best NZ Road Trip Routes for Families",
+      "body": "<p>There's no single 'best' NZ road trip — it depends on your time, the kids' ages and the season. The two classic loops are the North Island circuit (warmer, shorter drives, great for under-5s) and the South Island circuit (more dramatic scenery, better for 5+). If you only have a week, a short circuit like the Coromandel from Auckland or the Northland loop packs in plenty without long days in the car.</p><p>For first-timers with young children, we always recommend starting with the North Island loop — Auckland to Rotorua, Taupo and Wellington — because the drives are manageable and the family attractions are world-class. Families with older kids who want mountains and fiords should prioritise the South Island.</p>",
       "table": {
-        "headers": [
-          "Factor",
-          "Rental Car + Accommodation",
-          "Campervan"
-        ],
+        "headers": ["Route", "Days", "Distance", "Best for"],
         "rows": [
-          [
-            "Daily cost",
-            "$80–$180 (car) + $150–$400 (accom)",
-            "$200–$350 (campervan only)"
-          ],
-          [
-            "Flexibility",
-            "High — book accommodation ahead or on day",
-            "High — freedom camping + holiday parks"
-          ],
-          [
-            "Comfort",
-            "Better — proper beds, private bathroom",
-            "Lower — small space, shared facilities"
-          ],
-          [
-            "With young children (<3)",
-            "Much easier — full-size accommodation",
-            "Difficult — space constraints"
-          ],
-          [
-            "With children 5+",
-            "Both work well",
-            "Kids often love the adventure"
-          ],
-          [
-            "Best season",
-            "Year-round",
-            "Oct–Apr best (freedom camping season)"
-          ],
-          [
-            "Budget outcome (14 days)",
-            "$4,500–$8,000 total",
-            "$3,500–$6,000 total"
-          ]
+          ["North Island loop (Auckland → Rotorua → Taupo → Wellington)", "7–10", "~1,400km", "First-timers, young kids"],
+          ["South Island loop (Christchurch → Queenstown → Fiordland → Marlborough)", "10–14", "~2,200km", "Scenery, kids aged 5+"],
+          ["Coromandel circuit from Auckland", "4–6", "~600km", "Short trip, beaches, toddlers"],
+          ["Northland loop from Auckland", "5–7", "~900km", "Beaches, history, all ages"],
+          ["Both islands (full NZ)", "21–28", "~4,000km", "Once-in-a-lifetime trip"]
         ]
       }
     },
     {
-      "heading": "Holiday Park Tips for NZ Family Road Trips",
-      "body": "Holiday parks are the backbone of NZ family road trips. The TOP 10 Holiday Parks chain provides consistent quality across NZ — booking one chain membership simplifies planning. Tips:\n- Book 4–8 weeks in advance for school holidays\n- Request cabins with ensuites — worth the extra $20–$30 for families\n- Most holiday parks have playgrounds, jumping pillows, and sometimes pools — built-in entertainment\n- Kitchen facilities in tourist parks are generally good — use them\n- Holiday parks near town centres are more convenient; those on the edge of town are usually cheaper and quieter"
+      "heading": "North Island Top 5 Road Trip Stops",
+      "body": "<p>The North Island is warmer, has shorter drives and is packed with family-friendly attractions, making it the ideal first NZ road trip with kids. Base your loop around these five stops and you'll have a full week of variety. Many of these connect nicely with our guides to <a href='/travel-tips/day-trips-from-auckland-with-kids/'>day trips from Auckland</a> if you're starting in the city.</p>",
+      "list": [
+        "Coromandel Peninsula — Cathedral Cove, dig your own spa at Hot Water Beach, calm east-coast bays",
+        "Rotorua — bubbling geothermal parks, the luge, Māori cultural shows, with Hobbiton a short side trip",
+        "Taupo — Huka Falls (free), swimming in NZ's biggest lake, free hot stream by the AC Baths",
+        "Napier — art deco streets, Marineland beach, gentle and sunny on Hawke's Bay",
+        "Tongariro / Whakapapa — volcanic landscapes, winter snow play, easy alpine walks for families"
+      ]
     },
     {
-      "heading": "Packing for a NZ Family Road Trip",
+      "heading": "South Island Top 5 Road Trip Stops",
+      "body": "<p>The South Island delivers the postcard scenery — snow-capped mountains, turquoise lakes and fiords. Drives are a little longer, so it suits kids aged 5 and up who can handle a few hours in the car between stops. These five anchor a brilliant 10–14 day loop.</p>",
       "list": [
-        "Layers for all weathers — NZ weather changes fast and varies dramatically by region",
-        "Rain jackets for everyone — essential, not optional",
-        "Swimwear and towels — beaches, holiday park pools, hot pools",
-        "Sun protection — hat, sunscreen SPF50+ (UV Index 11+ in summer)",
-        "Sand toys — kids will spend hours at NZ beaches",
-        "Portable cooler bag — for road snacks and picnic lunches",
-        "Entertainment for the car — headphones, downloaded content, audiobooks",
-        "First aid kit and regular medications — pharmacies are in cities and larger towns, not everywhere",
-        "Merino wool layers — warm, fast-drying, doesn't smell after a day in a hot car",
-        "Good walking sandals and water shoes for beach/rock exploration"
+        "Kaikōura — fur seal colony you can walk to, whale watching, mountains meeting the sea",
+        "Queenstown / Wanaka — gondola and luge, lake beaches, Puzzling World, easy alpine adventures",
+        "Te Anau / Milford Sound — glowworm caves, the iconic Milford cruise, gateway to Fiordland",
+        "Aoraki / Mount Cook — NZ's highest peak, the flat Hooker Valley Track (pram-friendly start), Dark Sky stargazing",
+        "Christchurch / Akaroa — punting and the tram in the city, French-flavoured Akaroa and Hector's dolphins"
+      ]
+    },
+    {
+      "heading": "Campervan vs Car Hire for Families",
+      "body": "<p>The big decision for any NZ road trip with kids is campervan or car hire plus accommodation. Campervans cost more per day ($150–$250) but roll your transport and bed into one, and kids genuinely love the adventure of sleeping in 'the bus'. Car hire is cheaper (from around $40/day) and far more comfortable with very young children, since you get proper beds and bathrooms each night.</p><p>As a rough rule: campervans suit families with kids aged 5+ travelling October to April, when freedom camping and warm nights make them shine. Car hire plus cabins or motels is easier with toddlers and babies, and is the only sensible option in winter. Whichever you choose, book child seats well ahead — rental availability is limited.</p>",
+      "table": {
+        "headers": ["Factor", "Car hire + accommodation", "Campervan"],
+        "rows": [
+          ["Daily cost", "From $40/day car + $120–$300 accom", "$150–$250/day all-in"],
+          ["Best with toddlers", "Much easier — real beds & bathroom", "Cramped, harder"],
+          ["Best with kids 5+", "Works well", "Kids love the adventure"],
+          ["Best season", "Year-round", "Oct–Apr (freedom camping)"],
+          ["Comfort", "Higher", "Lower but cosy"],
+          ["Flexibility", "Book ahead or day-of", "Park up almost anywhere self-contained"]
+        ]
+      }
+    },
+    {
+      "heading": "What a NZ Road Trip Costs Per Day",
+      "body": "<p>The single biggest variable in your NZ road trip budget is accommodation — everything else (fuel, food, activities) is fairly predictable. A budget-savvy family of four using DOC campsites and self-catering can genuinely travel on $60–$100 a day. Most families land in the mid-range. Below is a realistic per-day breakdown for a family of four in 2026.</p>",
+      "table": {
+        "headers": ["Style", "Per day (family of 4)", "What it looks like"],
+        "rows": [
+          ["Budget", "$60–$100", "DOC campsites, own tent/cheap campervan, self-catering, free activities"],
+          ["Mid-range", "$150–$250", "Holiday park cabins or campervan, mix of cooking & cafes, some paid attractions"],
+          ["Premium", "$400+", "Motels/hotels, restaurant meals, premium activities like cruises & jet boats"]
+        ]
+      },
+      "list": [
+        "Fuel: budget ~$0.18–$0.22/km — roughly $50–$90 for a big driving day",
+        "Groceries: ~$40–$60/day for a family self-catering",
+        "DOC campsites: many $8–$15 per adult, children often free",
+        "Holiday park cabin: $90–$160/night for a family"
+      ]
+    },
+    {
+      "heading": "Best DOC Campsites for Families",
+      "body": "<p>DOC (Department of Conservation) campsites are the secret to an affordable, scenic NZ road trip with kids. They sit in some of the country's most beautiful spots — by lakes, beaches and rivers — and cost a fraction of a holiday park. Facilities are basic (often just toilets and cold water), so they suit slightly older kids or families happy to rough it a little. Booking opens in October for the summer season, and the most popular sites fill by August for the Christmas and January peak.</p>",
+      "list": [
+        "Waipu Cove (Northland) — beachfront, safe swimming, close to Auckland",
+        "Totaranui (Abel Tasman) — golden sand, walks straight onto the Abel Tasman track",
+        "Lake Ohau (Mackenzie) — turquoise lake, mountain backdrop, big Dark Sky stargazing",
+        "Mavora Lakes (Southland) — remote, dramatic, used as a Lord of the Rings location",
+        "Book early: reservations open October; popular sites sell out by August for Dec/Jan"
+      ]
+    },
+    {
+      "heading": "Packing for a NZ Road Trip with Kids",
+      "body": "<p>NZ weather changes fast and the UV is fierce, so layers and sun protection matter more than you'd expect — even on a road trip in winter. Beyond the obvious, a few NZ-specific items make the drives smoother: a big snack stash (rural service stations are sparse and pricey), downloaded audio stories, and merino layers that stay warm and don't smell after a day in a hot car.</p>",
+      "list": [
+        "Snack stash in a cooler bag — service stations are far apart and expensive rurally",
+        "Audio stories and downloaded movies — cell coverage drops out between towns",
+        "Merino layers for everyone — warm, fast-drying, don't smell after a long day",
+        "Sunscreen SPF50+ and hats — NZ's UV is extreme even in winter and at altitude",
+        "Portable potty for toddlers — handy on long gaps between toilets",
+        "Sand shoes / water shoes — for rocky beaches and river swims",
+        "Rain jackets for all — non-negotiable on both islands",
+        "DOC hut/campsite passes if you plan to camp or walk to huts"
+      ]
+    },
+    {
+      "heading": "Driving Distances and Days Needed",
+      "body": "<p>NZ distances look small on a map but mountain roads and stops mean drives take longer than the kilometres suggest — and with kids you'll want to keep each leg short. As a guide, aim for no more than 2–3 hours of driving a day with under-5s. Use the table below to plan realistic legs.</p>",
+      "table": {
+        "headers": ["Leg", "Distance", "Driving time"],
+        "rows": [
+          ["Auckland → Rotorua", "~235km", "3 hr"],
+          ["Rotorua → Taupo", "~80km", "1 hr"],
+          ["Auckland → Wellington", "~640km", "8 hr (split over 2+ days)"],
+          ["Christchurch → Queenstown", "~485km", "4.5 hr"],
+          ["Queenstown → Te Anau (for Milford)", "~170km", "2.5 hr"],
+          ["North Island full loop", "~1,400km", "7–10 days"],
+          ["South Island full loop", "~2,200km", "10–14 days"]
+        ]
+      }
+    },
+    {
+      "heading": "Road Trip Games and Keeping Kids Sane",
+      "body": "<p>Even with short legs, every NZ road trip has its restless stretches. A mix of low-tech games and a little screen time keeps the peace. Audio books are our secret weapon — try Joy Cowley classics or Kiwi-narrated stories to set the mood — and a simple spotting game (who can find a one-lane bridge sign, a sheep truck, or a kea first) turns the scenery into entertainment.</p>",
+      "list": [
+        "Audio books — Joy Cowley and NZ-themed stories keep little ones absorbed for hours",
+        "Spotting game — first to spot one-lane bridges, sheep, kea, or 'Slow down' road signs",
+        "Tiki Tour NZ app — find quirky attractions and stops along your route",
+        "Nature journals — kids draw or list the birds, beaches and animals from each day",
+        "Number-plate and I-spy classics — still undefeated on long straights like the Desert Road"
+      ]
+    },
+    {
+      "heading": "Booking Essentials: What Sells Out First",
+      "body": "<p>A few key bookings can make or break a NZ family road trip, especially over summer and school holidays. The earlier you lock these in, the cheaper and less stressful your trip will be. Campervans and the Cook Strait ferry are the two things people most often leave too late.</p>",
+      "list": [
+        "Campervans — book by August for December/January travel; they sell out fast over summer",
+        "Interislander / Bluebridge ferry (Cook Strait) — book 3–6 months ahead for peak, especially with a vehicle",
+        "Milford Sound cruise — book at least 2 weeks ahead in summer, more for early-morning slots",
+        "TOP 10 holiday parks — popular parks fill 4–8 weeks out in school holidays",
+        "DOC campsites — bookings open October; flagship sites gone by August for Dec/Jan"
+      ]
+    },
+    {
+      "heading": "School Holiday Road Trip Timing",
+      "body": "<p>When you travel shapes which route works best. Summer (mid-December to late January) is peak everywhere — book early and expect company, but everything's open and warm. Winter suits a North Island loop built around hot pools and the Whakapapa/Tūroa ski fields, and our guide to <a href='/travel-tips/nz-winter-school-holidays-activities/'>winter school holidays</a> has more ideas. Easter and the April holidays are a sweet spot — Marlborough and Hawke's Bay are quieter and still mild. For longer-range planning, see our <a href='/travel-tips/nz-summer-school-holidays-2026-2027/'>summer school holiday planning</a> guide, and Auckland families can check our <a href='/travel-tips/school-holiday-activities-auckland-winter-2026/'>Auckland school holidays</a> roundup.</p>",
+      "list": [
+        "Summer (Dec–Jan): everywhere is great — book campervans and ferries months ahead",
+        "Winter (Jul holidays): North Island hot pools (Rotorua, Taupo) plus skiing at Whakapapa/Tūroa",
+        "Easter / April: Marlborough and Hawke's Bay are quieter and warmer than the south",
+        "Spring/Autumn shoulder: best value, fewer crowds, mild weather on both islands"
+      ]
+    },
+    {
+      "heading": "Safety and Practical Tips",
+      "body": "<p>NZ roads are safe and well-maintained, but a few things catch overseas families out. Many rural roads are two-lane with overtaking on hills and curves, and campervans should avoid steep gravel back-roads (your insurance often won't cover gravel damage). Cell coverage drops out between towns, so download maps offline and check road conditions before mountain passes.</p>",
+      "list": [
+        "Avoid gravel roads in campervans — insurance excess often won't cover gravel damage",
+        "Download offline maps — cell coverage has real gaps between towns and through passes",
+        "Take the insurance excess-reduction waiver — single-lane bridges and gravel cause most claims",
+        "Check the NZTA road conditions / Waka Kotahi app before alpine passes (Crown Range, Lewis, Haast)",
+        "Emergency number is 111; save your rental company's roadside assistance number offline",
+        "Drive on the LEFT, and never drive tired — pull into a rest area and swap or stop"
       ]
     }
   ],
   "faq": [
     {
-      "question": "How long does it take to road trip around New Zealand with kids?",
-      "answer": "A North Island family road trip takes 10–14 days at a relaxed pace. A South Island road trip takes 12–16 days. Covering both islands properly takes 21–28 days. With children under 5, allow extra days as driving time per day is limited."
+      "question": "How long does a NZ family road trip take?",
+      "answer": "A North Island loop takes 7–10 days at a relaxed family pace, while a South Island loop takes 10–14 days. Covering both islands properly needs 21–28 days. With children under 5, add extra days because you'll want to keep driving legs to 2–3 hours."
     },
     {
-      "question": "Is it safe to drive in New Zealand with kids?",
-      "answer": "Yes — NZ roads are generally safe and well-maintained. The main adjustment for overseas visitors is that many roads outside cities are two-lane (one lane each direction) and require overtaking on hills and curves, which requires adjustment. Mountain passes can be challenging in winter weather. Drive on the left."
+      "question": "What's the best age for kids to road trip NZ?",
+      "answer": "Any age works, but 5–12 is the sweet spot — kids can handle a few hours in the car, enjoy the activities and remember the trip. Under-5s do best on the North Island with shorter drives, while older kids and teens love the South Island's mountains and adventure activities."
     },
     {
-      "question": "What is the best NZ road trip route for families?",
-      "answer": "For families with young children, the North Island circuit (Auckland → Bay of Islands → Rotorua → Taupo → Wellington) is the best first road trip — shorter drives, excellent family attractions, and the North Island is generally warmer. Families with older children should add the South Island."
+      "question": "Is a campervan or car better for families?",
+      "answer": "Campervans ($150–$250/day) are great for kids aged 5+ travelling October to April, and children love sleeping in 'the bus'. Car hire (from $40/day) plus cabins or motels is easier and more comfortable with toddlers and babies, and is the better choice in winter."
+    },
+    {
+      "question": "How much does a NZ road trip cost for a family of 4?",
+      "answer": "Budget families using DOC campsites and self-catering can travel on $60–$100 a day. Mid-range trips with holiday park cabins and some paid activities run $150–$250 a day, and premium trips with motels and restaurant meals are $400+ a day. Accommodation is the biggest variable."
+    },
+    {
+      "question": "Do I need to book DOC campsites in advance?",
+      "answer": "For popular sites in summer, yes. Bookings open in October, and flagship campsites like Totaranui and Lake Ohau often sell out by August for the December/January peak. Smaller or first-come sites can be more relaxed, but booking ahead removes the stress over school holidays."
+    },
+    {
+      "question": "What's the best NZ road trip in winter?",
+      "answer": "A North Island loop is ideal in winter — base it around hot pools in Rotorua and Taupo and ski days at Whakapapa or Tūroa on Mt Ruapehu. Stick to car hire and cabins rather than a campervan, since freedom camping and cold nights make campervans much less appealing in winter."
+    },
+    {
+      "question": "Can I do NZ on a budget with kids?",
+      "answer": "Absolutely. Using DOC campsites, self-catering, and NZ's many free attractions — Huka Falls, beaches, lake swims and DOC walks — a family of four can road trip on $60–$100 a day. The biggest savings come from cooking your own meals and choosing cheap, scenic campsites over motels."
+    },
+    {
+      "question": "What should I pack for a NZ road trip with young children?",
+      "answer": "Pack layers and merino for fast-changing weather, SPF50+ sunscreen and hats (NZ's UV is extreme), rain jackets for everyone, a big snack stash and downloaded audio stories for the car, and a portable potty for toddlers. Add sand shoes for rocky beaches and river swims."
     }
   ],
   "hero_image": {
     "url": "/static/img/destinations/queenstown-with-kids.jpg",
-    "alt": "New Zealand family road trip",
+    "alt": "Family on a New Zealand road trip with mountain and lake views",
     "credit": "NZ Family Travel"
   }
 }

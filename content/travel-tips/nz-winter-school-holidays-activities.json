@@ -1,66 +1,142 @@
 {
   "slug": "nz-winter-school-holidays-activities",
   "short_title": "NZ Winter School Holidays",
-  "title": "NZ Winter School Holidays — Activities & Ideas 2026",
-  "meta_desc": "What to do these NZ winter school holidays? Skiing, indoor activities, hot pools, and family events for July 2026 — plus how to beat the crowds and cold.",
+  "title": "NZ Winter School Holidays 2026 — 50 Activities for Families (July)",
+  "meta_desc": "NZ winter school holidays 27 June–12 July 2026. Skiing, hot pools, indoor attractions, Matariki events and costs — 50 family ideas plus how to beat the crowds.",
   "focus_keyword": "nz winter school holidays",
   "schema_type": "Article",
-  "intro": "The July school holidays are peak winter in New Zealand — and with the right plan they're one of the best times for a family trip. This guide covers the top winter holiday activities for families, from skiing and snow play to hot pools, indoor attractions, and the Queenstown Winter Festival, plus practical tips for staying warm and avoiding the worst of the crowds.",
+  "intro": "The winter school holidays run Saturday 27 June to Sunday 12 July 2026 — two weeks slap in the middle of peak ski season, with the Matariki public holiday landing on Friday 10 July. It's our favourite time to plan something a bit different: snow play for the little ones, real skiing for the bigger kids, steamy hot pools after a cold day, and a long list of warm, dry indoor backups for when the weather turns. This guide rounds up 50 family activities for July 2026, with honest prices, age notes, and the booking tricks that stop you paying peak rates or missing out entirely.",
   "updated": "June 2026",
-  "reading_time": 7,
+  "reading_time": 9,
   "h2_outline": [
     "NZ winter school holiday dates 2026",
     "Skiing and snow play for families",
-    "Best indoor and rainy-day activities",
     "Hot pools and geothermal warmth",
-    "Winter family events and festivals",
+    "Best indoor and rainy-day activities",
+    "Matariki 2026 and winter festivals",
+    "City-by-city winter holiday guides",
     "How to beat the crowds and the cold",
     "What it costs"
   ],
   "sections": [
     {
       "heading": "NZ Winter School Holiday Dates 2026",
-      "body": "<p>The NZ winter (Term 2) school holidays run for roughly two weeks in early-to-mid July 2026. These dates line up with peak ski season, so accommodation and lift passes in Queenstown, Wanaka and Ruapehu book out early — reserve six to eight weeks ahead for the best choice.</p>"
+      "body": "<p>Here are the confirmed Term 2 winter break dates for most New Zealand state schools in 2026. A handful of Auckland schools and private schools shift their dates by a few days, so always check your own school's calendar before booking flights or accommodation.</p><p>The big one to circle is <strong>Matariki, Friday 10 July 2026</strong> — a public holiday that falls inside the break, so expect attractions, hot pools and ski fields to be especially busy that long weekend.</p>",
+      "table": {
+        "headers": ["Milestone", "Date 2026"],
+        "rows": [
+          ["Term 2 ends", "Friday 26 June"],
+          ["Winter holidays begin", "Saturday 27 June"],
+          ["Matariki public holiday", "Friday 10 July"],
+          ["Winter holidays end", "Sunday 12 July"],
+          ["Term 3 starts", "Monday 13 July"]
+        ]
+      }
     },
     {
       "heading": "Skiing and Snow Play for Families",
+      "body": "<p>July is the heart of the season and the school holidays are when the fields put on their best kids' programmes. If you've got under-5s who just want to throw snowballs, you don't need lift passes at all — several fields have free or cheap snow-play and tobogganing areas at the base.</p><p>Book ski school and lift passes online 1–2 weeks ahead during the holidays; walk-up rates are higher and beginner lessons sell out by mid-morning.</p>",
       "list": [
-        "Coronet Peak and The Remarkables (Queenstown) — strong ski-school programs",
-        "Cardrona (Wanaka) — best beginner terrain and kids' learning areas",
-        "Whakapapa / Tūroa (Ruapehu) — closest fields for North Island families",
-        "Snow play without skis: tobogganing areas and snow tubing for younger kids"
+        "Coronet Peak (Queenstown) — night skiing Fri/Sat, strong kids' ski school, ~25 min from town",
+        "The Remarkables (Queenstown) — sheltered beginner bowls, good for first-timers",
+        "Cardrona (Wanaka) — NZ's best learner terrain and dedicated kids' areas; lift pass roughly $99–$169/adult, kids under 5 free",
+        "Whakapapa & Tūroa (Mt Ruapehu) — the North Island's only commercial fields, closest for Auckland/Wellington families",
+        "Snow Farm (Wanaka) — cross-country, tubing and snow play, gentler and cheaper than the downhill fields",
+        "Snow play without skis — most fields have toboggan/sledding zones; bring waterproof gloves and snow pants"
+      ]
+    },
+    {
+      "heading": "Hot Pools and Geothermal Warmth",
+      "body": "<p>Nothing beats a hot pool after a cold day, and they're the great equaliser for families — toddlers, teens and grandparents all happy in the same place. Many have dedicated kids' or family pools kept at a gentler temperature, plus hydroslides for school-age kids.</p>",
+      "list": [
+        "Polynesian Spa, Rotorua — family pools, lake-edge setting; around $30/adult, $13/child for the family area",
+        "Hanmer Springs, Canterbury — hydroslides, toddler pools and warm lazy river; ~$28/adult, $16/child",
+        "Tekapo Springs — hot pools with Southern Alps views, plus a winter ice rink and snow tube park",
+        "Taupo Spa Park hot stream — a natural hot stream meets the cold river; completely free",
+        "Parakai Springs, Auckland — hydroslides and warm pools ~45 min from the city, a great rainy-day option",
+        "Wairakei Terraces or Te Aroha Mineral Spas — quieter, more relaxed alternatives"
       ]
     },
     {
       "heading": "Best Indoor and Rainy-Day Activities",
-      "body": "<p>Not every winter day suits the slopes. Te Papa (Wellington), the International Antarctic Centre (Christchurch), Auckland's MOTAT and indoor trampoline parks nationwide give families a warm, dry backup. See our rainy-day activities guide for city-by-city options.</p>"
+      "body": "<p>Winter weather doesn't always cooperate, so it pays to have a warm, dry plan B. The good news is NZ's flagship museums and indoor attractions are at their quietest in winter (school holidays aside), and many of the best are free for residents.</p><p>Trampoline parks, indoor climbing, bowling, ice skating and the cinema are everywhere and reliably toddler-to-teen friendly. For specific picks in each city, see our rainy-day activities guide.</p>",
+      "list": [
+        "Te Papa (Wellington) — free, with the brilliant hands-on Te Taiao nature zone",
+        "International Antarctic Centre (Christchurch) — storm room and penguins; ~$59/adult, $39/child",
+        "MOTAT & Auckland Museum (Auckland) — MOTAT trams and the museum free for Auckland residents",
+        "Snowplanet, Silverdale (Auckland) — real indoor snow year-round; allow 2 hours minimum, ~$45–$65/person",
+        "Indoor trampoline parks — Flip Out, Jump, Tactix in most main centres, ~$20/child/hour",
+        "Ten-pin bowling, indoor mini golf and the cinema — cheap, easy, weather-proof"
+      ]
     },
     {
-      "heading": "Hot Pools and Geothermal Warmth",
+      "heading": "Matariki 2026 and Winter Festivals",
+      "body": "<p>Matariki — the Māori New Year — is on <strong>Friday 10 July 2026</strong> and has quickly become one of the highlights of the winter break. Cities put on light trails, fireworks, hautapu dawn ceremonies, storytelling and free community events, many of them aimed squarely at families.</p><p>The Queenstown Winter Festival (usually late June) kicks off the season with a street party, fireworks and free family activities. Check each city's council website closer to the dates for the 2026 programme.</p>",
       "list": [
-        "Polynesian Spa and Hot Water Beach, Rotorua",
-        "Hanmer Springs Thermal Pools, Canterbury",
-        "Tekapo Springs with mountain views",
-        "Taupo's Spa Park hot stream — free"
+        "Matariki light trails and lantern walks in Auckland, Wellington, Christchurch and beyond",
+        "Hautapu dawn ceremonies — a moving, free way to mark the Māori New Year with kids",
+        "Queenstown Winter Festival — fireworks, street party and free family fun",
+        "Christchurch and Dunedin Matariki events — light installations and whānau days",
+        "Public libraries — free Matariki craft sessions and storytimes during the holidays"
       ]
+    },
+    {
+      "heading": "City-by-City Winter Holiday Guides",
+      "body": "<p>We've put together detailed winter guides for the three main centres, with specific attractions, prices and a sample day plan for each. If you're based in or visiting one of these cities, start here.</p>",
+      "list": [
+        "Auckland winter school holidays — Snowplanet, MOTAT, Parakai Springs and more",
+        "Wellington winter school holidays — Te Papa, Zealandia, Weta Workshop and the waterfront",
+        "Christchurch winter school holidays — Antarctic Centre, ice skating, Willowbank and hot pools"
+      ]
+    },
+    {
+      "heading": "How to Beat the Crowds and the Cold",
+      "body": "<p>A few small moves make a big difference in July. Book accommodation and lift passes 6–8 weeks ahead for Queenstown, Wanaka and Ruapehu — they genuinely sell out over the holidays. Hit attractions at opening or after 2pm to dodge the mid-morning rush, and keep one flexible indoor day in reserve for the inevitable wet one.</p><p>For the cold: layers beat one big coat, merino over cotton, and waterproof gloves and footwear are non-negotiable for snow play. A thermos and a stash of snacks will save you a fortune at the fields.</p>"
+    },
+    {
+      "heading": "What It Costs",
+      "body": "<p>Winter can be as cheap or as splashy as you like. Hot pools, museums and snow play keep a family day well under $100, while a full day at a ski field with gear hire and lessons is the big-ticket item. Here's a rough guide for a family of four.</p>",
+      "table": {
+        "headers": ["Activity", "Approx. cost (family of 4)"],
+        "rows": [
+          ["Free snow play + thermos lunch", "$0–$20"],
+          ["Hot pools (family pass)", "$70–$95"],
+          ["Trampoline park (1 hour)", "~$80"],
+          ["Antarctic Centre / Snowplanet", "$160–$200"],
+          ["Ski field day: passes, hire, lessons", "$400–$700+"]
+        ]
+      },
+      "cta": {
+        "text": "Compare campervan & car hire prices for your winter trip",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
     }
   ],
   "faq": [
     {
       "question": "When are the NZ winter school holidays in 2026?",
-      "answer": "The winter (Term 2) school holidays run for about two weeks in early-to-mid July 2026, coinciding with peak ski season. Check our school holidays calendar for the exact confirmed dates."
+      "answer": "For most New Zealand state schools the winter (Term 2) holidays run from Saturday 27 June to Sunday 12 July 2026, with Term 3 starting Monday 13 July. Some Auckland and private schools vary by a few days, so check your school's calendar."
     },
     {
-      "question": "What can families do in NZ during winter besides skiing?",
-      "answer": "Plenty — hot pools at Hanmer Springs and Rotorua, indoor attractions like Te Papa and the Antarctic Centre, snow play for non-skiers, and winter festivals such as the Queenstown Winter Festival."
+      "question": "Is Matariki during the 2026 school holidays?",
+      "answer": "Yes — the Matariki public holiday falls on Friday 10 July 2026, right inside the winter break. Expect hot pools, ski fields and attractions to be busy that long weekend, and look out for free council light trails and dawn ceremonies."
     },
     {
-      "question": "Is it worth visiting NZ in the July school holidays with kids?",
-      "answer": "Yes, if you plan ahead. July offers skiing, snow play and cosy hot pools, but it's peak season so book accommodation and lift passes six to eight weeks early to avoid disappointment and higher prices."
+      "question": "What can families do in winter besides skiing?",
+      "answer": "Plenty. Hot pools (Hanmer Springs, Polynesian Spa, Tekapo), free snow play, indoor attractions like Te Papa and the Antarctic Centre, trampoline parks, ice skating, and Matariki festivals all make great cold-weather days out with kids."
+    },
+    {
+      "question": "How far ahead should we book for the July school holidays?",
+      "answer": "Book accommodation and lift passes 6–8 weeks ahead for Queenstown, Wanaka and Mt Ruapehu — they sell out over the holidays and prices climb closer to the dates. Beginner ski lessons in particular fill up fast."
+    },
+    {
+      "question": "What should we pack for snow play with young kids?",
+      "answer": "Waterproof gloves, snow pants and footwear are the essentials, plus thermal layers (merino beats cotton), a warm hat and sunscreen — the alpine sun is strong even in winter. A thermos and snacks save money on the field."
     }
   ],
   "hero_image": {
     "url": "/static/img/destinations/nz-winter-school-holidays-activities.jpg",
-    "alt": "Family snow play during the New Zealand winter school holidays"
+    "alt": "Family snow play during the New Zealand winter school holidays in July"
   }
 }

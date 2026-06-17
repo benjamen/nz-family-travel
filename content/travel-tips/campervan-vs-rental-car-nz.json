@@ -1,0 +1,77 @@
+{
+  "slug": "campervan-vs-rental-car-nz",
+  "short_title": "Road Trip Options",
+  "title": "Campervan vs Rental Car for NZ Family Road Trips — The Real Comparison",
+  "meta_desc": "Compare campervan and rental car costs for NZ family road trips and discover the best option for your family's budget",
+  "intro": "Planning a family road trip in New Zealand can be overwhelming, especially when deciding between a campervan and a rental car. With campervan rentals starting at $120 per day and rental cars from $40 per day, the costs can add up quickly. To help you make an informed decision, we've broken down the total cost comparison over 10 days, flexibility, and what you give up with each option.",
+  "updated": "June 2026",
+  "reading_time": 10,
+  "sections": [
+    {
+      "heading": "Total Cost Comparison",
+      "table": {
+        "headers": [
+          "Option",
+          "10-Day Rental Cost",
+          "Accommodation Cost",
+          "Total Cost"
+        ],
+        "rows": [
+          [
+            "Campervan",
+            "$1200 (avg. $120/day)",
+            "$0 (included)",
+            "$1200"
+          ],
+          [
+            "Rental Car + Accommodation",
+            "$400 (avg. $40/day)",
+            "$800 (avg. $80/night)",
+            "$1200"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Flexibility and Freedom",
+      "body": "A campervan provides the ultimate flexibility for family road trips, with the ability to stop and sleep wherever you please. However, this freedom comes at a cost, with campervans often limited to designated camping areas. In contrast, rental cars offer more flexibility in terms of accommodation options, but may require more planning and booking in advance."
+    },
+    {
+      "heading": "What You Give Up",
+      "list": [
+        "With a campervan, you may give up access to certain amenities, such as laundry facilities or a full kitchen.",
+        "With a rental car, you may give up the convenience of having your accommodation and vehicle in one.",
+        "Both options may require compromises on space and comfort, depending on the size of your family and the type of vehicle or accommodation chosen."
+      ]
+    },
+    {
+      "heading": "Real-World Example",
+      "body": "A family of four planning to drive from Auckland to Rotorua ( approx. 3 hours) and then to Taupo ( approx. 1 hour) may find that a campervan is the more convenient option, with the ability to stop and sleep at designated campsites along the way. However, if they plan to stay in one location for an extended period, a rental car and accommodation may be the more cost-effective option."
+    },
+    {
+      "heading": "Budgeting and Planning",
+      "cta": {
+        "text": "Use our NZ Family Travel Budget Calculator to plan your trip",
+        "url": "/tools/nz-family-travel-budget-calculator/",
+        "affiliate": false
+      }
+    },
+    {
+      "heading": "Popular Campervan and Rental Car Options",
+      "list": [
+        "Britz Campervans: from $120 per day",
+        "Jucy Campervans: from $100 per day",
+        "Avis Rental Cars: from $40 per day",
+        "Hertz Rental Cars: from $50 per day"
+      ]
+    },
+    {
+      "heading": "Explore NZ with the Right Vehicle",
+      "cta": {
+        "text": "Browse our destinations guide for inspiration",
+        "url": "/destinations/",
+        "affiliate": false
+      }
+    }
+  ]
+}
