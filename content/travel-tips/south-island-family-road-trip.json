@@ -20,16 +20,61 @@
       "heading": "Driving Times Table",
       "body": "<p>Here are the main legs of the loop with approximate distances and driving times. Add buffer time with kids — stops for toilets, snacks, photos and the inevitable 'are we there yet?' breaks mean real travel times are longer than the map suggests. Aim to keep each driving day under 3–4 hours where you can.</p>",
       "table": {
-        "headers": ["Leg", "Distance", "Drive time", "Notes"],
+        "headers": [
+          "Leg",
+          "Distance",
+          "Drive time",
+          "Notes"
+        ],
         "rows": [
-          ["Christchurch → Lake Tekapo", "~225 km", "3 hrs", "Stop at Geraldine for a break; arrive Tekapo for sunset"],
-          ["Tekapo → Aoraki/Mount Cook", "~105 km", "1.25 hrs", "Stunning lakeside drive along Lake Pukaki"],
-          ["Mount Cook → Queenstown", "~265 km", "3.5 hrs", "Via Lindis Pass and Cromwell; fruit stalls en route"],
-          ["Queenstown → Milford Sound", "~290 km", "4 hrs each way", "Long but spectacular; consider overnighting in Te Anau"],
-          ["Queenstown → West Coast (Franz Josef)", "~350 km", "4.5 hrs", "Via Haast Pass — break it in Wanaka or Haast"],
-          ["West Coast → Nelson", "~290 km", "4.5 hrs", "Punakaiki Pancake Rocks is a great mid-way stop"],
-          ["Nelson → Picton", "~110 km", "1.75 hrs", "For the Interislander ferry to the North Island"],
-          ["Nelson → Christchurch", "~415 km", "5.5 hrs", "Long day — or break it overnight in Kaikōura"]
+          [
+            "Christchurch → Lake Tekapo",
+            "~225 km",
+            "3 hrs",
+            "Stop at Geraldine for a break; arrive Tekapo for sunset"
+          ],
+          [
+            "Tekapo → Aoraki/Mount Cook",
+            "~105 km",
+            "1.25 hrs",
+            "Stunning lakeside drive along Lake Pukaki"
+          ],
+          [
+            "Mount Cook → Queenstown",
+            "~265 km",
+            "3.5 hrs",
+            "Via Lindis Pass and Cromwell; fruit stalls en route"
+          ],
+          [
+            "Queenstown → Milford Sound",
+            "~290 km",
+            "4 hrs each way",
+            "Long but spectacular; consider overnighting in Te Anau"
+          ],
+          [
+            "Queenstown → West Coast (Franz Josef)",
+            "~350 km",
+            "4.5 hrs",
+            "Via Haast Pass — break it in Wanaka or Haast"
+          ],
+          [
+            "West Coast → Nelson",
+            "~290 km",
+            "4.5 hrs",
+            "Punakaiki Pancake Rocks is a great mid-way stop"
+          ],
+          [
+            "Nelson → Picton",
+            "~110 km",
+            "1.75 hrs",
+            "For the Interislander ferry to the North Island"
+          ],
+          [
+            "Nelson → Christchurch",
+            "~415 km",
+            "5.5 hrs",
+            "Long day — or break it overnight in Kaikōura"
+          ]
         ]
       }
     },
@@ -52,13 +97,33 @@
     },
     {
       "heading": "Cost Guide",
-      "body": "<p>A South Island road trip can be done on a range of budgets. The figures below are indicative totals for a family of four, assuming a mix of holiday-park cabins or a campervan, some self-catering, fuel for the loop (roughly 1,800–2,200 km), and a couple of paid activities. Skiing or multiple big-ticket activities will push costs higher.</p>",
+      "body": "<p>A South Island road trip can be done on a range of budgets. The figures below are indicative totals for a family of four, assuming a mix of holiday-park cabins or a campervan, some self-catering, fuel for the loop (roughly 1,800–2,200 km), and a couple of paid activities. Skiing or multiple big-ticket activities will push costs higher.</p><p>Want a figure tailored to your trip? Use our free <a href=\"/tools/road-trip-cost-calculator/\">NZ road trip cost calculator</a> to estimate fuel, accommodation, food and activities for your exact dates, group size and vehicle.</p>",
       "table": {
-        "headers": ["Trip length", "Budget total (family of 4)", "Mid-range total", "Notes"],
+        "headers": [
+          "Trip length",
+          "Budget total (family of 4)",
+          "Mid-range total",
+          "Notes"
+        ],
         "rows": [
-          ["7 days", "$2,800–$3,500", "$4,000–$5,000", "Tight southern loop; self-cater and limit paid activities"],
-          ["10 days", "$3,800–$4,800", "$5,500–$7,000", "Full loop with West Coast; one or two big activities"],
-          ["14 days", "$5,000–$6,500", "$7,500–$9,500", "Relaxed pace, Nelson and Abel Tasman, several activities"]
+          [
+            "7 days",
+            "$2,800–$3,500",
+            "$4,000–$5,000",
+            "Tight southern loop; self-cater and limit paid activities"
+          ],
+          [
+            "10 days",
+            "$3,800–$4,800",
+            "$5,500–$7,000",
+            "Full loop with West Coast; one or two big activities"
+          ],
+          [
+            "14 days",
+            "$5,000–$6,500",
+            "$7,500–$9,500",
+            "Relaxed pace, Nelson and Abel Tasman, several activities"
+          ]
         ]
       }
     },

@@ -62,6 +62,14 @@ def build():
     if STATIC.exists():
         shutil.copytree(STATIC, OUT / "static")
 
+    # Copy standalone tool HTML pages (e.g. calculators) into docs/tools/<name>/
+    tools_src = ROOT / "tools"
+    if tools_src.exists():
+        for html_file in tools_src.glob("*.html"):
+            dest = OUT / "tools" / html_file.stem / "index.html"
+            dest.parent.mkdir(parents=True, exist_ok=True)
+            shutil.copy(html_file, dest)
+
     site            = load("site")
     destinations    = load("destinations")
     _required = ("three_day_itinerary", "budget_breakdown", "top_activities", "where_to_stay")
