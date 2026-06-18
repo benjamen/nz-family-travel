@@ -1,0 +1,87 @@
+{
+  "title": "Nelson & Abel Tasman Budget Guide",
+  "short_title": "Nelson Budget",
+  "meta_desc": "Visit Nelson & Abel Tasman on a family budget of $220-400/day. Discover free activities, affordable accommodation, and top experiences for all ages.",
+  "intro": "Nelson is the sunniest city in New Zealand and the gateway to Abel Tasman National Park, offering a relaxed and family-friendly atmosphere. With a daily budget of $220-400 for a family of four, you can enjoy the region's golden beaches, clear water, and native bush. From free activities to mid-range accommodation, we'll show you how to make the most of your trip.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Accommodation Options",
+      "body": "<p>Accommodation in Nelson and Abel Tasman ranges from budget-friendly options like the Tōtaranui Beach DOC campsite ($20-30 per night) to mid-range hotels and motels in Nelson city ($150-250 per night). You can also consider holiday parks like the Tahuna Beach Kiwi Holiday Park ($40-60 per night for a powered site) or self-contained apartments ($200-300 per night).</p><p>For a family of four, a mid-range motel or apartment is a good option, with prices starting from around $200 per night. Be sure to book in advance, especially during peak season (December to February).</p>",
+      "list": [
+        "Tōtaranui Beach DOC campsite ($20-30 per night)",
+        "Nelson city motels ($150-250 per night)",
+        "Tahuna Beach Kiwi Holiday Park ($40-60 per night for a powered site)",
+        "Self-contained apartments ($200-300 per night)"
+      ]
+    },
+    {
+      "heading": "Free Activities",
+      "body": "<p>Nelson and Abel Tasman offer a range of free activities for families, including visiting Tahunanui Beach, walking sections of the Abel Tasman coastal track, and exploring the Centre of New Zealand hill walk. These activities are a great way to enjoy the region's natural beauty without breaking the bank.</p><p>Other free activities include visiting the Nelson Saturday Market and exploring the town's shops and cafes. You can also drive to the northern end of Abel Tasman National Park and visit Tōtaranui Beach, which is accessible by road.</p>",
+      "list": [
+        "Tahunanui Beach",
+        "Abel Tasman coastal track sections",
+        "Centre of New Zealand hill walk",
+        "Nelson Saturday Market"
+      ]
+    },
+    {
+      "heading": "Top Experiences",
+      "body": "<p>While there are many free activities in Nelson and Abel Tasman, some experiences are worth splashing out on. The Abel Tasman Water Taxi + Beach Day ($100-150 per person) and Sea Kayaking Abel Tasman ($120-180 per person) are two of the top activities in the region, offering a unique perspective on the park's stunning coastline.</p><p>The Farewell Spit Tour ($120-180 per person) is another top experience, taking you to the northern tip of the South Island and offering breathtaking views of the surrounding coastline.</p>",
+      "list": [
+        "Abel Tasman Water Taxi + Beach Day ($100-150 per person)",
+        "Sea Kayaking Abel Tasman ($120-180 per person)",
+        "Farewell Spit Tour ($120-180 per person)"
+      ]
+    },
+    {
+      "heading": "Budget Breakdown",
+      "body": "<p>To help you plan your trip, we've put together a rough 3-day budget breakdown for a family of four. This includes accommodation, food, activities, and transportation.</p>",
+      "table": {
+        "headers": [
+          "Day",
+          "Accommodation",
+          "Food",
+          "Activities",
+          "Transportation",
+          "Total"
+        ],
+        "rows": [
+          [
+            "Day 1",
+            "$200",
+            "$80",
+            "$150",
+            "$20",
+            "$450"
+          ],
+          [
+            "Day 2",
+            "$200",
+            "$80",
+            "$120",
+            "$20",
+            "$420"
+          ],
+          [
+            "Day 3",
+            "$200",
+            "$80",
+            "$100",
+            "$20",
+            "$400"
+          ]
+        ]
+      },
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "nelson-abel-tasman-family-budget-family-guide-2026-06",
+  "updated": "June 2026",
+  "auto_generated": true,
+  "generated_date": "2026-06-19"
+}
