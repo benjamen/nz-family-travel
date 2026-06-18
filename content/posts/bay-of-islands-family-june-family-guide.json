@@ -31,6 +31,33 @@
       ]
     },
     {
+      "heading": "Take the Ferry to Russell",
+      "body": "<p>One of the cheapest and most enjoyable family outings in June is the short passenger ferry from Paihia across to historic Russell — New Zealand's first permanent European settlement. The crossing takes about 15 minutes, costs only a few dollars per person (kids are heavily discounted), and runs frequently year-round. In winter the ferries are quiet, so you'll often have plenty of room.</p><p>Russell itself is a gentle, walkable village: wander the waterfront, visit the historic Christ Church (NZ's oldest), grab fish and chips by the wharf, and let the kids explore the small museum. It's a low-cost, low-key half-day that works perfectly on a cool June day. If you're driving, the vehicle ferry from Opua is the alternative, but the foot-passenger ferry from Paihia is far cheaper for families.</p>",
+      "list": [
+        "Paihia–Russell passenger ferry — ~15 mins, only a few dollars, kids discounted",
+        "Frequent year-round service; quiet and uncrowded in June",
+        "Russell waterfront, NZ's oldest church, and a small museum to explore",
+        "Cheaper than the Opua vehicle ferry for a family on foot"
+      ]
+    },
+    {
+      "heading": "Whale & Dolphin Watching Season",
+      "body": "<p>June marks the start of the winter marine season in Northland's waters. Dolphins are present year-round and the calm winter seas make sightings comfortable, while the cooler months bring increased chances of seeing migrating whales offshore. Operators run smaller winter groups, so trips feel more personal — and prices are often lower than summer. Choose an operator with a guaranteed-sighting policy (a free repeat trip if you don't see dolphins), bundle warm windproof layers, and book a day or two in case of weather.</p>"
+    },
+    {
+      "heading": "Sample Activity Costs",
+      "body": "<p>Here's a guide to what June activities cost for a family of four.</p>",
+      "table": {
+        "headers": ["Activity", "Cost (family of 4)", "Notes"],
+        "rows": [
+          ["Paihia–Russell passenger ferry (return)", "~$30", "Cheapest family outing in the bay"],
+          ["Dolphin watching cruise", "$280–$400", "Smaller winter groups; check sighting guarantee"],
+          ["Hole in the Rock cruise", "$240–$340", "Often quieter and cheaper in winter"],
+          ["Waitangi Treaty Grounds", "$140–$200", "Look for family rates; under-5s usually free"]
+        ]
+      }
+    },
+    {
       "heading": "Practical Tips for Families",
       "body": "<p>When visiting the Bay of Islands with kids, it's essential to be prepared for the winter weather. Pack warm clothing, including jackets, hats, and gloves, as well as waterproof gear for outdoor activities.</p> <p>Additionally, consider booking accommodation with a kitchen or self-catering facilities to save money on food and snacks. Many apartments and holiday homes in Paihia offer these facilities, starting from around $200 per night for a family of four.</p>",
       "list": [

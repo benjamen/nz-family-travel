@@ -32,6 +32,30 @@
       ]
     },
     {
+      "heading": "More Family Attractions Worth the Money",
+      "body": "<p>Christchurch packs a lot of family fun into a compact, flat, easy-to-navigate city. The Christchurch Tram loops the inner city and is a fun, hop-on-hop-off way to see the rebuilt centre — kids love the historic carriages. Willowbank Wildlife Reserve is a standout for families, with hands-on native and farm animals plus an excellent after-dark kiwi viewing experience. The Air Force Museum of New Zealand at Wigram is free to enter (with paid extras like flight simulators), and is a brilliant rainy-day option with real aircraft to explore.</p><p>For a half-day adventure, the Christchurch Gondola climbs Mt Cavendish for panoramic views over the city, Lyttelton Harbour and the Southern Alps, with a time-tunnel ride that younger kids enjoy.</p>",
+      "list": [
+        "Christchurch Tram — scenic inner-city loop, family day passes available",
+        "Willowbank Wildlife Reserve — native and farm animals, plus evening kiwi viewing",
+        "Air Force Museum at Wigram — free entry, real aircraft, paid simulators",
+        "Christchurch Gondola — panoramic views and a kid-friendly time-tunnel ride"
+      ]
+    },
+    {
+      "heading": "Sample Activity Costs",
+      "body": "<p>Here's roughly what the main paid attractions cost for a family of four, so you can plan which to splurge on.</p>",
+      "table": {
+        "headers": ["Attraction", "Cost (family of 4)", "Notes"],
+        "rows": [
+          ["International Antarctic Centre", "~$120", "Look for family passes and combo deals"],
+          ["Christchurch Gondola", "~$90", "Cheaper booked online in advance"],
+          ["Christchurch Tram (day pass)", "~$70", "Kids often free or heavily discounted"],
+          ["Willowbank Wildlife Reserve", "~$95", "Day entry; kiwi viewing extra"],
+          ["Air Force Museum", "Free", "Entry free; simulators and rides extra"]
+        ]
+      }
+    },
+    {
       "heading": "Budget Breakdown",
       "body": "<p>Here's a rough 3-day budget breakdown for a family of four visiting Christchurch:</p>",
       "table": {

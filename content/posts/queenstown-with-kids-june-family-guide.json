@@ -32,6 +32,42 @@
       ]
     },
     {
+      "heading": "Skiing in June — Season Start",
+      "body": "<p>June marks the start of Queenstown's ski season. Coronet Peak and The Remarkables both typically open in mid-June (exact dates depend on snow), while Cardrona and Treble Cone near Wanaka usually open around the same time. Early-season snow can be variable, so it's worth checking live snow reports before you commit to a ski day — but June rewards you with far smaller crowds and lower prices than the July school holidays.</p><p>For families, Coronet Peak is the easiest first choice: it's the closest field, has a dedicated learners' area, and runs ski school from age 3. Book lift passes online in advance to save 20–30% over gate prices, hire gear ahead to skip the queues, and remember that chains are required on the access roads — most rental packages include them. If your kids have never skied, a half-day lesson is money well spent.</p>",
+      "list": [
+        "Coronet Peak & The Remarkables usually open mid-June (snow dependent)",
+        "Coronet Peak is the most beginner- and family-friendly field",
+        "Book multi-day lift passes online to save 20–30%",
+        "Hire gear in advance; chains are required on access roads",
+        "Fewer crowds and lower prices than July — great value for early-season families"
+      ]
+    },
+    {
+      "heading": "Non-Ski Winter Activities",
+      "body": "<p>You don't have to ski to enjoy Queenstown in June. The Skyline Gondola and luge run year-round and are all-weather favourites. The Queenstown Ice Arena offers indoor skating, and the lakefront and Queenstown Gardens are free, atmospheric and great for a brisk family walk. The TSS Earnslaw steamship cruise to Walter Peak farm is wonderful in winter — cosy on board, with animals to feed at the other end. A day trip to Arrowtown adds gold panning and historic charm, and the underwater observatory by the pier is a quick, cheap, weather-proof option for younger kids.</p>",
+      "list": [
+        "Skyline Gondola & luge — all-weather, all ages",
+        "Queenstown Ice Arena — indoor skating",
+        "TSS Earnslaw cruise to Walter Peak farm — cosy winter favourite",
+        "Arrowtown day trip — gold panning and history",
+        "Free: Queenstown Gardens and the lakefront walk"
+      ]
+    },
+    {
+      "heading": "Sample Activity Costs",
+      "body": "<p>Here's roughly what the main activities cost for a family of four in June.</p>",
+      "table": {
+        "headers": ["Activity", "Cost (family of 4)", "Notes"],
+        "rows": [
+          ["Skyline Gondola (return)", "$120–$150", "Combo with luge to save"],
+          ["Ski day — lift passes + hire", "$600–$900", "Cheaper in June than July; book online"],
+          ["TSS Earnslaw + Walter Peak lunch", "$320–$420", "Cruise-only option is cheaper"],
+          ["Queenstown Ice Arena", "$60–$100", "Skate hire included"],
+          ["Queenstown Gardens & lakefront", "Free", "Great for burning off energy"]
+        ]
+      }
+    },
+    {
       "heading": "Practical Tips for Families",
       "body": "<p>Book your accommodations and popular attractions in advance to avoid peak season prices.</p><p>Consider purchasing a Queenstown Winter Festival pass for access to multiple events and activities.</p>",
       "list": [

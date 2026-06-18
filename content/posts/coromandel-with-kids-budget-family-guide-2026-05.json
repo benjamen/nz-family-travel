@@ -26,6 +26,39 @@
       ]
     },
     {
+      "heading": "Top Coromandel Attractions for Families",
+      "body": "<p>The Coromandel's headline experiences are wonderfully family-friendly. Hot Water Beach is the classic — bring or hire a spade, dig your own hot pool in the sand two hours either side of low tide, and let the kids soak in their own private spa. It's free; just check the tide times and watch the strong surf.</p><p>Cathedral Cove is one of NZ's most photographed beaches, reached by a roughly 45-minute coastal walk each way (manageable for primary-age kids). Access can be seasonal — slips and storm damage occasionally close the track, and there's a summer park-and-ride shuttle, so always check current access before you go. For a paid splurge, the Driving Creek Railway near Coromandel Town is a narrow-gauge mountain railway through native bush — a guaranteed kid-pleaser and weather-friendly.</p>",
+      "list": [
+        "Hot Water Beach — free; dig your own hot pool around low tide",
+        "Cathedral Cove — scenic 45-min walk; check seasonal access first",
+        "Driving Creek Railway — unique narrow-gauge bush railway, rain-friendly",
+        "The Waterworks (near Coromandel Town) — quirky water-powered playground"
+      ]
+    },
+    {
+      "heading": "Camping & Holiday Park Options",
+      "body": "<p>The Coromandel is camping country, and it's the cheapest way to do a family trip here. Holiday parks at Whitianga, Hahei, Tairua and Thames offer powered sites, cabins and family units, while several DOC campsites sit right on the coast for a back-to-basics adventure. Cabins give you a roof and a bed without hotel prices, and most parks have pools, jumping pillows and playgrounds that keep kids happy for hours — entertainment included in the price.</p>",
+      "list": [
+        "DOC and council campsites — cheapest, often beachfront",
+        "Holiday park powered sites — $20–$40/night plus van or tent",
+        "Holiday park cabins — budget roof-over-your-head with shared facilities",
+        "Self-contained family units — more space, kitchen, from ~$120/night"
+      ]
+    },
+    {
+      "heading": "Sample Activity Costs",
+      "body": "<p>Most of the Coromandel's best experiences are free or cheap. Here's a guide for a family of four.</p>",
+      "table": {
+        "headers": ["Activity", "Cost (family of 4)", "Notes"],
+        "rows": [
+          ["Hot Water Beach", "Free", "Spade hire ~$5 from the nearby café"],
+          ["Cathedral Cove walk", "Free", "Summer park-and-ride shuttle may apply"],
+          ["Driving Creek Railway", "~$120", "Book ahead in peak season"],
+          ["The Waterworks", "~$100", "Half-day of water-powered fun"]
+        ]
+      }
+    },
+    {
       "heading": "Budget Breakdown",
       "body": "<p>Here's a rough estimate of what you can expect to pay for a 3-day trip to Coromandel:</p>",
       "table": {
