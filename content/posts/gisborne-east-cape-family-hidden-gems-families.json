@@ -1,0 +1,74 @@
+{
+  "title": "Gisborne Hidden Gems",
+  "short_title": "Gisborne Gems",
+  "meta_desc": "Discover 6 hidden gems in Gisborne & East Cape, NZ perfect for families with kids, including free activities and insider tips, from $0-$50 per day",
+  "intro": "Gisborne and the East Cape are a treasure trove of family-friendly activities and hidden gems waiting to be uncovered. From natural rock water slides to scenic coastal drives, there's something for every age and interest. With a budget of $120-$200 per day for a family of four, you can experience the best of this stunning region without breaking the bank.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Rere Rockslide: A Natural Water Park",
+      "body": "<p>Rere Rockslide is a must-visit for families, located just 45 minutes from Gisborne. This natural rock water slide is perfect for kids of all ages, and the best part is that it's entirely free. Simply bring a boogie board or bodyboard and get ready for a fun-filled day of sliding and splashing in the river.</p><p>To get to Rere Rockslide, take Wharekopai Road from Gisborne and follow the signs. The drive takes around 45 minutes, and there are picnic tables and toilets available on site.</p>",
+      "list": [
+        "Free admission",
+        "Suitable for all ages",
+        "45-minute drive from Gisborne"
+      ]
+    },
+    {
+      "heading": "Tolaga Bay Wharf: Fishing and History",
+      "body": "<p>Tolaga Bay Wharf is another hidden gem in the East Cape region, perfect for families who love fishing and history. The wharf is the longest in New Zealand, stretching 660 meters into the sea, and offers stunning views of the coastline.</p><p>Kids can try their hand at fishing, and you can learn about the rich history of the area at the nearby Tolaga Bay Museum. Admission to the museum is $10 per adult and $5 per child, making it a budget-friendly activity for families.</p>",
+      "table": {
+        "headers": [
+          "Activity",
+          "Cost"
+        ],
+        "rows": [
+          [
+            "Tolaga Bay Museum",
+            "$10 adult, $5 child"
+          ],
+          [
+            "Fishing",
+            "$0 (bring your own gear)"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Eastwoodhill Arboretum: A Tree Lover's Paradise",
+      "body": "<p>Eastwoodhill Arboretum is a unique attraction in the East Cape region, featuring the largest collection of northern hemisphere trees in New Zealand. Kids can explore the many walking trails, and families can enjoy a picnic together in the beautiful surroundings.</p><p>Admission to the arboretum is $15 per adult and $5 per child, making it a great value activity for families. Guided tours are also available for an additional $10 per person.</p>",
+      "list": [
+        "Admission: $15 adult, $5 child",
+        "Guided tours: $10 per person",
+        "Suitable for all ages"
+      ]
+    },
+    {
+      "heading": "Waikanae Beach: A Secluded Gem",
+      "body": "<p>Waikanae Beach is a secluded gem in the East Cape region, perfect for families looking for a peaceful beach day. The beach is surrounded by stunning coastal scenery, and kids can enjoy swimming, surfing, and building sandcastles.</p><p>To get to Waikanae Beach, take the Waikanae Beach Road from Gisborne, and follow the signs. The drive takes around 30 minutes, and there are toilets and picnic tables available on site.</p>",
+      "list": [
+        "Free admission",
+        "Suitable for all ages",
+        "30-minute drive from Gisborne"
+      ]
+    },
+    {
+      "heading": "Anaura Bay: A Historic and Scenic Bay",
+      "body": "<p>Anaura Bay is a historic and scenic bay in the East Cape region, perfect for families who love history and nature. The bay is home to a beautiful beach, a historic pa site, and stunning coastal scenery.</p><p>Kids can learn about the history of the area at the nearby Anaura Bay Historic Site, and families can enjoy a picnic together in the beautiful surroundings. Admission to the historic site is free, making it a great value activity for families.</p>",
+      "list": [
+        "Free admission",
+        "Suitable for all ages",
+        "45-minute drive from Gisborne"
+      ],
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "gisborne-east-cape-family-hidden-gems-families",
+  "updated": "June 2026",
+  "auto_generated": true,
+  "generated_date": "2026-06-20"
+}
