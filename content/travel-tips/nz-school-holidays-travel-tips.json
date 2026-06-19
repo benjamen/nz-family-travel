@@ -2,84 +2,85 @@
   "slug": "nz-school-holidays-travel-tips",
   "short_title": "School Holiday Travel",
   "title": "NZ School Holidays Travel Tips — How to Beat the Crowds and Save Money",
-  "meta_desc": "NZ school holidays travel tips to beat crowds and save money, expert advice on peak pricing and booking lead times",
-  "intro": "If you're planning a family trip during the upcoming NZ school holidays, you're likely to face crowded tourist spots and inflated prices. However, with some insider knowledge, you can avoid the chaos and save money. For instance, did you know that booking your accommodation at least 6 months in advance can save you up to 30% on average?",
+  "meta_desc": "Discover expert tips for travelling NZ during school holidays, save up to $500 on accommodation",
+  "intro": "Travelling during NZ school holidays can be expensive, with prices soaring up to 30% higher than off-peak periods. However, with some planning and insider knowledge, you can beat the crowds and save money. For example, booking a campsite at Lake Tekapo's Alpine Village costs $45 per night during peak season, compared to $25 during off-peak periods.",
   "updated": "June 2026",
   "reading_time": 9,
   "sections": [
     {
-      "heading": "Understanding Peak and Off-Peak Pricing",
-      "body": "In New Zealand, peak season typically falls during the summer months (December to February) and school holidays, with prices for accommodation and activities increasing by up to 50%. For example, a night at the Hilton Auckland can cost around $450 during peak season, compared to $280 during off-peak periods. On the other hand, visiting popular destinations like Rotorua and Queenstown during the off-season can result in significant savings."
+      "heading": "Plan Ahead to Save",
+      "body": "Booking your accommodation and activities well in advance can help you save up to 20% on costs. For instance, booking a bach in Wanaka through Bookabach 6 months in advance can cost $1,200 per week, compared to $1,500 if booked 2 months in advance. Additionally, consider booking a campervan, which can be a cost-effective option, with prices starting from $100 per day."
     },
     {
-      "heading": "Booking Lead Times",
-      "list": [
-        "Book your accommodation at least 6 months in advance to secure the best prices",
-        "Popular activities like skydiving and bungee jumping should be booked 3-4 months ahead",
-        "For campervan rentals, book at least 9 months in advance to ensure availability"
-      ]
-    },
-    {
-      "heading": "Comparison of Accommodation Options",
+      "heading": "Peak vs Off-Peak Pricing",
       "table": {
         "headers": [
-          "Accommodation Type",
-          "Peak Season Price (per night)",
-          "Off-Peak Season Price (per night)"
+          "Destination",
+          "Peak Season Price",
+          "Off-Peak Season Price"
         ],
         "rows": [
           [
-            "Hilton Auckland",
-            "$450",
-            "$280"
+            "Lake Tekapo",
+            "$45 per night",
+            "$25 per night"
           ],
           [
-            "Ibis Auckland",
-            "$250",
-            "$180"
+            "Queenstown",
+            "$200 per night",
+            "$120 per night"
           ],
           [
-            "Holiday Inn Rotorua",
-            "$320",
-            "$220"
-          ],
-          [
-            "Campervan Rental (2 berth)",
-            "$180",
-            "$120"
+            "Rotorua",
+            "$150 per night",
+            "$80 per night"
           ]
         ]
       }
     },
     {
-      "heading": "Driving Times and Distances",
-      "body": "When planning your road trip, consider the driving times and distances between destinations. For example, driving from Auckland to Rotorua takes around 3 hours, while Auckland to Queenstown takes around 12 hours with a stopover in Wellington. Make sure to check the road conditions and plan for regular breaks to avoid fatigue."
-    },
-    {
-      "heading": "Activity Pricing",
+      "heading": "Avoid Popular Destinations",
       "list": [
-        "Skyline Gondola in Queenstown: $40-$60 per person",
-        "Wai-O-Tapu in Rotorua: $32-$42 per person",
-        "Kelly Tarlton's Aquarium in Auckland: $40-$50 per person"
+        "Consider visiting less popular destinations, such as the Whanganui National Park, which is a 3-hour drive from Wellington",
+        "The Catlins, located on the South Island's eastern coast, offers stunning scenery and outdoor activities, with a 2.5-hour drive from Invercargill",
+        "The Waikato region, with its scenic landscapes and cultural attractions, is a 2-hour drive from Auckland"
       ]
     },
     {
-      "heading": "Budgeting for Your Trip",
+      "heading": "Make the Most of Free Activities",
+      "body": "New Zealand offers a wide range of free activities, such as visiting the stunning beaches, going for a hike, or exploring the local markets. For example, the Wellington waterfront is a great place to visit, with its scenic views, street performers, and free activities for kids. You can also visit the Auckland Art Gallery Toi o Tāmaki, which offers free admission to its collection galleries."
+    },
+    {
+      "heading": "Use TravelBudget Calculator",
       "cta": {
-        "text": "Use our NZ Family Travel Budget Calculator",
+        "text": "Get started with our NZ Family Travel Budget Calculator",
         "url": "/tools/nz-family-travel-budget-calculator/",
         "affiliate": false
       }
     },
     {
-      "heading": "Exploring Alternative Destinations",
-      "body": "Consider visiting lesser-known destinations like the Coromandel Peninsula, the Bay of Islands, or the West Coast. These areas offer a range of activities and stunning natural beauty, often at a lower cost than popular tourist spots. For example, a night at a holiday park in the Coromandel Peninsula can cost around $150, compared to $250 in Queenstown."
+      "heading": "Book a Campervan",
+      "body": "Campervans are a great way to travel around New Zealand, offering flexibility and cost-effectiveness. You can rent a campervan from companies like Jucy or Britz, with prices starting from $100 per day. Consider visiting our campervans page for more information and to book your campervan.",
+      "cta": {
+        "text": "Explore our campervans page",
+        "url": "/campervans/",
+        "affiliate": false
+      }
     },
     {
-      "heading": "Getting the Best Deals on Campervans",
+      "heading": "Insider Tips",
+      "list": [
+        "Consider travelling during the shoulder season, which falls in April to May and September to November, for lower prices and fewer crowds",
+        "Look for package deals that include accommodation, activities, and car rentals, which can offer significant savings",
+        "Book your activities and attractions in advance to avoid sold-out situations and long wait times"
+      ]
+    },
+    {
+      "heading": "Explore Our Destinations",
+      "body": "New Zealand has a wide range of destinations to explore, from the scenic landscapes of the South Island to the cultural attractions of the North Island. Consider visiting our destinations page for more information and to plan your trip.",
       "cta": {
-        "text": "Check out our campervan guide and get a quote",
-        "url": "/campervans/",
+        "text": "Discover our destinations",
+        "url": "/destinations/",
         "affiliate": false
       }
     }
