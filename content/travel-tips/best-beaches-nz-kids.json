@@ -11,24 +11,101 @@
       "heading": "Best NZ Family Beaches — Quick Overview",
       "body": "Use this table to pick a beach by what your family needs most. <a href='/travel-tips/best-nz-beach-holidays-families/'>Full beach holiday destination guide here</a> or <a href='/travel-tips/nz-beaches-kids-summer/'>full patrolled beach guide by region here</a>.",
       "table": {
-        "headers": ["Beach", "Region", "Best For", "Patrolled", "Best Age", "Parking"],
+        "headers": [
+          "Beach",
+          "Region",
+          "Best For",
+          "Patrolled",
+          "Best Age",
+          "Parking"
+        ],
         "rows": [
-          ["Hahei / Cathedral Cove", "Coromandel", "Scenery, snorkelling, rock caves", "Yes (Hahei)", "5+", "$0"],
-          ["Hot Water Beach", "Coromandel", "Digging thermal pools in the sand", "Yes", "4+", "Paid"],
-          ["Mount Maunganui Main Beach", "Bay of Plenty", "Surf, flat walk, cafes, calm end", "Yes", "All ages", "$0–$3/hr"],
-          ["Paihia Beach", "Bay of Islands", "Calm swimming, dolphin trips, history", "No", "All ages", "$0"],
-          ["Oreti Beach", "Southland", "Wild, uncrowded, vehicle access", "No", "6+ (cold)", "$0"],
-          ["Kaiteriteri Beach", "Nelson/Tasman", "Golden sand, calm clear water", "Yes", "All ages", "Paid Dec–Feb"],
-          ["Piha Beach", "Auckland", "Dramatic black sand, surf culture", "Yes (seasonal)", "8+ (strong surf)", "$0"],
-          ["New Plymouth Beach Street", "Taranaki", "Surf, playground, coastal walkway", "Yes", "All ages", "$0"],
-          ["St Clair Beach", "Dunedin", "Surf, hot pools nearby, great cafes", "Yes", "8+ (cold)", "$0"],
-          ["Pakiri Beach", "Auckland/North", "Wild white sand, horse treks, quiet", "No", "5+", "$0"]
+          [
+            "Hahei / Cathedral Cove",
+            "Coromandel",
+            "Scenery, snorkelling, rock caves",
+            "Yes (Hahei)",
+            "5+",
+            "$0"
+          ],
+          [
+            "Hot Water Beach",
+            "Coromandel",
+            "Digging thermal pools in the sand",
+            "Yes",
+            "4+",
+            "Paid"
+          ],
+          [
+            "Mount Maunganui Main Beach",
+            "Bay of Plenty",
+            "Surf, flat walk, cafes, calm end",
+            "Yes",
+            "All ages",
+            "$0–$3/hr"
+          ],
+          [
+            "Paihia Beach",
+            "Bay of Islands",
+            "Calm swimming, dolphin trips, history",
+            "No",
+            "All ages",
+            "$0"
+          ],
+          [
+            "Oreti Beach",
+            "Southland",
+            "Wild, uncrowded, vehicle access",
+            "No",
+            "6+ (cold)",
+            "$0"
+          ],
+          [
+            "Kaiteriteri Beach",
+            "Nelson/Tasman",
+            "Golden sand, calm clear water",
+            "Yes",
+            "All ages",
+            "Paid Dec–Feb"
+          ],
+          [
+            "Piha Beach",
+            "Auckland",
+            "Dramatic black sand, surf culture",
+            "Yes (seasonal)",
+            "8+ (strong surf)",
+            "$0"
+          ],
+          [
+            "New Plymouth Beach Street",
+            "Taranaki",
+            "Surf, playground, coastal walkway",
+            "Yes",
+            "All ages",
+            "$0"
+          ],
+          [
+            "St Clair Beach",
+            "Dunedin",
+            "Surf, hot pools nearby, great cafes",
+            "Yes",
+            "8+ (cold)",
+            "$0"
+          ],
+          [
+            "Pakiri Beach",
+            "Auckland/North",
+            "Wild white sand, horse treks, quiet",
+            "No",
+            "5+",
+            "$0"
+          ]
         ]
       }
     },
     {
       "heading": "North Island: Best Family Beaches",
-      "body": "The North Island has New Zealand's warmest beaches — ideal for families in summer (December–March). Water temperatures reach 20–23°C around the Bay of Plenty and Coromandel.<br><br><strong><a href='/destinations/coromandel-with-kids/'>Coromandel Peninsula</a></strong> is the gold standard for NZ family beach trips. Hahei is a calm, sheltered bay with turquoise water and the Cathedral Cove walk (30 min return). Hot Water Beach — 2km south — lets kids dig their own thermal spa pool in the sand at low tide. <a href='/travel-tips/hot-water-beach-coromandel-family-review-2026-06/'>Read our Hot Water Beach family review</a>.<br><br><strong><a href='/destinations/tauranga-mount-maunganui-family/'>Mount Maunganui</a></strong> (Bay of Plenty) is the most family-friendly surf town in NZ. The main beach is long, patrolled, and has a calm swimming area at the base. A flat 3.4km loop walk around the Mount suits all ages. Great cafes and an indoor water park in Tauranga nearby.<br><br><strong><a href='/destinations/bay-of-islands-family/'>Bay of Islands</a></strong> has calm, sheltered water ideal for young swimmers. Paihia Beach is safe year-round, and you can add dolphin watching, the Waitangi Treaty Grounds, and kayaking to make a 3–4 day trip.<br><br><strong><a href='/destinations/northland-cape-reinga-family/'>Northland</a></strong> beaches run from Langs Beach (very calm, excellent for small children) north to Ninety Mile Beach (wild, great for sandboarding). Water stays warm December–April."
+      "body": "<a href=\"/travel-tips/auckland-beaches-kids/\"><strong>Auckland</strong></a> has over 100 beaches within 90 minutes of the CBD — Mission Bay (calm harbour, toddler-friendly), Takapuna (rockpools, gentle surf), Piha (dramatic black sand, 8+), and Muriwai (gannet colony + surf). <a href=\"/travel-tips/auckland-beaches-kids/\">Full Auckland beaches family guide →</a><br><br>The North Island has New Zealand's warmest beaches — ideal for families in summer (December–March). Water temperatures reach 20–23°C around the Bay of Plenty and Coromandel.<br><br><strong><a href='/destinations/coromandel-with-kids/'>Coromandel Peninsula</a></strong> is the gold standard for NZ family beach trips. Hahei is a calm, sheltered bay with turquoise water and the Cathedral Cove walk (30 min return). Hot Water Beach — 2km south — lets kids dig their own thermal spa pool in the sand at low tide. <a href='/travel-tips/hot-water-beach-coromandel-family-review-2026-06/'>Read our Hot Water Beach family review</a>.<br><br><strong><a href='/destinations/tauranga-mount-maunganui-family/'>Mount Maunganui</a></strong> (Bay of Plenty) is the most family-friendly surf town in NZ. The main beach is long, patrolled, and has a calm swimming area at the base. A flat 3.4km loop walk around the Mount suits all ages. Great cafes and an indoor water park in Tauranga nearby.<br><br><strong><a href='/destinations/bay-of-islands-family/'>Bay of Islands</a></strong> has calm, sheltered water ideal for young swimmers. Paihia Beach is safe year-round, and you can add dolphin watching, the Waitangi Treaty Grounds, and kayaking to make a 3–4 day trip.<br><br><strong><a href='/destinations/northland-cape-reinga-family/'>Northland</a></strong> beaches run from Langs Beach (very calm, excellent for small children) north to Ninety Mile Beach (wild, great for sandboarding). Water stays warm December–April."
     },
     {
       "heading": "South Island: Best Family Beaches",
@@ -55,16 +132,70 @@
     {
       "heading": "When to Visit NZ Beaches with Kids — Season Guide",
       "table": {
-        "headers": ["Region", "Peak Beach Season", "Water Temp", "Crowds", "Notes"],
+        "headers": [
+          "Region",
+          "Peak Beach Season",
+          "Water Temp",
+          "Crowds",
+          "Notes"
+        ],
         "rows": [
-          ["Northland", "Nov–Apr", "20–24°C", "Moderate", "Warm year-round, Jan–Feb busiest"],
-          ["Coromandel", "Dec–Mar", "19–22°C", "Very high Dec–Jan", "Book accommodation 3+ months ahead"],
-          ["Bay of Plenty", "Nov–Mar", "18–22°C", "High", "Mount Maunganui best avoided Jan school hols"],
-          ["Bay of Islands", "Nov–Apr", "18–22°C", "High Dec–Jan", "Shoulder season (Nov, Mar) much quieter"],
-          ["Nelson/Tasman", "Dec–Feb", "17–20°C", "Very high Jan", "Locals' pick: visit in late Nov or early March"],
-          ["Christchurch/Canterbury", "Dec–Feb", "15–18°C", "Moderate", "Cool water — wetsuits for kids under 8"],
-          ["Dunedin/Otago", "Jan–Feb", "13–16°C", "Low", "Cold but beautiful; hot pools at St Clair"],
-          ["Taranaki", "Dec–Feb", "15–17°C", "Low", "Great waves, coastal walkway, cheap accommodation"]
+          [
+            "Northland",
+            "Nov–Apr",
+            "20–24°C",
+            "Moderate",
+            "Warm year-round, Jan–Feb busiest"
+          ],
+          [
+            "Coromandel",
+            "Dec–Mar",
+            "19–22°C",
+            "Very high Dec–Jan",
+            "Book accommodation 3+ months ahead"
+          ],
+          [
+            "Bay of Plenty",
+            "Nov–Mar",
+            "18–22°C",
+            "High",
+            "Mount Maunganui best avoided Jan school hols"
+          ],
+          [
+            "Bay of Islands",
+            "Nov–Apr",
+            "18–22°C",
+            "High Dec–Jan",
+            "Shoulder season (Nov, Mar) much quieter"
+          ],
+          [
+            "Nelson/Tasman",
+            "Dec–Feb",
+            "17–20°C",
+            "Very high Jan",
+            "Locals' pick: visit in late Nov or early March"
+          ],
+          [
+            "Christchurch/Canterbury",
+            "Dec–Feb",
+            "15–18°C",
+            "Moderate",
+            "Cool water — wetsuits for kids under 8"
+          ],
+          [
+            "Dunedin/Otago",
+            "Jan–Feb",
+            "13–16°C",
+            "Low",
+            "Cold but beautiful; hot pools at St Clair"
+          ],
+          [
+            "Taranaki",
+            "Dec–Feb",
+            "15–17°C",
+            "Low",
+            "Great waves, coastal walkway, cheap accommodation"
+          ]
         ]
       }
     },
@@ -87,16 +218,52 @@
       "heading": "NZ Beach Holiday Costs for Families",
       "body": "Most NZ beaches are free to access — parking is the main variable cost. Holiday parks near beaches are the most affordable family accommodation option at $50–$90/night for a powered site or $120–$200/night for a cabin.",
       "table": {
-        "headers": ["Item", "Cost", "Notes"],
+        "headers": [
+          "Item",
+          "Cost",
+          "Notes"
+        ],
         "rows": [
-          ["Beach access", "Free", "Almost all NZ beaches are public"],
-          ["Parking (most beaches)", "$0–$5", "City beaches charge; rural beaches mostly free"],
-          ["Surfboard/bodyboard hire", "$15–$30/hr", "Most surf towns have hire shops"],
-          ["Surf lesson (kids)", "$50–$80", "Group lesson 1.5 hrs, all equipment"],
-          ["Ice cream / snacks (beach cafe)", "$4–$8 each", "Budget $20–$30 per beach day for treats"],
-          ["Wetsuit hire (if needed)", "$15–$25/day", "Available at most surf towns"],
-          ["Holiday park powered site", "$50–$90/night", "Best value family option near beaches"],
-          ["Holiday park cabin (4-person)", "$120–$200/night", "Peak Dec–Jan prices; book early"]
+          [
+            "Beach access",
+            "Free",
+            "Almost all NZ beaches are public"
+          ],
+          [
+            "Parking (most beaches)",
+            "$0–$5",
+            "City beaches charge; rural beaches mostly free"
+          ],
+          [
+            "Surfboard/bodyboard hire",
+            "$15–$30/hr",
+            "Most surf towns have hire shops"
+          ],
+          [
+            "Surf lesson (kids)",
+            "$50–$80",
+            "Group lesson 1.5 hrs, all equipment"
+          ],
+          [
+            "Ice cream / snacks (beach cafe)",
+            "$4–$8 each",
+            "Budget $20–$30 per beach day for treats"
+          ],
+          [
+            "Wetsuit hire (if needed)",
+            "$15–$25/day",
+            "Available at most surf towns"
+          ],
+          [
+            "Holiday park powered site",
+            "$50–$90/night",
+            "Best value family option near beaches"
+          ],
+          [
+            "Holiday park cabin (4-person)",
+            "$120–$200/night",
+            "Peak Dec–Jan prices; book early"
+          ]
         ]
       }
     },
@@ -116,7 +283,7 @@
     },
     {
       "heading": "NZ Beach Holiday Guides — Full Reading List",
-      "body": "These detailed guides cover everything from which beaches are safest by region to where to stay and what to budget:\n<ul style='margin-top:.6rem;line-height:2'>\n<li><a href='/travel-tips/best-nz-beach-holidays-families/'><strong>Best NZ Beach Holidays for Families 2026</strong></a> — top destinations, regional breakdowns, where to stay near each beach</li>\n<li><a href='/travel-tips/nz-beaches-kids-summer/'><strong>Safest NZ Beaches for Families — By Region</strong></a> — patrolled vs unpatrolled, facilities, shade, prices</li>\n<li><a href='/travel-tips/hot-water-beach-coromandel-family-review-2026-06/'><strong>Hot Water Beach with Kids — Family Review 2026</strong></a> — thermal pool digging, timing, parking tips</li>\n<li><a href='/destinations/coromandel-with-kids/'><strong>Coromandel with Kids</strong></a> — full destination guide, Hahei, Hot Water Beach, Cathedral Cove</li>\n<li><a href='/destinations/bay-of-islands-family/'><strong>Bay of Islands with Kids</strong></a> — Paihia, calm water, dolphin watching, Waitangi</li>\n<li><a href='/destinations/tauranga-mount-maunganui-family/'><strong>Mount Maunganui with Kids</strong></a> — surf town guide, best beaches, water parks nearby</li>\n<li><a href='/destinations/nelson-abel-tasman-family/'><strong>Nelson and Abel Tasman with Kids</strong></a> — South Island's best beach region, Kaiteriteri, water taxis</li>\n<li><a href='/travel-tips/nz-summer-holidays-with-kids/'><strong>NZ Summer Holidays with Kids</strong></a> — complete summer holiday planning guide</li>\n</ul>"
+      "body": "These detailed guides cover everything from which beaches are safest by region to where to stay and what to budget:\n<ul style='margin-top:.6rem;line-height:2'>\n<li><a href='/travel-tips/best-nz-beach-holidays-families/'><strong>Best NZ Beach Holidays for Families 2026</strong></a> — top destinations, regional breakdowns, where to stay near each beach</li>\n<li><a href='/travel-tips/nz-beaches-kids-summer/'><strong>Safest NZ Beaches for Families — By Region</strong></a> — patrolled vs unpatrolled, facilities, shade, prices</li>\n<li><a href='/travel-tips/hot-water-beach-coromandel-family-review-2026-06/'><strong>Hot Water Beach with Kids — Family Review 2026</strong></a> — thermal pool digging, timing, parking tips</li>\n<li><a href='/destinations/coromandel-with-kids/'><strong>Coromandel with Kids</strong></a> — full destination guide, Hahei, Hot Water Beach, Cathedral Cove</li>\n<li><a href='/destinations/bay-of-islands-family/'><strong>Bay of Islands with Kids</strong></a> — Paihia, calm water, dolphin watching, Waitangi</li>\n<li><a href='/destinations/tauranga-mount-maunganui-family/'><strong>Mount Maunganui with Kids</strong></a> — surf town guide, best beaches, water parks nearby</li>\n<li><a href='/destinations/nelson-abel-tasman-family/'><strong>Nelson and Abel Tasman with Kids</strong></a> — South Island's best beach region, Kaiteriteri, water taxis</li>\n<li><a href='/travel-tips/nz-summer-holidays-with-kids/'><strong>NZ Summer Holidays with Kids</strong></a> — complete summer holiday planning guide</li>\n</ul><br><li><a href=\"/travel-tips/auckland-beaches-kids/\"><strong>Auckland Beaches with Kids</strong></a> — Mission Bay, Takapuna, Piha, Orewa, Cheltenham and Muriwai — best ages, parking, and safety tips</li>"
     },
     {
       "heading": "Frequently Asked Questions — NZ Beaches with Kids",
