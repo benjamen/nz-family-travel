@@ -1,0 +1,73 @@
+{
+  "title": "Marlborough Hidden Gems",
+  "short_title": "Marlborough Gems",
+  "meta_desc": "Discover the hidden gems of Marlborough & Blenheim, perfect for families with kids, with insider tips on free activities, sheltered swimming bays, and wildlife cruises, all within a budget of $180-300/day for a family of 4.",
+  "intro": "Marlborough is a haven for families, with its sun-kissed Sounds, exciting wildlife cruises, and delicious food scene. While many visit the popular Queen Charlotte Track and Picton township, there are plenty of lesser-known spots to explore. From crystal-clear river swimming to sheltered bays perfect for small kids, we've got the inside scoop on the best hidden gems in Marlborough & Blenheim.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Pelorus Bridge Scenic Reserve",
+      "body": "<p>The Pelorus Bridge Scenic Reserve is a must-visit for families, with its stunning crystal-clear river swimming and picturesque scenery. Located just 45 minutes from Blenheim, it's an ideal spot for a day trip or picnic. The reserve also offers short walks and a chance to spot native birds and wildlife.</p><p>The best part? It's completely free to visit, making it a great option for families on a budget. The reserve is suitable for kids of all ages, but be sure to keep a close eye on little ones near the water.</p>",
+      "list": [
+        "Free admission",
+        "Suitable for kids of all ages",
+        "45-minute drive from Blenheim"
+      ]
+    },
+    {
+      "heading": "Momorangi Bay",
+      "body": "<p>Momorangi Bay is a sheltered Sounds bay that's perfect for small kids, with its calm and warm water. The bay is also home to a camping ground, which offers a range of accommodation options and facilities. While the camping ground does have a fee, it's possible to visit the bay for the day for free.</p><p>The bay is about an hour's drive from Picton, and there are also public transport options available. Once you arrive, you can enjoy swimming, kayaking, or simply relaxing on the beach.</p>",
+      "list": [
+        "Free day visit",
+        "Camping ground fees apply",
+        "1-hour drive from Picton"
+      ]
+    },
+    {
+      "heading": "Waitohi Picton Play Area",
+      "body": "<p>The Waitohi Picton play area is a hidden gem for families, with its modern play equipment and beautiful surroundings. The play area is located near the Picton foreshore, making it a great spot to combine with a visit to the beach or a walk along the waterfront.</p><p>The play area is suitable for kids of all ages, and it's completely free to visit. There are also picnic tables and toilets nearby, making it a great spot for a family picnic or BBQ.</p>",
+      "list": [
+        "Free admission",
+        "Suitable for kids of all ages",
+        "Located near Picton foreshore"
+      ]
+    },
+    {
+      "heading": "Insider Tips",
+      "body": "<p>For a unique and memorable experience, consider taking a dolphin watch cruise or a sea kayaking tour in the Marlborough Sounds. These activities offer a chance to see wildlife up close and explore the stunning scenery of the Sounds.</p><p>Another insider tip is to visit the Edwin Fox Maritime Museum in Picton, which offers a fascinating glimpse into the region's maritime history. The museum is suitable for kids aged 5 and above, and admission costs around $10 per person.</p>",
+      "table": {
+        "headers": [
+          "Activity",
+          "Cost",
+          "Age suitability"
+        ],
+        "rows": [
+          [
+            "Dolphin watch cruise",
+            "$80-$100 per person",
+            "5+ years"
+          ],
+          [
+            "Sea kayaking tour",
+            "$90-$120 per person",
+            "5+ years"
+          ],
+          [
+            "Edwin Fox Maritime Museum",
+            "$10 per person",
+            "5+ years"
+          ]
+        ]
+      },
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "marlborough-blenheim-family-hidden-gems-families",
+  "updated": "June 2026",
+  "auto_generated": true,
+  "generated_date": "2026-06-21"
+}
