@@ -1,26 +1,26 @@
 {
   "slug": "nz-school-holidays-travel-tips",
-  "short_title": "School Holidays Tips",
+  "short_title": "Beat School Holiday Crowds",
   "title": "NZ School Holidays Travel Tips — How to Beat the Crowds and Save Money",
-  "meta_desc": "Discover how to save money and avoid crowds during NZ school holidays with our expert travel tips",
-  "intro": "If you're planning a family trip during NZ school holidays, be prepared for peak prices and crowds at popular destinations like Rotorua and Queenstown. However, with some smart planning, you can save up to 30% on accommodation and activities. Here's how to make the most of your next family adventure.",
+  "meta_desc": "Travel NZ during school holidays without breaking the bank. Discover tips to save up to $500 on accommodations",
+  "intro": "NZ school holidays can be a nightmare for family travel, with prices skyrocketing up to 30% during peak season. However, with some smart planning, you can save up to $500 on accommodations and activities. For instance, a family room at the Heritage Hotel in Queenstown costs $420 per night during peak season, but drops to $280 during off-peak periods.",
   "updated": "June 2026",
-  "reading_time": 9,
+  "reading_time": 10,
   "sections": [
     {
       "heading": "Understanding Peak and Off-Peak Pricing",
-      "body": "During school holidays, prices for accommodation, activities, and transportation increase significantly. For example, a family room at the Novotel Rotorua Lakeside can cost around $450 per night during peak season, compared to $280 per night during off-peak season."
+      "body": "In New Zealand, peak season typically coincides with school holidays, which fall in April, July, and October. During these periods, prices for accommodations, activities, and tourist attractions tend to increase. However, if you can plan your trip during off-peak periods, such as May or September, you can save significantly. For example, a 3-day pass to the Skyline Gondola in Queenstown costs $120 per person during peak season, but drops to $90 during off-peak periods."
     },
     {
       "heading": "Booking Lead Times",
       "list": [
-        "Book your accommodation at least 3 months in advance to secure the best rates",
-        "Reserve popular activities like the Skyline Gondola in Queenstown up to 2 months ahead",
-        "Plan your itinerary around off-peak days, such as weekdays, to avoid crowds"
+        "Book your accommodations at least 3 months in advance to secure the best rates",
+        "Activity and attraction bookings should be made at least 2 weeks in advance to avoid sold-out situations",
+        "Consider booking a package deal that includes accommodations, activities, and car rentals for a discounted rate"
       ]
     },
     {
-      "heading": "Accommodation Options",
+      "heading": "Comparison of Accommodation Prices",
       "table": {
         "headers": [
           "Accommodation Type",
@@ -29,56 +29,48 @@
         ],
         "rows": [
           [
-            "Hotel (Novotel Rotorua Lakeside)",
-            "$450",
+            "Hotel Room (Heritage Hotel, Queenstown)",
+            "$420",
             "$280"
           ],
           [
-            "Holiday Park (Rotorua Top 10 Holiday Resort)",
-            "$200",
-            "$120"
+            "Holiday Home (Bachcare, Wanaka)",
+            "$600",
+            "$400"
           ],
           [
-            "Campsite (Lake Tarawera Campsite)",
-            "$30",
-            "$20"
+            "Campsite (Top 10 Holiday Resort, Rotorua)",
+            "$50",
+            "$30"
           ]
         ]
       }
     },
     {
-      "heading": "Saving Money on Activities",
-      "body": "Consider purchasing a family pass for popular attractions like the Te Puia thermal reserve in Rotorua, which costs around $120 for a family of four. You can also save money by booking activities online in advance, such as the Shotover Jet in Queenstown, which offers a 10% discount for online bookings."
+      "heading": "Driving Distances and Times",
+      "body": "If you're planning a road trip, be aware of the driving distances and times between your destinations. For example, driving from Auckland to Rotorua takes approximately 3 hours, while driving from Queenstown to Wanaka takes around 1 hour. Make sure to check the road conditions and weather forecast before embarking on your journey."
     },
     {
-      "heading": "Getting There",
+      "heading": "Saving Money on Activities",
       "list": [
-        "Drive times from Auckland to Rotorua: around 3 hours",
-        "Drive times from Auckland to Queenstown: around 18 hours (with stops) or 1.5 hours by flight",
-        "Book your flights or car rentals at least 2 months in advance to secure the best rates"
+        "Consider purchasing a Kiwi Experience pass, which grants you access to multiple activities and attractions at a discounted rate (from $199 per person)",
+        "Look for free or low-cost activities, such as visiting the Auckland Art Gallery (free admission) or going for a hike in the Waitakere Ranges (free admission)",
+        "Book a guided tour or activity outside of peak hours to save up to 20% on the usual price"
       ]
     },
     {
-      "heading": "Plan Your Trip with Our Tools",
+      "heading": "Get the Most Out of Your Trip",
       "cta": {
-        "text": "Use our NZ Family Travel Budget Calculator",
+        "text": "Calculate your family travel budget",
         "url": "/tools/nz-family-travel-budget-calculator/",
         "affiliate": false
       }
     },
     {
-      "heading": "Discover More Destinations",
+      "heading": "Discover More NZ Destinations",
       "cta": {
-        "text": "Explore our favourite family-friendly destinations",
+        "text": "Explore our top picks for family-friendly destinations",
         "url": "/destinations/",
-        "affiliate": false
-      }
-    },
-    {
-      "heading": "Rent a Campervan for Your Next Adventure",
-      "cta": {
-        "text": "Compare campervan rental prices and book now",
-        "url": "/campervans/",
         "affiliate": false
       }
     }
