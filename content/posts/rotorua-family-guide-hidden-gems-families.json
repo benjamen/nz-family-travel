@@ -1,0 +1,73 @@
+{
+  "title": "Rotorua Hidden Gems",
+  "short_title": "Rotorua Secrets",
+  "meta_desc": "Discover Rotorua's hidden gems, free activities, and insider tips perfect for families with kids, including Kuirau Park, Rainbow Springs, and more, with practical info on costs and ages",
+  "intro": "Rotorua is a treasure trove of geothermal wonders, Maori culture, and exciting activities for families. While many visitors flock to popular attractions like Te Puia and Wai-O-Tapu, there are plenty of lesser-known spots that are just as fascinating. In this article, we'll reveal Rotorua's best-kept secrets that are sure to delight kids and adults alike.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Kuirau Park: A Free Geothermal Gem",
+      "body": "<p>Kuirau Park is a hidden gem that's often overlooked by tourists. This free public geothermal park is located right in the heart of Rotorua and features hot bubbling mud pools, steam vents, and a foot spa. It's a great place for kids to explore and learn about geothermal activity in a safe and natural environment.</p> <p>To get to Kuirau Park, simply walk or drive to the intersection of Ranolf Street and Pukuatua Street. Admission is free, and the park is open 24/7. All ages are welcome, making it an ideal spot for families.</p>",
+      "list": [
+        "Free admission",
+        "Open 24/7",
+        "Suitable for all ages"
+      ]
+    },
+    {
+      "heading": "Rainbow Springs: Free Kiwi Viewing",
+      "body": "<p>Rainbow Springs is a popular attraction just outside of Rotorua, but many visitors don't know about the free kiwi viewing at dusk. If you purchase a daytime ticket ($42 adult, $24 child), you can return at dusk to see real kiwis in the nocturnal house.</p> <p>To get to Rainbow Springs, drive 5 minutes north of Rotorua city centre. The park is open from 8:30 am to 5:30 pm, and the kiwi viewing starts at dusk. The attraction is suitable for children aged 3 and above.</p>",
+      "list": [
+        "Daytime ticket: $42 adult, $24 child",
+        "Free kiwi viewing at dusk",
+        "Suitable for children aged 3 and above"
+      ]
+    },
+    {
+      "heading": "Other Hidden Gems",
+      "body": "<p>Other hidden gems in Rotorua include the Rotorua Lakefront, which offers a scenic walk and picnic spots, and the Redwoods Forest, which features stunning tree walks and hiking trails. The Rotorua Museum is also worth visiting, with its interactive exhibits and historic displays.</p> <p>The Rotorua Lakefront is accessible by walking or driving, and admission is free. The Redwoods Forest is a 5-minute drive from the city centre, and admission is $30 adult, $20 child. The Rotorua Museum is open from 9 am to 5 pm, and admission is $20 adult, $15 child.</p>",
+      "table": {
+        "headers": [
+          "Attraction",
+          "Admission",
+          "Suitable Age"
+        ],
+        "rows": [
+          [
+            "Rotorua Lakefront",
+            "Free",
+            "All ages"
+          ],
+          [
+            "Redwoods Forest",
+            "$30 adult, $20 child",
+            "5 and above"
+          ],
+          [
+            "Rotorua Museum",
+            "$20 adult, $15 child",
+            "5 and above"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Insider Tips",
+      "body": "<p>To make the most of your visit to Rotorua, consider purchasing a Rotorua Attractions Pass, which grants you access to multiple attractions at a discounted rate. You can also book a guided tour to explore the city's hidden gems and learn more about its history and culture.</p> <p>The Rotorua Attractions Pass can be purchased online or at the i-SITE visitor centre, and prices start from $150 per person. Guided tours can be booked through various tour operators, and prices vary depending on the tour and duration.</p>",
+      "list": [
+        "Purchase a Rotorua Attractions Pass for discounted rates",
+        "Book a guided tour to explore hidden gems",
+        "Visit the i-SITE visitor centre for more information"
+      ],
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "rotorua-family-guide-hidden-gems-families",
+  "updated": "June 2026",
+  "auto_generated": true,
+  "generated_date": "2026-06-23"
+}
