@@ -1,70 +1,80 @@
 {
   "slug": "nz-school-holidays-travel-tips",
-  "short_title": "School Holiday Tips",
+  "short_title": "School Holiday Travel",
   "title": "NZ School Holidays Travel Tips — How to Beat the Crowds and Save Money",
-  "meta_desc": "Discover how to save money and avoid crowds during NZ school holidays with expert travel tips and insider knowledge",
-  "intro": "If you're planning a family trip during the NZ school holidays, be prepared for crowds and hefty price tags, with some popular attractions like the Skyline Gondola in Queenstown increasing their prices by up to 20% during peak season. However, with some smart planning and insider knowledge, you can beat the crowds and save money. In this article, we'll share our top tips for navigating the NZ school holidays like a pro.",
+  "meta_desc": "Discover how to save money and avoid crowds during NZ school holidays with our expert travel tips",
+  "intro": "If you're planning to travel during NZ school holidays, be prepared for peak prices and crowds. However, with some insider knowledge, you can beat the crowds and save money. For example, did you know that booking your accommodation at least 6 months in advance can save you up to 30%?",
   "updated": "June 2026",
-  "reading_time": 10,
+  "reading_time": 9,
   "sections": [
     {
-      "heading": "Plan Ahead and Book Early",
-      "body": "One of the most effective ways to save money and avoid crowds during the NZ school holidays is to plan ahead and book early. Popular attractions and accommodations tend to fill up quickly, so it's essential to book at least 2-3 months in advance to avoid missing out. For example, booking a campsite at the popular Lake Tekapo Holiday Park can cost around $40-$60 per night during peak season, but booking early can secure a spot for as low as $30-$40 per night."
+      "heading": "Understanding Peak and Off-Peak Pricing",
+      "body": "Peak season in NZ typically falls during school holidays, with prices for accommodation and activities increasing by up to 50%. For instance, a night at the Novotel Queenstown Lakeside can cost around $450 during peak season, compared to $280 during off-peak season."
     },
     {
-      "heading": "Peak vs Off-Peak Pricing",
+      "heading": "Tips for Avoiding the Crowds",
+      "list": [
+        "Visit popular attractions early in the morning or late in the evening",
+        "Consider visiting lesser-known destinations, such as the Coromandel Peninsula or the Hawke's Bay region",
+        "Book a guided tour to avoid queues and make the most of your time"
+      ]
+    },
+    {
+      "heading": "Accommodation Options",
       "table": {
         "headers": [
-          "Accommodation",
-          "Peak Season Price",
-          "Off-Peak Season Price"
+          "Accommodation Type",
+          "Peak Season Price (NZD)",
+          "Off-Peak Season Price (NZD)"
         ],
         "rows": [
           [
-            "Lake Tekapo Holiday Park",
-            "$40-$60 per night",
-            "$30-$40 per night"
+            "Hotel",
+            "450",
+            "280"
           ],
           [
-            "Queenstown Hotel",
-            "$250-$350 per night",
-            "$180-$250 per night"
+            "Holiday Home",
+            "800",
+            "500"
           ],
           [
-            "Auckland Motel",
-            "$120-$180 per night",
-            "$90-$120 per night"
+            "Campsite",
+            "40",
+            "30"
           ]
         ]
       }
     },
     {
-      "heading": "Alternative Destinations",
+      "heading": "Booking Lead Times",
+      "body": "It's essential to book your accommodation and activities well in advance, especially during peak season. For example, booking a campervan with Jucy Campervans at least 3 months in advance can save you up to 20% on your rental fees."
+    },
+    {
+      "heading": "Transportation Costs",
       "list": [
-        "Consider visiting lesser-known destinations like the Catlins, which offers stunning coastal scenery and wildlife spotting opportunities",
-        "Head to the South Island's West Coast, which is often less crowded than the East Coast",
-        "Explore the beautiful Coromandel Peninsula, which offers a range of outdoor activities and stunning beaches"
+        "Renting a car for a week can cost around $400-$600, depending on the rental company and vehicle type",
+        "Fuel costs can range from $100-$200 per week, depending on your driving distance and vehicle fuel efficiency",
+        "Consider using public transport or shuttle services to reduce your transportation costs"
       ]
     },
     {
-      "heading": "Drive Times and Transportation",
-      "body": "When planning your trip, it's essential to consider drive times and transportation options. For example, driving from Auckland to Wellington can take around 8-10 hours, depending on traffic and road conditions. Consider breaking up the journey with stops in destinations like Taupo or Palmerston North, which can help to reduce fatigue and make the journey more enjoyable. You can also use our NZ Family Travel Budget Calculator to estimate fuel costs and plan your route."
-    },
-    {
-      "heading": "Accommodation Options",
-      "body": "When it comes to accommodation, there are a range of options to suit all budgets and preferences. Consider staying in a campervan, which can be a cost-effective and flexible option, with prices starting from around $100-$150 per day. You can also stay in a holiday park or motel, which can offer a range of amenities and services. For more information on accommodation options, check out our Campervans page or Destinations page."
-    },
-    {
-      "heading": "Get the Most Out of Your Trip",
+      "heading": "Budgeting for Your Trip",
+      "body": "To get an estimate of your trip costs, use our NZ Family Travel Budget Calculator. This tool allows you to input your travel dates, accommodation options, and activities to get a detailed breakdown of your expenses.",
       "cta": {
-        "text": "Use our NZ Family Travel Budget Calculator to plan your trip",
+        "text": "Calculate Your Trip Costs",
         "url": "/tools/nz-family-travel-budget-calculator/",
         "affiliate": false
       }
     },
     {
-      "heading": "Conclusion",
-      "body": "With some smart planning and insider knowledge, you can beat the crowds and save money during the NZ school holidays. Remember to plan ahead, book early, and consider alternative destinations and accommodation options. Don't forget to use our NZ Family Travel Budget Calculator to estimate costs and plan your route. Happy travels!"
+      "heading": "Popular Destinations",
+      "body": "Some popular destinations in NZ include Queenstown, Rotorua, and Auckland. Each of these destinations offers a range of activities and attractions, from skiing and hiking to cultural experiences and city tours. The drive from Auckland to Rotorua takes around 3 hours, while the drive from Queenstown to Wanaka takes around 1 hour.",
+      "cta": {
+        "text": "Explore Our Destinations Guide",
+        "url": "/destinations/",
+        "affiliate": false
+      }
     }
   ]
 }
