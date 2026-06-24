@@ -1,80 +1,82 @@
 {
   "slug": "nz-school-holidays-travel-tips",
-  "short_title": "School Holiday Travel",
+  "short_title": "School Holiday Tips",
   "title": "NZ School Holidays Travel Tips — How to Beat the Crowds and Save Money",
-  "meta_desc": "Discover how to save money and avoid crowds during NZ school holidays with our expert travel tips",
-  "intro": "If you're planning to travel during NZ school holidays, be prepared for peak prices and crowds. However, with some insider knowledge, you can beat the crowds and save money. For example, did you know that booking your accommodation at least 6 months in advance can save you up to 30%?",
+  "meta_desc": "Discover how to save money and beat crowds during NZ school holidays with our expert travel tips",
+  "intro": "NZ school holidays can be a challenging time to travel, with crowds and high prices at popular destinations like Rotorua and Queenstown. However, with some planning and insider knowledge, you can still have a fantastic family holiday without breaking the bank. By understanding peak vs off-peak pricing, you can save up to 30% on accommodation and activities.",
   "updated": "June 2026",
   "reading_time": 9,
   "sections": [
     {
-      "heading": "Understanding Peak and Off-Peak Pricing",
-      "body": "Peak season in NZ typically falls during school holidays, with prices for accommodation and activities increasing by up to 50%. For instance, a night at the Novotel Queenstown Lakeside can cost around $450 during peak season, compared to $280 during off-peak season."
+      "heading": "Plan Ahead and Book Early",
+      "body": "Booking your accommodation and activities well in advance is crucial to saving money and avoiding crowds. For example, booking a campsite at the popular Whangamata Beach in the Coromandel Peninsula can cost $45 per night during peak season, but prices drop to $25 per night during the off-season. It's also essential to research and book your activities in advance, as popular attractions like the Skyline Gondola in Queenstown can sell out quickly, with prices starting from $44 per adult and $26 per child."
     },
     {
-      "heading": "Tips for Avoiding the Crowds",
-      "list": [
-        "Visit popular attractions early in the morning or late in the evening",
-        "Consider visiting lesser-known destinations, such as the Coromandel Peninsula or the Hawke's Bay region",
-        "Book a guided tour to avoid queues and make the most of your time"
-      ]
-    },
-    {
-      "heading": "Accommodation Options",
+      "heading": "Peak vs Off-Peak Pricing",
       "table": {
         "headers": [
-          "Accommodation Type",
-          "Peak Season Price (NZD)",
-          "Off-Peak Season Price (NZD)"
+          "Destination",
+          "Peak Season Price",
+          "Off-Peak Season Price"
         ],
         "rows": [
           [
-            "Hotel",
-            "450",
-            "280"
+            "Rotorua",
+            "$150 per night",
+            "$90 per night"
           ],
           [
-            "Holiday Home",
-            "800",
-            "500"
+            "Queenstown",
+            "$250 per night",
+            "$180 per night"
           ],
           [
-            "Campsite",
-            "40",
-            "30"
+            "Wellington",
+            "$120 per night",
+            "$80 per night"
           ]
         ]
       }
     },
     {
-      "heading": "Booking Lead Times",
-      "body": "It's essential to book your accommodation and activities well in advance, especially during peak season. For example, booking a campervan with Jucy Campervans at least 3 months in advance can save you up to 20% on your rental fees."
-    },
-    {
-      "heading": "Transportation Costs",
+      "heading": "Alternative Destinations",
       "list": [
-        "Renting a car for a week can cost around $400-$600, depending on the rental company and vehicle type",
-        "Fuel costs can range from $100-$200 per week, depending on your driving distance and vehicle fuel efficiency",
-        "Consider using public transport or shuttle services to reduce your transportation costs"
+        "Consider visiting lesser-known destinations like the Bay of Islands, which offers a range of activities including dolphin watching and snorkeling, with prices starting from $80 per person.",
+        "The Hawke's Bay region is another great option, with its beautiful beaches, wineries, and outdoor activities, and accommodation prices starting from $100 per night.",
+        "The West Coast is also a great destination for outdoor enthusiasts, with its stunning landscapes, hiking trails, and scenic drives, and accommodation prices starting from $80 per night."
       ]
     },
     {
-      "heading": "Budgeting for Your Trip",
-      "body": "To get an estimate of your trip costs, use our NZ Family Travel Budget Calculator. This tool allows you to input your travel dates, accommodation options, and activities to get a detailed breakdown of your expenses.",
+      "heading": "Drive Times and Distances",
+      "body": "When planning your road trip, it's essential to consider drive times and distances. For example, the drive from Auckland to Rotorua takes around 3 hours, while the drive from Queenstown to Wanaka takes around 1 hour. Make sure to check the road conditions and weather forecast before embarking on your journey, and consider downloading a traffic app like Waze to help navigate the roads."
+    },
+    {
+      "heading": "Budgeting and Cost-Saving Tips",
+      "list": [
+        "Use our NZ Family Travel Budget Calculator to help plan and track your expenses.",
+        "Consider cooking your own meals instead of eating out, with grocery prices starting from $50 per week for a family of four.",
+        "Look for free or low-cost activities, such as visiting local parks and beaches, or taking a scenic drive."
+      ]
+    },
+    {
+      "heading": "Get the Best Deals on Campervans",
       "cta": {
-        "text": "Calculate Your Trip Costs",
-        "url": "/tools/nz-family-travel-budget-calculator/",
+        "text": "Compare campervan prices and book now",
+        "url": "/campervans/",
         "affiliate": false
       }
     },
     {
-      "heading": "Popular Destinations",
-      "body": "Some popular destinations in NZ include Queenstown, Rotorua, and Auckland. Each of these destinations offers a range of activities and attractions, from skiing and hiking to cultural experiences and city tours. The drive from Auckland to Rotorua takes around 3 hours, while the drive from Queenstown to Wanaka takes around 1 hour.",
+      "heading": "Explore Our Destination Guides",
       "cta": {
-        "text": "Explore Our Destinations Guide",
+        "text": "Discover the best destinations for your family holiday",
         "url": "/destinations/",
         "affiliate": false
       }
+    },
+    {
+      "heading": "Plan Your Dream Holiday",
+      "body": "With these tips and insider knowledge, you can plan a fantastic family holiday that suits your budget and preferences. Remember to always research and book in advance, and consider alternative destinations and activities to avoid the crowds. Happy travels!"
     }
   ]
 }
