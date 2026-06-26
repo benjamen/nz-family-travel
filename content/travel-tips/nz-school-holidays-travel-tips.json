@@ -1,75 +1,89 @@
 {
   "slug": "nz-school-holidays-travel-tips",
-  "short_title": "School Holiday Travel",
+  "short_title": "School Holiday Tips",
   "title": "NZ School Holidays Travel Tips — How to Beat the Crowds and Save Money",
-  "meta_desc": "Travel NZ during school holidays without breaking the bank. Get tips on beating crowds and saving money",
-  "intro": "Travelling during NZ school holidays can be expensive, with prices for accommodation and activities increasing by up to 50% during peak season. However, with some planning and insider knowledge, you can still have a great family holiday without breaking the bank. For example, a recent trip to Rotorua during the school holidays cost our family $800 for a 3-night stay in a motel, compared to $1200 during the same period the previous year, simply by booking earlier and opting for a self-contained unit",
+  "meta_desc": "NZ school holidays travel tips to save money and avoid crowds, expert advice from NZFamilyTravel",
+  "intro": "Travelling during NZ school holidays can be expensive and crowded, but with the right strategies, you can save up to $500 on a family holiday. Peak season prices can be double the off-peak rates, making it essential to plan ahead. For example, a family of four can expect to pay around $250 per night for a motel room in Queenstown during school holidays, compared to $120 per night during off-peak season.",
   "updated": "June 2026",
   "reading_time": 9,
   "sections": [
     {
-      "heading": "Understanding Peak and Off-Peak Pricing",
-      "body": "In New Zealand, peak season typically falls during the school holidays, which are usually in April, July, and October. During this time, prices for accommodation, activities, and tourist attractions tend to increase. However, if you can travel during the off-peak season, you can save a significant amount of money. For instance, a 2-hour guided tour of the Hobbiton Movie Set in Matamata costs $89 per adult and $44 per child during peak season, but $79 per adult and $39 per child during off-peak season."
+      "heading": "Plan Ahead to Save Money",
+      "body": "Booking your accommodation and activities well in advance can help you save a significant amount of money. For instance, booking a campsite at Wanaka's Lake Outlet Campground 6 months in advance can cost around $20 per night, compared to $40 per night if booked at the last minute. Similarly, activities like the Skyline Gondola in Queenstown can be booked online for $39 per adult and $25 per child, a savings of $10 per person compared to buying tickets at the door."
     },
     {
-      "heading": "Booking Lead Times",
-      "list": [
-        "Book your accommodation at least 6 months in advance to secure the best rates",
-        "Consider booking a self-contained unit or apartment, which can be more cost-effective than a hotel room",
-        "Look for packages that include activities and meals, which can sometimes be cheaper than booking individual components separately"
-      ]
-    },
-    {
-      "heading": "Comparison of Accommodation Options",
+      "heading": "Peak vs Off-Peak Pricing",
       "table": {
         "headers": [
-          "Accommodation Type",
-          "Peak Season Price (per night)",
-          "Off-Peak Season Price (per night)"
+          "Destination",
+          "Peak Season Price",
+          "Off-Peak Season Price"
         ],
         "rows": [
           [
-            "Hotel Room",
-            "$250",
-            "$180"
+            "Queenstown",
+            "$250 per night",
+            "$120 per night"
           ],
           [
-            "Self-Contained Unit",
-            "$180",
-            "$120"
+            "Auckland",
+            "$180 per night",
+            "$100 per night"
           ],
           [
-            "Campsite",
-            "$40",
-            "$30"
+            "Rotorua",
+            "$150 per night",
+            "$80 per night"
+          ],
+          [
+            "Wanaka",
+            "$200 per night",
+            "$100 per night"
           ]
         ]
       }
     },
     {
-      "heading": "Driving Times and Distances",
-      "body": "When planning your trip, it's essential to consider the driving times and distances between destinations. For example, the drive from Auckland to Rotorua takes approximately 3 hours, while the drive from Wellington to Queenstown takes around 10 hours. Be sure to factor in rest stops and meal breaks to avoid fatigue and keep your family safe on the road."
-    },
-    {
-      "heading": "Affordable Activities",
+      "heading": "Alternative Accommodation Options",
       "list": [
-        "Visit the Auckland Museum, which offers free admission for children under 5 and $25 for adults",
-        "Take a hike in the beautiful Waitakere Ranges, which offers free admission and stunning views",
-        "Explore the Wellington Zoo, which costs $27 per adult and $16 per child"
+        "Consider staying in nearby towns instead of major cities, such as staying in Frankton instead of Queenstown",
+        "Look into campervans or motorhomes, which can be rented for around $100-150 per day",
+        "Book a holiday home or apartment, which can often be more cost-effective for families than hotels"
       ]
     },
     {
-      "heading": "Budgeting for Your Trip",
+      "heading": "Free and Low-Cost Activities",
+      "body": "There are plenty of free and low-cost activities to enjoy in NZ, such as visiting the beach, going for a hike, or exploring a local market. For example, the drive from Auckland to the Coromandel Peninsula takes around 2 hours, and offers stunning scenery and beautiful beaches. You can also visit the Auckland Art Gallery Toi o Tāmaki, which is free to visit and offers a range of family-friendly activities."
+    },
+    {
+      "heading": "Get the Best Deals on Campervans",
       "cta": {
-        "text": "Use our NZ Family Travel Budget Calculator to plan your trip",
+        "text": "Compare campervan prices and book now",
+        "url": "/campervans/",
+        "affiliate": false
+      }
+    },
+    {
+      "heading": "Budgeting for Your Trip",
+      "body": "Using a budget calculator can help you plan and track your expenses, ensuring that you stay within your means. Our NZ Family Travel Budget Calculator is a free tool that can help you estimate costs and make the most of your holiday.",
+      "cta": {
+        "text": "Try our budget calculator now",
         "url": "/tools/nz-family-travel-budget-calculator/",
         "affiliate": false
       }
     },
     {
-      "heading": "Explore More Destinations",
+      "heading": "Explore NZ's Hidden Gems",
+      "list": [
+        "Visit the town of Glenorchy, which is around a 45-minute drive from Queenstown and offers stunning scenery and outdoor activities",
+        "Explore the Whanganui National Park, which is around a 2.5-hour drive from Wellington and offers beautiful scenery and hiking trails",
+        "Take a trip to the Catlins, which is around a 2-hour drive from Dunedin and offers stunning coastal scenery and wildlife viewing opportunities"
+      ]
+    },
+    {
+      "heading": "Start Planning Your Trip",
       "cta": {
-        "text": "Discover more family-friendly destinations in New Zealand",
+        "text": "Discover the best destinations for your family holiday",
         "url": "/destinations/",
         "affiliate": false
       }
