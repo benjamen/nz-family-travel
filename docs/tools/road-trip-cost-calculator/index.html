@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en-NZ">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NZ Family Road Trip Cost Calculator 2026 — Budget Planner</title>
+  <meta name="description" content="Plan your NZ family road trip budget. Calculate fuel, accommodation, food &amp; activities costs for any length trip.">
+  <link rel="canonical" href="https://nzfamilytravel.co.nz/tools/road-trip-cost-calculator/">
+  <link rel="icon" href="/static/img/favicon.svg" type="image/svg+xml">
+  <meta name="theme-color" content="#0369a1">
+  <meta name="robots" content="index, follow">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://nzfamilytravel.co.nz/tools/road-trip-cost-calculator/">
+  <meta property="og:title" content="NZ Family Road Trip Cost Calculator 2026">
+  <meta property="og:description" content="Calculate fuel, accommodation, food and activities costs for your NZ family road trip — any length, any vehicle.">
+  <meta property="og:site_name" content="NZ Family Travel">
+  <meta property="og:locale" content="en_NZ">
+
+  <link rel="preconnect" href="https://www.googletagmanager.com">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-BHTP34TBYW"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-BHTP34TBYW');</script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"WebApplication","name":"NZ Family Road Trip Cost Calculator","url":"https://nzfamilytravel.co.nz/tools/road-trip-cost-calculator/","applicationCategory":"TravelApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"NZD"},"description":"Calculate the total cost of a NZ family road trip — fuel, accommodation, food and activities."}
+  </script>
+
+  <style>
+    :root{
+      --brand:#0369a1; --brand-dk:#075985; --brand-lt:#e0f2fe;
+      --green:#16a34a; --amber:#d97706; --teal:#0d9488;
+      --bg:#f9fafb; --card:#fff; --border:#e5e7eb; --text:#111827; --muted:#4b5563;
+      --radius:10px;
+    }
+    *{box-sizing:border-box}
+    body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;margin:0;background:var(--bg);color:var(--text);line-height:1.55}
+    .wrap{max-width:860px;margin:0 auto;padding:1.25rem}
+    header.top{background:var(--brand);color:#fff;padding:.75rem 0}
+    header.top .wrap{display:flex;align-items:center;justify-content:space-between;padding-top:.5rem;padding-bottom:.5rem}
+    header.top a{color:#fff;text-decoration:none;font-weight:700}
+    header.top nav a{font-weight:500;margin-left:1rem;opacity:.9;font-size:.95rem}
+    h1{font-size:1.85rem;margin:.2rem 0 .4rem}
+    .lede{color:var(--muted);margin:0 0 1.5rem;font-size:1.05rem}
+    .card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:1.25rem 1.4rem;margin-bottom:1.25rem;box-shadow:0 1px 3px rgba(0,0,0,.06)}
+    label{display:block;font-weight:600;margin:.85rem 0 .3rem;font-size:.95rem}
+    input,select{width:100%;padding:.6rem .7rem;border:1px solid var(--border);border-radius:8px;font-size:1rem;background:#fff;color:var(--text)}
+    input:focus,select:focus{outline:2px solid var(--brand);border-color:var(--brand)}
+    .row{display:flex;gap:1rem;flex-wrap:wrap}
+    .row > div{flex:1;min-width:160px}
+    .slider-val{font-weight:700;color:var(--brand)}
+    input[type=range]{padding:0;accent-color:var(--brand)}
+    .results{background:linear-gradient(135deg,#e0f2fe,#f0f9ff)}
+    .total-hero{text-align:center;padding:.5rem 0 1rem}
+    .total-hero .lbl{font-size:.85rem;color:var(--muted);text-transform:uppercase;letter-spacing:.04em}
+    .total-hero .big{font-size:3rem;font-weight:800;color:var(--brand-dk);line-height:1.1;margin-top:.2rem}
+    .res-grid{display:grid;grid-template-columns:1fr 1fr;gap:.85rem;margin:.5rem 0 1rem}
+    @media(max-width:520px){.res-grid{grid-template-columns:1fr}.total-hero .big{font-size:2.4rem}}
+    .res-box{background:#fff;border:1px solid var(--border);border-radius:10px;padding:.8rem 1rem;text-align:center}
+    .res-box .lbl{font-size:.78rem;color:var(--muted);text-transform:uppercase;letter-spacing:.03em}
+    .res-box .num{font-size:1.45rem;font-weight:700;margin-top:.15rem}
+    h2{font-size:1.3rem;margin:.2rem 0 .9rem}
+    .bars{margin-top:.5rem}
+    .bar-row{display:grid;grid-template-columns:130px 1fr 90px;align-items:center;gap:.6rem;margin:.45rem 0}
+    .bar-row .cat{font-size:.9rem;font-weight:600}
+    .bar-track{background:var(--border);border-radius:6px;height:22px;overflow:hidden}
+    .bar-fill{height:100%;border-radius:6px;transition:width .25s ease}
+    .bar-row .amt{text-align:right;font-variant-numeric:tabular-nums;font-weight:600;font-size:.92rem}
+    .c-fuel{background:var(--amber)}
+    .c-accom{background:var(--brand)}
+    .c-food{background:var(--green)}
+    .c-act{background:var(--teal)}
+    .c-veh{background:#7c3aed}
+    .tips{list-style:none;padding:0;margin:.3rem 0 0}
+    .tips li{background:#f0fdf4;border-left:4px solid var(--green);border-radius:6px;padding:.7rem .9rem;margin:.5rem 0;font-size:.95rem}
+    .note{font-size:.85rem;color:var(--muted);margin-top:.6rem}
+    .links a{display:inline-block;margin:.3rem .8rem .3rem 0;color:var(--brand);font-weight:600;text-decoration:none}
+    .links a:hover{text-decoration:underline}
+    footer{text-align:center;color:var(--muted);font-size:.85rem;padding:2rem 1rem}
+  </style>
+</head>
+<body>
+  <header class="top">
+    <div class="wrap">
+      <a href="/">NZ Family Travel</a>
+      <nav>
+        <a href="/destinations/">Destinations</a>
+        <a href="/itineraries/">Itineraries</a>
+        <a href="/tools/">Tools</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <h1>NZ Family Road Trip Cost Calculator</h1>
+    <p class="lede">Planning a New Zealand road trip with the family? Work out a realistic budget in seconds — fuel, accommodation, food and activities, for a trip of any length.</p>
+
+    <div class="card">
+      <h2>Your trip</h2>
+
+      <div class="row">
+        <div>
+          <label for="days">Number of days <span class="slider-val" id="daysLabel">7</span></label>
+          <input type="range" id="days" min="1" max="30" step="1" value="7">
+        </div>
+        <div>
+          <label for="people">Number of people <span class="slider-val" id="peopleLabel">4</span></label>
+          <input type="range" id="people" min="1" max="8" step="1" value="4">
+        </div>
+      </div>
+
+      <label for="vehicle">Vehicle type</label>
+      <select id="vehicle">
+        <option value="petrol">Own petrol car</option>
+        <option value="diesel">Own diesel car</option>
+        <option value="rental">Rental car</option>
+        <option value="campervan_rental">Campervan rental</option>
+        <option value="campervan_own">Own campervan</option>
+      </select>
+
+      <label for="fuel">Fuel efficiency</label>
+      <select id="fuel">
+        <option value="7">7 L/100km (small / efficient car)</option>
+        <option value="9" selected>9 L/100km (typical family car)</option>
+        <option value="11">11 L/100km (large SUV / van)</option>
+        <option value="14">14 L/100km (campervan)</option>
+      </select>
+
+      <label for="distance">Distance per day <span class="slider-val" id="distanceLabel">200</span> km</label>
+      <input type="range" id="distance" min="50" max="500" step="10" value="200">
+
+      <label for="accom">Accommodation</label>
+      <select id="accom">
+        <option value="25">DOC campsite — $25/night</option>
+        <option value="60">Holiday park (powered site) — $60/night</option>
+        <option value="180">Motel — $180/night</option>
+        <option value="100" selected>Mix of the above — $100/night</option>
+        <option value="0">Campervan (sleeping in van) — included</option>
+      </select>
+
+      <label for="meals">Meals per day</label>
+      <select id="meals">
+        <option value="30">Self-catering — $30 per person/day</option>
+        <option value="60" selected>Mix of cooking + eating out — $60 per person/day</option>
+        <option value="100">Mostly eating out — $100 per person/day</option>
+      </select>
+
+      <label for="activities">Activities budget</label>
+      <select id="activities">
+        <option value="0">Free activities only — $0</option>
+        <option value="20">Budget — $20 per person/day</option>
+        <option value="50" selected>Moderate — $50 per person/day</option>
+        <option value="100">Adventure — $100 per person/day</option>
+      </select>
+    </div>
+
+    <div class="card results">
+      <h2>Your estimated trip cost</h2>
+      <div class="total-hero">
+        <div class="lbl">Total trip cost</div>
+        <div class="big" id="total">$0</div>
+      </div>
+      <div class="res-grid">
+        <div class="res-box"><div class="lbl">Per person</div><div class="num" id="perPerson">$0</div></div>
+        <div class="res-box"><div class="lbl">Per day</div><div class="num" id="perDay">$0</div></div>
+      </div>
+
+      <h2 style="margin-top:1.2rem">Where the money goes</h2>
+      <div class="bars" id="bars"></div>
+      <p class="note">Estimates only, based on typical NZ prices in 2026 (petrol/diesel around $2.30/L). Your real costs will vary with the season, region, deals and how you travel.</p>
+    </div>
+
+    <div class="card">
+      <h2>Budget tips for your trip</h2>
+      <ul class="tips" id="tips"></ul>
+    </div>
+
+    <div class="card">
+      <h2>Plan your road trip</h2>
+      <div class="links">
+        <a href="/travel-tips/south-island-family-road-trip/">South Island family road trip guide →</a>
+        <a href="/travel-tips/nz-family-road-trip-hub/">NZ road trip hub →</a>
+        <a href="/itineraries/">Family itineraries →</a>
+        <a href="/campervans/">Compare campervans →</a>
+        <a href="/tools/">All travel tools →</a>
+      </div>
+    </div>
+  </main>
+
+  <footer>NZ Family Travel — honest family travel guides by NZ parents. Costs are estimates; always confirm current prices before you book.</footer>
+
+  <script>
+    var FUEL_PRICE = 2.30; // NZD per litre, 2026
+    var RENTAL_CAR = 80;   // per day
+    var CAMPERVAN  = 180;  // per day
+
+    var $ = function(id){return document.getElementById(id);};
+    var fmt = function(n){return "$" + Math.round(n).toLocaleString("en-NZ");};
+
+    // Auto-fill fuel efficiency from vehicle type
+    var VEHICLE_FUEL = {petrol:"9", diesel:"7", rental:"9", campervan_rental:"14", campervan_own:"14"};
+
+    function calc(){
+      var days     = parseInt($("days").value,10);
+      var people   = parseInt($("people").value,10);
+      var distance = parseInt($("distance").value,10);
+      var vehicle  = $("vehicle").value;
+      var fuelEff  = parseFloat($("fuel").value);
+      var accomN   = parseFloat($("accom").value);
+      var mealPP   = parseFloat($("meals").value);
+      var actPP    = parseFloat($("activities").value);
+
+      $("daysLabel").textContent = days;
+      $("peopleLabel").textContent = people;
+      $("distanceLabel").textContent = distance;
+
+      var isCampervan = (vehicle === "campervan_rental" || vehicle === "campervan_own");
+
+      // Campervans sleep travellers — accommodation is included
+      var accomNightly = isCampervan ? 0 : accomN;
+
+      var fuel  = distance * days * (fuelEff / 100) * FUEL_PRICE;
+      var accom = accomNightly * days;
+      var food  = mealPP * people * days;
+      var act   = actPP * people * days;
+
+      var vehicleCost = 0;
+      if(vehicle === "rental")            vehicleCost = RENTAL_CAR * days;
+      else if(vehicle === "campervan_rental") vehicleCost = CAMPERVAN * days;
+
+      var total = fuel + accom + food + act + vehicleCost;
+
+      $("total").textContent = fmt(total);
+      $("perPerson").textContent = fmt(people ? total / people : 0);
+      $("perDay").textContent = fmt(days ? total / days : 0);
+
+      // ── Breakdown bars ──
+      var cats = [
+        {name:"Fuel",          val:fuel,        cls:"c-fuel"},
+        {name:"Accommodation", val:accom,       cls:"c-accom"},
+        {name:"Food",          val:food,        cls:"c-food"},
+        {name:"Activities",    val:act,         cls:"c-act"},
+        {name:"Vehicle hire",  val:vehicleCost, cls:"c-veh"}
+      ];
+      var max = Math.max.apply(null, cats.map(function(c){return c.val;}).concat([1]));
+      var html = "";
+      cats.forEach(function(c){
+        if(c.val <= 0 && c.name === "Vehicle hire") return; // hide if not hiring
+        if(c.val <= 0 && c.name === "Accommodation" && isCampervan) {
+          html += '<div class="bar-row"><div class="cat">'+c.name+'</div>'+
+                  '<div class="bar-track"></div><div class="amt">incl.</div></div>';
+          return;
+        }
+        var pct = Math.round((c.val / max) * 100);
+        html += '<div class="bar-row"><div class="cat">'+c.name+'</div>'+
+                '<div class="bar-track"><div class="bar-fill '+c.cls+'" style="width:'+pct+'%"></div></div>'+
+                '<div class="amt">'+fmt(c.val)+'</div></div>';
+      });
+      $("bars").innerHTML = html;
+
+      // ── Dynamic budget tips ──
+      var tips = [];
+
+      if(accomN === 180 && !isCampervan){
+        var saveHP = (180 - 60) * days;
+        tips.push("You're budgeting for motels. Switching to holiday parks (powered sites) would save around <strong>"+fmt(saveHP)+"</strong> over "+days+" night"+(days===1?"":"s")+" — and most have kitchens, playgrounds and pools the kids will love.");
+      }
+      if(accomN === 100 && !isCampervan){
+        var saveDOC = (100 - 25) * days;
+        tips.push("Mixing in a few DOC campsites (around $25/night) instead of pricier stays could save up to <strong>"+fmt(saveDOC)+"</strong> — many are in stunning spots right by lakes and beaches.");
+      }
+      if(mealPP === 100){
+        var saveFood = (100 - 60) * people * days;
+        tips.push("Eating out for most meals adds up fast. Cooking even half your meals would save roughly <strong>"+fmt(saveFood)+"</strong> for your group — pack a chilly bin and shop at Pak'nSave or Countdown.");
+      }
+      if(mealPP === 30){
+        tips.push("Self-catering is the single biggest money-saver on a NZ road trip — you're already doing it. Stock up on snacks before you leave town, as dairies and service stations charge a premium.");
+      }
+      if(fuel > total * 0.30 && distance >= 300){
+        tips.push("Fuel is a big chunk of your budget at <strong>"+fmt(fuel)+"</strong>. Consider shorter daily drives ("+distance+"km/day is a lot with kids) — slower trips are cheaper and far less stressful.");
+      }
+      if(actPP === 100){
+        var saveAct = (100 - 50) * people * days;
+        tips.push("Big-ticket activities every day add <strong>"+fmt(actPP*people*days)+"</strong>. Mix in free options — beaches, bush walks, playgrounds and DOC tracks are world-class and cost nothing. Dropping to a moderate budget saves about "+fmt(saveAct)+".");
+      }
+      if(isCampervan){
+        tips.push("Travelling by campervan rolls your accommodation and transport into one — great value for longer trips. Use the <a href=\"/campervans/\">campervan comparison</a> to find the best daily rate, and check for free freedom-camping spots (with a self-contained van).");
+      }
+      if(people >= 5){
+        tips.push("With a bigger group, look for family passes and under-5s-free deals at attractions, and self-contained accommodation (holiday park cabins) which is often cheaper per head than multiple motel rooms.");
+      }
+
+      // Always show at least a couple of useful tips
+      if(tips.length === 0){
+        tips.push("Your budget looks lean and sensible. Book accommodation early for school-holiday travel, when prices spike and the best spots sell out fast.");
+        tips.push("Download offline maps before you go — mobile coverage drops out on many South Island and rural routes.");
+      }
+
+      $("tips").innerHTML = tips.slice(0,3).map(function(t){return "<li>"+t+"</li>";}).join("");
+    }
+
+    // Vehicle change auto-sets a sensible default fuel efficiency
+    $("vehicle").addEventListener("change", function(){
+      var f = VEHICLE_FUEL[this.value];
+      if(f) $("fuel").value = f;
+      gtag('event','calc_vehicle_select',{vehicle:this.value});
+      calc();
+    });
+
+    ["days","people","distance","fuel","accom","meals","activities"].forEach(function(id){
+      $(id).addEventListener("input", calc);
+    });
+    document.addEventListener("DOMContentLoaded", calc);
+    calc();
+  </script>
+</body>
+</html>
