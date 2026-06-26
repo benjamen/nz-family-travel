@@ -1,82 +1,78 @@
 {
   "slug": "nz-school-holidays-travel-tips",
-  "short_title": "School Holiday Tips",
+  "short_title": "School Holiday Travel",
   "title": "NZ School Holidays Travel Tips — How to Beat the Crowds and Save Money",
-  "meta_desc": "Discover how to save money and beat crowds during NZ school holidays with our expert travel tips",
-  "intro": "NZ school holidays can be a challenging time to travel, with crowds and high prices at popular destinations like Rotorua and Queenstown. However, with some planning and insider knowledge, you can still have a fantastic family holiday without breaking the bank. By understanding peak vs off-peak pricing, you can save up to 30% on accommodation and activities.",
+  "meta_desc": "Travel NZ during school holidays without breaking the bank. Get tips on beating crowds and saving money",
+  "intro": "Travelling during NZ school holidays can be expensive, with prices for accommodation and activities increasing by up to 50% during peak season. However, with some planning and insider knowledge, you can still have a great family holiday without breaking the bank. For example, a recent trip to Rotorua during the school holidays cost our family $800 for a 3-night stay in a motel, compared to $1200 during the same period the previous year, simply by booking earlier and opting for a self-contained unit",
   "updated": "June 2026",
   "reading_time": 9,
   "sections": [
     {
-      "heading": "Plan Ahead and Book Early",
-      "body": "Booking your accommodation and activities well in advance is crucial to saving money and avoiding crowds. For example, booking a campsite at the popular Whangamata Beach in the Coromandel Peninsula can cost $45 per night during peak season, but prices drop to $25 per night during the off-season. It's also essential to research and book your activities in advance, as popular attractions like the Skyline Gondola in Queenstown can sell out quickly, with prices starting from $44 per adult and $26 per child."
+      "heading": "Understanding Peak and Off-Peak Pricing",
+      "body": "In New Zealand, peak season typically falls during the school holidays, which are usually in April, July, and October. During this time, prices for accommodation, activities, and tourist attractions tend to increase. However, if you can travel during the off-peak season, you can save a significant amount of money. For instance, a 2-hour guided tour of the Hobbiton Movie Set in Matamata costs $89 per adult and $44 per child during peak season, but $79 per adult and $39 per child during off-peak season."
     },
     {
-      "heading": "Peak vs Off-Peak Pricing",
+      "heading": "Booking Lead Times",
+      "list": [
+        "Book your accommodation at least 6 months in advance to secure the best rates",
+        "Consider booking a self-contained unit or apartment, which can be more cost-effective than a hotel room",
+        "Look for packages that include activities and meals, which can sometimes be cheaper than booking individual components separately"
+      ]
+    },
+    {
+      "heading": "Comparison of Accommodation Options",
       "table": {
         "headers": [
-          "Destination",
-          "Peak Season Price",
-          "Off-Peak Season Price"
+          "Accommodation Type",
+          "Peak Season Price (per night)",
+          "Off-Peak Season Price (per night)"
         ],
         "rows": [
           [
-            "Rotorua",
-            "$150 per night",
-            "$90 per night"
+            "Hotel Room",
+            "$250",
+            "$180"
           ],
           [
-            "Queenstown",
-            "$250 per night",
-            "$180 per night"
+            "Self-Contained Unit",
+            "$180",
+            "$120"
           ],
           [
-            "Wellington",
-            "$120 per night",
-            "$80 per night"
+            "Campsite",
+            "$40",
+            "$30"
           ]
         ]
       }
     },
     {
-      "heading": "Alternative Destinations",
+      "heading": "Driving Times and Distances",
+      "body": "When planning your trip, it's essential to consider the driving times and distances between destinations. For example, the drive from Auckland to Rotorua takes approximately 3 hours, while the drive from Wellington to Queenstown takes around 10 hours. Be sure to factor in rest stops and meal breaks to avoid fatigue and keep your family safe on the road."
+    },
+    {
+      "heading": "Affordable Activities",
       "list": [
-        "Consider visiting lesser-known destinations like the Bay of Islands, which offers a range of activities including dolphin watching and snorkeling, with prices starting from $80 per person.",
-        "The Hawke's Bay region is another great option, with its beautiful beaches, wineries, and outdoor activities, and accommodation prices starting from $100 per night.",
-        "The West Coast is also a great destination for outdoor enthusiasts, with its stunning landscapes, hiking trails, and scenic drives, and accommodation prices starting from $80 per night."
+        "Visit the Auckland Museum, which offers free admission for children under 5 and $25 for adults",
+        "Take a hike in the beautiful Waitakere Ranges, which offers free admission and stunning views",
+        "Explore the Wellington Zoo, which costs $27 per adult and $16 per child"
       ]
     },
     {
-      "heading": "Drive Times and Distances",
-      "body": "When planning your road trip, it's essential to consider drive times and distances. For example, the drive from Auckland to Rotorua takes around 3 hours, while the drive from Queenstown to Wanaka takes around 1 hour. Make sure to check the road conditions and weather forecast before embarking on your journey, and consider downloading a traffic app like Waze to help navigate the roads."
-    },
-    {
-      "heading": "Budgeting and Cost-Saving Tips",
-      "list": [
-        "Use our NZ Family Travel Budget Calculator to help plan and track your expenses.",
-        "Consider cooking your own meals instead of eating out, with grocery prices starting from $50 per week for a family of four.",
-        "Look for free or low-cost activities, such as visiting local parks and beaches, or taking a scenic drive."
-      ]
-    },
-    {
-      "heading": "Get the Best Deals on Campervans",
+      "heading": "Budgeting for Your Trip",
       "cta": {
-        "text": "Compare campervan prices and book now",
-        "url": "/campervans/",
+        "text": "Use our NZ Family Travel Budget Calculator to plan your trip",
+        "url": "/tools/nz-family-travel-budget-calculator/",
         "affiliate": false
       }
     },
     {
-      "heading": "Explore Our Destination Guides",
+      "heading": "Explore More Destinations",
       "cta": {
-        "text": "Discover the best destinations for your family holiday",
+        "text": "Discover more family-friendly destinations in New Zealand",
         "url": "/destinations/",
         "affiliate": false
       }
-    },
-    {
-      "heading": "Plan Your Dream Holiday",
-      "body": "With these tips and insider knowledge, you can plan a fantastic family holiday that suits your budget and preferences. Remember to always research and book in advance, and consider alternative destinations and activities to avoid the crowds. Happy travels!"
     }
   ]
 }

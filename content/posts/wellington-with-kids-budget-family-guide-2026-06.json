@@ -1,0 +1,85 @@
+{
+  "title": "Wellington on a Budget",
+  "short_title": "Wellington",
+  "meta_desc": "Discover how to visit Wellington with your family on a budget of $200-380/day, including free activities, accommodation options, and top attractions like Te Papa and the Wellington Cable Car.",
+  "intro": "Wellington is a fantastic destination for families, with a wide range of activities and attractions to suit all ages. With some planning, you can have a great time in the city without breaking the bank. Here's our guide to visiting Wellington on a family budget of $200-380 per day.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Accommodation Options",
+      "body": "<p>Wellington has a wide range of accommodation options to suit all budgets. For a cheap option, consider staying in a hostel or motel, with prices starting from around $120 per night for a family room. Mid-range options like apartments and holiday homes are also available, with prices starting from around $250 per night.</p><p>Some popular accommodation options for families in Wellington include the Wellington Top 10 Holiday Resort, which offers a range of rooms and apartments, and the Capital View Motor Inn, which has family rooms with great views of the city.</p>",
+      "list": [
+        "Wellington Top 10 Holiday Resort: $120-250 per night",
+        "Capital View Motor Inn: $150-300 per night"
+      ]
+    },
+    {
+      "heading": "Free Activities",
+      "body": "<p>Wellington has a range of free activities that are perfect for families. The Te Papa Museum is a must-visit, with a wide range of interactive exhibits and displays. The Wellington Waterfront and Frank Kitts Park playground are also great places to spend a day, with plenty of space for kids to run around and play.</p><p>The Botanical Garden is another great free activity, with beautiful gardens and a peaceful atmosphere. You can take a ride on the Wellington Cable Car to get to the garden, and then walk back down through the gardens to the city.</p>",
+      "list": [
+        "Te Papa Museum: free",
+        "Wellington Waterfront and Frank Kitts Park playground: free",
+        "Botanical Garden: free"
+      ]
+    },
+    {
+      "heading": "Top Attractions",
+      "body": "<p>Wellington has a range of top attractions that are worth visiting, including the Wellington Cable Car, Zealandia Wildlife Sanctuary, and the Carter Observatory. Prices for these attractions vary, but you can expect to pay around $20-50 per person for each attraction.</p><p>The Wellington Zoo is another great attraction, with a wide range of animals and a petting zoo for kids. Prices start from around $20 per person, with family passes available for around $60-80.</p>",
+      "list": [
+        "Wellington Cable Car: $9-15 per person",
+        "Zealandia Wildlife Sanctuary: $20-30 per person",
+        "Carter Observatory: $10-20 per person",
+        "Wellington Zoo: $20-50 per person"
+      ]
+    },
+    {
+      "heading": "Budget Breakdown",
+      "body": "<p>Here's a rough breakdown of what you might expect to pay for a 3-day trip to Wellington:</p>",
+      "table": {
+        "headers": [
+          "Day",
+          "Accommodation",
+          "Food",
+          "Attractions",
+          "Total"
+        ],
+        "rows": [
+          [
+            "Day 1",
+            "$150",
+            "$80",
+            "$50",
+            "$280"
+          ],
+          [
+            "Day 2",
+            "$150",
+            "$100",
+            "$70",
+            "$320"
+          ],
+          [
+            "Day 3",
+            "$150",
+            "$80",
+            "$50",
+            "$280"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Tips and Tricks",
+      "body": "<p>To save money in Wellington, consider visiting during the off-season, when prices for accommodation and attractions are lower. You can also save money by cooking your own meals instead of eating out, and by taking advantage of free activities like the Te Papa Museum and the Wellington Waterfront.</p><p>It's also worth considering purchasing a Wellington attractions pass, which can give you discounts on a range of top attractions. With some planning and research, you can have a great time in Wellington without breaking the bank.</p>",
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "wellington-with-kids-budget-family-guide-2026-06",
+  "updated": "June 2026",
+  "auto_generated": true,
+  "generated_date": "2026-06-26"
+}
