@@ -1,0 +1,80 @@
+{
+  "title": "June in Wellington",
+  "short_title": "Wellington Jun",
+  "meta_desc": "Discover what to do in Wellington with kids in June, from free museum visits to stunning coastal walks, with a budget of $200-380/day for a family of 4",
+  "intro": "Wellington is a fantastic destination for families in June, with plenty of indoor and outdoor activities to enjoy. The city's compact size makes it easy to get around, and the locals are friendly and welcoming. With a budget of $200-380 per day for a family of four, you can experience the best of Wellington without breaking the bank.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Weather in June",
+      "body": "<p>June is winter in Wellington, and the weather can be quite chilly and windy. Average high temperatures range from 12-14°C, while lows can drop to around 6-8°C. It's essential to pack warm clothing, including jackets, gloves, and scarves. However, the city's many indoor attractions make it an excellent destination for families, even in the colder months.</p> <p>On a sunny day, take advantage of the city's beautiful waterfront and outdoor spaces, such as the Wellington Botanic Garden or Frank Kitts Park playground. Just be sure to check the weather forecast before heading out.</p>",
+      "list": [
+        "Average high temperature: 12-14°C",
+        "Average low temperature: 6-8°C",
+        "Pack warm clothing, including jackets, gloves, and scarves"
+      ]
+    },
+    {
+      "heading": "What's On in June",
+      "body": "<p>June is a great time to visit Wellington, with plenty of events and activities to enjoy. Te Papa Museum is open daily from 10 am to 6 pm, and admission to the permanent collection is free. The Wellington Cable Car is another popular attraction, offering stunning views of the city and harbour.</p> <p>For nature lovers, the Zealandia Wildlife Sanctuary and Wellington Zoo are must-visit destinations. Be sure to check the opening hours and prices for each attraction to plan your day.</p>",
+      "table": {
+        "headers": [
+          "Attraction",
+          "Opening Hours",
+          "Price"
+        ],
+        "rows": [
+          [
+            "Te Papa Museum",
+            "10 am - 6 pm",
+            "Free (permanent collection)"
+          ],
+          [
+            "Wellington Cable Car",
+            "7 am - 10 pm",
+            "$9 adult, $4.50 child"
+          ],
+          [
+            "Zealandia Wildlife Sanctuary",
+            "9 am - 5 pm",
+            "$29.50 adult, $13.80 child"
+          ],
+          [
+            "Wellington Zoo",
+            "9:30 am - 5 pm",
+            "$27 adult, $13.50 child"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Crowd Levels and Booking Ahead",
+      "body": "<p>June is a relatively quiet month in Wellington, with fewer tourists than the peak summer months. However, it's still a good idea to book ahead for popular attractions and activities, especially on weekends and during school holidays.</p> <p>Consider pre-booking tickets for the Wellington Cable Car, Zealandia Wildlife Sanctuary, and Wellington Zoo to avoid waiting in line. You can also book a guided tour at Te Papa Museum for a more in-depth and interactive experience.</p>",
+      "list": [
+        "Book ahead for popular attractions and activities",
+        "Consider pre-booking tickets for the Wellington Cable Car, Zealandia Wildlife Sanctuary, and Wellington Zoo",
+        "Book a guided tour at Te Papa Museum for a more in-depth experience"
+      ]
+    },
+    {
+      "heading": "Practical Tips for Families",
+      "body": "<p>Wellington is a very walkable city, but it's also easy to get around using public transport. The Wellington City Council website has a useful journey planner tool to help you plan your route.</p> <p>For families with young children, consider visiting the Te Papa Museum's interactive exhibitions, such as the Wonder Room or the Earthquake House. The Wellington Zoo also has a petting zoo and playground area that's perfect for kids.</p>",
+      "list": [
+        "Use public transport or walk to get around the city",
+        "Visit the Te Papa Museum's interactive exhibitions",
+        "Check out the Wellington Zoo's petting zoo and playground area",
+        "Pack snacks and water to keep kids energized throughout the day",
+        "Take advantage of the city's many free activities, such as the Wellington Waterfront and Frank Kitts Park playground"
+      ],
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "wellington-with-kids-june-family-guide",
+  "updated": "June 2026",
+  "auto_generated": true,
+  "generated_date": "2026-06-28"
+}
