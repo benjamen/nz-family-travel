@@ -2,14 +2,14 @@
   "slug": "nz-school-holidays-travel-tips",
   "short_title": "School Holiday Tips",
   "title": "NZ School Holidays Travel Tips — How to Beat the Crowds and Save Money",
-  "meta_desc": "NZ school holidays travel tips to save money and avoid crowds, expert advice from NZFamilyTravel",
-  "intro": "Travelling during NZ school holidays can be expensive and crowded, but with the right strategies, you can save up to $500 on a family holiday. Peak season prices can be double the off-peak rates, making it essential to plan ahead. For example, a family of four can expect to pay around $250 per night for a motel room in Queenstown during school holidays, compared to $120 per night during off-peak season.",
+  "meta_desc": "Beat NZ school holiday crowds and save up to 30% on travel with our expert tips and tricks",
+  "intro": "If you're planning to travel during NZ school holidays, be prepared for peak prices and crowds, with some popular destinations like Queenstown and Rotorua seeing accommodation prices rise by up to 50%. However, with some clever planning, you can beat the crowds and save money. In this article, we'll show you how to make the most of your school holiday travel budget.",
   "updated": "June 2026",
-  "reading_time": 9,
+  "reading_time": 10,
   "sections": [
     {
       "heading": "Plan Ahead to Save Money",
-      "body": "Booking your accommodation and activities well in advance can help you save a significant amount of money. For instance, booking a campsite at Wanaka's Lake Outlet Campground 6 months in advance can cost around $20 per night, compared to $40 per night if booked at the last minute. Similarly, activities like the Skyline Gondola in Queenstown can be booked online for $39 per adult and $25 per child, a savings of $10 per person compared to buying tickets at the door."
+      "body": "Booking your accommodation and activities well in advance is crucial to saving money during school holidays. For example, a family room at the Novotel Queenstown Lakeside can cost around $450 per night during peak season, but booking 3 months in advance can reduce the price to around $350 per night."
     },
     {
       "heading": "Peak vs Off-Peak Pricing",
@@ -22,68 +22,50 @@
         "rows": [
           [
             "Queenstown",
-            "$250 per night",
-            "$120 per night"
-          ],
-          [
-            "Auckland",
-            "$180 per night",
-            "$100 per night"
+            "$450 per night",
+            "$250 per night"
           ],
           [
             "Rotorua",
-            "$150 per night",
-            "$80 per night"
+            "$320 per night",
+            "$200 per night"
           ],
           [
-            "Wanaka",
-            "$200 per night",
-            "$100 per night"
+            "Auckland",
+            "$280 per night",
+            "$180 per night"
           ]
         ]
       }
     },
     {
-      "heading": "Alternative Accommodation Options",
+      "heading": "Consider Alternative Destinations",
       "list": [
-        "Consider staying in nearby towns instead of major cities, such as staying in Frankton instead of Queenstown",
-        "Look into campervans or motorhomes, which can be rented for around $100-150 per day",
-        "Book a holiday home or apartment, which can often be more cost-effective for families than hotels"
+        "Instead of Queenstown, try Wanaka (around 1 hour drive)",
+        "Instead of Rotorua, try Taupo (around 1 hour drive)",
+        "Instead of Auckland, try the Bay of Islands (around 3 hour drive)"
       ]
     },
     {
-      "heading": "Free and Low-Cost Activities",
-      "body": "There are plenty of free and low-cost activities to enjoy in NZ, such as visiting the beach, going for a hike, or exploring a local market. For example, the drive from Auckland to the Coromandel Peninsula takes around 2 hours, and offers stunning scenery and beautiful beaches. You can also visit the Auckland Art Gallery Toi o Tāmaki, which is free to visit and offers a range of family-friendly activities."
+      "heading": "Make the Most of Free Activities",
+      "body": "There are plenty of free activities to enjoy in NZ, such as visiting the beach, going for a hike, or exploring a new town. For example, the hike to the top of Mount Eden in Auckland offers stunning views of the city and is completely free."
     },
     {
-      "heading": "Get the Best Deals on Campervans",
+      "heading": "Use Travel Budgeting Tools",
       "cta": {
-        "text": "Compare campervan prices and book now",
-        "url": "/campervans/",
-        "affiliate": false
-      }
-    },
-    {
-      "heading": "Budgeting for Your Trip",
-      "body": "Using a budget calculator can help you plan and track your expenses, ensuring that you stay within your means. Our NZ Family Travel Budget Calculator is a free tool that can help you estimate costs and make the most of your holiday.",
-      "cta": {
-        "text": "Try our budget calculator now",
+        "text": "Try our NZ Family Travel Budget Calculator",
         "url": "/tools/nz-family-travel-budget-calculator/",
         "affiliate": false
       }
     },
     {
-      "heading": "Explore NZ's Hidden Gems",
-      "list": [
-        "Visit the town of Glenorchy, which is around a 45-minute drive from Queenstown and offers stunning scenery and outdoor activities",
-        "Explore the Whanganui National Park, which is around a 2.5-hour drive from Wellington and offers beautiful scenery and hiking trails",
-        "Take a trip to the Catlins, which is around a 2-hour drive from Dunedin and offers stunning coastal scenery and wildlife viewing opportunities"
-      ]
+      "heading": "Book a Campervan for Flexibility",
+      "body": "Booking a campervan can be a great way to travel during school holidays, as it gives you the flexibility to create your own itinerary and avoid crowded hotels. Prices start from around $150 per day for a 2-berth campervan, and you can book one on our campervans page."
     },
     {
-      "heading": "Start Planning Your Trip",
+      "heading": "Get Inspiration from Our Destination Guides",
       "cta": {
-        "text": "Discover the best destinations for your family holiday",
+        "text": "Explore our destination guides",
         "url": "/destinations/",
         "affiliate": false
       }

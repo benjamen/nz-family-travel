@@ -2227,3 +2227,44 @@ Generated 1 articles.
 Rebuilding site...
   Build complete — 485 HTML pages → /home/ben/nz-family-travel/docs/
   Pushed to GitHub Pages
+[main 42e27b11] Auto-generate 5 articles — 2026-06-28
+ 13 files changed, 2174 insertions(+), 385 deletions(-)
+ create mode 100644 content/posts/agrodome-rotorua-family-review-2026-06.json
+ create mode 100644 content/posts/wellington-with-kids-june-family-guide.json
+ create mode 100644 docs/posts/agrodome-rotorua-family-review-2026-06/index.html
+ create mode 100644 docs/posts/wellington-with-kids-june-family-guide/index.html
+ create mode 100644 docs/travel-tips/agrodome-rotorua-family-review-2026-06/index.html
+ create mode 100644 docs/travel-tips/wellington-with-kids-june-family-guide/index.html
+
+Today's 5 articles (2026-06-28):
+
+  1. [deals          ] New Plymouth & Taranaki             — new-plymouth-taranaki-family-family-deals-2026-06
+     EXISTS
+  2. [month_guide    ] Wellington                          — wellington-with-kids-june-family-guide
+     WILL GENERATE
+  3. [budget         ] Dunedin                             — dunedin-family-guide-budget-family-guide-2026-06
+     EXISTS
+  4. [activity_review] Agrodome Farm Show                  — agrodome-rotorua-family-review-2026-06
+     WILL GENERATE
+  5. [hidden_gems    ] Wanaka                              — wanaka-with-kids-hidden-gems-families
+     EXISTS
+
+[1/5] Skipping (already exists): new-plymouth-taranaki-family-family-deals-2026-06
+
+[2/5] Generating: wellington-with-kids-june-family-guide
+  Calling Groq (llama-3.3-70b-versatile)...
+  Saved: content/posts/wellington-with-kids-june-family-guide.json
+
+[3/5] Skipping (already exists): dunedin-family-guide-budget-family-guide-2026-06
+
+[4/5] Generating: agrodome-rotorua-family-review-2026-06
+  Calling Groq (llama-3.3-70b-versatile)...
+  Saved: content/posts/agrodome-rotorua-family-review-2026-06.json
+
+[5/5] Skipping (already exists): wanaka-with-kids-hidden-gems-families
+
+Generated 2 articles.
+
+Rebuilding site...
+  Build complete — 489 HTML pages → /home/ben/nz-family-travel/docs/
+  Pushed to GitHub Pages
