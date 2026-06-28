@@ -1,0 +1,14 @@
+{
+  "slug": "family-holiday-planner",
+  "title": "NZ Family Holiday Planner — Personalised Trip Recommender",
+  "description": "Tell us about your family — kids' ages, interests, how long you have — and get three personalised NZ holiday recommendations with activity picks and cost guides.",
+  "icon": "🗺️",
+  "meta_desc": "Get a personalised NZ family holiday plan in minutes. Tell us your family's ages and interests and we'll recommend the perfect destination with activities and cost estimates.",
+  "hero_image": {
+    "url": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&q=80",
+    "thumb": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&q=70",
+    "alt": "NZ family holiday planning",
+    "credit": "Unsplash"
+  },
+  "html_content": "<div style='text-align:center;padding:2rem 1rem'><p style='font-size:1.1rem;color:#4b5563;margin-bottom:1.5rem'>Answer a few quick questions about your family and get three personalised NZ holiday recommendations — with activity picks, cost guides, and destination links.</p><a href='/tools/family-holiday-planner/' style='display:inline-block;background:#0369a1;color:#fff;padding:.85rem 2rem;border-radius:8px;font-weight:700;font-size:1.05rem;text-decoration:none'>Start planning →</a></div>"
+}

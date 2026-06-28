@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en-NZ">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NZ Family Holiday Packing List Generator 2026 — Free Checklist</title>
+  <meta name="description" content="Generate a personalised NZ family holiday packing list based on your trip type, kids' ages, and the season. Free printable checklist.">
+  <link rel="canonical" href="https://nzfamilytravel.co.nz/tools/packing-list-generator/">
+  <link rel="icon" href="/static/img/favicon.svg" type="image/svg+xml">
+  <meta name="theme-color" content="#0369a1">
+  <meta name="robots" content="index, follow">
+  <link rel="preconnect" href="https://www.googletagmanager.com">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-BHTP34TBYW"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-BHTP34TBYW');</script>
+  <style>
+    :root{--brand:#0369a1;--brand-dk:#075985;--brand-lt:#e0f2fe;--green:#16a34a;--amber:#d97706;--bg:#f9fafb;--card:#fff;--border:#e5e7eb;--text:#111827;--muted:#4b5563;--radius:10px}
+    *{box-sizing:border-box}
+    body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;margin:0;background:var(--bg);color:var(--text);line-height:1.55}
+    .wrap{max-width:860px;margin:0 auto;padding:1.25rem}
+    header.top{background:var(--brand);color:#fff;padding:.75rem 0}
+    header.top .wrap{display:flex;align-items:center;justify-content:space-between;padding-top:.5rem;padding-bottom:.5rem}
+    header.top a{color:#fff;text-decoration:none;font-weight:700}
+    header.top nav a{font-weight:500;margin-left:1rem;opacity:.9;font-size:.95rem}
+    h1{font-size:1.85rem;margin:.2rem 0 .4rem}
+    .lede{color:var(--muted);margin:0 0 1.5rem;font-size:1.05rem}
+    .card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:1.25rem 1.4rem;margin-bottom:1.25rem;box-shadow:0 1px 3px rgba(0,0,0,.06)}
+    label{display:block;font-weight:600;margin:.85rem 0 .3rem;font-size:.95rem}
+    select{width:100%;padding:.6rem .7rem;border:1px solid var(--border);border-radius:8px;font-size:1rem;background:#fff;color:var(--text)}
+    select:focus{outline:2px solid var(--brand);border-color:var(--brand)}
+    .row{display:flex;gap:1rem;flex-wrap:wrap}
+    .row>div{flex:1;min-width:160px}
+    .check-group{background:#fff;border:1px solid var(--border);border-radius:8px;padding:1rem;margin-bottom:1rem}
+    .check-group h3{margin:0 0 .75rem;font-size:1rem;display:flex;align-items:center;gap:.4rem}
+    .check-item{display:flex;align-items:flex-start;gap:.6rem;padding:.3rem 0;border-bottom:1px solid #f3f4f6;cursor:pointer}
+    .check-item:last-child{border-bottom:none}
+    .check-item input[type=checkbox]{margin-top:.2rem;accent-color:var(--brand);width:16px;height:16px;flex-shrink:0;cursor:pointer}
+    .check-item label{margin:0;font-weight:400;font-size:.93rem;cursor:pointer;line-height:1.4}
+    .check-item.checked label{text-decoration:line-through;color:var(--muted)}
+    .badge{display:inline-block;font-size:.7rem;font-weight:700;padding:.1rem .45rem;border-radius:10px;margin-left:.35rem;vertical-align:middle}
+    .badge-essential{background:#fee2e2;color:#991b1b}
+    .badge-optional{background:#f3f4f6;color:#6b7280}
+    .progress-bar{background:var(--border);border-radius:6px;height:8px;overflow:hidden;margin-bottom:.5rem}
+    .progress-fill{background:var(--green);height:100%;border-radius:6px;transition:width .2s}
+    .progress-lbl{font-size:.82rem;color:var(--muted);margin-bottom:1rem}
+    .btn{display:inline-block;padding:.7rem 1.4rem;border-radius:8px;font-size:1rem;font-weight:600;cursor:pointer;border:none;transition:background .15s}
+    .btn-primary{background:var(--brand);color:#fff}.btn-primary:hover{background:var(--brand-dk)}
+    .btn-green{background:var(--green);color:#fff}.btn-green:hover{background:#15803d}
+    .btn-row{display:flex;gap:.75rem;margin-top:1rem;flex-wrap:wrap}
+    @media print{header.top,.btn-row,.card:first-child{display:none!important}.check-group{break-inside:avoid}}
+    @media(max-width:520px){h1{font-size:1.45rem}}
+    footer{text-align:center;color:var(--muted);font-size:.85rem;padding:2rem 1rem}
+  </style>
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <a href="/">🌿 NZ Family Travel</a>
+    <nav><a href="/destinations/">Destinations</a><a href="/tools/">Tools</a></nav>
+  </div>
+</header>
+<div class="wrap">
+  <h1>🎒 NZ Family Packing List Generator</h1>
+  <p class="lede">Select your trip details and we'll build a personalised packing list — ready to print or tick off on your phone.</p>
+
+  <div class="card">
+    <h2 style="margin-top:0">Tell us about your trip</h2>
+    <div class="row">
+      <div>
+        <label for="trip-type">Trip type</label>
+        <select id="trip-type" onchange="buildList()">
+          <option value="beach">Beach holiday</option>
+          <option value="camping">Camping / holiday park</option>
+          <option value="roadtrip" selected>Road trip</option>
+          <option value="city">City break</option>
+          <option value="ski">Ski / winter mountain</option>
+        </select>
+      </div>
+      <div>
+        <label for="duration">Duration</label>
+        <select id="duration" onchange="buildList()">
+          <option value="weekend">Weekend (2–3 days)</option>
+          <option value="week" selected>1 week</option>
+          <option value="twoweeks">2 weeks</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div>
+        <label for="season">Season</label>
+        <select id="season" onchange="buildList()">
+          <option value="summer" selected>Summer (Dec–Feb)</option>
+          <option value="shoulder">Autumn / Spring</option>
+          <option value="winter">Winter (Jun–Aug)</option>
+        </select>
+      </div>
+      <div>
+        <label for="kids">Kids' ages</label>
+        <select id="kids" onchange="buildList()" multiple size="4" style="height:auto">
+          <option value="baby">Baby (0–1)</option>
+          <option value="toddler" selected>Toddler (2–4)</option>
+          <option value="primary" selected>Primary (5–12)</option>
+          <option value="teen">Teen (13–17)</option>
+        </select>
+      </div>
+    </div>
+    <p style="font-size:.82rem;color:var(--muted);margin-top:.5rem">Hold Ctrl/Cmd to select multiple age groups.</p>
+  </div>
+
+  <div id="progress-section" style="display:none">
+    <div class="progress-bar"><div class="progress-fill" id="progress-fill" style="width:0%"></div></div>
+    <p class="progress-lbl" id="progress-lbl">0 of 0 items packed</p>
+  </div>
+
+  <div id="list-output"></div>
+
+  <div class="btn-row">
+    <button class="btn btn-green" onclick="window.print()">🖨️ Print list</button>
+    <button class="btn btn-primary" onclick="uncheckAll()">Reset all</button>
+    <a class="btn" style="background:var(--border);color:var(--text);text-decoration:none" href="/tools/family-holiday-planner/">🗺️ Plan your holiday</a>
+  </div>
+</div>
+<footer><p>Free tool by <a href="/" style="color:var(--brand)">NZ Family Travel</a> · <a href="/tools/" style="color:var(--brand)">More tools</a></p></footer>
+
+<script>
+const BASE = {
+  clothing:[
+    {t:'Underwear (1 per day + 2 spare)',e:true},
+    {t:'Socks (1 per day + 2 spare)',e:true},
+    {t:'T-shirts / tops',e:true},
+    {t:'Shorts or light pants',e:true},
+    {t:'Long pants / jeans (1–2 pairs)',e:true},
+    {t:'Light fleece or hoodie',e:true},
+    {t:'Waterproof rain jacket',e:true},
+    {t:'Pyjamas',e:true},
+    {t:'Comfortable walking shoes',e:true},
+    {t:'Jandals / sandals',e:false},
+    {t:'Swimwear',e:true},
+    {t:'Sun hat with brim',e:true},
+  ],
+  toiletries:[
+    {t:'Sunscreen SPF50+ (NZ sun is intense!)',e:true},
+    {t:'Toothbrushes & toothpaste',e:true},
+    {t:'Shampoo & conditioner',e:true},
+    {t:'Soap / body wash',e:true},
+    {t:'Deodorant',e:true},
+    {t:'Rid or Aerogard insect repellent',e:true},
+    {t:'Nappy rash cream (Sudocrem)',e:false},
+    {t:'Lip balm with SPF',e:false},
+    {t:'Hairbrush / comb',e:false},
+  ],
+  health:[
+    {t:'Basic first aid kit',e:true},
+    {t:'Paracetamol (Panadol) — adult & children\'s',e:true},
+    {t:'Antihistamines (e.g. Loratadine)',e:true},
+    {t:'Plasters (Band-Aids)',e:true},
+    {t:'Thermometer',e:false},
+    {t:'Any prescription medications (+ repeat script)',e:true},
+    {t:'Travel sickness tablets if needed',e:false},
+    {t:'Tick removal tool',e:false},
+  ],
+  docs:[
+    {t:'NZ driver\'s licence or international permit',e:true},
+    {t:'Car insurance documents',e:true},
+    {t:'Booking confirmations (accommodation, activities)',e:true},
+    {t:'Emergency contacts written down',e:true},
+    {t:'Travel insurance details',e:false},
+    {t:'AA membership card (if applicable)',e:false},
+  ],
+  car:[
+    {t:'Phone car charger',e:true},
+    {t:'Road atlas / offline maps downloaded',e:true},
+    {t:'Snack bag for the car',e:true},
+    {t:'Reusable water bottles (one per person)',e:true},
+    {t:'Entertainment — tablets, books, headphones',e:false},
+    {t:'Rubbish bag',e:false},
+    {t:'Spare tyre & jack (check before leaving)',e:true},
+    {t:'Jumper cables',e:false},
+  ],
+};
+
+const EXTRAS = {
+  beach:[
+    {cat:'Beach Gear',items:[
+      {t:'Beach towels (1–2 per person)',e:true},
+      {t:'Rash vest / sun shirt for kids',e:true},
+      {t:'Boogie boards',e:false},
+      {t:'Sand toys (bucket, spade)',e:false},
+      {t:'Beach tent or pop-up shade shelter',e:true},
+      {t:'Waterproof dry bag for phones/valuables',e:false},
+      {t:'Snorkel set (if applicable)',e:false},
+      {t:'Beach shoes / water shoes',e:false},
+    ]},
+  ],
+  camping:[
+    {cat:'Camping & Holiday Park',items:[
+      {t:'Tent (check pegs & poles are all there!)',e:true},
+      {t:'Sleeping bags rated for the temp',e:true},
+      {t:'Sleeping mats or camp mattress',e:true},
+      {t:'Camping chairs & foldable table',e:false},
+      {t:'Camp stove & fuel canister',e:true},
+      {t:'Cooking pot, pan, and utensils',e:true},
+      {t:'Plates, cups, cutlery',e:true},
+      {t:'Can opener, bottle opener',e:false},
+      {t:'Washing-up bowl, dish soap, sponge',e:true},
+      {t:'Headtorch (one per person)',e:true},
+      {t:'Lantern for tent',e:false},
+      {t:'Firelighter & kindling (check fire rules)',e:false},
+      {t:'Tarpaulin (extra shelter)',e:false},
+      {t:'Bug spray — essential at NZ campsites',e:true},
+      {t:'Toiletry bag with toilet paper & hand sanitiser',e:true},
+    ]},
+  ],
+  ski:[
+    {cat:'Ski & Snow Gear',items:[
+      {t:'Ski jacket & ski pants (waterproof)',e:true},
+      {t:'Thermal base layers (top & bottom)',e:true},
+      {t:'Ski gloves or mittens',e:true},
+      {t:'Beanie / warm hat',e:true},
+      {t:'Ski goggles',e:true},
+      {t:'Neck gaiter / buff',e:false},
+      {t:'Warm merino socks (2–3 pairs)',e:true},
+      {t:'Snow boots (if not hiring)',e:true},
+      {t:'Hand warmers',e:false},
+      {t:'Helmet (hire or own)',e:true},
+      {t:'Sunscreen SPF50+ (snow reflection burns!)',e:true},
+    ]},
+  ],
+  city:[
+    {cat:'City Break',items:[
+      {t:'Comfortable walking shoes / sneakers',e:true},
+      {t:'Small daypack or tote',e:false},
+      {t:'Umbrella (NZ city weather can be unpredictable)',e:false},
+      {t:'Smart casual outfit for restaurants',e:false},
+    ]},
+  ],
+};
+
+const BABY_ITEMS = {cat:'Baby & Toddler Essentials',items:[
+  {t:'Nappies (1.5x normal daily amount)',e:true},
+  {t:'Nappy cream (Sudocrem)',e:true},
+  {t:'Wipes — lots of them',e:true},
+  {t:'Portable changing mat',e:true},
+  {t:'Baby carrier or stroller',e:true},
+  {t:'Formula / breast pump / feeding supplies',e:false},
+  {t:'Baby food pouches / snacks',e:true},
+  {t:'Sleep sack / swaddle',e:true},
+  {t:'Portable cot / travel bassinet',e:false},
+  {t:'Baby sunscreen SPF50+ (zinc-based)',e:true},
+  {t:'Baby hat with full brim',e:true},
+  {t:'Sippy cup / bottles',e:true},
+  {t:'Favourite toy / comforter',e:true},
+  {t:'Paracetamol drops (Pamol)',e:true},
+]};
+
+const TODDLER_ITEMS = {cat:'Toddler Extras',items:[
+  {t:'Small backpack they can carry themselves',e:false},
+  {t:'Change of clothes in day bag (at least 2)',e:true},
+  {t:'Snacks: crackers, fruit pouches, sultanas',e:true},
+  {t:'Colouring book & crayons for restaurants/car',e:false},
+  {t:'Portable high chair strap or booster',e:false},
+  {t:'Potty / travel toilet seat if training',e:false},
+]};
+
+const TEEN_ITEMS = {cat:'Teen Extras',items:[
+  {t:'Portable phone charger / power bank',e:true},
+  {t:'Earphones / headphones',e:false},
+  {t:'Downloaded movies / music for travel',e:false},
+  {t:'Reusable water bottle',e:true},
+]};
+
+const ENTERTAINMENT = {cat:'Entertainment & Travel',items:[
+  {t:'Tablets / iPads (charged & loaded with content)',e:false},
+  {t:'Travel card games (Uno, Go Fish)',e:false},
+  {t:'Colouring / activity books',e:false},
+  {t:'Headphones for kids',e:false},
+  {t:'Snack box for the car',e:true},
+  {t:'Window clings or small car toys',e:false},
+]};
+
+const TWOWEEK_EXTRAS = {cat:'2-Week Trip Extras',items:[
+  {t:'Laundry detergent (small bottle) or laundry bags',e:true},
+  {t:'Extra copies of booking docs',e:true},
+  {t:'Portable first aid top-up',e:false},
+]};
+
+let checkState = {};
+
+function getSelectedKids() {
+  const sel = document.getElementById('kids');
+  return Array.from(sel.selectedOptions).map(o => o.value);
+}
+
+function buildList() {
+  const tripType = document.getElementById('trip-type').value;
+  const duration = document.getElementById('duration').value;
+  const season = document.getElementById('season').value;
+  const kids = getSelectedKids();
+
+  const sections = [];
+
+  // Clothing tweaks
+  let clothing = [...BASE.clothing];
+  if (season === 'winter') {
+    clothing.push({t:'Heavy winter jacket / puffer',e:true},{t:'Warm boots / gumboots',e:true},{t:'Thermal underlayer',e:true});
+  }
+  if (season === 'summer' && tripType !== 'ski') {
+    clothing = clothing.filter(i => i.t !== 'Long pants / jeans (1–2 pairs)');
+    clothing.push({t:'Extra swimwear set',e:false});
+  }
+  sections.push({cat:'👕 Clothing',items:clothing});
+  sections.push({cat:'🧴 Toiletries',items:BASE.toiletries});
+  sections.push({cat:'💊 Health & Safety',items:BASE.health});
+  sections.push({cat:'📄 Documents',items:BASE.docs});
+  sections.push({cat:'🚗 Car Essentials',items:BASE.car});
+
+  // Trip type extras
+  if (EXTRAS[tripType]) EXTRAS[tripType].forEach(g => sections.push({cat:'🏕️ '+g.cat,items:g.items}));
+
+  // Kids' age extras
+  if (kids.includes('baby')) sections.push({cat:'👶 '+BABY_ITEMS.cat,items:BABY_ITEMS.items});
+  if (kids.includes('toddler')) sections.push({cat:'🧒 '+TODDLER_ITEMS.cat,items:TODDLER_ITEMS.items});
+  if (kids.includes('teen')) sections.push({cat:'🎧 '+TEEN_ITEMS.cat,items:TEEN_ITEMS.items});
+  if (kids.includes('primary') || kids.includes('toddler')) {
+    sections.push({cat:'🎲 '+ENTERTAINMENT.cat,items:ENTERTAINMENT.items});
+  }
+  if (duration === 'twoweeks') sections.push({cat:'📦 '+TWOWEEK_EXTRAS.cat,items:TWOWEEK_EXTRAS.items});
+
+  renderList(sections);
+  gtag('event','packing_list_generated',{trip_type:tripType,kids:kids.join(',')});
+}
+
+function renderList(sections) {
+  document.getElementById('progress-section').style.display='block';
+  let html = '';
+  sections.forEach((sec,si) => {
+    html += `<div class="check-group">
+      <h3><span>${sec.cat}</span> <span style="font-size:.78rem;color:var(--muted);font-weight:500">(${sec.items.length} items)</span></h3>`;
+    sec.items.forEach((item,ii) => {
+      const id = `chk-${si}-${ii}`;
+      const key = `${si}-${ii}`;
+      const checked = checkState[key] || false;
+      html += `<div class="check-item${checked?' checked':''}" onclick="toggleCheck('${key}',this)">
+        <input type="checkbox" id="${id}"${checked?' checked':''}>
+        <label for="${id}">${item.t}${item.e?'<span class="badge badge-essential">must</span>':''}</label>
+      </div>`;
+    });
+    html += '</div>';
+  });
+  document.getElementById('list-output').innerHTML = html;
+  updateProgress();
+}
+
+function toggleCheck(key, row) {
+  checkState[key] = !checkState[key];
+  const cb = row.querySelector('input[type=checkbox]');
+  cb.checked = checkState[key];
+  row.classList.toggle('checked', checkState[key]);
+  updateProgress();
+}
+
+function updateProgress() {
+  const all = document.querySelectorAll('.check-item');
+  const done = document.querySelectorAll('.check-item.checked');
+  const pct = all.length ? Math.round(done.length/all.length*100) : 0;
+  document.getElementById('progress-fill').style.width = pct+'%';
+  document.getElementById('progress-lbl').textContent = `${done.length} of ${all.length} items packed (${pct}%)`;
+}
+
+function uncheckAll() {
+  checkState = {};
+  buildList();
+}
+
+// Build on load
+window.onload = buildList;
+</script>
+</body>
+</html>

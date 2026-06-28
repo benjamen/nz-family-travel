@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en-NZ">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NZ Family Holiday Planner 2026 — Personalised Trip Recommender</title>
+  <meta name="description" content="Tell us about your family and get a personalised NZ holiday plan with destination picks, activities, and cost guides — free and instant.">
+  <link rel="canonical" href="https://nzfamilytravel.co.nz/tools/family-holiday-planner/">
+  <link rel="icon" href="/static/img/favicon.svg" type="image/svg+xml">
+  <meta name="theme-color" content="#0369a1">
+  <meta name="robots" content="index, follow">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://nzfamilytravel.co.nz/tools/family-holiday-planner/">
+  <meta property="og:title" content="NZ Family Holiday Planner — Personalised Trip Recommender">
+  <meta property="og:description" content="Tell us about your family and get a personalised NZ holiday plan — free and instant.">
+  <meta property="og:site_name" content="NZ Family Travel">
+  <meta property="og:locale" content="en_NZ">
+  <link rel="preconnect" href="https://www.googletagmanager.com">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-BHTP34TBYW"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-BHTP34TBYW');</script>
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"WebApplication","name":"NZ Family Holiday Planner","url":"https://nzfamilytravel.co.nz/tools/family-holiday-planner/","applicationCategory":"TravelApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"NZD"},"description":"Personalised NZ holiday recommendations based on your family's ages and interests."}
+  </script>
+  <style>
+    :root{--brand:#0369a1;--brand-dk:#075985;--brand-lt:#e0f2fe;--green:#16a34a;--amber:#d97706;--teal:#0d9488;--bg:#f9fafb;--card:#fff;--border:#e5e7eb;--text:#111827;--muted:#4b5563;--radius:10px}
+    *{box-sizing:border-box}
+    body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;margin:0;background:var(--bg);color:var(--text);line-height:1.55}
+    .wrap{max-width:860px;margin:0 auto;padding:1.25rem}
+    header.top{background:var(--brand);color:#fff;padding:.75rem 0}
+    header.top .wrap{display:flex;align-items:center;justify-content:space-between;padding-top:.5rem;padding-bottom:.5rem}
+    header.top a{color:#fff;text-decoration:none;font-weight:700}
+    header.top nav a{font-weight:500;margin-left:1rem;opacity:.9;font-size:.95rem}
+    h1{font-size:1.85rem;margin:.2rem 0 .4rem}
+    .lede{color:var(--muted);margin:0 0 1.5rem;font-size:1.05rem}
+    .card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:1.25rem 1.4rem;margin-bottom:1.25rem;box-shadow:0 1px 3px rgba(0,0,0,.06)}
+    /* Steps */
+    .steps{display:flex;gap:.5rem;margin-bottom:1.5rem;align-items:center}
+    .step-pill{flex:1;text-align:center;padding:.45rem .5rem;border-radius:20px;font-size:.82rem;font-weight:600;background:var(--border);color:var(--muted);transition:all .2s}
+    .step-pill.active{background:var(--brand);color:#fff}
+    .step-pill.done{background:#d1fae5;color:#065f46}
+    .step-arrow{color:var(--border);font-size:1.1rem}
+    .step-panel{display:none}.step-panel.active{display:block}
+    /* Family members */
+    .member-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(130px,1fr));gap:.65rem;margin-bottom:1rem}
+    .member-card{border:2px solid var(--border);border-radius:10px;padding:.7rem .5rem;text-align:center;cursor:pointer;transition:all .15s;position:relative;background:#fff}
+    .member-card:hover{border-color:var(--brand);background:var(--brand-lt)}
+    .member-card .em{font-size:2rem;display:block;margin-bottom:.2rem}
+    .member-card .lbl{font-size:.8rem;font-weight:600;color:var(--text)}
+    .member-card .sub{font-size:.72rem;color:var(--muted)}
+    /* Added members */
+    .fam-list{display:flex;flex-wrap:wrap;gap:.5rem;margin-bottom:1rem;min-height:2.5rem}
+    .fam-tag{display:inline-flex;align-items:center;gap:.35rem;background:var(--brand-lt);border:1px solid var(--brand);border-radius:20px;padding:.3rem .7rem;font-size:.85rem;font-weight:600;color:var(--brand-dk)}
+    .fam-tag button{background:none;border:none;color:var(--brand-dk);cursor:pointer;font-size:1rem;line-height:1;padding:0;margin:0}
+    /* Preferences */
+    .pref-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:.6rem;margin-bottom:1rem}
+    .pref-chip{border:2px solid var(--border);border-radius:10px;padding:.6rem .5rem;text-align:center;cursor:pointer;background:#fff;transition:all .15s;user-select:none}
+    .pref-chip:hover{border-color:var(--brand);background:var(--brand-lt)}
+    .pref-chip.selected{border-color:var(--brand);background:var(--brand-lt)}
+    .pref-chip .em{font-size:1.5rem;display:block;margin-bottom:.2rem}
+    .pref-chip .lbl{font-size:.82rem;font-weight:600}
+    label{display:block;font-weight:600;margin:.9rem 0 .35rem;font-size:.95rem}
+    select{width:100%;padding:.6rem .7rem;border:1px solid var(--border);border-radius:8px;font-size:1rem;background:#fff;color:var(--text)}
+    select:focus{outline:2px solid var(--brand);border-color:var(--brand)}
+    .row{display:flex;gap:1rem;flex-wrap:wrap}
+    .row>div{flex:1;min-width:160px}
+    /* Buttons */
+    .btn{display:inline-block;padding:.7rem 1.4rem;border-radius:8px;font-size:1rem;font-weight:600;cursor:pointer;border:none;transition:background .15s}
+    .btn-primary{background:var(--brand);color:#fff}
+    .btn-primary:hover{background:var(--brand-dk)}
+    .btn-secondary{background:var(--border);color:var(--text)}
+    .btn-secondary:hover{background:#d1d5db}
+    .btn-row{display:flex;gap:.75rem;margin-top:1.25rem}
+    /* Results */
+    .result-card{border:2px solid var(--border);border-radius:12px;overflow:hidden;margin-bottom:1.25rem;background:#fff}
+    .result-header{background:linear-gradient(135deg,var(--brand),var(--brand-dk));color:#fff;padding:1rem 1.25rem}
+    .result-header h3{margin:0 0 .2rem;font-size:1.25rem}
+    .result-header .tagline{opacity:.9;font-size:.9rem;margin:0}
+    .result-body{padding:1.1rem 1.25rem}
+    .why-box{background:var(--brand-lt);border-left:4px solid var(--brand);border-radius:0 8px 8px 0;padding:.75rem 1rem;margin-bottom:1rem;font-size:.93rem}
+    .act-list{display:flex;flex-wrap:wrap;gap:.4rem;margin-bottom:1rem}
+    .act-chip{background:#f3f4f6;border:1px solid var(--border);border-radius:20px;padding:.3rem .7rem;font-size:.82rem}
+    .cost-row{display:flex;gap:.5rem;flex-wrap:wrap;margin-bottom:1rem}
+    .cost-box{flex:1;min-width:90px;border:1px solid var(--border);border-radius:8px;padding:.6rem;text-align:center}
+    .cost-box .tier{font-size:.72rem;text-transform:uppercase;color:var(--muted);font-weight:700;letter-spacing:.04em}
+    .cost-box .amt{font-size:1.05rem;font-weight:700;color:var(--brand-dk);margin-top:.15rem}
+    .cost-box .note{font-size:.7rem;color:var(--muted)}
+    .result-link{display:block;text-align:center;padding:.75rem;background:#f9fafb;border-top:1px solid var(--border);color:var(--brand);font-weight:600;text-decoration:none;font-size:.95rem}
+    .result-link:hover{background:var(--brand-lt)}
+    .rank-badge{display:inline-block;background:#fef3c7;border:1px solid #f59e0b;color:#92400e;border-radius:20px;font-size:.75rem;font-weight:700;padding:.15rem .55rem;margin-left:.5rem;vertical-align:middle}
+    .share-box{background:#f0fdf4;border:1px solid #bbf7d0;border-radius:10px;padding:1rem 1.25rem;text-align:center;margin-top:1rem}
+    .share-box p{margin:.4rem 0;color:var(--muted);font-size:.9rem}
+    footer{text-align:center;color:var(--muted);font-size:.85rem;padding:2rem 1rem}
+    .empty-msg{color:var(--muted);font-size:.9rem;font-style:italic;padding:.5rem 0}
+    @media(max-width:520px){h1{font-size:1.45rem}.member-grid{grid-template-columns:repeat(3,1fr)}.pref-grid{grid-template-columns:repeat(2,1fr)}}
+  </style>
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <a href="/">🌿 NZ Family Travel</a>
+    <nav><a href="/destinations/">Destinations</a><a href="/tools/">Tools</a><a href="/itineraries/">Itineraries</a></nav>
+  </div>
+</header>
+
+<div class="wrap">
+  <h1>🗺️ NZ Family Holiday Planner</h1>
+  <p class="lede">Tell us about your family and we'll recommend the perfect NZ holiday — personalised to your kids' ages and what you love.</p>
+
+  <div class="steps">
+    <div class="step-pill active" id="pill-1">1 · Your Family</div>
+    <div class="step-arrow">›</div>
+    <div class="step-pill" id="pill-2">2 · Preferences</div>
+    <div class="step-arrow">›</div>
+    <div class="step-pill" id="pill-3">3 · Your Plan</div>
+  </div>
+
+  <!-- Step 1 -->
+  <div class="step-panel active" id="step-1">
+    <div class="card">
+      <h2 style="margin-top:0">Who's coming on the trip?</h2>
+      <p style="color:var(--muted);font-size:.93rem;margin-top:0">Click to add each family member. Add up to 6.</p>
+      <div class="member-grid">
+        <div class="member-card" onclick="addMember('baby','👶','Baby','0–1 yr')"><span class="em">👶</span><div class="lbl">Baby</div><div class="sub">0–1 yr</div></div>
+        <div class="member-card" onclick="addMember('toddler','🧒','Toddler','2–4 yrs')"><span class="em">🧒</span><div class="lbl">Toddler</div><div class="sub">2–4 yrs</div></div>
+        <div class="member-card" onclick="addMember('preschool','🎒','Preschooler','5–7 yrs')"><span class="em">🎒</span><div class="lbl">Preschooler</div><div class="sub">5–7 yrs</div></div>
+        <div class="member-card" onclick="addMember('primary','🏃','Primary','8–12 yrs')"><span class="em">🏃</span><div class="lbl">Primary</div><div class="sub">8–12 yrs</div></div>
+        <div class="member-card" onclick="addMember('teen','🎧','Teen','13–17 yrs')"><span class="em">🎧</span><div class="lbl">Teen</div><div class="sub">13–17 yrs</div></div>
+        <div class="member-card" onclick="addMember('adult','🧑','Adult','18–64')"><span class="em">🧑</span><div class="lbl">Adult</div><div class="sub">18–64</div></div>
+        <div class="member-card" onclick="addMember('senior','👴','Senior','65+')"><span class="em">👴</span><div class="lbl">Senior</div><div class="sub">65+</div></div>
+      </div>
+      <label>Your family so far:</label>
+      <div class="fam-list" id="fam-list"><p class="empty-msg">No members added yet — click above to start.</p></div>
+    </div>
+    <div class="btn-row">
+      <button class="btn btn-primary" onclick="goStep(2)">Next: Your Preferences →</button>
+    </div>
+  </div>
+
+  <!-- Step 2 -->
+  <div class="step-panel" id="step-2">
+    <div class="card">
+      <h2 style="margin-top:0">What do you love?</h2>
+      <p style="color:var(--muted);font-size:.93rem;margin-top:0">Select all that apply.</p>
+      <div class="pref-grid" id="pref-grid">
+        <div class="pref-chip" data-pref="beach" onclick="togglePref(this)"><span class="em">🏖️</span><div class="lbl">Beaches</div></div>
+        <div class="pref-chip" data-pref="nature" onclick="togglePref(this)"><span class="em">🌿</span><div class="lbl">Nature & Wildlife</div></div>
+        <div class="pref-chip" data-pref="adventure" onclick="togglePref(this)"><span class="em">🎢</span><div class="lbl">Adventure</div></div>
+        <div class="pref-chip" data-pref="culture" onclick="togglePref(this)"><span class="em">🎭</span><div class="lbl">Culture & History</div></div>
+        <div class="pref-chip" data-pref="attractions" onclick="togglePref(this)"><span class="em">🎡</span><div class="lbl">Theme Parks & Attractions</div></div>
+        <div class="pref-chip" data-pref="relaxed" onclick="togglePref(this)"><span class="em">😌</span><div class="lbl">Relaxed Pace</div></div>
+        <div class="pref-chip" data-pref="budget" onclick="togglePref(this)"><span class="em">💰</span><div class="lbl">Budget-Friendly</div></div>
+        <div class="pref-chip" data-pref="noflight" onclick="togglePref(this)"><span class="em">🚗</span><div class="lbl">No Flying</div></div>
+      </div>
+    </div>
+    <div class="card">
+      <h2 style="margin-top:0">Trip details</h2>
+      <div class="row">
+        <div>
+          <label for="sel-duration">How long?</label>
+          <select id="sel-duration">
+            <option value="2">2–3 days (weekend)</option>
+            <option value="4">4–5 days</option>
+            <option value="7" selected>1 week</option>
+            <option value="10">10–14 days</option>
+          </select>
+        </div>
+        <div>
+          <label for="sel-season">When are you going?</label>
+          <select id="sel-season">
+            <option value="summer">Summer (Dec–Feb)</option>
+            <option value="autumn">Autumn / Easter (Mar–May)</option>
+            <option value="winter">Winter / Jul school hols</option>
+            <option value="spring" selected>Spring (Sep–Nov)</option>
+            <option value="any">Flexible / not sure</option>
+          </select>
+        </div>
+      </div>
+      <div class="row" style="margin-top:.5rem">
+        <div>
+          <label for="sel-region">Island preference?</label>
+          <select id="sel-region">
+            <option value="any" selected>No preference</option>
+            <option value="north">North Island only</option>
+            <option value="south">South Island only</option>
+          </select>
+        </div>
+        <div>
+          <label for="sel-drive">Starting from?</label>
+          <select id="sel-drive">
+            <option value="any">Anywhere / flying</option>
+            <option value="auckland">Auckland</option>
+            <option value="wellington">Wellington</option>
+            <option value="christchurch">Christchurch</option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <div class="btn-row">
+      <button class="btn btn-secondary" onclick="goStep(1)">← Back</button>
+      <button class="btn btn-primary" onclick="generatePlan()">Find our perfect holiday →</button>
+    </div>
+  </div>
+
+  <!-- Step 3 -->
+  <div class="step-panel" id="step-3">
+    <div id="results-container"></div>
+    <div class="share-box">
+      <strong>📋 Share your plan</strong>
+      <p>Copy a summary to send to your family.</p>
+      <button class="btn btn-primary" onclick="copyPlan()">Copy to clipboard</button>
+    </div>
+    <div class="btn-row">
+      <button class="btn btn-secondary" onclick="goStep(2)">← Adjust preferences</button>
+      <a class="btn btn-primary" href="/itineraries/" style="text-decoration:none">Build a full itinerary →</a>
+    </div>
+  </div>
+</div>
+
+<footer><p>Free tool by <a href="/" style="color:var(--brand)">NZ Family Travel</a> · <a href="/tools/" style="color:var(--brand)">More tools</a> · <a href="/destinations/" style="color:var(--brand)">Browse destinations</a></p></footer>
+
+<script>
+const DESTINATIONS = [
+  {
+    slug:'rotorua-family-guide', name:'Rotorua', island:'north', region:'Bay of Plenty',
+    tagline:'Geothermal wonders, Māori culture & the legendary luge',
+    scores:{beach:0,nature:5,adventure:4,culture:5,attractions:5,relaxed:3,budget:3},
+    ageScores:{baby:3,toddler:5,preschool:5,primary:5,teen:4,adult:5,senior:4},
+    minDays:2, noflight:true, winterOk:true,
+    why:{
+      baby:'Wai-O-Tapu\'s colourful pools fascinate little ones, and Rotorua\'s flat lakefront is easy with a pram.',
+      toddler:'The Agrodome farm show and thermal pools are perfect toddler territory — exciting without being overwhelming.',
+      preschool:'Preschoolers love the farm animals at Agrodome and the colourful bubbling mud pools.',
+      primary:'Primary kids go absolutely wild for the luge at Skyline and the adventure activities on offer.',
+      teen:'Teens rate the Skyline bike park, zorbing, and whitewater rafting highly.',
+      senior:'Relaxed thermal spa options at Polynesian Spa plus accessible cultural shows make this ideal.',
+    },
+    defaultWhy:'A genuine all-rounder — one of the few NZ destinations that truly works for every age, from toddlers to grandparents.',
+    activities:['Wai-O-Tapu Thermal Wonderland','Skyline Gondola & Luge','Māori cultural experience at Te Puia','Polynesian Spa','Agrodome Farm Show'],
+    costs:{low:180,mid:280,high:420},
+  },
+  {
+    slug:'auckland-with-kids', name:'Auckland', island:'north', region:'Auckland',
+    tagline:'NZ\'s biggest city — beaches, islands, and world-class attractions',
+    scores:{beach:3,nature:2,adventure:3,culture:4,attractions:4,relaxed:2,budget:2},
+    ageScores:{baby:4,toddler:4,preschool:4,primary:4,teen:4,adult:5,senior:4},
+    minDays:2, noflight:false, winterOk:true,
+    why:{
+      baby:'Excellent facilities, flat waterfront areas, and Rainbows End has toddler zones.',
+      toddler:'Kelly Tarltons and the Zoo are perfect toddler-sized adventures.',
+      primary:'Kids aged 8–12 love Waiheke Island day trips, sailing experiences, and Rainbows End.',
+      teen:'Sky Tower, escape rooms, Waiheke wine trails (for adults while teens explore), and great food options.',
+      senior:'Excellent accessibility, world-class restaurants, and easy ferry trips to Waiheke.',
+    },
+    defaultWhy:'A great starting point — excellent infrastructure, beaches within 40 minutes, and enough to fill a week easily.',
+    activities:['Kelly Tarltons Sea Life Aquarium','Auckland Zoo','Waiheke Island day trip','Sky Tower','Rainbows End'],
+    costs:{low:200,mid:320,high:500},
+  },
+  {
+    slug:'bay-of-islands-family', name:'Bay of Islands', island:'north', region:'Northland',
+    tagline:'Stunning beaches, dolphins, and NZ\'s birthplace — Waitangi',
+    scores:{beach:5,nature:4,adventure:3,culture:4,attractions:2,relaxed:4,budget:3},
+    ageScores:{baby:3,toddler:3,preschool:4,primary:5,teen:4,adult:5,senior:4},
+    minDays:3, noflight:true, winterOk:false,
+    why:{
+      primary:'Dolphin watching, kayaking, and the history of Waitangi Treaty Grounds are perfect for inquisitive kids.',
+      teen:'Sailing, snorkelling, and genuine adventure on the water — teens who like the outdoors love it here.',
+      adult:'Stunning scenery, great seafood, and a relaxed pace.',
+    },
+    defaultWhy:'Beaches, dolphins, and NZ history in one place. Best in summer — plan 3 hours drive from Auckland.',
+    activities:['Dolphin Cruise','Waitangi Treaty Grounds','Hole in the Rock boat trip','Cape Reinga day trip','Kayaking'],
+    costs:{low:160,mid:250,high:380},
+  },
+  {
+    slug:'coromandel-with-kids', name:'Coromandel', island:'north', region:'Waikato',
+    tagline:'Cathedral Cove, Hot Water Beach, and unspoilt bush',
+    scores:{beach:5,nature:4,adventure:2,culture:1,attractions:1,relaxed:5,budget:4},
+    ageScores:{baby:3,toddler:4,preschool:4,primary:5,teen:3,adult:5,senior:3},
+    minDays:2, noflight:true, winterOk:false,
+    why:{
+      toddler:'Digging holes at Hot Water Beach is a toddler\'s dream — their own natural hot tub!',
+      primary:'Cathedral Cove walk (or boat) and Hot Water Beach are genuinely magical for kids.',
+      adult:'Some of NZ\'s most beautiful beaches without the Queenstown price tag.',
+    },
+    defaultWhy:'The perfect easy beach escape from Auckland — stunning and budget-friendly.',
+    activities:['Hot Water Beach (dig your own hot tub)','Cathedral Cove walk or boat','Driving Creek Railway','Thames Goldfields','Kayaking'],
+    costs:{low:130,mid:200,high:320},
+  },
+  {
+    slug:'queenstown-with-kids', name:'Queenstown', island:'south', region:'Otago',
+    tagline:'Adventure capital — skiing, bungy, and epic scenery',
+    scores:{beach:0,nature:4,adventure:5,culture:1,attractions:4,relaxed:1,budget:1},
+    ageScores:{baby:1,toddler:2,preschool:3,primary:4,teen:5,adult:5,senior:3},
+    minDays:3, noflight:false, winterOk:true,
+    why:{
+      primary:'Luge, jet boat, mini golf, and gondola rides — primary kids are in their element.',
+      teen:'Teens love Queenstown — bungy, skydiving (16+), snowboarding, mountain biking. NZ\'s adventure capital.',
+      adult:'World-class adventure, skiing in winter, and stunning scenery year-round.',
+    },
+    defaultWhy:'Best for families with kids 5+ who love adventure. Not great for toddlers or tight budgets.',
+    activities:['Skyline Gondola & Luge','Shotover Jet','Fergburger (legendary!)','Ski the Remarkables (winter)','Milford Sound day trip'],
+    costs:{low:280,mid:420,high:700},
+  },
+  {
+    slug:'rotorua-family-guide', name:'Rotorua', island:'north', region:'Bay of Plenty', _dup:true,
+  },
+  {
+    slug:'hamilton-waikato-with-kids', name:'Hamilton & Waikato', island:'north', region:'Waikato',
+    tagline:'Hobbiton, Waitomo Caves, and Hamilton Gardens',
+    scores:{beach:0,nature:3,adventure:2,culture:4,attractions:5,relaxed:3,budget:4},
+    ageScores:{baby:3,toddler:4,preschool:4,primary:5,teen:3,adult:5,senior:4},
+    minDays:2, noflight:true, winterOk:true,
+    why:{
+      toddler:'Hamilton Zoo and Hamilton Gardens are great for little ones.',
+      primary:'Hobbiton is pure magic for kids who love The Hobbit or Lord of the Rings.',
+      senior:'Hobbiton is fully accessible and the Waitomo Glowworm Caves are unforgettable.',
+    },
+    defaultWhy:'Hobbiton and Waitomo Caves are bucket-list NZ experiences the whole family will remember.',
+    activities:['Hobbiton Movie Set','Waitomo Glowworm Caves','Hamilton Gardens','Raglan surf beach','Mystery Creek Events Centre'],
+    costs:{low:150,mid:240,high:360},
+  },
+  {
+    slug:'tauranga-mount-maunganui-family', name:'Tauranga & Mount Maunganui', island:'north', region:'Bay of Plenty',
+    tagline:'NZ\'s best beach town — surfing, sun, and relaxed vibes',
+    scores:{beach:5,nature:2,adventure:3,culture:1,attractions:2,relaxed:5,budget:3},
+    ageScores:{baby:3,toddler:4,preschool:4,primary:5,teen:4,adult:5,senior:3},
+    minDays:2, noflight:true, winterOk:false,
+    why:{
+      toddler:'Flat, safe beaches with gentle surf — perfect for toddlers to run and splash.',
+      primary:'Surfing lessons at the Mount, boogie boards, and beach cricket are the go.',
+      teen:'Learn to surf, beach volleyball, and the best fish and chips in NZ.',
+    },
+    defaultWhy:'NZ\'s ultimate beach town — relaxed, family-friendly, and easy to get to from Auckland.',
+    activities:['Mount Maunganui beach & surf','Climb the Mount (walk)','Surf lessons at Surf Spot','McLaren Falls Park','Papamoa Hills walk'],
+    costs:{low:150,mid:240,high:380},
+  },
+  {
+    slug:'wellington-with-kids', name:'Wellington', island:'north', region:'Wellington',
+    tagline:'Culture, Te Papa, Weta Workshop, and epic café food',
+    scores:{beach:1,nature:2,adventure:2,culture:5,attractions:5,relaxed:3,budget:3},
+    ageScores:{baby:4,toddler:4,preschool:4,primary:5,teen:4,adult:5,senior:5},
+    minDays:2, noflight:false, winterOk:true,
+    why:{
+      toddler:'Te Papa is free and endlessly fascinating — toddlers can spend hours in the interactive zones.',
+      primary:'Weta Workshop tour is magical for primary kids, and Zealandia wildlife sanctuary is unforgettable.',
+      teen:'Weta Workshop behind-the-scenes, amazing street art, and great food scene.',
+      senior:'Accessible waterfront, free museums, and excellent café culture.',
+    },
+    defaultWhy:'NZ\'s cultural capital — Te Papa, Weta Workshop, and Zealandia. Best for families who love learning and great food.',
+    activities:['Te Papa Museum (free)','Weta Workshop Tour','Zealandia Wildlife Sanctuary','Wellington Cable Car','Interislander Ferry trip'],
+    costs:{low:160,mid:260,high:400},
+  },
+  {
+    slug:'taupo-with-kids', name:'Taupo', island:'north', region:'Waikato',
+    tagline:'Lake, Huka Falls, and a relaxed NZ holiday classic',
+    scores:{beach:2,nature:4,adventure:3,culture:2,attractions:2,relaxed:5,budget:4},
+    ageScores:{baby:4,toddler:4,preschool:4,primary:4,teen:3,adult:5,senior:5},
+    minDays:2, noflight:true, winterOk:false,
+    why:{
+      toddler:'Lake Taupo beach is safe and calm — perfect for splashing and sandcastles.',
+      preschool:'Preschoolers love the fish hatchery and the dramatic Huka Falls are awe-inspiring.',
+      primary:'Jet sprint boats on the Waikato River, kayaking on the lake, and sky-high views from Tongariro.',
+      senior:'Relaxed lakeside town with easy walks, thermal pools, and stunning scenery.',
+    },
+    defaultWhy:'A classic NZ family holiday — calm lake, fresh air, and something for every age without the crowds.',
+    activities:['Huka Falls walkway','Lake Taupo sailing or kayaking','Wairakei Thermal Terraces','Tongariro (day trip for teens/adults)','Fish hatchery'],
+    costs:{low:130,mid:210,high:330},
+  },
+  {
+    slug:'christchurch-with-kids', name:'Christchurch', island:'south', region:'Canterbury',
+    tagline:'South Island\'s gateway — trams, gondola, and Antarctic Centre',
+    scores:{beach:1,nature:3,adventure:2,culture:4,attractions:4,relaxed:3,budget:3},
+    ageScores:{baby:4,toddler:4,preschool:4,primary:5,teen:3,adult:5,senior:5},
+    minDays:2, noflight:false, winterOk:true,
+    why:{
+      toddler:'The Botanic Gardens (free) and the tram are perfect for toddlers.',
+      primary:'International Antarctic Centre has live penguin feeding and a real Hagglund ride — primary kids love it.',
+      senior:'Excellent accessibility, flat city centre, and easy connections to Akaroa and Kaikoura.',
+    },
+    defaultWhy:'Great South Island base and a genuine city destination in its own right. International Antarctic Centre is unmissable.',
+    activities:['International Antarctic Centre','Christchurch Gondola','Historic tram ride','Botanic Gardens (free)','Willowbank Wildlife Reserve'],
+    costs:{low:160,mid:260,high:400},
+  },
+  {
+    slug:'wanaka-with-kids', name:'Wanaka', island:'south', region:'Otago',
+    tagline:'Queenstown\'s quieter, cheaper, and equally beautiful cousin',
+    scores:{beach:1,nature:5,adventure:4,culture:1,attractions:2,relaxed:4,budget:3},
+    ageScores:{baby:2,toddler:3,preschool:3,primary:5,teen:5,adult:5,senior:3},
+    minDays:2, noflight:false, winterOk:true,
+    why:{
+      primary:'Lake swimming, Puzzling World, and the Wanaka Tree photo spot — primary kids love the variety.',
+      teen:'Snowboarding at Cardrona, mountain biking, and kayaking — a teen\'s dream without Queenstown prices.',
+      adult:'Stunning scenery, world-class skiing, and a genuinely relaxed pace.',
+    },
+    defaultWhy:'All the drama of Queenstown at about 70% of the price — with a much more relaxed vibe.',
+    activities:['Puzzling World','Lake Wanaka kayaking/swimming','Cardrona Alpine Resort (winter)','Roys Peak walk (teens/adults)','That Wanaka Tree'],
+    costs:{low:200,mid:320,high:500},
+  },
+  {
+    slug:'nelson-abel-tasman-family', name:'Nelson & Abel Tasman', island:'south', region:'Nelson',
+    tagline:'Golden beaches, water taxis, and a relaxed arty vibe',
+    scores:{beach:5,nature:5,adventure:3,culture:2,attractions:1,relaxed:5,budget:3},
+    ageScores:{baby:2,toddler:3,preschool:4,primary:5,teen:4,adult:5,senior:3},
+    minDays:3, noflight:false, winterOk:false,
+    why:{
+      primary:'Sea kayaking, water taxis, and golden sand beaches — an unforgettable South Island beach experience.',
+      teen:'Multi-day Abel Tasman track for older teens, kayaking, and golden bays.',
+      adult:'One of NZ\'s most beautiful coastlines — do it before the crowds find it.',
+    },
+    defaultWhy:'NZ\'s sunniest city paired with the stunning Abel Tasman. Best for beach-loving families in summer.',
+    activities:['Abel Tasman water taxi & beach walk','Sea kayaking','Nelson Saturday Market','Kaiteriteri beach','Mapua Wharf food & cafes'],
+    costs:{low:160,mid:260,high:400},
+  },
+  {
+    slug:'dunedin-family-guide', name:'Dunedin', island:'south', region:'Otago',
+    tagline:'Wildlife capital — penguins, albatross, and sea lions',
+    scores:{beach:1,nature:5,adventure:2,culture:3,attractions:3,relaxed:4,budget:4},
+    ageScores:{baby:2,toddler:3,preschool:3,primary:5,teen:4,adult:5,senior:4},
+    minDays:2, noflight:false, winterOk:true,
+    why:{
+      primary:'Watching wild penguins waddle ashore at dusk is a life experience primary kids will never forget.',
+      teen:'Larnach Castle, the Otago Peninsula, and the world\'s steepest street (Baldwin St) make for a memorable trip.',
+      senior:'Excellent wildlife tours with professional operators who handle all logistics.',
+    },
+    defaultWhy:'Underrated and brilliant for wildlife. Dunedin and the Otago Peninsula have NZ\'s most accessible wildlife encounters.',
+    activities:['Wild penguin viewing at Otago Peninsula','Royal Albatross Colony','Larnach Castle','Baldwin Street (world\'s steepest!)','Olveston Historic Home'],
+    costs:{low:140,mid:220,high:340},
+  },
+  {
+    slug:'hawkes-bay-family-guide', name:'Hawke\'s Bay', island:'north', region:'Hawke\'s Bay',
+    tagline:'Art Deco, beaches, wineries, and the world\'s largest gannet colony',
+    scores:{beach:3,nature:4,adventure:1,culture:4,attractions:2,relaxed:4,budget:3},
+    ageScores:{baby:3,toddler:3,preschool:3,primary:4,teen:3,adult:5,senior:5},
+    minDays:2, noflight:true, winterOk:false,
+    why:{
+      primary:'Cape Kidnappers gannet colony is an extraordinary wildlife experience kids remember for life.',
+      adult:'Wine trails, Art Deco architecture, and excellent farmers\' markets — a sophisticated family holiday.',
+      senior:'Easy cycling trails, flat terrain, and world-class wineries and food.',
+    },
+    defaultWhy:'A hidden gem — stunning Art Deco city, gannets, beaches, and the best farmers\' market in NZ.',
+    activities:['Cape Kidnappers Gannet Colony','Napier Art Deco Walk','Bay of Islands cycling trail','Ocean Beach','Sileni Winery lunch'],
+    costs:{low:140,mid:220,high:350},
+  },
+];
+
+// Remove duplicate
+const DESTS = DESTINATIONS.filter(d => !d._dup);
+
+let family = [];
+let prefs = new Set();
+let planText = '';
+
+const AGE_EMOJI = {baby:'👶',toddler:'🧒',preschool:'🎒',primary:'🏃',teen:'🎧',adult:'🧑',senior:'👴'};
+const AGE_LABEL = {baby:'Baby',toddler:'Toddler',preschool:'Preschooler',primary:'Primary',teen:'Teen',adult:'Adult',senior:'Senior'};
+
+function addMember(type, em, label, sub) {
+  if (family.length >= 6) { alert('Maximum 6 family members added.'); return; }
+  family.push({type, em, label, sub});
+  renderFamily();
+}
+
+function renderFamily() {
+  const el = document.getElementById('fam-list');
+  if (family.length === 0) { el.innerHTML = '<p class="empty-msg">No members added yet — click above to start.</p>'; return; }
+  el.innerHTML = family.map((m,i) =>
+    `<div class="fam-tag">${m.em} ${m.label} <button onclick="removeMember(${i})">×</button></div>`
+  ).join('');
+}
+
+function removeMember(i) {
+  family.splice(i, 1);
+  renderFamily();
+}
+
+function togglePref(el) {
+  const p = el.dataset.pref;
+  if (prefs.has(p)) { prefs.delete(p); el.classList.remove('selected'); }
+  else { prefs.add(p); el.classList.add('selected'); }
+}
+
+function goStep(n) {
+  if (n === 2 && family.length === 0) { alert('Please add at least one family member first.'); return; }
+  [1,2,3].forEach(i => {
+    document.getElementById('step-'+i).classList.toggle('active', i===n);
+    const pill = document.getElementById('pill-'+i);
+    pill.classList.remove('active','done');
+    if (i < n) pill.classList.add('done');
+    else if (i === n) pill.classList.add('active');
+  });
+}
+
+function scoreDestination(dest) {
+  let score = 0;
+  const ageTypes = family.map(m => m.type);
+
+  // Age suitability
+  ageTypes.forEach(a => { score += (dest.ageScores[a] || 3) * 3; });
+
+  // Preference match
+  prefs.forEach(p => {
+    if (p === 'noflight') { if (dest.noflight) score += 5; }
+    else score += (dest.scores[p] || 0) * 2;
+  });
+
+  // Region filter
+  const region = document.getElementById('sel-region').value;
+  if (region !== 'any' && dest.island !== region) return -999;
+
+  // Season
+  const season = document.getElementById('sel-season').value;
+  if (season === 'winter' && !dest.winterOk) score -= 8;
+  if (season === 'summer' && dest.island === 'south' && dest.scores.beach > 3) score += 3;
+
+  // Duration
+  const days = parseInt(document.getElementById('sel-duration').value);
+  if (days < dest.minDays) score -= 5;
+
+  // Baby/toddler penalty for inappropriate destinations
+  if (ageTypes.includes('baby') || ageTypes.includes('toddler')) {
+    if (dest.ageScores.toddler < 3) score -= 10;
+  }
+
+  return score;
+}
+
+function pickWhy(dest) {
+  const ageTypes = family.map(m => m.type);
+  for (const a of ['teen','primary','preschool','toddler','baby','senior']) {
+    if (ageTypes.includes(a) && dest.why[a]) return dest.why[a];
+  }
+  return dest.defaultWhy;
+}
+
+function generatePlan() {
+  goStep(3);
+
+  const duration = parseInt(document.getElementById('sel-duration').value);
+  const season = document.getElementById('sel-season').value;
+  const SEASON_LABEL = {summer:'Summer',autumn:'Autumn/Easter',winter:'Winter',spring:'Spring',any:'any time'};
+
+  const scored = DESTS
+    .map(d => ({ dest: d, score: scoreDestination(d) }))
+    .filter(x => x.score > -999)
+    .sort((a,b) => b.score - a.score)
+    .slice(0,3);
+
+  const familySummary = family.map(m => m.label).join(', ');
+  const prefList = [...prefs].join(', ');
+
+  planText = `🗺️ NZ Family Holiday Plan\n\nFamily: ${familySummary}\nPreferences: ${prefList || 'flexible'}\nDuration: ${duration}+ days · Season: ${SEASON_LABEL[season]}\n\n`;
+
+  const RANK = ['🥇 Top Pick','🥈 Runner-Up','🥉 Also Great'];
+  const durationLabel = {2:'2–3 days',4:'4–5 days',7:'1 week',10:'10–14 days'}[duration] || `${duration}+ days`;
+
+  document.getElementById('results-container').innerHTML = scored.map((x, i) => {
+    const d = x.dest;
+    const why = pickWhy(d);
+    const cost = d.costs || {low:150,mid:250,high:400};
+    const perDayNote = 'per day, family of 4';
+    planText += `${RANK[i]}: ${d.name}\n${d.tagline}\nWhy it suits your family: ${why}\nActivities: ${d.activities.join(', ')}\n\n`;
+    return `
+    <div class="result-card">
+      <div class="result-header">
+        <h3>${d.name} <span class="rank-badge">${RANK[i]}</span></h3>
+        <p class="tagline">${d.tagline}</p>
+      </div>
+      <div class="result-body">
+        <div class="why-box">💡 <strong>Why it suits your family:</strong> ${why}</div>
+        <strong style="font-size:.9rem;color:var(--muted);text-transform:uppercase;letter-spacing:.04em">Top Activities</strong>
+        <div class="act-list" style="margin-top:.4rem">
+          ${d.activities.map(a => `<span class="act-chip">✓ ${a}</span>`).join('')}
+        </div>
+        <strong style="font-size:.9rem;color:var(--muted);text-transform:uppercase;letter-spacing:.04em">Estimated daily cost (family of 4)</strong>
+        <div class="cost-row" style="margin-top:.4rem">
+          <div class="cost-box"><div class="tier">Budget</div><div class="amt">$${cost.low}/day</div><div class="note">camping / self-catering</div></div>
+          <div class="cost-box"><div class="tier">Mid-range</div><div class="amt">$${cost.mid}/day</div><div class="note">motel + dining out</div></div>
+          <div class="cost-box"><div class="tier">Premium</div><div class="amt">$${cost.high}/day</div><div class="note">hotel + activities</div></div>
+        </div>
+        <p style="font-size:.82rem;color:var(--muted);margin:.25rem 0 0">Costs are estimates for accommodation, food & key activities. Excludes travel to destination.</p>
+      </div>
+      <a class="result-link" href="/destinations/${d.slug}/">Full guide to ${d.name} with kids →</a>
+    </div>`;
+  }).join('');
+
+  planText += 'Plan generated by nzfamilytravel.co.nz';
+  gtag('event', 'plan_generated', {family_size: family.length, prefs: [...prefs].join(',')});
+}
+
+function copyPlan() {
+  navigator.clipboard.writeText(planText).then(() => {
+    const btn = event.target;
+    btn.textContent = '✓ Copied!';
+    setTimeout(() => btn.textContent = 'Copy to clipboard', 2000);
+  });
+}
+</script>
+</body>
+</html>

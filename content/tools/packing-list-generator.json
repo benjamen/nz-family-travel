@@ -1,0 +1,14 @@
+{
+  "slug": "packing-list-generator",
+  "title": "NZ Family Holiday Packing List Generator — Free Printable Checklist",
+  "description": "Generate a personalised packing list for your NZ family holiday. Select your trip type, kids' ages, and the season — get a printable checklist with NZ-specific essentials.",
+  "icon": "🎒",
+  "meta_desc": "Free NZ family holiday packing list generator. Select your trip type, kids ages and season — get an instant printable checklist with NZ-specific essentials like Rid, Sudocrem, and SPF50+.",
+  "hero_image": {
+    "url": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=1200&q=80",
+    "thumb": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=600&q=70",
+    "alt": "Family packing for NZ holiday",
+    "credit": "Unsplash"
+  },
+  "html_content": "<div style='text-align:center;padding:2rem 1rem'><p style='font-size:1.1rem;color:#4b5563;margin-bottom:1.5rem'>Select your trip type, kids' ages, and season — get a personalised packing checklist you can tick off on your phone or print.</p><a href='/tools/packing-list-generator/' style='display:inline-block;background:#0369a1;color:#fff;padding:.85rem 2rem;border-radius:8px;font-weight:700;font-size:1.05rem;text-decoration:none'>Generate my packing list →</a></div>"
+}

@@ -1,0 +1,14 @@
+{
+  "slug": "family-holiday-budget-planner",
+  "title": "NZ Family Holiday Budget Planner 2026 — Cost Calculator",
+  "description": "Calculate exactly what your NZ family holiday will cost. Pick your destination, accommodation type, family size and trip length — get instant low, mid, and premium estimates with a full cost breakdown.",
+  "icon": "💰",
+  "meta_desc": "Free NZ family holiday cost calculator. Pick destination, accommodation type, family size and nights — get instant budget, mid-range and premium estimates for 2026 prices.",
+  "hero_image": {
+    "url": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1200&q=80",
+    "thumb": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=600&q=70",
+    "alt": "NZ family holiday budget planning",
+    "credit": "Unsplash"
+  },
+  "html_content": "<div style='text-align:center;padding:2rem 1rem'><p style='font-size:1.1rem;color:#4b5563;margin-bottom:1.5rem'>Pick your destination, accommodation, family size, and trip length — get a full cost breakdown with budget, mid-range, and premium estimates. Covers 12 popular NZ family destinations.</p><a href='/tools/family-holiday-budget-planner/' style='display:inline-block;background:#0369a1;color:#fff;padding:.85rem 2rem;border-radius:8px;font-weight:700;font-size:1.05rem;text-decoration:none'>Calculate my trip cost →</a></div>"
+}

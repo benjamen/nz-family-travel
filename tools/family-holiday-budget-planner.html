@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en-NZ">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NZ Family Holiday Budget Planner 2026 — Cost Calculator</title>
+  <meta name="description" content="Calculate exactly what your NZ family holiday will cost — accommodation, food, transport, and activities. Instant low/mid/high estimates.">
+  <link rel="canonical" href="https://nzfamilytravel.co.nz/tools/family-holiday-budget-planner/">
+  <link rel="icon" href="/static/img/favicon.svg" type="image/svg+xml">
+  <meta name="theme-color" content="#0369a1">
+  <meta name="robots" content="index, follow">
+  <link rel="preconnect" href="https://www.googletagmanager.com">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-BHTP34TBYW"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-BHTP34TBYW');</script>
+  <style>
+    :root{--brand:#0369a1;--brand-dk:#075985;--brand-lt:#e0f2fe;--green:#16a34a;--amber:#d97706;--teal:#0d9488;--bg:#f9fafb;--card:#fff;--border:#e5e7eb;--text:#111827;--muted:#4b5563;--radius:10px}
+    *{box-sizing:border-box}
+    body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;margin:0;background:var(--bg);color:var(--text);line-height:1.55}
+    .wrap{max-width:860px;margin:0 auto;padding:1.25rem}
+    header.top{background:var(--brand);color:#fff;padding:.75rem 0}
+    header.top .wrap{display:flex;align-items:center;justify-content:space-between;padding-top:.5rem;padding-bottom:.5rem}
+    header.top a{color:#fff;text-decoration:none;font-weight:700}
+    header.top nav a{font-weight:500;margin-left:1rem;opacity:.9;font-size:.95rem}
+    h1{font-size:1.85rem;margin:.2rem 0 .4rem}
+    .lede{color:var(--muted);margin:0 0 1.5rem;font-size:1.05rem}
+    .card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:1.25rem 1.4rem;margin-bottom:1.25rem;box-shadow:0 1px 3px rgba(0,0,0,.06)}
+    label{display:block;font-weight:600;margin:.85rem 0 .3rem;font-size:.95rem}
+    select,input{width:100%;padding:.6rem .7rem;border:1px solid var(--border);border-radius:8px;font-size:1rem;background:#fff;color:var(--text)}
+    select:focus,input:focus{outline:2px solid var(--brand);border-color:var(--brand)}
+    .row{display:flex;gap:1rem;flex-wrap:wrap}
+    .row>div{flex:1;min-width:160px}
+    input[type=range]{padding:0;accent-color:var(--brand)}
+    .slider-val{font-weight:700;color:var(--brand)}
+    /* Results */
+    .results{background:linear-gradient(135deg,#e0f2fe,#f0f9ff);border-radius:var(--radius);padding:1.25rem 1.4rem;margin-bottom:1.25rem;border:1px solid #bae6fd}
+    .tier-grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:.85rem;margin-bottom:1.25rem}
+    @media(max-width:520px){.tier-grid{grid-template-columns:1fr}.row>div{min-width:100%}h1{font-size:1.45rem}}
+    .tier-box{border-radius:10px;padding:1rem;text-align:center;border:2px solid transparent}
+    .tier-low{background:#f0fdf4;border-color:#86efac}
+    .tier-mid{background:#eff6ff;border-color:#93c5fd}
+    .tier-high{background:#fefce8;border-color:#fde68a}
+    .tier-box .lbl{font-size:.78rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--muted)}
+    .tier-box .big{font-size:2rem;font-weight:800;line-height:1.1;margin:.3rem 0 .1rem}
+    .tier-box .sub{font-size:.78rem;color:var(--muted)}
+    .low-big{color:#15803d}.mid-big{color:var(--brand-dk)}.high-big{color:#92400e}
+    /* Breakdown bars */
+    .bar-row{display:grid;grid-template-columns:130px 1fr 70px 70px 70px;align-items:center;gap:.5rem;margin:.45rem 0}
+    @media(max-width:600px){.bar-row{grid-template-columns:100px 1fr 60px 60px 60px;gap:.35rem}}
+    .bar-row .cat{font-size:.88rem;font-weight:600}
+    .bar-track{background:var(--border);border-radius:6px;height:20px;overflow:hidden}
+    .bar-fill{height:100%;border-radius:6px;transition:width .3s ease}
+    .bar-row .amt{text-align:right;font-size:.82rem;font-weight:600;font-variant-numeric:tabular-nums}
+    .c-accom{background:var(--brand)}.c-food{background:var(--green)}.c-trans{background:var(--amber)}.c-act{background:var(--teal)}.c-misc{background:#7c3aed}
+    .hdr-row{display:grid;grid-template-columns:130px 1fr 70px 70px 70px;gap:.5rem;margin-bottom:.25rem}
+    @media(max-width:600px){.hdr-row{grid-template-columns:100px 1fr 60px 60px 60px;gap:.35rem}}
+    .hdr-row span{font-size:.75rem;color:var(--muted);font-weight:700;text-align:right;text-transform:uppercase}
+    .hdr-row span:nth-child(2){text-align:left;color:transparent}
+    /* Tips */
+    .tips{list-style:none;padding:0;margin:.75rem 0 0}
+    .tips li{background:#f0fdf4;border-left:4px solid var(--green);border-radius:0 8px 8px 0;padding:.65rem .9rem;margin:.45rem 0;font-size:.92rem}
+    .note{font-size:.82rem;color:var(--muted);margin:.5rem 0 0}
+    footer{text-align:center;color:var(--muted);font-size:.85rem;padding:2rem 1rem}
+  </style>
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <a href="/">🌿 NZ Family Travel</a>
+    <nav><a href="/destinations/">Destinations</a><a href="/tools/">Tools</a></nav>
+  </div>
+</header>
+<div class="wrap">
+  <h1>💰 NZ Family Holiday Budget Planner</h1>
+  <p class="lede">Instant cost estimates for your NZ family holiday — accommodation, food, transport, and activities. Updated for 2026 prices.</p>
+
+  <div class="card">
+    <h2 style="margin-top:0">Your trip details</h2>
+    <div class="row">
+      <div>
+        <label for="destination">Destination</label>
+        <select id="destination" onchange="calculate()">
+          <option value="rotorua">Rotorua</option>
+          <option value="auckland">Auckland</option>
+          <option value="queenstown">Queenstown</option>
+          <option value="bayofislands">Bay of Islands</option>
+          <option value="coromandel">Coromandel</option>
+          <option value="wellington">Wellington</option>
+          <option value="tauranga">Tauranga / Mount Maunganui</option>
+          <option value="taupo">Taupo</option>
+          <option value="christchurch">Christchurch</option>
+          <option value="wanaka">Wanaka</option>
+          <option value="nelson">Nelson / Abel Tasman</option>
+          <option value="dunedin">Dunedin</option>
+        </select>
+      </div>
+      <div>
+        <label for="accom-type">Accommodation type</label>
+        <select id="accom-type" onchange="calculate()">
+          <option value="camping">Budget — camping / holiday park</option>
+          <option value="motel" selected>Mid-range — motel or Airbnb</option>
+          <option value="hotel">Premium — hotel or lodge</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div>
+        <label>Nights: <span class="slider-val" id="nights-val">7</span></label>
+        <input type="range" id="nights" min="2" max="14" value="7" oninput="document.getElementById('nights-val').textContent=this.value;calculate()">
+      </div>
+      <div>
+        <label for="adults">Adults</label>
+        <select id="adults" onchange="calculate()">
+          <option value="1">1 adult</option>
+          <option value="2" selected>2 adults</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div>
+        <label for="kids">Children</label>
+        <select id="kids" onchange="calculate()">
+          <option value="0">No children</option>
+          <option value="1">1 child</option>
+          <option value="2" selected>2 children</option>
+          <option value="3">3 children</option>
+          <option value="4">4 children</option>
+        </select>
+      </div>
+      <div>
+        <label for="transport">Getting there</label>
+        <select id="transport" onchange="calculate()">
+          <option value="owncar" selected>Own car (no flights)</option>
+          <option value="rental">Rental car</option>
+          <option value="fly">Fly + rental car</option>
+          <option value="camper">Campervan hire</option>
+        </select>
+      </div>
+    </div>
+  </div>
+
+  <div class="results" id="results">
+    <div class="tier-grid">
+      <div class="tier-box tier-low"><div class="lbl">🟢 Budget</div><div class="big low-big" id="total-low">$0</div><div class="sub">careful spending</div></div>
+      <div class="tier-box tier-mid"><div class="lbl">🔵 Mid-range</div><div class="big mid-big" id="total-mid">$0</div><div class="sub">comfortable holiday</div></div>
+      <div class="tier-box tier-high"><div class="lbl">🟡 Premium</div><div class="big high-big" id="total-high">$0</div><div class="sub">treat yourselves</div></div>
+    </div>
+    <p class="note" style="text-align:center;margin-bottom:1.1rem">Total trip cost — <span id="family-desc">family of 4</span>, <span id="nights-desc">7 nights</span></p>
+    <div class="hdr-row">
+      <span style="color:transparent">cat</span><span>Distribution</span><span>Budget</span><span>Mid</span><span>Premium</span>
+    </div>
+    <div id="breakdown"></div>
+  </div>
+
+  <div class="card" id="tips-card">
+    <h2 style="margin-top:0">💡 Ways to save at <span id="dest-name">your destination</span></h2>
+    <ul class="tips" id="tips-list"></ul>
+  </div>
+
+  <div style="background:#eff6ff;border:1px solid #bfdbfe;border-radius:10px;padding:1rem 1.25rem;margin-bottom:1.25rem">
+    <strong>🗺️ Ready to plan the details?</strong>
+    <p style="margin:.4rem 0 .75rem;font-size:.92rem;color:var(--muted)">Use our family holiday planner to get personalised destination picks and activity recommendations.</p>
+    <a href="/tools/family-holiday-planner/" style="color:var(--brand);font-weight:600;text-decoration:none">Find your perfect NZ family destination →</a>
+  </div>
+</div>
+<footer><p>Free tool by <a href="/" style="color:var(--brand)">NZ Family Travel</a> · <a href="/tools/" style="color:var(--brand)">More tools</a> · Prices are 2026 estimates and may vary.</p></footer>
+
+<script>
+const DEST_DATA = {
+  rotorua:    {name:'Rotorua',   accom:{camping:[80,120,0], motel:[160,230,0], hotel:[260,380,0]}, food:[55,85,120], act:[40,80,140], actNote:'Wai-O-Tapu, luge, cultural show'},
+  auckland:   {name:'Auckland',  accom:{camping:[90,130,0], motel:[180,260,0], hotel:[300,500,0]}, food:[70,110,150], act:[30,70,130], actNote:'Kelly Tarltons, Zoo, Waiheke'},
+  queenstown: {name:'Queenstown',accom:{camping:[100,150,0], motel:[200,300,0], hotel:[380,650,0]}, food:[80,130,180], act:[80,140,250], actNote:'Luge, jet boat, gondola, skiing'},
+  bayofislands:{name:'Bay of Islands',accom:{camping:[70,110,0], motel:[140,200,0], hotel:[220,350,0]}, food:[60,90,130], act:[50,90,160], actNote:'Dolphin cruise, Waitangi, kayaking'},
+  coromandel: {name:'Coromandel',accom:{camping:[55,90,0],  motel:[120,170,0], hotel:[180,280,0]}, food:[50,75,110], act:[20,45,80],  actNote:'Hot Water Beach, Cathedral Cove'},
+  wellington: {name:'Wellington',accom:{camping:[70,110,0],  motel:[150,220,0], hotel:[250,400,0]}, food:[65,100,150], act:[20,55,100], actNote:'Te Papa (free), Weta Workshop, Zealandia'},
+  tauranga:   {name:'Tauranga',  accom:{camping:[60,90,0],  motel:[130,190,0], hotel:[200,320,0]}, food:[55,85,120], act:[30,60,100], actNote:'Surf lessons, McLaren Falls, the Mount'},
+  taupo:      {name:'Taupo',     accom:{camping:[55,85,0],  motel:[120,175,0], hotel:[190,300,0]}, food:[50,80,115], act:[30,60,110], actNote:'Huka Falls, jet boat, lake activities'},
+  christchurch:{name:'Christchurch',accom:{camping:[60,95,0], motel:[140,200,0], hotel:[230,380,0]}, food:[60,90,130], act:[35,70,120], actNote:'Antarctic Centre, gondola, tram'},
+  wanaka:     {name:'Wanaka',    accom:{camping:[70,110,0],  motel:[160,240,0], hotel:[280,480,0]}, food:[65,100,145], act:[40,80,150], actNote:'Puzzling World, kayaking, Cardrona ski'},
+  nelson:     {name:'Nelson / Abel Tasman',accom:{camping:[55,90,0], motel:[130,190,0], hotel:[210,340,0]}, food:[55,85,120], act:[40,80,140], actNote:'Abel Tasman water taxi, kayaking'},
+  dunedin:    {name:'Dunedin',   accom:{camping:[50,80,0],  motel:[120,170,0], hotel:[190,300,0]}, food:[55,80,115], act:[30,65,110], actNote:'Penguin viewing, albatross, Larnach Castle'},
+};
+
+const TRANSPORT_COST = {
+  owncar:  {low:0, mid:0, high:0, note:'No transport hire cost'},
+  rental:  {low:80, mid:120, high:180, note:'Rental car per day'},
+  fly:     {fixed:{low:400, mid:700, high:1100}, note:'Return flights (family of 4, estimate)'},
+  camper:  {low:160, mid:220, high:320, note:'Campervan hire per day (replaces accommodation)'},
+};
+
+const DEST_TIPS = {
+  rotorua:    ['Wai-O-Tapu, Wai-O-Tapu, Craters of the Moon — combine with a cheaper DOC park visit to save on thermal parks','Polynesian Spa is cheapest before 9am — book the cheapest pool, not the private ones','Te Puia has a free viewing area at dusk to watch the geysers without paying entry','Rotorua Night Market (Thursday) is cheap, delicious, and great for kids'],
+  auckland:   ['Auckland Museum entry includes a Māori cultural performance — combine tickets','Te Papa equivalent: Auckland Museum has free entry for NZ residents','Waiheke day trip: pack your own lunch — restaurants on the island are expensive','Rainbows End is cheapest booked online in advance; avoid weekends'],
+  queenstown: ['Queenstown is NZ\'s most expensive destination — budget an extra 30-40% vs other regions','Fergburger for lunch is iconic and actually good value ($15-20 pp)','The Queenstown Trail is free 130km cycling trail — great half day with kids','Ski on a weekday — lift passes are 15-20% cheaper than weekends'],
+  bayofislands:['Cape Reinga day trip from Paihia is a full day activity often included in tour packages','Cook your own fish if you\'re self-catering — fresh from the wharf is excellent value','Car ferry across to Russell saves significant driving time vs the long way round','Waitangi Treaty Grounds includes a cultural performance — one entry covers it all'],
+  coromandel: ['Hot Water Beach: go 1-2 hours before low tide for the best hot spring experience (free)','Cathedral Cove: walk rather than taking the boat (45 min each way) to save $40pp','Driving Creek Railway tickets sell out — book online before you arrive','Self-catering works well in Coromandel — stock up in Thames before heading to the peninsula'],
+  wellington: ['Te Papa Museum is completely free — a full half-day for the family at no cost','Zealandia is pricey but unforgettable — check for family passes (save ~25%)','The cable car to the Botanical Gardens is $5 one-way — walk back down for free','Cook Strait ferry crossing counts as an activity if doing a South Island add-on'],
+  tauranga:   ['The Mount Maunganui walk is free and gives stunning views — great for all ages','McLaren Falls Park is free entry — a beautiful NZ park with waterfalls and walks','Papamoa Plaza has a good food court for a budget family lunch','Surf lessons: book a group lesson rather than private for significant savings'],
+  taupo:      ['The fish hatchery at Taupo is free — kids love hand-feeding the trout','Huka Falls walkway is completely free and takes about 20 minutes — spectacular','AC Baths hot pools are cheaper than Taupo DeBretts and still great for families','Pack lunch for Tongariro day trips — everything near the mountain is expensive'],
+  christchurch:['International Antarctic Centre has a family pass — buy it rather than individual tickets','Willowbank Wildlife Reserve is significantly cheaper than Orana Park for similar wildlife','The free Botanic Gardens + free museum fills most of a day at zero cost','Margaret Mahy Playground is huge, free, and kids can spend hours there'],
+  wanaka:     ['Puzzling World is the best-value Wanaka activity — budget 2+ hours for kids','Wanaka is significantly cheaper than Queenstown for accommodation — use it as a base','Lake Wanaka swimming and lakefront is completely free','Roy\'s Peak walk is free but only suitable for teens/adults — allow 5-6 hours return'],
+  nelson:     ['Abel Tasman water taxis vary significantly in price — compare operators before booking','Nelson Saturday market is excellent for a cheap, delicious breakfast','Pack lunch for Abel Tasman walks — everything inside the park is expensive','Kaiteriteri Beach is the most accessible and free entry — great base for Abel Tasman day trips'],
+  dunedin:    ['Penguin Place is expensive but the only operation with conservation-focused tours — worth it once','Free Tunnel Beach walk is spectacular and takes about 40 minutes','Dunedin Botanic Gardens is free and has a great kids playground','Baldwin St (world\'s steepest) costs nothing — walk up, slide down on a sled in winter'],
+};
+
+function fmt(n){return '$'+Math.round(n).toLocaleString('en-NZ')}
+
+function calculate(){
+  const dest = document.getElementById('destination').value;
+  const accomType = document.getElementById('accom-type').value;
+  const nights = parseInt(document.getElementById('nights').value);
+  const adults = parseInt(document.getElementById('adults').value);
+  const kids = parseInt(document.getElementById('kids').value);
+  const transport = document.getElementById('transport').value;
+  const pax = adults + kids;
+  const d = DEST_DATA[dest];
+
+  // Accommodation per night
+  const accomRates = d.accom[accomType]; // [low, mid, high] per night
+  const accomMult = accomType === 'camping' ? 1 : (pax > 3 ? 1.2 : 1);
+  const accomL = accomType==='camper' ? 0 : accomRates[0] * nights * accomMult;
+  const accomM = accomType==='camper' ? 0 : accomRates[1] * nights * accomMult;
+  const accomH = accomType==='camper' ? 0 : (accomRates[1]*1.6) * nights * accomMult;
+
+  // Food per day (scales with pax)
+  const foodScale = Math.max(1, pax * 0.6);
+  const foodL = d.food[0] * foodScale * nights;
+  const foodM = d.food[1] * foodScale * nights;
+  const foodH = d.food[2] * foodScale * nights;
+
+  // Transport
+  let transL=0,transM=0,transH=0;
+  const tc = TRANSPORT_COST[transport];
+  if(transport==='camper'){
+    transL = tc.low*nights; transM = tc.mid*nights; transH = tc.high*nights;
+  } else if(transport==='fly'){
+    transL = (tc.fixed.low) + 0; transM = tc.fixed.mid; transH = tc.fixed.high;
+    transL += 50*nights; transM += 80*nights; transH += 130*nights; // rental on top
+  } else if(transport==='rental'){
+    transL = tc.low*nights; transM = tc.mid*nights; transH = tc.high*nights;
+  } else {
+    transL = Math.round(nights*18); transM = Math.round(nights*25); transH = Math.round(nights*35); // fuel
+  }
+
+  // Activities
+  const actL = d.act[0] * (adults + kids*0.6) * nights;
+  const actM = d.act[1] * (adults + kids*0.7) * nights;
+  const actH = d.act[2] * (adults + kids*0.8) * nights;
+
+  // Misc (toiletries, coffee, incidentals)
+  const miscL = 15*pax*nights * 0.3;
+  const miscM = 25*pax*nights * 0.3;
+  const miscH = 40*pax*nights * 0.3;
+
+  // Camper replaces accom
+  const finalAccomL = transport==='camper' ? 0 : accomL;
+  const finalAccomM = transport==='camper' ? 0 : accomM;
+  const finalAccomH = transport==='camper' ? 0 : accomH;
+
+  const totL = finalAccomL + foodL + transL + actL + miscL;
+  const totM = finalAccomM + foodM + transM + actM + miscM;
+  const totH = finalAccomH + foodH + transH + actH + miscH;
+
+  document.getElementById('total-low').textContent = fmt(totL);
+  document.getElementById('total-mid').textContent = fmt(totM);
+  document.getElementById('total-high').textContent = fmt(totH);
+  document.getElementById('family-desc').textContent = `family of ${pax}`;
+  document.getElementById('nights-desc').textContent = `${nights} nights`;
+  document.getElementById('dest-name').textContent = d.name;
+
+  const cats = [
+    {name:'Accommodation',color:'c-accom',l:finalAccomL,m:finalAccomM,h:finalAccomH},
+    {name:'Food & Drink',color:'c-food',l:foodL,m:foodM,h:foodH},
+    {name:'Transport',color:'c-trans',l:transL,m:transM,h:transH},
+    {name:'Activities',color:'c-act',l:actL,m:actM,h:actH},
+    {name:'Misc',color:'c-misc',l:miscL,m:miscM,h:miscH},
+  ];
+
+  document.getElementById('breakdown').innerHTML = cats.map(c => {
+    const pct = totM > 0 ? Math.round(c.m/totM*100) : 0;
+    return `<div class="bar-row">
+      <div class="cat">${c.name}</div>
+      <div class="bar-track"><div class="bar-fill ${c.color}" style="width:${pct}%"></div></div>
+      <div class="amt" style="color:#15803d">${fmt(c.l)}</div>
+      <div class="amt" style="color:var(--brand-dk)">${fmt(c.m)}</div>
+      <div class="amt" style="color:#92400e">${fmt(c.h)}</div>
+    </div>`;
+  }).join('');
+
+  const tips = DEST_TIPS[dest] || [];
+  document.getElementById('tips-list').innerHTML = tips.map(t => `<li>${t}</li>`).join('');
+
+  gtag('event','budget_calculated',{destination:dest,nights:nights,pax:pax,transport:transport});
+}
+
+window.onload = calculate;
+</script>
+</body>
+</html>
