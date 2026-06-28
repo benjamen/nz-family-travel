@@ -1,57 +1,66 @@
 {
   "slug": "nz-school-holidays-travel-tips",
-  "short_title": "School Holiday Tips",
+  "short_title": "NZ School Holiday Tips",
   "title": "NZ School Holidays Travel Tips — How to Beat the Crowds and Save Money",
-  "meta_desc": "Beat NZ school holiday crowds and save up to 30% on travel with our expert tips and tricks",
-  "intro": "If you're planning to travel during NZ school holidays, be prepared for peak prices and crowds, with some popular destinations like Queenstown and Rotorua seeing accommodation prices rise by up to 50%. However, with some clever planning, you can beat the crowds and save money. In this article, we'll show you how to make the most of your school holiday travel budget.",
+  "meta_desc": "Discover how to save money and avoid crowds during NZ school holidays with our expert travel tips",
+  "intro": "If you're planning to travel during the NZ school holidays, you'll know that prices skyrocket and popular spots get crowded. But with some insider knowledge, you can save up to 30% on accommodation and activities. In this article, we'll share our top tips for travelling during peak season, including how to find affordable accommodation and avoid the crowds.",
   "updated": "June 2026",
-  "reading_time": 10,
+  "reading_time": 9,
   "sections": [
     {
       "heading": "Plan Ahead to Save Money",
-      "body": "Booking your accommodation and activities well in advance is crucial to saving money during school holidays. For example, a family room at the Novotel Queenstown Lakeside can cost around $450 per night during peak season, but booking 3 months in advance can reduce the price to around $350 per night."
+      "body": "Booking your accommodation and activities well in advance is crucial to saving money during the school holidays. Many popular destinations, such as Queenstown and Rotorua, offer early bird discounts for bookings made at least 6 months in advance. For example, a family room at the Millennium Hotel Rotorua can cost around $350 per night during peak season, but booking 6 months in advance can bring the price down to $250 per night."
     },
     {
       "heading": "Peak vs Off-Peak Pricing",
       "table": {
         "headers": [
           "Destination",
-          "Peak Season Price",
-          "Off-Peak Season Price"
+          "Peak Season Price (per night)",
+          "Off-Peak Season Price (per night)"
         ],
         "rows": [
           [
-            "Queenstown",
-            "$450 per night",
-            "$250 per night"
+            "Millennium Hotel Rotorua",
+            "$350",
+            "$200"
           ],
           [
-            "Rotorua",
-            "$320 per night",
-            "$200 per night"
+            "Queenstown Lakeside Hotel",
+            "$450",
+            "$280"
           ],
           [
-            "Auckland",
-            "$280 per night",
-            "$180 per night"
+            "Auckland Takapuna Beach Holiday Park",
+            "$120",
+            "$80"
           ]
         ]
       }
     },
     {
-      "heading": "Consider Alternative Destinations",
+      "heading": "Avoid the Crowds",
       "list": [
-        "Instead of Queenstown, try Wanaka (around 1 hour drive)",
-        "Instead of Rotorua, try Taupo (around 1 hour drive)",
-        "Instead of Auckland, try the Bay of Islands (around 3 hour drive)"
+        "Visit popular attractions early in the morning or late in the evening to avoid the crowds",
+        "Consider visiting lesser-known destinations, such as the Coromandel Peninsula or the West Coast",
+        "Book a guided tour to avoid queues and get insider knowledge on the best spots to visit"
       ]
     },
     {
-      "heading": "Make the Most of Free Activities",
-      "body": "There are plenty of free activities to enjoy in NZ, such as visiting the beach, going for a hike, or exploring a new town. For example, the hike to the top of Mount Eden in Auckland offers stunning views of the city and is completely free."
+      "heading": "Drive Times and Road Conditions",
+      "body": "If you're planning a road trip during the school holidays, make sure to check the drive times and road conditions before you leave. The drive from Auckland to Rotorua, for example, can take around 3 hours via State Highway 1, but can be longer during peak season due to traffic. You can check the latest road conditions on the NZ Transport Agency website."
     },
     {
-      "heading": "Use Travel Budgeting Tools",
+      "heading": "Accommodation Options",
+      "list": [
+        "Hotel: Millennium Hotel Rotorua (from $250 per night)",
+        "Motel: Bella Vista Motel Rotorua (from $180 per night)",
+        "Holiday Park: Rotorua Top 10 Holiday Park (from $40 per night for a campsite)"
+      ]
+    },
+    {
+      "heading": "Budgeting for Your Trip",
+      "body": "To get an idea of how much your trip will cost, use our NZ Family Travel Budget Calculator. This handy tool will help you estimate the cost of accommodation, food, and activities, and give you a total budget for your trip.",
       "cta": {
         "text": "Try our NZ Family Travel Budget Calculator",
         "url": "/tools/nz-family-travel-budget-calculator/",
@@ -59,14 +68,20 @@
       }
     },
     {
-      "heading": "Book a Campervan for Flexibility",
-      "body": "Booking a campervan can be a great way to travel during school holidays, as it gives you the flexibility to create your own itinerary and avoid crowded hotels. Prices start from around $150 per day for a 2-berth campervan, and you can book one on our campervans page."
+      "heading": "More Travel Tips and Ideas",
+      "body": "For more travel tips and ideas, check out our destinations page, which features articles on the best places to visit in NZ, as well as practical advice on how to get there and what to do when you arrive.",
+      "cta": {
+        "text": "Explore our destinations page",
+        "url": "/destinations/",
+        "affiliate": false
+      }
     },
     {
-      "heading": "Get Inspiration from Our Destination Guides",
+      "heading": "Book Your Campervan Today",
+      "body": "If you're planning a road trip, consider booking a campervan. We have a range of campervans available, from budget-friendly options to luxury models with all the mod cons. Prices start from around $100 per day.",
       "cta": {
-        "text": "Explore our destination guides",
-        "url": "/destinations/",
+        "text": "Book your campervan today",
+        "url": "/campervans/",
         "affiliate": false
       }
     }
