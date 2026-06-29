@@ -1,0 +1,84 @@
+{
+  "title": "West Coast June",
+  "short_title": "June Fun",
+  "meta_desc": "Discover the West Coast in June with kids, enjoy mild weather, fewer crowds and exciting family activities from $150-$250/day for a family of 4",
+  "intro": "June is a great time to visit the West Coast with kids, with mild winter weather, fewer crowds and exciting family activities. The region offers a range of free and low-cost activities, including the famous Punakaiki Pancake Rocks and stunning glacier walks. With prices starting from $150-$250/day for a family of 4, it's an affordable winter holiday option.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Weather in June",
+      "body": "<p>June is winter in New Zealand, but the West Coast's mild oceanic climate means average highs of 12°C and lows of 6°C. It's a great time to enjoy the region's stunning natural beauty without the crowds. <p>While it can be rainy, the scenery is particularly lush and green, making it a great time for photography and nature walks. <p>Make sure to pack warm and waterproof clothing, including jackets, gloves and hats, to keep your family cozy and dry.",
+      "list": [
+        "Average high: 12°C",
+        "Average low: 6°C",
+        "Rainfall: 200mm"
+      ]
+    },
+    {
+      "heading": "What's On in June",
+      "body": "<p>June is a quiet month on the West Coast, but there are still some exciting events and activities to enjoy. <p>The Hokitika Winter Festival usually takes place in June, featuring live music, food stalls and craft markets. <p>The West Coast Wilderness Trail is also a great option for families, with guided bike tours and stunning scenery.",
+      "list": [
+        "Hokitika Winter Festival",
+        "West Coast Wilderness Trail",
+        "Guided bike tours"
+      ]
+    },
+    {
+      "heading": "Best Activities for Families",
+      "body": "<p>The West Coast offers a range of exciting activities for families, from stunning natural beauty to adventurous outdoor pursuits. <p>The Punakaiki Pancake Rocks and Blowholes are a must-visit, with a short walk and stunning ocean views. <p>The Franz Josef and Fox Glaciers are also accessible by short walks, with breathtaking scenery and interesting geological formations.",
+      "list": [
+        "Punakaiki Pancake Rocks and Blowholes (free)",
+        "Franz Josef Glacier valley walk (free, 3km return)",
+        "Fox Glacier viewing platform (free)"
+      ]
+    },
+    {
+      "heading": "Practical Tips for Families",
+      "body": "<p>Here are some practical tips for families visiting the West Coast in June: <p>Book your accommodation and activities ahead of time to avoid crowds and availability issues. <p>Pack warm and waterproof clothing, including jackets, gloves and hats. <p>Don't forget your camera and charger, with stunning scenery and photo opportunities around every corner.",
+      "list": [
+        "Book ahead for accommodation and activities",
+        "Pack warm and waterproof clothing",
+        "Bring a camera and charger",
+        "Check the weather forecast before heading out",
+        "Bring snacks and water for outdoor activities"
+      ]
+    },
+    {
+      "heading": "Crowd Levels and Budget",
+      "body": "<p>June is a quiet month on the West Coast, with fewer crowds and a more relaxed atmosphere. <p>Prices for accommodation and activities are also lower, with an average daily budget of $150-$250 for a family of 4. <p>Make sure to book ahead for popular activities and accommodation, but also be flexible and spontaneous to make the most of your trip.",
+      "table": {
+        "headers": [
+          "Activity",
+          "Price"
+        ],
+        "rows": [
+          [
+            "Punakaiki Pancake Rocks and Blowholes",
+            "Free"
+          ],
+          [
+            "Franz Josef Glacier valley walk",
+            "Free"
+          ],
+          [
+            "Fox Glacier viewing platform",
+            "Free"
+          ],
+          [
+            "Accommodation (per night)",
+            "$100-$200"
+          ]
+        ]
+      },
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "west-coast-family-guide-june-family-guide",
+  "updated": "June 2026",
+  "auto_generated": true,
+  "generated_date": "2026-06-30"
+}
