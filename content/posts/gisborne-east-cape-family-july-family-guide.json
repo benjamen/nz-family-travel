@@ -1,0 +1,71 @@
+{
+  "title": "Gisborne & East Cape July",
+  "short_title": "Gisborne July",
+  "meta_desc": "Plan a family holiday in Gisborne & East Cape in July with kids, enjoy mild winter weather, empty beaches and a range of activities from $120-$200/day for a family of 4",
+  "intro": "Gisborne and the East Cape are perfect for a family winter escape in July, with mild temperatures, fewer crowds, and plenty of outdoor activities to enjoy. The average high temperature is around 14°C, making it ideal for exploring the region's beautiful beaches, scenic drives, and outdoor attractions. From surf lessons to visiting the East Cape Lighthouse, there's something for everyone in this stunning part of New Zealand.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Weather and What's On",
+      "body": "<p>Gisborne and the East Cape experience mild winter weather in July, with average highs of 14°C and average lows of 6°C. It's a great time to enjoy outdoor activities like surfing, fishing, and hiking. In terms of events, the Gisborne Winter Festival takes place in July, featuring live music, food stalls, and activities for kids.</p><p>The festival is a great way to experience the local culture and community, and it's free to attend. Additionally, many of the region's attractions and activities are less crowded in July, making it a great time to visit popular spots like the East Cape Lighthouse and Tolaga Bay Wharf.</p>",
+      "list": [
+        "Gisborne Winter Festival",
+        "Surfing and surf lessons",
+        "Fishing and beach activities"
+      ]
+    },
+    {
+      "heading": "Best Activities for July",
+      "body": "<p>In July, some of the best activities to enjoy in Gisborne and the East Cape include visiting the East Cape Lighthouse, taking a scenic drive along the East Cape road, and exploring the region's beautiful beaches. The lighthouse is a must-visit attraction, offering stunning views of the coastline and the opportunity to see the world's first sunrise.</p><p>For families, the Wainui Beach surf lessons are a great way to get kids involved in a new activity, and the Tolaga Bay Wharf is perfect for a peaceful and historic fishing experience. The wharf is also a great spot for kids to learn about the region's history and culture.</p>",
+      "table": {
+        "headers": [
+          "Activity",
+          "Price (per family of 4)"
+        ],
+        "rows": [
+          [
+            "East Cape Lighthouse visit",
+            "$20-$30"
+          ],
+          [
+            "Wainui Beach surf lessons",
+            "$100-$150"
+          ],
+          [
+            "Tolaga Bay Wharf fishing",
+            "Free (bring your own gear)"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Crowd Levels and Booking Ahead",
+      "body": "<p>In July, crowd levels in Gisborne and the East Cape are relatively low, making it a great time to visit popular attractions and enjoy outdoor activities without the crowds. However, it's still a good idea to book ahead for some activities, such as surf lessons and accommodation.</p><p>Many of the region's accommodation options, including holiday homes and motels, offer special deals and discounts in July, so it's worth shopping around to find the best price. Additionally, some attractions and activities may have limited hours or be closed due to weather conditions, so it's a good idea to check ahead of time to confirm.</p>",
+      "list": [
+        "Book surf lessons in advance",
+        "Check accommodation options and prices",
+        "Confirm attraction and activity hours"
+      ]
+    },
+    {
+      "heading": "Practical Tips for Families",
+      "body": "<p>When visiting Gisborne and the East Cape with kids in July, there are a few practical tips to keep in mind. Firstly, be sure to pack warm clothing, including jackets and gloves, as the mornings and evenings can be chilly. Secondly, bring a range of activities and entertainment for kids, such as books, games, and outdoor toys, to keep them occupied during downtime.</p><p>Thirdly, take advantage of the region's many free activities, such as visiting the beaches and exploring the scenic drives. Finally, consider purchasing a visitor guide or map to help navigate the region and discover its many hidden gems.</p>",
+      "list": [
+        "Pack warm clothing",
+        "Bring kids' activities and entertainment",
+        "Take advantage of free activities",
+        "Purchase a visitor guide or map",
+        "Bring a boogie board for the Rere Rockslide"
+      ],
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "gisborne-east-cape-family-july-family-guide",
+  "updated": "July 2026",
+  "auto_generated": true,
+  "generated_date": "2026-07-01"
+}

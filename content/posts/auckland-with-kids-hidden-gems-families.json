@@ -1,0 +1,60 @@
+{
+  "title": "Auckland's Hidden Gems",
+  "short_title": "Auckland Secrets",
+  "meta_desc": "Discover Auckland's hidden gems for families, including free activities, regional parks, and insider tips for a fun and memorable holiday with kids, all within a budget of $200-$350/day",
+  "intro": "Auckland, New Zealand's largest city, is full of surprises for families. While many visitors flock to the city's well-known attractions, there are plenty of hidden gems to explore. From stunning regional parks to free activities and insider tips, we'll reveal the secrets that most NZ families miss.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Tawharanui Regional Park",
+      "body": "<p>Located just 45 minutes north of Auckland's city centre, Tawharanui Regional Park is a must-visit for families. This stunning park boasts a beautiful beach with no crowds, even on weekends. The park is perfect for a mid-week escape, with plenty of space for kids to run around and play.</p><p>To get to Tawharanui Regional Park, take State Highway 1 from Auckland and turn off at the Warkworth exit. From there, follow the signs to the park. Admission is free, although there may be a small fee for parking.</p><p>Ages: All ages. Cost: Free (parking $5). Drive time: 45 minutes from Auckland city centre.",
+      "list": [
+        "Beautiful beach with no crowds",
+        "Plenty of space for kids to play",
+        "Free admission"
+      ]
+    },
+    {
+      "heading": "Wenderholm Regional Park",
+      "body": "<p>Wenderholm Regional Park is another hidden gem for families. Located just 30 minutes north of Auckland, this park features a stunning pohutukawa forest, a river mouth, and plenty of space for kids to explore. The park is perfect for toddlers, with gentle walking trails and plenty of picnic spots.</p><p>To get to Wenderholm Regional Park, take State Highway 1 from Auckland and turn off at the Silverdale exit. From there, follow the signs to the park. Admission is free, although there may be a small fee for parking.</p><p>Ages: All ages, particularly suitable for toddlers. Cost: Free (parking $5). Drive time: 30 minutes from Auckland city centre.",
+      "list": [
+        "Stunning pohutukawa forest",
+        "River mouth and picnic spots",
+        "Perfect for toddlers"
+      ]
+    },
+    {
+      "heading": "Insider Tips",
+      "body": "<p>For a unique and memorable experience, consider visiting the Auckland Fish Market. While not strictly a hidden gem, this bustling market is often overlooked by families. Kids will love the sights and sounds of the market, and you can even take a guided tour of the fish auction.</p><p>Another insider tip is to take a walk along the Auckland waterfront at sunset. The views of the harbour and the city skyline are simply stunning, and it's a great way to end the day.</p>",
+      "list": [
+        "Visit the Auckland Fish Market",
+        "Take a walk along the Auckland waterfront at sunset"
+      ]
+    },
+    {
+      "heading": "Free Activities",
+      "body": "<p>Auckland has plenty of free activities for families to enjoy. One of the best is a visit to Mission Bay beach and reserve. This beautiful beach has plenty of space for kids to play, and there are also picnic spots and a playground.</p><p>Another great free activity is the Tamaki Drive coastal walk. This scenic walk takes you along the waterfront, with stunning views of the harbour and the city skyline. The walk is suitable for all ages and is a great way to get some exercise and fresh air.</p>",
+      "list": [
+        "Mission Bay beach and reserve",
+        "Tamaki Drive coastal walk"
+      ]
+    },
+    {
+      "heading": "Other Hidden Gems",
+      "body": "<p>Other hidden gems in Auckland include the Albert Park and city gardens, which are perfect for a picnic or a relaxing stroll. The park features beautiful gardens, a pond, and plenty of space for kids to play.</p><p>The Parnell Farmers' Market is another great spot for families. Every Saturday, the market comes alive with local produce, crafts, and street food. Kids will love the sights and sounds of the market, and you can even take a cooking class or workshop.</p>",
+      "list": [
+        "Albert Park and city gardens",
+        "Parnell Farmers' Market"
+      ],
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "auckland-with-kids-hidden-gems-families",
+  "updated": "July 2026",
+  "auto_generated": true,
+  "generated_date": "2026-07-01"
+}

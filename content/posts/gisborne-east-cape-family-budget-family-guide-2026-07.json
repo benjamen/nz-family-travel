@@ -1,0 +1,81 @@
+{
+  "title": "Gisborne Budget Guide",
+  "short_title": "Gisborne",
+  "meta_desc": "Plan a family holiday to Gisborne & East Cape on a budget of $120-200/day, including free activities, accommodation options and daily costs for a family of 4.",
+  "intro": "Gisborne and the East Cape are a hidden gem for family travel, offering a mix of surf beaches, scenic drives, and Maori culture. With some planning, you can have a great holiday in this region without breaking the bank. Here's a guide to help you visit Gisborne and the East Cape on a family budget of $120-200 per day.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Daily Costs",
+      "body": "<p>For a family of four, you can expect to pay around $120-200 per day for accommodation, food, and activities in Gisborne and the East Cape. This budget will get you a self-contained unit or holiday home, some great food at local cafes and restaurants, and access to all the free activities the region has to offer.</p><p>Accommodation options range from budget-friendly camping and holiday parks to mid-range motels and self-contained units. Food prices are similar to other parts of New Zealand, with meals at cafes and restaurants starting from around $15-20 per person.</p>",
+      "list": [
+        "Budget-friendly accommodation: $100-150 per night",
+        "Mid-range accommodation: $150-250 per night",
+        "Food: $15-30 per meal"
+      ]
+    },
+    {
+      "heading": "Free Activities",
+      "body": "<p>Gisborne and the East Cape have plenty of free activities to enjoy, including some of the region's most beautiful beaches and scenic drives. Wainui and Midway Beaches are great for surfers and sunbathers alike, while the East Cape road drive takes you past some stunning coastal scenery and historic marae sites.</p><p>The Rere Rockslide is another must-visit, a natural rock water slide in the river that's perfect for kids and adults alike. Just bring a bodyboard or boogie board and enjoy the ride.</p>",
+      "list": [
+        "Wainui and Midway Beaches",
+        "East Cape road drive",
+        "Rere Rockslide"
+      ]
+    },
+    {
+      "heading": "Accommodation Options",
+      "body": "<p>There are plenty of accommodation options in Gisborne and the East Cape to suit all budgets. For a family of four, a self-contained unit or holiday home is a great option, providing plenty of space and facilities for a comfortable stay.</p><p>Some popular accommodation options include the Gisborne Top 10 Holiday Park, the Waikanae Beach Motel, and the Eastwoodhill Arboretum cottages. Prices start from around $100-150 per night for a basic unit, rising to $250-300 per night for a larger house or cottage.</p>",
+      "list": [
+        "Gisborne Top 10 Holiday Park: $100-200 per night",
+        "Waikanae Beach Motel: $150-250 per night",
+        "Eastwoodhill Arboretum cottages: $200-300 per night"
+      ]
+    },
+    {
+      "heading": "Budget Breakdown",
+      "body": "<p>Here's a rough breakdown of what you might expect to pay for a 3-day trip to Gisborne and the East Cape:</p>",
+      "table": {
+        "headers": [
+          "Day",
+          "Accommodation",
+          "Food",
+          "Activities",
+          "Total"
+        ],
+        "rows": [
+          [
+            "Day 1",
+            "$150",
+            "$60",
+            "$20",
+            "$230"
+          ],
+          [
+            "Day 2",
+            "$150",
+            "$80",
+            "$30",
+            "$260"
+          ],
+          [
+            "Day 3",
+            "$150",
+            "$60",
+            "$20",
+            "$230"
+          ]
+        ]
+      },
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "gisborne-east-cape-family-budget-family-guide-2026-07",
+  "updated": "July 2026",
+  "auto_generated": true,
+  "generated_date": "2026-07-01"
+}

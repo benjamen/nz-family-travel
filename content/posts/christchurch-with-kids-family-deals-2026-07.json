@@ -1,0 +1,68 @@
+{
+  "title": "Christchurch Family Deals",
+  "short_title": "Chch Deals",
+  "meta_desc": "Discover the best family deals in Christchurch, including activity discounts, campervan hire, and travel insurance, to plan an affordable and fun family holiday in July 2026",
+  "intro": "Christchurch is a great destination for families, with plenty of activities and attractions to suit all ages. With some careful planning, you can have a fun and affordable family holiday in Christchurch. Here are some of the best deals and discounts available in July 2026.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Current Booking Deals and Discounts",
+      "body": "<p>Bookme.co.nz is offering up to 40% off activities in Christchurch, including the International Antarctic Centre and the Christchurch Gondola. Discover Cars has family campervans available from $89/day, and Booking.com has holiday parks and motels with free cancellation on most bookings.</p><p>Cover-More also offers comprehensive family travel insurance from $4.50/day. These deals can help you save money and plan a fun and affordable family holiday in Christchurch.</p>",
+      "list": [
+        "Up to 40% off activities with Bookme.co.nz",
+        "Family campervans from $89/day with Discover Cars",
+        "Free cancellation on holiday parks and motels with Booking.com",
+        "Comprehensive family travel insurance from $4.50/day with Cover-More"
+      ]
+    },
+    {
+      "heading": "Best-Value Activities",
+      "body": "<p>Some of the best-value activities for families in Christchurch include the International Antarctic Centre, the Christchurch Gondola, and Willowbank Wildlife Reserve. The Canterbury Museum is also completely free and has world-class natural history and Antarctic exhibitions.</p><p>The Christchurch Art Gallery is another free attraction that offers rotating exhibitions and kids' programmes. These activities are not only fun but also affordable and suitable for all ages.</p>",
+      "table": {
+        "headers": [
+          "Activity",
+          "Price"
+        ],
+        "rows": [
+          [
+            "International Antarctic Centre",
+            "$49-$69 per person"
+          ],
+          [
+            "Christchurch Gondola",
+            "$30-$50 per person"
+          ],
+          [
+            "Willowbank Wildlife Reserve",
+            "$30-$50 per person"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Money-Saving Tips for Families",
+      "body": "<p>To save money on your family holiday in Christchurch, consider visiting free attractions like the Botanic Gardens and Hagley Park. You can also pack a picnic lunch instead of eating out, and look for accommodation options that offer free breakfast and parking.</p><p>Another tip is to book your activities and accommodation in advance to get the best prices. Additionally, consider visiting during the off-season or during the week instead of on weekends to avoid crowds and save money.</p>",
+      "list": [
+        "Visit free attractions like the Botanic Gardens and Hagley Park",
+        "Pack a picnic lunch instead of eating out",
+        "Look for accommodation options that offer free breakfast and parking",
+        "Book activities and accommodation in advance",
+        "Visit during the off-season or on weekdays",
+        "Use public transport or walk/bike instead of renting a car"
+      ]
+    },
+    {
+      "heading": "When to Book for Best Prices",
+      "body": "<p>To get the best prices on activities and accommodation in Christchurch, it's recommended to book at least 2-3 weeks in advance. This can help you save up to 20% on activities and accommodation, and ensure that you get the best deals and discounts available.</p><p>Additionally, consider booking during the off-season or on weekdays to avoid crowds and save money. You can also use booking platforms like Bookme.co.nz and Booking.com to compare prices and find the best deals.</p>",
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "christchurch-with-kids-family-deals-2026-07",
+  "updated": "July 2026",
+  "auto_generated": true,
+  "generated_date": "2026-07-01"
+}
