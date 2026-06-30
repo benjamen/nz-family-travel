@@ -1,15 +1,15 @@
 {
   "slug": "nz-school-holidays-travel-tips",
-  "short_title": "School Holiday Tips",
+  "short_title": "School Holidays",
   "title": "NZ School Holidays Travel Tips — How to Beat the Crowds and Save Money",
-  "meta_desc": "Discover how to beat the crowds and save money during NZ school holidays with our expert travel tips and deals",
-  "intro": "NZ school holidays can be a challenging time to travel, with popular destinations like Rotorua and Queenstown often increasing their prices by up to 30%. However, with some planning and insider knowledge, you can avoid the crowds and save money. In this article, we'll share our top tips for navigating the NZ school holidays travel chaos.",
-  "updated": "June 2026",
+  "meta_desc": "Discover NZ school holidays travel tips to save money and avoid crowds with smart booking strategies",
+  "intro": "If you're planning to travel during the upcoming school holidays, be prepared for peak pricing and crowds at popular destinations like Rotorua and Queenstown. However, with some smart planning, you can beat the crowds and save up to $500 on a family holiday. In this article, we'll share our top tips for navigating NZ school holidays travel.",
+  "updated": "July 2026",
   "reading_time": 10,
   "sections": [
     {
       "heading": "Plan Ahead to Save Money",
-      "body": "Booking your accommodation and activities well in advance is crucial to avoiding peak prices. For example, a family room at the Novotel Rotorua Lakeside can cost up to $450 per night during school holidays, but booking 6 months in advance can reduce the price to around $320 per night."
+      "body": "Booking your accommodation and activities well in advance can make a significant difference in prices. For example, a family room at the Novotel Rotorua Lakeside can cost up to $450 per night during peak season, but booking 6 months ahead can reduce the price to $320 per night."
     },
     {
       "heading": "Peak vs Off-Peak Pricing",
@@ -21,60 +21,76 @@
         ],
         "rows": [
           [
-            "Rotorua",
-            "$450",
+            "Queenstown",
+            "$550",
+            "$380"
+          ],
+          [
+            "Auckland",
+            "$350",
             "$250"
           ],
           [
-            "Queenstown",
-            "$550",
-            "$350"
-          ],
-          [
             "Wellington",
-            "$380",
-            "$220"
+            "$280",
+            "$200"
           ]
         ]
       }
     },
     {
-      "heading": "Top Tips for Beating the Crowds",
+      "heading": "Top Destinations for School Holidays",
       "list": [
-        "Visit popular attractions early in the morning or later in the evening to avoid the crowds",
-        "Consider visiting destinations during the week instead of on weekends",
-        "Look for alternative activities and attractions that are less crowded, such as the Rotorua Redwoods Forest instead of Wai-O-Tapu",
-        "Book a guided tour to get insider knowledge and skip the queues"
+        "Bay of Islands (3-hour drive from Auckland)",
+        "Rotorua (2.5-hour drive from Auckland)",
+        "Queenstown (1.5-hour flight from Auckland)",
+        "Abel Tasman National Park (4-hour drive from Nelson)"
       ]
     },
     {
-      "heading": "Drive Times and Distances",
-      "body": "If you're planning a road trip, make sure to check the drive times and distances between your destinations. For example, the drive from Auckland to Rotorua takes around 3 hours, while the drive from Queenstown to Wanaka takes around 1 hour. You can use our NZ Family Travel Budget Calculator to plan your trip and estimate your fuel costs."
+      "heading": "Save Money on Activities",
+      "body": "Instead of booking expensive guided tours, consider self-guided activities like hiking or visiting local museums. For example, the Rotorua Museum costs $20 per adult and $5 per child, while a guided tour of Wai-O-Tapu can cost up to $80 per person."
     },
     {
-      "heading": "Save Money on Accommodation",
-      "body": "Consider staying in a campervan or holiday park instead of a hotel or motel. For example, a night at the Rotorua Top 10 Holiday Resort can cost around $150, while a campervan rental from Jucy can cost around $100 per day.",
-      "cta": {
-        "text": "Compare campervan prices",
-        "url": "/campervans/",
-        "affiliate": false
+      "heading": "Compare Campervan Prices",
+      "table": {
+        "headers": [
+          "Campervan Model",
+          "Daily Rate (peak season)",
+          "Daily Rate (off-peak season)"
+        ],
+        "rows": [
+          [
+            "2-Berth Campervan",
+            "$150",
+            "$100"
+          ],
+          [
+            "4-Berth Campervan",
+            "$250",
+            "$180"
+          ],
+          [
+            "6-Berth Campervan",
+            "$350",
+            "$250"
+          ]
+        ]
       }
     },
     {
-      "heading": "Plan Your Itinerary",
-      "body": "Use our NZ Family Travel Budget Calculator to plan your itinerary and estimate your costs. You can also check out our destinations page for inspiration and ideas on where to go and what to do.",
+      "heading": "Get the Best Deals with Our Tools",
       "cta": {
-        "text": "Plan your trip",
-        "url": "/destinations/",
-        "affiliate": false
-      }
-    },
-    {
-      "heading": "Get the Best Deals",
-      "body": "Sign up to our newsletter to get the latest deals and discounts on accommodation, activities, and attractions. You can also follow us on social media to stay up-to-date with the latest news and offers.",
-      "cta": {
-        "text": "Calculate your travel budget",
+        "text": "Calculate your family travel budget with our free tool",
         "url": "/tools/nz-family-travel-budget-calculator/",
+        "affiliate": false
+      }
+    },
+    {
+      "heading": "Explore Our Destination Guides",
+      "cta": {
+        "text": "Discover the best destinations for your next family holiday",
+        "url": "/destinations/",
         "affiliate": false
       }
     }
