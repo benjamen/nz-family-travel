@@ -1,87 +1,67 @@
 {
   "slug": "nz-school-holidays-travel-tips",
-  "short_title": "School Holidays",
+  "short_title": "School Holiday Travel",
   "title": "NZ School Holidays Travel Tips — How to Beat the Crowds and Save Money",
-  "meta_desc": "Discover NZ school holidays travel tips to save money and avoid crowds with smart booking strategies",
-  "intro": "If you're planning to travel during the upcoming school holidays, be prepared for peak pricing and crowds at popular destinations like Rotorua and Queenstown. However, with some smart planning, you can beat the crowds and save up to $500 on a family holiday. In this article, we'll share our top tips for navigating NZ school holidays travel.",
+  "meta_desc": "Discover how to navigate NZ school holidays with our expert travel tips and save up to 30% on accommodation",
+  "intro": "If you're planning to travel during NZ school holidays, be prepared for crowds and higher prices. However, with some smart planning, you can save up to 30% on accommodation and activities. In this article, we'll share our top tips for beating the crowds and making the most of your family holiday.",
   "updated": "July 2026",
   "reading_time": 10,
   "sections": [
     {
-      "heading": "Plan Ahead to Save Money",
-      "body": "Booking your accommodation and activities well in advance can make a significant difference in prices. For example, a family room at the Novotel Rotorua Lakeside can cost up to $450 per night during peak season, but booking 6 months ahead can reduce the price to $320 per night."
+      "heading": "Understanding Peak vs Off-Peak Pricing",
+      "body": "During NZ school holidays, prices for accommodation, activities, and tourist attractions can skyrocket. For example, a family room at the Novotel Auckland Ellerslie can cost upwards of $450 per night during peak season, compared to $280 per night during off-peak periods. Understanding these pricing differences can help you make informed decisions about when to travel."
     },
     {
-      "heading": "Peak vs Off-Peak Pricing",
-      "table": {
-        "headers": [
-          "Destination",
-          "Peak Price (per night)",
-          "Off-Peak Price (per night)"
-        ],
-        "rows": [
-          [
-            "Queenstown",
-            "$550",
-            "$380"
-          ],
-          [
-            "Auckland",
-            "$350",
-            "$250"
-          ],
-          [
-            "Wellington",
-            "$280",
-            "$200"
-          ]
-        ]
-      }
-    },
-    {
-      "heading": "Top Destinations for School Holidays",
+      "heading": "Booking Lead Times",
       "list": [
-        "Bay of Islands (3-hour drive from Auckland)",
-        "Rotorua (2.5-hour drive from Auckland)",
-        "Queenstown (1.5-hour flight from Auckland)",
-        "Abel Tasman National Park (4-hour drive from Nelson)"
+        "Book your accommodation at least 6 months in advance to secure the best prices",
+        "Use booking platforms like Booking.com or Expedia to compare prices and find deals",
+        "Consider booking a package deal that includes accommodation, activities, and car rental for added convenience and savings"
       ]
     },
     {
-      "heading": "Save Money on Activities",
-      "body": "Instead of booking expensive guided tours, consider self-guided activities like hiking or visiting local museums. For example, the Rotorua Museum costs $20 per adult and $5 per child, while a guided tour of Wai-O-Tapu can cost up to $80 per person."
-    },
-    {
-      "heading": "Compare Campervan Prices",
+      "heading": "Comparing Accommodation Options",
       "table": {
         "headers": [
-          "Campervan Model",
-          "Daily Rate (peak season)",
-          "Daily Rate (off-peak season)"
+          "Accommodation Type",
+          "Peak Season Price (per night)",
+          "Off-Peak Season Price (per night)"
         ],
         "rows": [
           [
-            "2-Berth Campervan",
-            "$150",
-            "$100"
+            "Hotel (Novotel Auckland Ellerslie)",
+            "$450",
+            "$280"
           ],
           [
-            "4-Berth Campervan",
-            "$250",
-            "$180"
+            "Holiday Park (Top 10 Holiday Resort)",
+            "$180",
+            "$120"
           ],
           [
-            "6-Berth Campervan",
-            "$350",
-            "$250"
+            "Campervan (2-berth)",
+            "$120",
+            "$80"
           ]
         ]
       }
     },
     {
-      "heading": "Get the Best Deals with Our Tools",
+      "heading": "Top Tips for Beating the Crowds",
+      "body": "To avoid the crowds, consider visiting popular attractions like the Sky Tower or Te Puia early in the morning or later in the evening. You can also use the 2-hour drive from Auckland to Hamilton to your advantage by visiting the Hamilton Zoo or Waikato Museum during off-peak hours."
+    },
+    {
+      "heading": "Saving Money on Activities",
+      "list": [
+        "Look for package deals that include multiple activities, such as a Skyline Gondola and Luge combo in Queenstown",
+        "Use coupons or vouchers to discount individual activities, such as a $20 discount on a Fullers Ferry ticket to Waiheke Island",
+        "Consider purchasing an annual pass to popular attractions, such as the Auckland Zoo or Kelly Tarlton's Sea Life Aquarium, for $150 per person"
+      ]
+    },
+    {
+      "heading": "Plan Your Trip with Our Tools",
       "cta": {
-        "text": "Calculate your family travel budget with our free tool",
+        "text": "Use our NZ Family Travel Budget Calculator to plan your trip",
         "url": "/tools/nz-family-travel-budget-calculator/",
         "affiliate": false
       }
@@ -89,8 +69,16 @@
     {
       "heading": "Explore Our Destination Guides",
       "cta": {
-        "text": "Discover the best destinations for your next family holiday",
+        "text": "Discover the best destinations for your family holiday",
         "url": "/destinations/",
+        "affiliate": false
+      }
+    },
+    {
+      "heading": "Get the Best Deals on Campervans",
+      "cta": {
+        "text": "Compare prices and book your campervan today",
+        "url": "/campervans/",
         "affiliate": false
       }
     }
