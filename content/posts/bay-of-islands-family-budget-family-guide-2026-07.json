@@ -1,0 +1,77 @@
+{
+  "title": "Bay of Islands Budget",
+  "short_title": "BOI Budget",
+  "meta_desc": "Visit the Bay of Islands with your family without breaking the bank. Discover free activities, affordable accommodation, and budget-friendly tours from $250-450/day for a family of 4.",
+  "intro": "The Bay of Islands is a dream destination for many families, with its stunning beaches, dolphin watching cruises, and rich history. With some planning, you can visit this beautiful region without overspending. A daily budget of $250-450 for a family of four is achievable, and we'll show you how.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Accommodation Options",
+      "body": "<p>When it comes to accommodation in the Bay of Islands, you have plenty of options to suit your budget. For a cheap option, consider camping at the Paihia Top 10 Holiday Resort, which costs around $40-60 per night for a family of four. Mid-range options include the Paihia Pacific Resort, which offers rooms from $180-250 per night.</p><p>Another option is to rent a holiday home or apartment, which can be more cost-effective for families, especially if you're staying for a longer period. Websites like Bookabach and Airbnb offer a wide range of options, with prices starting from around $150-200 per night.</p>",
+      "list": [
+        "Camping: $40-60 per night",
+        "Mid-range hotel: $180-250 per night",
+        "Holiday home: $150-200 per night"
+      ]
+    },
+    {
+      "heading": "Free Activities",
+      "body": "<p>The Bay of Islands offers plenty of free activities that are perfect for families. Some of the top free activities include swimming at Paihia Beach, visiting the Waitangi Beach, and taking a walk to the Haruru Falls.</p><p>The Waitangi Mangrove boardwalk is another hidden gem that's free to visit. Kids love spotting fish and mud crabs in the mangroves, and it's a great way to explore the local flora and fauna.</p>",
+      "list": [
+        "Paihia Beach swim",
+        "Waitangi Beach",
+        "Haruru Falls walk",
+        "Waitangi Mangrove boardwalk"
+      ]
+    },
+    {
+      "heading": "Budget Breakdown",
+      "body": "<p>To give you a better idea of how to plan your daily budget, here's a rough breakdown of what you might expect to spend over three days:</p>",
+      "table": {
+        "headers": [
+          "Day",
+          "Accommodation",
+          "Food",
+          "Activities",
+          "Total"
+        ],
+        "rows": [
+          [
+            "Day 1",
+            "$200",
+            "$80",
+            "$50",
+            "$330"
+          ],
+          [
+            "Day 2",
+            "$200",
+            "$80",
+            "$120",
+            "$400"
+          ],
+          [
+            "Day 3",
+            "$200",
+            "$80",
+            "$30",
+            "$310"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Where to Save and Splash Out",
+      "body": "<p>To stay within your budget, consider saving money on food by self-catering or packing picnics. You can also save on activities by choosing the free options or looking for discounts and deals.</p><p>However, some activities are worth splashing out on, such as the dolphin watching cruise or a sailing trip to a private island. These experiences are what make the Bay of Islands so special, and they're worth the extra cost.</p>",
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "bay-of-islands-family-budget-family-guide-2026-07",
+  "updated": "July 2026",
+  "auto_generated": true,
+  "generated_date": "2026-07-02"
+}
