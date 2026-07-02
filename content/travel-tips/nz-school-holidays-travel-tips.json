@@ -1,84 +1,81 @@
 {
   "slug": "nz-school-holidays-travel-tips",
-  "short_title": "School Holiday Travel",
+  "short_title": "Beat School Holiday Crowds",
   "title": "NZ School Holidays Travel Tips — How to Beat the Crowds and Save Money",
-  "meta_desc": "Discover how to navigate NZ school holidays with our expert travel tips and save up to 30% on accommodation",
-  "intro": "If you're planning to travel during NZ school holidays, be prepared for crowds and higher prices. However, with some smart planning, you can save up to 30% on accommodation and activities. In this article, we'll share our top tips for beating the crowds and making the most of your family holiday.",
+  "meta_desc": "Discover NZ school holidays travel tips to save money and avoid crowds, including peak vs off-peak pricing and booking strategies",
+  "intro": "Travelling during NZ school holidays can be expensive and chaotic, with popular destinations like Queenstown and Rotorua often booked out months in advance. However, with some strategic planning, you can beat the crowds and save money. For example, considering a trip to Wellington instead of Auckland can save you around $200 on accommodation per night.",
   "updated": "July 2026",
-  "reading_time": 10,
+  "reading_time": 9,
   "sections": [
     {
       "heading": "Understanding Peak vs Off-Peak Pricing",
-      "body": "During NZ school holidays, prices for accommodation, activities, and tourist attractions can skyrocket. For example, a family room at the Novotel Auckland Ellerslie can cost upwards of $450 per night during peak season, compared to $280 per night during off-peak periods. Understanding these pricing differences can help you make informed decisions about when to travel."
+      "body": "NZ school holidays typically occur in April, July, September, and December, with prices for accommodation and activities increasing significantly during these periods. For instance, a family room at the Novotel Wellington can cost around $350 per night during peak season, compared to $250 per night during off-peak season."
     },
     {
       "heading": "Booking Lead Times",
       "list": [
-        "Book your accommodation at least 6 months in advance to secure the best prices",
-        "Use booking platforms like Booking.com or Expedia to compare prices and find deals",
-        "Consider booking a package deal that includes accommodation, activities, and car rental for added convenience and savings"
+        "Book your accommodation at least 3-4 months in advance to secure the best prices",
+        "Consider booking activities and tours 1-2 months in advance to avoid sold-out situations",
+        "Be flexible with your travel dates to take advantage of off-peak pricing and shorter drive times, such as visiting the Coromandel Peninsula instead of the busy Lake Wakatipu"
       ]
     },
     {
-      "heading": "Comparing Accommodation Options",
+      "heading": "Comparison of Popular Destinations",
       "table": {
         "headers": [
-          "Accommodation Type",
-          "Peak Season Price (per night)",
-          "Off-Peak Season Price (per night)"
+          "Destination",
+          "Accommodation Price (per night)",
+          "Activity Price (per person)"
         ],
         "rows": [
           [
-            "Hotel (Novotel Auckland Ellerslie)",
-            "$450",
-            "$280"
+            "Queenstown",
+            "$400-$600",
+            "$100-$150"
           ],
           [
-            "Holiday Park (Top 10 Holiday Resort)",
-            "$180",
-            "$120"
+            "Rotorua",
+            "$350-$550",
+            "$80-$120"
           ],
           [
-            "Campervan (2-berth)",
-            "$120",
-            "$80"
+            "Wellington",
+            "$250-$400",
+            "$60-$100"
+          ],
+          [
+            "Nelson",
+            "$200-$350",
+            "$50-$90"
           ]
         ]
       }
     },
     {
-      "heading": "Top Tips for Beating the Crowds",
-      "body": "To avoid the crowds, consider visiting popular attractions like the Sky Tower or Te Puia early in the morning or later in the evening. You can also use the 2-hour drive from Auckland to Hamilton to your advantage by visiting the Hamilton Zoo or Waikato Museum during off-peak hours."
+      "heading": "Driving Times and Distances",
+      "body": "When planning your road trip, consider the driving times and distances between destinations. For example, driving from Auckland to Rotorua takes around 3 hours, while driving from Wellington to Queenstown takes around 10 hours with a ferry crossing. You can use our NZ Family Travel Budget Calculator to estimate your fuel costs and plan your itinerary."
     },
     {
-      "heading": "Saving Money on Activities",
+      "heading": "Saving Money on Accommodation",
       "list": [
-        "Look for package deals that include multiple activities, such as a Skyline Gondola and Luge combo in Queenstown",
-        "Use coupons or vouchers to discount individual activities, such as a $20 discount on a Fullers Ferry ticket to Waiheke Island",
-        "Consider purchasing an annual pass to popular attractions, such as the Auckland Zoo or Kelly Tarlton's Sea Life Aquarium, for $150 per person"
+        "Consider staying in a campervan or holiday park to save around $100-200 per night",
+        "Look for discounted rates or package deals on booking websites like Booking.com or Expedia",
+        "Book a self-catering apartment to save money on food and laundry, such as a 2-bedroom apartment in Wellington for around $250 per night"
       ]
     },
     {
-      "heading": "Plan Your Trip with Our Tools",
+      "heading": "Get Ready for Your Next Family Adventure",
       "cta": {
-        "text": "Use our NZ Family Travel Budget Calculator to plan your trip",
-        "url": "/tools/nz-family-travel-budget-calculator/",
-        "affiliate": false
-      }
-    },
-    {
-      "heading": "Explore Our Destination Guides",
-      "cta": {
-        "text": "Discover the best destinations for your family holiday",
+        "text": "Discover more family-friendly destinations and activities in NZ",
         "url": "/destinations/",
         "affiliate": false
       }
     },
     {
-      "heading": "Get the Best Deals on Campervans",
+      "heading": "Plan Your Trip with Our Tools",
       "cta": {
-        "text": "Compare prices and book your campervan today",
-        "url": "/campervans/",
+        "text": "Use our NZ Family Travel Budget Calculator to estimate your costs",
+        "url": "/tools/nz-family-travel-budget-calculator/",
         "affiliate": false
       }
     }
