@@ -1,0 +1,90 @@
+{
+  "title": "New Plymouth Budget Guide",
+  "short_title": "Taranaki on Budget",
+  "meta_desc": "Discover how to visit New Plymouth & Taranaki on a family budget of $150-250/day, with free activities, affordable accommodation, and top tips to save money.",
+  "intro": "New Plymouth and Taranaki are a hidden gem for family holidays, offering a mix of natural beauty, adventure, and culture without the hefty price tag. With some planning, you can have a fantastic time exploring this region with your family for around $150-250 per day. From free parks and walkways to affordable accommodation options, we'll show you how to make the most of your budget.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Understanding Daily Costs",
+      "body": "<p>A daily budget of $150-250 for a family of four is realistic for New Plymouth and Taranaki. This amount can cover accommodation, food, and activities. For example, a meal at a mid-range restaurant can cost around $60-80 for a family of four, while a picnic lunch can be as low as $20-30. Accommodation prices vary, but you can find a comfortable motel or holiday park for $120-180 per night.</p><p>Free activities like visiting Pukekura Park, walking the coastal walkway, and exploring Brooklands Zoo can help keep costs down. Additionally, many of the region's natural attractions, such as Mt Taranaki and Dawson Falls, are free or low-cost to visit.</p>",
+      "list": [
+        "Accommodation: $120-180 per night",
+        "Food: $60-80 per meal, $20-30 for a picnic lunch"
+      ]
+    },
+    {
+      "heading": "Accommodation Options",
+      "body": "<p>For budget-conscious families, there are several accommodation options available in New Plymouth and Taranaki. Holiday parks offer a range of options, from basic cabins to self-contained units, with prices starting from around $80-100 per night. Motels are another affordable option, with prices starting from around $100-120 per night. For those who prefer to self-cater, there are also many holiday homes and apartments available for rent.</p>",
+      "list": [
+        "Holiday parks: $80-100 per night",
+        "Motels: $100-120 per night",
+        "Holiday homes and apartments: $120-150 per night"
+      ]
+    },
+    {
+      "heading": "Free Activities and Attractions",
+      "body": "<p>New Plymouth and Taranaki offer a range of free activities and attractions that are perfect for families. Pukekura Park is a must-visit, with its boating lake, playground, and zoo. The coastal walkway is another great option, offering stunning views of the coastline and surf beaches. Brooklands Zoo is a small but charming zoo that is free to visit, and Dawson Falls is a beautiful spot for a picnic or a short walk.</p>",
+      "list": [
+        "Pukekura Park",
+        "Coastal walkway",
+        "Brooklands Zoo",
+        "Dawson Falls"
+      ]
+    },
+    {
+      "heading": "Budget Breakdown",
+      "body": "<p>To help you plan your trip, here is a rough 3-day budget breakdown for a family of four:</p>",
+      "table": {
+        "headers": [
+          "Day",
+          "Accommodation",
+          "Food",
+          "Activities",
+          "Total"
+        ],
+        "rows": [
+          [
+            "Day 1",
+            "$150",
+            "$60",
+            "$20",
+            "$230"
+          ],
+          [
+            "Day 2",
+            "$150",
+            "$80",
+            "$30",
+            "$260"
+          ],
+          [
+            "Day 3",
+            "$120",
+            "$60",
+            "$20",
+            "$200"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Saving Money and Splurging",
+      "body": "<p>To make the most of your budget, consider saving money on accommodation and food by opting for self-catering options and picnic lunches. You can also save money by taking advantage of free activities and attractions. However, there are some experiences that are worth splurging on, such as a guided hike up Mt Taranaki or a visit to the Govett-Brewster Art Gallery / Len Lye Centre.</p>",
+      "list": [
+        "Save money on accommodation by self-catering",
+        "Save money on food by having picnic lunches",
+        "Splurge on guided hikes or art gallery visits"
+      ],
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "new-plymouth-taranaki-family-budget-family-guide-2026-07",
+  "updated": "July 2026",
+  "auto_generated": true,
+  "generated_date": "2026-07-03"
+}

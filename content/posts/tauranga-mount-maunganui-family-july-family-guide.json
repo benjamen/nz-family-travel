@@ -1,0 +1,66 @@
+{
+  "title": "Tauranga in July",
+  "short_title": "July Fun",
+  "meta_desc": "Discover Tauranga and Mount Maunganui with kids in July, enjoy mild weather, exciting events, and popular activities like surfing and beach walks, perfect for a family holiday with a budget of $180-380/day",
+  "intro": "Tauranga and Mount Maunganui are fantastic destinations for a family holiday in July. With mild winter weather, average highs of 15°C, and average lows of 6°C, it's an ideal time to enjoy the outdoors without the summer crowds. From surfing and beach walks to exploring the local markets and events, there's something for everyone in this beautiful coastal town.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Weather and What's On",
+      "body": "<p>In July, Tauranga and Mount Maunganui experience mild winter weather, making it perfect for outdoor activities like walking, surfing, and exploring the local markets. The average high temperature is around 15°C, while the average low is 6°C. <p>There are several events happening in July, including the Tauranga Winter Festival, which features live music, food stalls, and activities for kids. The Mount Maunganui Market is also a great place to visit, with local produce, crafts, and souvenirs on offer.",
+      "list": [
+        "Tauranga Winter Festival",
+        "Mount Maunganui Market"
+      ]
+    },
+    {
+      "heading": "Best Activities for July",
+      "body": "<p>July is a great time to enjoy the popular activities in Tauranga and Mount Maunganui without the summer crowds. The Mount Beach is still a great spot for surfing and swimming, while the Walk to the summit of Mount Maunganui offers breathtaking views of the Bay of Plenty. <p>The Hot Pools at the Mount are also a great way to relax and unwind, especially during the cooler winter months. For the more adventurous, surf lessons are available, and the gentle waves at Mount Beach make it an ideal spot for beginners.",
+      "table": {
+        "headers": [
+          "Activity",
+          "Price (per person)"
+        ],
+        "rows": [
+          [
+            "Surf Lessons",
+            "$50-$70"
+          ],
+          [
+            "Hot Pools at the Mount",
+            "$20-$30"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Crowd Levels and Booking Ahead",
+      "body": "<p>July is considered the low season in Tauranga and Mount Maunganui, which means smaller crowds and a more relaxed atmosphere. However, it's still a good idea to book ahead for popular activities like surf lessons and Hot Pools at the Mount, especially during the school holidays. <p>Accommodation options are also more affordable during this time, with prices starting from around $150 per night for a family-friendly apartment.",
+      "list": [
+        "Book surf lessons in advance",
+        "Book Hot Pools at the Mount in advance",
+        "Accommodation options from $150 per night"
+      ]
+    },
+    {
+      "heading": "Practical Tips for Families",
+      "body": "<p>Here are some practical tips for families visiting Tauranga and Mount Maunganui in July: <p>1. Pack warm clothing, including jackets and gloves, as the mornings and evenings can be chilly. 2. Take advantage of the free activities, such as walking to the summit of Mount Maunganui and visiting the Mount Beach. 3. Consider visiting the Pilot Bay on the harbour side of the Mount, which is a great spot for toddlers learning to swim. 4. Don't forget to try the famous fish and chips at one of the local eateries, with prices starting from around $15 per person.",
+      "list": [
+        "Pack warm clothing",
+        "Take advantage of free activities",
+        "Visit Pilot Bay",
+        "Try the local fish and chips",
+        "Budget $180-380 per day for a family of four"
+      ],
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "tauranga-mount-maunganui-family-july-family-guide",
+  "updated": "July 2026",
+  "auto_generated": true,
+  "generated_date": "2026-07-03"
+}
