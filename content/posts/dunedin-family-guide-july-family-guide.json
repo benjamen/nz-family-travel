@@ -1,0 +1,76 @@
+{
+  "title": "Dunedin July Fun",
+  "short_title": "Dunedin July",
+  "meta_desc": "Discover Dunedin with kids in July, enjoy wildlife, attractions, and activities suitable for families with children aged 5+, with a budget of $200-380/day",
+  "intro": "Dunedin is a fantastic destination for a family holiday in July, with its unique wildlife, rich history, and exciting attractions. The city offers a mix of free and paid activities, making it an ideal choice for families with a budget of $200-380 per day. With its mild winter weather, July is a great time to explore the city and its surroundings.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Weather in July",
+      "body": "<p>Dunedin's weather in July is typically mild, with average highs of 10°C and lows of 2°C. It's a great time to explore the city's indoor attractions, such as the Otago Settlers Museum and the Speight's Brewery tour. However, if you're planning to visit the Royal Albatross Centre or go yellow-eyed penguin watching, be sure to dress warmly, as it can get chilly near the coast.</p>",
+      "list": [
+        "Average high temperature: 10°C",
+        "Average low temperature: 2°C",
+        "Average rainfall: 80mm"
+      ]
+    },
+    {
+      "heading": "What's On in July",
+      "body": "<p>In July, Dunedin hosts several events and festivals that are perfect for families. The Dunedin Winter Festival is a highlight, with live music, food stalls, and activities for kids. You can also visit the Dunedin Ice Rink, which is open from June to August.</p><p>Additionally, the Royal Albatross Centre and the Yellow-eyed Penguin Trust offer special winter tours and activities, which are a great way to learn about these amazing birds.</p>",
+      "list": [
+        "Dunedin Winter Festival",
+        "Dunedin Ice Rink",
+        "Royal Albatross Centre winter tours",
+        "Yellow-eyed Penguin Trust winter activities"
+      ]
+    },
+    {
+      "heading": "Best Activities for Families",
+      "body": "<p>Dunedin has a wide range of activities that are suitable for families with children aged 5+. Some of the top attractions include the Royal Albatross Centre, yellow-eyed penguin watching, and the Otago Settlers Museum. You can also take a stroll along the waterfront, visit the Dunedin Railway Station, and walk or run up Baldwin Street, the world's steepest street.</p><p>The city is also home to several excellent cafes and restaurants, which offer a range of kid-friendly meals and snacks.</p>",
+      "table": {
+        "headers": [
+          "Activity",
+          "Price",
+          "Age Suitability"
+        ],
+        "rows": [
+          [
+            "Royal Albatross Centre",
+            "$50-$70 per person",
+            "5+ years"
+          ],
+          [
+            "Yellow-eyed Penguin Trust",
+            "$30-$50 per person",
+            "5+ years"
+          ],
+          [
+            "Otago Settlers Museum",
+            "free",
+            "all ages"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Practical Tips for Families",
+      "body": "<p>When visiting Dunedin with kids, it's essential to plan ahead and book your activities and accommodation in advance. The city can get busy, especially during the winter months, so be sure to allow plenty of time to get around.</p><p>Here are some practical tips to help you make the most of your trip:</p>",
+      "list": [
+        "Book your activities and accommodation in advance to avoid crowds and availability issues",
+        "Pack warm clothing, as it can get chilly near the coast",
+        "Bring a stroller or carrier for younger children, as some attractions may be too far to walk",
+        "Take advantage of the city's free attractions, such as the Otago Settlers Museum and the Dunedin Railway Station",
+        "Consider purchasing a DunedinNZ Attractions Pass, which can help you save money on entry fees"
+      ],
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "dunedin-family-guide-july-family-guide",
+  "updated": "July 2026",
+  "auto_generated": true,
+  "generated_date": "2026-07-04"
+}
