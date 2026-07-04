@@ -1,0 +1,81 @@
+{
+  "title": "Marlborough on Budget",
+  "short_title": "Family Budget",
+  "meta_desc": "Explore Marlborough & Blenheim with your family without breaking the bank. Daily costs, free activities, and accommodation options from $180-300/day for a family of 4.",
+  "intro": "Marlborough is the perfect destination for a family holiday, with its sun-kissed Sounds, exciting wildlife cruises, and delicious wine country cuisine. With some planning, you can enjoy all this region has to offer on a budget of $180-300 per day for a family of four. From free activities to affordable accommodation options, we've got you covered.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Daily Costs and Budgeting",
+      "body": "<p>A daily budget of $180-300 for a family of four is achievable in Marlborough. Accommodation will be your biggest expense, but you can find affordable options like holiday parks and motels from $120-200 per night. Food is also relatively affordable, with meals at cafes and restaurants starting from $15-25 per person.</p><p>Activities like the dolphin watch cruise and sea kayaking will be your biggest expenses, but they're worth it for the unforgettable experiences. Consider booking a package deal or looking for discounts to save money.</p>",
+      "list": [
+        "Accommodation: $120-200 per night",
+        "Food: $15-25 per person per meal",
+        "Activities: $50-100 per person"
+      ]
+    },
+    {
+      "heading": "Free Activities and Hidden Gems",
+      "body": "<p>There are plenty of free activities to enjoy in Marlborough, including the Picton foreshore and Waitohi Picton play area, and the beautiful Momorangi Bay. The Pelorus Bridge Scenic Reserve is another must-visit, with its crystal-clear river swimming holes and scenic walks.</p><p>These hidden gems are perfect for families, offering a chance to connect with nature and have some old-fashioned fun without breaking the bank.</p>",
+      "list": [
+        "Picton foreshore and Waitohi Picton play area",
+        "Momorangi Bay",
+        "Pelorus Bridge Scenic Reserve"
+      ]
+    },
+    {
+      "heading": "Accommodation Options",
+      "body": "<p>Marlborough has a range of accommodation options to suit all budgets. For families on a tight budget, consider holiday parks like the Picton Top 10 Holiday Resort, which offers cabins and campsites from $40-100 per night.</p><p>For a mid-range option, look at motels like the Broadway Motel in Blenheim, which offers rooms from $150-250 per night. If you're looking to splurge, consider a luxury lodge like the Marlborough Lodge, which offers rooms from $300-500 per night.</p>",
+      "list": [
+        "Holiday parks: $40-100 per night",
+        "Motels: $150-250 per night",
+        "Luxury lodges: $300-500 per night"
+      ]
+    },
+    {
+      "heading": "Budget Breakdown",
+      "body": "<p>Here's a rough 3-day budget breakdown for a family of four in Marlborough:</p>",
+      "table": {
+        "headers": [
+          "Day",
+          "Accommodation",
+          "Food",
+          "Activities",
+          "Total"
+        ],
+        "rows": [
+          [
+            "Day 1",
+            "$150",
+            "$80",
+            "$100",
+            "$330"
+          ],
+          [
+            "Day 2",
+            "$150",
+            "$80",
+            "$150",
+            "$380"
+          ],
+          [
+            "Day 3",
+            "$150",
+            "$80",
+            "$50",
+            "$280"
+          ]
+        ]
+      },
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "marlborough-blenheim-family-budget-family-guide-2026-07",
+  "updated": "July 2026",
+  "auto_generated": true,
+  "generated_date": "2026-07-05"
+}
