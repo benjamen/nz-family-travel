@@ -1,96 +1,74 @@
 {
   "slug": "nz-road-trip-snacks-kids",
   "short_title": "Road Trip Snacks",
-  "title": "Best Road Trip Snacks for Kids in NZ — No-Mess Options",
-  "meta_desc": "Find no-mess road trip snacks for kids in NZ from $2. Reduce meltdowns, boost fun, plan now",
-  "intro": "Embarking on a long road trip with kids in NZ can be challenging, especially when it comes to snacks. A well-stocked snack stash can save the day, or at least the drive from Auckland to Rotorua, which takes around 3 hours. With a little planning, you can keep your kids happy and satisfied on the road.",
-  "updated": "May 2026",
+  "title": "Best Road Trip Snacks for Kids in NZ — No-Mess, No-Meltdown Options",
+  "meta_desc": "Discover the best road trip snacks for kids in NZ, with no-mess and no-meltdown options from $2.50",
+  "intro": "Long road trips with kids can be daunting, but with the right snacks, you can avoid meltdowns and keep everyone happy. For a 3-hour drive from Auckland to Hamilton, you'll want snacks that are easy to eat, won't make a mess, and can be bought at most supermarkets. We've got you covered with our top picks for road trip snacks in NZ.",
+  "updated": "July 2026",
   "reading_time": 9,
   "sections": [
     {
-      "heading": "Choosing the Right Snacks",
-      "body": "When selecting snacks for your road trip, consider non-perishable items that are easy to eat on-the-go. Look for snacks that are low in sugar, mess-free, and can withstand temperature changes. Some great options include nuts, dried fruits, and energy bars. You can find these snacks at most supermarkets, such as Countdown or New World, for around $2-$5 per pack."
+      "heading": "Practical Snack Ideas for Long Drives",
+      "body": "When choosing snacks for a long drive, consider options that are easy to eat, nutritious, and won't leave a mess. Some great options include sandwiches, fruit, and energy balls. You can find these snacks at most supermarkets like Countdown or New World, with prices starting from $2.50 for a packet of sandwiches."
     },
     {
-      "heading": "Supermarket Snack Options",
+      "heading": "Supermarket Options",
       "list": [
-        "Countdown's brand of trail mix ($3.50 per pack)",
-        "New World's organic dried fruit range ($4.99 per pack)",
-        "Pak'nSave's energy bars ($2.99 per pack)"
+        "Countdown's $2.50 sandwiches",
+        "New World's $3.99 fruit cups",
+        "Pak'nSave's $1.99 energy balls"
       ]
     },
     {
-      "heading": "Cooler Tips",
-      "body": "If you plan to bring perishable snacks like sandwiches, fruits, or cheese, invest in a good cooler to keep them fresh. Fill the cooler with ice packs and place it in a shaded area to maintain the temperature. This is especially important during long drives, such as the 10-hour journey from Auckland to Wellington."
+      "heading": "Cooler Tips for Fresh Snacks",
+      "body": "To keep your snacks fresh during a long drive, consider investing in a cooler. You can buy a cooler at most outdoor stores like Kathmandu or Macpac, with prices starting from $50. When packing your cooler, make sure to include ice packs and plenty of water to keep everyone hydrated."
     },
     {
-      "heading": "Comparison of Popular Snack Brands",
+      "heading": "Snack Comparison Table",
       "table": {
         "headers": [
-          "Brand",
+          "Snack",
           "Price (NZD)",
-          "Servings per pack"
+          "Mess Level"
         ],
         "rows": [
           [
-            "Whittaker's",
-            "4.99",
-            "12"
+            "Sandwiches",
+            "2.50",
+            "Low"
           ],
           [
-            "Nestle",
+            "Fruit Cups",
             "3.99",
-            "10"
+            "Medium"
           ],
           [
-            "Mother Earth",
-            "5.99",
-            "12"
+            "Energy Balls",
+            "1.99",
+            "Low"
           ]
         ]
       }
     },
     {
-      "heading": "Avoiding Meltdowns",
-      "body": "To avoid meltdowns, make sure to take regular breaks during your road trip. Stop at rest stops or parks to let your kids stretch their legs and burn off energy. You can also create a road trip playlist with their favorite songs to keep them entertained. Additionally, consider investing in a portable DVD player or tablet to keep them occupied during long drives."
+      "heading": "Avoiding Meltdowns on Long Drives",
+      "body": "To avoid meltdowns on long drives, make sure to take regular breaks and give your kids a chance to stretch their legs. You can stop at rest stops or parks, like the Hamilton Lake Domain, which is about a 3-hour drive from Auckland. During these breaks, offer your kids a snack and some water to keep them refreshed."
     },
     {
-      "heading": "Budgeting for Road Trip Snacks",
-      "body": "The cost of snacks can add up quickly, especially if you're traveling with a large family. To help you budget for your road trip snacks, check out our NZ Family Travel Budget Calculator, which can be found on our tools page.",
+      "heading": "Plan Your Road Trip with Our Tools",
       "cta": {
-        "text": "Calculate your road trip budget",
+        "text": "Use our NZ Family Travel Budget Calculator",
         "url": "/tools/nz-family-travel-budget-calculator/",
         "affiliate": false
       }
     },
     {
-      "heading": "More Road Trip Tips",
-      "body": "For more tips and advice on planning a successful road trip with kids in NZ, visit our destinations page, which features articles on popular road trip routes, accommodation options, and activities to do along the way.",
+      "heading": "More Road Trip Tips and Destinations",
       "cta": {
-        "text": "Explore our destinations page",
+        "text": "Explore our destinations page for more road trip ideas",
         "url": "/destinations/",
         "affiliate": false
       }
-    }
-  ],
-  "hero_image": {
-    "url": "https://images.unsplash.com/photo-1553025934-296397db4010?w=1200&q=80",
-    "thumb": "https://images.unsplash.com/photo-1553025934-296397db4010?w=600&q=70",
-    "alt": "Kids road trip snacks packed for NZ journey",
-    "credit": "Unsplash / Maarten van den Heuvel"
-  },
-  "faq": [
-    {
-      "question": "What are the best no-mess road trip snacks for kids?",
-      "answer": "Best no-mess options: Babybel cheese (sealed, no crumbs), rice crackers, veggies with hummus cups, dried apricots, Milo bars, bananas, and squeezable yoghurt pouches. Avoid chocolate (melts in NZ summer heat), anything with sauce, and loose chips."
-    },
-    {
-      "question": "Where can you stop for food on NZ road trips?",
-      "answer": "Most NZ towns have a New World or Countdown supermarket. Service stations (Z, BP, Mobil) have food courts — pies, hot dogs, and sandwiches. Regional highlights: Matamata for the Shire Store, Kaikōura for fresh crayfish, and Hokitika for whitebait patties."
-    },
-    {
-      "question": "How do you keep kids entertained on long NZ drives?",
-      "answer": "Download offline Netflix content before you leave WiFi range. Classic NZ road trip entertainment: Kids' I Spy with NZ animals, 'first to spot a sheep' game, road trip bingo cards, and audiobooks. Download the TrackMe app for ETA updates. Long stretches to plan for: Auckland to Napier (5+ hours), Christchurch to Queenstown (5.5 hours)."
     }
   ]
 }
