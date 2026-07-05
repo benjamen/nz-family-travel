@@ -2,22 +2,22 @@
   "slug": "nz-holiday-parks-complete-guide",
   "short_title": "NZ Holiday Parks",
   "title": "NZ Holiday Parks — The Complete Family Guide (TOP 10 vs Freedom Camping)",
-  "meta_desc": "Discover the best NZ holiday parks, compare TOP 10 vs freedom camping, and get expert booking tips with real prices",
-  "intro": "When planning a family trip around New Zealand, choosing the right accommodation can be overwhelming. With over 300 holiday parks to choose from, it's essential to know the difference between TOP 10 holiday parks and freedom camping. Here's our comprehensive guide to help you make informed decisions and get the most out of your NZ adventure.",
+  "meta_desc": "Discover the best NZ holiday parks and freedom camping options for your family trip, with prices and tips",
+  "intro": "When planning a family trip around New Zealand, choosing the right accommodation can be overwhelming, especially with the numerous holiday parks and freedom camping options available. With prices ranging from $20 to $50 per night for a family of four, it's essential to weigh the pros and cons of each option. In this guide, we'll explore the TOP 10 holiday parks, freedom camping, and provide you with the best tips and tricks to make the most of your family adventure.",
   "updated": "July 2026",
   "reading_time": 10,
   "sections": [
     {
       "heading": "TOP 10 Holiday Parks vs Freedom Camping",
-      "body": "TOP 10 holiday parks offer a range of facilities, including kitchens, bathrooms, and laundry facilities, whereas freedom camping is a more budget-friendly option with limited amenities. TOP 10 holiday parks typically cost between $40-$60 per night for a powered site, while freedom camping can be as low as $10-$20 per night."
+      "body": "TOP 10 holiday parks offer a range of facilities, including swimming pools, playgrounds, and BBQ areas, making them an attractive option for families. However, freedom camping can be a more budget-friendly and flexible alternative, with many scenic spots available around the country. A night at a TOP 10 holiday park can cost between $40 to $60, while freedom camping can be as low as $10 to $20 per night."
     },
     {
       "heading": "Facilities and Amenities",
       "list": [
-        "Kitchens with cooking facilities",
-        "Bathrooms with hot showers",
-        "Laundry facilities",
-        "Playgrounds and kids' activities",
+        "Swimming pools and water parks",
+        "Playgrounds and kids' clubs",
+        "BBQ and picnic areas",
+        "Laundry and kitchen facilities",
         "Wi-Fi and TV lounges"
       ]
     },
@@ -26,56 +26,52 @@
       "table": {
         "headers": [
           "Accommodation Type",
-          "Price per Night"
+          "Price per Night (NZD)"
         ],
         "rows": [
           [
-            "TOP 10 Holiday Park (powered site)",
-            "$50"
-          ],
-          [
-            "TOP 10 Holiday Park (unpowered site)",
-            "$30"
+            "TOP 10 Holiday Park",
+            "40-60"
           ],
           [
             "Freedom Camping",
-            "$15"
+            "10-20"
           ],
           [
             "Department of Conservation (DoC) Campsite",
-            "$20"
+            "20-30"
           ]
         ]
       }
     },
     {
       "heading": "Booking Tips and Tricks",
-      "body": "Book your holiday park in advance, especially during peak season (December to February). Consider staying at a holiday park that offers a loyalty program, such as TOP 10's membership scheme, which can save you up to 10% on accommodation costs. Be sure to read reviews and check the holiday park's website for any specials or discounts."
+      "body": "To ensure availability, especially during peak season, book your holiday park or campsite well in advance. Many TOP 10 holiday parks offer discounts for long-term stays or membership programs, so it's worth exploring these options. Additionally, consider visiting during the shoulder season (April to May or September to November) for lower prices and fewer crowds."
     },
     {
       "heading": "Best Holiday Parks by Region",
       "list": [
-        "North Island: Taupo TOP 10 Holiday Resort, Rotorua TOP 10 Holiday Resort",
-        "South Island: Queenstown TOP 10 Holiday Resort, Wanaka Kiwi Holiday Park"
+        "North Island: Bay of Islands Holiday Park, Taupo Holiday Resort",
+        "South Island: Queenstown Lakeview Holiday Park, Wanaka Kiwi Holiday Park"
       ]
     },
     {
-      "heading": "Getting Around",
-      "body": "If you're planning to explore NZ's beautiful landscapes, consider renting a campervan or motorhome. Drive times between major cities can be significant, with Auckland to Rotorua taking around 3 hours, and Queenstown to Wanaka taking around 1 hour. Be sure to check road conditions and plan your itinerary accordingly."
+      "heading": "Drive Times and Distances",
+      "body": "When planning your itinerary, consider the drive times and distances between destinations. For example, driving from Auckland to Rotorua takes around 3 hours, while driving from Queenstown to Milford Sound takes around 4 hours. Be sure to check the road conditions and weather forecast before embarking on your journey."
     },
     {
-      "heading": "Plan Your NZ Family Adventure",
+      "heading": "Plan Your Family Trip with Our Tools",
       "cta": {
-        "text": "Get started with our NZ Family Travel Budget Calculator",
+        "text": "Use our NZ Family Travel Budget Calculator",
         "url": "/tools/nz-family-travel-budget-calculator/",
         "affiliate": false
       }
     },
     {
-      "heading": "More Resources",
+      "heading": "Explore More Destinations",
       "cta": {
-        "text": "Explore our campervan hire options",
-        "url": "/campervans/",
+        "text": "Discover the best family-friendly destinations in NZ",
+        "url": "/destinations/",
         "affiliate": false
       }
     }
