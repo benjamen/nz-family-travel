@@ -2,22 +2,23 @@
   "slug": "nz-holiday-parks-complete-guide",
   "short_title": "NZ Holiday Parks",
   "title": "NZ Holiday Parks — The Complete Family Guide (TOP 10 vs Freedom Camping)",
-  "meta_desc": "Discover the best NZ holiday parks and freedom camping options for your family trip, with prices and tips",
-  "intro": "When planning a family trip around New Zealand, choosing the right accommodation can be overwhelming, especially with the numerous holiday parks and freedom camping options available. With prices ranging from $20 to $50 per night for a family of four, it's essential to weigh the pros and cons of each option. In this guide, we'll explore the TOP 10 holiday parks, freedom camping, and provide you with the best tips and tricks to make the most of your family adventure.",
+  "meta_desc": "Discover the best NZ holiday parks, compare TOP 10 vs freedom camping, and get tips on facilities, costs, and booking",
+  "intro": "When planning a family road trip in New Zealand, choosing the right accommodation is crucial. With over 300 holiday parks to choose from, it can be overwhelming. Here's a comprehensive guide to help you decide between TOP 10 holiday parks and freedom camping, including the best parks by region and essential booking tips.",
   "updated": "July 2026",
   "reading_time": 10,
   "sections": [
     {
       "heading": "TOP 10 Holiday Parks vs Freedom Camping",
-      "body": "TOP 10 holiday parks offer a range of facilities, including swimming pools, playgrounds, and BBQ areas, making them an attractive option for families. However, freedom camping can be a more budget-friendly and flexible alternative, with many scenic spots available around the country. A night at a TOP 10 holiday park can cost between $40 to $60, while freedom camping can be as low as $10 to $20 per night."
+      "body": "TOP 10 holiday parks offer a range of facilities, including powered sites, cabins, and communal kitchens, while freedom camping is a more budget-friendly option that allows you to park your campervan or tent in designated areas. However, freedom camping has its limitations, with limited access to amenities and restrictions on where you can camp."
     },
     {
       "heading": "Facilities and Amenities",
       "list": [
-        "Swimming pools and water parks",
-        "Playgrounds and kids' clubs",
-        "BBQ and picnic areas",
-        "Laundry and kitchen facilities",
+        "Powered and non-powered sites",
+        "Cabins and motel units",
+        "Communal kitchens and BBQ areas",
+        "Laundry facilities and dump stations",
+        "Playgrounds and kids' activities",
         "Wi-Fi and TV lounges"
       ]
     },
@@ -26,52 +27,57 @@
       "table": {
         "headers": [
           "Accommodation Type",
-          "Price per Night (NZD)"
+          "Price (NZD)"
         ],
         "rows": [
           [
-            "TOP 10 Holiday Park",
+            "TOP 10 Holiday Park powered site",
             "40-60"
           ],
           [
-            "Freedom Camping",
-            "10-20"
+            "TOP 10 Holiday Park cabin",
+            "120-200"
           ],
           [
-            "Department of Conservation (DoC) Campsite",
-            "20-30"
+            "Freedom camping",
+            "0-10"
+          ],
+          [
+            "Department of Conservation (DoC) campsite",
+            "10-20"
           ]
         ]
       }
     },
     {
-      "heading": "Booking Tips and Tricks",
-      "body": "To ensure availability, especially during peak season, book your holiday park or campsite well in advance. Many TOP 10 holiday parks offer discounts for long-term stays or membership programs, so it's worth exploring these options. Additionally, consider visiting during the shoulder season (April to May or September to November) for lower prices and fewer crowds."
+      "heading": "Booking Tips",
+      "body": "It's essential to book your holiday park or campsite in advance, especially during peak season (December to February). You can book online through the holiday park's website or through a booking platform like Booking.com. Be sure to read reviews and check the cancellation policies before making a booking. Prices start from $40 per night for a powered site at a TOP 10 holiday park, while a cabin can cost between $120-200 per night."
     },
     {
       "heading": "Best Holiday Parks by Region",
       "list": [
-        "North Island: Bay of Islands Holiday Park, Taupo Holiday Resort",
-        "South Island: Queenstown Lakeview Holiday Park, Wanaka Kiwi Holiday Park"
+        "North Island: Wellington TOP 10 Holiday Park, Bay of Islands Holiday Park",
+        "South Island: Queenstown Lakeview Holiday Park, Franz Josef TOP 10 Holiday Park",
+        "Coromandel: Hahei Holiday Resort, Whangamata Beach Hop Holiday Park"
       ]
     },
     {
       "heading": "Drive Times and Distances",
-      "body": "When planning your itinerary, consider the drive times and distances between destinations. For example, driving from Auckland to Rotorua takes around 3 hours, while driving from Queenstown to Milford Sound takes around 4 hours. Be sure to check the road conditions and weather forecast before embarking on your journey."
+      "body": "When planning your itinerary, be sure to consider drive times and distances between destinations. For example, the drive from Auckland to Rotorua takes around 3 hours, while the drive from Queenstown to Wanaka takes around 1 hour. You can use our NZ Family Travel Budget Calculator to estimate fuel costs and plan your route."
     },
     {
-      "heading": "Plan Your Family Trip with Our Tools",
+      "heading": "Get Ready for Your NZ Road Trip",
       "cta": {
-        "text": "Use our NZ Family Travel Budget Calculator",
+        "text": "Calculate your fuel costs and plan your route",
         "url": "/tools/nz-family-travel-budget-calculator/",
         "affiliate": false
       }
     },
     {
-      "heading": "Explore More Destinations",
+      "heading": "Find the Perfect Campervan for Your Family",
       "cta": {
-        "text": "Discover the best family-friendly destinations in NZ",
-        "url": "/destinations/",
+        "text": "Explore our range of campervans and motorhomes",
+        "url": "/campervans/",
         "affiliate": false
       }
     }
