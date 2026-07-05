@@ -1,0 +1,72 @@
+{
+  "title": "Fiordland Family Deals",
+  "short_title": "Fiordland Savings",
+  "meta_desc": "Discover the best family deals in Fiordland & Milford Sound, including activity discounts, campervan hire, and travel insurance, for an unforgettable NZ adventure from $280-500/day for a family of 4",
+  "intro": "Fiordland and Milford Sound offer a unique and unforgettable experience for families, with breathtaking scenery and exciting activities. With a budget of $280-500 per day for a family of four, you can enjoy the best of what this region has to offer. From nature cruises to kayaking and hiking, there's something for every age and interest.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Current Booking Deals and Discounts",
+      "body": "<p>Bookme.co.nz is offering up to 40% off activities in Rotorua, Queenstown, Bay of Islands, and Auckland, which can be applied to your Fiordland and Milford Sound trip. Additionally, Discover Cars has family campervans available from $89 per day, and Booking.com offers free cancellation on most holiday park and motel bookings. Cover-More provides comprehensive family travel insurance from $4.50 per day.</p><p>These deals can help you save money on your trip and make the most of your budget. Be sure to check the Bookme.co.nz website for the latest discounts and promotions.</p>",
+      "list": [
+        "Up to 40% off activities with Bookme.co.nz",
+        "Family campervans from $89/day with Discover Cars",
+        "Free cancellation on most bookings with Booking.com",
+        "Comprehensive family travel insurance from $4.50/day with Cover-More"
+      ]
+    },
+    {
+      "heading": "Best-Value Activities for Families",
+      "body": "<p>Milford Sound Nature Cruise, Milford Sound Kayaking, and the Underwater Observatory are some of the top activities for families in Fiordland and Milford Sound. The Te Anau Glowworm Caves and a day walk on the Kepler Track are also highly recommended. These activities offer a great combination of adventure, education, and fun for all ages.</p><p>Prices for these activities vary, but you can expect to pay around $100-200 per person for a nature cruise, and $50-100 per person for kayaking or a visit to the glowworm caves.</p>",
+      "table": {
+        "headers": [
+          "Activity",
+          "Price (per person)"
+        ],
+        "rows": [
+          [
+            "Milford Sound Nature Cruise",
+            "$100-200"
+          ],
+          [
+            "Milford Sound Kayaking",
+            "$50-100"
+          ],
+          [
+            "Underwater Observatory",
+            "$20-50"
+          ],
+          [
+            "Te Anau Glowworm Caves",
+            "$50-100"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Money-Saving Tips for Families",
+      "body": "<p>To make the most of your budget, consider the following money-saving tips: book your activities and accommodation in advance to get the best prices, pack your own food and snacks instead of buying them at tourist prices, and take advantage of free activities such as the Milford Sound highway drive and the Mirror Lakes stop.</p><p>Additionally, consider visiting during the shoulder season (April-May or September-October) when prices are lower, and the weather is still mild. You can also save money by booking a family-friendly accommodation that offers a kitchen or kitchenette, so you can prepare your own meals.</p>",
+      "list": [
+        "Book activities and accommodation in advance",
+        "Pack your own food and snacks",
+        "Take advantage of free activities",
+        "Visit during the shoulder season",
+        "Book a family-friendly accommodation with a kitchen or kitchenette",
+        "Consider a campervan holiday with Discover Cars from $89/day"
+      ]
+    },
+    {
+      "heading": "When to Book for the Best Prices",
+      "body": "<p>To get the best prices for your Fiordland and Milford Sound trip, it's recommended to book your activities and accommodation at least 2-3 months in advance. This will give you access to the widest range of options and the best prices. You can also use Bookme.co.nz to compare prices and find the best deals on activities and attractions.</p><p>Keep in mind that prices may vary depending on the time of year and the popularity of the activity or accommodation. Be sure to check the Bookme.co.nz website regularly for updates and promotions.</p>",
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "fiordland-milford-sound-family-family-deals-2026-07",
+  "updated": "July 2026",
+  "auto_generated": true,
+  "generated_date": "2026-07-06"
+}
