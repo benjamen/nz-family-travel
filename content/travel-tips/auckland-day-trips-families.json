@@ -1,111 +1,95 @@
 {
   "slug": "auckland-day-trips-families",
   "short_title": "Auckland Day Trips",
-  "title": "Best Auckland Day Trips for Families — Within 2 Hours",
-  "meta_desc": "Find top Auckland family day trips within 2 hours, featuring Waiheke Island, Waitomo & more, plan your next holiday now",
-  "intro": "Looking for a quick escape from Auckland city with the family? Within 2 hours of the CBD, you can find a range of exciting day trip options that cater to all ages and interests. From the beautiful beaches of Waiheke Island to the glowworm caves of Waitomo, there's something for everyone.",
-  "updated": "May 2026",
+  "title": "Best Auckland Day Trips for Families — Within 2 Hours of the CBD",
+  "meta_desc": "Discover the best Auckland day trips for families within 2 hours of the CBD, including Waiheke Island and Hobbiton",
+  "intro": "Looking for a quick escape from Auckland city with the kids? Within 2 hours of the CBD, you can find stunning beaches, adventure activities, and even a real-life movie set. From Waiheke Island to Hobbiton, we've got the inside scoop on the best Auckland day trips for families.",
+  "updated": "July 2026",
   "reading_time": 10,
   "sections": [
     {
-      "heading": "Waiheke Island Day Trip",
-      "body": "Waiheke Island is a popular day trip destination from Auckland, with its beautiful beaches, vineyards, and olive groves. The ferry ride from Auckland CBD takes around 35 minutes and costs $40-$60 per person return, depending on the time of day and season. Once you arrive, you can rent bikes or take a guided tour to explore the island."
+      "heading": "Waiheke Island: A Family Paradise",
+      "body": "Waiheke Island is a 35-minute ferry ride from Auckland's CBD and offers a range of family-friendly activities, including beautiful beaches, vineyards, and olive groves. You can rent bikes or take a guided tour to explore the island. Prices for the ferry start at $42 return for adults and $22 return for children aged 5-15, while kids under 5 travel free."
     },
     {
-      "heading": "Waitomo Day Trip",
+      "heading": "Waitomo and Hobbiton: A Magical Adventure",
       "list": [
-        "Drive time from Auckland CBD: 2 hours",
-        "Cost: $60-$100 per person for a guided tour, including glowworm cave visit",
-        "Age range: Suitable for children aged 5 and above",
-        "Tips: Book in advance to avoid long wait times, and wear comfortable shoes for walking"
+        "Waitomo Glowworm Caves: $63 per adult, $33 per child (4-14 years)",
+        "Hobbiton Movie Set: $89 per adult, $44 per child (9-16 years), free for children under 9 years",
+        "Drive time from Auckland: approximately 2 hours to Waitomo and 2.5 hours to Matamata for Hobbiton"
       ]
     },
     {
-      "heading": "Coromandel Day Trip",
-      "body": "The Coromandel Peninsula is a 2-hour drive from Auckland CBD, making it an ideal day trip destination for families. You can visit the famous Hot Water Beach, go hiking in the Coromandel Forest Park, or simply enjoy the stunning coastal scenery. Be sure to check the tide times for Hot Water Beach and arrive early to secure parking."
+      "heading": "Coromandel Peninsula: Beaches and Forests",
+      "body": "The Coromandel Peninsula is a 2-hour drive from Auckland's CBD and offers a range of family-friendly activities, including beautiful beaches, forests, and the famous Hot Water Beach. You can take a guided tour or explore the area on your own. Prices for activities vary, but you can expect to pay around $20-$50 per person for a guided tour."
     },
     {
-      "heading": "Comparison of Day Trip Options",
+      "heading": "Comparison of Auckland Day Trips",
       "table": {
         "headers": [
           "Destination",
+          "Distance from CBD",
           "Drive Time",
-          "Cost per Person",
-          "Age Range"
+          "Cost per Person"
         ],
         "rows": [
           [
             "Waiheke Island",
-            "0 hours (ferry)",
-            "$40-$60",
-            "All ages"
+            "18km",
+            "35 minutes (ferry)",
+            "$42 (adult), $22 (child)"
           ],
           [
-            "Waitomo",
+            "Waitomo Glowworm Caves",
+            "200km",
             "2 hours",
-            "$60-$100",
-            "5 and above"
+            "$63 (adult), $33 (child)"
           ],
           [
-            "Coromandel",
+            "Hobbiton Movie Set",
+            "160km",
+            "2.5 hours",
+            "$89 (adult), $44 (child)"
+          ],
+          [
+            "Coromandel Peninsula",
+            "170km",
             "2 hours",
-            "$0-$20 (self-drive)",
-            "All ages"
+            "$20-$50 (per person)"
           ],
           [
-            "Piha",
+            "Piha Beach",
+            "40km",
             "1 hour",
-            "$0 (self-drive)",
-            "All ages"
-          ],
-          [
-            "Hobbiton",
-            "2 hours",
-            "$79-$119",
-            "5 and above"
+            "free"
           ]
         ]
       }
     },
     {
-      "heading": "Piha and Hobbiton Day Trips",
-      "body": "Piha is a scenic coastal town on the West Coast, just an hour's drive from Auckland CBD. You can visit the famous Piha Beach, go hiking in the surrounding hills, or simply enjoy the stunning views. If you're a fan of Lord of the Rings, consider a day trip to Hobbiton, which includes a guided tour of the movie set and a visit to the Shire. Tickets cost $79-$119 per person, depending on the time of day and season."
-    },
-    {
       "heading": "Tips and Essentials",
       "list": [
-        "Check the weather forecast before heading out and pack accordingly",
-        "Bring sunscreen, hats, and comfortable shoes",
-        "Book guided tours and transportation in advance to avoid long wait times",
-        "Consider purchasing a family membership for frequent visits to popular attractions"
+        "Check the weather forecast before heading out",
+        "Pack snacks, water, and sunscreen",
+        "Book activities and tours in advance to avoid sold-out situations",
+        "Consider renting a campervan for a more flexible and comfortable trip (prices start at $100 per day)"
       ]
     },
     {
-      "heading": "Plan Your Day Trip with Our Tools",
+      "heading": "Plan Your Next Family Adventure",
       "cta": {
-        "text": "Use our NZ Family Travel Budget Calculator to plan your day trip",
+        "text": "Get a quote for a campervan rental",
+        "url": "/campervans/",
+        "affiliate": false
+      }
+    },
+    {
+      "heading": "Calculate Your Family Travel Budget",
+      "cta": {
+        "text": "Use our free NZ family travel budget calculator",
         "url": "/tools/nz-family-travel-budget-calculator/",
         "affiliate": false
       }
-    }
-  ],
-  "hero_image": {
-    "url": "/static/img/destinations/auckland-with-kids.jpg",
-    "alt": "Auckland day trips with kids",
-    "credit": "NZ Family Travel"
-  },
-  "faq": [
-    {
-      "question": "What is the best day trip from Auckland for families?",
-      "answer": "Waiheke Island is the most popular — 35 minutes by ferry with beaches, wineries, and kid-friendly olive groves. For inland trips, Waitomo Glowworm Caves (2.5 hours south) and Hobbiton (2 hours south) are family favourites."
-    },
-    {
-      "question": "How far is Rotorua from Auckland for a day trip?",
-      "answer": "Rotorua is about 2.5 to 3 hours from Auckland by car. It's doable as a day trip but most families stay overnight to enjoy the geothermal parks, Skyline Gondola, and evening cultural experiences without rushing."
-    },
-    {
-      "question": "Can you visit Waiheke Island with kids?",
-      "answer": "Yes — Waiheke is very family-friendly. Take the Fullers ferry from Auckland CBD (35 min), rent bikes, head to Onetangi Beach, or visit Stonyridge Vineyard's olive grove. Day return ferry tickets for a family of 4 cost around $150–$180."
     }
   ]
 }

@@ -2593,3 +2593,49 @@ Generated 4 articles.
 Rebuilding site...
   Build complete — 538 HTML pages → /home/ben/nz-family-travel/docs/
   Pushed to GitHub Pages
+[main 1281c973] Auto-generate 5 articles — 2026-07-06
+ 16 files changed, 2750 insertions(+), 26 deletions(-)
+ create mode 100644 content/posts/abel-tasman-water-taxi-family-review-2026-07.json
+ create mode 100644 content/posts/fiordland-milford-sound-family-family-deals-2026-07.json
+ create mode 100644 content/posts/taupo-with-kids-budget-family-guide-2026-07.json
+ create mode 100644 docs/posts/abel-tasman-water-taxi-family-review-2026-07/index.html
+ create mode 100644 docs/posts/fiordland-milford-sound-family-family-deals-2026-07/index.html
+ create mode 100644 docs/posts/taupo-with-kids-budget-family-guide-2026-07/index.html
+ create mode 100644 docs/travel-tips/abel-tasman-water-taxi-family-review-2026-07/index.html
+ create mode 100644 docs/travel-tips/fiordland-milford-sound-family-family-deals-2026-07/index.html
+ create mode 100644 docs/travel-tips/taupo-with-kids-budget-family-guide-2026-07/index.html
+
+Today's 5 articles (2026-07-06):
+
+  1. [deals          ] Fiordland & Milford Sound           — fiordland-milford-sound-family-family-deals-2026-07
+     WILL GENERATE
+  2. [month_guide    ] Tauranga / Mount Maunganui          — tauranga-mount-maunganui-family-july-family-guide
+     EXISTS
+  3. [budget         ] Taupo                               — taupo-with-kids-budget-family-guide-2026-07
+     WILL GENERATE
+  4. [activity_review] Abel Tasman Water Taxi & Beach Day  — abel-tasman-water-taxi-family-review-2026-07
+     WILL GENERATE
+  5. [hidden_gems    ] Rotorua                             — rotorua-family-guide-hidden-gems-families
+     EXISTS
+
+[1/5] Generating: fiordland-milford-sound-family-family-deals-2026-07
+  Calling Groq (llama-3.3-70b-versatile)...
+  Saved: content/posts/fiordland-milford-sound-family-family-deals-2026-07.json
+
+[2/5] Skipping (already exists): tauranga-mount-maunganui-family-july-family-guide
+
+[3/5] Generating: taupo-with-kids-budget-family-guide-2026-07
+  Calling Groq (llama-3.3-70b-versatile)...
+  Saved: content/posts/taupo-with-kids-budget-family-guide-2026-07.json
+
+[4/5] Generating: abel-tasman-water-taxi-family-review-2026-07
+  Calling Groq (llama-3.3-70b-versatile)...
+  Saved: content/posts/abel-tasman-water-taxi-family-review-2026-07.json
+
+[5/5] Skipping (already exists): rotorua-family-guide-hidden-gems-families
+
+Generated 3 articles.
+
+Rebuilding site...
+  Build complete — 544 HTML pages → /home/ben/nz-family-travel/docs/
+  Pushed to GitHub Pages
