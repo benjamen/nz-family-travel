@@ -1,0 +1,89 @@
+{
+  "title": "New Plymouth July",
+  "short_title": "NP July",
+  "meta_desc": "Discover the best of New Plymouth & Taranaki with kids in July. Enjoy mild weather, free activities, and stunning landscapes without the crowds. Plan your family trip with our expert guide.",
+  "intro": "New Plymouth and Taranaki are a hidden gem for family holidays in July. With mild winter weather, fewer crowds, and a range of free activities, it's an ideal time to explore this stunning region. From the perfectly cone-shaped Mt Taranaki to the beautiful Pukekura Park, there's something for all ages.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Weather in July",
+      "body": "<p>July is winter in New Zealand, but New Plymouth and Taranaki enjoy a relatively mild climate compared to other parts of the country. Average high temperatures range from 12-14°C, while average low temperatures range from 4-6°C. It's a great time to enjoy outdoor activities like hiking, with fewer crowds and more comfortable temperatures.</p><p>Be sure to pack warm clothing, including hats, gloves, and scarves, as well as waterproof jackets and comfortable shoes. The region can experience some rainfall, so it's a good idea to check the forecast before heading out.</p>",
+      "list": [
+        "Average high temperature: 12-14°C",
+        "Average low temperature: 4-6°C",
+        "Pack warm and waterproof clothing"
+      ]
+    },
+    {
+      "heading": "What's On in July",
+      "body": "<p>While there may not be as many events in July as in the peak summer months, there are still plenty of activities to enjoy in New Plymouth and Taranaki. The Govett-Brewster Art Gallery and Len Lye Centre offer free entry and a range of exhibitions and interactive displays.</p><p>The New Plymouth coastal walkway is another great activity for families, with its 13km stretch of path suitable for walking, cycling, or scootering. You can also visit the Pukekura Park, which is free and features a boating lake, playground, and zoo.</p>",
+      "list": [
+        "Govett-Brewster Art Gallery and Len Lye Centre: free entry",
+        "New Plymouth coastal walkway: 13km, free",
+        "Pukekura Park: free, boating lake, playground, zoo"
+      ]
+    },
+    {
+      "heading": "Best Activities for Families",
+      "body": "<p>Some of the best activities for families in New Plymouth and Taranaki include visiting the Pukekura Park, which is free and features a boating lake, playground, and zoo. The New Plymouth coastal walkway is another great activity, with its 13km stretch of path suitable for walking, cycling, or scootering.</p><p>For more adventurous families, the Mt Taranaki summit or Pouakai Circuit offer stunning views and a range of hiking trails. The Brooklands Park and Zoo is also a great option, with free entry and a range of animals to see.</p>",
+      "list": [
+        "Pukekura Park: free, boating lake, playground, zoo",
+        "New Plymouth coastal walkway: 13km, free",
+        "Mt Taranaki summit or Pouakai Circuit: hiking trails, stunning views",
+        "Brooklands Park and Zoo: free, range of animals"
+      ]
+    },
+    {
+      "heading": "Practical Tips for Families",
+      "body": "<p>Here are some practical tips for families visiting New Plymouth and Taranaki in July:</p>",
+      "list": [
+        "Book your accommodation in advance to avoid peak season prices, with options starting from $150-200 per night for a family of four",
+        "Check the weather forecast before heading out and pack accordingly",
+        "Bring warm and waterproof clothing, including hats, gloves, and scarves",
+        "Take advantage of the free activities on offer, such as the Pukekura Park and New Plymouth coastal walkway",
+        "Consider visiting the Dawson Falls, a 30-minute drive from the city, for a spectacular waterfall and easy family walk"
+      ]
+    },
+    {
+      "heading": "Crowd Levels and Budget",
+      "body": "<p>Crowd levels in New Plymouth and Taranaki are generally lower in July than in the peak summer months, making it a great time to visit if you prefer fewer tourists. The region offers a range of budget-friendly activities, with many free options available.</p><p>Accommodation prices are also lower in July, with options starting from $150-200 per night for a family of four. Food prices are similar to other parts of New Zealand, with meals starting from $15-20 per person.</p>",
+      "table": {
+        "headers": [
+          "Activity",
+          "Price"
+        ],
+        "rows": [
+          [
+            "Pukekura Park",
+            "Free"
+          ],
+          [
+            "New Plymouth coastal walkway",
+            "Free"
+          ],
+          [
+            "Govett-Brewster Art Gallery and Len Lye Centre",
+            "Free"
+          ],
+          [
+            "Accommodation (per night)",
+            "$150-200"
+          ],
+          [
+            "Meal (per person)",
+            "$15-20"
+          ]
+        ]
+      },
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "new-plymouth-taranaki-family-july-family-guide",
+  "updated": "July 2026",
+  "auto_generated": true,
+  "generated_date": "2026-07-07"
+}

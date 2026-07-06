@@ -1,0 +1,75 @@
+{
+  "title": "Coromandel Budget Guide",
+  "short_title": "Coromandel",
+  "meta_desc": "Visit Coromandel on a family budget of $180-320/day. Discover free activities, affordable accommodation, and top experiences like Hot Water Beach and Cathedral Cove.",
+  "intro": "The Coromandel Peninsula is a top destination for families, with its stunning beaches, natural hot springs, and plenty of outdoor activities. With some planning, you can have a fantastic holiday in Coromandel without breaking the bank. Here's a guide to help you visit Coromandel on a family budget of $180-320 per day.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Accommodation Options",
+      "body": "<p>Accommodation in Coromandel ranges from budget-friendly camping and holiday parks to mid-range motels and apartments. You can find a basic campsite for around $20-30 per night, while a mid-range motel or apartment will cost between $120-200 per night for a family of four.</p> <p>Consider staying in a town like Whitianga or Thames, which offer a range of accommodation options and are close to many of the peninsula's top attractions.</p>",
+      "list": [
+        "Camping and holiday parks: $20-30 per night",
+        "Mid-range motels and apartments: $120-200 per night"
+      ]
+    },
+    {
+      "heading": "Free Activities",
+      "body": "<p>One of the best things about Coromandel is the number of free activities on offer. Hahei Beach, one of New Zealand's most beautiful beaches, is completely free to visit. The Cathedral Cove walk, which takes around 35 minutes each way from the car park, is also free.</p> <p>You can also visit the Whitianga waterfront and beach without spending a dime. These free activities are a great way to save money and still experience the best of what Coromandel has to offer.</p>",
+      "list": [
+        "Hahei Beach",
+        "Cathedral Cove walk",
+        "Whitianga waterfront and beach"
+      ]
+    },
+    {
+      "heading": "Budget Breakdown",
+      "body": "<p>Here's a rough 3-day budget breakdown for a family of four visiting Coromandel:</p>",
+      "table": {
+        "headers": [
+          "Day",
+          "Accommodation",
+          "Food",
+          "Activities",
+          "Total"
+        ],
+        "rows": [
+          [
+            "Day 1",
+            "$150",
+            "$50",
+            "$20",
+            "$220"
+          ],
+          [
+            "Day 2",
+            "$150",
+            "$50",
+            "$50",
+            "$250"
+          ],
+          [
+            "Day 3",
+            "$150",
+            "$50",
+            "$30",
+            "$230"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Where to Save and Splurge",
+      "body": "<p>To save money in Coromandel, consider self-catering instead of eating out for every meal. You can also save by visiting the free attractions and taking advantage of the beautiful beaches and outdoor spaces.</p> <p>However, some experiences are worth splashing out on, such as the Driving Creek Railway or the Gold Mine Experience in Thames. These unique activities will give you a deeper understanding of the peninsula's history and culture, and are a great way to create lasting memories with your family.</p>",
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "coromandel-with-kids-budget-family-guide-2026-07",
+  "updated": "July 2026",
+  "auto_generated": true,
+  "generated_date": "2026-07-07"
+}
