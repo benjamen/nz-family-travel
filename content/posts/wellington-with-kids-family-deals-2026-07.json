@@ -1,0 +1,67 @@
+{
+  "title": "Wellington Family Deals",
+  "short_title": "Wgtn Deals",
+  "meta_desc": "Discover the best family deals in Wellington, including activity discounts, campervan hires, and travel insurance, to make your family trip affordable and fun, with prices from $200-380/day for a family of 4.",
+  "intro": "Wellington is a fantastic destination for families, with a wide range of activities and attractions to suit all ages. With some planning and research, you can make the most of your family trip without breaking the bank. In this article, we'll explore the current booking deals and discounts available for families in Wellington.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Current Booking Deals",
+      "body": "<p>Currently, there are some great deals available for families in Wellington. Bookme.co.nz is offering up to 40% off activities in Rotorua, Queenstown, Bay of Islands, and Auckland, which can be a great way to save money on your family trip.</p> <p>Discover Cars is also offering family campervans from $89/day, which can be a cost-effective and flexible way to explore the city and surrounding areas.</p>",
+      "list": [
+        "Up to 40% off activities with Bookme.co.nz",
+        "Family campervans from $89/day with Discover Cars",
+        "Free cancellation on most bookings with Booking.com"
+      ]
+    },
+    {
+      "heading": "Best-Value Activities",
+      "body": "<p>Wellington has a wide range of activities and attractions to suit all ages and budgets. Some of the best-value activities include visiting the Te Papa Museum, which is free, and taking a ride on the Wellington Cable Car, which costs $9 for adults and $4.50 for children.</p> <p>The Zealandia Wildlife Sanctuary is also a great place to visit, with prices starting from $29 for adults and $15 for children.</p>",
+      "table": {
+        "headers": [
+          "Activity",
+          "Price"
+        ],
+        "rows": [
+          [
+            "Te Papa Museum",
+            "Free"
+          ],
+          [
+            "Wellington Cable Car",
+            "$9 adult, $4.50 child"
+          ],
+          [
+            "Zealandia Wildlife Sanctuary",
+            "From $29 adult, $15 child"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Money-Saving Tips",
+      "body": "<p>To make the most of your family trip to Wellington, here are some money-saving tips:</p>",
+      "list": [
+        "Book your activities and accommodation in advance to get the best prices",
+        "Consider visiting during the off-season to avoid peak prices",
+        "Look for package deals that include accommodation and activities",
+        "Use public transport or walk instead of driving to save on fuel and parking",
+        "Pack your own lunch and snacks to avoid buying expensive food",
+        "Take advantage of free activities such as visiting the Wellington Waterfront and Frank Kitts Park playground"
+      ]
+    },
+    {
+      "heading": "When to Book for Best Prices",
+      "body": "<p>To get the best prices for your family trip to Wellington, it's a good idea to book your activities and accommodation in advance. Many attractions and accommodation providers offer discounts for early bookings, so it's worth planning ahead to save money.</p> <p>Additionally, consider visiting during the off-season to avoid peak prices and crowds.</p>",
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "wellington-with-kids-family-deals-2026-07",
+  "updated": "July 2026",
+  "auto_generated": true,
+  "generated_date": "2026-07-08"
+}

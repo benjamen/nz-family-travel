@@ -2639,3 +2639,44 @@ Generated 3 articles.
 Rebuilding site...
   Build complete — 544 HTML pages → /home/ben/nz-family-travel/docs/
   Pushed to GitHub Pages
+[main 4c04b9a7] Auto-generate 5 articles — 2026-07-07
+ 13 files changed, 1864 insertions(+), 26 deletions(-)
+ create mode 100644 content/posts/coromandel-with-kids-budget-family-guide-2026-07.json
+ create mode 100644 content/posts/new-plymouth-taranaki-family-july-family-guide.json
+ create mode 100644 docs/posts/coromandel-with-kids-budget-family-guide-2026-07/index.html
+ create mode 100644 docs/posts/new-plymouth-taranaki-family-july-family-guide/index.html
+ create mode 100644 docs/travel-tips/coromandel-with-kids-budget-family-guide-2026-07/index.html
+ create mode 100644 docs/travel-tips/new-plymouth-taranaki-family-july-family-guide/index.html
+
+Today's 5 articles (2026-07-07):
+
+  1. [deals          ] Dunedin                             — dunedin-family-guide-family-deals-2026-07
+     EXISTS
+  2. [month_guide    ] New Plymouth & Taranaki             — new-plymouth-taranaki-family-july-family-guide
+     WILL GENERATE
+  3. [budget         ] Coromandel                          — coromandel-with-kids-budget-family-guide-2026-07
+     WILL GENERATE
+  4. [activity_review] Christchurch Gondola                — christchurch-gondola-family-review-2026-07
+     EXISTS
+  5. [hidden_gems    ] Taupo                               — taupo-with-kids-hidden-gems-families
+     EXISTS
+
+[1/5] Skipping (already exists): dunedin-family-guide-family-deals-2026-07
+
+[2/5] Generating: new-plymouth-taranaki-family-july-family-guide
+  Calling Groq (llama-3.3-70b-versatile)...
+  Saved: content/posts/new-plymouth-taranaki-family-july-family-guide.json
+
+[3/5] Generating: coromandel-with-kids-budget-family-guide-2026-07
+  Calling Groq (llama-3.3-70b-versatile)...
+  Saved: content/posts/coromandel-with-kids-budget-family-guide-2026-07.json
+
+[4/5] Skipping (already exists): christchurch-gondola-family-review-2026-07
+
+[5/5] Skipping (already exists): taupo-with-kids-hidden-gems-families
+
+Generated 2 articles.
+
+Rebuilding site...
+  Build complete — 548 HTML pages → /home/ben/nz-family-travel/docs/
+  Pushed to GitHub Pages

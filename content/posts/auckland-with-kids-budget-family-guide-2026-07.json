@@ -1,0 +1,88 @@
+{
+  "title": "Auckland on Budget",
+  "short_title": "Akl Budget",
+  "meta_desc": "Visit Auckland with your family without breaking the bank. Discover free activities, affordable accommodation, and budget-friendly tips for a fun-filled family holiday in New Zealand's biggest city, with daily costs around $200-$350 for a family of four.",
+  "intro": "Auckland is a fantastic destination for families, with plenty of activities to suit all ages and budgets. With some planning, you can have a great time in Auckland without overspending. In this guide, we'll show you how to visit Auckland on a family budget of $200-$350 per day.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Accommodation Options",
+      "body": "<p>Auckland has a wide range of accommodation options to suit all budgets. For a cheap option, consider staying in a hostel or motel, with prices starting from around $120 per night for a family room. Mid-range options like apartments and holiday homes are also available, with prices from $250 per night.</p><p>For a family of four, a budget of $150-$300 per night for accommodation is realistic. You can also consider staying outside of the city centre to save money, with options like Devonport or Takapuna offering more affordable prices and a relaxed atmosphere.</p>",
+      "list": [
+        "Hostel or motel: $120-$180 per night",
+        "Apartment or holiday home: $250-$350 per night"
+      ]
+    },
+    {
+      "heading": "Free Activities",
+      "body": "<p>Auckland has plenty of free activities to enjoy as a family. Some of the top free activities include visiting Mission Bay beach and reserve, taking a walk along Tamaki Drive, and exploring Albert Park and the city gardens.</p><p>These activities are not only free but also offer a great way to experience the city and its surroundings. You can also consider visiting some of the regional parks, like Tawharanui or Wenderholm, which offer stunning beaches and scenic walks.</p>",
+      "list": [
+        "Mission Bay beach and reserve",
+        "Tamaki Drive coastal walk",
+        "Albert Park and city gardens",
+        "Tawharanui Regional Park",
+        "Wenderholm Regional Park"
+      ]
+    },
+    {
+      "heading": "Budget Breakdown",
+      "body": "<p>To help you plan your trip, we've put together a rough 3-day budget breakdown for a family of four. This includes accommodation, food, activities, and transportation.</p><p>The budget breakdown is just a rough guide, and you can adjust it to suit your family's needs and preferences. However, it should give you a good idea of what to expect and help you plan your trip.</p>",
+      "table": {
+        "headers": [
+          "Day",
+          "Accommodation",
+          "Food",
+          "Activities",
+          "Transportation",
+          "Total"
+        ],
+        "rows": [
+          [
+            "Day 1",
+            "$250",
+            "$80",
+            "$100",
+            "$20",
+            "$450"
+          ],
+          [
+            "Day 2",
+            "$250",
+            "$80",
+            "$120",
+            "$20",
+            "$470"
+          ],
+          [
+            "Day 3",
+            "$250",
+            "$80",
+            "$80",
+            "$20",
+            "$430"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Saving Money and Splurging",
+      "body": "<p>To save money in Auckland, consider cooking your own meals instead of eating out, and look for free or low-cost activities. You can also save money by buying a family pass for attractions like the Auckland Zoo or Kelly Tarlton's SEA LIFE Aquarium.</p><p>However, some activities are worth splurging on, like a trip to Waiheke Island or a visit to the Sky Tower. These activities offer a unique experience and are a great way to create lasting memories with your family.</p>",
+      "list": [
+        "Cook your own meals",
+        "Look for free or low-cost activities",
+        "Buy a family pass for attractions",
+        "Consider a trip to Waiheke Island",
+        "Visit the Sky Tower"
+      ],
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "auckland-with-kids-budget-family-guide-2026-07",
+  "updated": "July 2026",
+  "auto_generated": true,
+  "generated_date": "2026-07-08"
+}
