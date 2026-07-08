@@ -1,109 +1,81 @@
 {
   "slug": "north-vs-south-island-families",
-  "short_title": "North vs South",
-  "title": "North vs South Island for Families — Which to Choose?",
-  "meta_desc": "Compare North & South Island family holidays for best activities, drive times & costs, plan your dream trip now",
-  "intro": "When planning a family trip to New Zealand, one of the toughest decisions is which island to visit first. With the North Island offering geothermal wonders like Wai-O-Tapu ($32.50 per adult, $18 per child) and the South Island boasting stunning fjords like Milford Sound ($45 per adult, $23 per child), it's a tough call. To help you decide, we've broken down the key considerations for families.",
-  "updated": "May 2026",
+  "short_title": "North Island Guide",
+  "title": "North Island vs South Island for Families — Which to Choose First?",
+  "meta_desc": "North vs South Island for families: which to choose first? Discover activity density, drive times & cost difference",
+  "intro": "When planning a family trip to New Zealand, the biggest dilemma is often which island to visit first. With the North Island offering a plethora of cultural experiences and the South Island boasting breathtaking landscapes, it's essential to consider factors like activity density, drive times, and cost. For instance, a family of four can expect to pay around $200-$300 NZD per night for a decent motel in Auckland, compared to $250-$350 NZD in Queenstown.",
+  "updated": "July 2026",
   "reading_time": 9,
   "sections": [
     {
-      "heading": "Activity Density",
-      "body": "The North Island is home to many of New Zealand's most popular family attractions, including the Auckland Zoo ($25 per adult, $13 per child) and the Skyline Gondola in Rotorua ($32 per adult, $20 per child). In contrast, the South Island has a more dispersed range of activities, with highlights like the Queenstown Luge ($40 per adult, $30 per child) and the Franz Josef Glacier ($35 per adult, $20 per child)."
+      "heading": "Activity Density: North Island vs South Island",
+      "body": "The North Island is home to a wide range of activities, including visiting the famous Waitomo Glowworm Caves ($50-$70 NZD per person), exploring the geothermal wonders of Rotorua, and learning about Maori culture in Auckland. In contrast, the South Island offers a more laid-back atmosphere, with popular activities like hiking in Abel Tasman National Park ($15-$30 NZD per person) and taking a scenic drive along the Milford Road."
     },
     {
       "heading": "Drive Times and Logistics",
       "list": [
         "Auckland to Rotorua: 3 hours",
-        "Auckland to Wellington: 8 hours",
-        "Christchurch to Queenstown: 6.5 hours",
-        "Queenstown to Franz Josef: 4.5 hours"
+        "Wellington to Picton: 3.5 hours plus ferry ride",
+        "Queenstown to Franz Josef: 4.5 hours",
+        "Christchurch to Wanaka: 3 hours"
       ]
     },
     {
-      "heading": "Age Considerations",
-      "body": "Families with younger children may prefer the North Island, where many attractions are geared towards kids under 12. The South Island, on the other hand, offers more outdoor adventures suited to older kids and teens, such as hiking and skiing."
+      "heading": "Age Considerations: Which Island is Best for Your Family?",
+      "body": "Families with younger children may prefer the North Island, where many attractions cater specifically to kids, such as the Auckland Zoo ($25-$35 NZD per person) and the Wellington Zoo ($20-$30 NZD per person). On the other hand, families with older children and teenagers may enjoy the more adventurous activities offered in the South Island, like skiing in Queenstown ($100-$150 NZD per person per day) or hiking in the Southern Alps."
     },
     {
-      "heading": "Cost Comparison",
+      "heading": "Cost Comparison: North Island vs South Island",
       "table": {
         "headers": [
-          "Activity",
-          "North Island Price (NZD)",
-          "South Island Price (NZD)"
+          "Accommodation",
+          "Activities",
+          "Food",
+          "Transportation"
         ],
         "rows": [
           [
-            "Geothermal park visit",
-            "32.50",
-            "35.00"
+            "North Island: $200-$300 NZD per night",
+            "North Island: $50-$100 NZD per person per day",
+            "North Island: $15-$25 NZD per meal",
+            "North Island: $50-$100 NZD per day"
           ],
           [
-            "Gondola ride",
-            "32.00",
-            "40.00"
-          ],
-          [
-            "Zoo visit",
-            "25.00",
-            "30.00"
-          ],
-          [
-            "Accommodation (per night)",
-            "150.00",
-            "180.00"
+            "South Island: $250-$350 NZD per night",
+            "South Island: $70-$150 NZD per person per day",
+            "South Island: $20-$30 NZD per meal",
+            "South Island: $70-$150 NZD per day"
           ]
         ]
       }
     },
     {
-      "heading": "What You'll Miss",
-      "body": "If you only visit the North Island, you'll miss out on the stunning natural beauty of the South Island, including Milford Sound and the Southern Alps. Conversely, if you only visit the South Island, you'll miss the geothermal wonders and Maori cultural experiences of the North Island."
+      "heading": "What You Miss if You Only Visit One Island",
+      "body": "If you only visit the North Island, you'll miss out on the stunning natural beauty of the South Island, including the picturesque town of Wanaka and the breathtaking scenery of Milford Sound. On the other hand, if you only visit the South Island, you'll miss out on the rich cultural heritage of the North Island, including the Auckland Museum ($20-$30 NZD per person) and the Te Papa Museum in Wellington (free admission)."
     },
     {
-      "heading": "Plan Your Trip",
+      "heading": "Planning Your Trip: Tools and Resources",
       "cta": {
-        "text": "Use our NZ Family Travel Budget Calculator",
+        "text": "Use our NZ Family Travel Budget Calculator to plan your trip",
         "url": "/tools/nz-family-travel-budget-calculator/",
         "affiliate": false
       }
     },
     {
-      "heading": "Accommodation and Transportation",
-      "body": "When planning your trip, consider the cost of accommodation and transportation. Campervans are a popular option for families, with prices starting from around $100 per day. You can compare campervan options on our website.",
+      "heading": "Getting Around: Campervans and Transportation",
       "cta": {
-        "text": "Compare campervans",
+        "text": "Explore our guide to campervans in New Zealand",
         "url": "/campervans/",
         "affiliate": false
       }
     },
     {
-      "heading": "Destination Guides",
-      "body": "For more information on specific destinations, check out our guides to Auckland, Rotorua, Queenstown, and other popular family spots.",
+      "heading": "Destination Guides: Explore the Best of New Zealand",
       "cta": {
-        "text": "View destination guides",
+        "text": "Discover our in-depth destination guides for the North and South Islands",
         "url": "/destinations/",
         "affiliate": false
       }
-    }
-  ],
-  "hero_image": {
-    "url": "/static/img/destinations/north-vs-south-island-families.jpg",
-    "alt": "New Zealand South Island landscape",
-    "credit": "Wikimedia Commons"
-  },
-  "faq": [
-    {
-      "question": "Which NZ island is better for families — North or South?",
-      "answer": "The North Island is better for first-time family visits: shorter drives, more activities for younger kids (Rotorua, Hobbiton, beaches), and warmer weather. The South Island is better for families with teens who enjoy hiking, skiing, and dramatic scenery."
-    },
-    {
-      "question": "Can you see both islands in one NZ family trip?",
-      "answer": "Yes, but you'll need at least 2 weeks. The standard route is 4–5 days in Auckland/Northland, 3 days in Rotorua/Taupo, then cross to the South Island via the Interislander ferry from Wellington for 5–7 days."
-    },
-    {
-      "question": "How do you get from the North Island to the South Island with kids?",
-      "answer": "By ferry (Interislander or Bluebridge from Wellington to Picton — 3.5 hours) or by domestic flight. The ferry is a great experience for kids; flights are faster but add luggage stress. Book the ferry well in advance in summer."
     }
   ]
 }
