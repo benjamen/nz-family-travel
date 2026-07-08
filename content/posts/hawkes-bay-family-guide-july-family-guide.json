@@ -1,0 +1,98 @@
+{
+  "title": "Hawke's Bay July",
+  "short_title": "HB July",
+  "meta_desc": "Discover Hawke's Bay in July with kids: warm weather, Art Deco, gannets, and beaches. Plan your family trip with our expert guide, including what's on, crowd levels, and tips.",
+  "intro": "Hawke's Bay is a hidden family gem in winter, offering a unique blend of culture, nature, and adventure. In July, the region enjoys mild winter weather, making it an ideal destination for families. With its Art Deco city, gannet colony, and beautiful beaches, Hawke's Bay is a must-visit for families looking for a fun and educational holiday.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Weather in July",
+      "body": "<p>In July, Hawke's Bay experiences mild winter weather, with average highs of 12°C and lows of 6°C. It's a great time to enjoy the region's outdoor activities, such as visiting the Cape Kidnappers Gannet Colony or exploring the Art Deco city.</p><p>The weather is usually calm and sunny, making it perfect for a family holiday. However, it's always a good idea to pack warm clothing, including jackets and gloves, as the temperature can drop significantly at night.</p>",
+      "list": [
+        "Average high: 12°C",
+        "Average low: 6°C",
+        "Sunniest days: 20th-25th July"
+      ]
+    },
+    {
+      "heading": "What's On in July",
+      "body": "<p>In July, Hawke's Bay hosts several family-friendly events, including the Hawke's Bay Winter Festival and the Napier Art Deco Weekend.</p><p>The Hawke's Bay Winter Festival features a range of activities, including live music, food stalls, and kids' entertainment. The Napier Art Deco Weekend is a celebration of the city's unique Art Deco architecture, with guided tours, vintage car displays, and more.</p>",
+      "table": {
+        "headers": [
+          "Event",
+          "Date",
+          "Price"
+        ],
+        "rows": [
+          [
+            "Hawke's Bay Winter Festival",
+            "15-17 July",
+            "Free"
+          ],
+          [
+            "Napier Art Deco Weekend",
+            "22-24 July",
+            "$20-$50"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Best Activities for Families",
+      "body": "<p>In July, some of the best activities for families in Hawke's Bay include visiting the Cape Kidnappers Gannet Colony, exploring the Napier Art Deco city, and swimming at Ocean Beach or Waimarama Beach.</p><p>The Cape Kidnappers Gannet Colony is a must-visit, with over 20,000 gannets nesting on the cliffs. The Napier Art Deco city is a unique and fascinating place to explore, with its stunning architecture and rich history.</p>",
+      "list": [
+        "Cape Kidnappers Gannet Colony: $40-$60 per person",
+        "Napier Art Deco city: free to explore",
+        "Ocean Beach or Waimarama Beach: free"
+      ]
+    },
+    {
+      "heading": "Practical Tips for Families",
+      "body": "<p>When visiting Hawke's Bay with kids in July, it's essential to plan ahead and book your activities and accommodations in advance.</p><p>Here are some practical tips to help you make the most of your trip:</p>",
+      "list": [
+        "Book your Cape Kidnappers Gannet Colony tour in advance to avoid disappointment",
+        "Pack warm clothing, including jackets and gloves, for cooler mornings and evenings",
+        "Take advantage of the region's free activities, such as exploring the Napier Art Deco city and visiting the beaches",
+        "Consider staying in Napier or Hastings for easy access to the region's main attractions",
+        "Don't forget to try some of the region's famous produce, including strawberries and apples"
+      ]
+    },
+    {
+      "heading": "Crowd Levels and Booking Ahead",
+      "body": "<p>In July, Hawke's Bay is generally less crowded than during the peak summer months, making it a great time to visit if you prefer smaller crowds.</p><p>However, it's still essential to book your activities and accommodations in advance, especially during school holidays and weekends.</p>",
+      "table": {
+        "headers": [
+          "Activity",
+          "Crowd Level",
+          "Booking Requirement"
+        ],
+        "rows": [
+          [
+            "Cape Kidnappers Gannet Colony",
+            "Moderate",
+            "Book ahead, especially on weekends"
+          ],
+          [
+            "Napier Art Deco city",
+            "Low",
+            "No booking required"
+          ],
+          [
+            "Ocean Beach or Waimarama Beach",
+            "Low",
+            "No booking required"
+          ]
+        ]
+      },
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "hawkes-bay-family-guide-july-family-guide",
+  "updated": "July 2026",
+  "auto_generated": true,
+  "generated_date": "2026-07-09"
+}
