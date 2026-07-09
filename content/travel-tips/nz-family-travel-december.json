@@ -1,47 +1,52 @@
 {
   "slug": "nz-family-travel-december",
-  "short_title": "NZ in December",
-  "title": "NZ in December with Kids — Weather, Crowds & Costs",
-  "meta_desc": "Plan a stress-free NZ family holiday in December, expect warm weather, crowds and high costs, start planning now with our expert guide",
-  "intro": "December is one of the busiest months to travel in New Zealand, with the Christmas school holidays bringing large crowds to popular destinations. If you're planning a trip with kids, it's essential to know what to expect. With temperatures ranging from 18-25°C, December is an excellent time to enjoy the beach and outdoor activities.",
-  "updated": "May 2026",
-  "reading_time": 10,
+  "short_title": "NZ in Dec",
+  "title": "NZ in December with Kids — What to Expect (Weather, Crowds, Costs)",
+  "meta_desc": "Discover what to expect when travelling in NZ with kids in December, including school holidays, peak season and booking tips",
+  "intro": "December is the most popular time to travel in New Zealand, with the Christmas school holidays and warm summer weather drawing large crowds. If you're planning a family trip, it's essential to be aware of the peak season reality and plan ahead to avoid disappointment. With some insider knowledge, you can still have a fantastic and stress-free holiday with your kids.",
+  "updated": "July 2026",
+  "reading_time": 9,
   "sections": [
     {
       "heading": "Weather in December",
-      "body": "December is summer in New Zealand, with warm temperatures and high humidity. The average temperature in Auckland is 23°C, while in Queenstown it's around 18°C. Make sure to pack sunscreen, hats, and light clothing for your trip."
+      "body": "December is one of the warmest months in New Zealand, with average high temperatures ranging from 22°C in the north to 18°C in the south. It's an excellent time to enjoy the country's beautiful beaches, such as those found in the Bay of Islands, Nelson, and the Coromandel Peninsula."
     },
     {
-      "heading": "Peak Season Reality",
+      "heading": "Christmas School Holidays",
       "list": [
-        "Expect large crowds at popular destinations like Rotorua, Lake Taupo, and the Coromandel Peninsula",
-        "Book accommodations and activities well in advance to avoid high prices and availability issues",
-        "Be prepared for long drive times and traffic congestion, especially during holidays and weekends"
+        "The school holidays typically start on mid-December and last for around 6 weeks",
+        "Many popular attractions and activities will be busier than usual",
+        "Book your accommodation and activities well in advance to avoid sold-out situations",
+        "Consider visiting popular spots early in the morning or later in the evening to avoid the crowds"
       ]
     },
     {
-      "heading": "Beach Destinations",
-      "body": "New Zealand has many beautiful beaches, but some are more crowded than others during peak season. Popular spots like Mount Maunganui, Raglan, and the Bay of Islands can get very busy, while more secluded beaches like those in the Catlins or the East Coast may offer a more relaxed atmosphere."
+      "heading": "Peak Season Reality",
+      "body": "December is peak season in New Zealand, and you can expect higher prices for accommodation, activities, and tourist attractions. For example, a family room at the Novotel Auckland Airport can cost around $450 per night, while a campsite at the Top 10 Holiday Resort in Rotorua can cost around $60 per night."
     },
     {
-      "heading": "Costs and Budgeting",
+      "heading": "Beach Destinations",
       "table": {
         "headers": [
-          "Accommodation Type",
-          "Price Range (per night)"
+          "Destination",
+          "Drive Time from Auckland",
+          "Accommodation Price (NZD)"
         ],
         "rows": [
           [
-            "Budget campsite",
-            "$20-$40"
+            "Bay of Islands",
+            "3 hours",
+            "$200-500 per night"
           ],
           [
-            "Mid-range motel",
-            "$120-$200"
+            "Nelson",
+            "9 hours",
+            "$150-300 per night"
           ],
           [
-            "Luxury hotel",
-            "$300-$500"
+            "Coromandel Peninsula",
+            "2 hours",
+            "$100-250 per night"
           ]
         ]
       }
@@ -49,32 +54,29 @@
     {
       "heading": "What to Book Early",
       "list": [
-        "Accommodation in popular destinations, with prices starting from $150 per night for a family room",
-        "Activities like bungee jumping or ski lessons, with prices ranging from $100-$300 per person",
-        "Car rentals, with prices starting from $60 per day for a compact vehicle"
+        "Accommodation, especially in popular areas like Queenstown and Rotorua",
+        "Activities, such as ski lessons or popular attractions like the Sky Tower in Auckland",
+        "Flights, if you're planning to travel domestically",
+        "Car rentals, if you're planning to drive around the country"
       ]
     },
     {
-      "heading": "Plan Your Trip",
+      "heading": "Budgeting for Your Trip",
+      "body": "The cost of a family trip to New Zealand in December can add up quickly. To get an estimate of your expenses, you can use our NZ Family Travel Budget Calculator, which takes into account your accommodation, food, activities, and transportation costs.",
       "cta": {
-        "text": "Use our NZ Family Travel Budget Calculator",
+        "text": "Try our budget calculator",
         "url": "/tools/nz-family-travel-budget-calculator/",
         "affiliate": false
       }
     },
     {
-      "heading": "More Information",
-      "body": "For more information on travelling in New Zealand, check out our destinations page for guides on the best places to visit, including the West Coast, Abel Tasman National Park, and the geothermal wonders of Rotorua. You can also explore our campervans page for rental options and tips on how to plan the perfect road trip.",
+      "heading": "Plan Your Trip with Us",
+      "body": "At NZ Family Travel, we're here to help you plan an unforgettable holiday with your kids. Check out our destinations page for inspiration and ideas on where to go and what to do in New Zealand.",
       "cta": {
         "text": "Explore our destinations",
         "url": "/destinations/",
         "affiliate": false
       }
     }
-  ],
-  "hero_image": {
-    "url": "/static/img/destinations/nz-beaches-kids-summer.jpg",
-    "alt": "New Zealand family travel in December",
-    "credit": "Wikimedia Commons"
-  }
+  ]
 }
