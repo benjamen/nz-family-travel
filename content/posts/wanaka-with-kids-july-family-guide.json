@@ -1,0 +1,62 @@
+{
+  "title": "Wanaka July Fun",
+  "short_title": "Wanaka July",
+  "meta_desc": "Plan your July family holiday in Wanaka, NZ. Enjoy winter skiing, stunning lake views and family-friendly activities. Book ahead for best deals and avoid crowds.",
+  "intro": "Wanaka in July is a winter wonderland, perfect for families who love skiing and the great outdoors. With Treble Cone Ski Area in full swing, and plenty of other activities to enjoy, it's an ideal time to visit. Prices for a family of four range from $250 to $450 per day, making it an affordable option for a winter holiday.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Weather and What's On",
+      "body": "<p>July is one of the coldest months in Wanaka, with average temperatures ranging from 2-12°C. However, this makes it perfect for skiing and snowboarding at Treble Cone Ski Area. The town also hosts several winter festivals and events, including the Wanaka Winter Festival.</p> <p>Other popular activities include visiting Puzzling World, taking a scenic drive to Glendhu Bay, and enjoying a picnic at Rippon Vineyard. Don't forget to capture the stunning views of Lake Wanaka and the surrounding mountains.</p>",
+      "list": [
+        "Treble Cone Ski Area: $150-$250 per person for a day pass",
+        "Puzzling World: $20-$30 per person",
+        "Rippon Vineyard Picnic: free, BYO"
+      ]
+    },
+    {
+      "heading": "Crowd Levels and Booking Ahead",
+      "body": "<p>While July is one of the busiest months in Wanaka, it's still less crowded than nearby Queenstown. However, it's still a good idea to book your accommodation and activities ahead of time to avoid missing out. Treble Cone Ski Area can get particularly busy on weekends and school holidays.</p>",
+      "table": {
+        "headers": [
+          "Activity",
+          "Price"
+        ],
+        "rows": [
+          [
+            "Treble Cone Ski Area",
+            "$150-$250"
+          ],
+          [
+            "Puzzling World",
+            "$20-$30"
+          ],
+          [
+            "Rippon Vineyard Picnic",
+            "free"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Practical Tips for Families",
+      "body": "<p>Wanaka is a great destination for families, with plenty of activities to enjoy together. Here are a few practical tips to keep in mind when planning your trip.</p> <p>Firstly, make sure to pack warm clothing, including ski gear if you plan on hitting the slopes. Secondly, book your accommodation in the town centre to be close to all the action. Finally, don't forget to take some time to enjoy the stunning scenery and views that Wanaka has to offer.</p>",
+      "list": [
+        "Pack warm clothing, including ski gear",
+        "Book accommodation in the town centre",
+        "Take time to enjoy the scenery and views",
+        "Consider visiting the Wanaka Lavender Farm for a relaxing afternoon",
+        "Drive time from Queenstown: 1 hour, from Christchurch: 5.5 hours"
+      ],
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "wanaka-with-kids-july-family-guide",
+  "updated": "July 2026",
+  "auto_generated": true,
+  "generated_date": "2026-07-10"
+}
