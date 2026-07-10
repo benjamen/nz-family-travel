@@ -1,99 +1,78 @@
 {
   "slug": "rotorua-geothermal-guide-families",
   "short_title": "Rotorua Thermal Parks",
-  "title": "Rotorua Geothermal Parks — Te Puia vs Wai-O-Tapu Guide",
-  "meta_desc": "Discover best Rotorua geothermal parks for families, compare Te Puia, Wai-O-Tapu, and plan your trip now",
-  "intro": "Rotorua is home to some of New Zealand's most unique geothermal parks, but which one is best for your family? With prices ranging from $30 to $100 per person, it's essential to choose wisely. In this guide, we'll compare Te Puia, Wai-O-Tapu, and Hell's Gate to help you make an informed decision.",
-  "updated": "June 2026",
+  "title": "Rotorua Geothermal Parks Guide — Te Puia vs Wai-O-Tapu vs Hell's Gate",
+  "meta_desc": "Discover the best Rotorua thermal parks for families, comparing Te Puia, Wai-O-Tapu, and Hell's Gate",
+  "intro": "Rotorua is a hotspot for geothermal activity, with three main parks to choose from: Te Puia, Wai-O-Tapu, and Hell's Gate. Each offers a unique experience, but which one is best for your family? With prices ranging from $30 to $80 per person, it's essential to make an informed decision. In this guide, we'll compare the three parks to help you plan your trip.",
+  "updated": "July 2026",
   "reading_time": 10,
   "sections": [
     {
       "heading": "Overview of Rotorua Geothermal Parks",
-      "body": "Rotorua is a 3-hour drive from Auckland and a 1-hour drive from Taupo. The city is home to three main geothermal parks: Te Puia, Wai-O-Tapu, and Hell's Gate. Each park offers a unique experience, with a range of geothermal features, cultural performances, and outdoor activities."
+      "body": "Te Puia, Wai-O-Tapu, and Hell's Gate are the three main geothermal parks in Rotorua, each offering a distinct experience. Te Puia is known for its cultural performances and kiwi bird sanctuary, while Wai-O-Tapu is famous for its colorful hot springs and geysers. Hell's Gate, on the other hand, is a more rugged and natural park with a mud spa and hot waterfalls."
     },
     {
       "heading": "Comparison of Rotorua Geothermal Parks",
       "table": {
         "headers": [
           "Park",
-          "Price (Adult)",
+          "Price (Adult}",
           "Price (Child)",
-          "Features"
+          "Drive Time from Rotorua CBD"
         ],
         "rows": [
           [
             "Te Puia",
-            "$54",
-            "$29",
-            "Geysers, mud pools, kiwi bird sanctuary"
+            "$50",
+            "$25",
+            "5 minutes"
           ],
           [
             "Wai-O-Tapu",
             "$32.50",
             "$16.50",
-            "Lady Knox Geyser, champagne pool, artist's palette"
+            "20 minutes"
           ],
           [
             "Hell's Gate",
+            "$80",
             "$40",
-            "$20",
-            "Mud foot spa, geothermal walk, sulphur spa"
+            "15 minutes"
           ]
         ]
       }
     },
     {
       "heading": "Best for Families",
-      "body": "Te Puia is a great option for families, with a kiwi bird sanctuary and a range of interactive exhibits. Wai-O-Tapu is also a good choice, with a ladybug-themed playground and a range of easy walking trails. Hell's Gate is more suited to older children and adults, with a focus on relaxation and rejuvenation."
-    },
-    {
-      "heading": "Getting There and Around",
       "list": [
-        "Drive from Auckland: 3 hours",
-        "Drive from Taupo: 1 hour",
-        "Public transport: Bus services available from Rotorua city centre",
-        "Shuttle services: Available from Te Puia and Wai-O-Tapu"
+        "Te Puia: suitable for families with children of all ages, with a kiwi bird sanctuary and cultural performances",
+        "Wai-O-Tapu: suitable for families with children aged 5 and above, with colorful hot springs and geysers",
+        "Hell's Gate: suitable for families with children aged 8 and above, with a mud spa and hot waterfalls"
       ]
     },
     {
-      "heading": "Tips and Essentials",
-      "body": "Be sure to wear comfortable walking shoes and bring sunscreen, a hat, and a camera. Each park has its own cafe and restaurant, but you can also bring your own picnic lunch. Don't miss the cultural performances at Te Puia, which include traditional Maori dances and carvings."
+      "heading": "Getting Around Rotorua",
+      "body": "The drive times between the geothermal parks and Rotorua CBD are relatively short, with Te Puia being the closest. Wai-O-Tapu is about 20 minutes away, while Hell's Gate is 15 minutes away. You can rent a car or take a shuttle bus to get to the parks. A campervan is also a great option, allowing you to travel at your own pace and stay overnight in the area."
     },
     {
-      "heading": "Budgeting for Your Trip",
+      "heading": "Accommodation and Budgeting",
       "cta": {
-        "text": "Calculate your trip costs with our NZ family travel budget calculator",
+        "text": "Calculate your family travel budget",
         "url": "/tools/nz-family-travel-budget-calculator/",
         "affiliate": false
       }
     },
     {
-      "heading": "Accommodation Options",
-      "body": "Rotorua has a range of accommodation options, from budget-friendly motels to luxury hotels. Consider staying in the city centre for easy access to the geothermal parks and other attractions. You can also rent a campervan and stay at one of the nearby campsites.",
+      "heading": "Tips and Essentials",
+      "body": "Remember to wear comfortable shoes and bring sunscreen, as well as a camera to capture the stunning scenery. It's also a good idea to check the weather forecast before heading out, as the parks can be closed due to bad weather. With prices starting from $30 per person, it's essential to plan ahead and make the most of your visit."
+    },
+    {
+      "heading": "Plan Your Rotorua Campervan Trip",
       "cta": {
-        "text": "Explore our campervan options and book your vehicle today",
+        "text": "Explore Rotorua in a campervan",
         "url": "/campervans/",
         "affiliate": false
       }
-    }
-  ],
-  "hero_image": {
-    "url": "/static/img/destinations/rotorua-geothermal-guide-families.jpg",
-    "alt": "Whakarewarewa geothermal area, Rotorua",
-    "credit": "Wikimedia Commons"
-  },
-  "faq": [
-    {
-      "question": "Is Te Puia or Wai-O-Tapu better for families?",
-      "answer": "Te Puia is better for a cultural experience (Maori arts, kiwi house, geyser). Wai-O-Tapu is better for pure geothermal spectacle — colourful pools and the Lady Knox Geyser eruption at 10:15am daily. Many families do both on the same day."
-    },
-    {
-      "question": "How long does Wai-O-Tapu take with kids?",
-      "answer": "Allow 1.5 to 2 hours for a comfortable walk around all the colourful pools. Arrive by 10am to catch the Lady Knox Geyser at 10:15am. Entry is around $45 for adults, $15 for children (under 5 free)."
-    },
-    {
-      "question": "What is the best geothermal park in Rotorua for children?",
-      "answer": "Wai-O-Tapu is the most visually dramatic and photogenic — bright turquoise, orange, and yellow pools. Te Puia is best if you also want to see a kiwi (nocturnal house) and watch traditional Maori carving and weaving."
     }
   ]
 }
