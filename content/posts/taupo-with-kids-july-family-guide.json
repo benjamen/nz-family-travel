@@ -1,0 +1,92 @@
+{
+  "title": "Taupo in July",
+  "short_title": "Winter Fun",
+  "meta_desc": "Discover Taupo in July with kids: weather, events, and tips for a fun family holiday in the heart of New Zealand's North Island, with prices and age suitability.",
+  "intro": "Taupo is a wonderful destination for a family holiday in July, with its mild winter weather and plenty of indoor and outdoor activities to enjoy. The town has a relaxed atmosphere, making it easy to unwind and have fun with the kids. With a budget of $200-350 per day for a family of four, you can experience the best of Taupo without breaking the bank.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Weather in July",
+      "body": "<p>July is winter in Taupo, but the weather is generally mild, with average highs of 12°C and lows of 2°C. It's a great time to enjoy the town's thermal pools and indoor activities. Be sure to pack warm clothing, including jackets and gloves, as it can get chilly in the mornings and evenings.</p><p>Rainfall is moderate in July, with an average of 12 rainy days throughout the month. However, this shouldn't deter you from visiting, as there are plenty of indoor activities to enjoy.</p>",
+      "list": [
+        "Average high: 12°C",
+        "Average low: 2°C",
+        "Average rainfall: 12 days"
+      ]
+    },
+    {
+      "heading": "What's On in July",
+      "body": "<p>July is a great time to visit Taupo, with several events and festivals taking place throughout the month. The Taupo Winter Festival is a highlight, featuring live music, food stalls, and activities for all ages.</p><p>The Huka Falls are a must-visit, and in July, you can enjoy the scenic walkway and viewing platform without the summer crowds. The falls are free to visit and suitable for all ages.</p>",
+      "list": [
+        "Taupo Winter Festival",
+        "Huka Falls viewing platform and walkway"
+      ]
+    },
+    {
+      "heading": "Best Activities for Families",
+      "body": "<p-Taupo has plenty of activities to keep families entertained, regardless of the weather. The Wairakei Terraces & Thermal Pools are a great place to relax and unwind, with prices starting from $25 per adult and $15 per child. The AC Baths are another popular spot, with public thermal pools and a water park, priced from $10 per adult and $5 per child.</p><p>For thrill-seekers, Skydive Taupo is an exhilarating experience, priced from $299 per person, suitable for teens and adults. The Huka Jet is a fun and action-packed activity, priced from $89 per adult and $59 per child.</p>",
+      "table": {
+        "headers": [
+          "Activity",
+          "Price (adult)",
+          "Price (child)",
+          "Age Suitability"
+        ],
+        "rows": [
+          [
+            "Wairakei Terraces & Thermal Pools",
+            "$25",
+            "$15",
+            "All ages"
+          ],
+          [
+            "AC Baths",
+            "$10",
+            "$5",
+            "All ages"
+          ],
+          [
+            "Skydive Taupo",
+            "$299",
+            "-",
+            "Teens and adults"
+          ],
+          [
+            "Huka Jet",
+            "$89",
+            "$59",
+            "All ages"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Crowd Levels and Booking Ahead",
+      "body": "<p>July is a relatively quiet month in Taupo, with smaller crowds compared to the peak summer season. However, it's still a good idea to book your accommodations and popular activities ahead of time to avoid disappointment.</p><p>Drive times from nearby cities are: Auckland (2.5 hours), Rotorua (1 hour), and Wellington (4.5 hours). Be sure to check the road conditions before embarking on your journey.</p>",
+      "list": [
+        "Book accommodations and activities in advance",
+        "Check road conditions before driving"
+      ]
+    },
+    {
+      "heading": "Practical Tips for Families",
+      "body": "<p-Taupo is a family-friendly destination, with plenty of activities and amenities to cater to all ages. Here are some practical tips to keep in mind when visiting with kids:</p>",
+      "list": [
+        "Pack warm clothing for the winter weather",
+        "Bring a stroller or carrier for younger children",
+        "Take advantage of the town's free activities, such as the Huka Falls viewing platform and Lake Taupo swimming",
+        "Consider purchasing a Taupo Fun Park pass for discounted entry to multiple attractions",
+        "Don't miss the free prawn feeding area at Huka Prawn Park"
+      ],
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "taupo-with-kids-july-family-guide",
+  "updated": "July 2026",
+  "auto_generated": true,
+  "generated_date": "2026-07-11"
+}

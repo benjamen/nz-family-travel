@@ -1,0 +1,77 @@
+{
+  "title": "West Coast on Budget",
+  "short_title": "West Coast",
+  "meta_desc": "Explore NZ's West Coast with your family without breaking the bank. Discover free activities, affordable accommodation, and budget tips for a fun-filled trip.",
+  "intro": "The West Coast of New Zealand is a haven for families, with its stunning landscapes, rich history, and exciting activities. With some planning, you can have a fantastic time on the West Coast without overspending. Here's a guide to help you visit the West Coast on a family budget of $150-250 per day.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Free Activities and Attractions",
+      "body": "<p>The West Coast is home to many free attractions that are perfect for families. The Punakaiki Pancake Rocks and Blowholes are a must-visit, with a 30-minute walk that's suitable for children aged 5 and above. The Franz Josef Glacier and Fox Glacier also offer free walks to the terminal face and viewing platform, respectively.</p> <p>The Hokitika Gorge is another hidden gem, with a stunning turquoise river that's perfect for a family walk. These free activities will not only save you money but also provide a fun and memorable experience for your family.</p>",
+      "list": [
+        "Punakaiki Pancake Rocks and Blowholes",
+        "Franz Josef Glacier valley walk",
+        "Fox Glacier viewing platform",
+        "Hokitika Gorge walkway"
+      ]
+    },
+    {
+      "heading": "Accommodation Options",
+      "body": "<p>Accommodation on the West Coast ranges from budget-friendly options like camping and holiday parks to mid-range hotels and motels. You can expect to pay around $100-200 per night for a family-friendly room or unit.</p> <p>Some popular options include the Punakaiki Beach Camp, Franz Josef Top 10 Holiday Resort, and the Hokitika Heritage Hotel. Be sure to book in advance, especially during peak season, to secure the best rates.</p>",
+      "list": [
+        "Camping and holiday parks ($30-60 per night)",
+        "Budget motels ($80-120 per night)",
+        "Mid-range hotels ($150-250 per night)"
+      ]
+    },
+    {
+      "heading": "Budget Breakdown",
+      "body": "<p>Here's a rough estimate of what you can expect to pay for a 3-day trip to the West Coast:</p>",
+      "table": {
+        "headers": [
+          "Day",
+          "Accommodation",
+          "Food",
+          "Activities",
+          "Total"
+        ],
+        "rows": [
+          [
+            "Day 1",
+            "$120",
+            "$50",
+            "$20",
+            "$190"
+          ],
+          [
+            "Day 2",
+            "$150",
+            "$60",
+            "$30",
+            "$240"
+          ],
+          [
+            "Day 3",
+            "$100",
+            "$40",
+            "$10",
+            "$150"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Tips for Saving Money",
+      "body": "<p>To stay within your budget, consider self-catering instead of eating out, and pack your own snacks and drinks for the day. You can also save money by avoiding peak season and booking your accommodation and activities in advance.</p> <p>Additionally, look out for special deals and discounts on the West Coast's official tourism website or social media channels. With some planning and research, you can have a fantastic time on the West Coast without breaking the bank.</p>",
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "west-coast-family-guide-budget-family-guide-2026-07",
+  "updated": "July 2026",
+  "auto_generated": true,
+  "generated_date": "2026-07-11"
+}
