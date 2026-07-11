@@ -1,0 +1,94 @@
+{
+  "title": "Queenstown on a Budget",
+  "short_title": "Queenstown",
+  "meta_desc": "Visit Queenstown on a family budget of $350-600/day. Discover free activities, affordable accommodation, and top tips to save money without compromising on fun.",
+  "intro": "Queenstown, the adventure capital of the world, is a fantastic destination for families. With a daily budget of $350-600 for a family of four, you can enjoy a range of activities and experiences without breaking the bank. From free walks and frisbee golf to paid adventures like the Skyline Gondola and Ziptrek Ecotours, there's something for everyone.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Accommodation Options",
+      "body": "<p>Accommodation in Queenstown can range from budget-friendly to luxury. For a family of four, consider staying in a mid-range apartment or holiday home, which can cost between $150-300 per night. Some options to consider include the Queenstown Lakeview Holiday Park, which offers cabins and apartments from $120 per night, or the Reavers Lodge, which has rooms and apartments from $180 per night.</p><p>For those on a tighter budget, consider staying in nearby Arrowtown or Frankton, which offer more affordable accommodation options. Camping is also a great option, with several campsites in the area, including the Queenstown Lakeview Holiday Park, which has powered and unpowered sites from $40 per night.</p>",
+      "list": [
+        "Queenstown Lakeview Holiday Park: cabins and apartments from $120 per night",
+        "Reavers Lodge: rooms and apartments from $180 per night",
+        "Arrowtown and Frankton: more affordable accommodation options",
+        "Camping: powered and unpowered sites from $40 per night"
+      ]
+    },
+    {
+      "heading": "Free Activities",
+      "body": "<p>Queenstown has a range of free activities that are perfect for families. Take a walk along the Lake Wakatipu foreshore, visit the Queenstown Gardens, or play a game of frisbee golf. The Kelvin Heights Peninsula loop walk is another great option, offering stunning views of the lake and surrounding mountains.</p><p>The Remarkables Market, which takes place every Saturday during the summer, is also a great place to visit, with fresh food, local crafts, and a lively atmosphere that kids will love.</p>",
+      "list": [
+        "Lake Wakatipu foreshore walk",
+        "Queenstown Gardens",
+        "Frisbee golf",
+        "Kelvin Heights Peninsula loop walk",
+        "Remarkables Market"
+      ]
+    },
+    {
+      "heading": "Budget Breakdown",
+      "body": "<p>To help you plan your trip, here is a rough 3-day budget breakdown for a family of four:</p>",
+      "table": {
+        "headers": [
+          "Day",
+          "Accommodation",
+          "Food",
+          "Activities",
+          "Total"
+        ],
+        "rows": [
+          [
+            "Day 1",
+            "$200",
+            "$80",
+            "$120",
+            "$400"
+          ],
+          [
+            "Day 2",
+            "$200",
+            "$100",
+            "$150",
+            "$450"
+          ],
+          [
+            "Day 3",
+            "$200",
+            "$80",
+            "$100",
+            "$380"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Where to Save Money",
+      "body": "<p>To save money in Queenstown, consider cooking some of your own meals instead of eating out for every meal. You can also save money by booking activities and accommodation in advance, as many operators offer discounts for early bookings.</p><p>Another way to save money is to consider visiting during the shoulder season, when prices are lower. However, be aware that some activities and attractions may be closed or have limited hours during this time.</p>",
+      "list": [
+        "Cook your own meals",
+        "Book activities and accommodation in advance",
+        "Visit during the shoulder season"
+      ]
+    },
+    {
+      "heading": "Where to Splurge",
+      "body": "<p>While it's possible to have a great time in Queenstown on a budget, there are some activities that are worth splurging on. The Skyline Gondola and Luge, for example, is a must-do experience that offers stunning views and a fun, adrenaline-packed ride. Ziptrek Ecotours is another great option, offering a unique and exhilarating experience that kids will love.</p><p>The TSS Earnslaw Steamship is also a great way to spend a day, with a scenic cruise and a visit to a sheep station. And for a truly unique experience, consider taking a jet boat ride with Kjet or Dart River Jet.</p>",
+      "list": [
+        "Skyline Gondola and Luge: $40-$60 per person",
+        "Ziptrek Ecotours: $120-$180 per person",
+        "TSS Earnslaw Steamship: $80-$120 per person",
+        "Kjet or Dart River Jet: $100-$150 per person"
+      ],
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "queenstown-with-kids-budget-family-guide-2026-07",
+  "updated": "July 2026",
+  "auto_generated": true,
+  "generated_date": "2026-07-12"
+}

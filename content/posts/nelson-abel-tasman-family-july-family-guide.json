@@ -1,0 +1,56 @@
+{
+  "title": "Nelson July Fun",
+  "short_title": "Nelson July",
+  "meta_desc": "Discover Nelson and Abel Tasman in July with kids. Enjoy winter sunshine, warm days and cool nights, with average highs of 12°C. Book ahead for popular attractions like the Abel Tasman Water Taxi and Sea Kayaking.",
+  "intro": "Nelson is the sunniest region in New Zealand, making it an ideal destination for a family holiday in July. With its stunning natural beauty, family-friendly atmosphere, and plenty of activities to enjoy, you'll find something for everyone. From beautiful beaches to scenic walks and exciting tours, Nelson and Abel Tasman have it all.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Weather in July",
+      "body": "<p>In July, Nelson and Abel Tasman experience mild winter weather, with average highs of 12°C and average lows of 2°C. It's a great time to enjoy the region's beautiful scenery without the crowds of the summer months.</p><p>While it can be cool in the mornings and evenings, the days are often sunny and warm, making it perfect for outdoor activities like hiking and beach walks.</p>",
+      "list": [
+        "Average high: 12°C",
+        "Average low: 2°C",
+        "Sunshine hours: 8-10 hours per day"
+      ]
+    },
+    {
+      "heading": "What's On in July",
+      "body": "<p>July is a great time to visit Nelson and Abel Tasman, with plenty of events and activities to enjoy. The Nelson Saturday Market is a must-visit, with local produce, crafts, and live music.</p><p>The Farewell Spit Tour is another popular attraction, offering a unique glimpse into the region's stunning natural beauty and wildlife.</p>",
+      "list": [
+        "Nelson Saturday Market: every Saturday",
+        "Farewell Spit Tour: daily departures",
+        "Abel Tasman Water Taxi: daily departures"
+      ]
+    },
+    {
+      "heading": "What to Book Ahead",
+      "body": "<p>To avoid missing out on popular attractions, it's a good idea to book ahead for activities like the Abel Tasman Water Taxi and Sea Kayaking.</p><p>Accommodation can also fill up quickly, especially during school holidays, so be sure to book your accommodation well in advance.</p>",
+      "list": [
+        "Abel Tasman Water Taxi: from $40-$60 per person",
+        "Sea Kayaking: from $80-$120 per person",
+        "Accommodation: from $150-$300 per night for a family of four"
+      ]
+    },
+    {
+      "heading": "Crowd Levels and Tips",
+      "body": "<p>July is a relatively quiet month in Nelson and Abel Tasman, with smaller crowds than the peak summer months.</p><p>However, it's still a good idea to plan ahead and book popular attractions in advance to avoid missing out.</p>",
+      "list": [
+        "Book popular attractions in advance",
+        "Arrive early at beaches and parks to secure parking",
+        "Pack warm clothing for cooler mornings and evenings",
+        "Don't forget sunscreen and a hat for sunny days",
+        "Check the weather forecast before heading out"
+      ],
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "nelson-abel-tasman-family-july-family-guide",
+  "updated": "July 2026",
+  "auto_generated": true,
+  "generated_date": "2026-07-12"
+}
