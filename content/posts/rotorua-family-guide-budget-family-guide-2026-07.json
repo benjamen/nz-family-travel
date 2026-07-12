@@ -1,0 +1,81 @@
+{
+  "title": "Rotorua on a Budget",
+  "short_title": "Rotorua Budget",
+  "meta_desc": "Discover how to visit Rotorua with your family without breaking the bank. Get the inside scoop on affordable activities, accommodation, and daily costs for a family of four.",
+  "intro": "Rotorua is a fantastic destination for families, with geothermal wonders, Maori culture, and plenty of activities to keep everyone entertained. With some planning, you can have a great time in Rotorua without overspending. Here's a budget guide to help you make the most of your trip.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Daily Costs",
+      "body": "<p>A family of four can expect to pay around $250-450 per day in Rotorua, depending on their accommodation choices and activities. This budget can cover accommodation, food, and activities, but it's always a good idea to have some extra money set aside for souvenirs or unexpected expenses.</p><p>Some of the top activities in Rotorua include Te Puia, Wai-O-Tapu Thermal Wonderland, and the Skyline Rotorua Gondola & Luge. These activities can cost between $20-50 per person, but they're definitely worth the cost.</p>",
+      "list": [
+        "Te Puia: $50-$70 per person",
+        "Wai-O-Tapu Thermal Wonderland: $30-$50 per person",
+        "Skyline Rotorua Gondola & Luge: $30-$50 per person"
+      ]
+    },
+    {
+      "heading": "Accommodation Options",
+      "body": "<p>There are plenty of accommodation options in Rotorua to suit all budgets. You can choose from budget-friendly motels, mid-range hotels, or luxury resorts. Some popular options include the Rotorua Top 10 Holiday Resort, the Novotel Rotorua Lakeside, and the Polynesian Spa Resort.</p><p>Prices for accommodation in Rotorua can range from $100-500 per night, depending on the type of accommodation and the time of year.</p>",
+      "list": [
+        "Budget-friendly motels: $100-200 per night",
+        "Mid-range hotels: $200-350 per night",
+        "Luxury resorts: $400-500 per night"
+      ]
+    },
+    {
+      "heading": "Free Activities",
+      "body": "<p>One of the best things about Rotorua is the number of free activities available. You can visit the Government Gardens and croquet lawn, take a walk along the Lake Rotorua foreshore, or explore the Kuirau Park, which is a free public geothermal park with hot bubbling mud pools and steam vents.</p><p>These free activities are a great way to experience the natural beauty of Rotorua without breaking the bank.</p>",
+      "list": [
+        "Government Gardens and croquet lawn",
+        "Lake Rotorua foreshore walk",
+        "Kuirau Park"
+      ]
+    },
+    {
+      "heading": "Budget Breakdown",
+      "body": "<p>Here's a rough breakdown of what a 3-day trip to Rotorua might cost for a family of four:</p>",
+      "table": {
+        "headers": [
+          "Day",
+          "Accommodation",
+          "Food",
+          "Activities",
+          "Total"
+        ],
+        "rows": [
+          [
+            "Day 1",
+            "$200",
+            "$100",
+            "$150",
+            "$450"
+          ],
+          [
+            "Day 2",
+            "$200",
+            "$100",
+            "$100",
+            "$400"
+          ],
+          [
+            "Day 3",
+            "$200",
+            "$100",
+            "$120",
+            "$420"
+          ]
+        ]
+      },
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "rotorua-family-guide-budget-family-guide-2026-07",
+  "updated": "July 2026",
+  "auto_generated": true,
+  "generated_date": "2026-07-13"
+}
