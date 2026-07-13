@@ -2941,3 +2941,49 @@ Generated 2 articles.
 Rebuilding site...
   Build complete — 578 HTML pages → /home/ben/nz-family-travel/docs/
   Pushed to GitHub Pages
+[main 3e835de3] Auto-generate 5 articles — 2026-07-14
+ 16 files changed, 3096 insertions(+), 433 deletions(-)
+ create mode 100644 content/posts/marlborough-blenheim-family-july-family-guide.json
+ create mode 100644 content/posts/tauranga-mount-maunganui-family-budget-family-guide-2026-07.json
+ create mode 100644 content/posts/te-puia-rotorua-family-review-2026-07.json
+ create mode 100644 docs/posts/marlborough-blenheim-family-july-family-guide/index.html
+ create mode 100644 docs/posts/tauranga-mount-maunganui-family-budget-family-guide-2026-07/index.html
+ create mode 100644 docs/posts/te-puia-rotorua-family-review-2026-07/index.html
+ create mode 100644 docs/travel-tips/marlborough-blenheim-family-july-family-guide/index.html
+ create mode 100644 docs/travel-tips/tauranga-mount-maunganui-family-budget-family-guide-2026-07/index.html
+ create mode 100644 docs/travel-tips/te-puia-rotorua-family-review-2026-07/index.html
+
+Today's 5 articles (2026-07-14):
+
+  1. [deals          ] Nelson & Abel Tasman                — nelson-abel-tasman-family-family-deals-2026-07
+     EXISTS
+  2. [month_guide    ] Marlborough & Blenheim              — marlborough-blenheim-family-july-family-guide
+     WILL GENERATE
+  3. [budget         ] Tauranga / Mount Maunganui          — tauranga-mount-maunganui-family-budget-family-guide-2026-07
+     WILL GENERATE
+  4. [activity_review] Te Puia                             — te-puia-rotorua-family-review-2026-07
+     WILL GENERATE
+  5. [hidden_gems    ] Christchurch                        — christchurch-with-kids-hidden-gems-families
+     EXISTS
+
+[1/5] Skipping (already exists): nelson-abel-tasman-family-family-deals-2026-07
+
+[2/5] Generating: marlborough-blenheim-family-july-family-guide
+  Calling Groq (llama-3.3-70b-versatile)...
+  Saved: content/posts/marlborough-blenheim-family-july-family-guide.json
+
+[3/5] Generating: tauranga-mount-maunganui-family-budget-family-guide-2026-07
+  Calling Groq (llama-3.3-70b-versatile)...
+  Saved: content/posts/tauranga-mount-maunganui-family-budget-family-guide-2026-07.json
+
+[4/5] Generating: te-puia-rotorua-family-review-2026-07
+  Calling Groq (llama-3.3-70b-versatile)...
+  Saved: content/posts/te-puia-rotorua-family-review-2026-07.json
+
+[5/5] Skipping (already exists): christchurch-with-kids-hidden-gems-families
+
+Generated 3 articles.
+
+Rebuilding site...
+  Build complete — 584 HTML pages → /home/ben/nz-family-travel/docs/
+  Pushed to GitHub Pages
