@@ -1,0 +1,71 @@
+{
+  "title": "Marlborough July Fun",
+  "short_title": "July in Marlborough",
+  "meta_desc": "Explore Marlborough and Blenheim with kids in July. Discover sunlit sounds, wildlife cruises, and NZ's sunniest wine region with a budget of $180-300/day for a family of 4.",
+  "intro": "Marlborough is the South Island's sunniest region, making it an ideal destination for families in July. With a range of activities such as dolphin watch cruises, sea kayaking, and visiting the Edwin Fox Maritime Museum, there's something for everyone. The region's sheltered swimming bays and scenic reserves are perfect for families with kids aged 5+.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Weather in July",
+      "body": "<p>July is winter in New Zealand, but Marlborough is still a great destination due to its relatively mild climate. Average highs are around 12°C, while lows can drop to 2°C. Be sure to pack warm clothing, including jackets, gloves, and scarves. </p><p>Rainfall is moderate, with an average of 12 rainy days throughout the month. However, this doesn't mean you'll be stuck inside the whole time. There are plenty of indoor activities to enjoy, such as visiting the Edwin Fox Maritime Museum or exploring the Picton township.</p>",
+      "list": [
+        "Average high: 12°C",
+        "Average low: 2°C",
+        "Average rainfall: 12 days"
+      ]
+    },
+    {
+      "heading": "What's On in July",
+      "body": "<p>In July, Marlborough hosts several events that are perfect for families. The Marlborough Wine and Food Festival may not be directly targeted at kids, but many wineries have play areas and activities for children. The Picton Winter Festival is another event that's great for families, with live music, food stalls, and kids' activities.</p><p>For outdoor enthusiasts, the Queen Charlotte Track is a must-do, even in winter. The scenic views are stunning, and the track is generally less crowded than in summer.</p>",
+      "list": [
+        "Marlborough Wine and Food Festival",
+        "Picton Winter Festival",
+        "Queen Charlotte Track"
+      ]
+    },
+    {
+      "heading": "Crowd Levels and Bookings",
+      "body": "<p>Crowd levels in July are generally lower than in summer, making it a great time to visit popular attractions without the crowds. However, it's still a good idea to book ahead for activities such as dolphin watch cruises and sea kayaking.</p><p>Accommodation prices are also lower in July, with an average cost of $150-250 per night for a family of four. Be sure to book your accommodation and activities in advance to avoid missing out.</p>",
+      "table": {
+        "headers": [
+          "Activity",
+          "Price"
+        ],
+        "rows": [
+          [
+            "Dolphin watch cruise",
+            "$80-120 per person"
+          ],
+          [
+            "Sea kayaking",
+            "$60-100 per person"
+          ],
+          [
+            "Accommodation",
+            "$150-250 per night"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Practical Tips for Families",
+      "body": "<p>When visiting Marlborough with kids in July, there are a few things to keep in mind. Firstly, be sure to pack warm clothing, including jackets, gloves, and scarves. Secondly, check the weather forecast before heading out to plan your day accordingly.</p><p>Thirdly, take advantage of the region's free activities, such as visiting the Picton foreshore and Waitohi Picton play area. Finally, consider visiting the Pelorus Bridge Scenic Reserve, which is a hidden gem with crystal-clear river swimming and stunning scenery.</p>",
+      "list": [
+        "Pack warm clothing",
+        "Check the weather forecast",
+        "Take advantage of free activities",
+        "Visit the Pelorus Bridge Scenic Reserve",
+        "Book activities and accommodation in advance"
+      ],
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "marlborough-blenheim-family-july-family-guide",
+  "updated": "July 2026",
+  "auto_generated": true,
+  "generated_date": "2026-07-14"
+}
