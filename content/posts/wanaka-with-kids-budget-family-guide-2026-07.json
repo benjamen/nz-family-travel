@@ -1,0 +1,84 @@
+{
+  "title": "Wanaka on Budget",
+  "short_title": "Wanaka",
+  "meta_desc": "Visit Wanaka on a family budget of $250-450/day. Discover free activities, accommodation options and tips to save money in this beautiful NZ town.",
+  "intro": "Wanaka is a stunning destination for families, offering a range of activities and experiences without the hefty price tag of neighbouring Queenstown. With a daily budget of $250-450 for a family of four, you can enjoy the best of Wanaka without breaking the bank. From free lakeshore walks to budget-friendly accommodation options, we've got you covered.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Accommodation Options",
+      "body": "<p>Wanaka offers a range of accommodation options to suit all budgets. For a cheap option, consider camping at the Wanaka Holiday Park, which costs around $40-60 per night for a family of four. Mid-range options include the Wanaka Kiwi Holiday Park and Motel, which costs around $150-250 per night for a family unit.</p><p>For a more luxurious stay, consider the Grand Mercure Oakridge Resort Wanaka, which costs around $350-500 per night for a family room. However, keep in mind that this is above our recommended daily budget, so it's worth considering for a special treat or a shorter stay.</p>",
+      "list": [
+        "Wanaka Holiday Park: $40-60/night",
+        "Wanaka Kiwi Holiday Park and Motel: $150-250/night",
+        "Grand Mercure Oakridge Resort Wanaka: $350-500/night"
+      ]
+    },
+    {
+      "heading": "Free Activities",
+      "body": "<p>Wanaka is surrounded by stunning natural beauty, and there are plenty of free activities to enjoy. Take a walk along the lakeshore, which offers breathtaking views of the lake and surrounding mountains. The Mt Iron track is another great option, which takes around 1.5 hours to complete and offers panoramic views of the town and lake.</p><p>Glendhu Bay is a popular spot for swimming and sunbathing, and is just a 10-minute drive from the town centre. The famous lone willow tree is also a must-see, but be sure to avoid visiting at midday when it's crowded with photographers.</p>",
+      "list": [
+        "Wanaka lakeshore walk",
+        "Mt Iron track",
+        "Glendhu Bay"
+      ]
+    },
+    {
+      "heading": "Budget Breakdown",
+      "body": "<p>To help you plan your trip, we've put together a rough 3-day budget breakdown for a family of four. This includes accommodation, food, activities and transportation.</p>",
+      "table": {
+        "headers": [
+          "Day",
+          "Accommodation",
+          "Food",
+          "Activities",
+          "Transportation",
+          "Total"
+        ],
+        "rows": [
+          [
+            "Day 1",
+            "$150",
+            "$80",
+            "$50",
+            "$20",
+            "$300"
+          ],
+          [
+            "Day 2",
+            "$150",
+            "$80",
+            "$70",
+            "$20",
+            "$320"
+          ],
+          [
+            "Day 3",
+            "$150",
+            "$80",
+            "$30",
+            "$20",
+            "$280"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Tips to Save Money",
+      "body": "<p>To save money in Wanaka, consider self-catering instead of eating out for every meal. You can buy groceries at the local supermarket and cook your own meals in your accommodation. Another tip is to take advantage of the free activities on offer, such as the lakeshore walk and Mt Iron track.</p><p>It's also worth considering visiting during the shoulder season, when prices are lower and the town is less crowded. Finally, be sure to book your accommodation and activities in advance to get the best prices.</p>"
+    },
+    {
+      "heading": "Worth Splashing Out On",
+      "body": "<p>While it's possible to have a great time in Wanaka on a budget, there are some activities that are worth splashing out on. Puzzling World is a quirky and fun attraction that's perfect for families, and costs around $20-30 per person. The Treble Cone Ski Area is also a must-visit for families who love skiing, and costs around $100-150 per person for a day pass.</p><p>The Rippon Vineyard Picnic is another great option, which offers stunning views of the lake and surrounding mountains. While it's free to visit, you'll need to bring your own food and drinks.</p>",
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "wanaka-with-kids-budget-family-guide-2026-07",
+  "updated": "July 2026",
+  "auto_generated": true,
+  "generated_date": "2026-07-15"
+}
