@@ -1,0 +1,80 @@
+{
+  "title": "Rotorua July Fun",
+  "short_title": "Rotorua July",
+  "meta_desc": "Discover Rotorua in July with kids, enjoy geothermal wonders, Maori culture, and outdoor activities, all within a budget of $250-450/day for a family of four, suitable for all ages",
+  "intro": "Rotorua is an ideal destination for a family holiday in July, offering a mix of geothermal wonders, Maori culture, and outdoor activities. With a budget of $250-450/day for a family of four, you can enjoy a range of experiences. From Te Puia to OGO Rotorua, there's something for every age group.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Weather in July",
+      "body": "<p>July is winter in Rotorua, with average high temperatures ranging from 10-12°C. It's a great time to enjoy the geothermal parks, as the cold weather makes the steam vents and hot springs even more impressive. Be sure to pack warm clothing, including jackets, gloves, and hats.</p><p>There can be some rainfall in July, so it's a good idea to bring waterproof gear and check the weather forecast before heading out. Despite the cooler weather, July is a great time to visit Rotorua, with fewer crowds and lower prices.</p>",
+      "list": [
+        "Average high temperature: 10-12°C",
+        "Average low temperature: 2-4°C",
+        "Rainfall: 12-15 days per month"
+      ]
+    },
+    {
+      "heading": "What's On in July",
+      "body": "<p>July is a great time to experience Rotorua's geothermal wonders, with the cold weather making the steam vents and hot springs even more impressive. Te Puia and Wai-O-Tapu Thermal Wonderland are must-visit attractions, with prices starting from $50 per adult and $25 per child.</p><p>The Agrodome Farm Show is another popular attraction, with prices starting from $35 per adult and $20 per child. For some adrenaline-pumping fun, head to OGO Rotorua, where you can go zorbing from $30 per person.</p>",
+      "table": {
+        "headers": [
+          "Attraction",
+          "Price (adult)",
+          "Price (child)"
+        ],
+        "rows": [
+          [
+            "Te Puia",
+            "$50",
+            "$25"
+          ],
+          [
+            "Wai-O-Tapu Thermal Wonderland",
+            "$50",
+            "$25"
+          ],
+          [
+            "Agrodome Farm Show",
+            "$35",
+            "$20"
+          ],
+          [
+            "OGO Rotorua",
+            "$30",
+            "$30"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Crowd Levels and Booking Ahead",
+      "body": "<p>July is considered low season in Rotorua, which means fewer crowds and lower prices. However, it's still a good idea to book ahead for popular attractions, especially on weekends and during school holidays.</p><p>Te Puia and Wai-O-Tapu Thermal Wonderland can get busy, even in low season, so it's a good idea to book your tickets in advance. You can also consider visiting early in the morning or later in the afternoon to avoid the crowds.</p>",
+      "list": [
+        "Book ahead for popular attractions",
+        "Visit early in the morning or later in the afternoon",
+        "Consider visiting on weekdays instead of weekends"
+      ]
+    },
+    {
+      "heading": "Practical Tips for Families",
+      "body": "<p>When visiting Rotorua with kids, it's a good idea to pack warm clothing, including jackets, gloves, and hats. You should also bring waterproof gear, in case of rain.</p><p>Consider staying in a family-friendly accommodation, such as a motel or apartment, which can provide more space and amenities for families. Some popular family-friendly activities include the Skyline Rotorua Gondola & Luge, which costs $32 per adult and $20 per child.</p>",
+      "list": [
+        "Pack warm clothing and waterproof gear",
+        "Consider staying in family-friendly accommodation",
+        "Book family-friendly activities in advance",
+        "Bring snacks and water to keep kids energized",
+        "Take breaks and rest when needed"
+      ],
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "rotorua-family-guide-july-family-guide",
+  "updated": "July 2026",
+  "auto_generated": true,
+  "generated_date": "2026-07-17"
+}
