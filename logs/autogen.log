@@ -3146,3 +3146,44 @@ Generated 1 articles.
 Rebuilding site...
   Build complete — 598 HTML pages → /home/ben/nz-family-travel/docs/
   Pushed to GitHub Pages
+[main 03f13cbe] Auto-generate 5 articles — 2026-07-19
+ 14 files changed, 2236 insertions(+), 443 deletions(-)
+ create mode 100644 content/posts/northland-cape-reinga-family-hidden-gems-families.json
+ create mode 100644 content/posts/rotorua-family-guide-family-deals-2026-07.json
+ create mode 100644 docs/posts/northland-cape-reinga-family-hidden-gems-families/index.html
+ create mode 100644 docs/posts/rotorua-family-guide-family-deals-2026-07/index.html
+ create mode 100644 docs/travel-tips/northland-cape-reinga-family-hidden-gems-families/index.html
+ create mode 100644 docs/travel-tips/rotorua-family-guide-family-deals-2026-07/index.html
+
+Today's 5 articles (2026-07-19):
+
+  1. [deals          ] Rotorua                             — rotorua-family-guide-family-deals-2026-07
+     WILL GENERATE
+  2. [month_guide    ] Marlborough & Blenheim              — marlborough-blenheim-family-july-family-guide
+     EXISTS
+  3. [budget         ] Rotorua                             — rotorua-family-guide-budget-family-guide-2026-07
+     EXISTS
+  4. [activity_review] Skyline Gondola & Luge              — skyline-gondola-luge-queenstown-family-review-2026-07
+     EXISTS
+  5. [hidden_gems    ] Northland                           — northland-cape-reinga-family-hidden-gems-families
+     WILL GENERATE
+
+[1/5] Generating: rotorua-family-guide-family-deals-2026-07
+  Calling Groq (llama-3.3-70b-versatile)...
+  Saved: content/posts/rotorua-family-guide-family-deals-2026-07.json
+
+[2/5] Skipping (already exists): marlborough-blenheim-family-july-family-guide
+
+[3/5] Skipping (already exists): rotorua-family-guide-budget-family-guide-2026-07
+
+[4/5] Skipping (already exists): skyline-gondola-luge-queenstown-family-review-2026-07
+
+[5/5] Generating: northland-cape-reinga-family-hidden-gems-families
+  Calling Groq (llama-3.3-70b-versatile)...
+  Saved: content/posts/northland-cape-reinga-family-hidden-gems-families.json
+
+Generated 2 articles.
+
+Rebuilding site...
+  Build complete — 602 HTML pages → /home/ben/nz-family-travel/docs/
+  Pushed to GitHub Pages
