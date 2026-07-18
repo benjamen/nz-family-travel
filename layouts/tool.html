@@ -5,6 +5,23 @@
 {% block canonical %}tools/{{ tool.slug }}/{% endblock %}
 
 {% block extra_head %}
+{% if tool.faq %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {% for faq in tool.faq %}
+    {
+      "@type": "Question",
+      "name": {{ faq.question | tojson }},
+      "acceptedAnswer": {"@type": "Answer", "text": {{ faq.answer | tojson }}}
+    }{% if not loop.last %},{% endif %}
+    {% endfor %}
+  ]
+}
+</script>
+{% endif %}
 <style>
 .tool-container { background: #f9fafb; border: 1px solid #e5e7eb; border-radius: 12px; padding: 2rem; margin: 1.5rem 0; }
 .tool-row { display: flex; gap: 1rem; align-items: center; margin-bottom: 1rem; flex-wrap: wrap; }
@@ -47,6 +64,20 @@
 <section class="section">
   {{ tool.html_content }}
 </section>
+
+{% if tool.faq %}
+<section class="section faq-section">
+  <h2>Frequently Asked Questions</h2>
+  <div class="faq-list">
+    {% for faq in tool.faq %}
+    <details class="faq-item">
+      <summary>{{ faq.question }}</summary>
+      <div class="faq-answer">{{ faq.answer }}</div>
+    </details>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
 
 <!-- Affiliate suggestions from results -->
 <section class="section section-alt">

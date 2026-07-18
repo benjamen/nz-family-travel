@@ -80,6 +80,7 @@
   ]
   </script>
   
+
 <style>
 .tool-container { background: #f9fafb; border: 1px solid #e5e7eb; border-radius: 12px; padding: 2rem; margin: 1.5rem 0; }
 .tool-row { display: flex; gap: 1rem; align-items: center; margin-bottom: 1rem; flex-wrap: wrap; }
@@ -163,6 +164,8 @@
   <div class='tool-container'><h2 style='margin-top:0'>Your NZ Family Trip Budget</h2><div class='tool-row'><label>Number of adults</label><input type='number' id='adults' value='2' min='1' max='6' onchange='calcBudget()'></div><div class='tool-row'><label>Number of children</label><input type='number' id='children' value='2' min='0' max='6' onchange='calcBudget()'></div><div class='tool-row'><label>Number of days</label><input type='number' id='days' value='10' min='2' max='30' onchange='calcBudget()'></div><div class='tool-row'><label>Accommodation type</label><select id='accom' onchange='calcBudget()'><option value='campervan_budget'>Budget campervan (Jucy/Mighty)</option><option value='campervan_mid'>Mid-range campervan (Maui/Britz)</option><option value='holiday_park'>Holiday park (cabin/unit)</option><option value='motel'>Mid-range motel/hotel</option><option value='hotel'>Premium hotel</option></select></div><div class='tool-row'><label>Activity level</label><select id='actlevel' onchange='calcBudget()'><option value='low'>Low (free + 1-2 paid activities)</option><option value='mid' selected>Medium (2-3 paid activities/day)</option><option value='high'>High (full activity days)</option></select></div><div class='tool-row'><label>Island</label><select id='island' onchange='calcBudget()'><option value='north'>North Island</option><option value='south' selected>South Island</option><option value='both'>Both islands</option></select></div><button class='btn-calculate' onclick='calcBudget()'>Calculate Budget</button><div class='tool-result' id='result'><h3 style='margin-top:0'>Estimated Total Budget</h3><div class='result-grid' id='result-grid'></div><p id='result-note' style='margin-top:1rem;font-size:.88rem;color:#6b7280'></p></div></div><script>const ACCOM={campervan_budget:{perNight:35,vanPerDay:140,label:'Budget campervan'},campervan_mid:{perNight:35,vanPerDay:210,label:'Mid-range campervan'},holiday_park:{perNight:140,vanPerDay:0,label:'Holiday park'},motel:{perNight:200,vanPerDay:0,label:'Motel/Hotel'},hotel:{perNight:320,vanPerDay:0,label:'Premium hotel'}};const ACT={low:{perDay:60},mid:{perDay:150},high:{perDay:280}};function calcBudget(){const adults=+document.getElementById('adults').value;const children=+document.getElementById('children').value;const days=+document.getElementById('days').value;const accomKey=document.getElementById('accom').value;const actKey=document.getElementById('actlevel').value;const island=document.getElementById('island').value;const pax=adults+children;const accom=ACCOM[accomKey];const fuelKm=island==='both'?2000:island==='south'?1400:650;const fuelCost=Math.round(fuelKm*0.25);const accomCost=Math.round((accom.perNight+accom.vanPerDay)*days);const actCost=Math.round(ACT[actKey].perDay*pax*days);const foodCost=Math.round((accomKey.includes('campervan')?55:95)*pax*days*0.6);const total=accomCost+actCost+foodCost+fuelCost;const rg=document.getElementById('result-grid');rg.innerHTML=`<div class='result-item'><span class='result-val'>$${accomCost.toLocaleString()}</span><span class='result-label'>${accom.label}</span></div><div class='result-item'><span class='result-val'>$${actCost.toLocaleString()}</span><span class='result-label'>Activities</span></div><div class='result-item'><span class='result-val'>$${foodCost.toLocaleString()}</span><span class='result-label'>Food & groceries</span></div><div class='result-item'><span class='result-val'>$${fuelCost.toLocaleString()}</span><span class='result-label'>Fuel (~${fuelKm}km)</span></div><div class='result-item' style='background:#dbeafe'><span class='result-val' style='font-size:2rem'>$${total.toLocaleString()}</span><span class='result-label'>TOTAL ESTIMATE</span></div><div class='result-item'><span class='result-val'>$${Math.round(total/days).toLocaleString()}</span><span class='result-label'>Per day</span></div>`;document.getElementById('result-note').textContent=`This is an indicative budget for ${pax} people (${adults} adult${adults>1?'s':''}, ${children} child${children!==1?'ren':''}) over ${days} days. Actual costs will vary. Activities are the most flexible cost — free activities (Huka Falls, Queenstown foreshore, DOC walks) can significantly reduce your budget.`;}calcBudget();</script>
 </section>
 
+
+
 <!-- Affiliate suggestions from results -->
 <section class="section section-alt">
   <h2>Based on Your Trip — Useful Links</h2>
@@ -231,8 +234,8 @@
     
     <a href="/tools/nz-school-holidays-2027/" class="tool-card">
       <span class="tool-icon">📅</span>
-      <h3>NZ School Holidays 2027 — Dates, Crowd Levels & Booking Tips</h3>
-      <p>All NZ school holiday dates for 2027 with crowd impact ratings, accommodation price warnings, and the best times to book flights and accommodation in advance.</p>
+      <h3>NZ School Holidays 2027 — All Term Dates & Holiday Planner</h3>
+      <p>Every 2027 NZ school holiday — April, July and September breaks plus summer — with official term dates, crowd levels and how far ahead to book each one.</p>
     </a>
     
     <a href="/tools/nz-trip-cost-by-destination/" class="tool-card">
@@ -422,7 +425,7 @@
             
             <li><a href="/tools/nz-school-holidays-2026/">NZ School Holidays 2026-2027 — Family Travel Planner</a></li>
             
-            <li><a href="/tools/nz-school-holidays-2027/">NZ School Holidays 2027 — Dates, Crowd Levels & Booking Tips</a></li>
+            <li><a href="/tools/nz-school-holidays-2027/">NZ School Holidays 2027 — All Term Dates & Holiday Planner</a></li>
             
             <li><a href="/tools/nz-trip-cost-by-destination/">NZ Trip Cost Estimator — By Destination & Stay Length</a></li>
             
