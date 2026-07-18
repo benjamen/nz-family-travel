@@ -1,0 +1,57 @@
+{
+  "title": "Northland's Hidden Gems",
+  "short_title": "Northland Secrets",
+  "meta_desc": "Discover Northland's lesser-known spots, perfect for families with kids, from secluded beaches to historic sites, with practical info on how to get there, costs, and age suitability",
+  "intro": "Northland, New Zealand, is a treasure trove of natural wonders and historical sites, but some of its best spots are off the beaten path. For families with kids, finding these hidden gems can make for an unforgettable holiday. From secluded beaches to scenic walks and historic sites, we've uncovered the secrets that most NZ families miss.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Secluded Beaches",
+      "body": "<p>Matai Bay, located on the Karikari Peninsula, is a must-visit for families. This stunning spot boasts two beaches facing different directions, with protected water perfect for kids to swim and play. With barely any signage, it's a true hidden gem.</p> <p>Tokerau Beach, also on the Karikari Peninsula, is another gem that's often overlooked. Considered one of NZ's finest beaches, it's almost deserted outside of the New Year period, making it an ideal spot for families to relax and enjoy quality time together.</p>",
+      "list": [
+        "Matai Bay: $0 (free), 1-hour drive from Kaitaia, suitable for ages 4+",
+        "Tokerau Beach: $0 (free), 1.5-hour drive from Kaitaia, suitable for ages 4+"
+      ]
+    },
+    {
+      "heading": "Scenic Walks and Views",
+      "body": "<p>The Cape Reinga walkway is a 30-minute return walk to the very tip of NZ, where the Tasman Sea meets the Pacific Ocean. This scenic walk is free and suitable for families with kids aged 4+.</p> <p>The Mangawhai Heads beach walk and estuary is another scenic spot that's perfect for families. With stunning views and a range of wildlife, it's a great place to explore and learn about the local environment.</p>",
+      "list": [
+        "Cape Reinga walkway: $0 (free), 1-hour drive from Kaitaia, suitable for ages 4+",
+        "Mangawhai Heads beach walk and estuary: $0 (free), 2.5-hour drive from Auckland, suitable for ages 4+"
+      ]
+    },
+    {
+      "heading": "Insider Tips",
+      "body": "<p>For a unique and memorable experience, consider driving along Ninety Mile Beach, but be sure to bring a 4WD vehicle as most points are only accessible with four-wheel drive. You can also walk and watch the sunset, which is truly breathtaking.</p> <p>Another insider tip is to visit the Kauri Museum in Matakohe, which offers a range of interactive exhibits and displays that are perfect for kids. With a cost of $25 per adult and $10 per child, it's a great value for families.</p>",
+      "table": {
+        "headers": [
+          "Activity",
+          "Cost",
+          "Age Suitability"
+        ],
+        "rows": [
+          [
+            "Ninety Mile Beach driving",
+            "$0 (free, but 4WD required)",
+            "4+"
+          ],
+          [
+            "Kauri Museum",
+            "$25 (adult), $10 (child)",
+            "4+"
+          ]
+        ]
+      },
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "northland-cape-reinga-family-hidden-gems-families",
+  "updated": "July 2026",
+  "auto_generated": true,
+  "generated_date": "2026-07-19"
+}

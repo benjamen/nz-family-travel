@@ -1,0 +1,68 @@
+{
+  "title": "Rotorua Family Deals",
+  "short_title": "Rotorua",
+  "meta_desc": "Discover the best family deals in Rotorua, including activity discounts, campervan hire, and travel insurance. Book now and save up to 40% on activities with Bookme.co.nz",
+  "intro": "Rotorua is an ideal destination for families, offering a range of activities and attractions that cater to all ages. With its geothermal wonders, Maori culture, and adventure activities, Rotorua is a must-visit destination for any family. To help you plan your trip, we've put together the best family deals in Rotorua, including discounts on activities, campervan hire, and travel insurance.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Current Booking Deals and Discounts",
+      "body": "<p>Bookme.co.nz is currently offering up to 40% off activities in Rotorua, including Te Puia, Wai-O-Tapu Thermal Wonderland, and Skyline Rotorua Gondola & Luge. You can also save on campervan hire with Discover Cars, with prices starting from $89 per day. Additionally, Booking.com is offering free cancellation on most holiday park and motel bookings.</p><p>Cover-More travel insurance is also available, with comprehensive cover from $4.50 per day. With these deals, you can plan your family trip to Rotorua without breaking the bank.</p>",
+      "list": [
+        "Up to 40% off activities with Bookme.co.nz",
+        "Campervan hire from $89 per day with Discover Cars",
+        "Free cancellation on most holiday park and motel bookings with Booking.com",
+        "Comprehensive travel insurance from $4.50 per day with Cover-More"
+      ]
+    },
+    {
+      "heading": "Best-Value Activities in Rotorua",
+      "body": "<p>Some of the best-value activities in Rotorua include Te Puia, which offers a geothermal park and Maori arts experience for around $50 per person. Wai-O-Tapu Thermal Wonderland is another must-visit attraction, with prices starting from $32 per person. The Skyline Rotorua Gondola & Luge is also a great option, with prices from $32 per person.</p><p>For a more budget-friendly option, consider visiting the Government Gardens and croquet lawn, or taking a walk along the Lake Rotorua foreshore. Kuirau Park is also a great place to visit, with its free geothermal park and bubbling mud pools.</p>",
+      "table": {
+        "headers": [
+          "Activity",
+          "Price (per person)"
+        ],
+        "rows": [
+          [
+            "Te Puia",
+            "$50"
+          ],
+          [
+            "Wai-O-Tapu Thermal Wonderland",
+            "$32"
+          ],
+          [
+            "Skyline Rotorua Gondola & Luge",
+            "$32"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Money-Saving Tips for Families",
+      "body": "<p>To save money on your family trip to Rotorua, consider booking your activities and accommodation in advance. You can also save by purchasing a family pass for attractions, rather than individual tickets. Additionally, look out for package deals that include accommodation and activities, as these can often be more cost-effective than booking separately.</p><p>Here are some specific money-saving tips for families:</p>",
+      "list": [
+        "Book activities and accommodation in advance to save up to 40%",
+        "Purchase a family pass for attractions to save on individual ticket prices",
+        "Look out for package deals that include accommodation and activities",
+        "Consider visiting during the off-season to save on accommodation and activity prices",
+        "Pack your own snacks and meals to save on food costs",
+        "Take advantage of free activities, such as visiting the Government Gardens and croquet lawn"
+      ]
+    },
+    {
+      "heading": "When to Book for the Best Prices",
+      "body": "<p>To get the best prices on activities and accommodation in Rotorua, it's a good idea to book in advance. Many attractions and accommodation providers offer discounts for early bookings, so it's worth planning your trip ahead of time. Additionally, consider visiting during the off-season, as prices tend to be lower during this time.</p><p>Bookme.co.nz is a great resource for finding deals and discounts on activities in Rotorua, and you can often save up to 40% by booking through their website.</p>",
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "rotorua-family-guide-family-deals-2026-07",
+  "updated": "July 2026",
+  "auto_generated": true,
+  "generated_date": "2026-07-19"
+}

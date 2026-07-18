@@ -3110,3 +3110,39 @@ Generated 2 articles.
 Rebuilding site...
   Build complete — 596 HTML pages → /home/ben/nz-family-travel/docs/
   Pushed to GitHub Pages
+[main ce20acb8] Auto-generate 5 articles — 2026-07-18
+ 10 files changed, 1310 insertions(+), 442 deletions(-)
+ create mode 100644 content/posts/west-coast-family-guide-family-deals-2026-07.json
+ create mode 100644 docs/posts/west-coast-family-guide-family-deals-2026-07/index.html
+ create mode 100644 docs/travel-tips/west-coast-family-guide-family-deals-2026-07/index.html
+
+Today's 5 articles (2026-07-18):
+
+  1. [deals          ] West Coast                          — west-coast-family-guide-family-deals-2026-07
+     WILL GENERATE
+  2. [month_guide    ] Rotorua                             — rotorua-family-guide-july-family-guide
+     EXISTS
+  3. [budget         ] Coromandel                          — coromandel-with-kids-budget-family-guide-2026-07
+     EXISTS
+  4. [activity_review] Driving Creek Railway               — driving-creek-railway-coromandel-family-review-2026-07
+     EXISTS
+  5. [hidden_gems    ] Bay of Islands                      — bay-of-islands-family-hidden-gems-families
+     EXISTS
+
+[1/5] Generating: west-coast-family-guide-family-deals-2026-07
+  Calling Groq (llama-3.3-70b-versatile)...
+  Saved: content/posts/west-coast-family-guide-family-deals-2026-07.json
+
+[2/5] Skipping (already exists): rotorua-family-guide-july-family-guide
+
+[3/5] Skipping (already exists): coromandel-with-kids-budget-family-guide-2026-07
+
+[4/5] Skipping (already exists): driving-creek-railway-coromandel-family-review-2026-07
+
+[5/5] Skipping (already exists): bay-of-islands-family-hidden-gems-families
+
+Generated 1 articles.
+
+Rebuilding site...
+  Build complete — 598 HTML pages → /home/ben/nz-family-travel/docs/
+  Pushed to GitHub Pages
