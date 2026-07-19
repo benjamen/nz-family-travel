@@ -1,78 +1,85 @@
 {
   "slug": "nz-school-holidays-travel-tips",
-  "short_title": "School Holiday Tips",
+  "short_title": "School Holidays Tips",
   "title": "NZ School Holidays Travel Tips — How to Beat the Crowds and Save Money",
-  "meta_desc": "Discover how to save money and avoid crowds during NZ school holidays with our expert travel tips",
-  "intro": "If you're planning a family trip during the NZ school holidays, you'll know that prices for accommodation and activities can skyrocket. For example, a weekend stay at the Novotel Auckland Ellerslie can cost upwards of $420 per night during peak season. But with some insider knowledge, you can beat the crowds and save money. Here's how to make the most of your family vacation without breaking the bank.",
+  "meta_desc": "Discover how to save money and avoid crowds during NZ school holidays with our expert travel tips and tricks",
+  "intro": "If you're planning to travel during the NZ school holidays, be prepared for peak prices and crowds. However, with some insider knowledge, you can save up to 30% on accommodation and activities. In this article, we'll share our top tips for beating the crowds and saving money during the school holidays.",
   "updated": "July 2026",
   "reading_time": 10,
   "sections": [
     {
-      "heading": "Plan Ahead to Save Money",
-      "body": "Booking your accommodation and activities well in advance can save you a significant amount of money. For instance, booking a campsite at the Top 10 Holiday Resort in Rotorua 6 months ahead of time can cost around $40 per night, compared to $60 per night if you book just a week in advance. Additionally, consider booking a campervan instead of a hotel room, which can be a cost-effective option for families."
+      "heading": "Plan Ahead and Book Early",
+      "body": "Booking your accommodation and activities well in advance can save you a significant amount of money. For example, a family room at the Novotel Auckland Airport can cost upwards of $400 per night during peak season, but booking 6 months in advance can reduce the price to around $280 per night."
     },
     {
       "heading": "Peak vs Off-Peak Pricing",
       "table": {
         "headers": [
-          "Accommodation Type",
-          "Peak Season Price (per night)",
-          "Off-Peak Season Price (per night)"
+          "Destination",
+          "Peak Season Price",
+          "Off-Peak Season Price"
         ],
         "rows": [
           [
-            "Novotel Auckland Ellerslie",
-            "$420",
-            "$280"
+            "Queenstown",
+            "$250 per night",
+            "$180 per night"
           ],
           [
-            "Top 10 Holiday Resort Rotorua Campsite",
-            "$60",
-            "$40"
+            "Rotorua",
+            "$200 per night",
+            "$150 per night"
           ],
           [
-            "Queenstown Lakeview Holiday Park Campsite",
-            "$80",
-            "$50"
+            "Auckland",
+            "$300 per night",
+            "$220 per night"
           ]
         ]
       }
     },
     {
-      "heading": "Alternative Destinations",
+      "heading": "Travel During the Shoulder Season",
+      "body": "If you can, try to travel during the shoulder season, which is the period between the peak and off-peak seasons. This can be a great way to save money and avoid the crowds. For example, the drive from Auckland to Rotorua takes around 3 hours, and during the shoulder season, you can often find accommodation prices reduced by up to 20%."
+    },
+    {
+      "heading": "Top Destinations for Families",
       "list": [
-        "Consider visiting the South Island's West Coast instead of Queenstown, where you can find more affordable accommodation options and fewer crowds",
-        "Head to the Bay of Islands instead of Auckland, where you can enjoy beautiful beaches and outdoor activities at a lower cost",
-        "Visit the Hawke's Bay region, which offers a range of family-friendly activities and affordable accommodation options"
+        "Queenstown: ski resorts, hiking trails, and scenic flights from $100 per person",
+        "Rotorua: geothermal parks, water parks, and Maori cultural experiences from $50 per person",
+        "Auckland: museums, zoos, and theme parks from $20 per person"
       ]
     },
     {
-      "heading": "Drive Times and Distances",
-      "body": "When planning your road trip, be sure to factor in drive times and distances to avoid spending too much time in the car. For example, the drive from Auckland to Rotorua takes around 3 hours, while the drive from Queenstown to Wanaka takes around 1 hour. Be sure to check the weather forecast and road conditions before embarking on your journey."
+      "heading": "Save Money on Activities",
+      "body": "Instead of buying individual tickets for activities, consider purchasing a family pass or package deal. For example, a family pass to the Skyline Gondola in Queenstown can cost around $120, but a package deal that includes lunch and a scenic flight can cost around $250, saving you up to $100 per person."
     },
     {
-      "heading": "Budgeting for Your Trip",
-      "body": "Creating a budget for your trip can help you stay on track and avoid overspending. Consider using our NZ Family Travel Budget Calculator to get an estimate of your expenses. You can also set aside a daily allowance for food and activities to help stick to your budget.",
+      "heading": "Get the Best Deals on Accommodation",
       "cta": {
-        "text": "Try our NZ Family Travel Budget Calculator",
+        "text": "Use our NZ Family Travel Budget Calculator to find the best deals on accommodation",
         "url": "/tools/nz-family-travel-budget-calculator/",
         "affiliate": false
       }
     },
     {
-      "heading": "Choosing the Right Accommodation",
-      "body": "When it comes to choosing accommodation, consider what's most important to your family. If you're looking for a luxury experience, you may want to consider a high-end hotel. However, if you're on a budget, a campervan or holiday park may be a more affordable option. Be sure to read reviews and check the amenities before making a decision.",
+      "heading": "Explore More of NZ with a Campervan",
+      "body": "Consider renting a campervan for your next family road trip. With prices starting from around $100 per day, it can be a cost-effective and flexible way to travel. Check out our campervan section for more information and to book your next adventure.",
       "cta": {
-        "text": "Explore our campervan options",
+        "text": "Rent a campervan for your next family road trip",
         "url": "/campervans/",
         "affiliate": false
       }
     },
     {
-      "heading": "More Travel Tips and Inspiration",
-      "body": "For more travel tips and inspiration, be sure to check out our destinations page, where you can find information on popular family-friendly destinations around New Zealand.",
+      "heading": "Start Planning Your Next Family Adventure",
+      "list": [
+        "Check out our destinations section for more information on top family-friendly destinations in NZ",
+        "Use our budget calculator to plan your trip and save money",
+        "Book your accommodation and activities in advance to avoid peak season prices"
+      ],
       "cta": {
-        "text": "Explore our destinations page",
+        "text": "Explore our destinations section for more family travel ideas",
         "url": "/destinations/",
         "affiliate": false
       }
