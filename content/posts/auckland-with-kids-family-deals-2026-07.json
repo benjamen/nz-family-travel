@@ -1,0 +1,72 @@
+{
+  "title": "Auckland Family Deals",
+  "short_title": "Akl Deals",
+  "meta_desc": "Discover the best family deals in Auckland, including activity discounts, campervan hire, and travel insurance, to plan an affordable and fun family holiday in July 2026.",
+  "intro": "Auckland is a fantastic destination for families, with a wide range of activities and attractions to suit all ages and budgets. With the right deals and discounts, you can have a fun and memorable holiday without breaking the bank. In this article, we'll share the best family deals in Auckland, including current booking discounts and money-saving tips.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Current Booking Deals",
+      "body": "<p>Bookme.co.nz is offering up to 40% off Auckland activities, including Kelly Tarlton's SEA LIFE Aquarium, Auckland Zoo, and Sky Tower. This is a great way to save money on some of Auckland's most popular attractions. Additionally, Discover Cars has family campervans available from $89/day, which can be a cost-effective way to explore the city and surrounding areas.</p> <p>Cover-More travel insurance is also available from $4.50/day, providing comprehensive cover for your family holiday. Booking.com has a range of holiday parks and motels in Auckland, with free cancellation on most bookings.</p>",
+      "list": [
+        "Up to 40% off Auckland activities with Bookme.co.nz",
+        "Family campervans from $89/day with Discover Cars",
+        "Comprehensive travel insurance from $4.50/day with Cover-More"
+      ]
+    },
+    {
+      "heading": "Best-Value Activities",
+      "body": "<p>Auckland has a wide range of activities and attractions that are great value for families. Some of the best-value activities include visiting the Auckland Zoo, which costs around $25 per adult and $13 per child, and taking a ferry trip to Waiheke Island, which costs around $40 per adult and $20 per child return.</p> <p>The Sky Tower observation deck is also a great value activity, with prices starting from around $32 per adult and $16 per child. Kelly Tarlton's SEA LIFE Aquarium is another popular attraction, with prices starting from around $39 per adult and $24 per child.</p>",
+      "table": {
+        "headers": [
+          "Activity",
+          "Price (Adult)",
+          "Price (Child)"
+        ],
+        "rows": [
+          [
+            "Auckland Zoo",
+            "$25",
+            "$13"
+          ],
+          [
+            "Waiheke Island ferry trip",
+            "$40",
+            "$20"
+          ],
+          [
+            "Sky Tower observation deck",
+            "$32",
+            "$16"
+          ],
+          [
+            "Kelly Tarlton's SEA LIFE Aquarium",
+            "$39",
+            "$24"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Money-Saving Tips",
+      "body": "<p>Here are some money-saving tips to help you plan an affordable family holiday in Auckland:</p>",
+      "list": [
+        "Book your activities and accommodation in advance to get the best prices",
+        "Consider visiting during the off-season (April to May or September to November) when prices are lower",
+        "Look for package deals that include accommodation, activities, and transport",
+        "Use public transport or walk/bike whenever possible to save on transport costs",
+        "Pack your own food and snacks instead of buying them at attractions or restaurants",
+        "Take advantage of free activities such as visiting the beach or going for a walk in one of Auckland's many parks"
+      ],
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "auckland-with-kids-family-deals-2026-07",
+  "updated": "July 2026",
+  "auto_generated": true,
+  "generated_date": "2026-07-21"
+}

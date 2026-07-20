@@ -1,0 +1,54 @@
+{
+  "title": "Wellington Hidden Gems",
+  "short_title": "Welly Secrets",
+  "meta_desc": "Discover Wellington's best-kept secrets for families, from free activities to hidden spots that will make your trip unforgettable, all for $200-380/day for a family of 4.",
+  "intro": "Wellington, the coolest little capital in the world, is full of surprises for families. While many visitors flock to Te Papa and the Wellington Cable Car, there are plenty of hidden gems to explore. From scenic beaches to secret gardens, we've got the inside scoop on the best-kept secrets in Wellington.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Kāpiti Island Day Trips",
+      "body": "<p>Just off the coast of Wellington, Kāpiti Island is a nature lover's paradise. This predator-free island is home to a stunning array of native birds, including kiwi, tuatara, and little penguins. To visit, you'll need to pre-book a DOC permit, which costs $16 per adult and $8 per child.</p> <p>The island is accessible by ferry from Paraparaumu, which takes around 15 minutes. The ferry ride itself is an adventure, with the chance to spot dolphins and other marine life. Once on the island, you can explore the scenic trails, visit the historic lighthouse, and enjoy a picnic lunch.</p>",
+      "list": [
+        "Pre-book DOC permit: $16/adult, $8/child",
+        "Ferry ride from Paraparaumu: 15 minutes",
+        "Suitable for ages: 5 and up"
+      ]
+    },
+    {
+      "heading": "Makara Beach",
+      "body": "<p>Located just 30 minutes from Wellington's CBD, Makara Beach is a hidden gem that's perfect for families. This wild west coast beach is almost untouched by tourists, making it a great spot for rock pooling and exploring. The beach is also home to a historic lighthouse and stunning coastal views.</p> <p>To get to Makara Beach, simply drive west from Wellington and follow the signs. There are no entry fees, and the beach is suitable for all ages. Be sure to pack a picnic lunch and make a day of it.</p>",
+      "list": [
+        "Drive time from Wellington: 30 minutes",
+        "No entry fees",
+        "Suitable for all ages"
+      ]
+    },
+    {
+      "heading": "Wellington Botanic Garden",
+      "body": "<p>The Wellington Botanic Garden is a beautiful spot for a family picnic or stroll. Located at the top of the cable car, the garden features a stunning array of native and exotic plants, as well as a playground and picnic areas.</p> <p>One of the best things about the garden is that it's free to visit, making it a great activity for families on a budget. You can also walk back down through the garden, taking in the scenic views and stopping at the playground along the way.</p>",
+      "list": [
+        "Free entry",
+        "Suitable for all ages",
+        "Accessible by cable car or on foot"
+      ]
+    },
+    {
+      "heading": "Insider Tips",
+      "body": "<p>Wellington is known for its windy weather, so it's a good idea to have some indoor backup options up your sleeve. The Te Papa Museum is a great place to spend a rainy day, with plenty of interactive exhibits and activities for kids.</p> <p>Another insider tip is to take a stroll along the Wellington waterfront, which features a playground, picnic areas, and stunning views of the harbor. You can also visit the nearby Frank Kitts Park, which has a great playground and plenty of green space for a picnic or game of cricket.</p>",
+      "list": [
+        "Te Papa Museum: free entry to permanent collection",
+        "Wellington waterfront: free, suitable for all ages",
+        "Frank Kitts Park: free, suitable for all ages"
+      ],
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "wellington-with-kids-hidden-gems-families",
+  "updated": "July 2026",
+  "auto_generated": true,
+  "generated_date": "2026-07-21"
+}
