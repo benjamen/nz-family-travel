@@ -1,0 +1,61 @@
+{
+  "title": "Queenstown in July",
+  "short_title": "Winter Fun",
+  "meta_desc": "Discover the best of Queenstown in July with kids, including winter activities, crowd levels, and practical tips for a fun family holiday in the adventure capital of the world.",
+  "intro": "Queenstown is a winter wonderland in July, with snow-capped mountains, crisp air, and plenty of family-friendly activities to enjoy. The average high temperature is around 8°C, with lows of 0°C, making it ideal for skiing, snowboarding, and other winter sports. With some planning, you can have a fantastic family holiday in Queenstown without breaking the bank.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Weather and What's On",
+      "body": "<p>July is one of the coldest months in Queenstown, but it's also a great time to enjoy winter sports and activities. The town hosts several events during this month, including the Queenstown Winter Festival, which features live music, fireworks, and ski competitions.</p> <p>The festival usually takes place in late June and early July, but it's best to check the official website for exact dates and schedules. Other events include the Remarkables Market, which takes place every Saturday during the summer months, but some special winter events may be held in July.</p>",
+      "list": [
+        "Queenstown Winter Festival",
+        "Remarkables Market winter events"
+      ]
+    },
+    {
+      "heading": "Best Activities for Families",
+      "body": "<p>Some of the best activities for families in Queenstown include the Skyline Gondola and Luge, Ziptrek Ecotours, and the Queenstown Ice Arena. The gondola and luge are a must-do, with breathtaking views of the town and lake, and the luge is a fun activity for kids of all ages.</p> <p>The ice arena is another great place to visit, with public skating sessions and ice hockey games. Prices start from $20 per person for the gondola and luge, and $15 per person for ice skating.</p>",
+      "table": {
+        "headers": [
+          "Activity",
+          "Price (per person)"
+        ],
+        "rows": [
+          [
+            "Skyline Gondola and Luge",
+            "$20-$30"
+          ],
+          [
+            "Queenstown Ice Arena",
+            "$15-$25"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Crowd Levels and Booking Ahead",
+      "body": "<p>July is a popular time to visit Queenstown, especially during the school holidays. It's essential to book your accommodations and activities ahead of time to avoid high prices and availability issues.</p> <p>Some activities, such as the Skyline Gondola and Luge, can get quite busy, especially during peak hours. Consider visiting early in the morning or later in the evening to avoid the crowds.</p>"
+    },
+    {
+      "heading": "Practical Tips for Families",
+      "body": "<p>Here are some practical tips for families visiting Queenstown in July:</p>",
+      "list": [
+        "Book your accommodations and activities ahead of time to avoid high prices and availability issues",
+        "Pack warm clothing, including jackets, gloves, and hats",
+        "Consider purchasing a Queenstown Card, which grants you access to several attractions and activities at a discounted price",
+        "Take advantage of free activities, such as the Queenstown Gardens and frisbee golf, and the Lake Wakatipu foreshore walk",
+        "Check the weather forecast before heading out and plan your activities accordingly"
+      ],
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "queenstown-with-kids-july-family-guide",
+  "updated": "July 2026",
+  "auto_generated": true,
+  "generated_date": "2026-07-22"
+}
