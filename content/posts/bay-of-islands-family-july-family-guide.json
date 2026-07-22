@@ -1,0 +1,75 @@
+{
+  "title": "Bay of Islands July",
+  "short_title": "BOI July",
+  "meta_desc": "Discover the best of Bay of Islands in July with kids. Enjoy dolphin watching cruises, Waitangi Treaty Grounds, and warm water activities with a budget of $250-450/day for a family of 4.",
+  "intro": "The Bay of Islands is a fantastic winter destination for families, with temperatures ranging from 10-16 degrees Celsius. July is a great time to visit with kids, with plenty of indoor and outdoor activities to enjoy. From dolphin watching cruises to exploring the Waitangi Treaty Grounds, there's something for everyone in the Bay of Islands.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Weather and What's On",
+      "body": "<p>July is winter in the Bay of Islands, but the region still experiences mild temperatures, making it an ideal destination for families. Average highs are around 16 degrees Celsius, while average lows are around 10 degrees Celsius. <p>There are several events and activities happening in the Bay of Islands in July, including the Bay of Islands Winter Festival, which features live music, food stalls, and kids' activities.",
+      "list": [
+        "Bay of Islands Winter Festival",
+        "Waitangi Treaty Grounds guided tours",
+        "Dolphin watching cruises"
+      ]
+    },
+    {
+      "heading": "Best Activities for July",
+      "body": "<p>Some of the best activities to enjoy in the Bay of Islands in July include dolphin watching cruises, which cost around $100-$150 per person, and visiting the Waitangi Treaty Grounds, which costs around $50-$70 per person. <p>Another great activity is the Hole in the Rock cruise, which costs around $120-$180 per person. For a more budget-friendly option, consider a walk to Haruru Falls, which is free and takes around 20 minutes from the car park.",
+      "table": {
+        "headers": [
+          "Activity",
+          "Price (per person)"
+        ],
+        "rows": [
+          [
+            "Dolphin watching cruise",
+            "$100-$150"
+          ],
+          [
+            "Waitangi Treaty Grounds",
+            "$50-$70"
+          ],
+          [
+            "Hole in the Rock cruise",
+            "$120-$180"
+          ],
+          [
+            "Haruru Falls walk",
+            "Free"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Crowd Levels and Booking Ahead",
+      "body": "<p>Crowd levels in the Bay of Islands are generally lower in July compared to the peak summer months. However, it's still a good idea to book ahead for popular activities such as dolphin watching cruises and the Hole in the Rock cruise. <p>Accommodation options are also more readily available in July, with prices starting from around $150-$250 per night for a family of four.",
+      "list": [
+        "Book dolphin watching cruises in advance",
+        "Book Hole in the Rock cruise in advance",
+        "Consider a private island sailing tour"
+      ]
+    },
+    {
+      "heading": "Practical Tips for Families",
+      "body": "<p>Here are some practical tips for families visiting the Bay of Islands in July: <p>pack warm clothing, including jackets and gloves, as it can get chilly in the evenings. Consider renting a car to get around, as public transport options are limited. Don't forget to bring sunscreen and hats, as the sun can still be strong during the day.",
+      "list": [
+        "Pack warm clothing",
+        "Rent a car",
+        "Bring sunscreen and hats",
+        "Book accommodation with a kitchen to save on food costs",
+        "Consider a budget of $250-450 per day for a family of four"
+      ],
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "bay-of-islands-family-july-family-guide",
+  "updated": "July 2026",
+  "auto_generated": true,
+  "generated_date": "2026-07-23"
+}
