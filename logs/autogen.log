@@ -3315,3 +3315,44 @@ Generated 1 articles.
 Rebuilding site...
   Build complete — 616 HTML pages → /home/ben/nz-family-travel/docs/
   Pushed to GitHub Pages
+[main cfe0d31e] Auto-generate 5 articles — 2026-07-23
+ 13 files changed, 2230 insertions(+), 452 deletions(-)
+ create mode 100644 content/posts/bay-of-islands-family-july-family-guide.json
+ create mode 100644 content/posts/hot-water-beach-coromandel-family-review-2026-07.json
+ create mode 100644 docs/posts/bay-of-islands-family-july-family-guide/index.html
+ create mode 100644 docs/posts/hot-water-beach-coromandel-family-review-2026-07/index.html
+ create mode 100644 docs/travel-tips/bay-of-islands-family-july-family-guide/index.html
+ create mode 100644 docs/travel-tips/hot-water-beach-coromandel-family-review-2026-07/index.html
+
+Today's 5 articles (2026-07-23):
+
+  1. [deals          ] Hawke's Bay                         — hawkes-bay-family-guide-family-deals-2026-07
+     EXISTS
+  2. [month_guide    ] Bay of Islands                      — bay-of-islands-family-july-family-guide
+     WILL GENERATE
+  3. [budget         ] Taupo                               — taupo-with-kids-budget-family-guide-2026-07
+     EXISTS
+  4. [activity_review] Hot Water Beach                     — hot-water-beach-coromandel-family-review-2026-07
+     WILL GENERATE
+  5. [hidden_gems    ] Fiordland & Milford Sound           — fiordland-milford-sound-family-hidden-gems-families
+     EXISTS
+
+[1/5] Skipping (already exists): hawkes-bay-family-guide-family-deals-2026-07
+
+[2/5] Generating: bay-of-islands-family-july-family-guide
+  Calling Groq (llama-3.3-70b-versatile)...
+  Saved: content/posts/bay-of-islands-family-july-family-guide.json
+
+[3/5] Skipping (already exists): taupo-with-kids-budget-family-guide-2026-07
+
+[4/5] Generating: hot-water-beach-coromandel-family-review-2026-07
+  Calling Groq (llama-3.3-70b-versatile)...
+  Saved: content/posts/hot-water-beach-coromandel-family-review-2026-07.json
+
+[5/5] Skipping (already exists): fiordland-milford-sound-family-hidden-gems-families
+
+Generated 2 articles.
+
+Rebuilding site...
+  Build complete — 620 HTML pages → /home/ben/nz-family-travel/docs/
+  Pushed to GitHub Pages
