@@ -1,60 +1,66 @@
 {
   "slug": "north-vs-south-island-families",
-  "short_title": "North Island Guide",
+  "short_title": "North vs South",
   "title": "North Island vs South Island for Families — Which to Choose First?",
-  "meta_desc": "North vs South Island for families: which to choose first? Discover activity density, drive times & cost difference",
-  "intro": "When planning a family trip to New Zealand, the biggest dilemma is often which island to visit first. With the North Island offering a plethora of cultural experiences and the South Island boasting breathtaking landscapes, it's essential to consider factors like activity density, drive times, and cost. For instance, a family of four can expect to pay around $200-$300 NZD per night for a decent motel in Auckland, compared to $250-$350 NZD in Queenstown.",
+  "meta_desc": "Discover which NZ island is best for families, considering activity density, drive times, ages, cost difference, and what you'll miss if you only visit one island",
+  "intro": "When planning a family trip to New Zealand, one of the toughest decisions is choosing between the North and South Islands. With so many amazing attractions and activities on both islands, it can be overwhelming to decide which one to visit first. The North Island offers a plethora of urban attractions, such as Auckland's Sky Tower and Wellington's Te Papa Museum, while the South Island boasts breathtaking natural landscapes like Milford Sound and Franz Josef Glacier.",
   "updated": "July 2026",
-  "reading_time": 9,
+  "reading_time": 10,
   "sections": [
     {
-      "heading": "Activity Density: North Island vs South Island",
-      "body": "The North Island is home to a wide range of activities, including visiting the famous Waitomo Glowworm Caves ($50-$70 NZD per person), exploring the geothermal wonders of Rotorua, and learning about Maori culture in Auckland. In contrast, the South Island offers a more laid-back atmosphere, with popular activities like hiking in Abel Tasman National Park ($15-$30 NZD per person) and taking a scenic drive along the Milford Road."
+      "heading": "Activity Density",
+      "body": "The North Island has a higher activity density, with many popular attractions like the Bay of Islands, Rotorua, and Taupo, all within a few hours' drive from Auckland. In contrast, the South Island's activities are more spread out, requiring longer drive times between destinations. For example, driving from Queenstown to Milford Sound takes around 4 hours, while driving from Auckland to Rotorua takes around 2.5 hours."
     },
     {
-      "heading": "Drive Times and Logistics",
+      "heading": "Age-Specific Activities",
       "list": [
-        "Auckland to Rotorua: 3 hours",
-        "Wellington to Picton: 3.5 hours plus ferry ride",
-        "Queenstown to Franz Josef: 4.5 hours",
-        "Christchurch to Wanaka: 3 hours"
+        "For young children (0-5 years): The North Island's Auckland Zoo ($25 per adult, $13 per child) and Kelly Tarlton's Sea Life Aquarium ($39 per adult, $25 per child) are great options.",
+        "For older kids (6-12 years): The South Island's Queenstown has many adventure activities like skydiving ($299 per person) and bungee jumping ($205 per person).",
+        "For teenagers (13+ years): The North Island's surf beaches, such as Raglan and Piha, offer great surf lessons ($50-$70 per person) and a relaxed atmosphere."
       ]
     },
     {
-      "heading": "Age Considerations: Which Island is Best for Your Family?",
-      "body": "Families with younger children may prefer the North Island, where many attractions cater specifically to kids, such as the Auckland Zoo ($25-$35 NZD per person) and the Wellington Zoo ($20-$30 NZD per person). On the other hand, families with older children and teenagers may enjoy the more adventurous activities offered in the South Island, like skiing in Queenstown ($100-$150 NZD per person per day) or hiking in the Southern Alps."
-    },
-    {
-      "heading": "Cost Comparison: North Island vs South Island",
+      "heading": "Drive Times and Distances",
       "table": {
         "headers": [
-          "Accommodation",
-          "Activities",
-          "Food",
-          "Transportation"
+          "Route",
+          "Drive Time",
+          "Distance"
         ],
         "rows": [
           [
-            "North Island: $200-$300 NZD per night",
-            "North Island: $50-$100 NZD per person per day",
-            "North Island: $15-$25 NZD per meal",
-            "North Island: $50-$100 NZD per day"
+            "Auckland to Rotorua",
+            "2.5 hours",
+            "230 km"
           ],
           [
-            "South Island: $250-$350 NZD per night",
-            "South Island: $70-$150 NZD per person per day",
-            "South Island: $20-$30 NZD per meal",
-            "South Island: $70-$150 NZD per day"
+            "Auckland to Bay of Islands",
+            "3 hours",
+            "220 km"
+          ],
+          [
+            "Queenstown to Milford Sound",
+            "4 hours",
+            "290 km"
+          ],
+          [
+            "Christchurch to Franz Josef Glacier",
+            "5 hours",
+            "460 km"
           ]
         ]
       }
     },
     {
-      "heading": "What You Miss if You Only Visit One Island",
-      "body": "If you only visit the North Island, you'll miss out on the stunning natural beauty of the South Island, including the picturesque town of Wanaka and the breathtaking scenery of Milford Sound. On the other hand, if you only visit the South Island, you'll miss out on the rich cultural heritage of the North Island, including the Auckland Museum ($20-$30 NZD per person) and the Te Papa Museum in Wellington (free admission)."
+      "heading": "Cost Difference",
+      "body": "Accommodation prices vary significantly between the two islands. On average, a family-friendly motel in the North Island costs around $150-$250 per night, while in the South Island, it costs around $120-$200 per night. Activity prices also differ, with the South Island's adventure activities often costing more than the North Island's urban attractions. For example, a family pass to the Sky Tower in Auckland costs $99, while a scenic flight over Milford Sound costs $395 per person."
     },
     {
-      "heading": "Planning Your Trip: Tools and Resources",
+      "heading": "What You'll Miss",
+      "body": "If you only visit the North Island, you'll miss the stunning natural beauty of the South Island, including Milford Sound, Franz Josef Glacier, and Abel Tasman National Park. On the other hand, if you only visit the South Island, you'll miss the urban attractions and cultural experiences of the North Island, such as Auckland's city life, Rotorua's geothermal wonders, and Wellington's Te Papa Museum."
+    },
+    {
+      "heading": "Plan Your Trip",
       "cta": {
         "text": "Use our NZ Family Travel Budget Calculator to plan your trip",
         "url": "/tools/nz-family-travel-budget-calculator/",
@@ -62,18 +68,18 @@
       }
     },
     {
-      "heading": "Getting Around: Campervans and Transportation",
+      "heading": "Get Inspired",
       "cta": {
-        "text": "Explore our guide to campervans in New Zealand",
-        "url": "/campervans/",
+        "text": "Explore our destination guides for the North and South Islands",
+        "url": "/destinations/",
         "affiliate": false
       }
     },
     {
-      "heading": "Destination Guides: Explore the Best of New Zealand",
+      "heading": "Accommodation Options",
       "cta": {
-        "text": "Discover our in-depth destination guides for the North and South Islands",
-        "url": "/destinations/",
+        "text": "Learn more about campervans and other family-friendly accommodation options",
+        "url": "/campervans/",
         "affiliate": false
       }
     }
