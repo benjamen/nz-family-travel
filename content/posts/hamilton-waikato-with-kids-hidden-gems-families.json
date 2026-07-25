@@ -1,0 +1,54 @@
+{
+  "title": "Hidden Gems Waikato",
+  "short_title": "Waikato Secrets",
+  "meta_desc": "Discover Hamilton & Waikato's hidden gems for families, from secret gardens to rural adventures, all within a 45-minute drive, $180-340/day for 4",
+  "intro": "Hamilton & Waikato is a treasure trove of family-friendly activities waiting to be uncovered. While many flock to the typical tourist spots, we'll let you in on a few secrets that will make your family holiday truly unforgettable. From tranquil gardens to exciting rural adventures, there's something for every age and interest.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Rural Delights",
+      "body": "<p>Just outside of Hamilton city lies a world of rural charm and excitement. The Waikato region is home to numerous horse studs, where kids can get up close and personal with these magnificent creatures. Many offer guided tours and horse riding lessons, making for a unique and memorable experience.</p><p>One such gem is the Equine Centre in Cambridge, which offers horse riding lessons for kids as young as 5 years old, with prices starting from $50 per session. Another hidden gem is the Te Awamutu Space Centre, which showcases a fascinating collection of space memorabilia and offers stargazing sessions on clear nights, free of charge.</p>",
+      "list": [
+        "Equine Centre: $50 per session, ages 5+",
+        "Te Awamutu Space Centre: free, all ages"
+      ]
+    },
+    {
+      "heading": "Garden Oases",
+      "body": "<p>Hamilton is renowned for its beautiful gardens, but there are a few lesser-known spots that are worth exploring. The Hamilton Gardens' tranquil Te Parapara Garden is a must-visit, with its serene water features and stunning plant life. Admission is free, although some guided tours may incur a small fee.</p><p>Another secret garden is the Victoria Street Gardens, tucked away in the heart of the city. This quaint oasis features a playground, picnic areas, and a beautiful rose garden, all free to access and suitable for families with kids of all ages.</p>",
+      "list": [
+        "Hamilton Gardens: free, all ages",
+        "Victoria Street Gardens: free, all ages"
+      ]
+    },
+    {
+      "heading": "Insider Tips",
+      "body": "<p>To make the most of your family holiday in Hamilton & Waikato, consider purchasing a Waikato Museum family pass, which grants access to multiple attractions and experiences, including the museum, art gallery, and Exscite science centre, all for just $20 per family.</p><p>For a unique and memorable experience, take a drive to the nearby town of Matamata and explore the picturesque countryside, where you can visit the famous Hobbiton Movie Set, with guided tours starting from $89 per adult and $44 per child.</p>",
+      "table": {
+        "headers": [
+          "Attraction",
+          "Price"
+        ],
+        "rows": [
+          [
+            "Waikato Museum family pass",
+            "$20"
+          ],
+          [
+            "Hobbiton Movie Set guided tour",
+            "$89 adult, $44 child"
+          ]
+        ]
+      },
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "hamilton-waikato-with-kids-hidden-gems-families",
+  "updated": "July 2026",
+  "auto_generated": true,
+  "generated_date": "2026-07-26"
+}
