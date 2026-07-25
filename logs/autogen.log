@@ -3427,3 +3427,44 @@ Generated 3 articles.
 Rebuilding site...
   Build complete — 626 HTML pages → /home/ben/nz-family-travel/docs/
   Pushed to GitHub Pages
+[main d288dfbb] Auto-generate 5 articles — 2026-07-26
+ 13 files changed, 2227 insertions(+), 457 deletions(-)
+ create mode 100644 content/posts/dunedin-family-guide-budget-family-guide-2026-07.json
+ create mode 100644 content/posts/hamilton-waikato-with-kids-hidden-gems-families.json
+ create mode 100644 docs/posts/dunedin-family-guide-budget-family-guide-2026-07/index.html
+ create mode 100644 docs/posts/hamilton-waikato-with-kids-hidden-gems-families/index.html
+ create mode 100644 docs/travel-tips/dunedin-family-guide-budget-family-guide-2026-07/index.html
+ create mode 100644 docs/travel-tips/hamilton-waikato-with-kids-hidden-gems-families/index.html
+
+Today's 5 articles (2026-07-26):
+
+  1. [deals          ] Auckland                            — auckland-with-kids-family-deals-2026-07
+     EXISTS
+  2. [month_guide    ] Hawke's Bay                         — hawkes-bay-family-guide-july-family-guide
+     EXISTS
+  3. [budget         ] Dunedin                             — dunedin-family-guide-budget-family-guide-2026-07
+     WILL GENERATE
+  4. [activity_review] International Antarctic Centre      — international-antarctic-centre-christchurch-family-review-2026-07
+     EXISTS
+  5. [hidden_gems    ] Hamilton & Waikato                  — hamilton-waikato-with-kids-hidden-gems-families
+     WILL GENERATE
+
+[1/5] Skipping (already exists): auckland-with-kids-family-deals-2026-07
+
+[2/5] Skipping (already exists): hawkes-bay-family-guide-july-family-guide
+
+[3/5] Generating: dunedin-family-guide-budget-family-guide-2026-07
+  Calling Groq (llama-3.3-70b-versatile)...
+  Saved: content/posts/dunedin-family-guide-budget-family-guide-2026-07.json
+
+[4/5] Skipping (already exists): international-antarctic-centre-christchurch-family-review-2026-07
+
+[5/5] Generating: hamilton-waikato-with-kids-hidden-gems-families
+  Calling Groq (llama-3.3-70b-versatile)...
+  Saved: content/posts/hamilton-waikato-with-kids-hidden-gems-families.json
+
+Generated 2 articles.
+
+Rebuilding site...
+  Build complete — 630 HTML pages → /home/ben/nz-family-travel/docs/
+  Pushed to GitHub Pages
