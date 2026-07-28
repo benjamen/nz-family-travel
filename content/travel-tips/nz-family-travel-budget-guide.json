@@ -2,97 +2,80 @@
   "slug": "nz-family-travel-budget-guide",
   "short_title": "NZ Family Travel",
   "title": "How to Do NZ on a Family Budget — Real Costs and Where to Cut",
-  "meta_desc": "Explore NZ with your family on a budget, discover real costs and money-saving tips",
-  "intro": "A family trip around New Zealand can be expensive, but with some planning, you can have a fantastic time without breaking the bank. For a family of four, a daily budget of $250-350 NZD can cover accommodation, food, and activities. In this guide, we'll show you how to make the most of your NZ family travel budget.",
+  "meta_desc": "Discover how to explore NZ with your family without breaking the bank, with practical budget tips",
+  "intro": "With a little planning, you can have a fantastic family holiday in New Zealand without overspending. For a family of four, a daily budget of $250-350 NZD can cover all expenses. From self-catering apartments to cheap accommodation options, we've got you covered.",
   "updated": "July 2026",
   "reading_time": 10,
   "sections": [
     {
-      "heading": "Understanding Your NZ Family Travel Budget",
-      "body": "When planning your trip, it's essential to consider all the costs involved, including accommodation, food, transportation, and activities. A realistic weekly spend for a family of four can range from $1,750 to $2,450 NZD, depending on your choices of accommodation and activities."
+      "heading": "Accommodation on a Budget",
+      "body": "One of the biggest expenses for families is accommodation. Consider self-catering apartments or holiday homes, which can be more cost-effective than hotels. For example, a 2-bedroom apartment in Queenstown can cost around $180-250 NZD per night, while a similar hotel room can cost upwards of $350 NZD per night."
     },
     {
-      "heading": "Free Activities in NZ",
+      "heading": "Free Activities for Families",
       "list": [
-        "Visit the Auckland War Memorial Museum (free admission on the last Tuesday of every month)",
-        "Explore the scenic coastal walk in Wellington (free)",
-        "Go hiking in the beautiful Queenstown gardens (free)"
+        "Visit the Auckland Art Gallery Toi o Tāmaki (free admission)",
+        "Explore the Wellington Botanic Garden (free admission)",
+        "Go hiking in the beautiful NZ landscapes, such as the Tongariro Alpine Crossing (free, but $40 NZD for parking)",
+        "Visit the Auckland Museum (free admission for children under 5, $25 NZD for adults)"
       ]
     },
     {
-      "heading": "Self-Catering and Cheap Accommodation Options",
+      "heading": "Comparison of Accommodation Options",
       "table": {
         "headers": [
-          "Accommodation Type",
-          "Price Range (NZD)"
+          "Option",
+          "Price per night (NZD)",
+          "Location"
         ],
         "rows": [
+          [
+            "Hotel room",
+            "350",
+            "Queenstown"
+          ],
+          [
+            "Self-catering apartment",
+            "200",
+            "Queenstown"
+          ],
+          [
+            "Holiday home",
+            "280",
+            "Auckland"
+          ],
           [
             "Campsite",
-            "20-40"
-          ],
-          [
-            "Holiday Park",
-            "80-120"
-          ],
-          [
-            "Budget Hotel",
-            "120-180"
-          ],
-          [
-            "Airbnb Apartment",
-            "150-250"
+            "40",
+            "Rotorua"
           ]
         ]
       }
     },
     {
-      "heading": "Transportation Costs in NZ",
-      "body": "If you're planning to drive around NZ, you can expect to pay around $80-120 NZD per day for a campervan rental, depending on the season and the type of vehicle. Alternatively, you can use public transportation, which can cost around $20-50 NZD per person for a one-way trip, depending on the route and the mode of transport. For example, a drive from Auckland to Rotorua takes around 3 hours, while a bus ride takes around 4 hours and costs around $30-50 NZD per person."
+      "heading": "Food on a Budget",
+      "body": "Eating out can be expensive, especially for families. Consider self-catering and buying groceries from local supermarkets like Countdown or New World. A weekly grocery budget of $150-200 NZD can cover the basics for a family of four. You can also find affordable eating options at local cafes or food courts, such as the $15 NZD meals at the Queenstown Mall food court."
     },
     {
-      "heading": "Realistic Daily Expenses for a Family of Four",
-      "table": {
-        "headers": [
-          "Expense",
-          "Daily Cost (NZD)"
-        ],
-        "rows": [
-          [
-            "Accommodation",
-            "150-250"
-          ],
-          [
-            "Food",
-            "80-120"
-          ],
-          [
-            "Transportation",
-            "50-100"
-          ],
-          [
-            "Activities",
-            "50-100"
-          ]
-        ]
-      }
+      "heading": "Transportation Costs",
+      "body": "If you're planning to explore NZ by car, consider renting a vehicle or buying a cheap second-hand car. Petrol prices can range from $2.20-2.50 NZD per litre, depending on the location. For example, driving from Auckland to Rotorua can take around 3 hours and cost around $50-70 NZD in petrol."
     },
     {
-      "heading": "Getting the Most Out of Your NZ Family Travel Budget",
-      "body": "To make the most of your budget, consider visiting during the off-season (April to May or September to November), when prices are lower. You can also save money by cooking your own meals instead of eating out, and by choosing free or low-cost activities, such as hiking or visiting local markets."
+      "heading": "Realistic Weekly Spend",
+      "body": "For a family of four, a realistic weekly budget can range from $1,750-2,450 NZD, depending on your accommodation choices and activities. Here's a breakdown of estimated weekly costs: $1,000-1,400 NZD for accommodation, $500-700 NZD for food, $200-300 NZD for transportation, and $50-100 NZD for activities."
     },
     {
-      "heading": "Start Planning Your NZ Family Trip Today",
+      "heading": "Plan Your Trip with Our Tools",
       "cta": {
-        "text": "Use our NZ Family Travel Budget Calculator",
+        "text": "Use our NZ Family Travel Budget Calculator to plan your trip",
         "url": "/tools/nz-family-travel-budget-calculator/",
         "affiliate": false
       }
     },
     {
-      "heading": "Discover More NZ Family Travel Destinations",
+      "heading": "Get Inspired by Our Destination Guides",
       "cta": {
-        "text": "Explore our NZ destinations guide",
+        "text": "Explore our destination guides for the best NZ family-friendly spots",
         "url": "/destinations/",
         "affiliate": false
       }
