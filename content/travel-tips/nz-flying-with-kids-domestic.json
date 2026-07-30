@@ -1,69 +1,69 @@
 {
   "slug": "nz-flying-with-kids-domestic",
-  "short_title": "Flying NZ with Kids",
+  "short_title": "Flying with Kids",
   "title": "Flying Domestic in NZ with Kids — Air NZ Tips, Baggage, and Seat Selection",
-  "meta_desc": "Flying domestic in NZ with kids? Tips on Air NZ family seating, baggage, and Queenstown routes from $59",
-  "intro": "If you're planning a domestic flight with kids in New Zealand, you're likely considering Air NZ. With prices from $59 for a one-way ticket from Auckland to Wellington, it's an affordable option. But what are the best seats for families, and how much baggage can you check?",
+  "meta_desc": "Flying domestic in NZ with kids? Learn Air NZ tips, baggage rules, and seat selection to make your family trip smoother",
+  "intro": "With over 400 domestic flights per day, Air NZ is the most convenient way to travel around New Zealand with your family. However, navigating baggage allowances and seat selection can be a challenge. In this article, we will break down the essentials of flying domestic in NZ with kids.",
   "updated": "July 2026",
   "reading_time": 9,
   "sections": [
     {
       "heading": "Air NZ Domestic Baggage Allowance",
-      "body": "Air NZ allows one carry-on bag and one checked bag per passenger on domestic flights. The checked bag must weigh under 23kg and measure under 158cm in total dimensions. Additional bags or oversized items incur a fee, starting at $20 for an extra bag."
+      "body": "When flying with kids, it's essential to know the baggage allowance to avoid any last-minute surprises. Air NZ offers a standard baggage allowance of 1 piece of checked luggage up to 23kg for adults and children, and 1 piece of carry-on luggage up to 7kg."
     },
     {
-      "heading": "Family Seating on Air NZ Domestic Flights",
+      "heading": "Family Seating Options",
       "list": [
-        "Book seats together in advance for $10-$30 per person",
-        "Choose seats near the front of the plane for less noise and disturbance",
-        "Consider booking a Skycouch for more space and comfort, from $100"
+        "Book seats together in advance to ensure your family is seated together (fee applies: $10-$30 per seat)",
+        "Opt for an Air NZ Skycouch, which can accommodate up to 3 children (price starts at $699 for a one-way fare)",
+        "Consider booking a bulkhead seat for more legroom (fee applies: $20-$50 per seat)"
       ]
     },
     {
-      "heading": "Comparison of Popular Domestic Routes",
+      "heading": "Comparison of Popular Routes",
       "table": {
         "headers": [
           "Route",
-          "Price (one-way)",
           "Flight Time",
-          "Drive Time"
+          "Frequency",
+          "Price (one-way)"
         ],
         "rows": [
           [
             "Auckland to Queenstown",
-            "$99-$199",
             "1h 35m",
-            "18h"
+            "Multiple daily",
+            "$169-$359"
           ],
           [
             "Auckland to Christchurch",
-            "$69-$149",
             "1h 25m",
-            "12h"
+            "Multiple daily",
+            "$129-$299"
           ],
           [
             "Wellington to Queenstown",
-            "$79-$159",
             "1h 25m",
-            "14h"
+            "Daily",
+            "$179-$329"
           ]
         ]
       }
     },
     {
-      "heading": "Flying to Queenstown with Kids",
-      "body": "Queenstown is a popular destination for families, with activities like skiing, hiking, and visiting the Queenstown Gardens. Air NZ operates multiple daily flights from Auckland, Wellington, and Christchurch, with prices starting from $99 for a one-way ticket."
+      "heading": "Booking and Check-in",
+      "body": "To book your domestic flight, visit the Air NZ website (airnewzealand.co.nz) or use their mobile app. Online check-in is available 24 hours prior to your flight, and you can select your seats and print or download your boarding pass."
     },
     {
-      "heading": "Tips for Flying with Kids on Air NZ",
+      "heading": "Tips for Flying with Kids",
       "list": [
-        "Book a morning flight to avoid delays and tired kids",
-        "Pack snacks and entertainment for the flight, such as colouring books and tablets",
-        "Consider booking a flight with an Air NZ Kids' Zone, featuring kids' entertainment and activities"
+        "Book a morning flight to avoid peak travel times",
+        "Pack snacks and entertainment for your kids",
+        "Consider booking a flight with a shorter travel time to reduce the risk of meltdowns"
       ]
     },
     {
-      "heading": "Plan Your Family Travel Budget",
+      "heading": "Plan Your Family Trip",
       "cta": {
         "text": "Use our NZ Family Travel Budget Calculator",
         "url": "/tools/nz-family-travel-budget-calculator/",
@@ -71,14 +71,11 @@
       }
     },
     {
-      "heading": "Accommodation Options in Queenstown and Christchurch",
-      "body": "After arriving at your destination, you'll need to find accommodation that suits your family's needs. Queenstown has a range of options, from hotels like the Millennium Hotel Queenstown to holiday parks like the Queenstown Lakeview Holiday Park. In Christchurch, consider the Rydges Latimer Christchurch or the Christchurch Top 10 Holiday Resort. Check our destinations page for more information and booking links."
-    },
-    {
-      "heading": "Explore More NZ Destinations",
+      "heading": "Accommodation Options",
+      "body": "After arriving at your destination, you'll need a place to stay. Our website has a range of accommodation options, from hotels to campervans. Visit our campervan page to learn more about renting a campervan for your family trip.",
       "cta": {
-        "text": "Visit our destinations page for more travel ideas",
-        "url": "/destinations/",
+        "text": "Explore our campervan options",
+        "url": "/campervans/",
         "affiliate": false
       }
     }
