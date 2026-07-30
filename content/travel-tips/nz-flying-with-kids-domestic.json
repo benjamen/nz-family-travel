@@ -2,80 +2,80 @@
   "slug": "nz-flying-with-kids-domestic",
   "short_title": "Flying with Kids",
   "title": "Flying Domestic in NZ with Kids — Air NZ Tips, Baggage, and Seat Selection",
-  "meta_desc": "Flying domestic in NZ with kids? Learn Air NZ tips, baggage rules, and seat selection to make your family trip smoother",
-  "intro": "With over 400 domestic flights per day, Air NZ is the most convenient way to travel around New Zealand with your family. However, navigating baggage allowances and seat selection can be a challenge. In this article, we will break down the essentials of flying domestic in NZ with kids.",
+  "meta_desc": "Learn how to navigate Air NZ domestic flights with kids, including baggage allowance and seat selection tips",
+  "intro": "As any parent knows, flying with kids can be a daunting task, especially when it comes to navigating the complex world of domestic air travel in New Zealand. With Air NZ's strict baggage policies and limited seat options, it's essential to plan ahead to ensure a smooth journey. In this article, we'll share our top tips for flying domestic with kids in NZ, including how to choose the best routes and seats, and how to make the most of your baggage allowance.",
   "updated": "July 2026",
   "reading_time": 9,
   "sections": [
     {
-      "heading": "Air NZ Domestic Baggage Allowance",
-      "body": "When flying with kids, it's essential to know the baggage allowance to avoid any last-minute surprises. Air NZ offers a standard baggage allowance of 1 piece of checked luggage up to 23kg for adults and children, and 1 piece of carry-on luggage up to 7kg."
+      "heading": "Choosing the Best Routes",
+      "body": "When it comes to domestic flights in NZ, some routes are more kid-friendly than others. For example, the short flight from Wellington to Christchurch is a great option for families, with a flight time of just over an hour and plenty of kid-friendly activities to enjoy in both cities. On the other hand, the longer flight from Auckland to Queenstown may be more challenging for young children, but the stunning scenery and outdoor activities in Queenstown make it well worth the trip."
     },
     {
-      "heading": "Family Seating Options",
+      "heading": "Air NZ Baggage Allowance",
       "list": [
-        "Book seats together in advance to ensure your family is seated together (fee applies: $10-$30 per seat)",
-        "Opt for an Air NZ Skycouch, which can accommodate up to 3 children (price starts at $699 for a one-way fare)",
-        "Consider booking a bulkhead seat for more legroom (fee applies: $20-$50 per seat)"
+        "One piece of checked luggage up to 23kg: $25-$35 NZD",
+        "One piece of carry-on luggage up to 7kg: free",
+        "Additional checked luggage: $25-$35 NZD per piece"
       ]
     },
     {
-      "heading": "Comparison of Popular Routes",
+      "heading": "Seat Selection Tips",
+      "body": "When flying with kids, it's essential to choose seats that are close together and offer plenty of legroom. Air NZ's Skycouch option is a great choice for families, as it allows you to convert three economy seats into a flat bed. However, this option can be pricey, with costs starting from $200 NZD per person."
+    },
+    {
+      "heading": "Comparison of Major Domestic Routes",
       "table": {
         "headers": [
           "Route",
           "Flight Time",
           "Frequency",
-          "Price (one-way)"
+          "Price"
         ],
         "rows": [
           [
-            "Auckland to Queenstown",
-            "1h 35m",
+            "Auckland to Wellington",
+            "1 hour 20 minutes",
             "Multiple daily",
-            "$169-$359"
+            "$100-$200 NZD"
           ],
           [
             "Auckland to Christchurch",
-            "1h 25m",
+            "1 hour 25 minutes",
             "Multiple daily",
-            "$129-$299"
+            "$120-$250 NZD"
           ],
           [
-            "Wellington to Queenstown",
-            "1h 25m",
-            "Daily",
-            "$179-$329"
+            "Auckland to Queenstown",
+            "1 hour 45 minutes",
+            "Multiple daily",
+            "$150-$300 NZD"
           ]
         ]
       }
     },
     {
-      "heading": "Booking and Check-in",
-      "body": "To book your domestic flight, visit the Air NZ website (airnewzealand.co.nz) or use their mobile app. Online check-in is available 24 hours prior to your flight, and you can select your seats and print or download your boarding pass."
-    },
-    {
-      "heading": "Tips for Flying with Kids",
+      "heading": "Additional Tips and Tricks",
       "list": [
-        "Book a morning flight to avoid peak travel times",
-        "Pack snacks and entertainment for your kids",
-        "Consider booking a flight with a shorter travel time to reduce the risk of meltdowns"
+        "Book your flights in advance to secure the best prices",
+        "Consider booking a morning flight to avoid delays and cancellations",
+        "Pack plenty of snacks and entertainment for your kids to enjoy during the flight"
       ]
     },
     {
       "heading": "Plan Your Family Trip",
       "cta": {
-        "text": "Use our NZ Family Travel Budget Calculator",
+        "text": "Get started with our NZ family travel budget calculator",
         "url": "/tools/nz-family-travel-budget-calculator/",
         "affiliate": false
       }
     },
     {
       "heading": "Accommodation Options",
-      "body": "After arriving at your destination, you'll need a place to stay. Our website has a range of accommodation options, from hotels to campervans. Visit our campervan page to learn more about renting a campervan for your family trip.",
+      "body": "Once you've arrived at your destination, you'll need to find a place to stay. We recommend checking out our range of family-friendly accommodation options in Queenstown, Christchurch, and Wellington, including hotels, motels, and holiday parks. You can find more information on our destinations page, or use our campervan hire tool to book a campervan and explore the country at your own pace.",
       "cta": {
-        "text": "Explore our campervan options",
-        "url": "/campervans/",
+        "text": "Explore our destinations page",
+        "url": "/destinations/",
         "affiliate": false
       }
     }
