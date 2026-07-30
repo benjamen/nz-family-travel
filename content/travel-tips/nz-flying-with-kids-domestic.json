@@ -2,78 +2,66 @@
   "slug": "nz-flying-with-kids-domestic",
   "short_title": "Flying with Kids",
   "title": "Flying Domestic in NZ with Kids — Air NZ Tips, Baggage, and Seat Selection",
-  "meta_desc": "Flying domestic in NZ with kids? Tips on Air NZ family seating, baggage, and routes from $49",
-  "intro": "As a parent, navigating domestic flights in NZ with kids can be daunting, especially when it comes to choosing the right airline, seats, and routes. With prices starting from $49 for a one-way ticket from Auckland to Wellington, Air NZ offers a range of options for families. In this article, we'll dive into the specifics of flying domestic with kids on Air NZ, including baggage allowance and seat selection.",
+  "meta_desc": "Flying domestic in NZ with kids? Get Air NZ tips, baggage info, and seat selection advice for a stress-free family trip",
+  "intro": "As a parent, flying domestic in NZ with kids can be a daunting experience, especially when it comes to navigating Air NZ's baggage allowance and seat selection. With prices for a one-way Air NZ domestic ticket ranging from $50 to $200 NZD, it's essential to plan ahead to ensure a smooth and enjoyable trip for the whole family. In this article, we'll share our top tips for flying domestic in NZ with kids, including how to choose the best seats and make the most of your baggage allowance.",
   "updated": "July 2026",
-  "reading_time": 9,
+  "reading_time": 10,
   "sections": [
     {
-      "heading": "Choosing the Right Route",
-      "body": "When flying domestic with kids, it's essential to choose a route that suits your family's needs. Popular routes include Auckland to Queenstown, Christchurch, and Wellington. Consider the drive time from the airport to your accommodation, such as the 15-minute drive from Queenstown Airport to the city centre, or the 20-minute drive from Christchurch Airport to the city centre."
+      "heading": "Air NZ Domestic Baggage Allowance",
+      "body": "Air NZ's domestic baggage allowance allows for one checked bag per person, with a maximum weight of 23kg. However, if you're travelling with kids, you may need to consider additional baggage for items like strollers, car seats, and port-a-cots. Air NZ allows these items to be checked for free, but it's essential to arrive early to ensure they are loaded onto the plane. The cost of checking an additional bag is $20-$30 NZD, depending on the route and time of booking."
     },
     {
-      "heading": "Air NZ Baggage Allowance",
+      "heading": "Choosing the Best Seats for Your Family",
       "list": [
-        "1x checked bag (23kg) included in fare from $49",
-        "Additional checked bags from $20",
-        "Car seats and strollers can be checked for free"
+        "Book seats together: Air NZ offers a range of seating options, including family-friendly seats with extra legroom.",
+        "Consider the exit row: If you're travelling with older kids, the exit row can provide more space and a more comfortable flying experience.",
+        "Avoid seats near the toilet: While it may seem convenient, seats near the toilet can be noisy and may have limited recline."
       ]
     },
     {
-      "heading": "Family Seating on Air NZ",
-      "body": "Air NZ offers a range of seating options for families, including the ability to book seats together. The 'Seat Select' option starts from $10 per person, per flight, and allows you to choose your seats in advance. You can also book a 'Skycouch' from $699, which converts a row of three seats into a couch."
-    },
-    {
-      "heading": "Comparison of Air NZ Domestic Routes",
+      "heading": "Comparison of Popular Domestic Routes",
       "table": {
         "headers": [
           "Route",
-          "Price (one-way)",
           "Flight Time",
-          "Drive Time from Airport to City Centre"
+          "Frequency",
+          "Price (one-way)"
         ],
         "rows": [
           [
             "Auckland to Queenstown",
-            "$69",
-            "1h 35m",
-            "15 minutes"
+            "1 hour 35 minutes",
+            "Multiple flights per day",
+            "$150-$250 NZD"
           ],
           [
             "Auckland to Christchurch",
-            "$49",
-            "1h 25m",
-            "20 minutes"
+            "1 hour 25 minutes",
+            "Multiple flights per day",
+            "$100-$200 NZD"
           ],
           [
-            "Auckland to Wellington",
-            "$49",
-            "1h 05m",
-            "15 minutes"
+            "Wellington to Queenstown",
+            "1 hour 20 minutes",
+            "2-3 flights per day",
+            "$120-$220 NZD"
           ]
         ]
       }
     },
     {
-      "heading": "Tips for Flying with Kids",
-      "list": [
-        "Book a morning flight to avoid delays",
-        "Pack snacks and entertainment for the kids",
-        "Consider booking a seat with extra legroom for taller kids"
-      ]
+      "heading": "Tips for Flying with Infants",
+      "body": "If you're flying with an infant, it's essential to book a bassinet seat, which is available on most Air NZ domestic flights. These seats are designed for infants under 8 months and provide a safe and comfortable place for them to sleep. Additionally, Air NZ offers a range of infant-friendly amenities, including baby food and nappies."
     },
     {
-      "heading": "Plan Your Family Trip",
-      "cta": {
-        "text": "Get a quote for your campervan rental",
-        "url": "/campervans/",
-        "affiliate": false
-      }
+      "heading": "Driving to the Airport: Time and Cost",
+      "body": "If you're driving to the airport, be sure to factor in traffic and parking costs. For example, driving from downtown Auckland to Auckland Airport can take around 30-40 minutes and cost $20-$30 NZD in parking fees. In contrast, driving from downtown Wellington to Wellington Airport takes around 15-20 minutes and costs $10-$20 NZD in parking fees."
     },
     {
-      "heading": "Budgeting for Your Trip",
+      "heading": "Plan Your Family Trip with Our Budget Calculator",
       "cta": {
-        "text": "Use our NZ Family Travel Budget Calculator",
+        "text": "Get started with our NZ family travel budget calculator",
         "url": "/tools/nz-family-travel-budget-calculator/",
         "affiliate": false
       }
