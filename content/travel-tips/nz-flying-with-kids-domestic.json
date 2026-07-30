@@ -1,79 +1,83 @@
 {
   "slug": "nz-flying-with-kids-domestic",
-  "short_title": "Flying with Kids",
+  "short_title": "Flying in NZ",
   "title": "Flying Domestic in NZ with Kids — Air NZ Tips, Baggage, and Seat Selection",
-  "meta_desc": "Discover expert tips for flying domestic in NZ with kids on Air NZ, including baggage allowance and seat selection",
-  "intro": "Flying domestic in NZ with kids can be a daunting task, but with the right tips and tricks, you can make the journey stress-free. Air NZ offers a range of options for families, including family seating and generous baggage allowance. In this article, we'll explore the best ways to navigate domestic flights in NZ with kids.",
+  "meta_desc": "Flying domestic in NZ with kids? Learn Air NZ tips, baggage allowance, and seat selection to make your family trip smoother",
+  "intro": "As a parent, flying domestic in NZ with kids can be a daunting task, especially when it comes to navigating Air NZ's baggage allowance and seat selection. With prices starting from $59 NZD for a one-way ticket from Auckland to Wellington, it's essential to plan ahead to ensure a stress-free journey. In this article, we'll share our top tips for flying domestic in NZ with kids.",
   "updated": "July 2026",
   "reading_time": 9,
   "sections": [
     {
       "heading": "Air NZ Domestic Flights with Kids",
-      "body": "Air NZ operates multiple daily flights from major cities like Auckland, Wellington, and Christchurch. When booking, consider the route and time of day to minimize travel disruptions. For example, flights from Auckland to Queenstown take approximately 1.5 hours and cost around $150-$250 per person, depending on the time of year and demand."
+      "body": "Air NZ offers a range of domestic flights across NZ, including popular routes such as Auckland to Queenstown, Christchurch to Wellington, and Auckland to Christchurch. With a flight time of approximately 1 hour and 20 minutes from Auckland to Queenstown, and 1 hour and 25 minutes from Christchurch to Wellington, these routes are ideal for families with young children."
     },
     {
-      "heading": "Family Seating Options",
+      "heading": "Family Seating on Air NZ Domestic Flights",
       "list": [
-        "Book seats together: Air NZ allows you to select seats in advance for a fee of $10-$30 per person",
-        "Consider the 'Skycouch': A row of three seats that can be converted into a flat surface for $200-$300 per person",
-        "Use the Air NZ app: To check-in, select seats, and access your boarding pass"
+        "Book seats together: Air NZ offers a range of seating options, including family-friendly configurations such as 2-2 or 3-3 seating arrangements.",
+        "Consider the 'Skycouch': Air NZ's innovative 'Skycouch' seating option allows families to create a flat bed for young children, perfect for long-haul domestic flights.",
+        "Be mindful of exit rows: When booking seats, be aware that exit rows may not be suitable for families with young children due to safety regulations."
       ]
     },
     {
-      "heading": "Baggage Allowance",
-      "body": "Air NZ offers a standard baggage allowance of 23kg per person, with additional baggage available for purchase at $20-$30 per kilogram. It's essential to check the Air NZ website for the most up-to-date baggage information and to pre-purchase additional baggage if needed."
+      "heading": "Baggage Allowance on Air NZ Domestic Flights",
+      "body": "Air NZ's baggage allowance for domestic flights is 1 piece of checked luggage per passenger, with a maximum weight of 23kg. Additional bags can be checked for a fee of $20-$30 NZD per piece. It's also worth noting that Air NZ offers a range of baggage options, including a 'Flexi' fare which includes an additional piece of checked luggage."
     },
     {
-      "heading": "Route Comparison",
+      "heading": "Comparison of Popular Domestic Routes",
       "table": {
         "headers": [
           "Route",
           "Flight Time",
-          "Cost (one-way)"
+          "Price (one-way)"
         ],
         "rows": [
           [
             "Auckland to Queenstown",
-            "1.5 hours",
-            "$150-$250"
+            "1 hour 20 minutes",
+            "$89-$129 NZD"
           ],
           [
-            "Wellington to Christchurch",
-            "1 hour",
-            "$80-$150"
+            "Christchurch to Wellington",
+            "1 hour 25 minutes",
+            "$69-$109 NZD"
           ],
           [
-            "Christchurch to Queenstown",
-            "1 hour",
-            "$100-$200"
+            "Auckland to Christchurch",
+            "1 hour 25 minutes",
+            "$59-$99 NZD"
           ]
         ]
       }
     },
     {
-      "heading": "Tips for Flying with Kids",
+      "heading": "Tips for Flying with Young Children",
       "list": [
-        "Book a morning flight to minimize travel disruptions",
-        "Pack entertainment for the kids, such as tablets or coloring books",
-        "Consider a 'Kid's Pack' for $10, which includes a meal, snack, and drink"
+        "Book a morning flight: Morning flights tend to be less busy, making them ideal for families with young children.",
+        "Pack entertainment: Bring along a range of toys, games, and snacks to keep your little ones occupied during the flight.",
+        "Consider a 'baby bundle': Air NZ offers a 'baby bundle' which includes a range of essentials such as nappies, wipes, and a changing pad."
       ]
     },
     {
-      "heading": "Plan Your Family Trip",
+      "heading": "Plan Your Family Trip with Our Tools",
       "cta": {
-        "text": "Use our NZ Family Travel Budget Calculator",
+        "text": "Use our NZ Family Travel Budget Calculator to plan your next trip",
         "url": "/tools/nz-family-travel-budget-calculator/",
         "affiliate": false
       }
     },
     {
-      "heading": "Accommodation Options",
-      "body": "Once you arrive at your destination, consider booking family-friendly accommodation. In Queenstown, options like the Novotel Queenstown Lakeside or the Rees Hotel Queenstown offer spacious rooms and amenities for families. Prices start from around $200 per night."
+      "heading": "Explore NZ with a Campervan",
+      "cta": {
+        "text": "Discover the best campervan options for your family trip",
+        "url": "/campervans/",
+        "affiliate": false
+      }
     },
     {
-      "heading": "Explore NZ with Kids",
+      "heading": "Discover More NZ Destinations",
       "cta": {
-        "text": "Discover our top NZ destinations for families",
+        "text": "Browse our collection of NZ destinations and plan your next family adventure",
         "url": "/destinations/",
         "affiliate": false
       }
