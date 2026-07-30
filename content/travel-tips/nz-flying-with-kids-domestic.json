@@ -2,50 +2,54 @@
   "slug": "nz-flying-with-kids-domestic",
   "short_title": "Flying with Kids",
   "title": "Flying Domestic in NZ with Kids — Air NZ Tips, Baggage, and Seat Selection",
-  "meta_desc": "Flying domestic in NZ with kids? Learn Air NZ tips, baggage and seating options for a stress-free family flight",
-  "intro": "As a parent, flying domestic in NZ with kids can be a daunting task, especially when it comes to navigating Air NZ's baggage allowance and seating options. With prices starting from $49 for a one-way ticket from Auckland to Wellington, it's essential to plan ahead to ensure a smooth journey. In this article, we'll explore the ins and outs of flying domestic with kids in NZ",
+  "meta_desc": "Flying domestic in NZ with kids? Tips on Air NZ family seating, baggage, and routes from $49",
+  "intro": "As a parent, navigating domestic flights in NZ with kids can be daunting, especially when it comes to choosing the right airline, seats, and routes. With prices starting from $49 for a one-way ticket from Auckland to Wellington, Air NZ offers a range of options for families. In this article, we'll dive into the specifics of flying domestic with kids on Air NZ, including baggage allowance and seat selection.",
   "updated": "July 2026",
   "reading_time": 9,
   "sections": [
     {
-      "heading": "Air NZ Domestic Flights with Kids",
-      "body": "Air NZ offers a range of domestic flights connecting major cities like Auckland, Wellington, Christchurch, and Queenstown. When booking, consider the drive time to the airport, with Auckland Airport being approximately 30 minutes from the city centre, while Wellington Airport is about 15 minutes from the city centre."
+      "heading": "Choosing the Right Route",
+      "body": "When flying domestic with kids, it's essential to choose a route that suits your family's needs. Popular routes include Auckland to Queenstown, Christchurch, and Wellington. Consider the drive time from the airport to your accommodation, such as the 15-minute drive from Queenstown Airport to the city centre, or the 20-minute drive from Christchurch Airport to the city centre."
     },
     {
-      "heading": "Family Seating Options",
+      "heading": "Air NZ Baggage Allowance",
       "list": [
-        "Book seats together: $10 per person",
-        "Choose a Skycouch: from $169 per person",
-        "Opt for Economy or Premium Economy: from $49 and $129 per person respectively"
+        "1x checked bag (23kg) included in fare from $49",
+        "Additional checked bags from $20",
+        "Car seats and strollers can be checked for free"
       ]
     },
     {
-      "heading": "Baggage Allowance",
-      "body": "Air NZ's domestic baggage allowance includes one checked bag up to 23kg, with additional bags incurring a fee of $20 per bag. Consider packing lightly to avoid extra costs, especially if you're flying from Queenstown to Christchurch, a short 1-hour flight."
+      "heading": "Family Seating on Air NZ",
+      "body": "Air NZ offers a range of seating options for families, including the ability to book seats together. The 'Seat Select' option starts from $10 per person, per flight, and allows you to choose your seats in advance. You can also book a 'Skycouch' from $699, which converts a row of three seats into a couch."
     },
     {
-      "heading": "Route Comparison",
+      "heading": "Comparison of Air NZ Domestic Routes",
       "table": {
         "headers": [
           "Route",
+          "Price (one-way)",
           "Flight Time",
-          "Price (one-way)"
+          "Drive Time from Airport to City Centre"
         ],
         "rows": [
           [
+            "Auckland to Queenstown",
+            "$69",
+            "1h 35m",
+            "15 minutes"
+          ],
+          [
+            "Auckland to Christchurch",
+            "$49",
+            "1h 25m",
+            "20 minutes"
+          ],
+          [
             "Auckland to Wellington",
-            "1 hour 5 minutes",
-            "$49"
-          ],
-          [
-            "Christchurch to Queenstown",
-            "1 hour",
-            "$59"
-          ],
-          [
-            "Wellington to Christchurch",
-            "1 hour 20 minutes",
-            "$69"
+            "$49",
+            "1h 05m",
+            "15 minutes"
           ]
         ]
       }
@@ -54,27 +58,23 @@
       "heading": "Tips for Flying with Kids",
       "list": [
         "Book a morning flight to avoid delays",
-        "Pack entertainment for the kids, such as tablets or colouring books",
-        "Consider booking a flight with a meal service to save time and money"
+        "Pack snacks and entertainment for the kids",
+        "Consider booking a seat with extra legroom for taller kids"
       ]
     },
     {
       "heading": "Plan Your Family Trip",
       "cta": {
-        "text": "Use our NZ Family Travel Budget Calculator",
-        "url": "/tools/nz-family-travel-budget-calculator/",
+        "text": "Get a quote for your campervan rental",
+        "url": "/campervans/",
         "affiliate": false
       }
     },
     {
-      "heading": "Accommodation Options",
-      "body": "Once you've arrived at your destination, consider booking a family-friendly accommodation, such as a campervan or apartment. For example, a 2-bedroom apartment in Queenstown costs around $250 per night, while a campervan rental starts from $120 per day."
-    },
-    {
-      "heading": "Explore NZ Destinations",
+      "heading": "Budgeting for Your Trip",
       "cta": {
-        "text": "Discover more family-friendly destinations in NZ",
-        "url": "/destinations/",
+        "text": "Use our NZ Family Travel Budget Calculator",
+        "url": "/tools/nz-family-travel-budget-calculator/",
         "affiliate": false
       }
     }
