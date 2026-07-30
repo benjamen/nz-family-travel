@@ -2,67 +2,85 @@
   "slug": "nz-flying-with-kids-domestic",
   "short_title": "Flying with Kids",
   "title": "Flying Domestic in NZ with Kids — Air NZ Tips, Baggage, and Seat Selection",
-  "meta_desc": "Flying domestic in NZ with kids? Get Air NZ tips, baggage info, and seat selection advice for a stress-free family trip",
-  "intro": "As a parent, flying domestic in NZ with kids can be a daunting experience, especially when it comes to navigating Air NZ's baggage allowance and seat selection. With prices for a one-way Air NZ domestic ticket ranging from $50 to $200 NZD, it's essential to plan ahead to ensure a smooth and enjoyable trip for the whole family. In this article, we'll share our top tips for flying domestic in NZ with kids, including how to choose the best seats and make the most of your baggage allowance.",
+  "meta_desc": "Flying domestic in NZ with kids? Get Air NZ tips, baggage info & seat selection advice",
+  "intro": "As a parent, flying domestic in New Zealand with kids can be a daunting task, but with the right tips and tricks, it can be a breeze. For instance, did you know that Air NZ offers a 'Skycouch' option for families, which can be booked for as little as $200-$300 NZD, depending on the route? With multiple routes to choose from, including popular destinations like Queenstown, Christchurch, and Wellington, it's essential to plan ahead to ensure a smooth and enjoyable journey for the whole family.",
   "updated": "July 2026",
-  "reading_time": 10,
+  "reading_time": 9,
   "sections": [
     {
-      "heading": "Air NZ Domestic Baggage Allowance",
-      "body": "Air NZ's domestic baggage allowance allows for one checked bag per person, with a maximum weight of 23kg. However, if you're travelling with kids, you may need to consider additional baggage for items like strollers, car seats, and port-a-cots. Air NZ allows these items to be checked for free, but it's essential to arrive early to ensure they are loaded onto the plane. The cost of checking an additional bag is $20-$30 NZD, depending on the route and time of booking."
+      "heading": "Air NZ Domestic Flights with Kids",
+      "body": "When flying with kids on Air NZ domestic flights, it's crucial to consider the baggage allowance. Each passenger, including children, is allowed one carry-on bag weighing up to 7kg, and one checked bag weighing up to 23kg. Additionally, kids' strollers and car seats can be checked for free. It's also worth noting that Air NZ offers a 'Kids' Pack' on some flights, which includes a toy, coloring book, and snacks, available for $10 NZD."
     },
     {
-      "heading": "Choosing the Best Seats for Your Family",
+      "heading": "Family Seating Options",
       "list": [
-        "Book seats together: Air NZ offers a range of seating options, including family-friendly seats with extra legroom.",
-        "Consider the exit row: If you're travelling with older kids, the exit row can provide more space and a more comfortable flying experience.",
-        "Avoid seats near the toilet: While it may seem convenient, seats near the toilet can be noisy and may have limited recline."
+        "Skycouch: A row of three economy seats that can be converted into a flat surface, perfect for families with young children, priced from $200-$300 NZD",
+        "Standard Seats: Individual seats with a 79cm pitch, suitable for older kids and adults",
+        "Exit Row Seats: Seats with more legroom, located near emergency exits, available for an additional $20-$50 NZD per seat"
       ]
     },
     {
-      "heading": "Comparison of Popular Domestic Routes",
+      "heading": "Baggage Allowance and Fees",
       "table": {
         "headers": [
-          "Route",
-          "Flight Time",
-          "Frequency",
-          "Price (one-way)"
+          "Bag Type",
+          "Weight Limit",
+          "Fee"
         ],
         "rows": [
           [
-            "Auckland to Queenstown",
-            "1 hour 35 minutes",
-            "Multiple flights per day",
-            "$150-$250 NZD"
+            "Carry-on Bag",
+            "7kg",
+            "Free"
           ],
           [
-            "Auckland to Christchurch",
-            "1 hour 25 minutes",
-            "Multiple flights per day",
-            "$100-$200 NZD"
+            "Checked Bag",
+            "23kg",
+            "Free"
           ],
           [
-            "Wellington to Queenstown",
-            "1 hour 20 minutes",
-            "2-3 flights per day",
-            "$120-$220 NZD"
+            "Additional Checked Bag",
+            "23kg",
+            "$20-$30 NZD"
+          ],
+          [
+            "Oversized Bag",
+            "Up to 32kg",
+            "$50-$100 NZD"
           ]
         ]
       }
     },
     {
-      "heading": "Tips for Flying with Infants",
-      "body": "If you're flying with an infant, it's essential to book a bassinet seat, which is available on most Air NZ domestic flights. These seats are designed for infants under 8 months and provide a safe and comfortable place for them to sleep. Additionally, Air NZ offers a range of infant-friendly amenities, including baby food and nappies."
+      "heading": "Queenstown vs Christchurch vs Wellington Routes",
+      "body": "When deciding which route to take, consider the drive time and cost of activities at each destination. For example, flying from Auckland to Queenstown takes approximately 1 hour and 35 minutes, and costs around $150-$300 NZD per person, depending on the time of year. In contrast, flying from Auckland to Christchurch takes around 1 hour and 25 minutes, and costs around $100-$250 NZD per person. Wellington is another popular destination, with flights from Auckland taking around 1 hour and 5 minutes, and costing around $80-$200 NZD per person."
     },
     {
-      "heading": "Driving to the Airport: Time and Cost",
-      "body": "If you're driving to the airport, be sure to factor in traffic and parking costs. For example, driving from downtown Auckland to Auckland Airport can take around 30-40 minutes and cost $20-$30 NZD in parking fees. In contrast, driving from downtown Wellington to Wellington Airport takes around 15-20 minutes and costs $10-$20 NZD in parking fees."
+      "heading": "Tips for a Smooth Journey",
+      "list": [
+        "Book seats in advance to ensure family seating",
+        "Check-in online and print or download boarding passes to save time",
+        "Pack essentials like snacks, entertainment, and extra clothes in carry-on bags",
+        "Consider booking a morning flight to avoid peak traffic and long queues"
+      ]
     },
     {
-      "heading": "Plan Your Family Trip with Our Budget Calculator",
+      "heading": "Plan Your Family Trip with Our Tools",
       "cta": {
-        "text": "Get started with our NZ family travel budget calculator",
+        "text": "Calculate your family travel budget with our free calculator",
         "url": "/tools/nz-family-travel-budget-calculator/",
+        "affiliate": false
+      }
+    },
+    {
+      "heading": "Accommodation Options for Families",
+      "body": "Once you arrive at your destination, consider booking family-friendly accommodation, such as the Novotel Queenstown Lakeside, which offers rooms from $250-$400 NZD per night, or the Rydges Wellington, which offers rooms from $200-$350 NZD per night. You can also explore campervan options, which can be a fun and affordable way to travel with kids, with prices starting from $100-$200 NZD per day."
+    },
+    {
+      "heading": "Get the Best Deals on Campervans",
+      "cta": {
+        "text": "Compare campervan prices and book online",
+        "url": "/campervans/",
         "affiliate": false
       }
     }
