@@ -1,0 +1,71 @@
+{
+  "title": "Wellington on a Budget",
+  "short_title": "Wellington",
+  "meta_desc": "Discover how to visit Wellington on a family budget of $200-380/day, with free activities, affordable accommodation, and top attractions like Te Papa and the Wellington Cable Car.",
+  "intro": "Wellington is a fantastic destination for families, with a wide range of activities and attractions to suit all ages. With some planning, you can have a great time in Wellington without breaking the bank. In this guide, we'll show you how to visit Wellington on a budget of $200-380 per day for a family of four.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Daily Costs",
+      "body": "<p>A daily budget of $200-380 for a family of four is realistic for Wellington, covering accommodation, food, and activities. You can expect to pay around $150-250 per night for a mid-range motel or apartment, $20-30 per person for meals, and $20-50 per person for attractions.</p><p>Some top attractions like Te Papa Museum are free, while others like the Wellington Cable Car cost around $9 per adult and $4.50 per child. Zealandia Wildlife Sanctuary costs around $55 per adult and $25 per child, but is worth the splurge for nature lovers.</p>",
+      "list": [
+        "Accommodation: $150-250 per night",
+        "Food: $20-30 per person per meal",
+        "Attractions: $20-50 per person"
+      ]
+    },
+    {
+      "heading": "Free Activities",
+      "body": "<p>Wellington has a range of free activities that are perfect for families. The Te Papa Museum is one of the best free museums in New Zealand, with a wide range of interactive exhibits and displays. The Wellington Waterfront and Frank Kitts Park playground are also great spots for kids to burn off energy.</p><p>The Botanical Garden is another free attraction, and can be accessed by taking the Wellington Cable Car to the top and walking back down through the garden. For a more adventurous day out, head to Makara Beach, which is around 30 minutes from the CBD and offers great rock pooling and a wild west coast beach experience.</p>"
+    },
+    {
+      "heading": "Accommodation Options",
+      "body": "<p>Wellington has a wide range of accommodation options to suit all budgets. For families on a tight budget, consider staying in a hostel or budget motel, which can cost around $100-150 per night. For a mid-range option, consider a motel or apartment, which can cost around $150-250 per night.</p><p>Some top picks for families include the Ibis Wellington, which costs around $180 per night, and the Quest Wellington, which costs around $200 per night. For a more luxurious option, consider the Novotel Wellington, which costs around $300 per night.</p>"
+    },
+    {
+      "heading": "Budget Breakdown",
+      "body": "<p>Here's a rough breakdown of what you might expect to pay for a 3-day trip to Wellington:</p>",
+      "table": {
+        "headers": [
+          "Day",
+          "Accommodation",
+          "Food",
+          "Attractions",
+          "Total"
+        ],
+        "rows": [
+          [
+            "Day 1",
+            "$200",
+            "$80",
+            "$50",
+            "$330"
+          ],
+          [
+            "Day 2",
+            "$200",
+            "$80",
+            "$70",
+            "$350"
+          ],
+          [
+            "Day 3",
+            "$200",
+            "$80",
+            "$40",
+            "$320"
+          ]
+        ]
+      },
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "wellington-with-kids-budget-family-guide-2026-07",
+  "updated": "July 2026",
+  "auto_generated": true,
+  "generated_date": "2026-07-31"
+}
