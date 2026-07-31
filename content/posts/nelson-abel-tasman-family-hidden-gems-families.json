@@ -1,0 +1,50 @@
+{
+  "title": "Nelson & Abel Tasman Hidden Gems",
+  "short_title": "Nelson Gems",
+  "meta_desc": "Discover the lesser-known spots in Nelson & Abel Tasman that most NZ families miss, perfect for a fun and adventurous family holiday with kids of all ages.",
+  "intro": "Nelson and Abel Tasman are renowned for their stunning beaches and scenic coastal walks, but there's more to this beautiful region than meets the eye. From secluded beaches to scenic viewpoints, we've uncovered some hidden gems that are sure to delight families with kids. With a range of free activities and budget-friendly options, there's something for every family to enjoy.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Tōtaranui Beach: A Secluded Paradise",
+      "body": "<p>Tōtaranui Beach, located at the northern end of Abel Tasman National Park, is a must-visit for families. This stunning beach is accessible by road, albeit a gravel one, and offers a DOC campsite on-site. Be sure to book your campsite months in advance to avoid disappointment.</p><p>The beach itself is a haven for kids, with its calm and clear waters perfect for swimming and snorkelling. The surrounding native bush also provides ample opportunities for exploration and adventure.</p><p>Getting to Tōtaranui Beach is relatively straightforward, with the drive from Nelson taking around 2.5 hours. The cost of camping at the DOC site is $10 per adult and $5 per child per night, making it an affordable option for families.</p>",
+      "list": [
+        "Drive time from Nelson: 2.5 hours",
+        "Cost: $10 per adult, $5 per child per night"
+      ]
+    },
+    {
+      "heading": "Kaiteriteri Beach: A Family Favourite",
+      "body": "<p>Kaiteriteri Beach is the main gateway to Abel Tasman National Park and is a firm favourite among families. This beautiful beach offers safe swimming, a playground, and a range of water sports and activities.</p><p>One of the best things about Kaiteriteri Beach is that it's free to access, making it an ideal spot for families on a budget. Be sure to arrive early in the summer months to secure a parking spot and make the most of your day.</p><p>Kaiteriteri Beach is also a great spot for kids to learn how to kayak or paddleboard, with several rental companies operating in the area. Prices start from around $20 per hour for a single kayak or paddleboard.</p>",
+      "list": [
+        "Drive time from Nelson: 1 hour",
+        "Cost: free to access, kayak/paddleboard rental from $20 per hour"
+      ]
+    },
+    {
+      "heading": "Nelson's Centre of New Zealand: A Scenic Viewpoint",
+      "body": "<p>Nelson's Centre of New Zealand is a scenic viewpoint that offers stunning 360° views of the surrounding area. The walk to the viewpoint takes around 20 minutes return and is suitable for families with kids of all ages.</p><p>The cost of visiting the Centre of New Zealand is free, making it a great budget-friendly option for families. The viewpoint is also a great spot for a picnic, with several tables and benches available.</p><p>Be sure to bring your camera to capture the stunning views, and don't forget to look out for the brass plaque that marks the centre of New Zealand.</p>",
+      "list": [
+        "Drive time from Nelson city centre: 10 minutes",
+        "Cost: free"
+      ]
+    },
+    {
+      "heading": "Other Hidden Gems",
+      "body": "<p>In addition to Tōtaranui Beach, Kaiteriteri Beach, and Nelson's Centre of New Zealand, there are several other hidden gems in the Nelson and Abel Tasman region that are worth exploring. These include the scenic coastal walk from Marahau to Anchorage, which offers stunning views of the coastline and is suitable for families with kids aged 8 and above.</p><p>The drive from Nelson to Marahau takes around 1 hour, and the cost of parking is $10 per day. The walk itself is free and takes around 4-5 hours to complete, depending on your family's pace.</p><p>Another hidden gem is the Nelson Saturday Market, which takes place every Saturday morning and offers a range of local produce, crafts, and souvenirs. The market is free to attend and is a great spot for families to pick up some unique gifts or souvenirs.</p>",
+      "list": [
+        "Marahau to Anchorage coastal walk: 4-5 hours, free",
+        "Nelson Saturday Market: every Saturday morning, free"
+      ],
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "nelson-abel-tasman-family-hidden-gems-families",
+  "updated": "August 2026",
+  "auto_generated": true,
+  "generated_date": "2026-08-01"
+}

@@ -1,0 +1,66 @@
+{
+  "title": "Wellington August",
+  "short_title": "Wgtn Aug",
+  "meta_desc": "Discover Wellington with kids in August, explore Te Papa, Wellington Cable Car and Zealandia Wildlife Sanctuary with a budget of $200-380/day for a family of 4",
+  "intro": "Wellington is a fantastic destination for families in August, with its vibrant cultural scene, stunning natural beauty and plenty of kid-friendly activities. The average temperature in August is around 12°C, making it a great time to explore the city's many indoor attractions. With a budget of $200-380 per day for a family of four, you can enjoy the best of Wellington without breaking the bank.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Weather and What's On",
+      "body": "<p>August is one of the coolest months in Wellington, with average highs of 12°C and average lows of 9°C. It's also one of the windiest months, so be sure to pack warm clothing and waterproof gear. This month, the city hosts the <a href='https://www.visitwellington.nz/'>Wellington On a Plate</a> food festival, which features a range of family-friendly events and activities.</p><p>In addition to the festival, there are plenty of other fun events and activities to enjoy in Wellington in August, including the <a href='https://www.tepapa.govt.nz/'>Te Papa Museum's</a> school holiday programme, which offers a range of interactive exhibitions and activities for kids.</p>",
+      "list": [
+        "Wellington On a Plate food festival",
+        "Te Papa Museum's school holiday programme"
+      ]
+    },
+    {
+      "heading": "Best Activities for Families",
+      "body": "<p>Wellington is a city that's full of fun and interactive activities for kids. One of the top attractions is the <a href='https://www.tepapa.govt.nz/'>Te Papa Museum</a>, which offers a range of interactive exhibitions and activities that are perfect for families. The museum is free to visit, although some special exhibitions may incur a charge.</p><p>Another must-visit attraction is the <a href='https://www.wellingtoncablecar.co.nz/'>Wellington Cable Car</a>, which takes you on a scenic ride from the city centre to the top of the Wellington Botanic Garden. From there, you can explore the beautiful gardens and enjoy stunning views of the city.</p>",
+      "table": {
+        "headers": [
+          "Activity",
+          "Price"
+        ],
+        "rows": [
+          [
+            "Te Papa Museum",
+            "Free"
+          ],
+          [
+            "Wellington Cable Car",
+            "$9 adult, $4.50 child"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Crowd Levels and Booking Ahead",
+      "body": "<p>August is a popular time to visit Wellington, especially during the school holidays. To avoid the crowds, it's a good idea to book your activities and attractions in advance, especially for popular spots like the <a href='https://www.tepapa.govt.nz/'>Te Papa Museum</a> and the <a href='https://www.wellingtoncablecar.co.nz/'>Wellington Cable Car</a>.</p><p>Some activities, such as the <a href='https://www.doc.govt.nz/'>Kāpiti Island day trip</a>, require booking well in advance due to limited numbers and conservation restrictions. Be sure to plan ahead and book your spot early to avoid disappointment.</p>",
+      "list": [
+        "Book Te Papa Museum tickets in advance",
+        "Book Wellington Cable Car tickets in advance",
+        "Book Kāpiti Island day trip well in advance"
+      ]
+    },
+    {
+      "heading": "Practical Tips for Families",
+      "body": "<p>Wellington can be a windy and chilly city, so be sure to pack warm clothing and waterproof gear for your family. It's also a good idea to have a backup plan in case of bad weather, such as visiting one of the city's many indoor attractions.</p><p>In addition to packing the right gear, it's also important to plan your days carefully to avoid crowds and make the most of your time in Wellington. Consider visiting popular attractions early in the morning or later in the evening to avoid the busiest times.</p>",
+      "list": [
+        "Pack warm clothing and waterproof gear",
+        "Have a backup plan for bad weather",
+        "Plan your days carefully to avoid crowds",
+        "Consider visiting popular attractions early or late",
+        "Take advantage of free activities like the Wellington Waterfront and Frank Kitts Park playground"
+      ],
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "wellington-with-kids-august-family-guide",
+  "updated": "August 2026",
+  "auto_generated": true,
+  "generated_date": "2026-08-01"
+}

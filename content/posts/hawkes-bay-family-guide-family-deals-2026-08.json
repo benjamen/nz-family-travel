@@ -1,0 +1,52 @@
+{
+  "title": "Hawke's Bay Deals",
+  "short_title": "Bay Deals",
+  "meta_desc": "Discover the best family deals in Hawke's Bay, including discounts on activities, accommodation, and travel insurance, for a fun and affordable family holiday in August 2026",
+  "intro": "Hawke's Bay is a hidden gem for family holidays, with its Art Deco city, gannet colonies, and beautiful beaches. With the right deals and discounts, you can have a fun and affordable holiday in this stunning region. Here are the best family deals in Hawke's Bay for August 2026.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Current Booking Deals",
+      "body": "<p>Bookme.co.nz is offering up to 40% off activities in Rotorua, Queenstown, Bay of Islands, and Auckland, but you can also find discounts on Hawke's Bay activities such as the Cape Kidnappers Gannet Colony tour, priced from $40 per person.</p><p>For accommodation, consider hiring a family campervan from $89 per day with Discover Cars, or book a holiday park or motel with free cancellation on most bookings through Booking.com.</p>",
+      "list": [
+        "Up to 40% off activities with Bookme.co.nz",
+        "Family campervans from $89 per day with Discover Cars",
+        "Free cancellation on most holiday park and motel bookings with Booking.com"
+      ]
+    },
+    {
+      "heading": "Best-Value Activities",
+      "body": "<p>Some of the best-value activities in Hawke's Bay include the Cape Kidnappers Gannet Colony tour, priced from $40 per person, and the Napier Art Deco walk, which is free to do on your own.</p><p>Ocean Beach and Waimarama Beach are also great spots for swimming and sunbathing, and are free to visit.</p>",
+      "list": [
+        "Cape Kidnappers Gannet Colony tour from $40 per person",
+        "Napier Art Deco walk (free)",
+        "Ocean Beach and Waimarama Beach (free)"
+      ]
+    },
+    {
+      "heading": "Money-Saving Tips",
+      "body": "<p>To save money on your family holiday in Hawke's Bay, consider visiting during the off-season, when prices are lower.</p><p>Also, book your activities and accommodation in advance to get the best prices, and look for package deals that include multiple activities or services.</p>",
+      "list": [
+        "Visit during the off-season to save up to 20% on accommodation and activities",
+        "Book activities and accommodation in advance to get the best prices",
+        "Look for package deals that include multiple activities or services",
+        "Consider hiring a campervan instead of booking multiple hotel rooms",
+        "Pack your own food and snacks instead of eating out for every meal",
+        "Take advantage of free activities such as the Napier Art Deco walk and visiting the beach"
+      ]
+    },
+    {
+      "heading": "Travel Insurance",
+      "body": "<p>Don't forget to consider travel insurance for your family holiday in Hawke's Bay, to protect against unexpected medical or travel-related expenses.</p><p>Cover-More offers comprehensive family travel insurance from $4.50 per day.</p>",
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "hawkes-bay-family-guide-family-deals-2026-08",
+  "updated": "August 2026",
+  "auto_generated": true,
+  "generated_date": "2026-08-01"
+}

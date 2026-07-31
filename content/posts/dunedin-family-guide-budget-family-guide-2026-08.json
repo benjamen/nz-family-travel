@@ -1,0 +1,80 @@
+{
+  "title": "Dunedin on a Budget",
+  "short_title": "Dunedin",
+  "meta_desc": "Discover how to visit Dunedin, New Zealand's wildlife capital, on a family budget of $200-380/day, with free activities, accommodation options, and tips on where to save and splurge",
+  "intro": "Dunedin is a city that seamlessly blends Victorian charm with dramatic wildlife experiences, making it an ideal destination for families. With a daily budget of $200-380 for a family of four, you can enjoy the city's unique attractions without breaking the bank. From free activities like walking up the world's steepest street to splurging on a royal albatross tour, we've got you covered.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Accommodation Options",
+      "body": "<p>When it comes to accommodation in Dunedin, you have a range of options to suit your budget. For a cheap and cheerful stay, consider the Dunedin Holiday Park, which offers cabins and powered sites from $40-100 per night. For a mid-range option, the Leviathan Hotel offers comfortable rooms from $150-250 per night.</p> <p>If you're looking for something a bit more unique, consider renting an apartment or house through Bookabach or Airbnb, which can offer more space and amenities for your money. Prices start from around $100-200 per night.</p>",
+      "list": [
+        "Dunedin Holiday Park: $40-100 per night",
+        "Leviathan Hotel: $150-250 per night",
+        "Bookabach/Airbnb: $100-200 per night"
+      ]
+    },
+    {
+      "heading": "Free Activities",
+      "body": "<p>Dunedin has a range of free activities that are perfect for families. Take a walk or run up Baldwin Street, the world's steepest street, and take in the stunning views from the top. Visit the exterior of the Dunedin Railway Station, one of New Zealand's most photographed buildings, and admire its stunning Flemish Renaissance architecture.</p> <p>The Otago Settlers Museum is also free to visit and offers an excellent insight into the history of European and Maori settlement in Otago. With interactive exhibits and a range of artifacts, it's a great place to learn something new and have fun at the same time.</p>",
+      "list": [
+        "Walk or run up Baldwin Street",
+        "Visit the Dunedin Railway Station exterior",
+        "Otago Settlers Museum"
+      ]
+    },
+    {
+      "heading": "Budget Breakdown",
+      "body": "<p>To help you plan your trip, we've put together a rough 3-day budget breakdown for a family of four. This includes accommodation, food, activities, and transportation.</p>",
+      "table": {
+        "headers": [
+          "Day",
+          "Accommodation",
+          "Food",
+          "Activities",
+          "Transportation",
+          "Total"
+        ],
+        "rows": [
+          [
+            "1",
+            "$150",
+            "$80",
+            "$100",
+            "$20",
+            "$350"
+          ],
+          [
+            "2",
+            "$150",
+            "$80",
+            "$120",
+            "$20",
+            "$370"
+          ],
+          [
+            "3",
+            "$150",
+            "$80",
+            "$80",
+            "$20",
+            "$330"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Where to Save and Splurge",
+      "body": "<p>To make the most of your budget, it's a good idea to save money on some activities and splurge on others. Consider saving money by self-catering and preparing your own meals, rather than eating out for every meal. You can also save money by choosing free activities, such as visiting the Otago Settlers Museum or walking up Baldwin Street.</p> <p>On the other hand, some activities are worth splurging on, such as a royal albatross tour or a visit to the Penguin Place conservation reserve. These unique experiences will give you and your family unforgettable memories of your trip to Dunedin.</p>",
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "dunedin-family-guide-budget-family-guide-2026-08",
+  "updated": "August 2026",
+  "auto_generated": true,
+  "generated_date": "2026-08-01"
+}
