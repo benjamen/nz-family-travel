@@ -1,0 +1,74 @@
+{
+  "title": "August in Fiordland",
+  "short_title": "Fiordland Aug",
+  "meta_desc": "Discover the best of Fiordland & Milford Sound with kids in August. Enjoy stunning scenery, exciting activities, and a range of accommodation options from $280-500/day for a family of 4.",
+  "intro": "August is a great time to visit Fiordland & Milford Sound with kids, with mild winter weather and fewer crowds. The region offers a range of exciting activities, including the Milford Sound Nature Cruise and kayaking. With prices from $280-500/day for a family of 4, it's an affordable and unforgettable experience.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Weather in August",
+      "body": "<p>August is winter in Fiordland, but the weather is generally mild, with average highs of 12°C (54°F) and lows of 6°C (43°F). It's a great time to see the region's stunning scenery, with snow-capped mountains and picturesque valleys. <p>Be prepared for some rain, with an average of 12 rainy days throughout the month. However, this can actually add to the drama of the scenery, with hundreds of waterfalls cascading down the cliffs.",
+      "list": [
+        "Average high: 12°C (54°F)",
+        "Average low: 6°C (43°F)",
+        "Average rainy days: 12"
+      ]
+    },
+    {
+      "heading": "What's On in August",
+      "body": "<p>In August, Fiordland & Milford Sound offer a range of activities and events for families. The Milford Sound Nature Cruise and kayaking are popular choices, with prices from $100-$200 per person. The Underwater Observatory and Te Anau Glowworm Caves are also worth visiting, with prices from $50-$100 per person. <p>The Kepler Track day walk is a great option for families with kids aged 5+, with stunning views of the surrounding mountains and valleys.",
+      "table": {
+        "headers": [
+          "Activity",
+          "Price (per person)"
+        ],
+        "rows": [
+          [
+            "Milford Sound Nature Cruise",
+            "$100-$150"
+          ],
+          [
+            "Kayaking",
+            "$120-$200"
+          ],
+          [
+            "Underwater Observatory",
+            "$50-$80"
+          ],
+          [
+            "Te Anau Glowworm Caves",
+            "$60-$100"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Crowd Levels and Bookings",
+      "body": "<p>August is a relatively quiet month in Fiordland & Milford Sound, with fewer crowds than the peak summer months. However, it's still a good idea to book your activities and accommodation in advance, especially during the school holidays. <p>Book the first cruise of the day to avoid the tour buses from Queenstown and enjoy a more peaceful experience.",
+      "list": [
+        "Book activities and accommodation in advance",
+        "Choose the first cruise of the day for a more peaceful experience"
+      ]
+    },
+    {
+      "heading": "Practical Tips for Families",
+      "body": "<p>Here are some practical tips for families visiting Fiordland & Milford Sound in August: <p>Bring warm and waterproof clothing, including jackets, hats, and gloves. Wear comfortable shoes or hiking boots, and consider bringing a backpack with snacks and water. <p>Take your time on the scenic drive from Te Anau to Milford Sound, with plenty of stops for photos and sightseeing. And don't forget your camera, with stunning scenery and wildlife viewing opportunities throughout the region.",
+      "list": [
+        "Bring warm and waterproof clothing",
+        "Wear comfortable shoes or hiking boots",
+        "Bring a backpack with snacks and water",
+        "Take your time on the scenic drive",
+        "Don't forget your camera"
+      ],
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "fiordland-milford-sound-family-august-family-guide",
+  "updated": "August 2026",
+  "auto_generated": true,
+  "generated_date": "2026-08-02"
+}
