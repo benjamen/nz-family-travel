@@ -1,0 +1,63 @@
+{
+  "title": "Te Papa Museum Review",
+  "short_title": "Te Papa",
+  "meta_desc": "Discover Te Papa Museum in Wellington, a free museum with interactive exhibits, NZ history, and Maori culture, perfect for families with kids of all ages, with insider tips and tricks to make the most of your visit.",
+  "intro": "Te Papa Museum in Wellington is a must-visit destination for families, offering six floors of interactive exhibits, NZ history, and Maori culture. With free admission for all, it's an excellent value for money. In this review, we'll dive into what it's like to visit Te Papa with kids, including age suitability, insider tips, and the best time to visit.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "What to Expect",
+      "body": "<p>Te Papa Museum is an absolute gem for families, with something for every age and interest. The museum boasts an impressive collection of exhibits, including the earthquake house, Gallipoli exhibition (note: this one is ticketed), and a giant squid that kids will love. With six floors to explore, you can easily spend 3-5 hours here, and the best part is that it's completely free.</p><p>The interactive exhibits are designed specifically with children in mind, making it an excellent choice for families with kids of all ages, from 0+. The museum is stroller-friendly, and there are baby-changing facilities and a parents' room available.</p>",
+      "list": [
+        "Earthquake house",
+        "Gallipoli exhibition (ticketed)",
+        "Giant squid exhibit"
+      ]
+    },
+    {
+      "heading": "Insider Tips and Tricks",
+      "body": "<p>To make the most of your visit, consider arriving early in the morning or later in the afternoon to avoid the crowds. The museum can get busy, especially during school holidays and weekends.</p><p>Take advantage of the free admission and spend as much time as you like exploring the exhibits. You can also grab a bite to eat at the museum's cafe or bring your own picnic lunch to enjoy in the outdoor area.</p>",
+      "list": [
+        "Arrive early or late to avoid crowds",
+        "Bring a picnic lunch or grab food at the cafe"
+      ]
+    },
+    {
+      "heading": "Value for Money",
+      "body": "<p>With free admission for all, Te Papa Museum is an unbeatable value for money. You can easily spend a whole day here without spending a dime on entry fees.</p><p>While some special exhibitions may be ticketed, the majority of the museum is free to explore, making it an excellent choice for families on a budget.</p>",
+      "table": {
+        "headers": [
+          "Admission",
+          "Price"
+        ],
+        "rows": [
+          [
+            "Adult",
+            "$0"
+          ],
+          [
+            "Child",
+            "$0"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Best Time to Visit",
+      "body": "<p>The best time to visit Te Papa Museum is during the week, outside of school holidays, when the crowds are smaller. If you can't make it during the week, consider arriving early in the morning or later in the afternoon to avoid the peak tourist season.</p>",
+      "list": [
+        "Weekdays during term time",
+        "Early morning or late afternoon"
+      ],
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "te-papa-wellington-family-review-2026-08",
+  "updated": "August 2026",
+  "auto_generated": true,
+  "generated_date": "2026-08-03"
+}

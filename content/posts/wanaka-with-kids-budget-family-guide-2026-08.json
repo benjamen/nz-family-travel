@@ -1,0 +1,91 @@
+{
+  "title": "Wanaka on Budget",
+  "short_title": "Wanaka",
+  "meta_desc": "Discover how to visit Wanaka with your family without breaking the bank. Get insider tips on accommodation, activities, and dining to stay within your budget of $250-450/day",
+  "intro": "Wanaka is a stunning destination that offers a mix of relaxation, adventure, and family-friendly activities. With some planning, you can enjoy this beautiful town without overspending. Here's a guide to help you visit Wanaka on a family budget of $250-450/day.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Accommodation Options",
+      "body": "<p>Wanaka has a range of accommodation options to suit different budgets. For a family of four, you can expect to pay around $150-250 per night for a mid-range apartment or holiday home. Consider staying in a nearby suburb or looking for a place that offers a discount for longer stays.</p><p>Camping is another affordable option, with prices starting from $20-30 per night for a powered site. If you're looking for a budget-friendly alternative, look into staying in a hostel or lodge, which can cost around $100-150 per night for a family room.</p>",
+      "list": [
+        "Mid-range apartment: $150-250 per night",
+        "Holiday home: $200-350 per night",
+        "Camping: $20-30 per night",
+        "Hostel or lodge: $100-150 per night"
+      ]
+    },
+    {
+      "heading": "Free Activities",
+      "body": "<p>Wanaka has plenty of free activities to enjoy, including the famous Wanaka Lakeshore walk, which offers stunning views of the lake and surrounding mountains. The Mt Iron track is another great option, which takes around 1.5 hours to complete and offers panoramic views of the town.</p><p>Glendhu Bay is a beautiful swim beach that's perfect for families, and it's only a 10-minute drive from the town centre. These free activities are a great way to experience the natural beauty of Wanaka without breaking the bank.</p>",
+      "list": [
+        "Wanaka Lakeshore walk",
+        "Mt Iron track",
+        "Glendhu Bay swim beach"
+      ]
+    },
+    {
+      "heading": "Budget Breakdown",
+      "body": "<p>Here's a rough estimate of what you can expect to pay for a 3-day trip to Wanaka:</p>",
+      "table": {
+        "headers": [
+          "Day",
+          "Accommodation",
+          "Food",
+          "Activities",
+          "Total"
+        ],
+        "rows": [
+          [
+            "Day 1",
+            "$200",
+            "$80",
+            "$50",
+            "$330"
+          ],
+          [
+            "Day 2",
+            "$200",
+            "$100",
+            "$70",
+            "$370"
+          ],
+          [
+            "Day 3",
+            "$200",
+            "$80",
+            "$30",
+            "$310"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Where to Save Money",
+      "body": "<p>One of the best ways to save money in Wanaka is to self-cater and prepare your own meals. Eating out can be expensive, especially for families, so consider booking a place with a kitchen and buying groceries from the local supermarket.</p><p>Another way to save money is to look for free or low-cost activities, such as the ones mentioned earlier. You can also consider visiting during the off-season, when prices for accommodation and activities tend to be lower.</p>",
+      "list": [
+        "Self-cater and prepare your own meals",
+        "Look for free or low-cost activities",
+        "Visit during the off-season"
+      ]
+    },
+    {
+      "heading": "What's Worth Splashing Out On",
+      "body": "<p>While it's possible to have a great time in Wanaka on a budget, there are some activities that are worth splashing out on. Puzzling World is a unique and fun attraction that's perfect for families, and the views from the top of Treble Cone are breathtaking.</p><p>Consider treating your family to a special experience, such as a guided hike or a scenic flight, to make your trip to Wanaka truly unforgettable.</p>",
+      "list": [
+        "Puzzling World",
+        "Treble Cone ski lift",
+        "Guided hike or scenic flight"
+      ],
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "wanaka-with-kids-budget-family-guide-2026-08",
+  "updated": "August 2026",
+  "auto_generated": true,
+  "generated_date": "2026-08-03"
+}

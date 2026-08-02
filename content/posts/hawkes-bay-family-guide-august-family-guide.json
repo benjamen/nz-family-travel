@@ -1,0 +1,71 @@
+{
+  "title": "Hawke's Bay in Aug",
+  "short_title": "HB Aug",
+  "meta_desc": "Discover Hawke's Bay with kids in August, enjoy warm weather, gannet colony tours, Art Deco walks, and more, all on a budget of $180-340/day for a family of 4, suitable for ages 5+",
+  "intro": "Hawke's Bay is a hidden family gem in August, with warm and dry weather, perfect for outdoor activities like visiting the Cape Kidnappers Gannet Colony, taking an Art Deco walk in Napier, and swimming at Ocean Beach or Waimarama Beach. With a budget of $180-340/day for a family of 4, you can enjoy a range of activities, including free options like the Napier Art Deco walk and Marine Parade. Best suited for kids aged 5+, Hawke's Bay is an ideal destination for families looking for a fun and affordable holiday.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Weather and What's On",
+      "body": "<p>August is a great time to visit Hawke's Bay, with average highs of 17°C and lows of 7°C, making it ideal for outdoor activities. The region hosts various events in August, including the Hawke's Bay Winter Wine Weekend and the Napier Art Deco Festival, although the latter is more low-key than the February event.</p><p>The Cape Kidnappers Gannet Colony is a must-visit, with guided tours available from $40-$60 per person, depending on the operator and the type of tour. Book ahead to ensure availability, especially during school holidays.</p>",
+      "list": [
+        "Hawke's Bay Winter Wine Weekend",
+        "Napier Art Deco Festival (low-key event)",
+        "Cape Kidnappers Gannet Colony tours"
+      ]
+    },
+    {
+      "heading": "Best Activities for Families",
+      "body": "<p>August is a great time to enjoy the region's beautiful beaches, such as Ocean Beach and Waimarama Beach, with warm and dry weather. The Napier Aquarium is another great option, with tickets priced at $15 per adult and $10 per child.</p><p>The Strawberry farm picking is also a fun activity for kids, with prices starting from $10 per person, depending on the farm and the time of day.</p>",
+      "table": {
+        "headers": [
+          "Activity",
+          "Price (per person)"
+        ],
+        "rows": [
+          [
+            "Cape Kidnappers Gannet Colony tour",
+            "$40-$60"
+          ],
+          [
+            "Napier Aquarium",
+            "$15 (adult), $10 (child)"
+          ],
+          [
+            "Strawberry farm picking",
+            "$10-$20"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Crowd Levels and Bookings",
+      "body": "<p>Crowd levels are generally lower in August, compared to the peak summer months, making it easier to book activities and accommodations. However, it's still recommended to book ahead for popular attractions like the Cape Kidnappers Gannet Colony and the Napier Aquarium.</p><p>Accommodation prices are also lower in August, with options available from $150-$300 per night for a family of 4, depending on the location and type of accommodation.</p>",
+      "list": [
+        "Book Cape Kidnappers Gannet Colony tours in advance",
+        "Book Napier Aquarium tickets online",
+        "Book accommodation in advance to secure the best prices"
+      ]
+    },
+    {
+      "heading": "Practical Tips for Families",
+      "body": "<p>When visiting Hawke's Bay with kids, it's essential to plan ahead and book activities and accommodations in advance. Consider purchasing a Hawke's Bay tourism card, which can provide discounts and savings on various attractions and activities.</p><p>Don't forget to pack warm clothing for the cooler mornings and evenings, as well as sunscreen and hats for outdoor activities during the day.</p>",
+      "list": [
+        "Book activities and accommodations in advance",
+        "Purchase a Hawke's Bay tourism card",
+        "Pack warm clothing and sunscreen",
+        "Check the weather forecast before heading out",
+        "Bring a picnic lunch to enjoy at one of the region's many parks or beaches"
+      ],
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "hawkes-bay-family-guide-august-family-guide",
+  "updated": "August 2026",
+  "auto_generated": true,
+  "generated_date": "2026-08-03"
+}

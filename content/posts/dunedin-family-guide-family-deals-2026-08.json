@@ -1,0 +1,76 @@
+{
+  "title": "Dunedin Family Deals",
+  "short_title": "Dunedin Deals",
+  "meta_desc": "Discover the best family deals in Dunedin, NZ. Save up to 40% on activities, get affordable campervans from $89/day, and enjoy free cancellation on holiday parks.",
+  "intro": "Dunedin is a fantastic destination for families, offering a unique blend of wildlife, history, and culture. With a budget of $200-380 per day for a family of four, you can experience the best of Dunedin without breaking the bank. From discounted activities to affordable accommodation, we've got you covered.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Current Booking Deals and Discounts",
+      "body": "<p>Bookme.co.nz is offering up to 40% off activities in Rotorua, Queenstown, Bay of Islands, and Auckland. Although these deals are not specific to Dunedin, you can still save on activities in other parts of New Zealand. For Dunedin-specific deals, keep an eye on the Royal Albatross Centre and Penguin Place for special promotions.</p><p>Discover Cars is also offering family campervans from $89 per day, which is a great option for families who want to explore Dunedin and the surrounding areas. Additionally, Booking.com has a range of holiday parks and motels with free cancellation on most bookings.</p>",
+      "list": [
+        "Up to 40% off activities with Bookme.co.nz",
+        "Family campervans from $89/day with Discover Cars",
+        "Free cancellation on holiday parks and motels with Booking.com"
+      ]
+    },
+    {
+      "heading": "Best-Value Activities",
+      "body": "<p>Dunedin has a range of activities that are perfect for families. The Royal Albatross Centre is a must-visit, with prices starting from $50 per adult and $25 per child. Yellow-eyed penguin watching is another popular activity, with prices starting from $30 per adult and $15 per child.</p><p>Baldwin Street, the world's steepest street, is a free activity that's sure to thrill both kids and adults. The Otago Settlers Museum is also free and offers a fascinating insight into the history of European and Maori settlement in Otago.</p>",
+      "table": {
+        "headers": [
+          "Activity",
+          "Price (Adult)",
+          "Price (Child)"
+        ],
+        "rows": [
+          [
+            "Royal Albatross Centre",
+            "$50",
+            "$25"
+          ],
+          [
+            "Yellow-eyed Penguin Watching",
+            "$30",
+            "$15"
+          ],
+          [
+            "Baldwin Street",
+            "Free",
+            "Free"
+          ],
+          [
+            "Otago Settlers Museum",
+            "Free",
+            "Free"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Money-Saving Tips for Families",
+      "body": "<p>To make the most of your family holiday in Dunedin, here are some money-saving tips:</p>",
+      "list": [
+        "Book your activities and accommodation in advance to get the best prices",
+        "Consider visiting during the off-season (April to September) for lower prices",
+        "Pack your own lunch and snacks instead of buying them at tourist attractions",
+        "Take advantage of free activities like Baldwin Street and the Otago Settlers Museum",
+        "Use public transport or walk/bike whenever possible to save on fuel and parking",
+        "Look for special deals and packages on the attraction's website or through booking platforms like Bookme.co.nz"
+      ]
+    },
+    {
+      "heading": "When to Book for Best Prices",
+      "body": "<p>To get the best prices, it's essential to book your activities and accommodation in advance. For popular attractions like the Royal Albatross Centre, it's recommended to book at least 2-3 weeks in advance. For accommodation, book at least 1-2 months in advance to get the best rates.</p><p>Additionally, consider booking during the off-season (April to September) for lower prices. However, keep in mind that some attractions may have limited hours or be closed during this time.</p>",
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "dunedin-family-guide-family-deals-2026-08",
+  "updated": "August 2026",
+  "auto_generated": true,
+  "generated_date": "2026-08-03"
+}
