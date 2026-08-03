@@ -2,9 +2,9 @@
   "slug": "campervan-vs-rental-car-nz",
   "short_title": "Campervan vs Car",
   "title": "Campervan vs Rental Car for NZ Family Road Trips — The Real Comparison",
-  "meta_desc": "Compare campervan and rental car costs for NZ family road trips, including flexibility and what you give up with each option",
-  "intro": "When planning a family road trip in New Zealand, one of the biggest decisions is whether to rent a campervan or a car. With a 10-day trip costing around $2,500-$4,000, it's essential to choose the right option. We compared the two to help you make an informed decision.",
-  "updated": "July 2026",
+  "meta_desc": "Compare campervan vs rental car for NZ family road trips, including costs, flexibility, and what you give up with each option",
+  "intro": "When planning a family road trip in New Zealand, one of the most significant decisions is whether to rent a campervan or a car. With a 10-day road trip from Auckland to Rotorua and back costing upwards of $2,000 in fuel and accommodation alone, it pays to make the right choice. Here's a breakdown of the costs and benefits of each option to help you decide",
+  "updated": "August 2026",
   "reading_time": 9,
   "sections": [
     {
@@ -12,64 +12,69 @@
       "table": {
         "headers": [
           "Option",
-          "10-Day Rental Cost",
-          "Accommodation Cost",
-          "Total Cost"
+          "Vehicle Rental",
+          "Accommodation",
+          "Fuel",
+          "Total"
         ],
         "rows": [
           [
             "Campervan",
-            "$1,200-$1,800",
-            "$0 (included)",
-            "$1,200-$1,800"
+            "$1,200",
+            "$0",
+            "$200",
+            "$1,400"
           ],
           [
-            "Rental Car + Accommodation",
-            "$400-$600",
-            "$1,000-$1,500",
-            "$1,400-$2,100"
+            "Rental Car",
+            "$400",
+            "$1,000",
+            "$200",
+            "$1,600"
           ]
         ]
       }
     },
     {
       "heading": "Flexibility and Freedom",
-      "body": "One of the biggest advantages of renting a campervan is the flexibility to stop and sleep wherever you want, as long as it's allowed. With a rental car, you'll need to book accommodation in advance, which can be restrictive. However, rental cars often come with unlimited mileage, whereas campervans may have mileage limits."
+      "body": "One of the main advantages of a campervan is the flexibility to stop and camp wherever you like, without being tied to a specific accommodation booking. However, this freedom comes at a cost, with campervans often having limited kitchen and bathroom facilities. In contrast, rental cars offer the freedom to explore without the burden of a large vehicle, but require more planning and booking of accommodation in advance."
     },
     {
-      "heading": "What You Give Up with Each Option",
+      "heading": "What You Give Up",
       "list": [
-        "With a campervan, you give up the freedom to explore cities and towns without worrying about parking and camping restrictions.",
-        "With a rental car, you give up the convenience of having your accommodation and vehicle in one, and may need to pack and unpack every day."
+        "Campervan: luxury and space, with smaller beds and limited amenities",
+        "Rental Car: flexibility and freedom to camp wherever you like, with the need to book accommodation in advance"
       ]
     },
     {
-      "heading": "Real-World Example: Auckland to Rotorua",
-      "body": "Let's say you're planning a 4-day trip from Auckland to Rotorua. With a campervan, you can drive the 3-hour journey and stop at the scenic spots along the way, such as the Waitomo Glowworm Caves. With a rental car, you'll need to book accommodation in Rotorua and drive back to your hotel each night."
+      "heading": "Drive Times and Distances",
+      "body": "New Zealand's scenic routes can be long and winding, with drive times often taking longer than expected. For example, the drive from Auckland to Rotorua takes around 3 hours, while the drive from Rotorua to Wellington takes around 5.5 hours. Be sure to factor in rest stops and sightseeing time when planning your itinerary."
     },
     {
-      "heading": "Popular Campervan and Rental Car Options",
-      "list": [
-        "JUCY Campervans: from $120 per day",
-        "Britz Campervans: from $150 per day",
-        "Avis Rental Cars: from $40 per day",
-        "Hertz Rental Cars: from $50 per day"
-      ]
+      "heading": "Real-World Example",
+      "body": "Let's say you're planning a 10-day road trip from Auckland to Rotorua, Taupo, and Wellington, with a family of four. A campervan rental from a company like Jucy or Britz would cost around $1,200, plus $200 in fuel. In contrast, a rental car from a company like Europcar or Hertz would cost around $400, plus $1,000 in accommodation costs. Add in food and activities, and the total cost of the trip would be around $2,500 for the campervan option, or $2,800 for the rental car option."
     },
     {
-      "heading": "Get the Best Deal for Your Family",
+      "heading": "Plan Your Trip with Our Tools",
       "cta": {
-        "text": "Use our NZ Family Travel Budget Calculator to plan your trip",
+        "text": "Try our NZ Family Travel Budget Calculator",
         "url": "/tools/nz-family-travel-budget-calculator/",
         "affiliate": false
       }
     },
     {
-      "heading": "Explore NZ's Top Destinations",
-      "body": "Once you've decided on your transport option, it's time to start planning your itinerary. Check out our destination guides for inspiration, from the beautiful beaches of the Bay of Islands to the stunning fjords of Milford Sound.",
+      "heading": "Explore Our Destinations Guide",
       "cta": {
-        "text": "Read our destination guides",
+        "text": "Discover the best family-friendly destinations in NZ",
         "url": "/destinations/",
+        "affiliate": false
+      }
+    },
+    {
+      "heading": "Compare Campervan Options",
+      "cta": {
+        "text": "Learn more about campervan rentals in NZ",
+        "url": "/campervans/",
         "affiliate": false
       }
     }
