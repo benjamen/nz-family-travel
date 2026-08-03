@@ -1,0 +1,67 @@
+{
+  "title": "Nelson Deals",
+  "short_title": "Nelson",
+  "meta_desc": "Discover the best family deals in Nelson & Abel Tasman, including activity discounts, campervan hire, and travel insurance, to make your family holiday more affordable and enjoyable, with prices from $220-400/day for a family of 4",
+  "intro": "Nelson is the sunniest city in New Zealand and the gateway to Abel Tasman National Park, offering a relaxed and family-friendly atmosphere perfect for a holiday. With a budget of $220-400/day for a family of 4, you can enjoy the region's golden sand beaches, crystal-clear water, and native bush. From activity discounts to campervan hire and travel insurance, we've got you covered with the best family deals in Nelson & Abel Tasman.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Current Booking Deals and Discounts",
+      "body": "<p>Bookme.co.nz is currently offering up to 40% off activities in Rotorua, Queenstown, Bay of Islands, and Auckland, but you can also find discounts on Nelson and Abel Tasman activities, such as the Abel Tasman Water Taxi + Beach Day from $70-$100 per person.</p><p>Discover Cars is offering family campervans from $89/day, which is a great option for families who want to explore the region at their own pace. Additionally, Booking.com has free cancellation on most holiday park and motel bookings, giving you more flexibility with your accommodation plans.</p>",
+      "list": [
+        "Up to 40% off activities with Bookme.co.nz",
+        "Family campervans from $89/day with Discover Cars",
+        "Free cancellation on most bookings with Booking.com"
+      ]
+    },
+    {
+      "heading": "Best-Value Activities",
+      "body": "<p>Some of the best-value activities in Nelson and Abel Tasman include the Abel Tasman Water Taxi + Beach Day, Sea Kayaking Abel Tasman, and the Farewell Spit Tour, with prices ranging from $70-$150 per person.</p><p>For a more budget-friendly option, consider visiting Tahunanui Beach, which offers safe swimming, a playground, and a holiday park, all for free. You can also walk sections of the Abel Tasman coastal track for free, or take a short walk to the Centre of New Zealand hill for 360° views.</p>",
+      "table": {
+        "headers": [
+          "Activity",
+          "Price (per person)"
+        ],
+        "rows": [
+          [
+            "Abel Tasman Water Taxi + Beach Day",
+            "$70-$100"
+          ],
+          [
+            "Sea Kayaking Abel Tasman",
+            "$100-$150"
+          ],
+          [
+            "Farewell Spit Tour",
+            "$120-$180"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Money-Saving Tips for Families",
+      "body": "<p>To make the most of your family holiday in Nelson and Abel Tasman, consider the following money-saving tips:</p>",
+      "list": [
+        "Book your activities and accommodation in advance to get the best prices",
+        "Use Bookme.co.nz to find discounts on activities",
+        "Consider hiring a campervan instead of booking multiple hotel rooms",
+        "Pack your own food and snacks instead of eating out for every meal",
+        "Take advantage of free activities such as visiting Tahunanui Beach and walking sections of the Abel Tasman coastal track",
+        "Use travel insurance to protect against unexpected trip cancellations or interruptions, with prices from $4.50/day"
+      ]
+    },
+    {
+      "heading": "When to Book for Best Prices",
+      "body": "<p>To get the best prices for your family holiday in Nelson and Abel Tasman, it's a good idea to book your activities and accommodation in advance, especially during peak season (December to February).</p><p>Consider booking your campervan or holiday park accommodation at least 2-3 months in advance, and your activities 1-2 months in advance. This will give you the best chance of getting the prices you want.</p>",
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "nelson-abel-tasman-family-family-deals-2026-08",
+  "updated": "August 2026",
+  "auto_generated": true,
+  "generated_date": "2026-08-04"
+}

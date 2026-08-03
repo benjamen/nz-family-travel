@@ -1,0 +1,73 @@
+{
+  "title": "New Plymouth August",
+  "short_title": "NP Aug",
+  "meta_desc": "Discover the best of New Plymouth & Taranaki with kids in August. Enjoy mild weather, fewer crowds, and exciting events from $150-250/day for a family of 4.",
+  "intro": "New Plymouth is a hidden family gem, boasting a volcanic mountain, stunning surf beaches, and NZ's best park. In August, the weather is mild, with average highs of 14°C and 9 hours of sunshine. It's an ideal time to explore the outdoors with kids, with popular attractions like Pukekura Park and the coastal walkway less crowded than in peak summer.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Weather and What's On",
+      "body": "<p>In August, New Plymouth experiences mild winter weather, with average highs of 14°C and lows of 7°C. It's a great time to enjoy the outdoors, with fewer crowds and lower prices. The Taranaki Arts Festival takes place in August, featuring a range of performances, exhibitions, and workshops. The festival includes free and ticketed events, with prices starting from $10.</p><p>The festival is suitable for all ages, with a range of family-friendly activities and events. Be sure to check the festival schedule and book tickets in advance for popular shows.</p>",
+      "list": [
+        "Taranaki Arts Festival ( ticket prices from $10)",
+        "New Plymouth Farmers' Market (every Sunday, free entry)"
+      ]
+    },
+    {
+      "heading": "Best Activities for August",
+      "body": "<p>August is a great time to explore New Plymouth's outdoor attractions, with mild weather and fewer crowds. Pukekura Park is a must-visit, with its beautiful boating lake, playground, and zoo. The park is free to visit and suitable for all ages.</p><p>The coastal walkway is another highlight, stretching 13km along the city's dramatic black sand surf beaches. The walkway is free, cyclable, and suitable for families with kids of all ages.</p>",
+      "table": {
+        "headers": [
+          "Activity",
+          "Price",
+          "Age Suitability"
+        ],
+        "rows": [
+          [
+            "Pukekura Park",
+            "Free",
+            "All ages"
+          ],
+          [
+            "Coastal Walkway",
+            "Free",
+            "All ages"
+          ],
+          [
+            "Brooklands Park and Zoo",
+            "Free",
+            "All ages"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Crowd Levels and Booking Ahead",
+      "body": "<p>August is a relatively quiet month in New Plymouth, with fewer tourists than in peak summer. However, it's still a good idea to book ahead for popular attractions and events, especially during the Taranaki Arts Festival.</p><p>Accommodation prices are generally lower in August, with options available from $150-250 per night for a family of 4. Book ahead to secure the best rates and availability.</p>",
+      "list": [
+        "Book accommodation at least 2 weeks in advance",
+        "Check festival schedules and book tickets early"
+      ]
+    },
+    {
+      "heading": "Practical Tips for Families",
+      "body": "<p>New Plymouth is a family-friendly city, with plenty of outdoor spaces and activities to enjoy. Here are some practical tips for families visiting in August:</p>",
+      "list": [
+        "Pack warm clothing, including jackets and gloves",
+        "Bring a waterproof jacket or umbrella, in case of rain",
+        "Take advantage of free outdoor activities, such as the coastal walkway and Pukekura Park",
+        "Check the festival schedule and plan your itinerary accordingly",
+        "Book a family-friendly accommodation with a kitchen, to save on food costs"
+      ],
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "new-plymouth-taranaki-family-august-family-guide",
+  "updated": "August 2026",
+  "auto_generated": true,
+  "generated_date": "2026-08-04"
+}
