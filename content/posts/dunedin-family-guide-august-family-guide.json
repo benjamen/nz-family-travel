@@ -1,0 +1,72 @@
+{
+  "title": "Dunedin with Kids",
+  "short_title": "Dunedin",
+  "meta_desc": "Discover Dunedin's wildlife, Victorian city, and family-friendly activities in August, perfect for kids aged 5+, with a budget of $200-380/day for a family of 4",
+  "intro": "Dunedin is a fantastic winter destination for families, with its unique wildlife, stunning architecture, and plenty of indoor activities to enjoy. In August, the city comes alive with festivals and events, making it an ideal time to visit. With a range of free and paid activities, Dunedin caters to families with kids of all ages, especially those 5 and above.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Weather in August",
+      "body": "<p>August is winter in Dunedin, with average highs of 12°C and lows of 3°C. It's the perfect time to enjoy the city's indoor attractions, such as the Otago Settlers Museum and Speight's Brewery tour. Don't forget to pack warm clothing, including jackets, gloves, and scarves.</p><p>Rainfall is moderate, with an average of 12 rainy days throughout the month. However, this shouldn't deter you from exploring the city's outdoor attractions, such as the Royal Albatross Centre and Penguin Place.</p>"
+    },
+    {
+      "heading": "What's On in August",
+      "body": "<p>In August, Dunedin hosts the Dunedin Winter Festival, featuring live music, food stalls, and activities for kids. The festival takes place over two weekends, with entry prices starting from $10 per person.</p><p>The city also celebrates its Scottish heritage with the Dunedin Highland Games, which include caber tossing, hammer throwing, and other traditional events. Tickets cost $20 per adult and $10 per child.</p>",
+      "list": [
+        "Dunedin Winter Festival: $10-$20 per person",
+        "Dunedin Highland Games: $20 per adult, $10 per child"
+      ]
+    },
+    {
+      "heading": "Best Activities for Families",
+      "body": "<p>Dunedin offers a range of activities suitable for families with kids aged 5 and above. The Royal Albatross Centre is a must-visit, with prices starting from $50 per adult and $25 per child. Yellow-eyed penguin watching is another popular activity, with tours available from $70 per adult and $40 per child.</p><p>For a unique experience, visit Larnach Castle, which costs $30 per adult and $10 per child. Don't forget to walk or run up Baldwin Street, the world's steepest street, which is free to visit.</p>",
+      "table": {
+        "headers": [
+          "Activity",
+          "Price (Adult)",
+          "Price (Child)"
+        ],
+        "rows": [
+          [
+            "Royal Albatross Centre",
+            "$50",
+            "$25"
+          ],
+          [
+            "Yellow-eyed Penguin Watching",
+            "$70",
+            "$40"
+          ],
+          [
+            "Larnach Castle",
+            "$30",
+            "$10"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Practical Tips for Families",
+      "body": "<p>To make the most of your trip to Dunedin, book your accommodation and popular activities in advance, especially during peak season. Consider purchasing a Dunedin City Pass, which grants you entry to multiple attractions and public transport.</p><p>Be sure to check the opening hours and prices for each attraction before heading out, as they may vary. Additionally, pack warm and waterproof clothing to ensure a comfortable and enjoyable trip.</p>",
+      "list": [
+        "Book accommodation and activities in advance",
+        "Purchase a Dunedin City Pass",
+        "Check opening hours and prices",
+        "Pack warm and waterproof clothing"
+      ]
+    },
+    {
+      "heading": "Crowd Levels and Booking Ahead",
+      "body": "<p>Crowd levels in August are moderate, with some attractions and activities more popular than others. It's essential to book ahead for the Royal Albatross Centre, Penguin Place, and Larnach Castle to avoid disappointment.</p><p>Consider visiting popular attractions early in the morning or later in the evening to avoid the crowds. You can also take advantage of the city's free activities, such as walking up Baldwin Street or visiting the Otago Settlers Museum.</p>",
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "dunedin-family-guide-august-family-guide",
+  "updated": "August 2026",
+  "auto_generated": true,
+  "generated_date": "2026-08-05"
+}

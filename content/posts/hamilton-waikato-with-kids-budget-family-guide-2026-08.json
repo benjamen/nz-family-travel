@@ -1,0 +1,84 @@
+{
+  "title": "Hamilton & Waikato Budget",
+  "short_title": "Waikato Budget",
+  "meta_desc": "Discover how to visit Hamilton & Waikato on a family budget of $180–$340/day, with free activities, affordable accommodation, and tips to save money",
+  "intro": "Hamilton & Waikato is a hidden gem for family travel in New Zealand, offering a mix of city and rural experiences without the hefty price tag. With some planning, you can have a fantastic holiday in this region for around $180–$340 per day for a family of four. From world-class gardens to Hobbiton and Waitomo Caves, there's something for everyone",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Accommodation Options",
+      "body": "<p>When it comes to accommodation, Hamilton & Waikato offer a range of options to suit different budgets. For those on a tight budget, consider staying in a motel or holiday park, which can cost between $120–$200 per night for a family of four. Mid-range options include hotels and apartments, priced around $250–$350 per night.</p><p>For a more unique experience, look into farm stays or rural B&Bs, which can be a great way to immerse your family in the local countryside. Prices vary, but expect to pay around $200–$300 per night.</p>",
+      "list": [
+        "Motel or holiday park: $120–$200 per night",
+        "Mid-range hotel or apartment: $250–$350 per night",
+        "Farm stay or rural B&B: $200–$300 per night"
+      ]
+    },
+    {
+      "heading": "Free Activities",
+      "body": "<p>One of the best things about Hamilton & Waikato is the number of free activities on offer. The city's gardens, including the Hamilton Gardens and the Waikato Museum's gardens, are free to visit and offer a great day out for families. The Waikato River Walkway is another free attraction, perfect for a family bike ride or stroll.</p><p>In the wider region, there are plenty of parks and reserves to explore, including the Sanctuary Mountain Maungatautari and the Pirongia Forest Park. These areas offer great opportunities for hiking, birdwatching, and picnicking.</p>",
+      "list": [
+        "Hamilton Gardens",
+        "Waikato Museum's gardens",
+        "Waikato River Walkway",
+        "Sanctuary Mountain Maungatautari",
+        "Pirongia Forest Park"
+      ]
+    },
+    {
+      "heading": "Budget Breakdown",
+      "body": "<p>To help you plan your trip, here's a rough 3-day budget breakdown for a family of four:</p>",
+      "table": {
+        "headers": [
+          "Day",
+          "Accommodation",
+          "Food",
+          "Activities",
+          "Total"
+        ],
+        "rows": [
+          [
+            "Day 1",
+            "$200",
+            "$80",
+            "$50",
+            "$330"
+          ],
+          [
+            "Day 2",
+            "$200",
+            "$100",
+            "$70",
+            "$370"
+          ],
+          [
+            "Day 3",
+            "$200",
+            "$80",
+            "$40",
+            "$320"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Tips to Save Money",
+      "body": "<p>To make the most of your budget, consider visiting during the off-season (April–May or September–November), when prices for accommodation and activities tend to be lower. Look out for package deals and discounts, especially for popular attractions like Hobbiton and Waitomo Caves.</p><p>Self-catering accommodation can also help you save money on food, and consider packing picnics or buying snacks from local supermarkets instead of eating out for every meal.</p>",
+      "list": [
+        "Visit during the off-season",
+        "Look for package deals and discounts",
+        "Choose self-catering accommodation",
+        "Pack picnics or buy snacks from supermarkets"
+      ],
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "hamilton-waikato-with-kids-budget-family-guide-2026-08",
+  "updated": "August 2026",
+  "auto_generated": true,
+  "generated_date": "2026-08-05"
+}
