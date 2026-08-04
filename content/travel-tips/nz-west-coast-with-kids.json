@@ -2,71 +2,63 @@
   "slug": "nz-west-coast-with-kids",
   "short_title": "West Coast Adventure",
   "title": "NZ West Coast Road Trip with Kids — Pancake Rocks, Glaciers, and Rainforest",
-  "meta_desc": "Explore NZ's West Coast with kids, visit Pancake Rocks, glaciers and rainforest on a family road trip",
-  "intro": "The West Coast of New Zealand is a thrill for kids, with its unique Pancake Rocks, stunning glaciers, and lush rainforest. However, with long driving distances and variable weather, it's essential to plan carefully. We've done the hard work for you, with a realistic itinerary and must-see stops to make your family road trip unforgettable.",
-  "updated": "July 2026",
+  "meta_desc": "Explore the West Coast with kids, discover Pancake Rocks, glaciers, and rainforest on a fun family road trip",
+  "intro": "The NZ West Coast is a nature lover's paradise, but what's it like to travel with kids? We share our top tips and insider knowledge to help you plan an epic West Coast road trip with your family. From Pancake Rocks to glaciers, we've got you covered.",
+  "updated": "August 2026",
   "reading_time": 9,
   "sections": [
     {
       "heading": "Westland Itinerary",
-      "body": "Start your journey in Greymouth, the largest town on the West Coast, and explore the nearby Shantytown Heritage Park ($35 per adult, $20 per child). From there, head south to Punakaiki, famous for its Pancake Rocks and Blowholes ($10 per person). Allow at least 2 hours for the scenic drive and rock formations."
+      "body": "The West Coast stretch of State Highway 6 is around 600km long, and you'll want to allow at least 7-10 days to explore the region. Start in Greymouth and work your way down to Haast, stopping at all the top attractions along the way. Be sure to check the weather forecast before you leave, as the West Coast can be prone to heavy rainfall."
     },
     {
-      "heading": "Franz Josef and Fox Glacier Reality Check",
-      "body": "While the glaciers are a highlight of the West Coast, they can be challenging to visit with kids. The Franz Josef Glacier walk is around 1.5 hours return, and costs $35 per person, while the Fox Glacier walk is around 2 hours return, and costs $40 per person. Consider a guided tour or a scenic flight for a more kid-friendly experience (from $200 per person)."
-    },
-    {
-      "heading": "Driving Distances and Times",
+      "heading": "Must-see Attractions",
       "list": [
-        "Greymouth to Punakaiki: 45 minutes",
-        "Punakaiki to Franz Josef: 2.5 hours",
-        "Franz Josef to Fox Glacier: 30 minutes",
-        "Fox Glacier to Wanaka: 4 hours"
+        "Pancake Rocks at Punakaiki ($10 per person, free for kids under 5)",
+        "Franz Josef Glacier (guides tours from $80 per person, $40 for kids)",
+        "Fox Glacier (guides tours from $70 per person, $35 for kids)",
+        "Lake Matheson ($10 per person, free for kids under 5)"
       ]
     },
     {
-      "heading": "Accommodation Options",
+      "heading": "Franz Josef vs Fox Glacier",
       "table": {
         "headers": [
-          "Location",
-          "Accommodation Type",
-          "Price (NZD)"
+          "Glacier",
+          "Guide Tour Price (Adult)",
+          "Guide Tour Price (Child)",
+          "Drive Time from Greymouth"
         ],
         "rows": [
           [
-            "Greymouth",
-            "Motel",
-            "120-180 per night"
-          ],
-          [
-            "Punakaiki",
-            "Holiday Park",
-            "40-80 per night"
-          ],
-          [
             "Franz Josef",
-            "Hotel",
-            "250-350 per night"
+            "$80",
+            "$40",
+            "2.5 hours"
           ],
           [
             "Fox Glacier",
-            "Lodge",
-            "200-300 per night"
+            "$70",
+            "$35",
+            "3.5 hours"
           ]
         ]
       }
     },
     {
-      "heading": "What's Worth It?",
+      "heading": "Driving Distances and Times",
+      "body": "The drive times between each attraction can be significant, so be sure to plan for regular breaks and accommodation stops along the way. Greymouth to Punakaiki is around 45 minutes, while Greymouth to Franz Josef is around 2.5 hours. Fox Glacier is a further hour's drive from Franz Josef."
+    },
+    {
+      "heading": "Accommodation Options",
       "list": [
-        "Pancake Rocks and Blowholes: a must-see natural wonder",
-        "Franz Josef Glacier walk: challenging but rewarding for older kids",
-        "Fox Glacier scenic flight: a kid-friendly way to experience the glacier",
-        "Wanaka: a beautiful town with plenty of outdoor activities for kids"
+        "Franz Josef Top 10 Holiday Resort (from $40 per night for a campsite, $150 for a cabin)",
+        "Fox Glacier Holiday Park (from $35 per night for a campsite, $120 for a cabin)",
+        "Punakaiki Beach Camp (from $30 per night for a campsite, $100 for a cabin)"
       ]
     },
     {
-      "heading": "Plan Your Trip",
+      "heading": "Budgeting for Your Trip",
       "cta": {
         "text": "Use our NZ Family Travel Budget Calculator",
         "url": "/tools/nz-family-travel-budget-calculator/",
@@ -74,10 +66,10 @@
       }
     },
     {
-      "heading": "Campervan Rental Options",
-      "body": "If you're planning to drive the West Coast with kids, consider renting a campervan. We have a range of options available, from budget-friendly to luxury models. Check out our campervan rental guide for more information.",
+      "heading": "Renting a Campervan",
+      "body": "A campervan is a great way to see the West Coast with kids, as it allows you to stop and start as you please. Companies like Kiwi Campers and Jucy Rentals offer a range of vehicles to suit all budgets, from $100 per day for a basic campervan to $250 per day for a luxury motorhome.",
       "cta": {
-        "text": "Explore our campervan options",
+        "text": "Compare campervan prices and book online",
         "url": "/campervans/",
         "affiliate": false
       }
