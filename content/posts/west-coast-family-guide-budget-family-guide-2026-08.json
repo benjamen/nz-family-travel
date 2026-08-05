@@ -1,0 +1,87 @@
+{
+  "title": "West Coast on a Budget",
+  "short_title": "West Coast",
+  "meta_desc": "Explore New Zealand's West Coast with your family without breaking the bank. Discover free activities, affordable accommodation, and budget-friendly tips for a fun and memorable trip.",
+  "intro": "The West Coast of New Zealand is a treasure trove of natural wonders, from the stunning Punakaiki Pancake Rocks to the breathtaking Franz Josef and Fox Glaciers. With a daily budget of $150-250 for a family of four, you can experience the best of this region without overspending. In this guide, we'll show you how to make the most of your trip without breaking the bank.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Accommodation Options",
+      "body": "<p>When it comes to accommodation, the West Coast offers a range of options to suit different budgets. For a cheap and cheerful option, consider staying at a Department of Conservation (DoC) campsite, which costs around $10-20 per night for a family of four. Mid-range options include holiday parks and motels, which cost around $120-200 per night. If you're looking for a more luxurious experience, you can expect to pay around $300-500 per night for a high-end hotel or resort.</p><p>Some popular accommodation options for families include the Franz Josef Top 10 Holiday Resort, which offers a range of cabins and motel units, and the Punakaiki Beach Hostel, which has dorm rooms and private rooms available.</p>",
+      "list": [
+        "DoC campsites: $10-20 per night",
+        "Holiday parks: $80-150 per night",
+        "Motels: $120-200 per night"
+      ]
+    },
+    {
+      "heading": "Free Activities",
+      "body": "<p>The West Coast is home to a range of free activities that are perfect for families. One of the top attractions is the Punakaiki Pancake Rocks and Blowholes, which is a free DoC site that's open all day. You can also take a free walk to the terminal face of the Franz Josef Glacier, or visit the Fox Glacier viewing platform. The Hokitika Gorge is another must-visit spot, with its stunning turquoise river and scenic walkway.</p><p>These free activities are a great way to experience the natural beauty of the West Coast without spending a fortune. Just remember to bring plenty of water, snacks, and sunscreen, and to wear comfortable shoes for walking.</p>",
+      "list": [
+        "Punakaiki Pancake Rocks and Blowholes",
+        "Franz Josef Glacier valley walk",
+        "Fox Glacier viewing platform",
+        "Hokitika Gorge walkway"
+      ]
+    },
+    {
+      "heading": "Budget Breakdown",
+      "body": "<p>To help you plan your trip, we've put together a rough 3-day budget breakdown for a family of four. This includes accommodation, food, activities, and transportation costs.</p>",
+      "table": {
+        "headers": [
+          "Day",
+          "Accommodation",
+          "Food",
+          "Activities",
+          "Transportation",
+          "Total"
+        ],
+        "rows": [
+          [
+            "Day 1",
+            "$150",
+            "$50",
+            "$0",
+            "$20",
+            "$220"
+          ],
+          [
+            "Day 2",
+            "$120",
+            "$60",
+            "$20",
+            "$30",
+            "$230"
+          ],
+          [
+            "Day 3",
+            "$100",
+            "$40",
+            "$0",
+            "$20",
+            "$160"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Tips for Saving Money",
+      "body": "<p>To save money on your West Coast trip, consider self-catering instead of eating out for every meal. You can buy groceries at a local supermarket and prepare your own meals in your accommodation. Another tip is to take advantage of the free activities on offer, and to avoid expensive tourist attractions. You can also save money on transportation by filling up on gas in larger towns, and by driving carefully to reduce fuel consumption.</p>",
+      "list": [
+        "Self-catering instead of eating out",
+        "Taking advantage of free activities",
+        "Avoiding expensive tourist attractions",
+        "Filling up on gas in larger towns"
+      ],
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "west-coast-family-guide-budget-family-guide-2026-08",
+  "updated": "August 2026",
+  "auto_generated": true,
+  "generated_date": "2026-08-06"
+}
