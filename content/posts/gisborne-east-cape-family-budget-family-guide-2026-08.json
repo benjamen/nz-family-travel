@@ -1,0 +1,83 @@
+{
+  "title": "Gisborne & East Cape Budget",
+  "short_title": "East Cape",
+  "meta_desc": "Discover how to visit Gisborne & East Cape on a family budget of $120-200/day, with free activities, affordable accommodation, and tips on where to save and splurge",
+  "intro": "Gisborne and the East Cape are a hidden gem for family travel in New Zealand, offering a unique blend of culture, adventure, and natural beauty. With some planning, you can experience the best of this region without breaking the bank. Here's a guide to help you visit Gisborne & East Cape on a family budget of $120-200/day.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Accommodation Options",
+      "body": "<p>Gisborne and the East Cape offer a range of accommodation options to suit different budgets. You can find affordable motels and holiday parks in Gisborne city, with prices starting from around $100-150 per night for a family of four. For a more rustic experience, consider staying at a rural farmstay or campground, which can cost between $50-100 per night.</p><p>Mid-range options like apartments and holiday homes are also available, with prices ranging from $150-250 per night. These often come with fully equipped kitchens, which can help you save money on food.</p>",
+      "list": [
+        "Motel: $100-150 per night",
+        "Holiday park: $50-100 per night",
+        "Farmstay: $50-100 per night",
+        "Apartment: $150-250 per night"
+      ]
+    },
+    {
+      "heading": "Free Activities",
+      "body": "<p>Gisborne and the East Cape are blessed with an abundance of free activities that are perfect for families. Some of the top picks include visiting Wainui and Midway Beaches, which offer great surf and sunbathing spots. The Rere Rockslide is another must-visit attraction, where you can bring a boogie board and enjoy the natural rock water slide.</p><p>The East Cape road drive is also free, and offers stunning views of the coastline and surrounding landscape. You can stop at various marae sites and beaches along the way, and enjoy a picnic lunch or BBQ dinner.</p>",
+      "list": [
+        "Wainui Beach",
+        "Midway Beach",
+        "Rere Rockslide",
+        "East Cape road drive"
+      ]
+    },
+    {
+      "heading": "Budget Breakdown",
+      "body": "<p>To help you plan your trip, here's a rough 3-day budget breakdown for a family of four:</p>",
+      "table": {
+        "headers": [
+          "Day",
+          "Accommodation",
+          "Food",
+          "Activities",
+          "Total"
+        ],
+        "rows": [
+          [
+            "Day 1",
+            "$150",
+            "$50",
+            "$20",
+            "$220"
+          ],
+          [
+            "Day 2",
+            "$100",
+            "$40",
+            "$30",
+            "$170"
+          ],
+          [
+            "Day 3",
+            "$120",
+            "$60",
+            "$40",
+            "$220"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Tips and Recommendations",
+      "body": "<p>To make the most of your trip to Gisborne and the East Cape, consider visiting during the shoulder season (April-May or September-October), when prices are lower and the weather is still mild. Be sure to pack a picnic lunch and snacks, as dining options can be limited in some areas.</p><p>If you're looking to splurge, consider taking a guided tour or activity, such as a surf lesson or Maori cultural experience. These can be a great way to learn more about the region and its people, and create lasting memories for your family.</p>",
+      "list": [
+        "Visit during shoulder season",
+        "Pack a picnic lunch and snacks",
+        "Consider a guided tour or activity"
+      ],
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "gisborne-east-cape-family-budget-family-guide-2026-08",
+  "updated": "August 2026",
+  "auto_generated": true,
+  "generated_date": "2026-08-07"
+}
