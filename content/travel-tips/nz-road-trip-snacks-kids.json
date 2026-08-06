@@ -1,77 +1,68 @@
 {
   "slug": "nz-road-trip-snacks-kids",
-  "short_title": "Road Trip Snacks",
+  "short_title": "Kid-Friendly NZ Snacks",
   "title": "Best Road Trip Snacks for Kids in NZ — No-Mess, No-Meltdown Options",
-  "meta_desc": "Discover the best no-mess NZ road trip snacks for kids to avoid meltdowns on long drives",
-  "intro": "A 4-hour drive from Auckland to Rotorua can be a nightmare if your kids are hungry and restless. Packing the right snacks can make all the difference. Here are some practical ideas for no-mess, no-meltdown road trip snacks in NZ.",
-  "updated": "July 2026",
+  "meta_desc": "Discover the best no-mess road trip snacks for kids in NZ, with prices from $2-$5",
+  "intro": "Long road trips with kids can be challenging, especially when it comes to snacks. A well-stocked snack bag can make all the difference between a harmonious drive and a meltdown. With drive times between Auckland and Queenstown ranging from 18-20 hours, it's essential to have a plan in place.",
+  "updated": "August 2026",
   "reading_time": 9,
   "sections": [
     {
-      "heading": "Practical Snack Ideas",
-      "body": "When choosing snacks for a long road trip in NZ, consider non-perishable items that are easy to eat on-the-go. Fresh fruits like apples ($1.50 each at Countdown supermarkets) and oranges ($2.00 per kilogram at Pak'nSave) are great options. You can also pack sandwiches, crackers, and cheese for a satisfying snack."
+      "heading": "Practical Snack Ideas for Long Drives",
+      "body": "When choosing snacks for a road trip, consider options that are easy to eat, won't make a mess, and can withstand temperature changes. Some excellent choices include fresh fruits like apples ($1.50 each at Countdown) and oranges ($2.00 each at New World), as well as energy-rich granola bars ($3.50 for a 6-pack at Pak'nSave)."
     },
     {
-      "heading": "Supermarket Options",
+      "heading": "Supermarket Options for Road Trip Snacks",
       "list": [
-        "Whittaker's chocolate bars ($2.50 each at New World supermarkets)",
-        "Kettle Chips ($3.00 per packet at Four Square stores)",
-        "Muesli bars ($1.00 each at The Warehouse stores)"
+        "Countdown's Macro range ($2-$4 per item)",
+        "New World's in-store bakery ($2-$5 per item)",
+        "Pak'nSave's bulk bins ($1.50-$3 per item)"
       ]
     },
     {
-      "heading": "Cooler Tips",
-      "body": "If you plan to pack perishable items like yogurt, meats, or snacks that require refrigeration, invest in a good cooler. You can find coolers at outdoor stores like Kathmandu or Macpac, with prices starting from $50.00. Fill your cooler with ice packs ($5.00 each at Bunnings Warehouse) and keep your snacks fresh for hours."
+      "heading": "Cooler Tips for Perishable Snacks",
+      "body": "A cooler is essential for keeping perishable snacks fresh during long drives. When packing a cooler, place ice packs at the bottom and top to maintain a consistent temperature. Some great cooler options include the ChillTech 25L Cooler ($49.99 at The Warehouse) and the Coleman 30L Cooler ($69.99 at Mitre 10)."
     },
     {
-      "heading": "Snack Comparison",
+      "heading": "Comparison of NZ Supermarket Snack Prices",
       "table": {
         "headers": [
           "Snack",
-          "Price (NZD)",
-          "Shelf Life"
+          "Countdown",
+          "New World",
+          "Pak'nSave"
         ],
         "rows": [
           [
-            "Fresh Fruit",
-            "1.50 - 2.00",
-            "1-3 days"
+            "Apple",
+            "$1.50",
+            "$1.80",
+            "$1.20"
           ],
           [
-            "Sandwiches",
-            "2.00 - 3.00",
-            "1 day"
+            "Orange",
+            "$2.00",
+            "$2.20",
+            "$1.80"
           ],
           [
-            "Muesli Bars",
-            "1.00 - 2.00",
-            "6-12 months"
-          ],
-          [
-            "Yogurt",
-            "2.50 - 3.50",
-            "1-2 weeks"
+            "Granola Bar (6-pack)",
+            "$3.50",
+            "$4.00",
+            "$3.00"
           ]
         ]
       }
     },
     {
-      "heading": "Avoiding Meltdowns",
-      "body": "A long drive from Wellington to Queenstown (around 10 hours) can be challenging for kids. To avoid meltdowns, pack a variety of snacks and offer them at regular intervals. You can also consider downloading kid-friendly apps or games on your tablet to keep them entertained during the journey."
+      "heading": "Avoiding Meltdowns with Regular Breaks",
+      "body": "Regular breaks are crucial for preventing meltdowns during long drives. Aim to stop every 2-3 hours at rest stops or parks, such as the Hamilton Gardens (free admission) or the Taupo Hot Springs (adults $20, children $10). These breaks allow kids to stretch their legs, get some fresh air, and use the bathroom."
     },
     {
-      "heading": "Plan Your Road Trip",
+      "heading": "Plan Your Next Family Road Trip",
       "cta": {
-        "text": "Use our NZ Family Travel Budget Calculator",
+        "text": "Get started with our NZ Family Travel Budget Calculator",
         "url": "/tools/nz-family-travel-budget-calculator/",
-        "affiliate": false
-      }
-    },
-    {
-      "heading": "More Road Trip Tips",
-      "cta": {
-        "text": "Explore our campervan guide for NZ families",
-        "url": "/campervans/",
         "affiliate": false
       }
     }
