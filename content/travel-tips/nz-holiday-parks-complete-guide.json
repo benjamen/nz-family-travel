@@ -2,89 +2,80 @@
   "slug": "nz-holiday-parks-complete-guide",
   "short_title": "NZ Holiday Parks",
   "title": "NZ Holiday Parks — The Complete Family Guide (TOP 10 vs Freedom Camping)",
-  "meta_desc": "Discover the best NZ holiday parks, compare TOP 10 parks with freedom camping options, and learn how to book",
-  "intro": "With over 300 holiday parks across New Zealand, choosing the right one for your family can be overwhelming. TOP 10 holiday parks offer excellent facilities, but freedom camping can be a more budget-friendly option. In this guide, we'll explore the best NZ holiday parks, their facilities, and costs to help you plan your next family adventure.",
-  "updated": "July 2026",
+  "meta_desc": "Discover the best NZ holiday parks, compare TOP 10 holiday parks to freedom camping, and get tips on facilities, costs, and booking",
+  "intro": "When planning a family road trip in New Zealand, choosing the right accommodation can make all the difference. With over 300 holiday parks to choose from, it can be overwhelming to decide between TOP 10 holiday parks and freedom camping. In this guide, we'll break down the pros and cons of each option, helping you make an informed decision for your next family adventure.",
+  "updated": "August 2026",
   "reading_time": 10,
   "sections": [
     {
       "heading": "TOP 10 Holiday Parks vs Freedom Camping",
-      "body": "TOP 10 holiday parks are a popular choice among families, offering a range of facilities such as swimming pools, playgrounds, and BBQ areas. However, they can be more expensive than freedom camping, with prices starting from around $40 per night for a powered site. Freedom camping, on the other hand, can be as cheap as $10 per night, but often lacks the facilities and amenities of a holiday park."
+      "body": "TOP 10 holiday parks offer a range of facilities, including powered sites, cabins, and amenities like swimming pools and playgrounds. In contrast, freedom camping allows you to park your campervan or tent in designated areas, often with limited facilities. When deciding between the two, consider the needs of your family and the activities you have planned."
     },
     {
       "heading": "Facilities and Amenities",
       "list": [
-        "Swimming pools and water parks",
-        "Playgrounds and skate parks",
-        "BBQ and picnic areas",
+        "Powered and non-powered sites",
+        "Cabins and motels",
+        "Amenities like swimming pools, playgrounds, and BBQ areas",
         "Laundry and kitchen facilities",
-        "Wi-Fi and TV rooms"
+        "Wi-Fi and TV lounges"
       ]
     },
     {
       "heading": "Cost Comparison",
       "table": {
         "headers": [
-          "Holiday Park",
-          "Powered Site",
-          "Unpowered Site",
-          "Cabins"
+          "Accommodation Type",
+          "Price per Night (NZD)"
         ],
         "rows": [
           [
-            "TOP 10 Taupo",
-            "$50",
-            "$30",
-            "$150"
+            "TOP 10 Holiday Park Powered Site",
+            "40-60"
           ],
           [
-            "TOP 10 Rotorua",
-            "$55",
-            "$35",
-            "$160"
+            "TOP 10 Holiday Park Cabin",
+            "120-200"
           ],
           [
-            "Freedom Camping NZ",
-            "$10",
-            "$10",
-            "$0"
+            "Freedom Camping",
+            "0-10"
+          ],
+          [
+            "Department of Conservation (DOC) Campsite",
+            "10-20"
           ]
         ]
       }
     },
     {
       "heading": "Booking Tips",
-      "body": "It's essential to book your holiday park or freedom camping site in advance, especially during peak season. You can book TOP 10 holiday parks online or through their app, while freedom camping sites can be booked through the Department of Conservation website or through a camping app like CamperMate. Prices start from around $40 per night for a powered site, but can be more expensive during peak season."
+      "body": "To ensure availability, book your holiday park or campsite in advance, especially during peak season (December to February). You can book online through the TOP 10 holiday parks website or through the Department of Conservation (DOC) website for DOC campsites. Be sure to read reviews and check the park's policies on cancellations and refunds."
     },
     {
       "heading": "Best Holiday Parks by Region",
       "list": [
-        "North Island: TOP 10 Bay of Islands, TOP 10 Taupo, and TOP 10 Rotorua",
-        "South Island: TOP 10 Queenstown, TOP 10 Wanaka, and TOP 10 Franz Josef",
-        "Stewart Island: Oban Holiday Park and Stewart Island Backpackers"
+        "North Island: Bay of Islands Holiday Park, Rotorua TOP 10 Holiday Resort",
+        "South Island: Queenstown Lakeview Holiday Park, Wanaka Kiwi Holiday Park"
       ]
     },
     {
-      "heading": "Get Ready for Your Next Family Adventure",
+      "heading": "Regional Drive Times and Attractions",
+      "body": "When planning your itinerary, consider the drive times between destinations. For example, the drive from Auckland to Rotorua takes around 3 hours, while the drive from Queenstown to Wanaka takes around 1 hour. Be sure to check the opening hours and prices of attractions like the Bay of Islands Hole in the Rock cruise (around $100 per person) and the Rotorua Wai-O-Tapu geothermal park (around $32.50 per person)."
+    },
+    {
+      "heading": "Plan Your Trip with Our Tools",
       "cta": {
-        "text": "Calculate your family travel budget",
+        "text": "Try our NZ Family Travel Budget Calculator",
         "url": "/tools/nz-family-travel-budget-calculator/",
         "affiliate": false
       }
     },
     {
-      "heading": "Explore Our Campervan Guide",
+      "heading": "Start Exploring NZ Campervans",
       "cta": {
         "text": "Discover the best campervans for your family",
         "url": "/campervans/",
-        "affiliate": false
-      }
-    },
-    {
-      "heading": "Plan Your Dream Destination",
-      "cta": {
-        "text": "Explore our destinations guide",
-        "url": "/destinations/",
         "affiliate": false
       }
     }
