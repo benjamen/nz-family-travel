@@ -2,76 +2,70 @@
   "slug": "auckland-day-trips-families",
   "short_title": "Auckland Day Trips",
   "title": "Best Auckland Day Trips for Families — Within 2 Hours of the CBD",
-  "meta_desc": "Explore the best Auckland day trips for families within 2 hours of the CBD, including Waiheke Island and Coromandel",
-  "intro": "Looking for a quick escape from Auckland city with your family? Within 2 hours of the CBD, you can find stunning beaches, glowworm caves, and even Middle-earth. We've got the top picks for Auckland day trips that are perfect for families, with activities to suit all ages and interests.",
-  "updated": "July 2026",
-  "reading_time": 10,
+  "meta_desc": "Discover the best Auckland day trips for families within 2 hours of the CBD, including Waiheke Island and Hobbiton",
+  "intro": "Looking for a quick escape from Auckland city with your family? You don't have to go far to find stunning beaches, adventure activities, and unique experiences. Within 2 hours of the CBD, you can find a range of exciting day trip destinations that are perfect for families.",
+  "updated": "August 2026",
+  "reading_time": 9,
   "sections": [
     {
       "heading": "Waiheke Island Day Trip",
-      "body": "Just a 35-minute ferry ride from Auckland's CBD, Waiheke Island is a haven for families. With its beautiful beaches, vineyards, and olive groves, there's something for everyone. You can take a guided tour or explore the island on your own. The ferry costs around $42 return for adults and $22 for children (5-15 years), while kids under 5 travel free."
+      "body": "Waiheke Island is a popular day trip destination from Auckland, known for its beautiful beaches, vineyards, and olive groves. The ferry ride from Auckland CBD takes around 35 minutes and costs $42 return per adult and $22 return per child (5-15 years). You can spend the day exploring the island, visiting wineries, and enjoying the beach."
     },
     {
-      "heading": "Waitomo Glowworm Caves",
+      "heading": "Waitomo and Hobbiton Day Trip",
       "list": [
-        "1-hour drive from Auckland CBD",
-        "Guided tour prices start from $55 per adult and $25 per child (4-14 years)",
-        "Combination tours available, including Hobbiton Movie Set and Rotorua attractions"
+        "Drive time from Auckland CBD: 2 hours to Waitomo and 2.5 hours to Matamata",
+        "Cost: $199 per adult and $99 per child (9-15 years) for a guided tour of Waitomo Glowworm Caves and Hobbiton Movie Set",
+        "Age range: Suitable for children aged 5 years and above"
       ]
     },
     {
       "heading": "Coromandel Day Trip",
-      "body": "The Coromandel Peninsula is approximately 2 hours away from Auckland's CBD, making it an ideal day trip destination. Hot Water Beach, Hahei Beach, and Cathedral Cove are some of the top attractions. You can also take a guided tour or explore the area on your own. Be sure to check the tide times for Hot Water Beach to make the most of your visit."
+      "body": "The Coromandel Peninsula is a scenic 2-hour drive from Auckland CBD, offering a range of activities such as hiking, swimming, and visiting Hot Water Beach. You can also take a guided tour to explore the peninsula's hidden gems."
     },
     {
-      "heading": "Comparison of Auckland Day Trip Destinations",
+      "heading": "Comparison of Day Trip Destinations",
       "table": {
         "headers": [
           "Destination",
           "Drive Time",
-          "Cost (per person)",
+          "Cost",
           "Age Range"
         ],
         "rows": [
           [
             "Waiheke Island",
-            "N/A (ferry)",
-            "$42 (adult), $22 (child)",
+            "35 minutes (ferry)",
+            "$42 return per adult, $22 return per child",
             "All ages"
           ],
           [
-            "Waitomo Glowworm Caves",
-            "1 hour",
-            "$55 (adult), $25 (child)",
-            "4+ years"
+            "Waitomo and Hobbiton",
+            "2-2.5 hours",
+            "$199 per adult, $99 per child",
+            "5 years and above"
           ],
           [
             "Coromandel",
             "2 hours",
-            "Free (self-drive), $100+ (guided tour)",
+            "Free - $50 per person for guided tours",
             "All ages"
           ],
           [
             "Piha",
             "1 hour",
-            "Free (self-drive), $50+ (guided tour)",
-            "All ages"
-          ],
-          [
-            "Hobbiton",
-            "2 hours",
-            "$89 (adult), $44 (child)",
+            "Free",
             "All ages"
           ]
         ]
       }
     },
     {
-      "heading": "Piha and Hobbiton Day Trips",
-      "body": "Piha Beach, with its stunning black sand and rugged coastline, is approximately 1 hour away from Auckland's CBD. The Hobbiton Movie Set, located near Matamata, is about 2 hours away. You can visit both destinations on a guided tour or explore them on your own. Guided tour prices for Hobbiton start from $89 per adult and $44 per child (9-16 years)."
+      "heading": "Piha Day Trip",
+      "body": "Piha is a popular beach town on the West Coast, just an hour's drive from Auckland CBD. You can spend the day swimming, surfing, and exploring the nearby Waitakere Ranges. Admission to the beach is free, but you may need to pay for parking and activities such as surfing lessons."
     },
     {
-      "heading": "Plan Your Auckland Day Trip",
+      "heading": "Plan Your Day Trip",
       "cta": {
         "text": "Use our NZ Family Travel Budget Calculator to plan your day trip",
         "url": "/tools/nz-family-travel-budget-calculator/",
@@ -79,11 +73,19 @@
       }
     },
     {
-      "heading": "Accommodation Options for Extended Stay",
-      "body": "If you'd like to turn your day trip into a weekend getaway, consider exploring our campervan options or choosing from a range of family-friendly accommodations in the Coromandel or near Hobbiton.",
+      "heading": "Accommodation and Transport Options",
+      "body": "If you're planning to stay overnight at your destination, consider booking a campervan or hotel. You can also rent a car or take public transport to get to your destination. Check out our campervan and destinations pages for more information.",
       "cta": {
-        "text": "Browse our campervan options",
+        "text": "Explore our campervan options",
         "url": "/campervans/",
+        "affiliate": false
+      }
+    },
+    {
+      "heading": "More Auckland Day Trip Ideas",
+      "cta": {
+        "text": "Discover more destinations and activities in our Auckland guide",
+        "url": "/destinations/auckland/",
         "affiliate": false
       }
     }
