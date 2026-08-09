@@ -1,75 +1,74 @@
 {
   "slug": "queenstown-vs-wanaka-families",
-  "short_title": "Queenstown vs Wanaka",
+  "short_title": "Queenstown or Wanaka",
   "title": "Queenstown vs Wanaka for Families — Which Should You Choose?",
-  "meta_desc": "Compare Queenstown and Wanaka for family travel in NZ, considering cost, activities and vibe",
-  "intro": "When planning a family trip to the South Island, two popular destinations often come to mind: Queenstown and Wanaka. While both offer stunning natural beauty and plenty of activities, they cater to different needs and preferences. With accommodation prices in Queenstown starting from $200 per night, it's essential to choose the right town for your family's budget and interests.",
-  "updated": "July 2026",
+  "meta_desc": "Queenstown vs Wanaka for families: compare costs, activities, and vibe to decide which NZ town suits your family best",
+  "intro": "If you're planning a family trip to the South Island, you're likely weighing up Queenstown and Wanaka as your base. With similar stunning scenery, both towns offer a range of activities, but they differ significantly in cost, atmosphere, and suitability for families. Here's a honest comparison to help you decide.",
+  "updated": "August 2026",
   "reading_time": 10,
   "sections": [
     {
       "heading": "Cost Comparison",
-      "body": "Accommodation is one of the most significant expenses for families. In Queenstown, you can expect to pay around $250-350 per night for a family-friendly hotel or apartment. In contrast, Wanaka offers more affordable options, with prices starting from $180 per night for a similar standard of accommodation."
+      "body": "Accommodation is a significant factor when deciding between Queenstown and Wanaka. A family room in Queenstown can cost upwards of $250 per night, whereas in Wanaka, you can find similar options for around $180 per night. Additionally, food prices in Queenstown tend to be higher, with a meal at a mid-range restaurant costing around $25 per person, compared to $18 per person in Wanaka."
     },
     {
       "heading": "Activities for Families",
       "list": [
-        "Skiing and snowboarding at Coronet Peak ($149 per adult, $99 per child aged 6-17) or Cardrona ($159 per adult, $109 per child aged 6-17)",
-        "Hiking the Ben Lomond Track in Queenstown (free) or the Mount Iron Track in Wanaka (free)",
-        "Visiting the Skyline Gondola in Queenstown ($44 per adult, $26 per child aged 6-17) or the Wanaka Tree ($0, but donations welcome)"
+        "Skiing and snowboarding at Coronet Peak ($120 per person per day) or Cardrona Alpine Resort ($130 per person per day)",
+        "Hiking the Ben Lomond Track (free) or the Rob Roy Track ($10 per person)",
+        "Visiting the Skyline Gondola ($40 per person return) or the Wanaka Tree ($0, free)",
+        "Taking a scenic flight over Milford Sound ($195 per person)"
       ]
     },
     {
       "heading": "Vibe and Atmosphere",
-      "body": "Queenstown has a more vibrant and lively atmosphere, with a wider range of restaurants, bars, and shops. Wanaka, on the other hand, is generally quieter and more laid-back, making it an excellent choice for families seeking a relaxing holiday."
+      "body": "Queenstown has a more vibrant, party-oriented atmosphere, with a range of bars, clubs, and restaurants. Wanaka, on the other hand, is more laid-back and family-friendly, with a stronger community feel. If you're looking for a relaxing, low-key holiday, Wanaka might be the better choice."
     },
     {
-      "heading": "Comparison Table",
+      "heading": "Age Suitability",
       "table": {
         "headers": [
-          "Destination",
-          "Accommodation (per night)",
-          "Ski Lift Pass (per day)"
+          "Age Range",
+          "Queenstown",
+          "Wanaka"
         ],
         "rows": [
           [
-            "Queenstown",
-            "$250-350",
-            "$149-$159"
+            "Infants (0-2)",
+            "Baby-friendly cafes and restaurants, but limited baby facilities",
+            "Similar to Queenstown, with some baby-friendly parks and playgrounds"
           ],
           [
-            "Wanaka",
-            "$180-280",
-            "$159-$169"
+            "Toddlers (3-5)",
+            "Queenstown Gardens, playgrounds, and the luge",
+            "Wanaka's playgrounds, parks, and the Wanaka Transport Museum"
+          ],
+          [
+            "Kids (6-12)",
+            "Skiing, hiking, and water sports",
+            "Similar to Queenstown, with plenty of outdoor activities and the National Transport and Toy Museum"
           ]
         ]
       }
     },
     {
-      "heading": "Getting Around",
-      "body": "The drive between Queenstown and Wanaka takes approximately 1 hour, depending on road conditions. If you prefer not to drive, you can take a bus or shuttle service, such as the InterCity bus ($20-$30 per person, one way) or the TrackNet shuttle ($35-$45 per person, one way)."
+      "heading": "Driving Between Queenstown and Wanaka",
+      "body": "The drive between Queenstown and Wanaka takes approximately 1 hour, depending on traffic and road conditions. If you're planning to visit both towns, consider staying in one and taking a day trip to the other. Petrol prices are around $2.20 per liter, so a return trip would cost around $20-$30, depending on your vehicle's fuel efficiency."
     },
     {
-      "heading": "Ages and Interests",
-      "list": [
-        "Families with young children (under 6): Wanaka's quieter atmosphere and more affordable accommodation options make it an excellent choice",
-        "Families with teenagers: Queenstown's wider range of activities, including skiing, snowboarding, and adventure sports, may be more appealing",
-        "Families with older children: Consider the specific interests of your children and choose the destination that best aligns with their preferences"
-      ]
-    },
-    {
-      "heading": "Plan Your Trip",
+      "heading": "Plan Your Trip with Our Tools",
       "cta": {
-        "text": "Use our NZ Family Travel Budget Calculator to estimate costs",
+        "text": "Calculate your family travel budget",
         "url": "/tools/nz-family-travel-budget-calculator/",
         "affiliate": false
       }
     },
     {
-      "heading": "Accommodation Options",
+      "heading": "Choose Your Accommodation Wisely",
+      "body": "When choosing your accommodation, consider the location, price, and amenities. You can find a range of options in both Queenstown and Wanaka, from budget-friendly motels to luxury apartments. Be sure to book in advance, especially during peak season, to avoid high prices and limited availability.",
       "cta": {
-        "text": "Explore our preferred campervan and accommodation partners",
-        "url": "/destinations/",
+        "text": "Explore our campervan options",
+        "url": "/campervans/",
         "affiliate": false
       }
     }
