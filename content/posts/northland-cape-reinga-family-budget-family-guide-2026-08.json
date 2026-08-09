@@ -1,0 +1,84 @@
+{
+  "title": "Northland on Budget",
+  "short_title": "Northland",
+  "meta_desc": "Visit Northland with your family without breaking the bank. Discover free activities, affordable accommodation, and budget-friendly tips for a fun-filled trip to NZ's subtropical north.",
+  "intro": "Northland is a unique and exciting destination for families, offering a mix of stunning natural beauty, rich Maori history, and adventure activities. With some planning, you can experience the best of Northland on a budget of $200-380 per day for a family of four. From free activities like walking on Ninety Mile Beach to affordable accommodation options, we've got you covered.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Daily Costs and Budgeting",
+      "body": "<p>A daily budget of $200-380 for a family of four is realistic for Northland, considering accommodation, food, and activities. Accommodation options range from budget-friendly holiday parks and camping sites ($40-80 per night) to mid-range motels and apartments ($120-200 per night). Food prices are similar to other parts of New Zealand, with meals at cafes and restaurants costing $15-30 per person.</p><p>To save money, consider self-catering, preparing some meals, and taking advantage of free activities like visiting the Cape Reinga walkway and driving on Ninety Mile Beach.</p>",
+      "list": [
+        "Accommodation: $40-200 per night",
+        "Food: $15-30 per person per meal",
+        "Activities: $10-30 per person"
+      ]
+    },
+    {
+      "heading": "Free and Low-Cost Activities",
+      "body": "<p>Northland offers a range of free and low-cost activities that are perfect for families. The Cape Reinga walkway is a must-visit, with stunning views of the Tasman Sea and Pacific Ocean. Ninety Mile Beach is another highlight, where you can drive (4WD only) or walk along the beach and enjoy the sunset.</p><p>The Kauri Museum in Matakohe is a great place to learn about Northland's history and culture, with admission prices around $25 per adult and $10 per child.</p>",
+      "list": [
+        "Cape Reinga walkway: free",
+        "Ninety Mile Beach: free (walking), 4WD access $10-20 per vehicle",
+        "Kauri Museum: $25 per adult, $10 per child"
+      ]
+    },
+    {
+      "heading": "Accommodation Options",
+      "body": "<p>Northland has a range of accommodation options to suit all budgets. For families on a tight budget, consider holiday parks and camping sites, which offer basic amenities and affordable prices. Mid-range motels and apartments are also available, offering more comfort and amenities.</p><p>Some popular accommodation options include the Bay of Islands Holiday Park, the Paihia Pacific Resort, and the Waitangi Holiday Park.</p>",
+      "list": [
+        "Holiday parks and camping sites: $40-80 per night",
+        "Mid-range motels and apartments: $120-200 per night"
+      ]
+    },
+    {
+      "heading": "Budget Breakdown",
+      "body": "<p>To help you plan your trip, we've put together a rough 3-day budget breakdown for a family of four.</p>",
+      "table": {
+        "headers": [
+          "Day",
+          "Accommodation",
+          "Food",
+          "Activities",
+          "Total"
+        ],
+        "rows": [
+          [
+            "Day 1",
+            "$150",
+            "$80",
+            "$50",
+            "$280"
+          ],
+          [
+            "Day 2",
+            "$120",
+            "$100",
+            "$30",
+            "$250"
+          ],
+          [
+            "Day 3",
+            "$180",
+            "$120",
+            "$20",
+            "$320"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Tips and Recommendations",
+      "body": "<p>To make the most of your trip to Northland, consider visiting during the shoulder season (April-May or September-October), when prices are lower and the weather is still pleasant. Be sure to book your accommodation and activities in advance to avoid peak season prices.</p><p>Don't miss the stunning beaches and bays, including Matai Bay and Tokerau Beach, which are perfect for swimming and sunbathing. The Waitangi Treaty Grounds are also a must-visit, with a rich history and cultural significance.</p>",
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "northland-cape-reinga-family-budget-family-guide-2026-08",
+  "updated": "August 2026",
+  "auto_generated": true,
+  "generated_date": "2026-08-10"
+}
