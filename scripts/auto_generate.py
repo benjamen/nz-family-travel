@@ -376,16 +376,30 @@ def rebuild_and_push(dry_run=False):
     last_line = [l for l in result.stdout.splitlines() if l.strip()][-1]
     print(f"  {last_line}")
 
-    # Git commit and push
+    # Git commit and push — check every step's exit code. A silent failure
+    # here (e.g. broken ref, detached HEAD, network error) previously let
+    # the script log "success" while nothing actually reached GitHub.
     today = date.today().isoformat()
-    subprocess.run(['git', 'add', '-A'], cwd=ROOT)
+
+    add = subprocess.run(['git', 'add', '-A'], cwd=ROOT, capture_output=True, text=True)
+    if add.returncode != 0:
+        print("  GIT ADD FAILED:", add.stderr[:500])
+        return False
+
     commit_msg = f"Auto-generate 5 articles — {today}"
-    subprocess.run(['git', 'commit', '-m', commit_msg], cwd=ROOT)
+    commit = subprocess.run(['git', 'commit', '-m', commit_msg], cwd=ROOT, capture_output=True, text=True)
+    if commit.returncode != 0:
+        # "nothing to commit" is not a failure — everything was already committed.
+        if 'nothing to commit' not in (commit.stdout + commit.stderr):
+            print("  GIT COMMIT FAILED:", commit.stderr[:500] or commit.stdout[:500])
+            return False
+
     push = subprocess.run(['git', 'push'], cwd=ROOT, capture_output=True, text=True)
     if push.returncode == 0:
         print("  Pushed to GitHub Pages")
     else:
-        print("  Push failed:", push.stderr[:200])
+        print("  PUSH FAILED:", push.stderr[:500])
+        return False
     return True
 
 # ── Main ──────────────────────────────────────────────────────────────────────
@@ -401,7 +415,8 @@ def main():
     dests, acts, site, deals = load_data()
 
     if args.rebuild:
-        rebuild_and_push()
+        if not rebuild_and_push():
+            sys.exit(1)
         return
 
     pools = build_typed_pools(dests, acts)
@@ -443,7 +458,9 @@ def main():
 
     if generated:
         print(f"\nGenerated {len(generated)} articles.")
-        rebuild_and_push()
+        if not rebuild_and_push():
+            print("\nFATAL: rebuild/commit/push did not complete — content was generated but NOT deployed.")
+            sys.exit(1)
     else:
         print("\nNothing new to generate today.")
 

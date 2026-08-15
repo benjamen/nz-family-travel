@@ -3,6 +3,7 @@
 
 import json
 import shutil
+import time
 from pathlib import Path
 from datetime import datetime
 from urllib.parse import quote_plus
@@ -56,8 +57,19 @@ def load_content_dir(subdir):
 
 def build():
     if OUT.exists():
-        shutil.rmtree(OUT)
-    OUT.mkdir()
+        # shutil.rmtree can raise OSError("Directory not empty") if a file
+        # under OUT is momentarily open/being written (e.g. another process,
+        # an editor, or a sync tool) — retry with backoff instead of letting
+        # a single transient race abort the whole daily build.
+        for attempt in range(5):
+            try:
+                shutil.rmtree(OUT)
+                break
+            except OSError:
+                if attempt == 4:
+                    raise
+                time.sleep(1)
+    OUT.mkdir(parents=True, exist_ok=True)
 
     if STATIC.exists():
         shutil.copytree(STATIC, OUT / "static")
