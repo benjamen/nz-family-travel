@@ -1,0 +1,72 @@
+{
+  "title": "Bay of Islands Deals",
+  "short_title": "BOI Savings",
+  "meta_desc": "Discover the best family deals in Bay of Islands, including activity discounts, campervan hires, and travel insurance, to make your family holiday more affordable and enjoyable.",
+  "intro": "The Bay of Islands is a top destination for family holidays in New Zealand, with its stunning beaches, dolphin watching cruises, and historical Waitangi Treaty Grounds. To make the most of your trip without breaking the bank, we've rounded up the best current deals and discounts. With prices starting from $250-450 per day for a family of four, you can have a fantastic holiday in the Bay of Islands.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Current Booking Deals and Discounts",
+      "body": "<p>Bookme.co.nz is offering up to 40% off activities in the Bay of Islands, including dolphin watching cruises and Cape Brett cruises. Additionally, Discover Cars has family campervans available from $89 per day, and Booking.com offers free cancellation on most holiday park and motel bookings. Cover-More also provides comprehensive family travel insurance from $4.50 per day.</p><p>These deals can help you save a significant amount on your family holiday. For example, a dolphin watching cruise can cost around $80-100 per person, but with the Bookme discount, you can get it for $48-60 per person.</p>",
+      "list": [
+        "Up to 40% off activities with Bookme.co.nz",
+        "Family campervans from $89 per day with Discover Cars",
+        "Free cancellation on most bookings with Booking.com",
+        "Comprehensive family travel insurance from $4.50 per day with Cover-More"
+      ]
+    },
+    {
+      "heading": "Best-Value Activities",
+      "body": "<p>The Bay of Islands offers a range of activities suitable for all ages, including dolphin watching cruises, sailing to private islands, and visiting the Waitangi Treaty Grounds. Some of the best-value activities include the Hole in the Rock cruise, which costs around $100-120 per person, and the Haruru Falls Walk, which is free.</p><p>Island beach picnics, where you can sail to a private island and enjoy a picnic with your family, are also a great option. These picnics can cost around $150-200 per family, depending on the provider and the length of the trip.</p>",
+      "table": {
+        "headers": [
+          "Activity",
+          "Price (per person or family)"
+        ],
+        "rows": [
+          [
+            "Dolphin Watching Cruise",
+            "$80-100 per person"
+          ],
+          [
+            "Hole in the Rock Cruise",
+            "$100-120 per person"
+          ],
+          [
+            "Haruru Falls Walk",
+            "Free"
+          ],
+          [
+            "Island Beach Picnic",
+            "$150-200 per family"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Money-Saving Tips for Families",
+      "body": "<p>To make the most of your family holiday in the Bay of Islands, consider the following money-saving tips:</p>",
+      "list": [
+        "Book your activities and accommodation in advance to get the best prices",
+        "Look for package deals that include activities and accommodation",
+        "Consider visiting during the off-season (April-May or September-October) for lower prices",
+        "Pack your own snacks and lunches instead of buying them at tourist spots",
+        "Take advantage of free activities, such as the Haruru Falls Walk and Paihia Beach swim",
+        "Use public transport or walk/bike instead of renting a car"
+      ]
+    },
+    {
+      "heading": "When to Book for Best Prices",
+      "body": "<p>To get the best prices for your family holiday in the Bay of Islands, it's recommended to book your activities and accommodation at least 2-3 months in advance. This will give you access to early bird discounts and ensure availability, especially during peak season (December-February).</p><p>Additionally, consider booking your activities and accommodation on weekdays instead of weekends, as prices tend to be lower.</p>",
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "bay-of-islands-family-family-deals-2026-08",
+  "updated": "August 2026",
+  "auto_generated": true,
+  "generated_date": "2026-08-16"
+}
