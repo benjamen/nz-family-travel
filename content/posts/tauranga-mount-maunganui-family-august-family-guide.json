@@ -1,0 +1,80 @@
+{
+  "title": "Tauranga in Aug",
+  "short_title": "Mount Maunganui",
+  "meta_desc": "Discover Tauranga and Mount Maunganui in August with kids. Enjoy mild weather, low crowds and affordable prices from $180-380/day for a family of 4.",
+  "intro": "Tauranga and Mount Maunganui are perfect for a family holiday in August. With mild winter weather and low crowds, you can enjoy the region's beautiful beaches, scenic walks and outdoor activities without the summer rush. From $180-380 per day for a family of four, it's an affordable getaway.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Weather in August",
+      "body": "<p>August is a great time to visit Tauranga and Mount Maunganui if you prefer milder weather. Average highs are around 15°C, while lows can drop to 6°C. It's a good idea to pack warm clothing, including jackets and gloves, as well as waterproof gear in case of rain.</p><p>Despite the cooler temperatures, August can be a great time to enjoy outdoor activities like walking, surfing and swimming, especially if you're looking for smaller crowds and lower prices.</p>",
+      "list": [
+        "Average high: 15°C",
+        "Average low: 6°C",
+        "Rainfall: 120mm"
+      ]
+    },
+    {
+      "heading": "What's On in August",
+      "body": "<p>While the summer crowds have dissipated, there are still plenty of events and activities to enjoy in Tauranga and Mount Maunganui in August. From outdoor concerts to sports tournaments, you'll find something to suit your family's interests.</p><p>Be sure to check local listings for upcoming events and plan your itinerary accordingly. Some popular events include the Tauranga Arts Festival and the Mount Maunganui Surf Competition.</p>",
+      "list": [
+        "Tauranga Arts Festival",
+        "Mount Maunganui Surf Competition"
+      ]
+    },
+    {
+      "heading": "Best Activities for Families",
+      "body": "<p>Mount Maunganui is famous for its beautiful beach, which is perfect for swimming, surfing and sunbathing. The nearby Hot Pools at the Mount are also a great way to relax and unwind, especially on a chilly winter day.</p><p>If you're looking for some exercise, take a walk to the summit of Mount Maunganui, which offers stunning views of the Bay of Plenty. Alternatively, head to Papamoa Beach, which is a bit more secluded but just as beautiful.</p>",
+      "list": [
+        "Mount Beach",
+        "Hot Pools at the Mount",
+        "Walk to the summit of Mount Maunganui",
+        "Papamoa Beach"
+      ]
+    },
+    {
+      "heading": "Practical Tips for Families",
+      "body": "<p>When visiting Tauranga and Mount Maunganui in August, it's a good idea to book your accommodation and activities ahead of time to avoid the crowds. Be sure to pack warm clothing and waterproof gear, as the weather can be unpredictable.</p><p>Additionally, consider visiting during the week instead of on weekends, when the crowds are smaller. Finally, take advantage of the region's many free activities, such as walking to the summit of Mount Maunganui or visiting Pilot Bay.</p>",
+      "list": [
+        "Book accommodation and activities ahead of time",
+        "Pack warm clothing and waterproof gear",
+        "Visit during the week instead of on weekends",
+        "Take advantage of free activities",
+        "Check the surf forecast before heading out"
+      ]
+    },
+    {
+      "heading": "Crowd Levels and Prices",
+      "body": "<p>August is a great time to visit Tauranga and Mount Maunganui if you're looking for smaller crowds and lower prices. The region is generally less busy than during the summer months, making it easier to get around and enjoy the local attractions.</p><p>Prices for accommodation and activities are also more affordable, with many providers offering special deals and discounts. From $180-380 per day for a family of four, you can enjoy a comfortable and fun holiday without breaking the bank.</p>",
+      "table": {
+        "headers": [
+          "Accommodation",
+          "Price per night"
+        ],
+        "rows": [
+          [
+            "Hotel",
+            "$150-250"
+          ],
+          [
+            "Holiday house",
+            "$200-350"
+          ],
+          [
+            "Campsite",
+            "$30-50"
+          ]
+        ]
+      },
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "tauranga-mount-maunganui-family-august-family-guide",
+  "updated": "August 2026",
+  "auto_generated": true,
+  "generated_date": "2026-08-14"
+}

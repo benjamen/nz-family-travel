@@ -1,0 +1,76 @@
+{
+  "title": "Rotorua Family Deals",
+  "short_title": "Rotorua Deals",
+  "meta_desc": "Discover the best family deals in Rotorua, including activity discounts, campervan hire, and travel insurance. Save up to 40% on activities with Bookme.co.nz.",
+  "intro": "Planning a family holiday in Rotorua? Look no further for the best deals and discounts. Rotorua is an affordable and centrally located destination, packed with activities for all ages. With budget-friendly options from $250-400/day for a family of four, you can enjoy geothermal wonders, Maori culture, and more.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Current Booking Deals and Discounts",
+      "body": "<p>Bookme.co.nz is offering up to 40% off activities in Rotorua, including Te Puia, Wai-O-Tapu Thermal Wonderland, and Skyline Rotorua Gondola & Luge. Discover Cars has family campervans from $89/day, and Booking.com provides free cancellation on most holiday park and motel bookings. Cover-More offers comprehensive family travel insurance from $4.50/day.</p><p>These deals can help you save money and make the most of your family holiday in Rotorua. Be sure to check the Bookme.co.nz website for the latest discounts and promotions.</p>",
+      "list": [
+        "Up to 40% off activities with Bookme.co.nz",
+        "Family campervans from $89/day with Discover Cars",
+        "Free cancellation on most bookings with Booking.com",
+        "Comprehensive family travel insurance from $4.50/day with Cover-More"
+      ]
+    },
+    {
+      "heading": "Best-Value Activities",
+      "body": "<p>Rotorua has a wide range of activities to suit all ages and budgets. Some of the best-value activities include Te Puia, which offers a geothermal park and Maori arts experience, and Wai-O-Tapu Thermal Wonderland, which features stunning geothermal landscapes.</p><p>The Agrodome Farm Show and OGO Rotorua (zorbing) are also popular activities that are sure to thrill both kids and adults. Skyline Rotorua Gondola & Luge offers panoramic views of the city and a fun luge ride.</p>",
+      "table": {
+        "headers": [
+          "Activity",
+          "Price"
+        ],
+        "rows": [
+          [
+            "Te Puia",
+            "$50-$70 per person"
+          ],
+          [
+            "Wai-O-Tapu Thermal Wonderland",
+            "$30-$50 per person"
+          ],
+          [
+            "Agrodome Farm Show",
+            "$30-$50 per person"
+          ],
+          [
+            "OGO Rotorua (zorbing)",
+            "$30-$50 per person"
+          ],
+          [
+            "Skyline Rotorua Gondola & Luge",
+            "$30-$50 per person"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Money-Saving Tips for Families",
+      "body": "<p>To make the most of your family holiday in Rotorua, consider the following money-saving tips:</p>",
+      "list": [
+        "Book activities and accommodation in advance to secure the best prices",
+        "Look for package deals that include multiple activities and services",
+        "Consider visiting during the off-season (April-May or September-November) for lower prices",
+        "Pack a picnic lunch instead of eating out for every meal",
+        "Take advantage of free activities, such as the Government Gardens and Lake Rotorua foreshore walk",
+        "Use public transport or walk/bike whenever possible to reduce transportation costs"
+      ]
+    },
+    {
+      "heading": "When to Book for Best Prices",
+      "body": "<p>It's best to book your Rotorua family holiday during the off-season (April-May or September-November) for the lowest prices. However, if you're looking for a specific activity or accommodation, it's a good idea to book in advance to secure the best prices.</p><p>Bookme.co.nz often has last-minute deals and discounts, so it's worth checking their website regularly for promotions.</p>",
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "rotorua-family-guide-family-deals-2026-08",
+  "updated": "August 2026",
+  "auto_generated": true,
+  "generated_date": "2026-08-12"
+}

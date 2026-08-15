@@ -2,61 +2,74 @@
   "slug": "nz-beaches-kids-summer",
   "short_title": "NZ Beaches for Kids",
   "title": "Best NZ Beaches for Families — Safest, Most Fun, by Region",
-  "meta_desc": "Discover the best NZ beaches for families, with safe swimming, patrolled beaches and amenities from $10-$20 per day",
-  "intro": "With over 15,000 km of coastline, New Zealand has plenty of amazing beaches to choose from, but which ones are best for families? Look for patrolled beaches with safe swimming areas and amenities like Bethells Beach in Auckland, which charges $10 for parking. Summer is the perfect time to explore these hidden gems with your kids. From the Far North to Invercargill, we've got you covered with the top NZ beaches for a fun and stress-free family holiday.",
-  "updated": "July 2026",
-  "reading_time": 9,
+  "meta_desc": "Discover the safest and most fun NZ beaches for families, with patrolled beaches and facilities from $10-$20 per day",
+  "intro": "With over 15,000 kilometres of coastline, New Zealand is a beach lover's paradise, but not all beaches are created equal when it comes to family safety and fun. From the pristine shores of the Bay of Islands to the rugged coastline of the West Coast, we've scouted out the best NZ beaches for families. Here's our top picks, by region, with all the practical info you need to plan a fun and stress-free day out.",
+  "updated": "August 2026",
+  "reading_time": 10,
   "sections": [
     {
       "heading": "North Island Beaches",
-      "list": [
-        "Bethells Beach, Auckland - $10 parking, patrolled beach, picnic areas and BBQ facilities",
-        "Pakiri Beach, Northland - 2.5 hour drive from Auckland, $5 parking, safe swimming and surf lessons from $50 per person",
-        "Oriental Bay, Wellington - free parking, patrolled beach, playground and water sports rentals from $20 per hour"
-      ]
+      "body": "The North Island is home to some of New Zealand's most popular and family-friendly beaches, with many offering patrolled swimming areas and facilities like toilets, showers, and picnic tables. Some top picks include Mission Bay in Auckland, with its tranquil waters and nearby playground, and Mount Maunganui in the Bay of Plenty, with its gentle waves and scenic coastal walk."
     },
     {
       "heading": "South Island Beaches",
-      "body": "The South Island has some of the most beautiful and safest beaches in New Zealand, with many of them located in the Abel Tasman National Park. These beaches offer calm and clear waters, perfect for swimming and snorkeling. Some popular spots include Kaiteriteri Beach, which has a campground with sites starting from $20 per night, and Marahau Beach, which has a range of accommodation options, including holiday homes and lodges."
+      "list": [
+        "Sumner Beach in Christchurch, with its patrolled swimming area and nearby cafe",
+        "Wainui Beach in Kaikoura, with its safe swimming and stunning coastal views",
+        "St Clair Beach in Dunedin, with its long stretch of sand and nearby pool"
+      ]
     },
     {
-      "heading": "Beach Activities and Prices",
+      "heading": "Beach Facilities and Costs",
       "table": {
         "headers": [
-          "Activity",
-          "Location",
-          "Price (NZD)"
+          "Beach",
+          "Facilities",
+          "Cost (per day)"
         ],
         "rows": [
           [
-            "Surf lessons",
-            "Pakiri Beach",
-            "50 per person"
+            "Mission Bay",
+            "Toilets, showers, picnic tables, playground",
+            "$10"
           ],
           [
-            "Kayak rental",
-            "Kaiteriteri Beach",
-            "20 per hour"
+            "Mount Maunganui",
+            "Toilets, showers, picnic tables, coastal walk",
+            "$15"
           ],
           [
-            "Watersports equipment rental",
-            "Oriental Bay",
-            "20-50 per hour"
+            "Sumner Beach",
+            "Toilets, showers, cafe, patrolled swimming",
+            "$12"
           ],
           [
-            "Beach camping",
-            "Kaiteriteri Beach",
-            "20 per night"
+            "Wainui Beach",
+            "Toilets, showers, picnic tables, scenic views",
+            "Free"
+          ],
+          [
+            "St Clair Beach",
+            "Toilets, showers, pool, picnic tables",
+            "$20"
           ]
         ]
       }
     },
     {
-      "heading": "Safety First",
-      "body": "When choosing a beach for your family, safety should be the top priority. Look for patrolled beaches with lifeguards, and make sure to swim between the flags. It's also important to check the beach conditions before heading out, and to always supervise your children when they're in the water. Some popular patrolled beaches in New Zealand include Mount Maunganui Beach in the Bay of Plenty and Waikanae Beach in the Kapiti Coast, both of which have free parking and a range of amenities."
+      "heading": "East Coast Beaches",
+      "body": "The East Coast of the North Island is known for its beautiful and often rugged beaches, with many offering great surfing and swimming spots. Some top picks include Gisborne's Midway Beach, with its consistent waves and nearby surf school, and Napier's Marine Parade, with its scenic views and nearby aquarium. Drive times from major cities include approximately 4.5 hours from Auckland to Gisborne and 3 hours from Wellington to Napier."
     },
     {
-      "heading": "Planning Your Trip",
+      "heading": "West Coast Beaches",
+      "list": [
+        "Raglan Beach, with its world-class surf and stunning sunsets",
+        "Muriwai Beach, with its unique black sand and nearby gannet colony",
+        "Karioitahi Beach, with its scenic views and nearby picnic areas"
+      ]
+    },
+    {
+      "heading": "Plan Your NZ Beach Road Trip",
       "cta": {
         "text": "Get started with our NZ Family Travel Budget Calculator",
         "url": "/tools/nz-family-travel-budget-calculator/",
@@ -64,17 +77,13 @@
       }
     },
     {
-      "heading": "Accommodation Options",
-      "list": [
-        "Holiday homes and apartments - from $150 per night",
-        "Campgrounds and RV parks - from $20 per night",
-        "Motels and hotels - from $100 per night"
-      ]
+      "heading": "More Beaches to Explore",
+      "body": "For more ideas on where to take your family on a beach vacation, check out our Destinations page, which features over 50 beaches across New Zealand, each with its own unique character and attractions. From the Coromandel Peninsula to the Otago Coast, we've got the lowdown on the best beaches to suit your family's needs and budget."
     },
     {
-      "heading": "Further Reading",
+      "heading": "Accommodation Options",
       "cta": {
-        "text": "Explore our destination guides for more information on NZ's top family-friendly destinations",
+        "text": "Discover the best family-friendly accommodation options near NZ's top beaches",
         "url": "/destinations/",
         "affiliate": false
       }

@@ -2,14 +2,14 @@
   "slug": "rotorua-geothermal-guide-families",
   "short_title": "Rotorua Thermal Parks",
   "title": "Rotorua Geothermal Parks Guide — Te Puia vs Wai-O-Tapu vs Hell's Gate",
-  "meta_desc": "Rotorua geothermal parks guide for families: compare Te Puia, Wai-O-Tapu, and Hell's Gate",
-  "intro": "Rotorua is home to some of New Zealand's most unique and breathtaking geothermal parks. With so many options to choose from, it can be difficult to decide which one to visit, especially when traveling with kids. In this guide, we'll compare Te Puia, Wai-O-Tapu, and Hell's Gate to help you make an informed decision.",
-  "updated": "July 2026",
-  "reading_time": 10,
+  "meta_desc": "Discover the best Rotorua geothermal parks for families, comparing Te Puia, Wai-O-Tapu, and Hell's Gate",
+  "intro": "Rotorua is home to some of New Zealand's most impressive geothermal wonders, but which park is best for your family? With prices ranging from $30 to over $100 per person, it pays to choose wisely. In this guide, we'll compare Te Puia, Wai-O-Tapu, and Hell's Gate to help you make an informed decision.",
+  "updated": "August 2026",
+  "reading_time": 9,
   "sections": [
     {
       "heading": "Overview of Rotorua Geothermal Parks",
-      "body": "Rotorua is a 3-hour drive from Auckland and is home to several world-class geothermal parks. Each park offers a unique experience, with Te Puia focusing on Maori culture and geothermal wonders, Wai-O-Tapu showcasing colorful hot springs and geysers, and Hell's Gate featuring mud pools and a spa."
+      "body": "Rotorua is a city on the North Island of New Zealand, famous for its geothermal hot springs, geysers, and mud pools. The three main geothermal parks in Rotorua are Te Puia, Wai-O-Tapu, and Hell's Gate, each offering a unique experience. Te Puia is known for its traditional Maori cultural performances, Wai-O-Tapu for its stunning natural beauty, and Hell's Gate for its mud spa and geothermal wonders."
     },
     {
       "heading": "Comparison of Rotorua Geothermal Parks",
@@ -18,61 +18,60 @@
           "Park",
           "Price (NZD)",
           "Age Range",
-          " Highlights"
+          "Drive Time from Rotorua City"
         ],
         "rows": [
           [
             "Te Puia",
-            "54.50 - 69.50",
+            "$50-$70",
             "All ages",
-            "Maori cultural performances, geothermal wonders"
+            "5 minutes"
           ],
           [
             "Wai-O-Tapu",
-            "32.50 - 42.50",
+            "$32.50-$42.50",
             "All ages",
-            "Colorful hot springs, geysers, Lady Knox Geyser"
+            "20 minutes"
           ],
           [
             "Hell's Gate",
-            "40 - 60",
-            "All ages",
-            "Mud pools, Sulphur Spa, geothermal walk"
+            "$35-$50",
+            "5 years and above",
+            "15 minutes"
           ]
         ]
       }
     },
     {
       "heading": "Best for Families",
-      "body": "All three parks are suitable for families, but Te Puia and Wai-O-Tapu are particularly popular with kids. Te Puia offers a guided tour and a chance to see kiwi birds, while Wai-O-Tapu features a interactive exhibit and a geyser that erupts daily at 10:15 am.",
       "list": [
-        "Te Puia: guided tour, kiwi birds, and Maori cultural performances",
-        "Wai-O-Tapu: interactive exhibit, Lady Knox Geyser, and colorful hot springs"
+        "Te Puia: offers a kiwi conservation center and traditional Maori performances",
+        "Wai-O-Tapu: features a variety of colorful hot springs and a chance to see the famous Lady Knox Geyser",
+        "Hell's Gate: provides a mud spa and geothermal walk, suitable for children aged 5 and above"
       ]
     },
     {
-      "heading": "Getting There and Around",
-      "body": "The drive time between Rotorua city and the geothermal parks is approximately 10-20 minutes. You can also use public transportation or book a guided tour that includes transportation. If you're planning to visit multiple parks, consider renting a campervan or car to make the most of your trip."
+      "heading": "Planning Your Visit",
+      "body": "Before visiting any of the geothermal parks, it's essential to plan ahead. Check the park's website for opening hours, prices, and any special events or closures. It's also a good idea to book your tickets in advance to avoid waiting in line. If you're traveling with a campervan, consider staying at one of the nearby campsites, such as the Rotorua Top 10 Holiday Resort, which offers convenient access to all three parks."
     },
     {
-      "heading": "Plan Your Trip",
+      "heading": "Getting There",
+      "body": "The drive from Auckland to Rotorua takes approximately 3 hours, while the drive from Wellington takes around 5.5 hours. If you're using public transport, you can take a bus from Auckland or Wellington to Rotorua. Once in Rotorua, you can use a taxi or shuttle service to get to the geothermal parks."
+    },
+    {
+      "heading": "Budgeting for Your Trip",
       "cta": {
-        "text": "Calculate your trip costs with our NZ Family Travel Budget Calculator",
+        "text": "Use our NZ Family Travel Budget Calculator to plan your trip",
         "url": "/tools/nz-family-travel-budget-calculator/",
         "affiliate": false
       }
     },
     {
       "heading": "Accommodation Options",
-      "body": "Rotorua offers a range of accommodation options, from budget-friendly hotels to luxury resorts. Consider staying in the city center to be close to amenities and activities. You can also book a campsite or holiday park for a more affordable and family-friendly option.",
-      "list": [
-        "City center hotels: Millennium Hotel, Novotel Rotorua Lakeside",
-        "Luxury resorts: Polynesian Spa Resort, Black Swan Lakeside Boutique Hotel",
-        "Campgrounds and holiday parks: Rotorua Top 10 Holiday Resort, All Seasons Holiday Park"
-      ]
+      "body": "Rotorua offers a wide range of accommodation options, from budget-friendly camping sites to luxury hotels. Consider staying in a family-friendly hotel, such as the Novotel Rotorua Lakeside, or rent a holiday home through a website like Bookabach. If you're looking for a more adventurous experience, you can also stay in a campervan and explore the surrounding countryside."
     },
     {
-      "heading": "More Rotorua Attractions",
+      "heading": "More Rotorua Activities",
       "cta": {
         "text": "Discover more things to do in Rotorua",
         "url": "/destinations/rotorua/",

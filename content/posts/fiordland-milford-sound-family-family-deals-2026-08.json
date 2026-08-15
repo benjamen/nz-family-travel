@@ -1,0 +1,72 @@
+{
+  "title": "Fiordland Family Deals",
+  "short_title": "Milford Sound",
+  "meta_desc": "Discover the best family deals in Fiordland & Milford Sound, including activity discounts, campervan hire, and travel insurance, to make your family holiday unforgettable and affordable, with prices from $280-500/day for a family of 4",
+  "intro": "Fiordland & Milford Sound offer a unique and breathtaking experience for families, with its dramatic scenery and wide range of activities. To make the most of your family holiday, we've rounded up the best deals and discounts available. With prices starting from $280-500/day for a family of 4, you can enjoy the beauty of Fiordland without breaking the bank.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Current Booking Deals and Discounts",
+      "body": "<p>Bookme.co.nz is currently offering up to 40% off activities in Rotorua, Queenstown, Bay of Islands, and Auckland, which can be a great way to save money on your family holiday. Additionally, Discover Cars is offering family campervans from $89/day, making it an affordable option for families to explore Fiordland. Booking.com is also offering free cancellation on most holiday park and motel bookings, providing flexibility and peace of mind.</p><p>Cover-More Family Travel Insurance is available from $4.50/day, providing comprehensive cover for your family's holiday. It's essential to book your activities and accommodation in advance to ensure availability and get the best prices.</p>",
+      "list": [
+        "Up to 40% off activities with Bookme.co.nz",
+        "Family campervans from $89/day with Discover Cars",
+        "Free cancellation on most bookings with Booking.com",
+        "Comprehensive travel insurance from $4.50/day with Cover-More"
+      ]
+    },
+    {
+      "heading": "Best-Value Activities for Families",
+      "body": "<p>Milford Sound Nature Cruise is a must-do activity for families, with prices starting from $120 per person. Milford Sound Kayaking is another great option, with prices from $150 per person. The Underwater Observatory is a unique experience, with prices from $50 per person. Te Anau Glowworm Caves is a great option for families, with prices from $80 per person.</p><p>The Kepler Track day walk is a free activity that offers breathtaking views of the surrounding landscape. The drive to Milford Sound itself is also a highlight, with stunning scenery and plenty of opportunities to stop and take in the views.</p>",
+      "table": {
+        "headers": [
+          "Activity",
+          "Price (per person)"
+        ],
+        "rows": [
+          [
+            "Milford Sound Nature Cruise",
+            "$120"
+          ],
+          [
+            "Milford Sound Kayaking",
+            "$150"
+          ],
+          [
+            "Underwater Observatory",
+            "$50"
+          ],
+          [
+            "Te Anau Glowworm Caves",
+            "$80"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Money-Saving Tips for Families",
+      "body": "<p>To make the most of your family holiday in Fiordland & Milford Sound, consider the following money-saving tips:</p>",
+      "list": [
+        "Book your activities and accommodation in advance to get the best prices",
+        "Consider visiting during the shoulder season (April-May or September-October) to avoid peak season prices",
+        "Pack a picnic lunch instead of buying food at the tourist shops",
+        "Take advantage of free activities such as the Kepler Track day walk and the drive to Milford Sound",
+        "Use the Bookme.co.nz discount code to get up to 40% off activities",
+        "Book a family campervan instead of separate accommodation and transportation"
+      ]
+    },
+    {
+      "heading": "When to Book for the Best Prices",
+      "body": "<p>To get the best prices for your family holiday in Fiordland & Milford Sound, it's essential to book your activities and accommodation in advance. Consider booking at least 2-3 months in advance to ensure availability and get the best prices.</p><p>Additionally, consider visiting during the shoulder season (April-May or September-October) to avoid peak season prices. This can be a great time to visit, with fewer crowds and lower prices.</p>",
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "fiordland-milford-sound-family-family-deals-2026-08",
+  "updated": "August 2026",
+  "auto_generated": true,
+  "generated_date": "2026-08-13"
+}

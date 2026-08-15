@@ -1,0 +1,77 @@
+{
+  "title": "Auckland Budget Guide",
+  "short_title": "Auckland",
+  "meta_desc": "Visit Auckland on a family budget of $200-$350/day, explore free activities, accommodation options, and find out where to save and splurge with our expert guide",
+  "intro": "Auckland, New Zealand's largest city, is a fantastic destination for families with its beautiful beaches, islands, and world-class attractions. With some planning, you can have a great time in Auckland without breaking the bank. In this guide, we'll show you how to visit Auckland on a budget of $200-$350 per day for a family of four.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Accommodation Options",
+      "body": "<p>Auckland has a wide range of accommodation options to suit all budgets. For a cheap option, consider staying in a hostel or camping ground, with prices starting from around $30 per night for a family room. Mid-range options include apartments and motels, with prices starting from around $150 per night.</p><p>Some popular mid-range options include the Auckland Central Apartments and the Takapuna Motor Lodge. If you're looking for a more luxurious option, consider staying in a hotel, with prices starting from around $250 per night.</p>",
+      "list": [
+        "Hostel or camping ground: $30-$50 per night",
+        "Mid-range apartment or motel: $150-$250 per night",
+        "Luxury hotel: $250-$500 per night"
+      ]
+    },
+    {
+      "heading": "Free Activities",
+      "body": "<p>Auckland has plenty of free activities to keep your family entertained. Some popular options include visiting Mission Bay beach and reserve, taking a walk along Tamaki Drive, and exploring Albert Park and the city gardens.</p><p>If you're looking for something a bit more adventurous, consider visiting Tawharanui Regional Park, which is about 45 minutes north of Auckland. This park has a stunning beach with no crowds, even on weekends.</p>",
+      "list": [
+        "Mission Bay beach and reserve",
+        "Tamaki Drive coastal walk",
+        "Albert Park and city gardens",
+        "Tawharanui Regional Park"
+      ]
+    },
+    {
+      "heading": "Budget Breakdown",
+      "body": "<p>To give you a better idea of what to expect, here's a rough breakdown of what a 3-day trip to Auckland might cost for a family of four.</p>",
+      "table": {
+        "headers": [
+          "Day",
+          "Accommodation",
+          "Food",
+          "Activities",
+          "Total"
+        ],
+        "rows": [
+          [
+            "Day 1",
+            "$150",
+            "$80",
+            "$50",
+            "$280"
+          ],
+          [
+            "Day 2",
+            "$150",
+            "$100",
+            "$70",
+            "$320"
+          ],
+          [
+            "Day 3",
+            "$150",
+            "$80",
+            "$30",
+            "$260"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Where to Save and Splurge",
+      "body": "<p>To make the most of your budget, consider saving money on accommodation and food, and splurging on activities that are important to you. For example, you could stay in a mid-range apartment and cook some of your own meals, but splurge on a visit to the Sky Tower or a day trip to Waiheke Island.</p><p>Some activities, such as visiting the Auckland Zoo or Kelly Tarlton's SEA LIFE Aquarium, are worth splurging on, as they offer a unique and memorable experience for your family.</p>",
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "auckland-with-kids-budget-family-guide-2026-08",
+  "updated": "August 2026",
+  "auto_generated": true,
+  "generated_date": "2026-08-15"
+}

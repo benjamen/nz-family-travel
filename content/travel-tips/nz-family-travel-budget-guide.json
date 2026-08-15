@@ -1,82 +1,81 @@
 {
   "slug": "nz-family-travel-budget-guide",
-  "short_title": "NZ Family Travel",
+  "short_title": "NZ Family Budget",
   "title": "How to Do NZ on a Family Budget — Real Costs and Where to Cut",
-  "meta_desc": "Discover how to explore NZ with your family without breaking the bank, with practical budget tips",
-  "intro": "With a little planning, you can have a fantastic family holiday in New Zealand without overspending. For a family of four, a daily budget of $250-350 NZD can cover all expenses. From self-catering apartments to cheap accommodation options, we've got you covered.",
-  "updated": "July 2026",
+  "meta_desc": "Family travel in NZ on a budget: expert tips on accommodation, food and activities",
+  "intro": "With the average family of four spending over $8,000 on a two-week NZ holiday, many parents think they can't afford to travel with kids. But with smart planning and insider knowledge, you can explore this beautiful country without breaking the bank. Here are our top tips for doing NZ on a family budget.",
+  "updated": "August 2026",
   "reading_time": 10,
   "sections": [
     {
       "heading": "Accommodation on a Budget",
-      "body": "One of the biggest expenses for families is accommodation. Consider self-catering apartments or holiday homes, which can be more cost-effective than hotels. For example, a 2-bedroom apartment in Queenstown can cost around $180-250 NZD per night, while a similar hotel room can cost upwards of $350 NZD per night."
+      "body": "When it comes to accommodation, self-catering is often the way to go for families. Not only does it save you money on food, but it also gives you more space and flexibility. You can find self-catering apartments and houses on websites like Bookabach (from $120 per night) and AirBnB (from $100 per night)."
     },
     {
-      "heading": "Free Activities for Families",
+      "heading": "Free Activities in NZ",
       "list": [
         "Visit the Auckland Art Gallery Toi o Tāmaki (free admission)",
-        "Explore the Wellington Botanic Garden (free admission)",
-        "Go hiking in the beautiful NZ landscapes, such as the Tongariro Alpine Crossing (free, but $40 NZD for parking)",
-        "Visit the Auckland Museum (free admission for children under 5, $25 NZD for adults)"
+        "Explore the Wellington waterfront and Te Papa Museum (free admission)",
+        "Go hiking in the beautiful NZ countryside, such as the Tongariro Alpine Crossing (free, but $40 for parking)",
+        "Visit the Hamilton Gardens (free admission, but $15 for guided tours)"
       ]
     },
     {
-      "heading": "Comparison of Accommodation Options",
+      "heading": "Cheap Eats in NZ",
+      "body": "Eating out can be expensive in NZ, but there are plenty of affordable options. Try the $10 lunches at the food trucks in Auckland's Viaduct Harbour, or grab a $5 coffee and pastry at a local cafe. For dinner, head to the supermarket and pick up some ingredients for a BBQ or picnic. A basket of groceries from Countdown or New World will set you back around $50-70."
+    },
+    {
+      "heading": "Transportation Costs",
       "table": {
         "headers": [
-          "Option",
-          "Price per night (NZD)",
-          "Location"
+          "Transportation Option",
+          "Cost"
         ],
         "rows": [
           [
-            "Hotel room",
-            "350",
-            "Queenstown"
+            "Auckland to Wellington on the InterCity bus",
+            "$30-$50 per person"
           ],
           [
-            "Self-catering apartment",
-            "200",
-            "Queenstown"
+            "Auckland to Wellington on the Northern Explorer train",
+            "$150-$250 per person"
           ],
           [
-            "Holiday home",
-            "280",
-            "Auckland"
+            "Renting a campervan for a week",
+            "$800-$1,200"
           ],
           [
-            "Campsite",
-            "40",
-            "Rotorua"
+            "Driving from Auckland to Wellington in your own car (including fuel and tolls)",
+            "$100-$200"
           ]
         ]
       }
     },
     {
-      "heading": "Food on a Budget",
-      "body": "Eating out can be expensive, especially for families. Consider self-catering and buying groceries from local supermarkets like Countdown or New World. A weekly grocery budget of $150-200 NZD can cover the basics for a family of four. You can also find affordable eating options at local cafes or food courts, such as the $15 NZD meals at the Queenstown Mall food court."
+      "heading": "Budget Breakdown",
+      "body": "So, how much can you expect to spend on a family holiday in NZ? Here's a rough breakdown of costs for a week-long trip: accommodation ($1,500-$2,500), food ($800-$1,200), transportation ($200-$500), activities ($200-$500). That's a total of $3,500-$5,200 for a family of four."
     },
     {
-      "heading": "Transportation Costs",
-      "body": "If you're planning to explore NZ by car, consider renting a vehicle or buying a cheap second-hand car. Petrol prices can range from $2.20-2.50 NZD per litre, depending on the location. For example, driving from Auckland to Rotorua can take around 3 hours and cost around $50-70 NZD in petrol."
-    },
-    {
-      "heading": "Realistic Weekly Spend",
-      "body": "For a family of four, a realistic weekly budget can range from $1,750-2,450 NZD, depending on your accommodation choices and activities. Here's a breakdown of estimated weekly costs: $1,000-1,400 NZD for accommodation, $500-700 NZD for food, $200-300 NZD for transportation, and $50-100 NZD for activities."
-    },
-    {
-      "heading": "Plan Your Trip with Our Tools",
+      "heading": "Get Started with Your NZ Family Holiday",
       "cta": {
-        "text": "Use our NZ Family Travel Budget Calculator to plan your trip",
+        "text": "Use our free NZ family travel budget calculator to plan your trip",
         "url": "/tools/nz-family-travel-budget-calculator/",
         "affiliate": false
       }
     },
     {
-      "heading": "Get Inspired by Our Destination Guides",
+      "heading": "More NZ Family Travel Tips",
       "cta": {
-        "text": "Explore our destination guides for the best NZ family-friendly spots",
+        "text": "Check out our destination guides for more tips and advice on visiting NZ with kids",
         "url": "/destinations/",
+        "affiliate": false
+      }
+    },
+    {
+      "heading": "Campervan Hire in NZ",
+      "cta": {
+        "text": "Compare campervan hire prices and find the best deals for your family",
+        "url": "/campervans/",
         "affiliate": false
       }
     }
