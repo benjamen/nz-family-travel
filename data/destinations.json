@@ -87,9 +87,34 @@
       }
     ],
     "three_day_itinerary": {
-      "day1": "Sky Tower morning, Auckland Museum, Mission Bay beach afternoon",
-      "day2": "Waiheke Island ferry day trip — beaches, vineyards, kayaking",
-      "day3": "Kelly Tarlton's, Auckland Zoo or Rainbow's End, departure"
+      "day1": {
+        "title": "Sky Tower & Auckland Museum",
+        "activities": [
+          "Sky Tower morning visit",
+          "Auckland Museum",
+          "Mission Bay beach afternoon"
+        ],
+        "estimated_cost": "$200–$350"
+      },
+      "day2": {
+        "title": "Waiheke Island Day Trip",
+        "activities": [
+          "Ferry to Waiheke Island",
+          "Beaches",
+          "Vineyards",
+          "Kayaking"
+        ],
+        "estimated_cost": "$200–$350"
+      },
+      "day3": {
+        "title": "Kelly Tarlton's or Auckland Zoo",
+        "activities": [
+          "Kelly Tarlton's Sea Life Aquarium",
+          "Auckland Zoo or Rainbow's End",
+          "Departure"
+        ],
+        "estimated_cost": "$200–$350"
+      }
     },
     "budget_breakdown": {
       "accommodation": "$150–$200/night (holiday park or budget hotel)",
@@ -1632,9 +1657,32 @@
       }
     ],
     "three_day_itinerary": {
-      "day1": "Gisborne beach, Rere Rockslide, Young Nick's Head lookout",
-      "day2": "East Cape drive — Tolaga Bay Wharf, Tikitiki church, Hicks Bay overnight",
-      "day3": "East Cape Lighthouse at sunrise, complete loop back to Gisborne or Opotiki"
+      "day1": {
+        "title": "Gisborne Beaches & Rere Rockslide",
+        "activities": [
+          "Gisborne beach",
+          "Rere Rockslide",
+          "Young Nick's Head lookout"
+        ],
+        "estimated_cost": "$120–$200"
+      },
+      "day2": {
+        "title": "East Cape Drive",
+        "activities": [
+          "Tolaga Bay Wharf",
+          "Tikitiki church",
+          "Overnight in Hicks Bay"
+        ],
+        "estimated_cost": "$120–$200"
+      },
+      "day3": {
+        "title": "East Cape Lighthouse & Return",
+        "activities": [
+          "East Cape Lighthouse at sunrise",
+          "Complete the loop back to Gisborne or Opotiki"
+        ],
+        "estimated_cost": "$120–$200"
+      }
     },
     "budget_breakdown": {
       "accommodation": "$80–$120/night (holiday park or DoC campsite)",
@@ -2090,9 +2138,33 @@
       }
     ],
     "three_day_itinerary": {
-      "day1": "Arrive Picton by ferry, foreshore, dolphin cruise or kayak afternoon",
-      "day2": "Pelorus Bridge swimming, Havelock mussels, Momorangi Bay evening",
-      "day3": "Blenheim, Omaka Aviation Heritage Centre, depart to Nelson or Christchurch"
+      "day1": {
+        "title": "Arrive Picton",
+        "activities": [
+          "Arrive Picton by ferry",
+          "Foreshore walk",
+          "Dolphin cruise or kayak afternoon"
+        ],
+        "estimated_cost": "$180–$300"
+      },
+      "day2": {
+        "title": "Pelorus Bridge & Havelock",
+        "activities": [
+          "Pelorus Bridge swimming",
+          "Havelock mussels lunch",
+          "Momorangi Bay evening"
+        ],
+        "estimated_cost": "$180–$300"
+      },
+      "day3": {
+        "title": "Blenheim & Omaka Aviation Centre",
+        "activities": [
+          "Explore Blenheim",
+          "Omaka Aviation Heritage Centre",
+          "Depart to Nelson or Christchurch"
+        ],
+        "estimated_cost": "$180–$300"
+      }
     },
     "budget_breakdown": {
       "accommodation": "$100–$160/night (holiday park)",
@@ -2519,9 +2591,33 @@
       }
     ],
     "three_day_itinerary": {
-      "day1": "Coastal walkway, Pukekura Park and boating lake, Fitzroy Beach",
-      "day2": "Egmont National Park — Dawson Falls walk, visitor centre, mountain views",
-      "day3": "Brooklands Zoo, Govett-Brewster Gallery, depart south via Whanganui"
+      "day1": {
+        "title": "Coastal Walkway & Pukekura Park",
+        "activities": [
+          "Coastal walkway",
+          "Pukekura Park and boating lake",
+          "Fitzroy Beach"
+        ],
+        "estimated_cost": "$150–$250"
+      },
+      "day2": {
+        "title": "Egmont National Park",
+        "activities": [
+          "Dawson Falls walk",
+          "Visitor centre",
+          "Mountain views"
+        ],
+        "estimated_cost": "$150–$250"
+      },
+      "day3": {
+        "title": "Brooklands Zoo & Departure",
+        "activities": [
+          "Brooklands Zoo",
+          "Govett-Brewster Gallery",
+          "Depart south via Whanganui"
+        ],
+        "estimated_cost": "$150–$250"
+      }
     },
     "budget_breakdown": {
       "accommodation": "$100–$150/night (holiday park)",
@@ -4526,9 +4622,33 @@
       }
     ],
     "three_day_itinerary": {
-      "day1": "Punakaiki Pancake Rocks, Truman Track, drive south to Hokitika",
-      "day2": "Hokitika Gorge morning, greenstone shopping, drive to Franz Josef",
-      "day3": "Franz Josef Glacier walk, drive to Fox Glacier, continue south or return via Haast Pass"
+      "day1": {
+        "title": "Punakaiki Pancake Rocks",
+        "activities": [
+          "Punakaiki Pancake Rocks",
+          "Truman Track",
+          "Drive south to Hokitika"
+        ],
+        "estimated_cost": "$150–$250"
+      },
+      "day2": {
+        "title": "Hokitika Gorge",
+        "activities": [
+          "Hokitika Gorge morning walk",
+          "Greenstone shopping",
+          "Drive to Franz Josef"
+        ],
+        "estimated_cost": "$150–$250"
+      },
+      "day3": {
+        "title": "Franz Josef & Fox Glacier",
+        "activities": [
+          "Franz Josef Glacier walk",
+          "Drive to Fox Glacier",
+          "Continue south or return via Haast Pass"
+        ],
+        "estimated_cost": "$150–$250"
+      }
     },
     "budget_breakdown": {
       "accommodation": "$80–$130/night (holiday park)",

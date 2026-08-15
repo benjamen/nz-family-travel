@@ -28,6 +28,30 @@ def _to_iso_date(s):
 
 env.filters['to_iso_date'] = _to_iso_date
 
+REDIRECT_TMPL = (
+    '<!DOCTYPE html><html><head>'
+    '<meta charset="UTF-8">'
+    '<meta name="robots" content="noindex, follow">'
+    '<meta http-equiv="refresh" content="0; url={dest}">'
+    '<link rel="canonical" href="{dest}">'
+    '<title>Redirecting…</title></head>'
+    '<body><a href="{dest}">Click here if not redirected automatically.</a></body></html>'
+)
+
+# Near-duplicate tool pages consolidated 2026-08-15 (SEO audit): each of these
+# old slugs 301-style-redirects (via meta refresh, GitHub Pages has no server
+# redirects) to the canonical slug that's already linked from nav/index/cross-links.
+TOOL_REDIRECTS = {
+    "free-packing-list": "nz-family-packing-list",
+    "packing-list-generator": "nz-family-packing-list",
+    "family-holiday-budget-planner": "nz-family-travel-budget-calculator",
+}
+
+
+def write_redirect(path: Path, dest: str):
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(REDIRECT_TMPL.format(dest=dest))
+
 
 def load(name):
     return json.loads((DATA / f"{name}.json").read_text())
@@ -78,6 +102,8 @@ def build():
     tools_src = ROOT / "tools"
     if tools_src.exists():
         for html_file in tools_src.glob("*.html"):
+            if html_file.stem in TOOL_REDIRECTS:
+                continue  # consolidated — redirect written later instead
             dest = OUT / "tools" / html_file.stem / "index.html"
             dest.parent.mkdir(parents=True, exist_ok=True)
             shutil.copy(html_file, dest)
@@ -96,6 +122,10 @@ def build():
     holiday_parks   = load("holiday_parks")
     guides          = load_content_dir("travel-tips")
     tools           = load_content_dir("tools")
+    # Drop consolidated near-duplicate tool pages from the list used for nav,
+    # the tools hub, individual-page rendering, and the sitemap — they still
+    # exist on disk under content/tools/ but only resolve as redirects (below).
+    tools           = [t for t in tools if t['slug'] not in TOOL_REDIRECTS]
     overseas        = load_content_dir("overseas")
     posts           = load_content_dir("posts")
 
@@ -317,6 +347,14 @@ def build():
                tool=tool,
                **ctx)
 
+    # Redirect pages for consolidated near-duplicate tools → canonical URL.
+    # Written after the standalone-HTML copy (top of build()) and the loop
+    # above, so the redirect always wins for these slugs.
+    for old_slug, canonical_slug in TOOL_REDIRECTS.items():
+        dest = f"{site['base_url']}/tools/{canonical_slug}/"
+        write_redirect(OUT / "tools" / old_slug / "index.html", dest)
+        print(f"  tools/{old_slug}/index.html -> {dest} (redirect)")
+
     # ── Travel tips hub ───────────────────────────────────────────────────────
     render("hub.html", "travel-tips/index.html",
            hub_title="NZ Family Travel Tips & Guides",
@@ -347,23 +385,11 @@ def build():
                    **ctx)
 
         # Redirect pages at old /posts/ URLs → /travel-tips/
-        redirect_tmpl = (
-            '<!DOCTYPE html><html><head>'
-            '<meta charset="UTF-8">'
-            '<meta name="robots" content="noindex, follow">'
-            '<meta http-equiv="refresh" content="0; url={dest}">'
-            '<link rel="canonical" href="{dest}">'
-            '<title>Redirecting…</title></head>'
-            '<body><a href="{dest}">Click here if not redirected automatically.</a></body></html>'
-        )
         posts_hub_dest = f"{site['base_url']}/travel-tips/"
-        (OUT / "posts" / "index.html").parent.mkdir(parents=True, exist_ok=True)
-        (OUT / "posts" / "index.html").write_text(redirect_tmpl.format(dest=posts_hub_dest))
+        write_redirect(OUT / "posts" / "index.html", posts_hub_dest)
         for post in posts:
             dest = f"{site['base_url']}/travel-tips/{post['slug']}/"
-            post_dir = OUT / "posts" / post['slug']
-            post_dir.mkdir(parents=True, exist_ok=True)
-            (post_dir / "index.html").write_text(redirect_tmpl.format(dest=dest))
+            write_redirect(OUT / "posts" / post['slug'] / "index.html", dest)
 
     # ── Cities hub ───────────────────────────────────────────────────────────
     render("hub.html", "cities/index.html",
