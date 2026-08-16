@@ -1,0 +1,75 @@
+{
+  "title": "Marlborough in Aug",
+  "short_title": "Aug in Marl",
+  "meta_desc": "Discover Marlborough & Blenheim with kids in August. Enjoy sunlit sounds, wildlife cruises, and NZ's sunniest wine region with a budget of $180–$300/day for a family of 4. Best for kids aged 5+.",
+  "intro": "Marlborough is a fantastic destination for families in August, with its sunny weather and plenty of outdoor activities to enjoy. With a budget of $180–$300/day for a family of four, you can experience the best of this region. From dolphin watch cruises to exploring the Queen Charlotte Track, there's something for everyone.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Weather in August",
+      "body": "<p>August is a great time to visit Marlborough, with average high temperatures ranging from 12-17°C. The region experiences mild winters, making it an ideal destination for families who want to enjoy the outdoors without the crowds. Expect some rainfall, but also plenty of sunny days to explore the area.</p><p>With its sunny weather, August is perfect for outdoor activities like sea kayaking in the Marlborough Sounds or taking a short section of the Queen Charlotte Track. The kids will love the scenic views and fresh air, and you can enjoy quality time together as a family.</p>",
+      "list": [
+        "Average high temperature: 12-17°C",
+        "Average low temperature: 2-6°C",
+        "Rainfall: 80-100 mm"
+      ]
+    },
+    {
+      "heading": "What's On in August",
+      "body": "<p>August is a relatively quiet month in Marlborough, but there are still plenty of activities to enjoy. Take a dolphin watch cruise, explore the Picton township and foreshore, or visit the Edwin Fox Maritime Museum. The kids will love the interactive exhibits and learning about the region's history.</p><p>If you're looking for some free activities, head to the Picton foreshore and Waitohi Picton play area, or visit the Momorangi Bay camping and swimming area for a day. The Pelorus Bridge swimming hole is also a must-visit, with its crystal-clear waters and scenic surroundings.</p>",
+      "list": [
+        "Dolphin watch cruise: $80-$100 per person",
+        "Edwin Fox Maritime Museum: $10-$15 per person",
+        "Picton foreshore and Waitohi Picton play area: free"
+      ]
+    },
+    {
+      "heading": "Best Activities for Families",
+      "body": "<p>Marlborough is a fantastic destination for families, with plenty of outdoor activities to enjoy. Take a short section of the Queen Charlotte Track, which is suitable for kids aged 5+. The track offers stunning views of the Marlborough Sounds and is a great way to get some exercise and fresh air.</p><p>Sea kayaking is another popular activity in the area, with guided tours available for families. The kids will love paddling through the calm waters and spotting wildlife like dolphins and penguins.</p>",
+      "list": [
+        "Queen Charlotte Track: $0-$20 per person (depending on the section)",
+        "Sea kayaking: $50-$100 per person (depending on the tour)"
+      ]
+    },
+    {
+      "heading": "Practical Tips for Families",
+      "body": "<p>When visiting Marlborough with kids, it's essential to plan ahead and book your activities and accommodation in advance. August is a relatively quiet month, but popular attractions can still get crowded.</p><p>Make sure to pack warm clothing, as the weather can be cool in the mornings and evenings. Bring plenty of water and snacks, and don't forget your sunscreen and hats.</p>",
+      "list": [
+        "Book activities and accommodation in advance",
+        "Pack warm clothing and waterproof gear",
+        "Bring plenty of water and snacks",
+        "Don't forget sunscreen and hats",
+        "Check the weather forecast before heading out"
+      ]
+    },
+    {
+      "heading": "Accommodation and Budgeting",
+      "body": "<p>Marlborough has a range of accommodation options to suit all budgets, from camping and holiday parks to motels and hotels. Expect to pay around $150-$250 per night for a family-friendly motel or hotel.</p><p>With a budget of $180-$300 per day for a family of four, you can enjoy a range of activities and experiences in Marlborough. From dolphin watch cruises to exploring the Queen Charlotte Track, there's something for everyone.</p>",
+      "table": {
+        "headers": [
+          "Accommodation Type",
+          "Price per Night"
+        ],
+        "rows": [
+          [
+            "Camping and holiday parks",
+            "$20-$50"
+          ],
+          [
+            "Motel or hotel",
+            "$150-$250"
+          ]
+        ]
+      },
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "marlborough-blenheim-family-august-family-guide",
+  "updated": "August 2026",
+  "auto_generated": true,
+  "generated_date": "2026-08-17"
+}
