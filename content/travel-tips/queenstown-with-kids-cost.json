@@ -122,6 +122,11 @@
             "All ages"
           ]
         ]
+      },
+      "cta": {
+        "text": "Planning a winter trip? Get a full ski cost estimate →",
+        "url": "/tools/nz-ski-holiday-cost-calculator/",
+        "affiliate": false
       }
     },
     {

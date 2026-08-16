@@ -137,6 +137,11 @@
             "Shuttle from Queenstown available"
           ]
         ]
+      },
+      "cta": {
+        "text": "Get your personalised ski trip cost →",
+        "url": "/tools/nz-ski-holiday-cost-calculator/",
+        "affiliate": false
       }
     },
     {
