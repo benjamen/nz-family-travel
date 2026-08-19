@@ -33,7 +33,7 @@ if env_file.exists():
 
 from groq import Groq
 
-GROQ_MODEL = "llama-3.3-70b-versatile"
+GROQ_MODEL = "openai/gpt-oss-120b"
 client = Groq(api_key=os.environ['GROQ_API_KEY'])
 
 # ── Load site data ────────────────────────────────────────────────────────────
