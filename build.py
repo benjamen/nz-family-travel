@@ -126,6 +126,16 @@ def build():
     # the tools hub, individual-page rendering, and the sitemap — they still
     # exist on disk under content/tools/ but only resolve as redirects (below).
     tools           = [t for t in tools if t['slug'] not in TOOL_REDIRECTS]
+    # road-trip-cost-calculator predates the JSON-driven tool system (it's a
+    # legacy static tools/*.html file, copied verbatim at build time -- see
+    # the static-copy step above) so it never entered the sitemap/hub loops
+    # below. The page itself is fine (200, correctly tagged); this just adds
+    # it to the same lists as JSON-driven tools so it's actually discoverable.
+    tools.append({
+        "slug": "road-trip-cost-calculator",
+        "title": "NZ Family Road Trip Cost Calculator",
+        "description": "Budget your NZ family road trip — fuel, accommodation, food, and activity costs by route and trip length.",
+    })
     overseas        = load_content_dir("overseas")
     posts           = load_content_dir("posts")
 
@@ -341,7 +351,13 @@ def build():
            **ctx)
 
     # ── Individual tool pages ────────────────────────────────────────────────
+    # road-trip-cost-calculator is excluded here: it's the legacy static-HTML
+    # tool copied verbatim above, and my minimal sitemap/hub entry for it
+    # lacks the fields (html_content, hero_image, meta_desc) tool.html needs
+    # -- rendering it here would overwrite the real page with a broken one.
     for tool in tools:
+        if tool["slug"] == "road-trip-cost-calculator":
+            continue
         render("tool.html",
                f"tools/{tool['slug']}/index.html",
                tool=tool,
