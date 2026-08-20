@@ -10,5 +10,23 @@
     "alt": "NZ family holiday planning",
     "credit": "Unsplash"
   },
-  "html_content": "<div style='text-align:center;padding:2rem 1rem'><p style='font-size:1.1rem;color:#4b5563;margin-bottom:1.5rem'>Answer a few quick questions about your family and get three personalised NZ holiday recommendations — with activity picks, cost guides, and destination links.</p><a href='/tools/family-holiday-planner/' style='display:inline-block;background:#0369a1;color:#fff;padding:.85rem 2rem;border-radius:8px;font-weight:700;font-size:1.05rem;text-decoration:none'>Start planning →</a></div>"
+  "html_content": "<div style='text-align:center;padding:2rem 1rem'><p style='font-size:1.1rem;color:#4b5563;margin-bottom:1.5rem'>Answer a few quick questions about your family and get three personalised NZ holiday recommendations — with activity picks, cost guides, and destination links.</p><a href='/tools/family-holiday-planner/' style='display:inline-block;background:#0369a1;color:#fff;padding:.85rem 2rem;border-radius:8px;font-weight:700;font-size:1.05rem;text-decoration:none'>Start planning →</a></div>",
+  "faq": [
+    {
+      "question": "How does the NZ Family Holiday Planner work?",
+      "answer": "Answer a few quick questions about your family — kids' ages, interests, and how long you have — and the tool returns three personalised NZ holiday recommendations with activity picks and cost guides."
+    },
+    {
+      "question": "Do I need to create an account to use the planner?",
+      "answer": "No — it's a free, instant tool. Just answer the questions and get your recommendations straight away, no sign-up required."
+    },
+    {
+      "question": "What information does the planner use to make recommendations?",
+      "answer": "Your family's ages, interests, and available trip length, matched against our destination guides and cost data to suggest three suitable NZ holiday options."
+    },
+    {
+      "question": "Can I use the planner for a short weekend trip as well as a longer holiday?",
+      "answer": "Yes — the planner asks how long you have and tailors its three recommendations to that timeframe, whether it's a long weekend or a multi-week trip."
+    }
+  ]
 }

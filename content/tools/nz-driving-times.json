@@ -10,5 +10,23 @@
     "alt": "NZ road trip driving times map",
     "credit": "Unsplash / Jesper Aggergaard"
   },
-  "meta_desc": "Plan your family holiday with our NZ driving times chart, get exact distances and make the most of your road trip, start planning now"
+  "meta_desc": "Plan your family holiday with our NZ driving times chart, get exact distances and make the most of your road trip, start planning now",
+  "faq": [
+    {
+      "question": "How long is the drive from Auckland to Wellington with kids?",
+      "answer": "About 8 hours over 640km. We recommend breaking it into two days via Rotorua rather than driving it in one go with children."
+    },
+    {
+      "question": "What's a good kid-friendly stop between Auckland and Rotorua?",
+      "answer": "Hobbiton in Matamata — it adds about an hour return to the 2h30m/230km Auckland–Rotorua drive."
+    },
+    {
+      "question": "How much extra time should I add for stops when driving with kids?",
+      "answer": "Add 30–45 minutes to any drive over 2 hours for toilet, stretch, and snack breaks, and plan a proper 20–30 minute stop on any drive over 3 hours."
+    },
+    {
+      "question": "Is Queenstown to Wanaka a long drive?",
+      "answer": "No — just 1 hour over 70km via the Crown Range viewpoint, one of the shortest and most scenic drives in the South Island."
+    }
+  ]
 }

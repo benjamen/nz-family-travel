@@ -10,5 +10,23 @@
     "alt": "NZ family travel budget planning",
     "credit": "Unsplash / Michael Longmire"
   },
-  "meta_desc": "Plan your family holiday with our free budget calculator, get accurate costs, and start saving today with our expert travel tips"
+  "meta_desc": "Plan your family holiday with our free budget calculator, get accurate costs, and start saving today with our expert travel tips",
+  "faq": [
+    {
+      "question": "What's a realistic daily accommodation budget for a NZ family trip?",
+      "answer": "Roughly $35/night plus ~$140–210/day van hire for a budget-to-mid-range campervan, ~$140/night for a holiday park cabin, ~$200/night for a mid-range motel, or ~$320/night for a premium hotel."
+    },
+    {
+      "question": "How much should I budget for activities per day?",
+      "answer": "About $60/day for a low activity level (free spots plus 1–2 paid activities), $150/day for medium (2–3 paid activities), or $280/day for a high-activity, full-day itinerary."
+    },
+    {
+      "question": "Is a campervan cheaper than a hotel for a family trip?",
+      "answer": "Usually yes for a family of 3+, since the van covers accommodation and transport together — a budget campervan runs well under a premium hotel's per-night rate alone, before adding a separate rental car."
+    },
+    {
+      "question": "Does the calculator account for North vs South Island cost differences?",
+      "answer": "Yes — you select North Island, South Island, or both, and the estimate adjusts accordingly."
+    }
+  ]
 }

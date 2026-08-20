@@ -10,5 +10,23 @@
     "alt": "NZ family packing list essentials",
     "credit": "Unsplash / Maarten van den Heuvel"
   },
-  "meta_desc": "Create a tailored family packing list with our expert generator, get ready for stress-free NZ holidays, plan now"
+  "meta_desc": "Create a tailored family packing list with our expert generator, get ready for stress-free NZ holidays, plan now",
+  "faq": [
+    {
+      "question": "What should I pack for New Zealand that I might not think of?",
+      "answer": "Sandfly repellent with DEET 30%+ is essential for the West Coast, rain jackets are worth packing even in summer since NZ weather is unpredictable, and you'll need Type I power adaptors (the same plug type as Australia)."
+    },
+    {
+      "question": "Do NZ holiday parks provide cots for babies?",
+      "answer": "Most NZ holiday parks have cots available on request — ask ahead when booking so you don't need to pack a portable cot yourself."
+    },
+    {
+      "question": "Is a car seat included in rental car and campervan hire?",
+      "answer": "Not by default. Most rental companies charge around $10/day extra for a car seat, so check and add it when booking rather than assuming it's included."
+    },
+    {
+      "question": "What extra gear do I need specifically for a campervan trip?",
+      "answer": "Beyond the standard list: quick-dry microfibre towels, sandfly repellent, a collapsible laundry basket and pegs, a small cutting board and kitchen knife, a coffee plunger, levelling blocks, and outdoor chairs — not all van hires include chairs."
+    }
+  ]
 }

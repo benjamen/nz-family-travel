@@ -10,5 +10,23 @@
     "alt": "Best time to visit NZ with family",
     "credit": "Unsplash / Dan Meyers"
   },
-  "meta_desc": "Plan perfect NZ family holidays with best weather, prices, and crowds info, get expert tips, and start planning your dream trip now"
+  "meta_desc": "Plan perfect NZ family holidays with best weather, prices, and crowds info, get expert tips, and start planning your dream trip now",
+  "faq": [
+    {
+      "question": "What's the best month to visit New Zealand with kids?",
+      "answer": "March comes out on top in our month-by-month comparison — warm (around 20°C average in the North Island), low rainfall, low crowds, and moderate ($$) pricing, right after the summer school-holiday crowds clear."
+    },
+    {
+      "question": "Why is January/February so expensive and crowded in NZ?",
+      "answer": "Those months overlap NZ's peak summer school holidays. If you're travelling then, book accommodation 3+ months ahead."
+    },
+    {
+      "question": "Is winter (June–August) worth visiting NZ with family?",
+      "answer": "Mainly for skiing. Outside ski season, our comparison scores winter months low (around 4/10) for family travel — cold, wet, and not ideal for outdoor activities in most regions."
+    },
+    {
+      "question": "Does the best time to visit differ between the North and South Island?",
+      "answer": "Yes — our tool compares North Island (Rotorua/Taupo), South Island (Queenstown/Wanaka), and Bay of Islands separately, since weather and crowd patterns differ by region."
+    }
+  ]
 }

@@ -10,5 +10,23 @@
     "alt": "NZ trip cost comparison by city",
     "credit": "Unsplash / Michael Longmire"
   },
-  "meta_desc": "Plan your NZ family holiday with accurate travel cost estimates by destination and stay length, get started now"
+  "meta_desc": "Plan your NZ family holiday with accurate travel cost estimates by destination and stay length, get started now",
+  "faq": [
+    {
+      "question": "What are the most expensive activities in Queenstown for families?",
+      "answer": "Nevis Bungy is the priciest single activity at $275 (adults only), followed by Shotover Jet at $149 adult / $99 child. Cheaper options include the Queenstown gondola ($39/$19) and a Lake Wakatipu cruise ($45/$25)."
+    },
+    {
+      "question": "Are there free family activities in Rotorua or Taupo?",
+      "answer": "Yes — Huka Falls in Taupo is free and one of the must-see stops in the region. Rotorua's paid activities like Wai-O-Tapu ($47/$16) and Te Puia ($79/$40) still tend to run cheaper than Queenstown's equivalents."
+    },
+    {
+      "question": "How can families save money on Queenstown or Rotorua activities?",
+      "answer": "Buying an activity combo in Queenstown typically saves 15–20% versus booking individually, and the Rotorua i-SITE pass can save 20%+ on combined attractions — both are worth booking through Bookme for the discount."
+    },
+    {
+      "question": "What's included in the Bay of Islands cost estimate?",
+      "answer": "Core Bay of Islands activities priced in the tool include the Waitangi Treaty Grounds ($40 adult, free for children), a Fullers dolphin cruise ($129/$65), the Hole in the Rock cruise ($139/$75), and the Paihia–Russell ferry ($8/$5)."
+    }
+  ]
 }
