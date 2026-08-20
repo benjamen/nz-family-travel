@@ -89,5 +89,7 @@
     "url": "/static/img/destinations/coromandel-with-kids.jpg",
     "alt": "Coromandel with kids",
     "credit": "NZ Family Travel"
-  }
+  },
+  "noindex": true,
+  "canonical_slug": "coromandel-with-kids-budget-family-guide-2026-08"
 }

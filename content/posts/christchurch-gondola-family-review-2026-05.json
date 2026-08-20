@@ -62,5 +62,7 @@
     "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Lyttelton_Harbour%2C_Christchurch_Gondola_-_panoramio.jpg",
     "alt": "Lyttelton Harbour from the Christchurch Gondola on Port Hills",
     "credit": "Wikimedia Commons"
-  }
+  },
+  "noindex": true,
+  "canonical_slug": "christchurch-gondola-family-review-2026-07"
 }

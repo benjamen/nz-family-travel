@@ -96,12 +96,32 @@
       "heading": "What Meals Actually Cost",
       "body": "<p>Eating out for every meal is where Auckland budgets blow out. A sit-down family dinner runs $60–$100; a food-court or takeaway meal is closer to $30–$45 for four. The smart play is to self-cater breakfast and lunch (supermarket shop at Pak'nSave or Countdown) and eat out once a day. Auckland's food courts, fish-and-chip shops and the night markets (like the Saturday Pakuranga or Sunday markets) are tasty, affordable and great with kids.</p>",
       "table": {
-        "headers": ["Meal type", "Cost (family of 4)", "Tip"],
+        "headers": [
+          "Meal type",
+          "Cost (family of 4)",
+          "Tip"
+        ],
         "rows": [
-          ["Supermarket breakfast", "$10–$15", "Cereal, fruit and milk in your unit"],
-          ["Picnic / supermarket lunch", "$15–$25", "Grab it before a free park day"],
-          ["Food court / takeaway dinner", "$30–$45", "Cheaper and quicker than a restaurant"],
-          ["Restaurant dinner", "$60–$100", "Save for one special night"]
+          [
+            "Supermarket breakfast",
+            "$10–$15",
+            "Cereal, fruit and milk in your unit"
+          ],
+          [
+            "Picnic / supermarket lunch",
+            "$15–$25",
+            "Grab it before a free park day"
+          ],
+          [
+            "Food court / takeaway dinner",
+            "$30–$45",
+            "Cheaper and quicker than a restaurant"
+          ],
+          [
+            "Restaurant dinner",
+            "$60–$100",
+            "Save for one special night"
+          ]
         ]
       }
     },
@@ -123,5 +143,7 @@
     "url": "/static/img/destinations/auckland-with-kids.jpg",
     "alt": "Auckland with kids, New Zealand",
     "credit": "NZ Family Travel"
-  }
+  },
+  "noindex": true,
+  "canonical_slug": "auckland-with-kids-budget-family-guide-2026-07"
 }

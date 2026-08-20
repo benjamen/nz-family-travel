@@ -49,5 +49,7 @@
     "url": "/static/img/destinations/west-coast-family-guide.jpg",
     "alt": "West Coast with kids",
     "credit": "NZ Family Travel"
-  }
+  },
+  "noindex": true,
+  "canonical_slug": "west-coast-family-guide-family-deals-2026-06"
 }

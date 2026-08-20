@@ -56,5 +56,7 @@
     "url": "/static/img/destinations/wellington-with-kids.jpg",
     "alt": "Wellington with kids",
     "credit": "NZ Family Travel"
-  }
+  },
+  "noindex": true,
+  "canonical_slug": "wellington-with-kids-family-deals-2026-07"
 }

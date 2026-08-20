@@ -48,5 +48,7 @@
     "thumb": "https://images.unsplash.com/photo-1533587851505-d119e13c2eca?w=600&q=70",
     "alt": "Cape Reinga Northland lighthouse NZ",
     "credit": "Unsplash / David Straight"
-  }
+  },
+  "noindex": true,
+  "canonical_slug": "northland-cape-reinga-family-family-deals-2026-07"
 }

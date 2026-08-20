@@ -493,8 +493,12 @@ def build():
     for t in tools:
         sitemap += sm_url(f"tools/{t['slug']}", "0.7", "monthly")
     for g in guides:
+        if g.get("noindex"):
+            continue
         sitemap += sm_url(f"travel-tips/{g['slug']}", "0.7", "monthly")
     for p in posts:
+        if p.get("noindex"):
+            continue
         sitemap += sm_url(f"travel-tips/{p['slug']}", "0.8", "weekly")
     for o in overseas:
         imgs = [(o["hero_image"], o.get("hero_alt", o.get("title", "")))] if o.get("hero_image") else None

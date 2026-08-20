@@ -63,5 +63,7 @@
     "url": "/static/img/destinations/bay-of-islands-family.jpg",
     "alt": "Bay of Islands with kids",
     "credit": "NZ Family Travel"
-  }
+  },
+  "noindex": true,
+  "canonical_slug": "bay-of-islands-family-budget-family-guide-2026-07"
 }

@@ -44,5 +44,7 @@
     "url": "/static/img/destinations/wellington-with-kids.jpg",
     "alt": "Wellington with kids",
     "credit": "NZ Family Travel"
-  }
+  },
+  "noindex": true,
+  "canonical_slug": "wellington-cable-car-family-review-2026-08"
 }

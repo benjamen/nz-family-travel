@@ -61,5 +61,7 @@
     "url": "/static/img/destinations/christchurch-with-kids.jpg",
     "alt": "Christchurch with kids",
     "credit": "NZ Family Travel"
-  }
+  },
+  "noindex": true,
+  "canonical_slug": "orana-wildlife-park-christchurch-family-review-2026-07"
 }

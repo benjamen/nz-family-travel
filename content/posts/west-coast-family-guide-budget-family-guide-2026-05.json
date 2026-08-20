@@ -80,5 +80,7 @@
     "thumb": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Pancake_Rocks_New_Zealand.jpg",
     "alt": "Pancake Rocks, Punakaiki — West Coast New Zealand",
     "credit": "Wikimedia Commons"
-  }
+  },
+  "noindex": true,
+  "canonical_slug": "west-coast-family-guide-budget-family-guide-2026-07"
 }

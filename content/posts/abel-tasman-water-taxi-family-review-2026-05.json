@@ -87,5 +87,7 @@
     "url": "/static/img/destinations/nelson-abel-tasman-family.jpg",
     "alt": "Abel Tasman with kids",
     "credit": "NZ Family Travel"
-  }
+  },
+  "noindex": true,
+  "canonical_slug": "abel-tasman-water-taxi-family-review-2026-08"
 }

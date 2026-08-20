@@ -68,5 +68,7 @@
     "thumb": "https://upload.wikimedia.org/wikipedia/commons/6/6d/ChristchurchFromPortHills.jpg",
     "alt": "Christchurch viewed from the Port Hills gondola",
     "credit": "Wikimedia Commons"
-  }
+  },
+  "noindex": true,
+  "canonical_slug": "christchurch-with-kids-family-deals-2026-07"
 }
