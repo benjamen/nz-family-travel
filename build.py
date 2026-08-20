@@ -356,11 +356,18 @@ def build():
         print(f"  tools/{old_slug}/index.html -> {dest} (redirect)")
 
     # ── Travel tips hub ───────────────────────────────────────────────────────
+    # Posts are merged in alongside hand-authored guides so they're actually
+    # discoverable via internal navigation (previously only guides appeared
+    # here — 238 posts had zero internal inbound links anywhere on the site).
+    # Noindexed posts (near-duplicate-title dupes, canonicalized elsewhere)
+    # are excluded so the hub doesn't link prominently to pages that tell
+    # crawlers not to index them.
+    indexable_posts = [p for p in posts if not p.get("noindex")]
     render("hub.html", "travel-tips/index.html",
            hub_title="NZ Family Travel Tips & Guides",
            hub_subtitle="Practical NZ family travel guides — packing lists, campervan advice, travel costs, school holiday tips, and what to do with babies, toddlers, and teens.",
            hub_type="travel-tips",
-           items=guides,
+           items=guides + indexable_posts,
            item_url_prefix="travel-tips",
            item_slug_field="slug",
            item_name_field="title",

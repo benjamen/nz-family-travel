@@ -163,6 +163,9 @@
             <li>{{ h }}</li>
             {% endfor %}
           </ul>
+          <a href="{{ site.base_path }}/holiday-parks/{{ park.slug }}/" class="pc-review">
+            Read our full review →
+          </a>
           <a href="{{ park.book_url }}" rel="sponsored" target="_blank" class="pc-book">
             Book {{ park.name.split(' ')[:2] | join(' ') }} →
           </a>
