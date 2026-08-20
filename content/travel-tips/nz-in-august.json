@@ -2,7 +2,7 @@
   "slug": "nz-in-august",
   "short_title": "NZ in August",
   "title": "NZ Family Holiday in August — Ski Season & Winter Value",
-  "meta_desc": "NZ in August with kids: the tail end of ski season, no school holidays, whale watching at Kaikōura, and genuinely excellent value. Where to go, what to do, and costs.",
+  "meta_desc": "NZ in August with kids: tail end of ski season, no school holidays, whale watching at Kaikōura, and genuinely excellent value. Where, what, costs.",
   "intro": "August is one of New Zealand's most underrated months for family travel. The July school holidays are over, the ski fields are still running — often with the deepest, most reliable snow of the season — and prices drop noticeably compared to July. It's a month that rewards flexible families: mid-week ski trips at Cardrona or Mt Hutt can be half the cost of July school-holiday prices, with near-empty slopes to match. August is still winter, but it's the tail end: the days are slowly lengthening, whale-watching season is ramping up at Kaikōura, and the first spring blossoms start appearing in Central Otago. This guide covers the best August destinations, what to do beyond skiing, August weather by region, costs, and a packing list.",
   "updated": "June 2026",
   "reading_time": 9,
@@ -23,13 +23,37 @@
       "heading": "Best Destinations for August in NZ",
       "body": "<p>August suits families who lean into winter. Ski towns are quieter and cheaper than July; thermal regions are at their atmospheric best; and the east coast offers whale watching and the first hints of spring. Here are the standout destinations with a rough nightly cost for a family of four.</p>",
       "table": {
-        "headers": ["Destination", "Why August", "Typical cost/night (family of 4)"],
+        "headers": [
+          "Destination",
+          "Why August",
+          "Typical cost/night (family of 4)"
+        ],
         "rows": [
-          ["Queenstown / Wanaka", "Deep snow, quiet slopes, last full month of reliable skiing — and the first spring blossoms appear late in the month", "$180–$320 (cheaper than July)"],
-          ["Kaikōura", "Whale-watching season ramping up; sperm whales year-round plus winter orca and humpbacks", "$150–$240"],
-          ["Rotorua", "Hot pools and thermal parks are magical in the cold; quiet Māori cultural experiences", "$150–$230"],
-          ["Christchurch", "Clear, frosty days, the Antarctic Centre, and Mt Hutt 90 minutes away", "$140–$230"],
-          ["Nelson / Marlborough", "Sunniest winter region; the start of better outdoor weather", "$150–$230"]
+          [
+            "Queenstown / Wanaka",
+            "Deep snow, quiet slopes, last full month of reliable skiing — and the first spring blossoms appear late in the month",
+            "$180–$320 (cheaper than July)"
+          ],
+          [
+            "Kaikōura",
+            "Whale-watching season ramping up; sperm whales year-round plus winter orca and humpbacks",
+            "$150–$240"
+          ],
+          [
+            "Rotorua",
+            "Hot pools and thermal parks are magical in the cold; quiet Māori cultural experiences",
+            "$150–$230"
+          ],
+          [
+            "Christchurch",
+            "Clear, frosty days, the Antarctic Centre, and Mt Hutt 90 minutes away",
+            "$140–$230"
+          ],
+          [
+            "Nelson / Marlborough",
+            "Sunniest winter region; the start of better outdoor weather",
+            "$150–$230"
+          ]
         ]
       }
     },
@@ -37,15 +61,55 @@
       "heading": "August Weather Across NZ",
       "body": "<p>August is mid-winter but on the turn — days are getting longer and August often brings some of the clearest skies of the season. The South Island stays cold (great for skiing); the North Island is mild and improving. Pack warm layers everywhere and wet-weather gear for Auckland and the west.</p>",
       "table": {
-        "headers": ["Region", "Average high", "Rain days", "Notes"],
+        "headers": [
+          "Region",
+          "Average high",
+          "Rain days",
+          "Notes"
+        ],
         "rows": [
-          ["Auckland / Northland", "15°C", "13 days", "Gradually improving; often sunny stretches between fronts"],
-          ["Rotorua / Bay of Plenty", "13°C", "12 days", "Thermal regions are excellent in August"],
-          ["Wellington", "11°C", "14 days", "Still windy and cold — not a beach month"],
-          ["Nelson / Marlborough", "14°C", "11 days", "Sunnier than Wellington; reasonable for outdoor activity"],
-          ["Christchurch", "12°C", "11 days", "Cold but often clear — Mt Hutt is usually excellent in August"],
-          ["Queenstown / Wanaka", "10°C", "10 days", "Good ski conditions; far less crowded than July"],
-          ["Fiordland", "9°C", "15 days", "Milford Sound is dramatic — always check road conditions"]
+          [
+            "Auckland / Northland",
+            "15°C",
+            "13 days",
+            "Gradually improving; often sunny stretches between fronts"
+          ],
+          [
+            "Rotorua / Bay of Plenty",
+            "13°C",
+            "12 days",
+            "Thermal regions are excellent in August"
+          ],
+          [
+            "Wellington",
+            "11°C",
+            "14 days",
+            "Still windy and cold — not a beach month"
+          ],
+          [
+            "Nelson / Marlborough",
+            "14°C",
+            "11 days",
+            "Sunnier than Wellington; reasonable for outdoor activity"
+          ],
+          [
+            "Christchurch",
+            "12°C",
+            "11 days",
+            "Cold but often clear — Mt Hutt is usually excellent in August"
+          ],
+          [
+            "Queenstown / Wanaka",
+            "10°C",
+            "10 days",
+            "Good ski conditions; far less crowded than July"
+          ],
+          [
+            "Fiordland",
+            "9°C",
+            "15 days",
+            "Milford Sound is dramatic — always check road conditions"
+          ]
         ]
       }
     },

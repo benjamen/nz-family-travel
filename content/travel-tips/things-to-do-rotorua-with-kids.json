@@ -2,7 +2,7 @@
   "slug": "things-to-do-rotorua-with-kids",
   "short_title": "Rotorua with Kids Activities",
   "title": "Things to Do in Rotorua with Kids — 2026 Family Guide",
-  "meta_desc": "Best things to do in Rotorua with kids — the luge, Wai-O-Tapu, Rainbow Springs, free thermal parks, and what actually works for different ages. Honest NZ family guide with prices.",
+  "meta_desc": "Best things to do in Rotorua with kids — the luge, Wai-O-Tapu, Rainbow Springs, free thermal parks, and what works for different ages.",
   "intro": "Most families arrive in Rotorua expecting the smell to be the problem. It isn't — your kids forget about the sulphur within five minutes of watching a geyser erupt. What actually catches parents off guard is how much is genuinely worth the money, and how much is a tourist trap dressed up with steam. This guide covers what actually works for NZ families — broken down by age, budget, and weather — with honest prices, practical logistics, and a day-by-day itinerary for first-timers.",
   "key_takeaway": "Rotorua works well for kids aged 3 and up. The Skyline luge is the standout activity for ages 5+. Budget families can do a full day for under $40 using free thermal parks. Two days is ideal — one day paid attractions, one day lakes and Kuirau Park.",
   "updated": "May 2026",
@@ -16,18 +16,106 @@
       "heading": "Rotorua Family Attractions — Prices & Age Guide 2026",
       "body": "All prices below are adult/child rates as of May 2026. Prices change seasonally — check official sites before booking.",
       "table": {
-        "headers": ["Attraction", "Adult", "Child (5–14)", "Under 5", "Min age", "Duration", "Best for"],
+        "headers": [
+          "Attraction",
+          "Adult",
+          "Child (5–14)",
+          "Under 5",
+          "Min age",
+          "Duration",
+          "Best for"
+        ],
         "rows": [
-          ["Skyline Luge (gondola + 3 rides)", "$56", "$44", "Free with adult", "6 (solo), any (with adult)", "2–4 hrs", "Ages 5+"],
-          ["Te Puia (geyser + cultural tour)", "$59", "$30", "Free", "Any", "2–3 hrs", "Ages 4+"],
-          ["Wai-O-Tapu Thermal Wonderland", "$42", "$14", "Free", "Any (carry babies)", "1.5–2 hrs", "Ages 5+"],
-          ["Rainbow Springs Nature World", "$35", "$18", "Free under 3", "Any", "2–3 hrs", "All ages"],
-          ["Zorb Rotorua (1 ride)", "$45", "$35", "Not suitable", "5 years", "10–15 min", "Ages 5–12"],
-          ["Polynesian Spa (family pools)", "$25", "$16", "Free under 5", "Any", "1–2 hrs", "All ages"],
-          ["Agrodome Farm Show", "$39", "$20", "Free under 4", "Any", "1.5 hrs", "Ages 3+"],
-          ["Kuirau Park thermal park", "Free", "Free", "Free", "Any", "30–60 min", "All ages"],
-          ["Redwoods Treewalk (day)", "$30", "$15", "Free under 5", "Any", "45–60 min", "Ages 3+"],
-          ["National Kiwi Hatchery tour", "$45", "$25", "Free under 4", "Any", "1 hr", "Ages 4+"]
+          [
+            "Skyline Luge (gondola + 3 rides)",
+            "$56",
+            "$44",
+            "Free with adult",
+            "6 (solo), any (with adult)",
+            "2–4 hrs",
+            "Ages 5+"
+          ],
+          [
+            "Te Puia (geyser + cultural tour)",
+            "$59",
+            "$30",
+            "Free",
+            "Any",
+            "2–3 hrs",
+            "Ages 4+"
+          ],
+          [
+            "Wai-O-Tapu Thermal Wonderland",
+            "$42",
+            "$14",
+            "Free",
+            "Any (carry babies)",
+            "1.5–2 hrs",
+            "Ages 5+"
+          ],
+          [
+            "Rainbow Springs Nature World",
+            "$35",
+            "$18",
+            "Free under 3",
+            "Any",
+            "2–3 hrs",
+            "All ages"
+          ],
+          [
+            "Zorb Rotorua (1 ride)",
+            "$45",
+            "$35",
+            "Not suitable",
+            "5 years",
+            "10–15 min",
+            "Ages 5–12"
+          ],
+          [
+            "Polynesian Spa (family pools)",
+            "$25",
+            "$16",
+            "Free under 5",
+            "Any",
+            "1–2 hrs",
+            "All ages"
+          ],
+          [
+            "Agrodome Farm Show",
+            "$39",
+            "$20",
+            "Free under 4",
+            "Any",
+            "1.5 hrs",
+            "Ages 3+"
+          ],
+          [
+            "Kuirau Park thermal park",
+            "Free",
+            "Free",
+            "Free",
+            "Any",
+            "30–60 min",
+            "All ages"
+          ],
+          [
+            "Redwoods Treewalk (day)",
+            "$30",
+            "$15",
+            "Free under 5",
+            "Any",
+            "45–60 min",
+            "Ages 3+"
+          ],
+          [
+            "National Kiwi Hatchery tour",
+            "$45",
+            "$25",
+            "Free under 4",
+            "Any",
+            "1 hr",
+            "Ages 4+"
+          ]
         ]
       }
     },
@@ -42,13 +130,43 @@
     {
       "heading": "Rotorua by Age Group — What Actually Works",
       "table": {
-        "headers": ["Age group", "Best activities", "Skip", "Budget day option"],
+        "headers": [
+          "Age group",
+          "Best activities",
+          "Skip",
+          "Budget day option"
+        ],
         "rows": [
-          ["Under 2 (babies)", "Kuirau Park foot spa, lakefront walk, Rainbow Springs (pram-friendly)", "Wai-O-Tapu main trail, luge", "Kuirau Park + lakefront: free"],
-          ["Ages 2–4 (toddlers)", "Rainbow Springs, Kuirau Park, Agrodome farm show, Te Puia geyser only", "Cultural performances (too long), luge (below min age)", "Kuirau Park + Agrodome (~$30/child)"],
-          ["Ages 5–7", "Skyline luge, Wai-O-Tapu, Rainbow Springs, Zorb, Redwoods", "Long cultural shows", "Luge + Kuirau Park (~$55/child)"],
-          ["Ages 8–12", "All attractions + Te Puia cultural performance, Kaituna rafting (13+)", "Nothing — all works", "Luge + Wai-O-Tapu (~$80/child)"],
-          ["Teens (13+)", "Kaituna River white-water rafting, luge, Zorb, Wai-O-Tapu", "Very young-child-focused activities", "Rafting + luge (~$120/person)"]
+          [
+            "Under 2 (babies)",
+            "Kuirau Park foot spa, lakefront walk, Rainbow Springs (pram-friendly)",
+            "Wai-O-Tapu main trail, luge",
+            "Kuirau Park + lakefront: free"
+          ],
+          [
+            "Ages 2–4 (toddlers)",
+            "Rainbow Springs, Kuirau Park, Agrodome farm show, Te Puia geyser only",
+            "Cultural performances (too long), luge (below min age)",
+            "Kuirau Park + Agrodome (~$30/child)"
+          ],
+          [
+            "Ages 5–7",
+            "Skyline luge, Wai-O-Tapu, Rainbow Springs, Zorb, Redwoods",
+            "Long cultural shows",
+            "Luge + Kuirau Park (~$55/child)"
+          ],
+          [
+            "Ages 8–12",
+            "All attractions + Te Puia cultural performance, Kaituna rafting (13+)",
+            "Nothing — all works",
+            "Luge + Wai-O-Tapu (~$80/child)"
+          ],
+          [
+            "Teens (13+)",
+            "Kaituna River white-water rafting, luge, Zorb, Wai-O-Tapu",
+            "Very young-child-focused activities",
+            "Rafting + luge (~$120/person)"
+          ]
         ]
       }
     },
@@ -72,13 +190,43 @@
       "heading": "Where to Stay in Rotorua with Kids",
       "body": "<p>Rotorua has a wide range of accommodation from budget holiday parks to luxury lodges. For families, the best options:</p>",
       "table": {
-        "headers": ["Type", "Examples", "Price range/night", "Why it works for families"],
+        "headers": [
+          "Type",
+          "Examples",
+          "Price range/night",
+          "Why it works for families"
+        ],
         "rows": [
-          ["Holiday parks", "Rotorua Top 10 Holiday Park, Thermal Holiday Park", "$30–$60 (tent/cabin from)", "Thermal pools on-site, kitchen facilities, space for kids to run, cheap"],
-          ["Mid-range motels", "Copthorne Hotel, Rotorua Central Motel", "$120–$200", "Kitchen or kitchenette, walking distance to town, free parking"],
-          ["Family hotels", "Holiday Inn Express, Novotel Rotorua Lakeside", "$180–$280", "Pool on-site, near lakefront, breakfast options, reliable quality"],
-          ["Airbnb / holiday homes", "Various", "$150–$350", "Full kitchen, space for larger families, often pool or spa bath"],
-          ["Thermal lodges", "Peppers on the Point, various B&Bs", "$300–$600+", "Private thermal pools, very peaceful, adult-focused but accept families"]
+          [
+            "Holiday parks",
+            "Rotorua Top 10 Holiday Park, Thermal Holiday Park",
+            "$30–$60 (tent/cabin from)",
+            "Thermal pools on-site, kitchen facilities, space for kids to run, cheap"
+          ],
+          [
+            "Mid-range motels",
+            "Copthorne Hotel, Rotorua Central Motel",
+            "$120–$200",
+            "Kitchen or kitchenette, walking distance to town, free parking"
+          ],
+          [
+            "Family hotels",
+            "Holiday Inn Express, Novotel Rotorua Lakeside",
+            "$180–$280",
+            "Pool on-site, near lakefront, breakfast options, reliable quality"
+          ],
+          [
+            "Airbnb / holiday homes",
+            "Various",
+            "$150–$350",
+            "Full kitchen, space for larger families, often pool or spa bath"
+          ],
+          [
+            "Thermal lodges",
+            "Peppers on the Point, various B&Bs",
+            "$300–$600+",
+            "Private thermal pools, very peaceful, adult-focused but accept families"
+          ]
         ]
       }
     },

@@ -2,7 +2,7 @@
   "slug": "nz-3-day-north-island-family-itinerary",
   "short_title": "3-Day North Island Family Itinerary",
   "title": "3-Day North Island Family Itinerary — Auckland to Rotorua",
-  "meta_desc": "Complete 3-day North Island family itinerary: Auckland → Rotorua → back. Includes drive times, daily costs, activities for kids, where to eat, and accommodation tips.",
+  "meta_desc": "Complete 3-day North Island family itinerary: Auckland → Rotorua → back. Drive times, daily costs, kid activities, where to eat, accommodation tips.",
   "intro": "Three days is tight but doable for a North Island taste. This itinerary gets you from Auckland to Rotorua (the highlight for most kids) and back, hitting geysers, hot pools, and Māori culture without exhausting the family. Best for families with school holidays or a long weekend.",
   "updated": "June 2026",
   "reading_time": 8,
@@ -10,11 +10,35 @@
     {
       "heading": "3-Day North Island Overview",
       "table": {
-        "headers": ["Day", "Location", "Drive Time", "Key Activities", "Budget (Family of 4)"],
+        "headers": [
+          "Day",
+          "Location",
+          "Drive Time",
+          "Key Activities",
+          "Budget (Family of 4)"
+        ],
         "rows": [
-          ["Day 1", "Auckland → Rotorua", "3.5 hours", "Travel day. Optional: Redwoods Treetop Walk, hot pool", "$60 transport + $150–250 accommodation"],
-          ["Day 2", "Rotorua (full day)", "0 hours", "Geysers, hot pools, Hobbiton if time, luge", "$250–400 activities + $200 meals"],
-          ["Day 3", "Rotorua → Auckland", "3.5 hours", "Last activity (Roto-Vegas luge or quick park), drive home", "$80 transport"]
+          [
+            "Day 1",
+            "Auckland → Rotorua",
+            "3.5 hours",
+            "Travel day. Optional: Redwoods Treetop Walk, hot pool",
+            "$60 transport + $150–250 accommodation"
+          ],
+          [
+            "Day 2",
+            "Rotorua (full day)",
+            "0 hours",
+            "Geysers, hot pools, Hobbiton if time, luge",
+            "$250–400 activities + $200 meals"
+          ],
+          [
+            "Day 3",
+            "Rotorua → Auckland",
+            "3.5 hours",
+            "Last activity (Roto-Vegas luge or quick park), drive home",
+            "$80 transport"
+          ]
         ]
       }
     },
@@ -33,53 +57,178 @@
     {
       "heading": "Budget Breakdown (Family of 4)",
       "table": {
-        "headers": ["Category", "Low Budget", "Mid-Range", "Comfort"],
+        "headers": [
+          "Category",
+          "Low Budget",
+          "Mid-Range",
+          "Comfort"
+        ],
         "rows": [
-          ["Accommodation (2 nights)", "$280", "$300–360", "$440–600"],
-          ["Petrol (Auckland–Rotorua–Auckland)", "$100–120", "$100–120", "$100–120"],
-          ["Meals (breakfast, lunch, dinner)", "$210", "$280–350", "$400–500"],
-          ["Activities (geysers, luge, etc)", "$150–200", "$250–350", "$400–600"],
-          ["Optional experiences (Hobbiton, canopy walk)", "$0", "$50–100", "$150–200"],
-          ["**Total**", "**$740–810**", "**$980–1,280**", "**$1,490–2,020**"]
+          [
+            "Accommodation (2 nights)",
+            "$280",
+            "$300–360",
+            "$440–600"
+          ],
+          [
+            "Petrol (Auckland–Rotorua–Auckland)",
+            "$100–120",
+            "$100–120",
+            "$100–120"
+          ],
+          [
+            "Meals (breakfast, lunch, dinner)",
+            "$210",
+            "$280–350",
+            "$400–500"
+          ],
+          [
+            "Activities (geysers, luge, etc)",
+            "$150–200",
+            "$250–350",
+            "$400–600"
+          ],
+          [
+            "Optional experiences (Hobbiton, canopy walk)",
+            "$0",
+            "$50–100",
+            "$150–200"
+          ],
+          [
+            "**Total**",
+            "**$740–810**",
+            "**$980–1,280**",
+            "**$1,490–2,020**"
+          ]
         ]
       }
     },
     {
       "heading": "Where to Stay — Family-Friendly Accommodation",
       "table": {
-        "headers": ["Accommodation", "Type", "Price (per night)", "Best For"],
+        "headers": [
+          "Accommodation",
+          "Type",
+          "Price (per night)",
+          "Best For"
+        ],
         "rows": [
-          ["Top 10 Holiday Park Rotorua", "Holiday park cabin", "$140–180", "Families with kids — pools, jumping pillows, playground"],
-          ["YMCA Motels Rotorua", "Budget motel", "$100–130", "Budget-conscious families, clean and simple"],
-          ["Hilton Lake Rotorua", "4-star hotel", "$220–320", "Families wanting comfort, full service, excellent views"],
-          ["Oakwood Premier Rotorua", "Apartment", "$160–220", "Self-catering, kitchen, good value for groups"],
-          ["Rotorua Central Backpackers", "Budget", "$80–120", "Backpacking families, shared facilities"]
+          [
+            "Top 10 Holiday Park Rotorua",
+            "Holiday park cabin",
+            "$140–180",
+            "Families with kids — pools, jumping pillows, playground"
+          ],
+          [
+            "YMCA Motels Rotorua",
+            "Budget motel",
+            "$100–130",
+            "Budget-conscious families, clean and simple"
+          ],
+          [
+            "Hilton Lake Rotorua",
+            "4-star hotel",
+            "$220–320",
+            "Families wanting comfort, full service, excellent views"
+          ],
+          [
+            "Oakwood Premier Rotorua",
+            "Apartment",
+            "$160–220",
+            "Self-catering, kitchen, good value for groups"
+          ],
+          [
+            "Rotorua Central Backpackers",
+            "Budget",
+            "$80–120",
+            "Backpacking families, shared facilities"
+          ]
         ]
       }
     },
     {
       "heading": "Where to Eat in Rotorua",
       "table": {
-        "headers": ["Restaurant", "Type", "Price (family of 4)", "Best For"],
+        "headers": [
+          "Restaurant",
+          "Type",
+          "Price (family of 4)",
+          "Best For"
+        ],
         "rows": [
-          ["Tamaki Māori Village", "Cultural experience", "$350–400", "Dinner, hangi, shows — book ahead"],
-          ["Skyline Rotorua", "Fine dining + views", "$250–350", "Special occasion, dinner + luge combo"],
-          ["Ginza Sushi", "Casual Japanese", "$60–90", "Quick lunch or dinner, kids-friendly"],
-          ["Bubba Gump Shrimp Co", "American casual", "$70–100", "Fun atmosphere, big portions"],
-          ["Volcano Pizzas", "Pizza", "$50–80", "Casual, quick, families"],
-          ["Classico", "Italian", "$70–120", "Good pasta, relaxed"]
+          [
+            "Tamaki Māori Village",
+            "Cultural experience",
+            "$350–400",
+            "Dinner, hangi, shows — book ahead"
+          ],
+          [
+            "Skyline Rotorua",
+            "Fine dining + views",
+            "$250–350",
+            "Special occasion, dinner + luge combo"
+          ],
+          [
+            "Ginza Sushi",
+            "Casual Japanese",
+            "$60–90",
+            "Quick lunch or dinner, kids-friendly"
+          ],
+          [
+            "Bubba Gump Shrimp Co",
+            "American casual",
+            "$70–100",
+            "Fun atmosphere, big portions"
+          ],
+          [
+            "Volcano Pizzas",
+            "Pizza",
+            "$50–80",
+            "Casual, quick, families"
+          ],
+          [
+            "Classico",
+            "Italian",
+            "$70–120",
+            "Good pasta, relaxed"
+          ]
         ]
       }
     },
     {
       "heading": "Best Activities by Age",
       "table": {
-        "headers": ["Age Group", "Must-Do Activities", "Skip", "Tips"],
+        "headers": [
+          "Age Group",
+          "Must-Do Activities",
+          "Skip",
+          "Tips"
+        ],
         "rows": [
-          ["Toddlers (0–3)", "Hot pools, gentle walks, Kuirau Park (free)", "Luge, long treks", "Nap time is mandatory — don't fight it. Early lunches = better behavior"],
-          ["Young kids (4–8)", "Te Puia geyser, Roto-Vegas luge, Redwoods walk, Hobbiton", "Long hikes, Wai-O-Tapu (less dramatic for this age)", "The luge is the highlight. Kids remember it for years. Book ahead."],
-          ["Older kids (9–12)", "Luge, Hobbiton, Wai-O-Tapu, geothermal parks, canopy walks", "Baby activities", "They'll appreciate Lord of Rings connection at Hobbiton. Challenge them with longer walks."],
-          ["Teens (13+)", "Luge, Hobbiton, Skyline adventure combo, geothermal science", "Toddler stuff", "Teens often sulk at 'family activities' — give them choices and autonomy"]
+          [
+            "Toddlers (0–3)",
+            "Hot pools, gentle walks, Kuirau Park (free)",
+            "Luge, long treks",
+            "Nap time is mandatory — don't fight it. Early lunches = better behavior"
+          ],
+          [
+            "Young kids (4–8)",
+            "Te Puia geyser, Roto-Vegas luge, Redwoods walk, Hobbiton",
+            "Long hikes, Wai-O-Tapu (less dramatic for this age)",
+            "The luge is the highlight. Kids remember it for years. Book ahead."
+          ],
+          [
+            "Older kids (9–12)",
+            "Luge, Hobbiton, Wai-O-Tapu, geothermal parks, canopy walks",
+            "Baby activities",
+            "They'll appreciate Lord of Rings connection at Hobbiton. Challenge them with longer walks."
+          ],
+          [
+            "Teens (13+)",
+            "Luge, Hobbiton, Skyline adventure combo, geothermal science",
+            "Toddler stuff",
+            "Teens often sulk at 'family activities' — give them choices and autonomy"
+          ]
         ]
       }
     },

@@ -2,7 +2,7 @@
   "slug": "queenstown-with-kids-5-days",
   "short_title": "Queenstown with Kids: 5 Days",
   "title": "Queenstown with Kids — The Perfect 5-Day Family Itinerary",
-  "meta_desc": "5 days in Queenstown with kids: a day-by-day family itinerary covering the gondola, Arrowtown, the TSS Earnslaw, Glenorchy and more — plus a full cost breakdown.",
+  "meta_desc": "5 days in Queenstown with kids: a day-by-day itinerary covering the gondola, Arrowtown, the TSS Earnslaw, Glenorchy, and a full cost breakdown.",
   "intro": "Queenstown has a reputation as an adrenaline capital for thrill-seeking adults, but it's also one of New Zealand's best family destinations — especially for kids aged 5 and up. Over five days you can ride a gondola and luge, pan for gold in a historic village, cruise a glacier-fed lake to a working farm, road-trip into Lord of the Rings country, and eat what's arguably NZ's most famous burger. This day-by-day itinerary is built for families: it balances big-ticket experiences with free, run-around time, keeps drive times short, and includes honest costs so you can plan a Queenstown family holiday without nasty surprises.",
   "updated": "June 2026",
   "reading_time": 11,
@@ -41,15 +41,47 @@
       "heading": "Cost Breakdown",
       "body": "<p>Queenstown isn't cheap, but knowing the numbers helps. Here's an indicative breakdown for a family of four (2 adults, 2 children). Prices are guides only and vary by season — winter ski days are the big-ticket item.</p>",
       "table": {
-        "headers": ["Activity", "Price (family of 4)", "Notes"],
+        "headers": [
+          "Activity",
+          "Price (family of 4)",
+          "Notes"
+        ],
         "rows": [
-          ["Skyline Gondola (return)", "$120–$150", "Add a luge combo pack to save vs buying separately"],
-          ["Luge (5 rides each)", "$120–$160", "Tandem rides available for under-6s"],
-          ["TSS Earnslaw + Walter Peak BBQ lunch", "$320–$420", "The lunch cruise is the family favourite; cruise-only is cheaper"],
-          ["Arrowtown gold pan hire", "$10–$20", "Cheap and a guaranteed kid-pleaser"],
-          ["Ski day (lift passes + hire, winter)", "$700–$1,000", "Add lessons for beginners; book online to save 20–30%"],
-          ["Accommodation per night (family room)", "$220–$380", "Central hotels cost more; self-contained units save on meals"],
-          ["Fergburger (family of 4)", "$60–$80", "Burgers are large — younger kids can share"]
+          [
+            "Skyline Gondola (return)",
+            "$120–$150",
+            "Add a luge combo pack to save vs buying separately"
+          ],
+          [
+            "Luge (5 rides each)",
+            "$120–$160",
+            "Tandem rides available for under-6s"
+          ],
+          [
+            "TSS Earnslaw + Walter Peak BBQ lunch",
+            "$320–$420",
+            "The lunch cruise is the family favourite; cruise-only is cheaper"
+          ],
+          [
+            "Arrowtown gold pan hire",
+            "$10–$20",
+            "Cheap and a guaranteed kid-pleaser"
+          ],
+          [
+            "Ski day (lift passes + hire, winter)",
+            "$700–$1,000",
+            "Add lessons for beginners; book online to save 20–30%"
+          ],
+          [
+            "Accommodation per night (family room)",
+            "$220–$380",
+            "Central hotels cost more; self-contained units save on meals"
+          ],
+          [
+            "Fergburger (family of 4)",
+            "$60–$80",
+            "Burgers are large — younger kids can share"
+          ]
         ]
       }
     },

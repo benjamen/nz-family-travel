@@ -2,7 +2,7 @@
   "slug": "nz-5-day-north-island-family-itinerary",
   "short_title": "5-Day North Island Family Itinerary",
   "title": "5-Day North Island Family Road Trip — Auckland to Wellington",
-  "meta_desc": "Complete 5-day North Island family itinerary: Auckland → Rotorua → Tongariro → Wellington. Daily costs, drive times, kid-friendly activities, accommodation, and budget breakdown.",
+  "meta_desc": "Complete 5-day North Island family itinerary: Auckland → Rotorua → Tongariro → Wellington. Daily costs, drive times, activities, accommodation.",
   "intro": "Five days gives you a proper North Island experience without rush. This itinerary covers the geothermal highlights (Rotorua), volcanic wonders (Tongariro National Park), and ends in the capital city (Wellington) where you can fly out or continue exploring. Perfect for families with a week of school holidays.",
   "updated": "June 2026",
   "reading_time": 12,
@@ -10,13 +10,49 @@
     {
       "heading": "5-Day North Island Overview",
       "table": {
-        "headers": ["Day", "Location", "Drive Time", "Key Activities", "Budget (Family of 4)"],
+        "headers": [
+          "Day",
+          "Location",
+          "Drive Time",
+          "Key Activities",
+          "Budget (Family of 4)"
+        ],
         "rows": [
-          ["Day 1", "Auckland → Rotorua", "3.5 hrs", "Drive, geothermal parks", "$60 + $150 accom + $200 activity"],
-          ["Day 2", "Rotorua (full day)", "0 hrs", "Geyser, hot pools, luge or Hobbiton", "$250 activity + $200 meals"],
-          ["Day 3", "Rotorua → Taupo → Tongariro", "3 hrs", "Huka Falls, Volcanic Crater Rim walk", "$120 drive + $150 accom + $100 activity"],
-          ["Day 4", "Tongariro area", "0 hrs", "Tongariro Alpine Crossing (or family walk), geothermal walks", "$100–200 activity + $180 meals"],
-          ["Day 5", "Tongariro → Wellington", "3.5 hrs", "Drive to capital, Te Papa Museum, waterfront", "$100 drive + accommodation/meals"]
+          [
+            "Day 1",
+            "Auckland → Rotorua",
+            "3.5 hrs",
+            "Drive, geothermal parks",
+            "$60 + $150 accom + $200 activity"
+          ],
+          [
+            "Day 2",
+            "Rotorua (full day)",
+            "0 hrs",
+            "Geyser, hot pools, luge or Hobbiton",
+            "$250 activity + $200 meals"
+          ],
+          [
+            "Day 3",
+            "Rotorua → Taupo → Tongariro",
+            "3 hrs",
+            "Huka Falls, Volcanic Crater Rim walk",
+            "$120 drive + $150 accom + $100 activity"
+          ],
+          [
+            "Day 4",
+            "Tongariro area",
+            "0 hrs",
+            "Tongariro Alpine Crossing (or family walk), geothermal walks",
+            "$100–200 activity + $180 meals"
+          ],
+          [
+            "Day 5",
+            "Tongariro → Wellington",
+            "3.5 hrs",
+            "Drive to capital, Te Papa Museum, waterfront",
+            "$100 drive + accommodation/meals"
+          ]
         ]
       }
     },
@@ -43,42 +79,154 @@
     {
       "heading": "5-Day Itinerary Budget Breakdown",
       "table": {
-        "headers": ["Category", "Low Budget", "Mid-Range", "Comfort"],
+        "headers": [
+          "Category",
+          "Low Budget",
+          "Mid-Range",
+          "Comfort"
+        ],
         "rows": [
-          ["Accommodation (4 nights: Rotorua 2, Tongariro 1, Wellington 1)", "$500–600", "$600–800", "$900–1,100"],
-          ["Petrol (car rental included above, fuel ~400km)", "$180–220", "$180–220", "$180–220"],
-          ["Meals (breakfast, lunch, dinner x5 days)", "$400–500", "$600–750", "$850–1,100"],
-          ["Activities (geothermal parks, luge, walks, museums)", "$250–400", "$400–600", "$650–1,000"],
-          ["Optional (Hobbiton, Tongariro shuttle, etc)", "$0–100", "$100–200", "$200–400"],
-          ["**Total 5 days**", "**$1,330–1,820**", "**$1,880–2,570**", "**$2,780–3,820**"]
+          [
+            "Accommodation (4 nights: Rotorua 2, Tongariro 1, Wellington 1)",
+            "$500–600",
+            "$600–800",
+            "$900–1,100"
+          ],
+          [
+            "Petrol (car rental included above, fuel ~400km)",
+            "$180–220",
+            "$180–220",
+            "$180–220"
+          ],
+          [
+            "Meals (breakfast, lunch, dinner x5 days)",
+            "$400–500",
+            "$600–750",
+            "$850–1,100"
+          ],
+          [
+            "Activities (geothermal parks, luge, walks, museums)",
+            "$250–400",
+            "$400–600",
+            "$650–1,000"
+          ],
+          [
+            "Optional (Hobbiton, Tongariro shuttle, etc)",
+            "$0–100",
+            "$100–200",
+            "$200–400"
+          ],
+          [
+            "**Total 5 days**",
+            "**$1,330–1,820**",
+            "**$1,880–2,570**",
+            "**$2,780–3,820**"
+          ]
         ]
       }
     },
     {
       "heading": "Best Accommodation by Stop",
       "table": {
-        "headers": ["Location", "Accommodation", "Type", "Price/Night", "Best For"],
+        "headers": [
+          "Location",
+          "Accommodation",
+          "Type",
+          "Price/Night",
+          "Best For"
+        ],
         "rows": [
-          ["Rotorua (2 nights)", "Top 10 Holiday Park Rotorua", "Holiday park", "$140–180", "Families with kids — pools, jumping pillows"],
-          ["Rotorua", "Oakwood Premier Rotorua", "Apartment", "$160–220", "Self-catering, kitchen facilities"],
-          ["Tongariro (1 night)", "TOP 10 Holiday Park Whakapapa", "Holiday park", "$120–160", "Best family option in Whakapapa"],
-          ["Tongariro", "Whakapapa Village Hotel", "Hotel", "$140–200", "Views of Mt Ruapehu, restaurant on-site"],
-          ["Wellington (1 night)", "Top 10 Holiday Park Wellington", "Holiday park", "$130–170", "City edge, good value, playgrounds"],
-          ["Wellington", "Hilton Wellington", "4-star", "$200–300", "Premium, waterfront, walking distance to Te Papa"]
+          [
+            "Rotorua (2 nights)",
+            "Top 10 Holiday Park Rotorua",
+            "Holiday park",
+            "$140–180",
+            "Families with kids — pools, jumping pillows"
+          ],
+          [
+            "Rotorua",
+            "Oakwood Premier Rotorua",
+            "Apartment",
+            "$160–220",
+            "Self-catering, kitchen facilities"
+          ],
+          [
+            "Tongariro (1 night)",
+            "TOP 10 Holiday Park Whakapapa",
+            "Holiday park",
+            "$120–160",
+            "Best family option in Whakapapa"
+          ],
+          [
+            "Tongariro",
+            "Whakapapa Village Hotel",
+            "Hotel",
+            "$140–200",
+            "Views of Mt Ruapehu, restaurant on-site"
+          ],
+          [
+            "Wellington (1 night)",
+            "Top 10 Holiday Park Wellington",
+            "Holiday park",
+            "$130–170",
+            "City edge, good value, playgrounds"
+          ],
+          [
+            "Wellington",
+            "Hilton Wellington",
+            "4-star",
+            "$200–300",
+            "Premium, waterfront, walking distance to Te Papa"
+          ]
         ]
       }
     },
     {
       "heading": "Where to Eat — Regional Highlights",
       "table": {
-        "headers": ["Region", "Restaurant", "Type", "Best For"],
+        "headers": [
+          "Region",
+          "Restaurant",
+          "Type",
+          "Best For"
+        ],
         "rows": [
-          ["Rotorua", "Tamaki Māori Village", "Cultural dinner + show", "Special evening, hangi meal, kids love the culture"],
-          ["Rotorua", "Volcano Pizzas", "Pizza", "Casual, quick, families, under $80"],
-          ["Taupo", "Story Mill", "Cafe/restaurant", "Lunch with lake views, relaxed"],
-          ["Tongariro", "Mountain Room Whakapapa", "Casual restaurant", "Dinner with views, family-friendly"],
-          ["Wellington", "Wish Bone", "Modern NZ", "Excellent food, great kids' menu"],
-          ["Wellington", "Oceana Fish & Chips", "Casual", "Iconic NZ experience, waterfront"]
+          [
+            "Rotorua",
+            "Tamaki Māori Village",
+            "Cultural dinner + show",
+            "Special evening, hangi meal, kids love the culture"
+          ],
+          [
+            "Rotorua",
+            "Volcano Pizzas",
+            "Pizza",
+            "Casual, quick, families, under $80"
+          ],
+          [
+            "Taupo",
+            "Story Mill",
+            "Cafe/restaurant",
+            "Lunch with lake views, relaxed"
+          ],
+          [
+            "Tongariro",
+            "Mountain Room Whakapapa",
+            "Casual restaurant",
+            "Dinner with views, family-friendly"
+          ],
+          [
+            "Wellington",
+            "Wish Bone",
+            "Modern NZ",
+            "Excellent food, great kids' menu"
+          ],
+          [
+            "Wellington",
+            "Oceana Fish & Chips",
+            "Casual",
+            "Iconic NZ experience, waterfront"
+          ]
         ]
       }
     },
@@ -99,12 +247,37 @@
     {
       "heading": "Activity Difficulty by Age",
       "table": {
-        "headers": ["Age Group", "Must-Do", "Skip", "Best Experience"],
+        "headers": [
+          "Age Group",
+          "Must-Do",
+          "Skip",
+          "Best Experience"
+        ],
         "rows": [
-          ["Toddlers (0–3)", "Huka Falls stop, hot pools, Te Papa (2 hrs), easy walks", "Alpine Crossing, long treks", "Focus on rest days, avoid over-scheduling"],
-          ["Young kids (4–8)", "Rotorua geyser, Huka Falls, easy walks (Chateau Loop), Te Papa", "Alpine Crossing, long geothermal hikes", "The walks are magical — kids get excited about volcanoes"],
-          ["Older kids (9–12)", "All walks, Tongariro Alpine Crossing (if fit), Hobbiton, Te Papa", "Baby activities", "Capable of the Alpine Crossing; make it a challenge/reward"],
-          ["Teens (13+)", "Alpine Crossing, long hikes, Hobbiton, Te Papa", "Toddler activities", "Challenge them with the full Alpine Crossing"]
+          [
+            "Toddlers (0–3)",
+            "Huka Falls stop, hot pools, Te Papa (2 hrs), easy walks",
+            "Alpine Crossing, long treks",
+            "Focus on rest days, avoid over-scheduling"
+          ],
+          [
+            "Young kids (4–8)",
+            "Rotorua geyser, Huka Falls, easy walks (Chateau Loop), Te Papa",
+            "Alpine Crossing, long geothermal hikes",
+            "The walks are magical — kids get excited about volcanoes"
+          ],
+          [
+            "Older kids (9–12)",
+            "All walks, Tongariro Alpine Crossing (if fit), Hobbiton, Te Papa",
+            "Baby activities",
+            "Capable of the Alpine Crossing; make it a challenge/reward"
+          ],
+          [
+            "Teens (13+)",
+            "Alpine Crossing, long hikes, Hobbiton, Te Papa",
+            "Toddler activities",
+            "Challenge them with the full Alpine Crossing"
+          ]
         ]
       }
     },
@@ -128,12 +301,47 @@
     {
       "heading": "Best Time to Visit (5-Day Itinerary)",
       "table": {
-        "headers": ["Season", "Months", "Weather", "Crowds", "Best For", "Cost"],
+        "headers": [
+          "Season",
+          "Months",
+          "Weather",
+          "Crowds",
+          "Best For",
+          "Cost"
+        ],
         "rows": [
-          ["Spring", "Sep–Nov", "12–20°C, variable", "Moderate", "Families wanting good weather, lower prices", "Good value"],
-          ["Summer", "Dec–Feb", "18–25°C, warm", "Peak (school holidays)", "Beach + volcano combo, but book far ahead", "Premium pricing"],
-          ["Autumn", "Mar–May", "15–22°C, stable", "Low–moderate", "Best value + good weather + fewer crowds", "Excellent value"],
-          ["Winter", "Jun–Aug", "8–15°C, cold", "Moderate (July peak)", "Volcano walks beautiful in snow/frost, but cold", "Good value, cold weather"]
+          [
+            "Spring",
+            "Sep–Nov",
+            "12–20°C, variable",
+            "Moderate",
+            "Families wanting good weather, lower prices",
+            "Good value"
+          ],
+          [
+            "Summer",
+            "Dec–Feb",
+            "18–25°C, warm",
+            "Peak (school holidays)",
+            "Beach + volcano combo, but book far ahead",
+            "Premium pricing"
+          ],
+          [
+            "Autumn",
+            "Mar–May",
+            "15–22°C, stable",
+            "Low–moderate",
+            "Best value + good weather + fewer crowds",
+            "Excellent value"
+          ],
+          [
+            "Winter",
+            "Jun–Aug",
+            "8–15°C, cold",
+            "Moderate (July peak)",
+            "Volcano walks beautiful in snow/frost, but cold",
+            "Good value, cold weather"
+          ]
         ]
       }
     },

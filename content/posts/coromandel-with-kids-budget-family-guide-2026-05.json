@@ -1,7 +1,7 @@
 {
   "title": "Coromandel on Budget",
   "short_title": "Coromandel",
-  "meta_desc": "Visit Coromandel with your family without breaking the bank. Discover free activities, affordable accommodation options, and budget-friendly tips for a fun-filled holiday.",
+  "meta_desc": "Visit Coromandel with your family without breaking the bank. Discover free activities, affordable accommodation options.",
   "intro": "The Coromandel Peninsula is a stunning destination for families, with its beautiful beaches, unique attractions, and plenty of outdoor activities. With some planning, you can have a fantastic holiday in Coromandel without overspending. Here's a guide on how to visit Coromandel on a family budget of $180-320 per day.",
   "reading_time": 6,
   "sections": [
@@ -49,12 +49,32 @@
       "heading": "Sample Activity Costs",
       "body": "<p>Most of the Coromandel's best experiences are free or cheap. Here's a guide for a family of four.</p>",
       "table": {
-        "headers": ["Activity", "Cost (family of 4)", "Notes"],
+        "headers": [
+          "Activity",
+          "Cost (family of 4)",
+          "Notes"
+        ],
         "rows": [
-          ["Hot Water Beach", "Free", "Spade hire ~$5 from the nearby café"],
-          ["Cathedral Cove walk", "Free", "Summer park-and-ride shuttle may apply"],
-          ["Driving Creek Railway", "~$120", "Book ahead in peak season"],
-          ["The Waterworks", "~$100", "Half-day of water-powered fun"]
+          [
+            "Hot Water Beach",
+            "Free",
+            "Spade hire ~$5 from the nearby café"
+          ],
+          [
+            "Cathedral Cove walk",
+            "Free",
+            "Summer park-and-ride shuttle may apply"
+          ],
+          [
+            "Driving Creek Railway",
+            "~$120",
+            "Book ahead in peak season"
+          ],
+          [
+            "The Waterworks",
+            "~$100",
+            "Half-day of water-powered fun"
+          ]
         ]
       }
     },

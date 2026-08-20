@@ -2,7 +2,7 @@
   "slug": "nz-in-july",
   "short_title": "NZ in July",
   "title": "NZ Family Holiday July 2026 — Ski Season, School Holidays & Costs",
-  "meta_desc": "NZ family holiday July 2026: school holiday dates, best winter destinations, ski fields, July weather by region, costs, and a packing list for NZ in July with kids.",
+  "meta_desc": "NZ family holiday July 2026: school holiday dates, best winter destinations, ski fields, weather by region, costs, and a packing list for July.",
   "intro": "July is the heart of a New Zealand winter — and it is one of the most rewarding (and most misunderstood) months for a family holiday. Yes, much of the country is cold and wet, but July is also when the ski fields are in full swing, when the July school holidays give you a natural two-week window to travel, and when prices outside the ski towns drop noticeably. If you choose the right destination, a NZ family holiday in July can be genuinely brilliant: snowy mountains, steaming hot pools, quiet museums, and far fewer crowds than the summer peak. This guide covers the July 2026 school holiday dates, the best destinations, what it actually costs, and exactly what to pack.",
   "updated": "June 2026",
   "reading_time": 9,
@@ -16,14 +16,42 @@
       "heading": "NZ School Holidays July 2026 — Dates",
       "body": "<p>The July school holidays mark the end of Term 2 and the start of Term 3. Dates vary slightly by region and school (each board of trustees can set its own start and finish days within a few days of the national guideline), so always confirm with your specific school. As a guide, Term 2 ends in early-to-mid July and Term 3 begins in late July, giving roughly a two-week break.</p><p>Book ski-town accommodation 8–12 weeks ahead for these weeks — Queenstown, Wanaka and Methven fill up fast during the July school holidays.</p>",
       "table": {
-        "headers": ["Region", "Term 2 ends (approx)", "Term 3 starts (approx)"],
+        "headers": [
+          "Region",
+          "Term 2 ends (approx)",
+          "Term 3 starts (approx)"
+        ],
         "rows": [
-          ["Auckland", "Fri 3 July 2026", "Mon 20 July 2026"],
-          ["Wellington", "Fri 3 July 2026", "Mon 20 July 2026"],
-          ["Canterbury / Christchurch", "Fri 3 July 2026", "Mon 20 July 2026"],
-          ["Otago / Queenstown", "Fri 3 July 2026", "Mon 20 July 2026"],
-          ["Waikato", "Fri 3 July 2026", "Mon 20 July 2026"],
-          ["Bay of Plenty", "Fri 3 July 2026", "Mon 20 July 2026"]
+          [
+            "Auckland",
+            "Fri 3 July 2026",
+            "Mon 20 July 2026"
+          ],
+          [
+            "Wellington",
+            "Fri 3 July 2026",
+            "Mon 20 July 2026"
+          ],
+          [
+            "Canterbury / Christchurch",
+            "Fri 3 July 2026",
+            "Mon 20 July 2026"
+          ],
+          [
+            "Otago / Queenstown",
+            "Fri 3 July 2026",
+            "Mon 20 July 2026"
+          ],
+          [
+            "Waikato",
+            "Fri 3 July 2026",
+            "Mon 20 July 2026"
+          ],
+          [
+            "Bay of Plenty",
+            "Fri 3 July 2026",
+            "Mon 20 July 2026"
+          ]
         ]
       }
     },
@@ -31,13 +59,37 @@
       "heading": "Best Destinations for July in NZ",
       "body": "<p>Some places shine in winter and others go quiet. Here are the destinations that are genuinely worth the trip in July, with a rough nightly accommodation cost for a family of four.</p>",
       "table": {
-        "headers": ["Destination", "Why July", "Typical cost/night (family of 4)"],
+        "headers": [
+          "Destination",
+          "Why July",
+          "Typical cost/night (family of 4)"
+        ],
         "rows": [
-          ["Queenstown", "Peak ski season — Coronet Peak and The Remarkables on the doorstep, plus all-weather gondola and luge", "$220–$380"],
-          ["Rotorua", "Thermal parks and hot pools are spectacular in cold air; loads of indoor and rain-safe options", "$150–$240"],
-          ["Auckland", "Mild winter, world-class indoor attractions, school holiday programmes everywhere", "$170–$280"],
-          ["Christchurch", "Dry winter days, winter events, and Mt Hutt 90 minutes away for skiing", "$150–$240"],
-          ["Abel Tasman / Nelson", "Sunniest region in NZ — the tail of good hiking weather before deep winter", "$150–$230"]
+          [
+            "Queenstown",
+            "Peak ski season — Coronet Peak and The Remarkables on the doorstep, plus all-weather gondola and luge",
+            "$220–$380"
+          ],
+          [
+            "Rotorua",
+            "Thermal parks and hot pools are spectacular in cold air; loads of indoor and rain-safe options",
+            "$150–$240"
+          ],
+          [
+            "Auckland",
+            "Mild winter, world-class indoor attractions, school holiday programmes everywhere",
+            "$170–$280"
+          ],
+          [
+            "Christchurch",
+            "Dry winter days, winter events, and Mt Hutt 90 minutes away for skiing",
+            "$150–$240"
+          ],
+          [
+            "Abel Tasman / Nelson",
+            "Sunniest region in NZ — the tail of good hiking weather before deep winter",
+            "$150–$230"
+          ]
         ]
       }
     },
@@ -55,14 +107,49 @@
       "heading": "July Weather by Region",
       "body": "<p>July is mid-winter, so plan for cold and pack layers. The North Island stays mild by global standards; the South Island gets genuinely cold, especially overnight. Rain is common in the west and north; the east coast and Central Otago are drier but colder.</p>",
       "table": {
-        "headers": ["Region", "Avg high", "Rain days", "Notes"],
+        "headers": [
+          "Region",
+          "Avg high",
+          "Rain days",
+          "Notes"
+        ],
         "rows": [
-          ["Auckland", "14°C", "15 days", "Cool and damp but rarely freezing; indoor attractions excellent"],
-          ["Wellington", "12°C", "15 days", "Cold and windy — pack a proper jacket"],
-          ["Christchurch", "9°C", "12 days", "Crisp, dry days and frosty mornings; great winter base"],
-          ["Rotorua", "12°C", "13 days", "Cool and steamy — perfect hot pool weather"],
-          ["Queenstown", "8°C", "10 days", "Cold, often sub-zero overnight; snow on the ski fields"],
-          ["Nelson", "13°C", "9 days", "Sunniest region in NZ — driest winter option"]
+          [
+            "Auckland",
+            "14°C",
+            "15 days",
+            "Cool and damp but rarely freezing; indoor attractions excellent"
+          ],
+          [
+            "Wellington",
+            "12°C",
+            "15 days",
+            "Cold and windy — pack a proper jacket"
+          ],
+          [
+            "Christchurch",
+            "9°C",
+            "12 days",
+            "Crisp, dry days and frosty mornings; great winter base"
+          ],
+          [
+            "Rotorua",
+            "12°C",
+            "13 days",
+            "Cool and steamy — perfect hot pool weather"
+          ],
+          [
+            "Queenstown",
+            "8°C",
+            "10 days",
+            "Cold, often sub-zero overnight; snow on the ski fields"
+          ],
+          [
+            "Nelson",
+            "13°C",
+            "9 days",
+            "Sunniest region in NZ — driest winter option"
+          ]
         ]
       }
     },

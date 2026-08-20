@@ -2,7 +2,7 @@
   "slug": "school-holiday-activities-christchurch-winter-2026",
   "short_title": "Christchurch Winter Holidays",
   "title": "Christchurch Winter School Holidays 2026 — Family Activities & Ideas",
-  "meta_desc": "What to do in Christchurch these winter school holidays (27 Jun–12 Jul 2026). Antarctic Centre, ice skating, Willowbank, hot pools, free museums and costs for families.",
+  "meta_desc": "What to do in Christchurch these winter school holidays (27 Jun–12 Jul 2026). Antarctic Centre, ice skating, Willowbank, hot pools, costs.",
   "focus_keyword": "christchurch winter school holidays",
   "schema_type": "Article",
   "intro": "Christchurch leans into winter better than most NZ cities — crisp, frosty mornings, the Southern Alps a day trip away, and an ice rink that suits the season perfectly. The break runs Saturday 27 June to Sunday 12 July 2026, with Matariki on Friday 10 July. From the brilliant International Antarctic Centre to ice skating, the free flagship museums, Willowbank wildlife and the hot pools at Hanmer Springs, here's our family guide to a Christchurch winter holiday — with honest prices and a sample day plan.",
@@ -23,13 +23,31 @@
       "heading": "Christchurch Winter School Holiday Dates 2026",
       "body": "<p>Christchurch schools follow the national Term 2 dates. Matariki on Friday 10 July is a public holiday inside the break, with free council events around the city — popular attractions get busy that long weekend.</p>",
       "table": {
-        "headers": ["Milestone", "Date 2026"],
+        "headers": [
+          "Milestone",
+          "Date 2026"
+        ],
         "rows": [
-          ["Term 2 ends", "Friday 26 June"],
-          ["Winter holidays begin", "Saturday 27 June"],
-          ["Matariki public holiday", "Friday 10 July"],
-          ["Winter holidays end", "Sunday 12 July"],
-          ["Term 3 starts", "Monday 13 July"]
+          [
+            "Term 2 ends",
+            "Friday 26 June"
+          ],
+          [
+            "Winter holidays begin",
+            "Saturday 27 June"
+          ],
+          [
+            "Matariki public holiday",
+            "Friday 10 July"
+          ],
+          [
+            "Winter holidays end",
+            "Sunday 12 July"
+          ],
+          [
+            "Term 3 starts",
+            "Monday 13 July"
+          ]
         ]
       }
     },
@@ -92,13 +110,31 @@
       "heading": "What It Costs",
       "body": "<p>Christchurch is easy on the wallet thanks to its free flagship attractions, with the Antarctic Centre, wildlife parks and Hanmer Springs the bigger spends. Here's a rough guide for a family of four.</p>",
       "table": {
-        "headers": ["Activity", "Approx. cost (family of 4)"],
+        "headers": [
+          "Activity",
+          "Approx. cost (family of 4)"
+        ],
         "rows": [
-          ["Air Force Museum & Botanic Gardens", "FREE"],
-          ["Ice skating with hire", "~$80"],
-          ["Hanmer Springs hot pools", "$80–$95"],
-          ["Willowbank Wildlife Reserve", "~$100"],
-          ["International Antarctic Centre", "$160–$200"]
+          [
+            "Air Force Museum & Botanic Gardens",
+            "FREE"
+          ],
+          [
+            "Ice skating with hire",
+            "~$80"
+          ],
+          [
+            "Hanmer Springs hot pools",
+            "$80–$95"
+          ],
+          [
+            "Willowbank Wildlife Reserve",
+            "~$100"
+          ],
+          [
+            "International Antarctic Centre",
+            "$160–$200"
+          ]
         ]
       },
       "cta": {

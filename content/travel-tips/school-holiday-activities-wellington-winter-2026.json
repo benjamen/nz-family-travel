@@ -2,7 +2,7 @@
   "slug": "school-holiday-activities-wellington-winter-2026",
   "short_title": "Wellington Winter Holidays",
   "title": "Wellington Winter School Holidays 2026 — Family Activities & Ideas",
-  "meta_desc": "What to do in Wellington these winter school holidays (27 Jun–12 Jul 2026). Te Papa, Zealandia, Weta Workshop, hot chocolate, rainy-day ideas and costs for families.",
+  "meta_desc": "What to do in Wellington these winter school holidays (27 Jun–12 Jul 2026). Te Papa, Zealandia, Weta Workshop, rainy-day ideas, costs.",
   "focus_keyword": "wellington winter school holidays",
   "schema_type": "Article",
   "intro": "Wellington does winter with style — the wind and rain are real, but so are the world-class indoor attractions, and most of the best are free or cheap. The break runs Saturday 27 June to Sunday 12 July 2026, with Matariki on Friday 10 July. From free days at Te Papa to Zealandia's misty winter walks, the magic of Weta Workshop and a hot chocolate at the Chocolate Fish Café, here's our family guide to a Wellington winter holiday — with honest prices and a sample day plan.",
@@ -23,13 +23,31 @@
       "heading": "Wellington Winter School Holiday Dates 2026",
       "body": "<p>Wellington schools follow the national Term 2 dates. Matariki on Friday 10 July is a public holiday inside the break, with free council events across the city — expect attractions to be busier that long weekend.</p>",
       "table": {
-        "headers": ["Milestone", "Date 2026"],
+        "headers": [
+          "Milestone",
+          "Date 2026"
+        ],
         "rows": [
-          ["Term 2 ends", "Friday 26 June"],
-          ["Winter holidays begin", "Saturday 27 June"],
-          ["Matariki public holiday", "Friday 10 July"],
-          ["Winter holidays end", "Sunday 12 July"],
-          ["Term 3 starts", "Monday 13 July"]
+          [
+            "Term 2 ends",
+            "Friday 26 June"
+          ],
+          [
+            "Winter holidays begin",
+            "Saturday 27 June"
+          ],
+          [
+            "Matariki public holiday",
+            "Friday 10 July"
+          ],
+          [
+            "Winter holidays end",
+            "Sunday 12 July"
+          ],
+          [
+            "Term 3 starts",
+            "Monday 13 July"
+          ]
         ]
       }
     },
@@ -88,13 +106,31 @@
       "heading": "What It Costs",
       "body": "<p>Wellington is brilliant value in winter because so many headline attractions are free. The splurges are Weta, Zealandia and the zoo. Here's a rough guide for a family of four.</p>",
       "table": {
-        "headers": ["Activity", "Approx. cost (family of 4)"],
+        "headers": [
+          "Activity",
+          "Approx. cost (family of 4)"
+        ],
         "rows": [
-          ["Te Papa & Wellington Museum", "FREE"],
-          ["Cable car return", "~$25"],
-          ["Zealandia day entry", "~$70"],
-          ["Wellington Zoo", "~$70"],
-          ["Weta Workshop tour", "$120–$160"]
+          [
+            "Te Papa & Wellington Museum",
+            "FREE"
+          ],
+          [
+            "Cable car return",
+            "~$25"
+          ],
+          [
+            "Zealandia day entry",
+            "~$70"
+          ],
+          [
+            "Wellington Zoo",
+            "~$70"
+          ],
+          [
+            "Weta Workshop tour",
+            "$120–$160"
+          ]
         ]
       },
       "cta": {

@@ -50,7 +50,7 @@
 {% block og_desc %}{{ itinerary.tagline }}. {{ itinerary.duration_days }}-day family itinerary, budget {{ itinerary.budget_family4 }}.{% endblock %}
 {% block og_url %}itineraries/{{ itinerary.slug }}/{% endblock %}
 {% block title %}{{ itinerary.title }}{% if itinerary.title | length <= 44 %} | NZ Family Itinerary{% endif %}{% endblock %}
-{% block desc %}{{ itinerary.tagline }}. {{ itinerary.duration_days }}-day itinerary for a family of 4, budget {{ itinerary.budget_family4 }}. Day-by-day activities, drive times and honest tips.{% endblock %}
+{% block desc %}{{ itinerary.tagline | truncate(80, True, '') }}. {{ itinerary.duration_days }}-day family itinerary, budget {{ itinerary.budget_family4 }}. Drive times and tips.{% endblock %}
 {% block canonical %}itineraries/{{ itinerary.slug }}/{% endblock %}
 
 {% block hero %}
