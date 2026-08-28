@@ -1,0 +1,99 @@
+{
+  "title": "How to Visit Christchurch on a Family Budget",
+  "short_title": "Christchurch Family Budget",
+  "meta_desc": "Discover how a family of four can enjoy Christchurch for $200‑$350 a day with free attractions, budget accommodation, smart savings tips and where to splurge on must‑see experiences.",
+  "intro": "Christchurch blends city comforts with easy access to nature, making it a perfect base for families. With a range of free attractions and affordable activities, you can experience the South Island gateway without breaking the bank.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Why Christchurch works for families",
+      "body": "<p>Christchurch is a compact, walk‑friendly city where kids can burn off energy in spacious parks while parents enjoy world‑class museums and cafés. The city’s public transport is reliable, and most attractions sit within a 15‑minute drive, keeping fuel costs low.</p><p>From the icy thrills of the International Antarctic Centre to the gentle glide of a punt on the Avon, there’s something for every age group.</p>",
+      "list": [
+        "International Antarctic Centre – interactive ice‑experience",
+        "Christchurch Gondola – panoramic city views",
+        "Willowbank Wildlife Reserve – native birds and farm animals",
+        "Orana Wildlife Park – walk‑through encounters with lions and giraffes",
+        "Botanic Gardens – free, perfect for picnics"
+      ]
+    },
+    {
+      "heading": "Accommodation on a budget",
+      "body": "<p>Christchurch offers a range of family‑friendly stays that keep nightly costs under $200. Booking an Airbnb or a budget hotel early can lock in the best rates, especially outside school holidays.</p><p>Consider staying near the city centre or in the suburb of Riccarton for easy access to parks, supermarkets and public transport.</p>",
+      "list": [
+        "Budget option – City Centre Hostel, 2‑bed dorm or private family room, $110‑$130 per night (incl. basic kitchen)",
+        "Mid‑range – Airbnb 2‑bedroom apartment in Riccarton, $150‑$180 per night (full kitchen, laundry)",
+        "Family‑friendly hotel – Rendezvous Hotel Christchurch, $190‑$210 per night, kids stay free, breakfast optional"
+      ]
+    },
+    {
+      "heading": "Free and low‑cost activities",
+      "body": "<p>Stretch your dollars further by taking advantage of Christchurch’s many free attractions. Most are centrally located, so you won’t need a car.</p><p>Plan at least one half‑day for each to keep the itinerary relaxed and the kids engaged.</p>",
+      "list": [
+        "Botanic Gardens – free, bring a picnic",
+        "Hagley Park – playgrounds, walking tracks",
+        "Canterbury Museum – free entry, Antarctic exhibits",
+        "Christchurch Art Gallery – free, rotating kids’ programmes",
+        "Te Ana Ngāi Tahu Rock Art Centre – free Tue‑Fri"
+      ]
+    },
+    {
+      "heading": "Where to splurge: must‑pay experiences",
+      "body": "<p>These attractions are the highlights that truly set Christchurch apart and are worth the extra spend. Booking online in advance often saves 5‑10%.</p><p>Allocate a larger portion of your activity budget to these for memorable family moments.</p>",
+      "list": [
+        "International Antarctic Centre – $39 adult, $20 child (approx $118 for family)",
+        "Christchurch Gondola – $25 adult, $15 child (approx $80 for family)",
+        "Willowbank Wildlife Reserve – $30 adult, $15 child (approx $90 for family)",
+        "Orana Wildlife Park – $35 adult, $20 child (approx $110 for family)"
+      ]
+    },
+    {
+      "heading": "Sample 3‑day budget breakdown",
+      "body": "<p>The table below shows how a typical family of four can stay within the $200‑$350 daily range while mixing free, low‑cost and premium experiences.</p>",
+      "table": {
+        "headers": [
+          "Day",
+          "Accommodation",
+          "Food",
+          "Transport",
+          "Activities",
+          "Total"
+        ],
+        "rows": [
+          [
+            "Day 1",
+            "$120",
+            "$80",
+            "$30",
+            "$30 (Antarctic Centre)",
+            "$260"
+          ],
+          [
+            "Day 2",
+            "$120",
+            "$80",
+            "$30",
+            "$70 (Gondola + Willowbank)",
+            "$300"
+          ],
+          [
+            "Day 3",
+            "$120",
+            "$80",
+            "$30",
+            "$20 (free attractions)",
+            "$250"
+          ]
+        ]
+      },
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "christchurch-with-kids-budget-family-guide-2026-08",
+  "updated": "August 2026",
+  "auto_generated": true,
+  "generated_date": "2026-08-29"
+}
