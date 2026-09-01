@@ -1,0 +1,99 @@
+{
+  "title": "How to Visit Wellington on a Family Budget (3-Day Guide)",
+  "short_title": "Wellington Family Budget",
+  "meta_desc": "Discover how a family of four can explore Wellington’s top sights, free attractions and hidden gems on a $200‑380 daily budget, with accommodation tips, food savings and a 3‑day cost breakdown.",
+  "intro": "Wellington packs world‑class museums, stunning nature and a buzzing café scene into a compact city that’s easy to explore with kids. With a bit of planning you can enjoy the capital without breaking the $200‑380 a day budget.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Budget Basics for a Family of Four",
+      "body": "<p>Start with the three biggest expense buckets: accommodation, meals and transport. For a family of four, a realistic daily spend sits between $200 and $380, depending on where you choose to stay and eat.</p><p>Most families find $250‑$300 per day comfortable – it covers a mid‑range hotel, three meals, a couple of paid activities and a modest amount of parking or public transport.</p>",
+      "list": [
+        "Accommodation: $80‑$150/night (family rooms or Airbnb).",
+        "Meals: $70‑$110/day (mix of self‑catering and cafés).",
+        "Transport: $20‑$40/day (parking, bus passes or car rental).",
+        "Activities: $30‑$80/day (paid attractions, tours)."
+      ]
+    },
+    {
+      "heading": "Where to Stay: Cheap to Mid‑Range",
+      "body": "<p>Wellington offers several family‑friendly options that keep lodging costs in check. Booking early and staying a few nights can unlock discounts.</p><p>Consider the location: staying within 2 km of the CBD means you can walk to most attractions, saving on parking and bus fares.</p>",
+      "list": [
+        "Budget: The YHA Wellington (family dorms) – $85/night for 2 adults + 2 kids.",
+        "Mid‑range: Travelodge Wellington – $130/night for a family room with 2 double beds.",
+        "Apartment: Airbnb entire 2‑bedroom flat in Te Aro – $140‑$160/night, kitchen included."
+      ]
+    },
+    {
+      "heading": "Eating Out & Saving on Meals",
+      "body": "<p>Wellington’s café culture is a highlight, but dining out for four can add up fast. Balance café treats with self‑cooked meals to stay inside budget.</p><p>Buy groceries at the nearby New World or Countdown and use the kitchen in your Airbnb or the YHA’s communal area. For a quick bite, head to food courts or grab‑and‑go spots.</p>",
+      "list": [
+        "Breakfast: Grab pastries and coffee from Fidel’s ($12 for family) or make toast at your accommodation.",
+        "Lunch: Wellington Central Food Court – $45 for a mix of Asian and Kiwi options.",
+        "Dinner: Family‑friendly cafés like Sweet Mother’s (pasta, burgers) – $70 for a family of four.",
+        "Snacks: Pick up ice‑cream from Fidel’s or fresh fruit from the market – $10‑$15."
+      ]
+    },
+    {
+      "heading": "Free & Low‑Cost Activities",
+      "body": "<p>Wellington shines when it comes to free attractions. The city’s compact layout lets you walk between many highlights, saving on transport.</p><p>Mix these with a couple of low‑fee experiences for variety.</p>",
+      "list": [
+        "Te Papa Museum – free permanent collection (allow $10‑$15 for a special exhibition).",
+        "Wellington Cable Car – $9 adult, $4 child (round‑trip). Ride up for stunning views and a short walk through the Botanic Garden.",
+        "Carter Observatory – free planetarium shows on Saturdays.",
+        "Wellington Zoo – $24 adult, $12 child (discounted family pass $70).",
+        "Zealandia Wildlife Sanctuary – $39 adult, $20 child (family pass $120).",
+        "Kāpiti Island day trip – DOC permit $16 adult, $8 child, plus ferry $30 adult, $15 child."
+      ]
+    },
+    {
+      "heading": "Sample 3‑Day Budget Breakdown",
+      "body": "<p>Below is a realistic three‑day itinerary that stays within the $200‑$380 daily range. Costs are shown in NZD and assume two adults and two children (ages 6 and 9).</p>",
+      "table": {
+        "headers": [
+          "Day",
+          "Accommodation",
+          "Meals",
+          "Transport",
+          "Activities",
+          "Total"
+        ],
+        "rows": [
+          [
+            "Day 1",
+            "$130 (Travelodge family room)",
+            "$90 (breakfast café, lunch food court, dinner at Sweet Mother’s)",
+            "$20 (parking + bus pass)",
+            "$23 (Cable Car round‑trip family)",
+            "$263"
+          ],
+          [
+            "Day 2",
+            "$130",
+            "$85 (self‑catered breakfast, takeaway lunch, pizza dinner)",
+            "$20 (parking)",
+            "$70 (Zealandia family pass)",
+            "$305"
+          ],
+          [
+            "Day 3",
+            "$130",
+            "$95 (breakfast at YHA, lunch at waterfront, dinner at local fish & chips)",
+            "$20 (parking + occasional bus)",
+            "$70 (Wellington Zoo family pass)",
+            "$305"
+          ]
+        ]
+      },
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "wellington-with-kids-budget-family-guide-2026-09",
+  "updated": "September 2026",
+  "auto_generated": true,
+  "generated_date": "2026-09-02"
+}
