@@ -1,0 +1,98 @@
+{
+  "title": "How to Visit Dunedin on a Family Budget: 3-Day Guide",
+  "short_title": "Dunedin Family Budget",
+  "meta_desc": "Discover how a family of four can enjoy Dunedin's wildlife, history and steep streets for $200‑380 a day. Free activities, smart lodging, and splurge‑worth tips included.",
+  "intro": "Dunedin packs world‑class wildlife, Victorian charm and quirky attractions into a compact city, making it perfect for families. With a bit of planning you can experience the albatross, penguins and steep streets without breaking the bank.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Plan Your Stay and Save on Accommodation",
+      "body": "<p>Accommodation takes up the biggest chunk of a family budget, but Dunedin offers solid options across price points. For a budget‑friendly stay, the Backpackers Lodge on Great King Street offers family rooms for about NZ$120 per night, including breakfast and a kitchen for self‑catering.</p><p>If you prefer a bit more comfort, the Scenic Hotel Southern Cross provides family suites at roughly NZ$200 per night, with free Wi‑Fi and a central location within walking distance of the railway station and the waterfront.</p><p>Mid‑range Airbnb listings in the Octagon area often sit around NZ$150 per night for a two‑bedroom unit, giving you a kitchen and laundry access, which can shave off meal costs.</p>",
+      "list": [
+        "Backpackers Lodge – $120/night, family room, free breakfast",
+        "Scenic Hotel Southern Cross – $200/night, family suite",
+        "Airbnb central Dunedin – $150/night, 2‑bedroom unit"
+      ]
+    },
+    {
+      "heading": "Free and Low‑Cost Activities for Kids 5+",
+      "body": "<p>Dunedin’s streets and historic sites provide plenty of no‑cost fun. Let the kids tackle Baldwin Street – the world’s steepest – for a quick photo op (1:2.86 gradient) and a short walk that burns off any extra cake. The iconic Dunedin Railway Station’s façade is free to admire and makes a great backdrop for family photos.</p><p>Otago Settlers Museum offers free entry and engaging exhibits on Māori and European settlement, perfect for curious 5‑plus explorers. For wildlife lovers, the Otago Peninsula’s coastal walks give you chances to spot sea lions and albatross from the shore without paying a fee.</p>",
+      "list": [
+        "Baldwin Street – free, 5‑plus, 5‑minute walk",
+        "Dunedin Railway Station exterior – free photo spot",
+        "Otago Settlers Museum – free entry",
+        "Coastal walks on Otago Peninsula – free, 20‑min drive from CBD"
+      ]
+    },
+    {
+      "heading": "Splurge‑Worth Experiences",
+      "body": "<p>Some experiences are worth the extra spend for unforgettable memories. The Royal Albatross Centre at Taiaroa Head charges $25 adults and $12 children (5‑15) and includes a guided walk where you can watch the world’s only mainland albatross colony. For yellow‑eyed penguin watching, Penguin Place offers a more intimate setting at $45 adults and $25 children – a bit pricier than the DOC sites but far more kid‑friendly.</p><p>Larnach Castle, just a 30‑minute drive from the CBD, blends gothic architecture, gardens and ghost stories that delight kids. Admission is $30 adults, $15 children. Finally, the Speight’s Brewery tour (adult $20, child $10) adds a fun, educational break for parents while the kids enjoy a short, interactive session.</p>",
+      "list": [
+        "Royal Albatross Centre – $25 adult / $12 child",
+        "Penguin Place – $45 adult / $25 child",
+        "Larnach Castle – $30 adult / $15 child (30‑min drive)",
+        "Speight’s Brewery tour – $20 adult / $10 child"
+      ]
+    },
+    {
+      "heading": "Sample 3‑Day Budget Breakdown",
+      "body": "<p>The table below shows how a family of four can stay within the $200‑$380 daily range while enjoying a mix of free, low‑cost and splurge activities.</p>",
+      "table": {
+        "headers": [
+          "Day",
+          "Accommodation",
+          "Meals",
+          "Transport",
+          "Activities",
+          "Total"
+        ],
+        "rows": [
+          [
+            "Day 1",
+            "$150 (Airbnb)",
+            "$120 (groceries + casual dinner)",
+            "$90 (car hire + fuel)",
+            "$70 (Royal Albatross + Baldwin St.)",
+            "$430"
+          ],
+          [
+            "Day 2",
+            "$150 (Airbnb)",
+            "$130 (breakfast out, lunch picnic, dinner)",
+            "$90 (car)",
+            "$115 (Penguin Place + Larnach Castle)",
+            "$485"
+          ],
+          [
+            "Day 3",
+            "$150 (Airbnb)",
+            "$120 (groceries + take‑away)",
+            "$90 (car)",
+            "$40 (Speight’s tour + museum)",
+            "$440"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Eating and Getting Around on a Budget",
+      "body": "<p>Self‑catering saves the most – shop at the local Countdown or New World for $80‑$90 a day for a family of four. When you do eat out, Dunedin’s cafés on George Street offer kid‑friendly meals at $15 per child and $30 per adult. A family pizza or fish‑and‑chips take‑away costs about $70 and stretches the budget further.</p><p>Renting a compact car is the most flexible way to reach the peninsula and Larnach Castle. Expect $70 per day plus $20 for fuel; alternatively, the local bus (routes 7 and 15) costs $4 per adult and $2 per child for a round‑trip to Taiaroa Head, but a car saves time and makes spontaneous stops easier.</p>",
+      "list": [
+        "Grocery shop: $80‑$90/day",
+        "Café meals: $15 child / $30 adult",
+        "Take‑away pizza/fish‑and‑chips: ~$70 family",
+        "Car hire: $70/day + $20 fuel",
+        "Bus to peninsula: $4 adult / $2 child (one way)"
+      ],
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "dunedin-family-guide-budget-family-guide-2026-09",
+  "updated": "September 2026",
+  "auto_generated": true,
+  "generated_date": "2026-09-03"
+}
