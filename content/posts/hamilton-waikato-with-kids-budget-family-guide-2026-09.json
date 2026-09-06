@@ -1,0 +1,113 @@
+{
+  "title": "How to Visit Hamilton & Waikato on a Family Budget",
+  "short_title": "Hamilton Budget Guide",
+  "meta_desc": "Discover how to explore Hamilton and the Waikato region with a family of four on a $180‑$340 daily budget. Free attractions, budget stays, smart savings and splurge ideas included.",
+  "intro": "Hamilton and the wider Waikato region offer a mix of city charm, stunning gardens and iconic attractions without breaking the bank. With careful planning you can enjoy everything from Hobbiton to the Waitomo Caves while staying within a $180‑$340 per day budget for four.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Setting Your Budget",
+      "body": "<p>Start by allocating the three main expense buckets: accommodation, food & drink, and activities. For a family of four a realistic split is roughly 30% for lodging, 30% for meals, and 40% for experiences, giving you flexibility to splurge on a highlight while keeping other days modest.</p><p>Tip: Track your spend in a simple spreadsheet or budgeting app each evening – it’s easier to stay on target than to play catch‑up at the end of the trip.</p>",
+      "list": [
+        "Allocate $80‑$150 per night for accommodation (see options below).",
+        "Plan $70‑$100 per day for meals by mixing groceries with occasional take‑aways.",
+        "Reserve $30‑$120 per day for paid activities, leaving room for free attractions."
+      ],
+      "table": null
+    },
+    {
+      "heading": "Free and Low‑Cost Activities",
+      "body": "<p>Hamilton and the surrounding Waikato are packed with family‑friendly experiences that cost little or nothing. The city’s riverside walks, public gardens and local museums often have free entry, and many farms offer low‑fee tours.</p><p>These activities let you stretch your daily budget while still creating memorable moments.</p>",
+      "list": [
+        "Hamilton Gardens (free entry to most themed gardens)",
+        "Waikato River Walk – picnic and bike rentals from $5 per bike",
+        "Zealong Tea Garden – free garden stroll, tea tasting $5 per person",
+        "Huntly Railway Bridge walk – great for kids to spot trains",
+        "Matamata Farm Tours – $30 per adult, kids under 5 free"
+      ],
+      "table": null
+    },
+    {
+      "heading": "Accommodation: From Budget to Mid‑Range",
+      "body": "<p>Where you stay makes a big difference to your daily spend. Holiday parks and family cabins give the best value, while a comfortable 3‑star hotel provides added convenience for a modest premium. Booking early and choosing self‑catering options can shave $20‑$40 off each night.</p>",
+      "list": null,
+      "table": {
+        "headers": [
+          "Type",
+          "Typical Cost/night (NZD)"
+        ],
+        "rows": [
+          [
+            "Holiday park cabin",
+            "$80‑$120"
+          ],
+          [
+            "3‑star hotel",
+            "$130‑$180"
+          ],
+          [
+            "Airbnb family house",
+            "$150‑$210"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Where to Save and Where to Splurge",
+      "body": "<p>Smart savings come from cooking some meals, using free attractions, and travelling off‑peak. However, a few experiences are worth the extra spend – they become the highlights that define your trip.</p><p>Balance is key: keep everyday costs low, then allocate a larger chunk for a signature activity.</p>",
+      "list": [
+        "Save: Buy groceries at Countdown or New World and use kitchenettes in holiday parks or Airbnb stays.",
+        "Save: Use the free Hamilton Gardens tram (self‑guided) instead of paid tours.",
+        "Splurge: Hobbiton Movie Set tour – $70 per adult, kids $25 – a once‑in‑a‑lifetime experience.",
+        "Splurge: Waitomo Glowworm Caves night tour – $45 per adult, $20 for children – magical after‑dark adventure."
+      ],
+      "table": null
+    },
+    {
+      "heading": "3‑Day Sample Budget",
+      "body": "<p>This sample itinerary shows how you can stay within the $180‑$340 daily range while enjoying a mix of free, low‑cost, and splurge experiences.</p>",
+      "list": null,
+      "table": {
+        "headers": [
+          "Day",
+          "Accommodation",
+          "Food & Drink",
+          "Activities",
+          "Total (NZD)"
+        ],
+        "rows": [
+          [
+            "Day 1",
+            "Holiday park cabin $100",
+            "Groceries & meals $80",
+            "Hamilton Gardens (free) $30",
+            "$210"
+          ],
+          [
+            "Day 2",
+            "3‑star hotel $150",
+            "Meals $90",
+            "Hobbiton tour $70",
+            "$310"
+          ],
+          [
+            "Day 3",
+            "Holiday park cabin $100",
+            "Groceries $80",
+            "Waitomo Caves $20",
+            "$200"
+          ]
+        ]
+      },
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "hamilton-waikato-with-kids-budget-family-guide-2026-09",
+  "updated": "September 2026",
+  "auto_generated": true,
+  "generated_date": "2026-09-07"
+}
