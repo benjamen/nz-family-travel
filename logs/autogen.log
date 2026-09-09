@@ -5089,3 +5089,38 @@ Generated 3 articles.
 Rebuilding site...
   Build complete — 809 HTML pages → /home/ben/nz-family-travel/docs/
   Pushed to GitHub Pages
+
+Today's 5 articles (2026-09-09):
+
+  1. [deals          ] Wanaka                              — wanaka-with-kids-family-deals-2026-09
+     WILL GENERATE
+  2. [month_guide    ] New Plymouth & Taranaki             — new-plymouth-taranaki-family-september-family-guide
+     WILL GENERATE
+  3. [budget         ] Tauranga / Mount Maunganui          — tauranga-mount-maunganui-family-budget-family-guide-2026-09
+     WILL GENERATE
+  4. [activity_review] Abel Tasman Water Taxi & Beach Day  — abel-tasman-water-taxi-family-review-2026-09
+     EXISTS
+  5. [hidden_gems    ] New Plymouth & Taranaki             — new-plymouth-taranaki-family-hidden-gems-families
+     EXISTS
+
+[1/5] Generating: wanaka-with-kids-family-deals-2026-09
+  Calling Groq (openai/gpt-oss-120b)...
+  Saved: content/posts/wanaka-with-kids-family-deals-2026-09.json
+
+[2/5] Generating: new-plymouth-taranaki-family-september-family-guide
+  Calling Groq (openai/gpt-oss-120b)...
+  ERROR: Error code: 400 - {'error': {'message': "Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.", 'type': 'invalid_request_error', 'code': 'json_validate_failed', 'failed_generation': '{"title":"September Family Fun in New Plymouth & Taranaki 2026","short_title":"Sept in New Plymouth","meta_desc":"Discover September weather, events, top kid‑friendly activities and practical tips for a budget‑friendly family holiday in New Plymouth & Taranaki.","intro":"September brings crisp spring days to New Plymouth, perfect for exploring volcanic landscapes, surf beaches and lush parks with the whole family. With mild temperatures, fewer crowds and a handful of seasonal events, it’s an ideal time for a budget‑friendly getaway.","reading_time":6,"sections":[{"heading":"Spring Weather & Packing Essentials","body":"<p>Early spring in New Plymouth is characterised by daytime highs of 15‑18°C (59‑64°F) and cool evenings dropping to 8‑10°C (46‑50°F). Expect a mix of sunshine and occasional light showers – the region’s famous rain‑bow often appears after a drizzle.</p><p>Pack layers: a lightweight waterproof jacket, long‑sleeve shirts, and a warm hat for the evenings. Comfortable walking shoes are essential for the coastal walkway and Mt Taranaki tracks. Don’t forget sunscreen – the UV index can still be high on sunny days.</p>","list":["Layered clothing for changing temps","Water‑proof jacket for occasional showers","Sturdy walking shoes for park and trail walks","Sunhat and sunscreen (SPF\u202f30+)"],"table":{"headers":["Daytime Temp","Evening Temp"],"rows":[["15‑18°C (59‑64°F)","8‑10°C (46‑50°F)"]]}}},{"heading":"September Highlights & What’s On","body":"<p>The month kicks off with the Taranaki Spring Festival (usually the first weekend of September), featuring family‑friendly music, food stalls and a kids’ craft market at Pukekura Park – entry is free, and food options range from $8‑$15 per child.</p><p>Mid‑month, the Govett‑Brewster Gallery runs a free “Lye Animation Workshop” for kids aged 5‑12, perfect for a rainy day. The coastal walkway also hosts a guided “Shell‑Spotting Walk” every Saturday morning, starting at the Port of Taranaki at 9\u202fam.</p>","list":["Taranaki Spring Festival – free entry, food $8‑$15 per child","Govett‑Brewster Lye Animation Workshop – free, ages 5‑12","Guided Shell‑Spotting Walk – free, Saturdays 9\u202fam"]}},{"heading":"Must‑Do Kid‑Friendly Activities","body":"<p>Pukekura Park remains the top free attraction: paddle a rowboat on the lake ($6 per adult, $3 per child under 12) or let the kids explore the playground and duck pond. The park’s mini‑zoo is free, though donations are appreciated.</p><p>For a bit of adventure, the Pouakai Circuit (4‑hour loop) is suitable for fit families with kids 10+. The trailhead is a 30‑minute drive north of town; a 4WD isn’t required, but a sturdy car is recommended.</p><p>Don’t miss the 13‑km New Plymouth Coastal Walkway – you can rent a bike for $12 per adult and $8 per child (under 12) from the bike‑share kiosk at the East End Beach. The walk is flat and perfect for strollers.</p>","list":["Pukekura Park rowing – $6 adult / $3 child","Pouakai Circuit – 30\u202fmin drive, fit families 10+","Coastal Walkway bike hire – $12 adult / $8 child"],"table":{"headers":["Activity","Cost (Family of 4)"],"rows":[["Rowboat (2 hrs)","$18"],["Bike hire (2 hrs)","$40"],["Pouakai Circuit (fuel)","~$20 (30‑min drive)"]]}}},{"heading":"Booking Ahead & Crowd Levels","body":"<p>September is shoulder season, so most attractions are uncrowded. However, the Spring Festival and the Lye Animation Workshop can fill up quickly. Book the workshop slot online (free) at least two weeks in advance. If you plan to stay overnight, book accommodation early – boutique motels in the city centre average $150‑$180 per night for a family of four, while holiday parks (e.g., Pukekura Holiday Park) are $120‑$140 per night with kitchen facilities.</p><p>For the Pouakai Circuit, reserve a parking spot at the trailhead (free) the night before if you’re arriving late, to ensure a safe place for your car.</p>","list":["Spring Festival tickets – free, arrive early for food stalls","Lye Animation Workshop – book 2 weeks ahead (free)","Accommodation – city motels $150‑$180/night; holiday parks $120‑$140/night"]}},{"heading":"Practical Tips for Families in September","body":"<p>Traveling with kids in early spring is a breeze if you keep these pointers in mind. The weather is changeable, attractions are mostly free, and crowds are low – perfect for a relaxed family holiday.</p><p>Follow these five tips to make the most of your September trip.</p>","list":["Start days early – daylight lasts ~10\u202fhrs (7\u202fam‑5\u202fpm)","Carry a reusable water bottle – refill stations at Pukekura Park","Use the free city shuttle (runs every 15\u202fmin) to reach the coastal walkway and Brooklands Zoo","Pack a picnic – grocery stores sell ready‑made meals for $6‑$10 per person","Check the MetService forecast each morning; a quick rain shower can turn a walk into a splash‑fun adventure"]}}]}'}}
+
+[3/5] Generating: tauranga-mount-maunganui-family-budget-family-guide-2026-09
+  Calling Groq (openai/gpt-oss-120b)...
+  Saved: content/posts/tauranga-mount-maunganui-family-budget-family-guide-2026-09.json
+
+[4/5] Skipping (already exists): abel-tasman-water-taxi-family-review-2026-09
+
+[5/5] Skipping (already exists): new-plymouth-taranaki-family-hidden-gems-families
+
+Generated 2 articles.
+
+Rebuilding site...
+  Build complete — 813 HTML pages → /home/ben/nz-family-travel/docs/
+  Pushed to GitHub Pages
