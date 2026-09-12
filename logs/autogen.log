@@ -5159,3 +5159,38 @@ Generated 2 articles.
 Rebuilding site...
   Build complete — 817 HTML pages → /home/ben/nz-family-travel/docs/
   Pushed to GitHub Pages
+
+Today's 5 articles (2026-09-11):
+
+  1. [deals          ] Bay of Islands                      — bay-of-islands-family-family-deals-2026-09
+     EXISTS
+  2. [month_guide    ] West Coast                          — west-coast-family-guide-september-family-guide
+     WILL GENERATE
+  3. [budget         ] Bay of Islands                      — bay-of-islands-family-budget-family-guide-2026-09
+     WILL GENERATE
+  4. [activity_review] Huka Falls                          — huka-falls-taupo-family-review-2026-09
+     WILL GENERATE
+  5. [hidden_gems    ] Rotorua                             — rotorua-family-guide-hidden-gems-families
+     EXISTS
+
+[1/5] Skipping (already exists): bay-of-islands-family-family-deals-2026-09
+
+[2/5] Generating: west-coast-family-guide-september-family-guide
+  Calling Groq (openai/gpt-oss-120b)...
+  ERROR: Error code: 400 - {'error': {'message': "Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.", 'type': 'invalid_request_error', 'code': 'json_validate_failed', 'failed_generation': '{"title":"September on New Zealand\'s West Coast: Family Guide 2026","short_title":"Sept West Coast Kids","meta_desc":"Discover September weather, free walks, must‑book tours and practical tips for families on the West Coast. Budget‑friendly ideas for kids 5+ and real prices included.","intro":"September is the gateway to spring on the West Coast, with snow‑capped peaks, blooming ferns and fewer crowds. This guide shows how to stretch a $150‑$250 daily budget while keeping four‑year‑old adventurers happy.","reading_time":6,"sections":[{"heading":"Weather, What to Pack and Drive Times","body":"<p>Early September still feels like winter on the high country – expect daytime highs of 10‑14\u202f°C and occasional showers. By the end of the month temperatures climb to 16‑18\u202f°C, especially around Hokitika and Greymouth.</p><p>Pack layered clothing, waterproof jackets, sturdy walking shoes and a warm hat for glacier walks. Sunscreen is still essential; the sun reflects off snow and water.</p><p>Typical drive times: Greymouth\u202f→\u202fPunakaiki 45\u202fmin, Punakaiki\u202f→\u202fFranz\u202fJosef 2\u202fh, Franz\u202fJosef\u202f→\u202fFox\u202fGlacier 30\u202fmin, Fox\u202fGlacier\u202f→\u202fHokitika 2\u202fh\u202f15\u202fmin.</p>","list":["Layered fleece or merino base layers","Waterproof trousers for glacier walks","Reusable water bottle (stay hydrated on walks)"],"table":{"headers":["Location","Approx. Drive Time from Greymouth"],"rows":[["Punakaiki","45\u202fmin"],["Franz Josef Glacier","2\u202fh"],["Fox Glacier","2\u202fh\u202f30\u202fmin"],["Hokitika","2\u202fh\u202f15\u202fmin"]]}},{"heading":"Top Free Activities & Best Times in September","body":"<p>The West Coast shines when you focus on its natural wonders, most of which are free. September’s lower visitor numbers mean you can enjoy the iconic spots in relative peace.</p><p>Arrive at the Pancake Rocks early (before 9\u202fam) for the best light on the blowholes and to avoid the occasional weekend school group. The Franz Josef and Fox glacier short walks are open year‑round; the terminal face is visible from the car park, and a 3\u202fkm return trail takes about 45\u202fminutes.</p><p>Hokitika Gorge’s turquoise river is most vivid in the cool morning light. A 25‑minute walk from town, it’s perfect for a quick family photo stop before lunch.</p>","list":["Punakaiki Pancake Rocks – free, 30‑min walk, age 5+","Franz Josef Glacier valley walk – free, 3\u202fkm return, 45\u202fmin, age 5+","Fox Glacier viewing platform – free, short stroll from car park, age 5+","Hokitika Gorge walk – free, 25\u202fmin return, age 5+"]}},{"heading":"Must‑Book Experiences (Reserve Ahead)","body":"<p>While most attractions are free, a few guided experiences add context and safety, especially for younger kids. Book at least two weeks in advance as September slots fill quickly for the limited tours.</p><p>The West Coast Wildlife Centre in Franz Josef offers a 45‑minute Kiwi & Takahe encounter for $45\u202fadult, $25\u202fchild (5‑12). It’s a hands‑on way to meet New\u202fZealand’s iconic birds.</p><p>For a memorable sunset, the “Glacier Kayak Mini‑Tour” at Fox Glacier runs a short 30‑minute paddle from the car park for $80\u202fadult, $55\u202fchild (5‑12). No prior experience needed, and all gear is provided.</p>","list":["West Coast Wildlife Centre – $45 adult / $25 child, 45\u202fmin, ages 5+","Fox Glacier Mini‑Kayak – $80 adult / $55 child, 30\u202fmin, ages 5+ (must be comfortable in water)"]}},{"heading":"Crowd Levels & Budget Tips for September","body":"<p>September sits between the winter lull and the summer rush, so you’ll find moderate crowds. Weekdays are quiet; weekends see a modest bump from local school trips.</p><p>Accommodation in the West Coast can be pricey during ski season but drops to $150‑$200 per night for a 2‑bedroom cabin in early September. Book a cabin with a kitchen to save on meals – a family of four can cook dinner for around $30.</p><p>Car rental averages $70\u202fday for a compact SUV, which is ideal for mountain roads. Fuel costs about $2.30\u202fper litre; a typical 600\u202fkm loop will cost roughly $150 in fuel.</p>","list":["Cabin (2‑bed) $150‑$200/night, includes kitchen","Car rental $70/day (compact SUV)","Fuel $2.30/L – ~600\u202fkm loop ≈ $150"],"table":{"headers":["Expense","Cost (NZD)"],"rows":[["Mid‑range cabin (2‑bed)","$150‑$200/night"],["Car rental (SUV)","$70/day"],["Fuel (600\u202fkm)","≈ $150"]]}},{"heading":"Practical Family Tips for September","body":"<p>1. **Start early** – daylight is limited (about 11\u202fhours) and the best light for photography is in the first two hours after sunrise.</p><p>2. **Carry cash for small towns** – Hokitika’s market stalls and some cafés only accept cash, and change is often given in coins.</p><p>3. **Pack a picnic** – the West Coast’s beaches and riverbanks are perfect for a lunch break. A picnic supplies pack for four costs roughly $20 at a supermarket.</p><p>4. **Safety first on glacier walks** – even on the easy walks, keep children within sight, wear sturdy shoes and heed any “no access” signs after heavy rain.</p><p>5. **Bring a reusable water bottle and a small cooler** – you’ll find clean tap water at most DOC sites, and a cooler keeps sandwiches fresh for the longer drives.</p>"}]}'}}
+
+[3/5] Generating: bay-of-islands-family-budget-family-guide-2026-09
+  Calling Groq (openai/gpt-oss-120b)...
+  Saved: content/posts/bay-of-islands-family-budget-family-guide-2026-09.json
+
+[4/5] Generating: huka-falls-taupo-family-review-2026-09
+  Calling Groq (openai/gpt-oss-120b)...
+  Saved: content/posts/huka-falls-taupo-family-review-2026-09.json
+
+[5/5] Skipping (already exists): rotorua-family-guide-hidden-gems-families
+
+Generated 2 articles.
+
+Rebuilding site...
+  Build complete — 821 HTML pages → /home/ben/nz-family-travel/docs/
+  Pushed to GitHub Pages
