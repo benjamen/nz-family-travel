@@ -122,7 +122,7 @@
 
 <!-- Primary affiliate block -->
 {% set city_q = destination.name | url_encode %}
-{% set booking_url = "https://www.booking.com/searchresults.html?ss=" ~ city_q ~ "%2C+New+Zealand&group_adults=2&group_children=2" %}
+{% set booking_url = "https://www.booking.com/searchresults.html?ss=" ~ city_q ~ "%2C+New+Zealand&group_adults=2&group_children=2&aid=" ~ site.affiliates.booking_com.aid %}
 {% set bookme_url = "https://www.bookme.co.nz/results/?where=" ~ city_q %}
 {% set viator_url = "https://www.viator.com/en-NZ/searchResults/all?text=" ~ city_q ~ "+New+Zealand&pid=P00098580" %}
 {% set skyscanner_url = "https://www.skyscanner.co.nz/flights-to/" ~ destination.quick_facts.nearest_airport | lower ~ "/" %}
@@ -147,7 +147,7 @@
 <section class="booking-block" style="background:#f0f9ff;border:1px solid #bae6fd;border-radius:10px;padding:1.5rem;margin:2rem 0">
   <h3 style="margin-top:0">📋 Plan Your Trip to {{ destination.name }}</h3>
   <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1rem;margin-top:1rem">
-    <a href="https://www.booking.com/searchresults.html?ss={{ destination.name | url_encode }}&aid=2417226" rel="sponsored noopener" target="_blank" style="display:block;background:#003580;color:#fff;padding:.75rem 1rem;border-radius:8px;text-decoration:none;text-align:center;font-weight:600">🏨 Find Family Accommodation</a>
+    <a href="https://www.booking.com/searchresults.html?ss={{ destination.name | url_encode }}&aid={{ site.affiliates.booking_com.aid }}" rel="sponsored noopener" target="_blank" style="display:block;background:#003580;color:#fff;padding:.75rem 1rem;border-radius:8px;text-decoration:none;text-align:center;font-weight:600">🏨 Find Family Accommodation</a>
     <a href="https://www.getyourguide.com/s/?q={{ destination.name | url_encode }}&partner_id=TIXNVKM" rel="sponsored noopener" target="_blank" style="display:block;background:#e8272a;color:#fff;padding:.75rem 1rem;border-radius:8px;text-decoration:none;text-align:center;font-weight:600">🎫 Book Activities & Tours</a>
     <a href="https://www.covermore.com.au/travel-insurance?utm_source=nzfamilytravel&utm_medium=referral" rel="sponsored noopener" target="_blank" style="display:block;background:#1e7e34;color:#fff;padding:.75rem 1rem;border-radius:8px;text-decoration:none;text-align:center;font-weight:600">🛡️ Travel Insurance NZ</a>
   </div>

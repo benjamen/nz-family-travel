@@ -23,11 +23,12 @@
     },
     "booking_com": {
       "name": "Booking.com",
-      "url": "https://www.booking.com/searchresults/nz.html?aid=PENDING_BOOKING_AID",
+      "url": "https://www.booking.com/searchresults/nz.html?aid=2417226",
+      "aid": "2417226",
       "commission": "25-40% of their commission",
       "network": "Booking.com Partner",
       "cta": "Check Availability",
-      "status": "PENDING_SIGNUP"
+      "status": "ACTIVE"
     },
     "discover_cars": {
       "name": "Discover Cars",
