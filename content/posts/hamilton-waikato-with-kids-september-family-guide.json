@@ -1,0 +1,101 @@
+{
+  "title": "September Family Holiday in Hamilton & Waikato 2026",
+  "short_title": "Sept in Hamilton",
+  "meta_desc": "Discover September in Hamilton and Waikato with kids – mild spring weather, Hobbiton tours, riverside walks, and budget‑friendly family activities. Plan ahead for low crowds and great savings.",
+  "intro": "September brings spring to the Waikato, with blooming gardens and crisp mornings perfect for family outings. From Hobbiton’s magical set to the Hamilton Gardens’ themed rooms, there’s plenty to keep kids (and parents) entertained without breaking the $180‑$340 daily budget.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Weather, Packing & Safety",
+      "body": "<p>Spring in Hamilton is mild – daytime highs average 16‑19 °C (60‑66 °F) and nights can dip to 8‑10 °C. Expect occasional light showers; the region gets about 60 mm of rain in September, so pack waterproof jackets and quick‑dry layers.</p><p>Sun protection is still important – the UV index can reach 5 on clear days. Bring hats, sunscreen, and sturdy walking shoes for the garden trails and cave walks.</p>",
+      "list": [
+        "Waterproof jacket or poncho for each child",
+        "Layered clothing for changing temps",
+        "Reusable water bottles – many sites have refill stations",
+        "Insect repellent for evenings near the river"
+      ]
+    },
+    {
+      "heading": "September Highlights & Events",
+      "body": "<p>Spring festivals kick off in early September. The Hamilton Gardens Spring Festival runs from 5–30 Sept, offering free kids’ workshops, live music, and a “Butterfly Walk” that’s perfect for ages 3+. In Matamata, the Hobbiton Farm & Film‑Set opens its “Spring Celebration” on 12 Sept with a complimentary garden tour for families.</p><p>These events draw modest crowds – usually 30‑40 % of peak summer numbers – giving you space to explore without long waits.</p>",
+      "list": [
+        "Hamilton Gardens Spring Festival – free entry, workshops $5 per child",
+        "Hobbiton Spring Celebration – free garden tour, book the 90‑min “Family Adventure” for $55 per adult, $30 per child (2‑12 yrs)",
+        "Waikato River Kayak Intro (Sept 22‑24) – family package $120"
+      ]
+    },
+    {
+      "heading": "Top Family Activities (Age‑suitable & Cost‑effective)",
+      "body": "<p>All activities listed fit within the $180‑$340 daily budget for a family of four (2 adults, 2 children). Drive times are from Hamilton city centre unless noted.</p>",
+      "table": {
+        "headers": [
+          "Activity",
+          "Drive Time",
+          "Age Suitability",
+          "Cost (Family of 4)"
+        ],
+        "rows": [
+          [
+            "Hamilton Gardens – themed gardens (e.g., Tudor, Japanese)",
+            "0 km (city)",
+            "All ages",
+            "Free"
+          ],
+          [
+            "Hobbiton Farm Tour – 2‑hour Family Adventure",
+            "45 min",
+            "5‑12 yrs (younger can join)",
+            "$170 (2 adults $55, 2 kids $30)"
+          ],
+          [
+            "Waitomo Glowworm Caves – guided walk",
+            "1 h 15 min",
+            "6+ (younger need adult)",
+            "$220 (incl. transport shuttle)"
+          ],
+          [
+            "Waikato River Kayak Intro – family 2‑hour session",
+            "15 min",
+            "7+ (helmets provided)",
+            "$120"
+          ],
+          [
+            "Te Awamutu Heritage Trail – self‑guided walk with storyboards",
+            "30 min",
+            "3‑12 yrs",
+            "Free"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Booking Ahead & Crowd Levels",
+      "body": "<p>September is shoulder season, so most attractions allow online booking with a small deposit. Hobbiton and Waitomo require reservations at least 7 days in advance, especially for the family‑focused tours. The Hamilton Gardens workshops fill up quickly after the first weekend, so book the workshop slot when you purchase your tickets.</p><p>Overall crowd levels are low‑moderate – expect 20‑30 % of summer visitor numbers. Parking at popular sites (Hobbiton, Waitomo) is ample, but arriving before 10 am secures the best spots.</p>",
+      "list": [
+        "Book Hobbiton & Waitomo online 7‑10 days ahead",
+        "Reserve Hamilton Gardens workshop when you buy tickets (free entry, $5 workshop fee)",
+        "Check weather forecast the night before for river activities"
+      ]
+    },
+    {
+      "heading": "Practical Tips for Families",
+      "body": "<p>These tips help you stay comfortable, keep costs in check, and make the most of the region’s spring vibe.</p>",
+      "list": [
+        "Buy a Family Pass for the Waikato Explorer Bus ($45 for 2 adults + 2 kids) – runs hourly between Hamilton, Matamata, and Waitomo, saving on fuel.",
+        "Pack a picnic from Hamilton’s Farmers’ Market (open Saturdays) – fresh fruit, cheese, and local honey cost about $30 for a family of four.",
+        "Use free public Wi‑Fi at Hamilton Library and the Visitor Centre to download offline maps; data roaming can add up on road trips.",
+        "Bring a compact stroller that folds easily – many garden paths are paved, but some cave walkways have uneven sections; a sturdy carrier works better for the caves.",
+        "Check school holiday dates – New Zealand’s term ends late September, so crowds rise after 20 Sept. Plan the Hobbiton tour before then for the quietest experience."
+      ],
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "hamilton-waikato-with-kids-september-family-guide",
+  "updated": "September 2026",
+  "auto_generated": true,
+  "generated_date": "2026-09-22"
+}
