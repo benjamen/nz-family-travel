@@ -1,0 +1,117 @@
+{
+  "title": "West Coast Family Holiday on a Budget: $150‑$250 a Day",
+  "short_title": "West Coast Budget Family Trip",
+  "meta_desc": "Discover how to explore NZ's wild West Coast with a family of four for $150‑$250 daily – free wonders, budget stays, smart savings and splurge tips.",
+  "intro": "The West Coast may feel remote, but it’s surprisingly affordable for families. With stunning free attractions and a range of budget‑friendly lodgings, you can experience glaciers, pancake rocks and turquoise rivers without breaking the bank.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Budget Basics",
+      "body": "<p>For a family of four aim for $150‑$250 each day. Roughly 40% goes to accommodation, 30% to meals, 15% to fuel and transport, and the remaining 15% covers any optional paid activities or souvenirs.</p><p>Fuel is the biggest variable – a 2‑hour drive from Greymouth to Franz Josef is about 150km, costing around $30 in petrol for a standard 7‑seat SUV. If you’re renting a car, factor in $70‑$90 per day for a compact SUV, plus insurance.</p>",
+      "list": [
+        "Accommodation: $70‑$110/night",
+        "Meals (groceries + occasional eat‑out): $70‑$100/day",
+        "Fuel/Car rental: $30‑$45/day",
+        "Optional activities: $0‑$40/day"
+      ]
+    },
+    {
+      "heading": "Free & Low‑Cost Adventures",
+      "body": "<p>The West Coast’s biggest draw is its natural playground, most of which is free. Arrive early to beat the crowds and capture the best light for photos.</p><p>Key free spots include Punakaiki Pancake Rocks (30‑minute walk), the Franz Josef and Fox Glacier terminal‑face walks, and the 25‑minute walk through Hokitika Gorge’s turquoise river path. For a quiet splash, head to Lake Ianthe – perfect for a family swim or a picnic.</p>",
+      "list": [
+        "Punakaiki Pancake Rocks & Blowholes – free, 30‑min walk",
+        "Franz Josef Glacier valley walk – free, 3 km return",
+        "Fox Glacier viewing platform – free, short walk from car park",
+        "Hokitika Gorge walk – free, 1 km trail",
+        "Lake Ianthe beach – free, ideal for swimming and picnics"
+      ]
+    },
+    {
+      "heading": "Where to Stay: Cheap to Mid‑Range",
+      "body": "<p>Holiday parks and budget motels give you comfort without the price tag. Book early in the shoulder season (April‑May or September‑October) for the best rates.</p><p>Options range from basic powered sites for $30‑$45 a night to self‑contained cabins with kitchenettes for $110‑$150. All provide easy access to the main attractions, so you spend less time driving.</p>",
+      "list": [
+        "Punakaiki Beach Holiday Park – powered site $35/night, cabin $95/night",
+        "Franz Josef TOP 10 Holiday Park – powered site $40/night, 2‑bed cabin $115/night",
+        "Fox Glacier Motel – standard double room $120/night (family of 4)",
+        "Hokitika Townhouse Rentals – 2‑bedroom townhouse $130‑$150/night, kitchen included"
+      ]
+    },
+    {
+      "heading": "Food & Transport: Save Smart",
+      "body": "<p>Groceries are your best friend. Supermarkets in Greymouth, Hokitika and Franz Josef stock fresh produce, and most holiday parks have shared BBQs for easy family meals.</p><p>Plan picnics for the day’s hikes – a sandwich, fruit and a bottle of water costs under $10 per person. If you treat yourselves to a café, aim for $12‑$15 per child and $20‑$25 per adult.</p>",
+      "list": [
+        "Shop at New World (Greymouth) or Four Square (Hokitika) for bulk basics",
+        "Cook breakfast and dinner in your accommodation – saves $60‑$80 per day",
+        "Use shared BBQs at holiday parks for lunch on the go",
+        "Refuel in larger towns where fuel is $1.80/L versus $2.10/L on remote sites"
+      ]
+    },
+    {
+      "heading": "Splurge‑Worthy Experiences",
+      "body": "<p>While most highlights are free, a few paid experiences add a memorable wow factor. Choose one or two based on your budget and the kids’ interests.</p><p>Guided glacier walks with a certified guide cost $80‑$120 per adult and $40‑$70 per child (5‑12 yrs). A short heli‑flight over Franz Josef is pricey at $250 per person, but you can share the cost with another family to bring it down to $125 each.</p>",
+      "list": [
+        "Guided Franz Josef Glacier walk – $80‑$120 adult, $40‑$70 child",
+        "Fox Glacier heli‑flight (30 min) – $250 per person (share to halve)",
+        "Kayak tour on the Hokitika River – $90 family package (up to 4)",
+        "Greenstone carving workshop in Hokitika – $30 per person"
+      ]
+    },
+    {
+      "heading": "3‑Day Sample Budget",
+      "body": "<p>Below is a realistic budget for a family of four staying in mid‑range cabins, cooking most meals, and enjoying the free attractions. Adjust accommodation or splurge items to fit your $150‑$250 daily range.</p>",
+      "table": {
+        "headers": [
+          "Day",
+          "Accommodation",
+          "Meals",
+          "Fuel/Transport",
+          "Activities",
+          "Total (NZ$)"
+        ],
+        "rows": [
+          [
+            "Day 1 – Punakaiki & Greymouth",
+            "$95 (cabin)",
+            "$85 (groceries + one café)",
+            "$30 (fuel)",
+            "$0 (free sites)",
+            "$210"
+          ],
+          [
+            "Day 2 – Franz Josef Glacier",
+            "$115 (cabin)",
+            "$90 (self‑catered + snack)",
+            "$35 (fuel + extra mileage)",
+            "$70 (guided glacier walk for 2 adults, 2 kids)",
+            "$310"
+          ],
+          [
+            "Day 3 – Hokitika & Lake Ianthe",
+            "$95 (cabin)",
+            "$80 (picnic + dinner)",
+            "$30 (fuel)",
+            "$0 (free sites)",
+            "$205"
+          ],
+          [
+            "Grand Total (3 days)",
+            "$305",
+            "$255",
+            "$95",
+            "$70",
+            "$725"
+          ]
+        ]
+      },
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "west-coast-family-guide-budget-family-guide-2026-09",
+  "updated": "September 2026",
+  "auto_generated": true,
+  "generated_date": "2026-09-30"
+}
