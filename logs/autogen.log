@@ -5677,3 +5677,36 @@ Generated 1 articles.
 Rebuilding site...
   Build complete — 867 HTML pages → /home/ben/nz-family-travel/docs/
   Pushed to GitHub Pages
+
+Today's 5 articles (2026-09-29):
+
+  1. [deals          ] Northland                           — northland-cape-reinga-family-family-deals-2026-09
+     WILL GENERATE
+  2. [month_guide    ] Rotorua                             — rotorua-family-guide-september-family-guide
+     EXISTS
+  3. [budget         ] Bay of Islands                      — bay-of-islands-family-budget-family-guide-2026-09
+     EXISTS
+  4. [activity_review] Orana Wildlife Park                 — orana-wildlife-park-christchurch-family-review-2026-09
+     WILL GENERATE
+  5. [hidden_gems    ] Christchurch                        — christchurch-with-kids-hidden-gems-families
+     EXISTS
+
+[1/5] Generating: northland-cape-reinga-family-family-deals-2026-09
+  Calling Groq (openai/gpt-oss-120b)...
+  ERROR: Error code: 400 - {'error': {'message': "Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.", 'type': 'invalid_request_error', 'code': 'json_validate_failed', 'failed_generation': '{"title":"Best Family Deals in Northland – September 2026","short_title":"Northland Family Deals","meta_desc":"Discover September 2026 family deals for Northland: campervan offers, activity discounts, budget tips and a 5‑day itinerary for a $200‑380/day family holiday.","intro":"Northland’s dramatic coastlines and ancient kauri forests are perfect for a family adventure. With fresh September deals on campervans, activities and insurance, you can explore Cape\u202fReinga, Ninety\u202fMile\u202fBeach and the Waitangi Treaty Grounds without breaking your $200‑380\u202fdaily budget.","reading_time":6,"sections":[{"heading":"Current Booking Deals & Discounts","body":"<p>September is a sweet spot for savings in Northland. Bookme.co.nz is offering up to 40% off popular activities such as the Cape\u202fReinga Lighthouse tour ($30\u202fadult, $15\u202fchild after discount) and the Kauri Museum entry ($20\u202ffamily pass). Discover Cars lists family‑friendly campervans from $89\u202fper day, a $20‑day saving on the standard $109 rate when you book before 15\u202fSeptember.</p><p>Don’t forget Cover‑More travel insurance – coverage starts at $4.50 per person per day and can be added at checkout on Bookme.co.nz for peace of mind.</p>","list":["Bookme.co.nz – up to 40% off activities (e.g., lighthouse tours, museum entry)","Discover Cars – campervans from $89/day (compare Jucy, Maui, Britz, Mighty)","Booking.com – free cancellation on most holiday parks and motels","Cover‑More – family travel insurance from $4.50/person/day"],"table":{"headers":["Deal","Provider","Discount/Price","Valid Until"],"rows":[["Cape\u202fReinga Lighthouse tour","Bookme.co.nz","$30 adult / $15 child (40% off)","30\u202fSept\u202f2026"],["Campervan (4‑person)","Discover Cars","$89/day (standard $109)","31\u202fOct\u202f2026"],["Holiday park stays","Booking.com","Free cancellation – no extra cost","Ongoing"],["Family travel insurance","Cover‑More","$4.50/person/day","Ongoing"]]}},"{heading":"Top Value Activities for Families","body":"<p>Northland offers a mix of free natural wonders and low‑cost cultural experiences that fit the 4+ age range. The Cape\u202fReinga walkway is free and takes about 30\u202fminutes each way – perfect for kids who can handle a short hike. Ninety\u202fMile\u202fBeach sandboarding costs $25 per board for a 2‑hour session, and the Kauri Museum family pass is $20, giving you access to interactive exhibits about the giant trees.</p><p>Driving times from the central hub of Whangarei are reasonable: Cape\u202fReinga is a 2‑hour 30‑minute drive (140\u202fkm), while the Kauri Museum in Matakohe is just 30\u202fminutes north of Whangarei.</p>","list":["Cape\u202fReinga Walkway – free, 30‑min return, age 4+","Ninety\u202fMile\u202fBeach sandboarding – $25 per board (2\u202fhrs)","Kauri Museum family pass – $20 (age 4+)","Waitangi Treaty Grounds – $35 family ticket (guided tour)","Mangawhai Heads beach walk – free, 45‑min loop"]} ,{"heading":"Money‑Saving Tips for Northland Holidays","body":"<p>Stretch your $200‑380\u202fdaily budget with these practical tips. Booking early, using affiliate discounts and choosing self‑catering accommodation can shave up to 30% off your total spend.</p><p>Plan your driving routes to minimise fuel – the Northland loop can be done in 5\u202fdays with only 400\u202fkm of total driving, saving both time and petrol.</p>","list":["Book activity tickets on Bookme.co.nz at least 2\u202fweeks ahead for the deepest 40% discount","Hire a campervan from Discover Cars and book a 5‑day rate – the longer the hire, the lower the daily price","Cook meals in holiday park kitchens; a family of four can spend under $15/day on groceries versus $60+ on restaurant meals","Travel mid‑week (Tuesday‑Thursday) to avoid peak weekend rates on campsites and attractions","Use free Wi‑Fi at most holiday parks to download offline maps and avoid data roaming charges"]} ,{"heading":"When to Book for the Best Prices","body":"<p>September offers shoulder‑season pricing, but the biggest savings come from booking in advance. Activity discounts on Bookme.co.nz reset on the 1st of each month, so aim to purchase tickets by 15\u202fSeptember to lock in the 40% off rate. Campervan availability spikes in late October, so secure your vehicle by early September.</p><p>For accommodation, holiday parks release their lowest rates 6\u202fweeks ahead of the season – set a reminder for early August to grab the $30‑night sites before they rise to $45.</p>"} ,{"heading":"Sample 5‑Day Itinerary & Cost Breakdown","body":"<p>This itinerary shows how a family of four can enjoy Northland’s highlights within a $250\u202fper day budget, including transport, accommodation, food and activities.</p>","table":{"headers":["Day","Activity","Cost (NZ$)","Drive Time"],"rows":[["1","Pick up campervan, drive to Whangarei Holiday Park","$89 campervan + $30 park","0\u202fkm"],["2","Cape\u202fReinga walk & lighthouse tour (Bookme discount)","$30 adult + $15 child = $90","2\u202fh\u202f30\u202fm (140\u202fkm)"],["3","Ninety\u202fMile\u202fBeach sandboarding + beach walk","$25 board + free walk = $25","1\u202fh\u202f15\u202fm (80\u202fkm)"],["4","Kauri Museum family pass + Waitangi Treaty Grounds","$20 + $35 = $55","30\u202fmin (20\u202fkm)"],["5","Mangawhai Heads walk, cook-out at holiday park","$0 activity + $20 groceries","1\u202fh (70\u202fkm)"]}}]'}}
+
+[2/5] Skipping (already exists): rotorua-family-guide-september-family-guide
+
+[3/5] Skipping (already exists): bay-of-islands-family-budget-family-guide-2026-09
+
+[4/5] Generating: orana-wildlife-park-christchurch-family-review-2026-09
+  Calling Groq (openai/gpt-oss-120b)...
+  Saved: content/posts/orana-wildlife-park-christchurch-family-review-2026-09.json
+
+[5/5] Skipping (already exists): christchurch-with-kids-hidden-gems-families
+
+Generated 1 articles.
+
+Rebuilding site...
+  Build complete — 869 HTML pages → /home/ben/nz-family-travel/docs/
+  Pushed to GitHub Pages
