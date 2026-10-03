@@ -5817,3 +5817,38 @@ Generated 4 articles.
 Rebuilding site...
   Build complete — 889 HTML pages → /home/ben/nz-family-travel/docs/
   Pushed to GitHub Pages
+
+Today's 5 articles (2026-10-03):
+
+  1. [deals          ] Bay of Islands                      — bay-of-islands-family-family-deals-2026-10
+     WILL GENERATE
+  2. [month_guide    ] Gisborne & East Cape                — gisborne-east-cape-family-october-family-guide
+     WILL GENERATE
+  3. [budget         ] Queenstown                          — queenstown-with-kids-budget-family-guide-2026-10
+     EXISTS
+  4. [activity_review] Dolphin Watching Cruise             — dolphins-bay-of-islands-family-review-2026-10
+     WILL GENERATE
+  5. [hidden_gems    ] Hamilton & Waikato                  — hamilton-waikato-with-kids-hidden-gems-families
+     EXISTS
+
+[1/5] Generating: bay-of-islands-family-family-deals-2026-10
+  Calling Groq (openai/gpt-oss-120b)...
+  Saved: content/posts/bay-of-islands-family-family-deals-2026-10.json
+
+[2/5] Generating: gisborne-east-cape-family-october-family-guide
+  Calling Groq (openai/gpt-oss-120b)...
+  ERROR: Error code: 400 - {'error': {'message': "Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.", 'type': 'invalid_request_error', 'code': 'json_validate_failed', 'failed_generation': '{"title":"October Family Holiday in Gisborne & East Cape – Sun, Surf & Adventure","short_title":"October in Gisborne","meta_desc":"Discover October in Gisborne & East Cape with kids – ideal weather, surf lessons, lighthouse sunrise, free beaches, and practical tips for a budget‑friendly family adventure.","intro":"October brings mild spring sunshine to the East Cape, making it perfect for families who want surf, nature and a touch of history without the summer crowds. From sunrise at Young\u202fNick’s Head to a natural rock slide, there’s plenty to keep kids smiling and parents relaxed.","reading_time":6,"sections":[{"heading":"Weather, Packing & Driving Times","body":"<p>October in Gisborne enjoys daytime highs of 20‑22\u202f°C and cool evenings around 12\u202f°C. The region receives about 70\u202fmm of rain, usually in short showers, so you’ll still get plenty of sunshine for beach time.</p><p>Most families drive from Auckland (≈5.5\u202fh, 540\u202fkm) or Wellington (≈9\u202fh, 770\u202fkm) via State Highway\u202f2. The road is well‑maintained, but allow extra time for photo stops at the lighthouse and marae sites.</p>","list":["Light waterproof jacket","Sun hat and sunscreen (SPF\u202f30+)", "Swimwear and quick‑dry towels","Reusable water bottles","Snacks for the 45‑minute drive to Rere Rockslide"]}],{"heading":"Top Kid‑Friendly Activities This Month","body":"<p>Spring is the ideal time for outdoor fun – the surf is gentle, the beaches are less crowded and the wildlife is active. Most activities are free or low‑cost, fitting comfortably into a $120–$200 daily budget.</p><p>Below are the must‑do experiences, with price, drive time from Gisborne and age suitability.</p>","list":["East Cape Lighthouse sunrise – free, 30\u202fmin drive, all ages. Arrive by 5:30\u202fam for the world’s first sunrise.","Wainui Beach surf lessons – NZD\u202f70 per adult, NZD\u202f55 per child (4‑12\u202fyrs), 10‑minute drive, suitable for beginners.","Rere Rockslide – free, 45\u202fmin drive, best for kids 5‑13\u202fyrs (bring a boogie board).","Tolaga Bay Wharf fishing – free, 20\u202fmin drive, all ages (bring a simple rod, NZD\u202f10 for a 2‑hour permit).","Eastwoodhill Arboretum guided walk – NZD\u202f25 family ticket, 40\u202fmin drive, ages 6+ (kids love the giant conifers)."]}],{"heading":"Events, Tours & What to Book Ahead","body":"<p>October sees a handful of community events that add cultural flavour to your trip. Because spaces are limited, it’s worth booking early.</p><p>The most popular are the Young\u202fNick’s Head guided walk (NZD\u202f15 per person) and the Eastwoodhill ‘Kids in the Canopy’ workshop (NZD\u202f30 per child). Both sell out by early September.</p>","list":["Young\u202fNick’s Head guided walk – book via Gisborne Visitor Centre, 2‑hour slot, ages 4+.","Eastwoodhill ‘Kids in the Canopy’ – 2‑hour hands‑on session, ages 5‑12, pre‑pay online.","Gisborne Food & Wine Festival (late Oct) – free entry, but book a table at the pop‑up kids’ food market (NZD\u202f20 per family) if you want a sit‑down spot."]}],{"heading":"Crowd Levels & Best Times to Visit","body":"<p>October sits between the quiet winter and the busy summer peak. Expect low to moderate traffic on the East Cape road, with the busiest periods around the weekend of the Gisborne Food & Wine Festival (usually the last weekend of the month).</p><p>For the most peaceful experience, aim for a weekday morning at the lighthouse or a mid‑week surf lesson. Beaches like Midway and Wainui are often empty before 10\u202fam, giving kids space to play safely.</p>"},{"heading":"Practical Tips for Families","body":"<p>These tried‑and‑tested pointers will help you stay on budget, keep the kids happy and make the most of October’s spring vibe.</p>","list":["Book surf lessons and Eastwoodhill workshops at least 3\u202fweeks in advance – they fill up fast in spring.","Carry cash for small rural shops; some wharf stalls don’t accept cards.","Pack a picnic; local cafés charge NZD\u202f12‑15 per adult for a lunch plate, while a family picnic costs about NZD\u202f8 for supplies.","Use the free Wi‑Fi at Gisborne Library (open 9\u202fam‑5\u202fpm) to download offline maps – cell coverage can be spotty on the East Cape road.","Check tide tables (available on the Gisborne Council website) before heading to Rere Rockslide; the slide is safest at low‑mid tide."]}]}'}}
+
+[3/5] Skipping (already exists): queenstown-with-kids-budget-family-guide-2026-10
+
+[4/5] Generating: dolphins-bay-of-islands-family-review-2026-10
+  Calling Groq (openai/gpt-oss-120b)...
+  ERROR: list indices must be integers or slices, not str
+
+[5/5] Skipping (already exists): hamilton-waikato-with-kids-hidden-gems-families
+
+Generated 1 articles.
+
+Rebuilding site...
+  Build complete — 891 HTML pages → /home/ben/nz-family-travel/docs/
+  Pushed to GitHub Pages
