@@ -1,0 +1,85 @@
+{
+  "title": "October Family Holiday in Northland 2026: Kids, Coast & Kauri",
+  "short_title": "October Northland with Kids",
+  "meta_desc": "Plan an unforgettable October family trip to Northland. Discover weather, kid‑friendly activities, booking tips, crowd levels and practical advice for 2026 holidays.",
+  "intro": "October brings mild sunshine and blossoming native flora to Northland, making it ideal for families eager to explore coastlines and ancient forests. With school holidays in full swing, you’ll find a balance of activity and relaxation for all ages.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Weather & Packing Tips",
+      "body": "<p>Northland enjoys a subtropical climate in October with daytime highs of 20‑23°C (68‑73°F) and cooler evenings around 13‑15°C (55‑59°F). Rainfall averages 70 mm across the month, usually in short, refreshing showers.</p><p>Pack layers: lightweight long‑sleeve shirts, a warm fleece for evenings, and a waterproof jacket. Sun protection is essential – bring a wide‑brim hat, sunscreen (SPF 30+), and plenty of water for the kids.</p>",
+      "list": [
+        "Layered clothing for changeable temps",
+        "Sun hat and sunscreen for beach days",
+        "Reusable water bottles – refill at cafés",
+        "Swimwear and quick‑dry towels for sand and surf"
+      ]
+    },
+    {
+      "heading": "Top Kid‑Friendly Activities This Month",
+      "body": "<p>October’s mild weather is perfect for exploring Northland’s iconic sites without the summer crowds. Most activities are suitable for children aged 4+, with many offering interactive elements.</p><p>Start the day at Cape Reinga (2‑hour drive from Auckland). The 30‑minute walk to the lighthouse is stroller‑friendly and free, offering dramatic ocean views where the Tasman Sea meets the Pacific.</p><p>Head south to Ninety Mile Beach for sandboarding – rental boards cost $25‑$35 per day for a family of four and are available in Kaitaia. The beach is safe for kids to wade, but keep a close eye on surf conditions.</p><p>Visit the Kauri Museum in Matakohe (1‑hour 45‑minute drive from Cape Reinga). Admission is $12 adults, $6 children (4‑15). Interactive displays teach about the giant trees that pre‑date Rome.</p><p>Don’t miss the Waitangi Treaty Grounds (1‑hour 30‑minute drive from Kauri Museum). Guided tours are $30 per adult, $15 per child and include a cultural performance.</p>",
+      "table": {
+        "headers": [
+          "Activity",
+          "Cost (NZD)"
+        ],
+        "rows": [
+          [
+            "Cape Reinga walk",
+            "Free"
+          ],
+          [
+            "Ninety Mile Beach sandboarding rental",
+            "$25‑$35 per day"
+          ],
+          [
+            "Kauri Museum entry",
+            "$12 adult / $6 child"
+          ],
+          [
+            "Waitangi Treaty Grounds tour",
+            "$30 adult / $15 child"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "What to Book Ahead",
+      "body": "<p>October is a popular school‑holiday month, so secure accommodation and key experiences early. Family cabins in the Bay of Islands fill up by late August; aim to book by early September.</p><p>Pre‑book a guided Maori cultural experience at Waitangi – groups of up to 12 are limited and cost $120 for a family of four, including a hangi lunch.</p><p>If you plan on sandboarding, reserve equipment online with Kaitaia Beach Rentals to guarantee availability and avoid on‑site queues.</p>",
+      "list": [
+        "Family cabin or holiday home (book by early Sep)",
+        "Waitangi cultural tour with hangi (reserve early)",
+        "Sandboarding equipment in Kaitaia (online booking)"
+      ]
+    },
+    {
+      "heading": "Crowd Levels & Best Times to Visit",
+      "body": "<p>October sits between the quiet winter and busy summer, offering moderate visitor numbers. Early October (first two weeks) is quieter, while the later half coincides with the NZ school holidays, bringing more families to the beaches and attractions.</p><p>To enjoy the best of both worlds, aim for weekday mornings at popular sites like Cape Reinga and the Kauri Museum. Evenings are quieter, perfect for sunset walks on Mangawhai Heads beach.</p>",
+      "list": [
+        "Weekday mornings = least crowds",
+        "Early October = quieter overall",
+        "Late October = school‑holiday buzz"
+      ]
+    },
+    {
+      "heading": "Practical Family Tips",
+      "body": "<p>Traveling with kids in Northland is easy when you’re prepared. Follow these tried‑and‑tested tips for a smooth, fun-filled holiday.</p>",
+      "list": [
+        "Carry a basic first‑aid kit – sand cuts and sunburns happen fast",
+        "Fill up on fuel in Whangarei; stations are sparse north of Kaitaia",
+        "Use the 4WD rental for Ninety Mile Beach if you want to drive the full length – $120‑$150 per day",
+        "Pack a portable high‑chair or booster seat for café visits",
+        "Check tide tables for beach walks; low tide reveals safe pathways at Hokianga dunes"
+      ],
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "northland-cape-reinga-family-october-family-guide",
+  "updated": "October 2026",
+  "auto_generated": true,
+  "generated_date": "2026-10-05"
+}

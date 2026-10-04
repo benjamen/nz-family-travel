@@ -5852,3 +5852,38 @@ Generated 1 articles.
 Rebuilding site...
   Build complete — 891 HTML pages → /home/ben/nz-family-travel/docs/
   Pushed to GitHub Pages
+
+Today's 5 articles (2026-10-04):
+
+  1. [deals          ] Queenstown                          — queenstown-with-kids-family-deals-2026-10
+     EXISTS
+  2. [month_guide    ] Taupo                               — taupo-with-kids-october-family-guide
+     WILL GENERATE
+  3. [budget         ] Bay of Islands                      — bay-of-islands-family-budget-family-guide-2026-10
+     WILL GENERATE
+  4. [activity_review] Huka Jet Boat                       — huka-jet-taupo-family-review-2026-10
+     WILL GENERATE
+  5. [hidden_gems    ] Dunedin                             — dunedin-family-guide-hidden-gems-families
+     EXISTS
+
+[1/5] Skipping (already exists): queenstown-with-kids-family-deals-2026-10
+
+[2/5] Generating: taupo-with-kids-october-family-guide
+  Calling Groq (openai/gpt-oss-120b)...
+  Saved: content/posts/taupo-with-kids-october-family-guide.json
+
+[3/5] Generating: bay-of-islands-family-budget-family-guide-2026-10
+  Calling Groq (openai/gpt-oss-120b)...
+  Saved: content/posts/bay-of-islands-family-budget-family-guide-2026-10.json
+
+[4/5] Generating: huka-jet-taupo-family-review-2026-10
+  Calling Groq (openai/gpt-oss-120b)...
+  ERROR: list indices must be integers or slices, not str
+
+[5/5] Skipping (already exists): dunedin-family-guide-hidden-gems-families
+
+Generated 2 articles.
+
+Rebuilding site...
+  Build complete — 895 HTML pages → /home/ben/nz-family-travel/docs/
+  Pushed to GitHub Pages
