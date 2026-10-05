@@ -1,0 +1,86 @@
+{
+  "title": "How to Visit Auckland on a Family Budget (3‑Day Guide)",
+  "short_title": "Auckland Family Budget",
+  "meta_desc": "Discover how a family of four can enjoy Auckland's beaches, islands and attractions for $200‑$350 a day. Free activities, budget stays and smart splurges explained.",
+  "intro": "Auckland may be New Zealand’s biggest city, but it’s also surprisingly affordable for families. With clever planning you can experience the zoo, sea life aquarium and island ferries without breaking the $350‑a‑day ceiling.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Budget Overview",
+      "body": "<p>For a family of four, aim for $200‑$350 per day, covering accommodation, meals, transport and a few paid attractions. A typical split looks like $80‑$120 for lodging, $70‑$100 for food, $30‑$50 for transport and $20‑$80 for activities.</p><p>Keep a simple spreadsheet and track each category; it’s easier to stay within range when you know exactly where the dollars go.</p>",
+      "list": [
+        "Accommodation: $80‑$120/night (mid‑range)",
+        "Meals: $70‑$100/day (mix of groceries and casual eateries)",
+        "Transport: $30‑$50/day (public bus, occasional Uber)",
+        "Paid attractions: $20‑$80/day (choose 1‑2 per day)"
+      ]
+    },
+    {
+      "heading": "Free & Low‑Cost Activities",
+      "body": "<p>Auckland’s best family memories often come from its free spaces. Pack a picnic and head to Mission Bay for beach play, or stroll the Tamaki Drive coastal walk for stunning harbour views. Albert Park and the city gardens are perfect for a quick break between sightseeing.</p><p>For low‑cost thrills, consider the Auckland War Memorial Museum (kids $15) or a short ferry ride to Rangitoto Island ($9 adult, $4 child) and enjoy the volcanic walk – a modest fee for a spectacular experience.</p>",
+      "list": [
+        "Mission Bay beach & reserve – free, 10‑min drive from city centre",
+        "Tamaki Drive walk – free, 5‑km coastal path",
+        "Albert Park – free, right in the CBD",
+        "Rangitoto Island ferry – $9 adult, $4 child (30‑min ride)",
+        "Auckland War Memorial Museum – $15 child, $20 adult"
+      ]
+    },
+    {
+      "heading": "Accommodation Options",
+      "body": "<p>Choosing the right base can shave hundreds off your trip. For families on a tight budget, the downtown YMCA Hostel offers family rooms from $85 per night, including kitchen facilities. A step up is the 3‑star Novotel on the waterfront at $130‑$150, providing complimentary breakfast and easy access to ferry terminals.</p><p>Airbnb apartments in suburbs like Ponsonby or Mt Eden often deliver 2‑bedroom units for $110‑$140, with the added benefit of a full kitchen to cook meals and save on dining out.</p>",
+      "list": [
+        "YMCA Auckland Hostel – family rooms $85/night, kitchen, 5‑min drive to city centre",
+        "Novotel Auckland Airport – $130‑$150/night, breakfast included, near ferry terminal",
+        "Airbnb 2‑bedroom in Ponsonby – $110‑$140/night, kitchen, 10‑min drive to Sky Tower"
+      ]
+    },
+    {
+      "heading": "Where to Save & When to Splurge",
+      "body": "<p>Save money by using AT HOP cards for buses and trains – a daily cap of $10 per adult keeps transport cheap. Shop at Countdown or New World for groceries and prepare simple lunches; a family of four can eat for under $30 a day.</p><p>Spend on experiences that truly wow the kids: Kelly Tarlton’s SEA LIFE Aquarium ($39 adult, $27 child) and the Sky Tower observation deck ($32 adult, $20 child). Both offer educational value and unforgettable views, making them worth the splurge.</p>",
+      "list": [
+        "Transport: AT HOP daily cap $10/adult",
+        "Groceries: $30/day for meals cooked at accommodation",
+        "Splurge: Kelly Tarlton’s SEA LIFE – $39 adult, $27 child",
+        "Splurge: Sky Tower – $32 adult, $20 child"
+      ]
+    },
+    {
+      "heading": "3‑Day Sample Budget",
+      "body": "<p>This sample itinerary shows how you can fit the highlights into a $300‑day budget while mixing free and paid activities.</p>",
+      "table": {
+        "headers": [
+          "Day",
+          "Activities & Costs",
+          "Total (NZD)"
+        ],
+        "rows": [
+          [
+            "Day 1",
+            "Stay at YMCA $85; Breakfast self‑cooked $10; Lunch picnic $12; Ferry to Rangitoto $26 (2 adults, 2 kids); Volcano walk free; Dinner at food court $30",
+            "$173"
+          ],
+          [
+            "Day 2",
+            "Novotel $140 (incl. breakfast); Visit Auckland Zoo $45 (2 adults $28, 2 kids $17); Afternoon at Mission Bay free; Ice‑cream treat $12",
+            "$197"
+          ],
+          [
+            "Day 3",
+            "Airbnb $120; Breakfast self‑cooked $10; Kelly Tarlton’s SEA LIFE $132 (2 adults $78, 2 kids $54); Sky Tower $104 (2 adults $64, 2 kids $40); Dinner takeaway $30",
+            "$396"
+          ]
+        ]
+      },
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "auckland-with-kids-budget-family-guide-2026-10",
+  "updated": "October 2026",
+  "auto_generated": true,
+  "generated_date": "2026-10-06"
+}
