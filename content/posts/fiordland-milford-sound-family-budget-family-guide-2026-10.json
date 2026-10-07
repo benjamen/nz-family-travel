@@ -1,0 +1,101 @@
+{
+  "title": "Family Budget Guide to Fiordland & Milford Sound",
+  "short_title": "Fiordland Family Budget",
+  "meta_desc": "Explore Fiordland and Milford Sound with a family of four on a $280‑$500 daily budget. Free drives, affordable stays, and tips on where to splurge for an unforgettable trip.",
+  "intro": "Fiordland’s wild scenery feels like another planet, yet it can be enjoyed without breaking the bank. With smart choices on transport, lodging and activities, a family of four can experience the magic of Milford Sound for $280‑$500 a day.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Getting There & Getting Around",
+      "body": "<p>Most families base themselves in Te Anau, a 2‑hour (130 km) drive north of Milford Sound on State Highway 94. The drive itself is a highlight – stop at Mirror Lakes for a quick photo op.</p><p>Renting a compact SUV (good for 4‑plus luggage) runs about $70‑$90 per day, plus $1.70/L fuel (≈$30 for the round‑trip to Milford each day). If you already own a car, factor in $0.25/km for wear and tear.</p>",
+      "list": [
+        "Drive Te Anau → Milford Sound: ~2 hrs (130 km) each way",
+        "Car rental (compact SUV): $70‑$90 / day",
+        "Fuel for round‑trip: ≈$30 / day"
+      ],
+      "table": null
+    },
+    {
+      "heading": "Where to Stay – Budget to Mid‑Range",
+      "body": "<p>Accommodation costs dominate the budget, but there are solid options from budget motels to family‑friendly lodges. All are within a 15‑minute drive of the Te Anau waterfront and a 2‑hour drive to Milford Sound.</p><p>Booking early in the shoulder season (April‑May or September‑October) secures the best rates.</p>",
+      "list": [
+        "YHA Te Anau (family room, 4‑person bunk): $120 / night – shared kitchen, free parking",
+        "Te Anau Lakeview Motel (2‑bedroom suite): $150 / night – en‑suite baths, breakfast optional",
+        "Fiordland Lodge (mid‑range, 2‑bedroom suite): $220 / night – lake views, on‑site restaurant"
+      ],
+      "table": null
+    },
+    {
+      "heading": "Free & Low‑Cost Experiences",
+      "body": "<p>The best part of Fiordland is that the landscape itself costs nothing. The iconic SH94 drive, Mirror Lakes, and the Te Anau lakeside boardwalk are all free and perfect for kids aged 5+.</p><p>Pack a picnic and enjoy a walk along the lake’s edge or a short hike to the Kepler Track’s start point – the first 2 km are suitable for younger children.</p>",
+      "list": [
+        "SH94 Milford Sound highway drive – spectacular scenery, 2‑hour each way",
+        "Mirror Lakes stop – 10 min walk, free photo ops",
+        "Lake Te Anau waterfront boardwalk – stroller‑friendly, free"
+      ],
+      "table": null
+    },
+    {
+      "heading": "Must‑Spend Activities",
+      "body": "<p>While many experiences are free, a few paid activities truly elevate the trip. Prioritise the nature cruise – especially the early‑morning slot in rain for extra waterfalls – and consider a kayak adventure if the kids are comfortable on water.</p><p>All prices listed are 2026 rates for a family of two adults and two children (5‑12 years).</p>",
+      "list": [
+        "Milford Sound Nature Cruise – $80 adult, $40 child (early‑morning rain slot recommended)",
+        "Kayaking in Milford Sound – $150 adult, $100 child (2‑hour guided)",
+        "Underwater Observatory – $25 adult, $15 child (30‑min experience)",
+        "Te Anau Glowworm Caves – $70 adult, $35 child (guided tour)",
+        "Kepler Track day walk guide – $120 family (includes transport & lunch)"
+      ],
+      "table": null
+    },
+    {
+      "heading": "3‑Day Sample Budget",
+      "body": "<p>This example shows how a family can stay within the $280‑$500 daily range while enjoying a mix of free sights and a few premium experiences.</p>",
+      "list": null,
+      "table": {
+        "headers": [
+          "Day",
+          "Accommodation",
+          "Transport",
+          "Activities",
+          "Food",
+          "Total"
+        ],
+        "rows": [
+          [
+            "Day 1",
+            "YHA Te Anau $120",
+            "Car $70 + fuel $15",
+            "Free drive SH94, Mirror Lakes $0",
+            "Groceries $80",
+            "$285"
+          ],
+          [
+            "Day 2",
+            "YHA Te Anau $120",
+            "Fuel $30",
+            "Milford Sound cruise $240 + Underwater Observatory $80",
+            "Restaurant $100",
+            "$570"
+          ],
+          [
+            "Day 3",
+            "YHA Te Anau $120",
+            "Fuel $30",
+            "Kayaking $500 + Glowworm Caves $210",
+            "Groceries $80",
+            "$1,040"
+          ]
+        ]
+      },
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "fiordland-milford-sound-family-budget-family-guide-2026-10",
+  "updated": "October 2026",
+  "auto_generated": true,
+  "generated_date": "2026-10-08"
+}

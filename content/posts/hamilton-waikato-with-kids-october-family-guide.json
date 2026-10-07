@@ -1,0 +1,98 @@
+{
+  "title": "October Family Fun in Hamilton & Waikato – 2026 Guide",
+  "short_title": "Oct in Hamilton",
+  "meta_desc": "Discover October weather, events, top kid‑friendly activities, drive times and budget tips for a family of four in Hamilton and the Waikato region. Plan your 2026 spring getaway now!",
+  "intro": "October brings spring to Hamilton and the wider Waikato, with blooming gardens and comfortable temperatures perfect for outdoor adventures. From Hobbiton to the Waitomo Caves, the region offers a mix of iconic attractions and hidden local gems that suit all ages.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Spring Weather & Packing Essentials",
+      "body": "<p>Hamilton enjoys mild spring weather in October, with average highs of 19‑22°C (66‑72°F) and lows around 9‑11°C (48‑52°F). Rainfall is moderate – expect about 10 mm per day, often in short showers.</p><p>Pack layers: a light waterproof jacket, long‑sleeve shirts, and comfortable trousers. Sun protection is still needed – the UV index can reach 5, so bring hats and sunscreen for the kids.</p>",
+      "list": [
+        "Light rain jacket (water‑proof)",
+        "Sun hat & SPF 30+ sunscreen",
+        "Sturdy walking shoes for uneven ground",
+        "Swimsuit for indoor pools or heated pools at hotels"
+      ]
+    },
+    {
+      "heading": "Top Kid‑Friendly Activities & Hidden Gems",
+      "body": "<p>Hamilton’s city centre offers a compact set of attractions that are easy to fit into a half‑day, while the surrounding Waikato region packs world‑renowned sites within a 45‑minute drive. All activities are suitable for children aged 3‑12, with many offering interactive elements for younger kids.</p><p>Don’t miss the Hamilton Gardens themed sections – the Italian Renaissance garden is a hit for older kids who love history, while the Tropical Garden delights the little explorers with colourful birds and ponds.</p>",
+      "list": [
+        "Hamilton Gardens – free entry, age‑suitable for all, 30‑45 min walk",
+        "Waikato Museum – $12 adult, $5 child (3‑15), interactive science zone",
+        "Hobbiton Movie Set – $89 adult, $44 child (5‑15), 45‑min guided tour (book 2 weeks ahead)",
+        "Waitomo Glowworm Caves – $59 adult, $30 child (4‑15), 30‑min boat ride (book early)",
+        "Matamata Horse Stud Tour – $45 adult, $25 child (6‑15), 1‑hour farm experience"
+      ]
+    },
+    {
+      "heading": "Events & Must‑Book Experiences in October 2026",
+      "body": "<p>October is a busy month for local festivals, giving families a chance to mingle with the community. Most events are free or low‑cost, but popular tours require advance booking to secure family slots.</p><p>Key events include the Hamilton Spring Festival (arts, food trucks, kids’ workshops) and the Waikato Agricultural Show – both running the first two weekends of the month.</p>",
+      "list": [
+        "Hamilton Spring Festival – free entry, kids’ craft zone (Sat & Sun, 10 am‑4 pm)",
+        "Waikato Agricultural Show – $15 adult, $7 child, livestock demos (Sat, 9 am‑3 pm)",
+        "Hobbiton Evening Tour – $109 adult, $59 child, includes lantern dinner (book 3 weeks ahead)",
+        "Waitomo Caving Night Walk – $75 adult, $40 child, limited to 20 families per night"
+      ]
+    },
+    {
+      "heading": "Crowd Levels & Best Times to Visit Attractions",
+      "body": "<p>October sits between the school holidays (April) and the summer peak, so visitor numbers are moderate. Early mornings (8‑10 am) are the quietest for popular sites like Hobbiton and the Waitomo Caves. Mid‑day can see a slight bump due to school‑group tours, especially on Saturdays.</p><p>Plan your day‑trip itineraries to start with the most popular attraction at opening, then move to the quieter countryside spots in the afternoon.</p>",
+      "list": [
+        "Hobbiton – arrive by 9 am for minimal queues",
+        "Waitomo Caves – first boat at 9:30 am is least crowded",
+        "Hamilton Gardens – best after 11 am when school groups leave"
+      ]
+    },
+    {
+      "heading": "Practical Family Tips for October",
+      "body": "<p>Traveling with kids in the Waikato is straightforward when you plan for the spring climate and the region’s spread‑out attractions. Below are five tried‑and‑tested tips to keep the whole family happy and on budget.</p>",
+      "list": [
+        "Book tours (Hobbiton, Waitomo) at least 2 weeks ahead – online discounts of up to 10 % for early payment.",
+        "Use a 1‑hour “day‑trip” pass for the Waikato River Cruise – $25 family (2 adults, 2 kids) – great for a relaxing afternoon.",
+        "Fuel cost estimate: $1.85/L (2026). A round‑trip Hamilton‑Hobbiton‑Waitomo is ~210 km, approx $16 fuel for a 4‑person car.",
+        "Pack a picnic from Hamilton’s farmers’ market (fresh fruit, cheese, $20 for a family pack) to enjoy at the gardens – saves $12‑$15 on café meals.",
+        "Check the weather app each evening – October showers often clear by afternoon, perfect for spontaneous walks."
+      ],
+      "table": {
+        "headers": [
+          "Attraction",
+          "Drive Time from Hamilton",
+          "Entry Fee (Family of 4)"
+        ],
+        "rows": [
+          [
+            "Hobbiton (Matamata)",
+            "45 min",
+            "$306 (2 adults $89 + 2 children $44)"
+          ],
+          [
+            "Waitomo Caves",
+            "1 hr 15 min",
+            "$178 (2 adults $59 + 2 children $30)"
+          ],
+          [
+            "Hamilton Gardens",
+            "5 min",
+            "Free"
+          ],
+          [
+            "Waikato Museum",
+            "7 min",
+            "$34 (2 adults $12 + 2 children $5)"
+          ]
+        ]
+      },
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "hamilton-waikato-with-kids-october-family-guide",
+  "updated": "October 2026",
+  "auto_generated": true,
+  "generated_date": "2026-10-08"
+}
