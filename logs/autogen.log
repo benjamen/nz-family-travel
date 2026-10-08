@@ -5994,3 +5994,38 @@ Generated 2 articles.
 Rebuilding site...
   Build complete — 915 HTML pages → /home/ben/nz-family-travel/docs/
   Pushed to GitHub Pages
+
+Today's 5 articles (2026-10-08):
+
+  1. [deals          ] Taupo                               — taupo-with-kids-family-deals-2026-10
+     EXISTS
+  2. [month_guide    ] Hamilton & Waikato                  — hamilton-waikato-with-kids-october-family-guide
+     WILL GENERATE
+  3. [budget         ] Fiordland & Milford Sound           — fiordland-milford-sound-family-budget-family-guide-2026-10
+     WILL GENERATE
+  4. [activity_review] Milford Sound Nature Cruise         — milford-sound-cruise-family-review-2026-10
+     WILL GENERATE
+  5. [hidden_gems    ] New Plymouth & Taranaki             — new-plymouth-taranaki-family-hidden-gems-families
+     EXISTS
+
+[1/5] Skipping (already exists): taupo-with-kids-family-deals-2026-10
+
+[2/5] Generating: hamilton-waikato-with-kids-october-family-guide
+  Calling Groq (openai/gpt-oss-120b)...
+  Saved: content/posts/hamilton-waikato-with-kids-october-family-guide.json
+
+[3/5] Generating: fiordland-milford-sound-family-budget-family-guide-2026-10
+  Calling Groq (openai/gpt-oss-120b)...
+  Saved: content/posts/fiordland-milford-sound-family-budget-family-guide-2026-10.json
+
+[4/5] Generating: milford-sound-cruise-family-review-2026-10
+  Calling Groq (openai/gpt-oss-120b)...
+  ERROR: Error code: 400 - {'error': {'message': "Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.", 'type': 'invalid_request_error', 'code': 'json_validate_failed', 'failed_generation': '{"title":"Milford Sound Nature Cruise: Honest Family Review & Tips","short_title":"Milford Sound Family Cruise","meta_desc":"Discover if Milford Sound\'s iconic nature cruise is worth it for families. We share real experiences with kids, costs, drive times, best season, booking hacks and honest downsides.","intro":"A Milford Sound cruise is a bucket‑list moment for many New\u202fZealand families, but the reality on board with little ones can be a bit different. We’ve taken the 2‑hour nature cruise with two kids (ages 4 and 9) and break down what you can expect, how much it really costs and how to get the best value.","reading_time":6,"sections":[{"heading":"What the Cruise Feels Like","body":"<p>The boat glides past sheer 1,500‑metre peaks, under the mist of Stirling and Lady Bowen Falls, and you’ll often see dolphins playing in the bow wave. The narration is informal and kid‑friendly – the guide points out the wildlife and even lets the kids shout “look!” when a seal pops up.</p><p>Seats are comfortable but there’s no onboard restroom, so plan a bathroom break before boarding. The deck is open, so wind can be brisk; a warm jacket is essential even in summer. The two‑hour duration is short enough for most children, though a few may get a bit restless if they’re not used to boat motion.</p>"},"list":[]},{"heading":"Kid‑Friendly Factors & Age Suitability","body":"<p>The cruise is marketed as 0+, and that’s largely true – toddlers can sit on a parent’s lap, but they’ll need a snug blanket and something to keep them occupied. Older kids love spotting kea, dolphins and the dramatic waterfalls, especially when the guide tells the Māori legends behind the fiord.</p><p>However, families should be aware of a few challenges: the boat can rock on choppy days, which may cause motion sickness, and there’s no Wi‑Fi or entertainment system on board. Bring snacks, a water bottle and a few small toys or a tablet for the quieter moments.</p>","list":["No onboard restroom – use facilities before boarding","Open deck = cold wind – pack warm layers","Motion can be an issue on rough days"]},{"heading":"Cost vs Value","body":"<p>At $95 per adult and $30 per child the price is mid‑range for a premium nature experience. For a typical family of two adults and two children (aged 4 and 9) the total comes to $250. Add the 4‑hour drive from Queenstown (≈4\u202fh each way, $150 fuel round‑trip) and you’re looking at roughly $400 total for the day.</p><p>Considering you get a guided 2‑hour cruise, spectacular scenery that’s hard to replicate elsewhere, and the chance to see wildlife up close, most families feel the price is justified – especially if you’re already in the Fiordland region.</p>","table":{"headers":["Family composition","Total ticket cost"],"rows":[["2 adults + 2 children (4\u202fy, 9\u202fy)","$250"],["2 adults + 1 child (7\u202fy)","$220"],["2 adults only","$190"]]}},"list":[]},{"heading":"Best Time to Go & Insider Tips","body":"<p>The cruise runs year‑round, but the most reliable weather is late spring (October‑November) and early autumn (March‑April). Morning departures are usually calmer and give you the best light for photos. If you’re visiting in summer, book the earliest slot to avoid the crowds that build later in the day.</p><p>Insider tip: combine the cruise with a bus tour from Queenstown or Te Anau – many operators include a scenic drive, a short walk to the Mirror Lakes and a lunch stop, giving you more value for the same price.</p>","list":["Book the 8:30\u202fam cruise for calm seas and fewer tourists","Bring a waterproof dry‑bag for phones and snacks","If you’re prone to motion sickness, take an over‑the‑counter remedy before boarding"]},{"heading":"How to Book and Save Money","body":"<p>You can book directly on the cruise operator’s website, via the Fiordland National Park visitor centre, or through third‑party travel agents. Booking 2‑3 weeks ahead secures the best slot and sometimes a 5% early‑bird discount.</p><p>To stretch your budget, consider these options: use the NZTA discount for families travelling on a rental car, look for combo tickets that bundle the cruise with a bus tour, or check the “Deal of the Day” on sites like Bookme or Kiwitourism. If you have a flexible schedule, the off‑peak winter months (June‑August) can be cheaper, though you’ll need to bundle with a warm coat.</p>","list":["Early‑bird 5% discount when you book >14\u202fdays in advance","NZTA family discount – 10% off when you show your rental agreement","Combo cruise + bus tour often saves $30‑$50 per adult"]}}]}'}}
+
+[5/5] Skipping (already exists): new-plymouth-taranaki-family-hidden-gems-families
+
+Generated 2 articles.
+
+Rebuilding site...
+  Build complete — 919 HTML pages → /home/ben/nz-family-travel/docs/
+  Pushed to GitHub Pages
