@@ -1,0 +1,131 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//nzfamilytravel.co.nz//NZ School Holidays//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:NZ School Holidays
+X-WR-TIMEZONE:Pacific/Auckland
+BEGIN:VEVENT
+UID:0b8ca132d1abbdf9@nzfamilytravel.co.nz
+DTSTAMP:20261010T000000Z
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20261012
+SUMMARY:NZ school holidays: Spring
+DESCRIPTION:Official Ministry of Education dates\, the same for all state s
+ chools. Whale watching in Kaikōura peaks in spring. Nelson and Marlboroug
+ h Sounds are superb with kids. Dates and ideas: https://nzfamilytravel.co.
+ nz/school-holidays/
+URL:https://nzfamilytravel.co.nz/school-holidays/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2fe79966b0a6c5d6@nzfamilytravel.co.nz
+DTSTAMP:20261010T000000Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20270128
+SUMMARY:NZ school holidays: Summer
+DESCRIPTION:Official Ministry of Education dates\, the same for all state s
+ chools. Book campervans by August at the latest. Northland\, Coromandel an
+ d Bay of Islands are the top picks for families. Dates and ideas: https://
+ nzfamilytravel.co.nz/school-holidays/
+URL:https://nzfamilytravel.co.nz/school-holidays/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:79fedabed3ea0098@nzfamilytravel.co.nz
+DTSTAMP:20261010T000000Z
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261013
+SUMMARY:NZ school: Term 4 starts
+DESCRIPTION:Official Ministry of Education term dates. Dates and ideas: htt
+ ps://nzfamilytravel.co.nz/school-holidays/
+URL:https://nzfamilytravel.co.nz/school-holidays/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:84c2c46557afcd6c@nzfamilytravel.co.nz
+DTSTAMP:20261010T000000Z
+DTSTART;VALUE=DATE:20270410
+DTEND;VALUE=DATE:20270427
+SUMMARY:NZ school holidays: Autumn
+DESCRIPTION:Official Ministry of Education dates\, the same for all state s
+ chools. Good autumn break for South Island — cooler temperatures perfect
+  for walking and exploring. Dates and ideas: https://nzfamilytravel.co.nz/
+ school-holidays/
+URL:https://nzfamilytravel.co.nz/school-holidays/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2a4604b099131ad9@nzfamilytravel.co.nz
+DTSTAMP:20261010T000000Z
+DTSTART;VALUE=DATE:20270703
+DTEND;VALUE=DATE:20270719
+SUMMARY:NZ school holidays: Winter
+DESCRIPTION:Official Ministry of Education dates\, the same for all state s
+ chools. Skifields open mid-June typically. Week 2 of winter holidays usual
+ ly has the best snow base. Dates and ideas: https://nzfamilytravel.co.nz/s
+ chool-holidays/
+URL:https://nzfamilytravel.co.nz/school-holidays/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b98e18e3aa7595f6@nzfamilytravel.co.nz
+DTSTAMP:20261010T000000Z
+DTSTART;VALUE=DATE:20270925
+DTEND;VALUE=DATE:20271011
+SUMMARY:NZ school holidays: Spring
+DESCRIPTION:Official Ministry of Education dates\, the same for all state s
+ chools. October is a gem — shoulder season pricing\, school holiday-free
+  and warm enough for beaches in the north. Dates and ideas: https://nzfami
+ lytravel.co.nz/school-holidays/
+URL:https://nzfamilytravel.co.nz/school-holidays/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:08b6cf8b6a0fb4e9@nzfamilytravel.co.nz
+DTSTAMP:20261010T000000Z
+DTSTART;VALUE=DATE:20271218
+DTEND;VALUE=DATE:20271219
+SUMMARY:NZ school holidays: Summer begins
+DESCRIPTION:Official Ministry of Education dates\, the same for all state s
+ chools. Term 1 of the following year starts in late January or early Febru
+ ary. Book everything by September 2027. Christmas week is the most expensi
+ ve — consider travelling 26 Dec or later. Dates and ideas: https://nzfam
+ ilytravel.co.nz/school-holidays/
+URL:https://nzfamilytravel.co.nz/school-holidays/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f52fba8b5d30ab1c@nzfamilytravel.co.nz
+DTSTAMP:20261010T000000Z
+DTSTART;VALUE=DATE:20270427
+DTEND;VALUE=DATE:20270428
+SUMMARY:NZ school: Term 2 starts
+DESCRIPTION:Official Ministry of Education term dates. Dates and ideas: htt
+ ps://nzfamilytravel.co.nz/school-holidays/
+URL:https://nzfamilytravel.co.nz/school-holidays/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cf27c7375282ee6b@nzfamilytravel.co.nz
+DTSTAMP:20261010T000000Z
+DTSTART;VALUE=DATE:20270719
+DTEND;VALUE=DATE:20270720
+SUMMARY:NZ school: Term 3 starts
+DESCRIPTION:Official Ministry of Education term dates. Dates and ideas: htt
+ ps://nzfamilytravel.co.nz/school-holidays/
+URL:https://nzfamilytravel.co.nz/school-holidays/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:994e3f5234288927@nzfamilytravel.co.nz
+DTSTAMP:20261010T000000Z
+DTSTART;VALUE=DATE:20271011
+DTEND;VALUE=DATE:20271012
+SUMMARY:NZ school: Term 4 starts
+DESCRIPTION:Official Ministry of Education term dates. Dates and ideas: htt
+ ps://nzfamilytravel.co.nz/school-holidays/
+URL:https://nzfamilytravel.co.nz/school-holidays/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

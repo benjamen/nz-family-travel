@@ -5,22 +5,51 @@
   "meta_desc": "Plan the NZ Easter school holidays 2027 with kids — exact dates, top autumn destinations, Easter events and egg hunts, what's open, and what it costs.",
   "focus_keyword": "easter school holidays NZ",
   "schema_type": "Article",
-  "intro": "Easter 2027 lands in early autumn — the sweet spot of the NZ travel year, when the weather is settled, the crowds have thinned, and a four-day long weekend rolls straight into the autumn school holidays. With Good Friday on 2 April and Easter Monday on 5 April, plus the school break running roughly 9–25 April, families get a generous window for a road trip or a relaxed regional escape. This guide covers exact dates, the best Easter destinations, events and egg hunts, what's open over the restricted-trading days, and what it all costs.",
-  "key_takeaway": "Easter 2027: Good Friday 2 April, Easter Monday 5 April. The autumn school holidays run approx 9–25 April 2027. Easter is cheaper and quieter than summer but still busy — book 6–8 weeks ahead. Good Friday and Easter Sunday are restricted trading days, so stock up beforehand.",
-  "updated": "June 2026",
+  "intro": "Easter 2027 is early: Good Friday is 26 March and Easter Monday is 29 March, and state schools also close on Easter Tuesday, 30 March. The autumn school holidays follow two weeks later, from 10 to 26 April, so families can choose the four-day long weekend, the full school break, or both. This guide covers exact dates, the best Easter destinations, events and egg hunts, what's open over the restricted-trading days, and what it all costs.",
+  "key_takeaway": "Easter 2027: Good Friday 26 March, Easter Monday 29 March (state schools also close Easter Tuesday, 30 March). The autumn school holidays follow two weeks later, 10–26 April 2027, after Term 1 ends on Friday 9 April. Easter is cheaper and quieter than summer but still busy — book 6–8 weeks ahead. Good Friday and Easter Sunday are restricted trading days, so stock up beforehand.",
+  "updated": "October 2026",
   "reading_time": 9,
   "sections": [
     {
       "heading": "Easter 2027 Dates and School Holidays",
-      "body": "<p>Easter 2027 falls slightly earlier than 2026. Good Friday is <strong>2 April</strong> and Easter Monday is <strong>5 April 2027</strong>, giving a four-day long weekend. The autumn school holidays then run approximately <strong>9–25 April 2027</strong> (regions vary by a few days, and Term 1 ends around 8 April). For many families the long weekend and the school break almost join up, making this one of the best stretches of the year for a getaway.</p>",
+      "body": "<p>Easter 2027 falls much earlier than 2026. Good Friday is <strong>26 March</strong> and Easter Monday is <strong>29 March 2027</strong>, giving a four-day long weekend, and state schools also close on Easter Tuesday, <strong>30 March</strong>. Term 1 then ends on <strong>Friday 9 April</strong> and the autumn school holidays run <strong>10–26 April 2027</strong>. Because they are two weeks apart, the long weekend and the school break do not join up this year, so you can plan either on its own or take both.</p>",
       "table": {
-        "headers": ["Date 2027", "Day", "What it is"],
+        "headers": [
+          "Date 2027",
+          "Day",
+          "What it is"
+        ],
         "rows": [
-          ["Fri 2 Apr", "Good Friday", "Public holiday; restricted trading"],
-          ["Sun 4 Apr", "Easter Sunday", "Restricted trading (most shops closed)"],
-          ["Mon 5 Apr", "Easter Monday", "Public holiday; shops trade normally"],
-          ["~Thu 8 Apr", "Last day of Term 1", "Schools break for autumn holidays"],
-          ["~9–25 Apr", "Autumn school holidays", "~2 weeks (regions vary)"]
+          [
+            "Fri 26 Mar",
+            "Good Friday",
+            "Public holiday; restricted trading"
+          ],
+          [
+            "Sun 28 Mar",
+            "Easter Sunday",
+            "Restricted trading (most shops closed)"
+          ],
+          [
+            "Mon 29 Mar",
+            "Easter Monday",
+            "Public holiday; shops trade normally"
+          ],
+          [
+            "Tue 30 Mar",
+            "Easter Tuesday",
+            "School holiday for state schools"
+          ],
+          [
+            "Fri 9 Apr",
+            "Last day of Term 1",
+            "Schools break for autumn holidays"
+          ],
+          [
+            "10–26 Apr",
+            "Autumn school holidays",
+            "2+ weeks, the same dates nationwide; Term 2 starts Tue 27 Apr"
+          ]
         ]
       }
     },
@@ -39,13 +68,37 @@
       "heading": "Top NZ Easter Destinations for Families",
       "body": "<p>These regions are at their best over Easter — mild weather, family-friendly activities, and good rainy-day backups if autumn delivers a wet weekend.</p>",
       "table": {
-        "headers": ["Destination", "Why it's great at Easter", "Best for"],
+        "headers": [
+          "Destination",
+          "Why it's great at Easter",
+          "Best for"
+        ],
         "rows": [
-          ["Northland & Bay of Islands", "Last of the warm beach weather; calm bays", "Beach-loving families"],
-          ["Coromandel", "Hot Water Beach, Cathedral Cove, quieter than summer", "All ages"],
-          ["Marlborough", "Harvest season, family wineries with playgrounds", "Foodie families"],
-          ["Queenstown & Central Otago", "Autumn colour, luge, biking, lake activities", "Active families, tweens & teens"],
-          ["Rotorua & Taupo", "Geothermal warmth, rain-safe attractions", "Wet-weather backup"]
+          [
+            "Northland & Bay of Islands",
+            "Last of the warm beach weather; calm bays",
+            "Beach-loving families"
+          ],
+          [
+            "Coromandel",
+            "Hot Water Beach, Cathedral Cove, quieter than summer",
+            "All ages"
+          ],
+          [
+            "Marlborough",
+            "Harvest season, family wineries with playgrounds",
+            "Foodie families"
+          ],
+          [
+            "Queenstown & Central Otago",
+            "Autumn colour, luge, biking, lake activities",
+            "Active families, tweens & teens"
+          ],
+          [
+            "Rotorua & Taupo",
+            "Geothermal warmth, rain-safe attractions",
+            "Wet-weather backup"
+          ]
         ]
       }
     },
@@ -82,15 +135,39 @@
     },
     {
       "heading": "Easter vs Summer — Cost Comparison",
-      "body": "<p>Easter is noticeably cheaper than the summer school holidays, but it's far from a quiet weekend — the long weekend is one of the busiest travel periods of the year. Expect prices between off-peak and summer peak.</p>",
+      "body": "<p>Easter is noticeably cheaper than the summer school holidays, but it's far from a quiet weekend — the long weekend is one of the busiest travel periods of the year, and the April school holidays two weeks later are busy too. Expect prices between off-peak and summer peak.</p>",
       "table": {
-        "headers": ["Factor", "Easter 2027", "Summer (Dec–Jan)"],
+        "headers": [
+          "Factor",
+          "Easter 2027",
+          "Summer (Dec–Jan)"
+        ],
         "rows": [
-          ["Accommodation pricing", "Moderate — above off-peak, below summer", "Peak — highest of the year"],
-          ["Crowds", "Busy long weekend, quieter mid-break", "Very busy throughout"],
-          ["Weather", "Mild autumn, 15–20°C", "Hot summer, 20–28°C"],
-          ["Booking lead time", "6–8 weeks ahead", "2–3 months ahead"],
-          ["Daily cost (family of 4)", "$150–300", "$200–400+"]
+          [
+            "Accommodation pricing",
+            "Moderate — above off-peak, below summer",
+            "Peak — highest of the year"
+          ],
+          [
+            "Crowds",
+            "Busy long weekend, quieter mid-break",
+            "Very busy throughout"
+          ],
+          [
+            "Weather",
+            "Mild autumn, 15–20°C",
+            "Hot summer, 20–28°C"
+          ],
+          [
+            "Booking lead time",
+            "6–8 weeks ahead",
+            "2–3 months ahead"
+          ],
+          [
+            "Daily cost (family of 4)",
+            "$150–300",
+            "$200–400+"
+          ]
         ]
       }
     },
@@ -113,7 +190,7 @@
   "faq": [
     {
       "question": "When is Easter 2027 in New Zealand?",
-      "answer": "Good Friday is 2 April 2027 and Easter Monday is 5 April 2027, giving a four-day long weekend. The autumn school holidays then run approximately 9–25 April 2027, with regions varying by a few days."
+      "answer": "Good Friday is 26 March 2027 and Easter Monday is 29 March 2027, giving a four-day long weekend, and state schools also close on Easter Tuesday, 30 March. Term 1 ends on Friday 9 April and the autumn school holidays run 10–26 April 2027."
     },
     {
       "question": "Are the Easter school holidays a good time to travel with kids?",

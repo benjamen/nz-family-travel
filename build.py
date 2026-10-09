@@ -7,6 +7,7 @@ import time
 from pathlib import Path
 from datetime import datetime
 from urllib.parse import quote_plus
+import sys
 from jinja2 import Environment, FileSystemLoader
 
 ROOT    = Path(__file__).parent
@@ -15,6 +16,9 @@ LAYOUTS = ROOT / "layouts"
 STATIC  = ROOT / "static"
 CONTENT = ROOT / "content"
 OUT     = ROOT / "docs"
+
+sys.path.insert(0, str(ROOT / "scripts"))
+from school_holidays_ics import build_ics
 
 env = Environment(loader=FileSystemLoader(str(LAYOUTS)), autoescape=False)
 env.filters['url_encode'] = quote_plus
@@ -118,6 +122,10 @@ def build():
     media           = load("media")
     cities          = load("cities")
     school_holidays = load("school_holidays")
+    # Calendar download for the school holidays pages, built from the same data so it can never disagree with them
+    ics_path = OUT / "static" / "downloads" / "nz-school-holidays.ics"
+    ics_path.parent.mkdir(parents=True, exist_ok=True)
+    ics_path.write_text(build_ics(school_holidays, site["base_url"]), encoding="utf-8", newline="")
     weather         = load("weather")
     holiday_parks   = load("holiday_parks")
     guides          = load_content_dir("travel-tips")
