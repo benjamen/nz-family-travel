@@ -1,0 +1,102 @@
+{
+  "title": "How to Visit New Plymouth & Taranaki on a Family Budget",
+  "short_title": "Budget New Plymouth",
+  "meta_desc": "Discover a 3‑day family itinerary for New Plymouth & Taranaki that stays within $150‑$250 a day, with free activities, cheap stays and smart splurges.",
+  "intro": "New Plymouth offers volcano views, surf beaches and one of NZ’s best parks – all without breaking the bank. This guide shows how a family of four can enjoy the region for $150‑$250 per day.",
+  "reading_time": 6,
+  "sections": [
+    {
+      "heading": "Getting There & Getting Around",
+      "body": "<p>Most families arrive by car from nearby cities – the drive from Auckland takes about 5 hours, while Wellington is a 4‑hour trip via State Highway 3. Flying into New Plymouth Airport can be pricey, so the road trip is often the most economical choice.</p><p>Once in town, a family‑size car (or a compact SUV) is the cheapest way to explore the wider Taranaki region. Parking in the town centre is free, and most attractions are within a 20‑minute drive. For day‑trips to the coastal walk or Mt Taranaki, budget $10‑$15 for fuel per day.</p>",
+      "list": [
+        "Car hire: $60‑$80/day for a 7‑seat vehicle",
+        "Fuel: approx $1.70/L, ~30 km round‑trip to coastal walk = $5",
+        "Public bus: $3 per adult, $1.50 per child (limited routes)"
+      ],
+      "table": null
+    },
+    {
+      "heading": "Where to Stay – Cheap to Mid‑Range",
+      "body": "<p>Accommodation is the biggest variable in your daily budget. New Plymouth has several family‑friendly options that keep costs low without sacrificing comfort.</p><p>For the budget‑conscious, consider the Backpackers Lodge or the Taranaki Motor Inn – both offer family rooms with kitchenettes for $120‑$150 per night. Mid‑range families often choose the Heritage Hotel or the Novotel New Plymouth, where a family suite runs $180‑$220 and includes breakfast.</p>",
+      "list": [
+        "Backpackers Lodge – 2‑bedroom dorm style, kitchen, $130/night",
+        "Taranaki Motor Inn – 2‑bedroom unit, free parking, $145/night",
+        "Heritage Hotel – family suite, breakfast included, $195/night",
+        "Novotel – sea‑view family room, pool, $215/night"
+      ],
+      "table": null
+    },
+    {
+      "heading": "Free & Low‑Cost Activities",
+      "body": "<p>New Plymouth shines when it comes to free attractions. Pukekura Park is the crown jewel – wander the duck pond, let the kids splash in the boating lake and explore the small zoo at no charge. The 13 km coastal walkway is perfect for a family bike ride or a stroller‑friendly stroll.</p><p>For a modest fee, you can add a short ferry ride to the historic Port Taranaki or rent a bike for $12 per day. Most museums, like the Govett‑Brewster Art Gallery, are free, while the Len Lye Centre asks for a voluntary $5 donation.</p>",
+      "list": [
+        "Pukekura Park – free (boat hire $5 per hour)",
+        "Coastal Walkway – free (bike hire $12/day)",
+        "Govett‑Brewster Art Gallery – free entry",
+        "Len Lye Centre – $5 suggested donation",
+        "Brooklands Zoo – free (donations welcome)"
+      ],
+      "table": null
+    },
+    {
+      "heading": "Where It’s Worth Splurging",
+      "body": "<p>If you want a memorable highlight, book a guided Mt Taranaki summit hike (or the Pouakai Circuit) with a local operator. Prices start at $80 per adult and $40 per child, including transport, gear and a guide – a great value for safety and expertise.</p><p>A night stay at the historic Fernside Lodge, a boutique B&B on the mountain’s foothills, adds $30‑$40 per person for a unique experience. Finally, treat the family to a dinner at the award‑winning local restaurant, The Taranaki Kitchen, where a four‑course family meal runs about $120.</p>",
+      "list": [
+        "Mt Taranaki guided hike – $80 adult, $40 child",
+        "Fernside Lodge B&B night – $30‑$40 per person",
+        "The Taranaki Kitchen family dinner – $120 total"
+      ],
+      "table": null
+    },
+    {
+      "heading": "3‑Day Budget Breakdown",
+      "body": "<p>Below is a sample budget that stays within the $150‑$250 daily range, assuming a mid‑range accommodation and a mix of free and paid activities.</p>",
+      "list": null,
+      "table": {
+        "headers": [
+          "Day",
+          "Accommodation",
+          "Food",
+          "Activities",
+          "Transport",
+          "Total"
+        ],
+        "rows": [
+          [
+            "Day 1",
+            "$180 (Novotel family suite)",
+            "$80 (groceries + café)",
+            "$0 (Pukekura Park)",
+            "$15 (fuel)",
+            "$275"
+          ],
+          [
+            "Day 2",
+            "$180",
+            "$90 (breakfast at hotel, lunch takeaway, dinner at Taranaki Kitchen)",
+            "$120 (Mt Taranaki guided hike)",
+            "$15",
+            "$505"
+          ],
+          [
+            "Day 3",
+            "$130 (Backpackers Lodge)",
+            "$70 (self‑catered)",
+            "$0 (coastal walk, free museum)",
+            "$15",
+            "$335"
+          ]
+        ]
+      },
+      "cta": {
+        "text": "Compare campervan prices & book activities",
+        "url": "https://www.discovercars.com/",
+        "affiliate": true
+      }
+    }
+  ],
+  "slug": "new-plymouth-taranaki-family-budget-family-guide-2026-10",
+  "updated": "October 2026",
+  "auto_generated": true,
+  "generated_date": "2026-10-10"
+}
