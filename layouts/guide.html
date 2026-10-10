@@ -55,7 +55,7 @@
 ]
 </script>
 {% endblock %}
-{% block title %}{{ guide.title }}{% if guide.title | length <= 46 %} | NZ Family Travel{% endif %}{% endblock %}
+{% block title %}{% set _t = guide.seo_title or guide.title %}{{ _t }}{% if _t | length <= 41 %} | NZ Family Travel{% endif %}{% endblock %}
 {% block desc %}{{ guide.meta_desc }}{% endblock %}
 {% block canonical %}{{ _section }}/{{ guide.canonical_slug if guide.canonical_slug else guide.slug }}/{% endblock %}
 {% block robots %}{{ 'noindex, follow' if guide.noindex else 'index, follow' }}{% endblock %}

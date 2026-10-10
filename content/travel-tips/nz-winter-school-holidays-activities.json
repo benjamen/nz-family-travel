@@ -23,13 +23,31 @@
       "heading": "NZ Winter School Holiday Dates 2026",
       "body": "<p>Here are the confirmed Term 2 winter break dates for most New Zealand state schools in 2026. A handful of Auckland schools and private schools shift their dates by a few days, so always check your own school's calendar before booking flights or accommodation.</p><p>The big one to circle is <strong>Matariki, Friday 10 July 2026</strong> — a public holiday that falls inside the break, so expect attractions, hot pools and ski fields to be especially busy that long weekend.</p>",
       "table": {
-        "headers": ["Milestone", "Date 2026"],
+        "headers": [
+          "Milestone",
+          "Date 2026"
+        ],
         "rows": [
-          ["Term 2 ends", "Friday 26 June"],
-          ["Winter holidays begin", "Saturday 27 June"],
-          ["Matariki public holiday", "Friday 10 July"],
-          ["Winter holidays end", "Sunday 12 July"],
-          ["Term 3 starts", "Monday 13 July"]
+          [
+            "Term 2 ends",
+            "Friday 26 June"
+          ],
+          [
+            "Winter holidays begin",
+            "Saturday 27 June"
+          ],
+          [
+            "Matariki public holiday",
+            "Friday 10 July"
+          ],
+          [
+            "Winter holidays end",
+            "Sunday 12 July"
+          ],
+          [
+            "Term 3 starts",
+            "Monday 13 July"
+          ]
         ]
       }
     },
@@ -97,13 +115,31 @@
       "heading": "What It Costs",
       "body": "<p>Winter can be as cheap or as splashy as you like. Hot pools, museums and snow play keep a family day well under $100, while a full day at a ski field with gear hire and lessons is the big-ticket item. Here's a rough guide for a family of four.</p>",
       "table": {
-        "headers": ["Activity", "Approx. cost (family of 4)"],
+        "headers": [
+          "Activity",
+          "Approx. cost (family of 4)"
+        ],
         "rows": [
-          ["Free snow play + thermos lunch", "$0–$20"],
-          ["Hot pools (family pass)", "$70–$95"],
-          ["Trampoline park (1 hour)", "~$80"],
-          ["Antarctic Centre / Snowplanet", "$160–$200"],
-          ["Ski field day: passes, hire, lessons", "$400–$700+"]
+          [
+            "Free snow play + thermos lunch",
+            "$0–$20"
+          ],
+          [
+            "Hot pools (family pass)",
+            "$70–$95"
+          ],
+          [
+            "Trampoline park (1 hour)",
+            "~$80"
+          ],
+          [
+            "Antarctic Centre / Snowplanet",
+            "$160–$200"
+          ],
+          [
+            "Ski field day: passes, hire, lessons",
+            "$400–$700+"
+          ]
         ]
       },
       "cta": {
@@ -138,5 +174,6 @@
   "hero_image": {
     "url": "/static/img/destinations/nz-winter-school-holidays-activities.jpg",
     "alt": "Family snow play during the New Zealand winter school holidays in July"
-  }
+  },
+  "seo_title": "NZ Winter School Holidays 2026 — 50 Activities for Families"
 }

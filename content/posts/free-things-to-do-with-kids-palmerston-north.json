@@ -41,16 +41,43 @@
       "heading": "Budget Summary for Palmerston North Families",
       "body": "<p>Palmerston North is one of NZ's most affordable cities for family activities. The major paid attractions (Lido Aquatic Centre at $8–$14/person, Laser Zone at $15/session, bowling at $10–$15/game) are fun upgrades but not essential for a good day.</p>",
       "table": {
-        "headers": ["Activity", "Cost (family of 4)"],
+        "headers": [
+          "Activity",
+          "Cost (family of 4)"
+        ],
         "rows": [
-          ["Te Manawa Museum + Art Gallery", "Free"],
-          ["Te Manawa MindWorks Science Centre", "~$28 (kids only)"],
-          ["The Square duck pond and playground", "Free"],
-          ["Victoria Esplanade + bird aviary", "Free"],
-          ["Ashhurst Domain fallow deer", "Free"],
-          ["Hokowhitu Lagoon walk", "Free"],
-          ["City Library school holiday events", "Free"],
-          ["Lido Aquatic Centre (upgrade)", "$50–$60 family"]
+          [
+            "Te Manawa Museum + Art Gallery",
+            "Free"
+          ],
+          [
+            "Te Manawa MindWorks Science Centre",
+            "~$28 (kids only)"
+          ],
+          [
+            "The Square duck pond and playground",
+            "Free"
+          ],
+          [
+            "Victoria Esplanade + bird aviary",
+            "Free"
+          ],
+          [
+            "Ashhurst Domain fallow deer",
+            "Free"
+          ],
+          [
+            "Hokowhitu Lagoon walk",
+            "Free"
+          ],
+          [
+            "City Library school holiday events",
+            "Free"
+          ],
+          [
+            "Lido Aquatic Centre (upgrade)",
+            "$50–$60 family"
+          ]
         ]
       }
     }
@@ -76,5 +103,6 @@
   "hero_image": {
     "url": "/static/img/destinations/palmerston-north-esplanade-family.jpg",
     "alt": "Families enjoying Victoria Esplanade in Palmerston North"
-  }
+  },
+  "seo_title": "Free Things to Do with Kids in Palmerston North 2026"
 }

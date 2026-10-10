@@ -14,13 +14,37 @@
       "heading": "Exact Summer Holiday Dates 2026/27",
       "body": "<p>The summer break is the longest of the year because it spans the end of Term 4 and the start of Term 1 the following year. For 2026/27, schools finish around <strong>Friday 19 December 2026</strong> and return around <strong>Wednesday 27–28 January 2027</strong> (Auckland a day earlier). Canterbury and some other regions break up a week earlier. That gives most families roughly six weeks off, straddling Christmas, New Year, and Auckland Anniversary weekend.</p>",
       "table": {
-        "headers": ["Milestone", "Date 2026/27", "What it means for travel"],
+        "headers": [
+          "Milestone",
+          "Date 2026/27",
+          "What it means for travel"
+        ],
         "rows": [
-          ["Schools close", "Fri 18–19 Dec 2026", "Holiday traffic starts; ferries and main routes busy"],
-          ["Christmas Day", "Fri 25 Dec 2026", "Restricted trading; supermarkets closed"],
-          ["Boxing Day", "Sat 26 Dec 2026", "Holiday parks at absolute peak; sales begin"],
-          ["New Year", "1 Jan 2027", "Beaches and campgrounds packed through early Jan"],
-          ["Term 1 starts", "Wed 27–28 Jan 2027", "Auckland 27 Jan; rest 28 Jan (approx)"]
+          [
+            "Schools close",
+            "Fri 18–19 Dec 2026",
+            "Holiday traffic starts; ferries and main routes busy"
+          ],
+          [
+            "Christmas Day",
+            "Fri 25 Dec 2026",
+            "Restricted trading; supermarkets closed"
+          ],
+          [
+            "Boxing Day",
+            "Sat 26 Dec 2026",
+            "Holiday parks at absolute peak; sales begin"
+          ],
+          [
+            "New Year",
+            "1 Jan 2027",
+            "Beaches and campgrounds packed through early Jan"
+          ],
+          [
+            "Term 1 starts",
+            "Wed 27–28 Jan 2027",
+            "Auckland 27 Jan; rest 28 Jan (approx)"
+          ]
         ]
       }
     },
@@ -38,13 +62,37 @@
       "heading": "Booking Urgency — What to Lock In and When",
       "body": "<p>Summer rewards planning months ahead. Here's the realistic timeline for 2026/27. Miss these windows and you'll either pay a premium or miss out entirely on the popular spots.</p>",
       "table": {
-        "headers": ["What", "Book by", "Why"],
+        "headers": [
+          "What",
+          "Book by",
+          "Why"
+        ],
         "rows": [
-          ["Campervans / motorhomes", "September 2026", "Fleets fully booked over Christmas–New Year by early spring"],
-          ["Top 10 & popular holiday parks", "August 2026", "Powered/beachfront sites for peak dates sell out first"],
-          ["Interislander / Bluebridge ferry", "September–October 2026", "Vehicle space over the holidays books out months ahead"],
-          ["Beachfront baches / Airbnb", "By October 2026", "Best coastal rentals gone before Labour Day"],
-          ["Domestic flights (school holidays)", "By October 2026", "Fares climb sharply closer to the dates"]
+          [
+            "Campervans / motorhomes",
+            "September 2026",
+            "Fleets fully booked over Christmas–New Year by early spring"
+          ],
+          [
+            "Top 10 & popular holiday parks",
+            "August 2026",
+            "Powered/beachfront sites for peak dates sell out first"
+          ],
+          [
+            "Interislander / Bluebridge ferry",
+            "September–October 2026",
+            "Vehicle space over the holidays books out months ahead"
+          ],
+          [
+            "Beachfront baches / Airbnb",
+            "By October 2026",
+            "Best coastal rentals gone before Labour Day"
+          ],
+          [
+            "Domestic flights (school holidays)",
+            "By October 2026",
+            "Fares climb sharply closer to the dates"
+          ]
         ]
       }
     },
@@ -75,12 +123,27 @@
       "heading": "Summer Activities by Age",
       "body": "<p>Six weeks is a long stretch to keep everyone happy. Here's what works best at each age.</p>",
       "table": {
-        "headers": ["Age group", "Best summer activities"],
+        "headers": [
+          "Age group",
+          "Best summer activities"
+        ],
         "rows": [
-          ["Toddlers (1–3)", "Calm tidal beaches, holiday-park playgrounds and pools, short bush walks, splash pads"],
-          ["Primary (4–10)", "Hot Water Beach digging, rock-pooling, bike trails, glowworm walks, holiday programmes"],
-          ["Tweens (10–13)", "Surf lessons, kayaking, luge, mountain biking, dolphin/boat cruises, zip lines"],
-          ["Teens (14+)", "Surfing, jet boating, canyoning, multi-day Great Walks, skydiving (Taupo/Queenstown)"]
+          [
+            "Toddlers (1–3)",
+            "Calm tidal beaches, holiday-park playgrounds and pools, short bush walks, splash pads"
+          ],
+          [
+            "Primary (4–10)",
+            "Hot Water Beach digging, rock-pooling, bike trails, glowworm walks, holiday programmes"
+          ],
+          [
+            "Tweens (10–13)",
+            "Surf lessons, kayaking, luge, mountain biking, dolphin/boat cruises, zip lines"
+          ],
+          [
+            "Teens (14+)",
+            "Surfing, jet boating, canyoning, multi-day Great Walks, skydiving (Taupo/Queenstown)"
+          ]
         ]
       }
     },
@@ -110,11 +173,27 @@
       "heading": "Cost Guide — What a Summer Family Trip Costs",
       "body": "<p>Daily costs for a family of four (two adults, two kids), all in NZD. Summer sits at the top of the range because of peak-season accommodation pricing.</p>",
       "table": {
-        "headers": ["Tier", "Per day (family of 4)", "What it covers"],
+        "headers": [
+          "Tier",
+          "Per day (family of 4)",
+          "What it covers"
+        ],
         "rows": [
-          ["Budget", "$100–150", "Campsite or basic cabin, self-catering, free/cheap activities, own car"],
-          ["Mid-range", "$200–300", "Holiday-park cabin or motel, some paid attractions, occasional eating out"],
-          ["Premium", "$400+", "Hotels or beachfront baches, daily paid activities, restaurant meals, campervan hire"]
+          [
+            "Budget",
+            "$100–150",
+            "Campsite or basic cabin, self-catering, free/cheap activities, own car"
+          ],
+          [
+            "Mid-range",
+            "$200–300",
+            "Holiday-park cabin or motel, some paid attractions, occasional eating out"
+          ],
+          [
+            "Premium",
+            "$400+",
+            "Hotels or beachfront baches, daily paid activities, restaurant meals, campervan hire"
+          ]
         ]
       }
     },
@@ -168,5 +247,6 @@
     "form_cta": "Email me family trip ideas",
     "show_on_page": true,
     "position": "after_faq"
-  }
+  },
+  "seo_title": "NZ Summer School Holidays 2026/27 — Family Ideas, Costs"
 }

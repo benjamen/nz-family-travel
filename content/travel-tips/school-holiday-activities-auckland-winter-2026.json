@@ -23,13 +23,31 @@
       "heading": "Auckland Winter School Holiday Dates 2026",
       "body": "<p>Most Auckland schools follow the national Term 2 dates, though a small number of schools shift by a few days — always check your own school's calendar. Matariki on Friday 10 July is a public holiday inside the break, so popular attractions get busy that long weekend.</p>",
       "table": {
-        "headers": ["Milestone", "Date 2026"],
+        "headers": [
+          "Milestone",
+          "Date 2026"
+        ],
         "rows": [
-          ["Term 2 ends", "Friday 26 June"],
-          ["Winter holidays begin", "Saturday 27 June"],
-          ["Matariki public holiday", "Friday 10 July"],
-          ["Winter holidays end", "Sunday 12 July"],
-          ["Term 3 starts", "Monday 13 July"]
+          [
+            "Term 2 ends",
+            "Friday 26 June"
+          ],
+          [
+            "Winter holidays begin",
+            "Saturday 27 June"
+          ],
+          [
+            "Matariki public holiday",
+            "Friday 10 July"
+          ],
+          [
+            "Winter holidays end",
+            "Sunday 12 July"
+          ],
+          [
+            "Term 3 starts",
+            "Monday 13 July"
+          ]
         ]
       }
     },
@@ -87,13 +105,31 @@
       "heading": "What It Costs",
       "body": "<p>Auckland is one of the cheaper cities for a family winter day if you lean on the free museums and council pools. The big-ticket items are Snowplanet and the theme parks. Here's a rough guide for a family of four.</p>",
       "table": {
-        "headers": ["Activity", "Approx. cost (family of 4)"],
+        "headers": [
+          "Activity",
+          "Approx. cost (family of 4)"
+        ],
         "rows": [
-          ["MOTAT or Auckland Museum (residents)", "FREE"],
-          ["Leisure pool with hydroslide", "$25–$40"],
-          ["Trampoline park (1 hour)", "~$80"],
-          ["Parakai Springs", "~$90"],
-          ["Snowplanet session + hire", "$200–$280"]
+          [
+            "MOTAT or Auckland Museum (residents)",
+            "FREE"
+          ],
+          [
+            "Leisure pool with hydroslide",
+            "$25–$40"
+          ],
+          [
+            "Trampoline park (1 hour)",
+            "~$80"
+          ],
+          [
+            "Parakai Springs",
+            "~$90"
+          ],
+          [
+            "Snowplanet session + hire",
+            "$200–$280"
+          ]
         ]
       },
       "cta": {
@@ -128,5 +164,6 @@
   "hero_image": {
     "url": "/static/img/destinations/school-holiday-activities-auckland-winter-2026.jpg",
     "alt": "Family enjoying indoor snow play in Auckland during the winter school holidays"
-  }
+  },
+  "seo_title": "Auckland Winter School Holidays 2026 — Family Activities"
 }

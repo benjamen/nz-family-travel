@@ -14,23 +14,103 @@
       "heading": "Quick Reference — All 15 Day Trips",
       "body": "<p>Here's every trip at a glance, sorted roughly by drive time. Pick by how far you want to go and what the kids are into.</p>",
       "table": {
-        "headers": ["Destination", "Drive time", "Best for", "Rough cost (family of 4)"],
+        "headers": [
+          "Destination",
+          "Drive time",
+          "Best for",
+          "Rough cost (family of 4)"
+        ],
         "rows": [
-          ["Piha / Karekare", "45 min", "Surf beaches, bush walks", "Free (parking only)"],
-          ["Muriwai Gannet Colony", "45 min", "Wildlife, black-sand beach", "Free"],
-          ["Shakespear Regional Park", "45 min", "Wildlife, safe swimming", "Free"],
-          ["Hunua Ranges", "45 min", "Waterfalls, swimming holes", "Free"],
-          ["Orewa / Whangaparāoa", "45 min", "Beaches, playgrounds", "Free–$20"],
-          ["Miranda Hot Springs", "1 hr", "Hot pools, shorebirds", "$30–50"],
-          ["Waiuku / Awhitu Peninsula", "1 hr", "Quiet beaches, lighthouse", "Free–$20"],
-          ["Waiheke Island", "1 hr (ferry)", "Beaches, wineries", "$80–150 (ferry)"],
-          ["Raglan", "1.5 hr", "Surf, black-sand lagoon", "Free–$30"],
-          ["Hamilton Zoo + Gardens", "1.5 hr", "Animals, free gardens", "$40–60"],
-          ["Coromandel + Cathedral Cove", "1.5–2 hr", "Beaches, coastal walk", "Free–$40"],
-          ["Hot Water Beach", "2 hr", "Dig your own hot pool", "Free ($5 spade hire)"],
-          ["Matamata (Hobbiton)", "2 hr", "Movie-set tour", "$200–250"],
-          ["Waitomo Caves", "2 hr", "Glowworm boat tour", "$150–220"],
-          ["Waihi Beach", "2 hr", "Long safe swimming beach", "Free"]
+          [
+            "Piha / Karekare",
+            "45 min",
+            "Surf beaches, bush walks",
+            "Free (parking only)"
+          ],
+          [
+            "Muriwai Gannet Colony",
+            "45 min",
+            "Wildlife, black-sand beach",
+            "Free"
+          ],
+          [
+            "Shakespear Regional Park",
+            "45 min",
+            "Wildlife, safe swimming",
+            "Free"
+          ],
+          [
+            "Hunua Ranges",
+            "45 min",
+            "Waterfalls, swimming holes",
+            "Free"
+          ],
+          [
+            "Orewa / Whangaparāoa",
+            "45 min",
+            "Beaches, playgrounds",
+            "Free–$20"
+          ],
+          [
+            "Miranda Hot Springs",
+            "1 hr",
+            "Hot pools, shorebirds",
+            "$30–50"
+          ],
+          [
+            "Waiuku / Awhitu Peninsula",
+            "1 hr",
+            "Quiet beaches, lighthouse",
+            "Free–$20"
+          ],
+          [
+            "Waiheke Island",
+            "1 hr (ferry)",
+            "Beaches, wineries",
+            "$80–150 (ferry)"
+          ],
+          [
+            "Raglan",
+            "1.5 hr",
+            "Surf, black-sand lagoon",
+            "Free–$30"
+          ],
+          [
+            "Hamilton Zoo + Gardens",
+            "1.5 hr",
+            "Animals, free gardens",
+            "$40–60"
+          ],
+          [
+            "Coromandel + Cathedral Cove",
+            "1.5–2 hr",
+            "Beaches, coastal walk",
+            "Free–$40"
+          ],
+          [
+            "Hot Water Beach",
+            "2 hr",
+            "Dig your own hot pool",
+            "Free ($5 spade hire)"
+          ],
+          [
+            "Matamata (Hobbiton)",
+            "2 hr",
+            "Movie-set tour",
+            "$200–250"
+          ],
+          [
+            "Waitomo Caves",
+            "2 hr",
+            "Glowworm boat tour",
+            "$150–220"
+          ],
+          [
+            "Waihi Beach",
+            "2 hr",
+            "Long safe swimming beach",
+            "Free"
+          ]
         ]
       }
     },
@@ -77,12 +157,27 @@
       "heading": "Best Trips by Age Group",
       "body": "<p>Not sure where to start? Here's the quick pick for each stage.</p>",
       "table": {
-        "headers": ["Age group", "Top picks"],
+        "headers": [
+          "Age group",
+          "Top picks"
+        ],
         "rows": [
-          ["Toddlers (1–3)", "Orewa, Shakespear Park, Hamilton Gardens, Raglan lagoon"],
-          ["Primary (4–10)", "Hot Water Beach, Waitomo, Muriwai gannets, Hobbiton"],
-          ["Tweens (10–13)", "Piha surf, Cathedral Cove walk, Waiheke biking, Hobbiton"],
-          ["Teens (14+)", "Raglan surf lessons, Waitomo black-water rafting, Waiheke"]
+          [
+            "Toddlers (1–3)",
+            "Orewa, Shakespear Park, Hamilton Gardens, Raglan lagoon"
+          ],
+          [
+            "Primary (4–10)",
+            "Hot Water Beach, Waitomo, Muriwai gannets, Hobbiton"
+          ],
+          [
+            "Tweens (10–13)",
+            "Piha surf, Cathedral Cove walk, Waiheke biking, Hobbiton"
+          ],
+          [
+            "Teens (14+)",
+            "Raglan surf lessons, Waitomo black-water rafting, Waiheke"
+          ]
         ]
       }
     },
@@ -136,5 +231,6 @@
     "form_cta": "Email me family trip ideas",
     "show_on_page": true,
     "position": "after_faq"
-  }
+  },
+  "seo_title": "Day Trips from Auckland with Kids"
 }

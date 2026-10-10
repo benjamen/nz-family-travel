@@ -45,17 +45,47 @@
       "heading": "Budget Summary for New Plymouth Families",
       "body": "<p>New Plymouth is outstanding value for families — you can genuinely fill 2–3 days without spending a cent on entry fees. The main paid upgrades (Inglewood Mini Golf, Sugar Loaf Island boat tour, Stratford Plateau ski field) are genuinely good but entirely optional.</p>",
       "table": {
-        "headers": ["Activity", "Cost (family of 4)"],
+        "headers": [
+          "Activity",
+          "Cost (family of 4)"
+        ],
         "rows": [
-          ["Brooklands Zoo", "Free"],
-          ["Pukekura Park", "Free"],
-          ["Len Lye Centre / Govett-Brewster", "Free"],
-          ["Coastal Walkway", "Free"],
-          ["Fitzroy Beach + Back Beach", "Free"],
-          ["Te Rewa Rewa Bridge + Wind Wand", "Free"],
-          ["Puke Ariki Museum", "Free (most exhibits)"],
-          ["Egmont National Park short walks", "Free"],
-          ["Bike hire for the walkway", "$60–$80 (all-day family hire)"]
+          [
+            "Brooklands Zoo",
+            "Free"
+          ],
+          [
+            "Pukekura Park",
+            "Free"
+          ],
+          [
+            "Len Lye Centre / Govett-Brewster",
+            "Free"
+          ],
+          [
+            "Coastal Walkway",
+            "Free"
+          ],
+          [
+            "Fitzroy Beach + Back Beach",
+            "Free"
+          ],
+          [
+            "Te Rewa Rewa Bridge + Wind Wand",
+            "Free"
+          ],
+          [
+            "Puke Ariki Museum",
+            "Free (most exhibits)"
+          ],
+          [
+            "Egmont National Park short walks",
+            "Free"
+          ],
+          [
+            "Bike hire for the walkway",
+            "$60–$80 (all-day family hire)"
+          ]
         ]
       }
     }
@@ -81,5 +111,6 @@
   "hero_image": {
     "url": "/static/img/destinations/new-plymouth-coastal-walkway-family.jpg",
     "alt": "Families cycling the New Plymouth Coastal Walkway with Mount Taranaki in the background"
-  }
+  },
+  "seo_title": "Free Things to Do with Kids in New Plymouth 2026"
 }

@@ -107,7 +107,15 @@ def pick_todays_topics(pools, n=5):
     return topics
 
 def already_generated(slug):
-    return (ROOT / 'content/posts' / f'{slug}.json').exists()
+    """True if this topic already has an article. Slugs of the deals, budget and review types end in -YYYY-MM, so
+    matching today's exact slug used to miss last month's article and write the same topic again at a new URL
+    (156 near-duplicate pages by October 2026). Match on the topic, not the month."""
+    base = re.sub(r'-20\d\d-\d\d$', '', slug)
+    for folder in ('content/posts', 'content/travel-tips', 'content/_merged/posts', 'content/_merged/travel-tips'):
+        d = ROOT / folder
+        if (d / f'{slug}.json').exists() or any(d.glob(f'{base}-20[0-9][0-9]-[0-9][0-9].json')):
+            return True
+    return False
 
 # ── Slug helpers ─────────────────────────────────────────────────────────────
 

@@ -422,6 +422,13 @@ def build():
             dest = f"{site['base_url']}/travel-tips/{post['slug']}/"
             write_redirect(OUT / "posts" / post['slug'] / "index.html", dest)
 
+    # ── Merged duplicate articles ─ old dated URLs redirect to the one page kept per topic
+    # (scripts/consolidate_dated_duplicates.py writes content/redirects.json)
+    redirects_file = CONTENT / "redirects.json"
+    if redirects_file.exists():
+        for old, new in json.loads(redirects_file.read_text()).items():
+            write_redirect(OUT / old / "index.html", f"{site['base_url']}/{new}/")
+
     # ── Cities hub ───────────────────────────────────────────────────────────
     render("hub.html", "cities/index.html",
            hub_title="NZ City Family Guides — Hamilton, Whangarei, Invercargill & More",

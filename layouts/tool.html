@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 
-{% block title %}{{ tool.title }}{% if tool.title | length <= 46 %} — NZ Family Travel{% endif %}{% endblock %}
+{% block title %}{{ tool.title }}{% if tool.title | length <= 41 %} — NZ Family Travel{% endif %}{% endblock %}
 {% block desc %}{{ tool.description }}{% endblock %}
 {% block canonical %}tools/{{ tool.slug }}/{% endblock %}
 
