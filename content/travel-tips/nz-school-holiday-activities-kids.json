@@ -11,12 +11,37 @@
     {
       "heading": "NZ School Holiday Dates 2026",
       "table": {
-        "headers": ["Holiday Period", "Dates (approx)", "Character", "Best For"],
+        "headers": [
+          "Holiday Period",
+          "Dates (approx)",
+          "Character",
+          "Best For"
+        ],
         "rows": [
-          ["Autumn (Term 1)", "Mid April, 2 weeks", "Golden weather, low crowds vs summer", "Rotorua, wine regions, Hawke's Bay"],
-          ["Winter (Term 2)", "Early July, 2 weeks", "Ski season peak — Queenstown and Wanaka busiest", "Skiing, indoor activities, Christchurch Antarctic Centre"],
-          ["Spring (Term 3)", "Late Sept / early Oct, 2 weeks", "Warming up, shoulder season pricing, good for South Island", "Abel Tasman, Nelson, Bay of Islands"],
-          ["Summer (Term 4)", "Mid Dec – late Jan, 6 weeks", "Beach season, crowds, premium pricing", "Coromandel, Northland, Bay of Islands, lake destinations"]
+          [
+            "Autumn (Term 1)",
+            "Mid April, 2 weeks",
+            "Golden weather, low crowds vs summer",
+            "Rotorua, wine regions, Hawke's Bay"
+          ],
+          [
+            "Winter (Term 2)",
+            "Early July, 2 weeks",
+            "Ski season peak — Queenstown and Wanaka busiest",
+            "Skiing, indoor activities, Christchurch Antarctic Centre"
+          ],
+          [
+            "Spring (Term 3)",
+            "Late Sept / early Oct, 2 weeks",
+            "Warming up, shoulder season pricing, good for South Island",
+            "Abel Tasman, Nelson, Bay of Islands"
+          ],
+          [
+            "Summer (Term 4)",
+            "Mid Dec – late Jan, 6 weeks",
+            "Beach season, crowds, premium pricing",
+            "Coromandel, Northland, Bay of Islands, lake destinations"
+          ]
         ]
       }
     },
@@ -96,8 +121,9 @@
     }
   ],
   "hero_image": {
-    "url": "https://images.unsplash.com/photo-1526956522266-c3e4c51e5e2e?w=1200&q=80",
-    "alt": "Kids exploring outdoors during New Zealand school holidays — beaches and adventure",
-    "credit": "Unsplash"
+    "url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=1200&q=80",
+    "thumb": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=600&q=70",
+    "alt": "Teenagers on NZ outdoor adventure",
+    "credit": "Unsplash / Mateus Campos Felipe"
   }
 }

@@ -177,10 +177,10 @@
     }
   ],
   "hero_image": {
-    "url": "https://images.unsplash.com/photo-1519863117922-f73b28e6a0a0?w=1200&q=80",
-    "thumb": "https://images.unsplash.com/photo-1519863117922-f73b28e6a0a0?w=600&q=70",
-    "alt": "Snow-covered NZ mountains in July",
-    "credit": "Unsplash / Jonathan Müller"
+    "url": "https://images.unsplash.com/photo-1551524559-8af4e6624178?w=1200&q=80",
+    "thumb": "https://images.unsplash.com/photo-1551524559-8af4e6624178?w=600&q=70",
+    "alt": "NZ family enjoying the winter school holidays in the snow",
+    "credit": "Unsplash"
   },
   "faqs": [
     {

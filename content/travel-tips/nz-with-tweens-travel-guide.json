@@ -25,13 +25,43 @@
     {
       "heading": "Best NZ Adventure Activities for 10-13 Year Olds",
       "table": {
-        "headers": ["Activity", "Where", "Minimum Age", "Rough Cost (per child)"],
+        "headers": [
+          "Activity",
+          "Where",
+          "Minimum Age",
+          "Rough Cost (per child)"
+        ],
         "rows": [
-          ["Skyline Luge", "Rotorua / Queenstown", "No min (ride alone ~6+)", "$30-50"],
-          ["White-water rafting (grade 3)", "Rotorua / Tongariro", "10-13", "$95-130"],
-          ["Velocity Valley / Agroventures", "Rotorua", "Varies by ride", "$40-70"],
-          ["Ziptrek Ecotours", "Queenstown", "6+", "$160-200"],
-          ["Shotover Jet", "Queenstown", "No min (advised 5+)", "$95-115"]
+          [
+            "Skyline Luge",
+            "Rotorua / Queenstown",
+            "No min (ride alone ~6+)",
+            "$30-50"
+          ],
+          [
+            "White-water rafting (grade 3)",
+            "Rotorua / Tongariro",
+            "10-13",
+            "$95-130"
+          ],
+          [
+            "Velocity Valley / Agroventures",
+            "Rotorua",
+            "Varies by ride",
+            "$40-70"
+          ],
+          [
+            "Ziptrek Ecotours",
+            "Queenstown",
+            "6+",
+            "$160-200"
+          ],
+          [
+            "Shotover Jet",
+            "Queenstown",
+            "No min (advised 5+)",
+            "$95-115"
+          ]
         ]
       }
     },
@@ -62,9 +92,5 @@
       "question": "How much does a NZ family holiday with tweens cost?",
       "answer": "Budget roughly NZ$350-500 per day for a family of four, including accommodation, a paid activity, food and fuel. Adventure activities for tweens add $30-130 per child per session."
     }
-  ],
-  "hero_image": {
-    "url": "/static/img/destinations/nz-with-tweens-travel-guide.jpg",
-    "alt": "Tween-aged kids on a Skyline Luge adventure in New Zealand"
-  }
+  ]
 }
