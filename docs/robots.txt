@@ -26,4 +26,3 @@ User-agent: CCBot
 Disallow: /
 
 Sitemap: https://nzfamilytravel.co.nz/sitemap.xml
-Feed: https://nzfamilytravel.co.nz/feed.xml
