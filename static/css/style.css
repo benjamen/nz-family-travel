@@ -677,3 +677,17 @@ body { padding-bottom: 46px; }
   .flights-box { grid-template-columns: 1fr; gap: 1rem; }
   .viator-cta-grid { gap: .5rem; }
 }
+
+/* Accessibility: AA text contrast (4.5:1). Darker shades of the same hues, only where text sits on a light background. */
+.dest-facts, .itin-meta { color: #6b7280; }
+.itin-budget, .act-free, .act-price.free { color: #15803d; }
+.overseas-badge { background: #b45309; }
+.star, .hpp-rating .star { color: #b45309; }
+.ns-btn { background: #b45309; }
+.ns-btn:hover { background: #92400e; }
+.breadcrumb { color: #4b5563; }
+.breadcrumb a { text-decoration: underline; }
+.img-credit { color: #6b7280; }
+.guide-meta { color: #4b5563; }
+.qf-label { color: #6b7280; }
+.verdict-good strong { color: #15803d; }

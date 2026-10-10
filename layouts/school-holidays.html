@@ -31,7 +31,7 @@
   border-radius: 10px;
   padding: 1rem 1.2rem;
 }
-.term-card .term-label { font-size: .78rem; font-weight: 700; color: #6b7280; text-transform: uppercase; letter-spacing: .05em; }
+.term-card .term-label { font-size: .78rem; font-weight: 700; color: #4b5563; text-transform: uppercase; letter-spacing: .05em; }
 .term-card .term-dates { font-weight: 700; font-size: 1rem; color: #1f2937; margin: .2rem 0; }
 .term-card .term-weeks { font-size: .85rem; color: #4b5563; }
 
@@ -73,7 +73,7 @@
   font-weight: 700;
   white-space: nowrap;
 }
-.countdown-pill.past { background: #9ca3af; }
+.countdown-pill.past { background: #6b7280; }
 
 .holiday-body { padding: 1.2rem 1.4rem; }
 .holiday-tip { color: #374151; margin-bottom: .9rem; line-height: 1.6; }
@@ -339,7 +339,7 @@ function updateCountdowns() {
       el.classList.remove('past');
     } else if (diff <= 0 && diff > -30) {
       el.textContent = 'On now!';
-      el.style.background = '#16a34a';
+      el.style.background = '#15803d';
       el.classList.remove('past');
     } else {
       el.textContent = 'Past';

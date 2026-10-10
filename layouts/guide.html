@@ -86,7 +86,7 @@
 
 {% if guide.hero_image %}
 <div class="guide-hero-img">
-  <img src="{{ guide.hero_image.url }}" alt="{{ guide.hero_image.alt }}" width="1200" height="630" loading="eager">
+  <img src="{{ guide.hero_image.url }}" alt="{{ guide.hero_image.alt or guide.title }}" width="1200" height="630" loading="eager">
   {% if guide.hero_image.credit %}<span class="img-credit">📷 {{ guide.hero_image.credit }}</span>{% endif %}
 </div>
 {% endif %}
