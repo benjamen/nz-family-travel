@@ -555,14 +555,6 @@ Always confirm with your child's school before you book non-refundable travel.</
 
 <!-- Email capture (if defined in guide) -->
 
-<section class="section" style="background:linear-gradient(135deg,#fef3c7,#fde68a);border-radius:var(--radius);">
-  <div style="max-width:640px;margin:0 auto;text-align:center;">
-    <h2 style="margin-bottom:.5rem;">Get NZ Family Trip Ideas Emailed Monthly</h2>
-    <p style="color:var(--gray-700);margin-bottom:1.5rem;">New itineraries, activities, and family travel guides sent to your inbox on the first of each month. Plus exclusive tips for traveling with kids in NZ.</p>
-    <div data-mailerlite-form="family-trips-monthly" style="max-width:400px;margin:0 auto;"></div>
-  </div>
-</section>
-
 
 <!-- Month guide cross-links (only shown for nz-in-* slugs) -->
 
@@ -650,19 +642,7 @@ Always confirm with your child's school before you book non-refundable travel.</
   </div>
 
   <!-- Newsletter strip — shown on every page -->
-  <div class="newsletter-strip">
-    <div class="newsletter-strip-inner">
-      <div class="ns-text">
-        <strong>🗺️ Free NZ Family Holiday Planning Guide</strong>
-        <span>Join NZ families planning their next trip — destination tips, real costs, itinerary ideas & packing lists.</span>
-      </div>
-      <form class="ns-form newsletter-form" action="#" method="POST" target="_blank">
-        <input type="hidden" name="tags" value="footer-strip">
-        <input type="email" name="EMAIL" class="ns-input" placeholder="your@email.com" required autocomplete="email">
-        <button type="submit" class="btn ns-btn">Get it free →</button>
-      </form>
-    </div>
-  </div>
+  
 
   <footer class="footer">
     <div class="footer-inner">
@@ -1028,20 +1008,7 @@ Always confirm with your child's school before you book non-refundable travel.</
   })();
   </script>
 
-  <!-- MailerLite Email Capture Script -->
-  <script>
-    (function() {
-      // MailerLite form embed — inject forms with data-mailerlite-form attribute
-      var script = document.createElement('script');
-      script.src = 'https://assets.mailerlite.com/js/form-embed.min.js';
-      script.onload = function() {
-        if (window.mailerlite && window.mailerlite.load) {
-          window.mailerlite.load();
-        }
-      };
-      document.body.appendChild(script);
-    })();
-  </script>
+  
 
   <!-- Site search (Fuse.js) -->
   <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js" defer></script>

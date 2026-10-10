@@ -1,5 +1,5 @@
 {
-  "title": "NZ Family Travel \u2014 NZ's Family Holiday Planning Platform",
+  "title": "NZ Family Travel — NZ's Family Holiday Planning Platform",
   "description": "Plan your New Zealand family holiday. Compare campervans, find kid-friendly activities, and get honest itineraries from New Zealand parents.",
   "base_url": "https://nzfamilytravel.co.nz",
   "base_path": "",
@@ -110,5 +110,6 @@
       "cta": "Get Travel Insurance",
       "status": "PENDING_SIGNUP"
     }
-  }
+  },
+  "mailerlite_account_id": ""
 }
