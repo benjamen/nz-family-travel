@@ -469,11 +469,15 @@
   <div class="nl-inline-block">
     <h3>📬 Get our free {{ destination.name }} packing list & travel tips</h3>
     <p>Join NZ families planning their next holiday — destination tips, real costs, and hidden gems delivered to your inbox.</p>
+{% if site.mailerlite_account_id and site.mailerlite_form_id %}
+    <div class="ml-embedded" data-form="{{ site.mailerlite_form_id }}" style="max-width:420px;margin:0 auto;"></div>
+    {% elif site.newsletter_form_url %}
     <form class="nl-form newsletter-form" action="{{ site.newsletter_form_url or '#' }}" method="POST" target="_blank">
       <input type="hidden" name="tags" value="destination-{{ destination.slug }}">
       <input type="email" name="EMAIL" placeholder="your@email.com" required autocomplete="email">
       <button type="submit" class="btn btn-primary btn-sm">Get free tips →</button>
     </form>
+    {% endif %}
   </div>
 </section>
 

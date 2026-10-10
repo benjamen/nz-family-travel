@@ -1,5 +1,7 @@
 # MailerLite email capture
 
+**Status: ON since 10 Oct 2026.** Account ID 2700226 and form `aksyKw` (group "NZ Family Travel", double opt-in) are set in `data/site.json`; the homepage, destination pages and the four article boxes use that one embedded form. The footer strip stays off until `newsletter_form_url` is set. The notes below describe how it works and how to switch it on elsewhere.
+
 Email capture is **off until you add your MailerLite account ID**. Until then the site shows no signup strip and no
 in-article signup boxes (they would collect nothing). The earlier setup loaded `form-embed.min.js`, a file that does
 not exist on MailerLite's servers (it returns 404), so no form has ever worked.
