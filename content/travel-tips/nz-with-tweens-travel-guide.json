@@ -2,6 +2,11 @@
   "slug": "nz-with-tweens-travel-guide",
   "short_title": "NZ with Tweens",
   "title": "NZ with Tweens (10-13) — Family Travel Guide 2026",
+  "hero_image": {
+    "url": "/static/img/destinations/nz-with-tweens-travel-guide.jpg",
+    "alt": "A luge cart on the Skyline Luge track above Queenstown, with Lake Wakatipu and the mountains beyond",
+    "credit": "Photo: Ghislain Mary / Wikimedia Commons (CC BY-SA 2.0)"
+  },
   "meta_desc": "Planning a NZ family holiday with tweens aged 10-13? Best adventure activities, age minimums, costs, and itinerary ideas that keep older kids engaged.",
   "focus_keyword": "nz holiday with 10 year old",
   "schema_type": "Article",
