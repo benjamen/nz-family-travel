@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 
-{% block title %}{{ city.name }} with Kids — NZ Family Travel Guide{% endblock %}
-{% block desc %}{{ city.name }} family guide — {{ city.tagline | truncate(120, True, '.') }}{% endblock %}
+{% block title %}{{ city.name }} with Kids: Things to Do & Stay (2026){% endblock %}
+{% block desc %}{{ (city.name ~ ' with kids: ' ~ (city.top_things_to_do[:3] | map('lead') | map('clip', 30) | join(', ')) ~ '. Family score ' ~ city.family_score ~ '/10, plus rainy-day ideas and where to stay.') | clip(158) }}{% endblock %}
 {% block canonical %}cities/{{ city.slug }}/{% endblock %}
 {% block og_type %}article{% endblock %}
 {% block og_title %}{{ city.name }} with Kids — 2026 NZ Family Guide{% endblock %}

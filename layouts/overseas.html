@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 
-{% block title %}{{ dest.title }}{% endblock %}
+{% block title %}{{ dest.title.split(' — ')[0] }}: Costs, Flights & Best Time (2026){% endblock %}
 {% block desc %}{{ dest.meta_desc }}{% endblock %}
 {% block canonical %}overseas/{{ dest.slug }}/{% endblock %}
 {% block hreflang_path %}overseas/{{ dest.slug }}/{% endblock %}
@@ -55,7 +55,7 @@
 {% endblock %}
 
 {% block hero %}
-<div class="dest-hero-image" style="background-image:url('{{ dest.hero_image }}')">
+<div class="dest-hero-image" style="background-image:url('{{ dest.hero_image|img_src }}')">
   <div class="dest-hero-overlay">
     <div class="hero-inner">
       <div class="breadcrumb" style="color:rgba(255,255,255,.75)"><a href="/" style="color:#fff">Home</a> › <a href="/overseas/" style="color:#fff">Overseas</a> › {{ dest.country }}</div>

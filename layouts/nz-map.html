@@ -147,9 +147,9 @@
         <!-- ── Destination markers ── -->
 
         <!-- Bay of Islands -->
-        <g class="dest-marker" onclick="showDest('bay-of-islands-family')" role="button" aria-label="Bay of Islands">
+        <g class="dest-marker" onclick="showDest('bay-of-islands-family')" role="button">
           <circle cx="258" cy="75" r="9" />
-          <text x="258" y="75">BOI</text>
+          <text x="258" y="75" aria-hidden="true">BOI</text>
           <text class="dest-label" x="258" y="90">Bay of Islands</text>
         </g>
 
@@ -160,63 +160,63 @@
         </g>
 
         <!-- Coromandel -->
-        <g class="dest-marker" onclick="showDest('coromandel-with-kids')" role="button" aria-label="Coromandel">
+        <g class="dest-marker" onclick="showDest('coromandel-with-kids')" role="button">
           <circle cx="330" cy="148" r="9" />
-          <text x="330" y="148">COR</text>
+          <text x="330" y="148" aria-hidden="true">COR</text>
           <text class="dest-label" x="330" y="163">Coromandel</text>
         </g>
 
         <!-- Rotorua -->
-        <g class="dest-marker" onclick="showDest('rotorua-family-guide')" role="button" aria-label="Rotorua">
+        <g class="dest-marker" onclick="showDest('rotorua-family-guide')" role="button">
           <circle cx="370" cy="210" r="9" />
-          <text x="370" y="210">ROT</text>
+          <text x="370" y="210" aria-hidden="true">ROT</text>
           <text class="dest-label" x="370" y="225">Rotorua</text>
         </g>
 
         <!-- Taupo -->
-        <g class="dest-marker" onclick="showDest('taupo-with-kids')" role="button" aria-label="Taupo">
+        <g class="dest-marker" onclick="showDest('taupo-with-kids')" role="button">
           <circle cx="358" cy="248" r="9" />
-          <text x="358" y="248">TAU</text>
+          <text x="358" y="248" aria-hidden="true">TAU</text>
           <text class="dest-label" x="358" y="263">Taupo</text>
         </g>
 
         <!-- Wellington -->
-        <g class="dest-marker" onclick="showDest('wellington-with-kids')" role="button" aria-label="Wellington">
+        <g class="dest-marker" onclick="showDest('wellington-with-kids')" role="button">
           <circle cx="310" cy="418" r="9" />
-          <text x="310" y="418">WLG</text>
+          <text x="310" y="418" aria-hidden="true">WLG</text>
           <text class="dest-label" x="310" y="433">Wellington</text>
         </g>
 
         <!-- Nelson -->
-        <g class="dest-marker" onclick="showDest('nelson-abel-tasman-family')" role="button" aria-label="Nelson">
+        <g class="dest-marker" onclick="showDest('nelson-abel-tasman-family')" role="button">
           <circle cx="188" cy="450" r="9" />
-          <text x="188" y="450">NEL</text>
+          <text x="188" y="450" aria-hidden="true">NEL</text>
           <text class="dest-label" x="188" y="465">Nelson</text>
         </g>
 
         <!-- Christchurch -->
-        <g class="dest-marker" onclick="showDest('christchurch-with-kids')" role="button" aria-label="Christchurch">
+        <g class="dest-marker" onclick="showDest('christchurch-with-kids')" role="button">
           <circle cx="272" cy="510" r="9" />
-          <text x="272" y="510">CHC</text>
+          <text x="272" y="510" aria-hidden="true">CHC</text>
           <text class="dest-label" x="272" y="525">Christchurch</text>
         </g>
 
         <!-- Wanaka -->
-        <g class="dest-marker" onclick="showDest('wanaka-with-kids')" role="button" aria-label="Wanaka">
+        <g class="dest-marker" onclick="showDest('wanaka-with-kids')" role="button">
           <circle cx="148" cy="558" r="9" />
-          <text x="148" y="558">WAN</text>
+          <text x="148" y="558" aria-hidden="true">WAN</text>
           <text class="dest-label" x="148" y="573">Wanaka</text>
         </g>
 
         <!-- Queenstown -->
-        <g class="dest-marker" onclick="showDest('queenstown-with-kids')" role="button" aria-label="Queenstown">
+        <g class="dest-marker" onclick="showDest('queenstown-with-kids')" role="button">
           <circle cx="140" cy="590" r="10" fill="#b45309" />
           <text x="140" y="590" style="font-size:7px">QTN</text>
           <text class="dest-label" x="140" y="606">Queenstown</text>
         </g>
 
         <!-- Fiordland / Milford Sound -->
-        <g class="dest-marker" onclick="showDest('fiordland-milford-sound-family')" role="button" aria-label="Fiordland">
+        <g class="dest-marker" onclick="showDest('fiordland-milford-sound-family')" role="button">
           <circle cx="108" cy="540" r="9" />
           <text x="108" y="540" style="font-size:6.5px">FJL</text>
           <text class="dest-label" x="108" y="555">Fiordland</text>
@@ -249,7 +249,7 @@
         <div class="dest-meta">
           <span class="dest-island island-{{ dest.island|lower|replace(' ','-') }}">{{ dest.island }}</span>
         </div>
-        <h3>{{ dest.name }}</h3>
+        <h2>{{ dest.name }}</h2>
         <p>{{ dest.tagline }}</p>
         <div class="dest-facts">
           <span>{{ dest.quick_facts.budget_family4_per_day }}/day</span>
@@ -268,7 +268,7 @@
       {% for dest in destinations %}
       <a href="/destinations/{{ dest.slug }}/" class="dest-card">
         {% if dest.media and dest.media.hero_image %}
-        <div class="dest-card-img" style="background-image:url('{{ dest.media.hero_image.url }}')"></div>
+        <img class="dest-card-img" src="{{ dest.media.hero_image.url|img_src(true) }}" alt="" width="360" height="180" loading="lazy" decoding="async">
         {% endif %}
         <div class="dest-card-body">
           <div class="dest-meta">

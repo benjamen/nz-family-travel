@@ -105,7 +105,7 @@
     {% for dest in destinations %}
     <a href="/destinations/{{ dest.slug }}/" class="dest-card">
       {% if dest.media and dest.media.hero_image %}
-      <div class="dest-card-img" style="background-image:url('{{ dest.media.hero_image.url }}')"></div>
+      <img class="dest-card-img" src="{{ dest.media.hero_image.url|img_src(true) }}" alt="" width="360" height="180" loading="lazy" decoding="async">
       {% endif %}
       <div class="dest-card-body">
         <div class="dest-meta">
@@ -275,7 +275,7 @@
   <div class="overseas-grid">
     {% for dest in overseas %}
     <a href="/overseas/{{ dest.slug }}/" class="overseas-card">
-      <div class="overseas-card-img" style="background-image:url('{{ dest.hero_image }}')"></div>
+      <img class="overseas-card-img" src="{{ dest.hero_image|img_src(true) }}" alt="" width="360" height="180" loading="lazy" decoding="async">
       <div class="overseas-card-body">
         <span class="overseas-badge">{{ dest.flag }} {{ dest.country }}</span>
         <h3>{{ dest.title | replace(" — The Honest NZ Family Guide (2026)","") | replace(" — Honest Family Guide (2026)","") }}</h3>

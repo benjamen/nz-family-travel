@@ -13,7 +13,6 @@
   <link rel="icon" href="/static/img/favicon.svg" type="image/svg+xml">
   <!-- Preconnect for CDN performance -->
   <link rel="preconnect" href="https://images.unsplash.com">
-  <link rel="preconnect" href="https://www.googletagmanager.com">
   <!-- Geo signals for NZ-local search -->
   <meta name="geo.region" content="NZ">
   <meta name="geo.placename" content="New Zealand">
@@ -34,9 +33,27 @@
   <meta name="twitter:title" content="NZ Family Travel — NZ's Family Holiday Planning Platform">
   <meta name="twitter:description" content="Plan your New Zealand family holiday. Compare campervans, find kid-friendly activities, and get honest itineraries from New Zealand parents.">
   <meta name="twitter:image" content="https://images.unsplash.com/photo-1507699622108-4be3abd695ad?w=1200&q=80">
+  <script>
+  // Third-party scripts (GA4, GetYourGuide, MailerLite) load on first interaction, or 4s after
+  // page load — keeps them off the critical path so they don't block rendering or inflate TBT.
+  window.nzftLater=(function(){
+    var q=[],fired=false;
+    function run(){ if(fired) return; fired=true; q.forEach(function(f){ try{f();}catch(e){} }); q=[]; }
+    ['pointerdown','keydown','touchstart','scroll'].forEach(function(ev){ addEventListener(ev,run,{once:true,passive:true}); });
+    addEventListener('load',function(){ setTimeout(run,4000); });
+    return function(f){ if(fired) f(); else q.push(f); };
+  })();
+  window.nzftScript=function(src,attrs){
+    var s=document.createElement('script'); s.async=true; s.src=src;
+    for(var k in (attrs||{})) s.setAttribute(k,attrs[k]);
+    document.head.appendChild(s);
+  };
+  </script>
   
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-BHTP34TBYW"></script>
-  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-BHTP34TBYW');</script>
+  <script>
+  window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-BHTP34TBYW');
+  nzftLater(function(){ nzftScript('https://www.googletagmanager.com/gtag/js?id=G-BHTP34TBYW'); });
+  </script>
   
   <script type="application/ld+json">
   [
@@ -122,7 +139,7 @@
 </style>
 
   <!-- GetYourGuide affiliate tracking -->
-  <script async defer src="https://widget.getyourguide.com/dist/pa.umd.production.min.js" data-gyg-partner-id="TIXNVKM"></script>
+  <script>nzftLater(function(){ nzftScript('https://widget.getyourguide.com/dist/pa.umd.production.min.js',{'data-gyg-partner-id':'TIXNVKM'}); });</script>
   <style>
     .reviews-section h2 { margin-top: 1.5rem; }
     .reviews-list { display: flex; flex-direction: column; gap: 1rem; margin-bottom: 1.5rem; }
@@ -263,9 +280,9 @@
         <!-- ── Destination markers ── -->
 
         <!-- Bay of Islands -->
-        <g class="dest-marker" onclick="showDest('bay-of-islands-family')" role="button" aria-label="Bay of Islands">
+        <g class="dest-marker" onclick="showDest('bay-of-islands-family')" role="button">
           <circle cx="258" cy="75" r="9" />
-          <text x="258" y="75">BOI</text>
+          <text x="258" y="75" aria-hidden="true">BOI</text>
           <text class="dest-label" x="258" y="90">Bay of Islands</text>
         </g>
 
@@ -276,63 +293,63 @@
         </g>
 
         <!-- Coromandel -->
-        <g class="dest-marker" onclick="showDest('coromandel-with-kids')" role="button" aria-label="Coromandel">
+        <g class="dest-marker" onclick="showDest('coromandel-with-kids')" role="button">
           <circle cx="330" cy="148" r="9" />
-          <text x="330" y="148">COR</text>
+          <text x="330" y="148" aria-hidden="true">COR</text>
           <text class="dest-label" x="330" y="163">Coromandel</text>
         </g>
 
         <!-- Rotorua -->
-        <g class="dest-marker" onclick="showDest('rotorua-family-guide')" role="button" aria-label="Rotorua">
+        <g class="dest-marker" onclick="showDest('rotorua-family-guide')" role="button">
           <circle cx="370" cy="210" r="9" />
-          <text x="370" y="210">ROT</text>
+          <text x="370" y="210" aria-hidden="true">ROT</text>
           <text class="dest-label" x="370" y="225">Rotorua</text>
         </g>
 
         <!-- Taupo -->
-        <g class="dest-marker" onclick="showDest('taupo-with-kids')" role="button" aria-label="Taupo">
+        <g class="dest-marker" onclick="showDest('taupo-with-kids')" role="button">
           <circle cx="358" cy="248" r="9" />
-          <text x="358" y="248">TAU</text>
+          <text x="358" y="248" aria-hidden="true">TAU</text>
           <text class="dest-label" x="358" y="263">Taupo</text>
         </g>
 
         <!-- Wellington -->
-        <g class="dest-marker" onclick="showDest('wellington-with-kids')" role="button" aria-label="Wellington">
+        <g class="dest-marker" onclick="showDest('wellington-with-kids')" role="button">
           <circle cx="310" cy="418" r="9" />
-          <text x="310" y="418">WLG</text>
+          <text x="310" y="418" aria-hidden="true">WLG</text>
           <text class="dest-label" x="310" y="433">Wellington</text>
         </g>
 
         <!-- Nelson -->
-        <g class="dest-marker" onclick="showDest('nelson-abel-tasman-family')" role="button" aria-label="Nelson">
+        <g class="dest-marker" onclick="showDest('nelson-abel-tasman-family')" role="button">
           <circle cx="188" cy="450" r="9" />
-          <text x="188" y="450">NEL</text>
+          <text x="188" y="450" aria-hidden="true">NEL</text>
           <text class="dest-label" x="188" y="465">Nelson</text>
         </g>
 
         <!-- Christchurch -->
-        <g class="dest-marker" onclick="showDest('christchurch-with-kids')" role="button" aria-label="Christchurch">
+        <g class="dest-marker" onclick="showDest('christchurch-with-kids')" role="button">
           <circle cx="272" cy="510" r="9" />
-          <text x="272" y="510">CHC</text>
+          <text x="272" y="510" aria-hidden="true">CHC</text>
           <text class="dest-label" x="272" y="525">Christchurch</text>
         </g>
 
         <!-- Wanaka -->
-        <g class="dest-marker" onclick="showDest('wanaka-with-kids')" role="button" aria-label="Wanaka">
+        <g class="dest-marker" onclick="showDest('wanaka-with-kids')" role="button">
           <circle cx="148" cy="558" r="9" />
-          <text x="148" y="558">WAN</text>
+          <text x="148" y="558" aria-hidden="true">WAN</text>
           <text class="dest-label" x="148" y="573">Wanaka</text>
         </g>
 
         <!-- Queenstown -->
-        <g class="dest-marker" onclick="showDest('queenstown-with-kids')" role="button" aria-label="Queenstown">
+        <g class="dest-marker" onclick="showDest('queenstown-with-kids')" role="button">
           <circle cx="140" cy="590" r="10" fill="#b45309" />
           <text x="140" y="590" style="font-size:7px">QTN</text>
           <text class="dest-label" x="140" y="606">Queenstown</text>
         </g>
 
         <!-- Fiordland / Milford Sound -->
-        <g class="dest-marker" onclick="showDest('fiordland-milford-sound-family')" role="button" aria-label="Fiordland">
+        <g class="dest-marker" onclick="showDest('fiordland-milford-sound-family')" role="button">
           <circle cx="108" cy="540" r="9" />
           <text x="108" y="540" style="font-size:6.5px">FJL</text>
           <text class="dest-label" x="108" y="555">Fiordland</text>
@@ -365,7 +382,7 @@
         <div class="dest-meta">
           <span class="dest-island island-"></span>
         </div>
-        <h3>Auckland</h3>
+        <h2>Auckland</h2>
         <p>NZ's biggest city — beaches, islands, sky-high views and a world-class zoo</p>
         <div class="dest-facts">
           <span>$200–$350/day</span>
@@ -379,7 +396,7 @@
         <div class="dest-meta">
           <span class="dest-island island-north-island">North Island</span>
         </div>
-        <h3>Bay of Islands</h3>
+        <h2>Bay of Islands</h2>
         <p>144 islands, dolphins, sailing, and New Zealand's birthplace — all in one bay</p>
         <div class="dest-facts">
           <span>$250–450/day</span>
@@ -393,7 +410,7 @@
         <div class="dest-meta">
           <span class="dest-island island-south-island">South Island</span>
         </div>
-        <h3>Christchurch</h3>
+        <h2>Christchurch</h2>
         <p>Gateway to the South Island — and surprisingly great for families</p>
         <div class="dest-facts">
           <span>$200–350/day</span>
@@ -407,7 +424,7 @@
         <div class="dest-meta">
           <span class="dest-island island-north-island">North Island</span>
         </div>
-        <h3>Coromandel</h3>
+        <h2>Coromandel</h2>
         <p>Hot Water Beach, Cathedral Cove, and some of NZ's most beautiful beaches within 2.5 hours of Auckland</p>
         <div class="dest-facts">
           <span>$180–320/day</span>
@@ -421,7 +438,7 @@
         <div class="dest-meta">
           <span class="dest-island island-south-island">South Island</span>
         </div>
-        <h3>Dunedin</h3>
+        <h2>Dunedin</h2>
         <p>Yellow-eyed penguins, albatross, sea lions, and NZ's most dramatic urban wildlife experience</p>
         <div class="dest-facts">
           <span>$200-380/day</span>
@@ -435,7 +452,7 @@
         <div class="dest-meta">
           <span class="dest-island island-south-island">South Island</span>
         </div>
-        <h3>Fiordland & Milford Sound</h3>
+        <h2>Fiordland & Milford Sound</h2>
         <p>The most dramatic scenery in New Zealand — Milford Sound will stop your kids mid-sentence</p>
         <div class="dest-facts">
           <span>$280–500/day</span>
@@ -449,7 +466,7 @@
         <div class="dest-meta">
           <span class="dest-island island-"></span>
         </div>
-        <h3>Gisborne & East Cape</h3>
+        <h2>Gisborne & East Cape</h2>
         <p>World's first sunrise, surf beaches and remote Maori heartland — worth the drive</p>
         <div class="dest-facts">
           <span>$120–$200/day</span>
@@ -463,7 +480,7 @@
         <div class="dest-meta">
           <span class="dest-island island-north-island">North Island</span>
         </div>
-        <h3>Hawke's Bay</h3>
+        <h2>Hawke's Bay</h2>
         <p>Art Deco Napier, Cape Kidnappers gannets, and NZ's best fruit — a hidden family gem</p>
         <div class="dest-facts">
           <span>$180-340/day</span>
@@ -477,7 +494,7 @@
         <div class="dest-meta">
           <span class="dest-island island-"></span>
         </div>
-        <h3>Marlborough & Blenheim</h3>
+        <h2>Marlborough & Blenheim</h2>
         <p>Sunlit sounds, wildlife cruises, and NZ's sunniest wine region — great for families</p>
         <div class="dest-facts">
           <span>$180–$300/day</span>
@@ -491,7 +508,7 @@
         <div class="dest-meta">
           <span class="dest-island island-south-island">South Island</span>
         </div>
-        <h3>Nelson & Abel Tasman</h3>
+        <h2>Nelson & Abel Tasman</h2>
         <p>NZ's sunniest region — golden beaches, clear water, and the most beautiful coastal walk in the world</p>
         <div class="dest-facts">
           <span>$220–400/day</span>
@@ -505,7 +522,7 @@
         <div class="dest-meta">
           <span class="dest-island island-"></span>
         </div>
-        <h3>New Plymouth & Taranaki</h3>
+        <h2>New Plymouth & Taranaki</h2>
         <p>Volcanic mountain, surf beaches, and NZ's best park — a hidden family gem</p>
         <div class="dest-facts">
           <span>$150–$250/day</span>
@@ -519,7 +536,7 @@
         <div class="dest-meta">
           <span class="dest-island island-north-island">North Island</span>
         </div>
-        <h3>Northland</h3>
+        <h2>Northland</h2>
         <p>Cape Reinga, Ninety Mile Beach, and ancient kauri forests — NZ's subtropical north</p>
         <div class="dest-facts">
           <span>$200-380/day</span>
@@ -533,7 +550,7 @@
         <div class="dest-meta">
           <span class="dest-island island-south-island">South Island</span>
         </div>
-        <h3>Queenstown</h3>
+        <h2>Queenstown</h2>
         <p>Adventure capital of the world — with more family fun than you'd expect</p>
         <div class="dest-facts">
           <span>$350–600/day</span>
@@ -547,7 +564,7 @@
         <div class="dest-meta">
           <span class="dest-island island-north-island">North Island</span>
         </div>
-        <h3>Rotorua</h3>
+        <h2>Rotorua</h2>
         <p>Geothermal wonder, Maori culture, and more activities per square km than anywhere in NZ</p>
         <div class="dest-facts">
           <span>$250–450/day</span>
@@ -561,7 +578,7 @@
         <div class="dest-meta">
           <span class="dest-island island-north-island">North Island</span>
         </div>
-        <h3>Taupo</h3>
+        <h2>Taupo</h2>
         <p>Lake Taupo, Huka Falls, and a relaxed pace — perfect mid-island stop</p>
         <div class="dest-facts">
           <span>$200–350/day</span>
@@ -575,7 +592,7 @@
         <div class="dest-meta">
           <span class="dest-island island-north-island">North Island</span>
         </div>
-        <h3>Tauranga / Mount Maunganui</h3>
+        <h2>Tauranga / Mount Maunganui</h2>
         <p>NZ's most popular beach town — Mount Beach, surf, and the best fish and chips on the coast</p>
         <div class="dest-facts">
           <span>$180-380/day</span>
@@ -589,7 +606,7 @@
         <div class="dest-meta">
           <span class="dest-island island-south-island">South Island</span>
         </div>
-        <h3>Wanaka</h3>
+        <h2>Wanaka</h2>
         <p>Queenstown's quieter, more beautiful neighbour — and better for families</p>
         <div class="dest-facts">
           <span>$250–450/day</span>
@@ -603,7 +620,7 @@
         <div class="dest-meta">
           <span class="dest-island island-north-island">North Island</span>
         </div>
-        <h3>Wellington</h3>
+        <h2>Wellington</h2>
         <p>Te Papa, the coolest little capital in the world, and NZ's best café culture</p>
         <div class="dest-facts">
           <span>$200–380/day</span>
@@ -617,7 +634,7 @@
         <div class="dest-meta">
           <span class="dest-island island-"></span>
         </div>
-        <h3>West Coast</h3>
+        <h2>West Coast</h2>
         <p>Glaciers, pancake rocks, wild beaches and gold rush history — NZ's untamed side</p>
         <div class="dest-facts">
           <span>$150–$250/day</span>
@@ -636,7 +653,7 @@
       
       <a href="/destinations/auckland-with-kids/" class="dest-card">
         
-        <div class="dest-card-img" style="background-image:url('/static/img/destinations/auckland-with-kids.jpg')"></div>
+        <img class="dest-card-img" src="/static/img/destinations/auckland-with-kids-640.webp" alt="" width="360" height="180" loading="lazy" decoding="async">
         
         <div class="dest-card-body">
           <div class="dest-meta">
@@ -655,7 +672,7 @@
       
       <a href="/destinations/bay-of-islands-family/" class="dest-card">
         
-        <div class="dest-card-img" style="background-image:url('/static/img/destinations/bay-of-islands-family.jpg')"></div>
+        <img class="dest-card-img" src="/static/img/destinations/bay-of-islands-family-640.webp" alt="" width="360" height="180" loading="lazy" decoding="async">
         
         <div class="dest-card-body">
           <div class="dest-meta">
@@ -674,7 +691,7 @@
       
       <a href="/destinations/christchurch-with-kids/" class="dest-card">
         
-        <div class="dest-card-img" style="background-image:url('/static/img/destinations/christchurch-with-kids.jpg')"></div>
+        <img class="dest-card-img" src="/static/img/destinations/christchurch-with-kids-640.webp" alt="" width="360" height="180" loading="lazy" decoding="async">
         
         <div class="dest-card-body">
           <div class="dest-meta">
@@ -693,7 +710,7 @@
       
       <a href="/destinations/coromandel-with-kids/" class="dest-card">
         
-        <div class="dest-card-img" style="background-image:url('/static/img/destinations/coromandel-with-kids.jpg')"></div>
+        <img class="dest-card-img" src="/static/img/destinations/coromandel-with-kids-640.webp" alt="" width="360" height="180" loading="lazy" decoding="async">
         
         <div class="dest-card-body">
           <div class="dest-meta">
@@ -712,7 +729,7 @@
       
       <a href="/destinations/dunedin-family-guide/" class="dest-card">
         
-        <div class="dest-card-img" style="background-image:url('/static/img/destinations/dunedin-family-guide.jpg')"></div>
+        <img class="dest-card-img" src="/static/img/destinations/dunedin-family-guide-640.webp" alt="" width="360" height="180" loading="lazy" decoding="async">
         
         <div class="dest-card-body">
           <div class="dest-meta">
@@ -731,7 +748,7 @@
       
       <a href="/destinations/fiordland-milford-sound-family/" class="dest-card">
         
-        <div class="dest-card-img" style="background-image:url('/static/img/destinations/fiordland-milford-sound-family.jpg')"></div>
+        <img class="dest-card-img" src="/static/img/destinations/fiordland-milford-sound-family-640.webp" alt="" width="360" height="180" loading="lazy" decoding="async">
         
         <div class="dest-card-body">
           <div class="dest-meta">
@@ -750,7 +767,7 @@
       
       <a href="/destinations/gisborne-east-cape-family/" class="dest-card">
         
-        <div class="dest-card-img" style="background-image:url('/static/img/destinations/gisborne-east-cape-family.jpg')"></div>
+        <img class="dest-card-img" src="/static/img/destinations/gisborne-east-cape-family-640.webp" alt="" width="360" height="180" loading="lazy" decoding="async">
         
         <div class="dest-card-body">
           <div class="dest-meta">
@@ -769,7 +786,7 @@
       
       <a href="/destinations/hawkes-bay-family-guide/" class="dest-card">
         
-        <div class="dest-card-img" style="background-image:url('/static/img/destinations/hawkes-bay-family-guide.jpg')"></div>
+        <img class="dest-card-img" src="/static/img/destinations/hawkes-bay-family-guide-640.webp" alt="" width="360" height="180" loading="lazy" decoding="async">
         
         <div class="dest-card-body">
           <div class="dest-meta">
@@ -788,7 +805,7 @@
       
       <a href="/destinations/marlborough-blenheim-family/" class="dest-card">
         
-        <div class="dest-card-img" style="background-image:url('/static/img/destinations/marlborough-blenheim-family.jpg')"></div>
+        <img class="dest-card-img" src="/static/img/destinations/marlborough-blenheim-family-640.webp" alt="" width="360" height="180" loading="lazy" decoding="async">
         
         <div class="dest-card-body">
           <div class="dest-meta">
@@ -807,7 +824,7 @@
       
       <a href="/destinations/nelson-abel-tasman-family/" class="dest-card">
         
-        <div class="dest-card-img" style="background-image:url('/static/img/destinations/nelson-abel-tasman-family.jpg')"></div>
+        <img class="dest-card-img" src="/static/img/destinations/nelson-abel-tasman-family-640.webp" alt="" width="360" height="180" loading="lazy" decoding="async">
         
         <div class="dest-card-body">
           <div class="dest-meta">
@@ -826,7 +843,7 @@
       
       <a href="/destinations/new-plymouth-taranaki-family/" class="dest-card">
         
-        <div class="dest-card-img" style="background-image:url('/static/img/destinations/new-plymouth-taranaki-family.jpg')"></div>
+        <img class="dest-card-img" src="/static/img/destinations/new-plymouth-taranaki-family-640.webp" alt="" width="360" height="180" loading="lazy" decoding="async">
         
         <div class="dest-card-body">
           <div class="dest-meta">
@@ -845,7 +862,7 @@
       
       <a href="/destinations/northland-cape-reinga-family/" class="dest-card">
         
-        <div class="dest-card-img" style="background-image:url('/static/img/destinations/northland-cape-reinga-family.jpg')"></div>
+        <img class="dest-card-img" src="/static/img/destinations/northland-cape-reinga-family-640.webp" alt="" width="360" height="180" loading="lazy" decoding="async">
         
         <div class="dest-card-body">
           <div class="dest-meta">
@@ -864,7 +881,7 @@
       
       <a href="/destinations/queenstown-with-kids/" class="dest-card">
         
-        <div class="dest-card-img" style="background-image:url('/static/img/destinations/queenstown-with-kids.jpg')"></div>
+        <img class="dest-card-img" src="/static/img/destinations/queenstown-with-kids-640.webp" alt="" width="360" height="180" loading="lazy" decoding="async">
         
         <div class="dest-card-body">
           <div class="dest-meta">
@@ -883,7 +900,7 @@
       
       <a href="/destinations/rotorua-family-guide/" class="dest-card">
         
-        <div class="dest-card-img" style="background-image:url('/static/img/destinations/rotorua-family-guide.jpg')"></div>
+        <img class="dest-card-img" src="/static/img/destinations/rotorua-family-guide-640.webp" alt="" width="360" height="180" loading="lazy" decoding="async">
         
         <div class="dest-card-body">
           <div class="dest-meta">
@@ -902,7 +919,7 @@
       
       <a href="/destinations/taupo-with-kids/" class="dest-card">
         
-        <div class="dest-card-img" style="background-image:url('/static/img/destinations/taupo-with-kids.jpg')"></div>
+        <img class="dest-card-img" src="/static/img/destinations/taupo-with-kids-640.webp" alt="" width="360" height="180" loading="lazy" decoding="async">
         
         <div class="dest-card-body">
           <div class="dest-meta">
@@ -921,7 +938,7 @@
       
       <a href="/destinations/tauranga-mount-maunganui-family/" class="dest-card">
         
-        <div class="dest-card-img" style="background-image:url('/static/img/destinations/tauranga-mount-maunganui-family.jpg')"></div>
+        <img class="dest-card-img" src="/static/img/destinations/tauranga-mount-maunganui-family-640.webp" alt="" width="360" height="180" loading="lazy" decoding="async">
         
         <div class="dest-card-body">
           <div class="dest-meta">
@@ -940,7 +957,7 @@
       
       <a href="/destinations/wanaka-with-kids/" class="dest-card">
         
-        <div class="dest-card-img" style="background-image:url('/static/img/destinations/wanaka-with-kids.jpg')"></div>
+        <img class="dest-card-img" src="/static/img/destinations/wanaka-with-kids-640.webp" alt="" width="360" height="180" loading="lazy" decoding="async">
         
         <div class="dest-card-body">
           <div class="dest-meta">
@@ -959,7 +976,7 @@
       
       <a href="/destinations/wellington-with-kids/" class="dest-card">
         
-        <div class="dest-card-img" style="background-image:url('/static/img/destinations/wellington-with-kids.jpg')"></div>
+        <img class="dest-card-img" src="/static/img/destinations/wellington-with-kids-640.webp" alt="" width="360" height="180" loading="lazy" decoding="async">
         
         <div class="dest-card-body">
           <div class="dest-meta">
@@ -978,7 +995,7 @@
       
       <a href="/destinations/west-coast-family-guide/" class="dest-card">
         
-        <div class="dest-card-img" style="background-image:url('/static/img/destinations/west-coast-family-guide.jpg')"></div>
+        <img class="dest-card-img" src="/static/img/destinations/west-coast-family-guide-640.webp" alt="" width="360" height="180" loading="lazy" decoding="async">
         
         <div class="dest-card-body">
           <div class="dest-meta">
@@ -1625,11 +1642,40 @@ function showDest(slug) {
 
   
   <!-- MailerLite universal embed (enabled by mailerlite_account_id in data/site.json; see MAILERLITE-SETUP.md) -->
-  <script>(function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[]).push(arguments)},l=d.createElement(e),l.async=1,l.src=u,n=d.getElementsByTagName(e)[0],n.parentNode.insertBefore(l,n)})(window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');ml('account','2700226');</script>
+  <script>(function(w,d,e,u,f){w[f]=w[f]||function(){(w[f].q=w[f].q||[]).push(arguments)};nzftLater(function(){var l=d.createElement(e);l.async=1;l.src=u;d.head.appendChild(l);});})(window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');ml('account','2700226');</script>
   
 
-  <!-- Site search (Fuse.js) -->
-  <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js" defer></script>
+
+  <!-- GA4 conversion events: mark affiliate_click / generate_lead / add_to_wishlist as key events in GA4 admin -->
+  <script>
+  (function(){
+    function ev(name, params){ if(window.gtag) gtag('event', name, Object.assign({transport_type:'beacon'}, params||{})); }
+    document.addEventListener('click', function(e){
+      var a = e.target.closest && e.target.closest('a[href]');
+      if(!a) return;
+      var href = a.getAttribute('href') || '';
+      if(/(^|\s)sponsored(\s|$)/.test(a.getAttribute('rel') || '')){
+        var host = ''; try { host = new URL(a.href, location.href).hostname; } catch(x){}
+        ev('affiliate_click', {link_url: a.href, link_domain: host, link_text: (a.textContent || '').trim().slice(0, 80), page_path: location.pathname});
+      } else if(href.indexOf('mailto:') === 0){
+        ev('contact_click', {page_path: location.pathname});
+      }
+    }, true);
+    document.addEventListener('submit', function(e){
+      var f = e.target;
+      if(f.classList && f.classList.contains('newsletter-form')){
+        var t = f.querySelector('input[name=tags]');
+        ev('generate_lead', {method: 'newsletter', form_location: t ? t.value : 'unknown', page_path: location.pathname});
+      }
+    }, true);
+    document.addEventListener('click', function(e){
+      var b = e.target.closest && e.target.closest('.save-btn');
+      if(b && !b.classList.contains('is-saved')) ev('add_to_wishlist', {item_type: b.dataset.type, item_id: b.dataset.slug});
+    }, true);
+  })();
+  </script>
+
+  <!-- Site search (Fuse.js, loaded on first focus) -->
   <script>
   (function(){
     var input = document.getElementById('site-search');
@@ -1640,6 +1686,7 @@ function showDest(slug) {
     function load(){
       if(fuse || loading) return;
       loading = true;
+      if(!window.Fuse) nzftScript('https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js');
       fetch('/search-index.json').then(function(r){return r.json();}).then(function(data){
         function start(){
           fuse = new Fuse(data, {keys:['title','text'], threshold:0.4, ignoreLocation:true});

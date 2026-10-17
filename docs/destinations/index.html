@@ -13,7 +13,6 @@
   <link rel="icon" href="/static/img/favicon.svg" type="image/svg+xml">
   <!-- Preconnect for CDN performance -->
   <link rel="preconnect" href="https://images.unsplash.com">
-  <link rel="preconnect" href="https://www.googletagmanager.com">
   <!-- Geo signals for NZ-local search -->
   <meta name="geo.region" content="NZ">
   <meta name="geo.placename" content="New Zealand">
@@ -34,9 +33,27 @@
   <meta name="twitter:title" content="NZ Family Travel — NZ's Family Holiday Planning Platform">
   <meta name="twitter:description" content="Plan your New Zealand family holiday. Compare campervans, find kid-friendly activities, and get honest itineraries from New Zealand parents.">
   <meta name="twitter:image" content="https://images.unsplash.com/photo-1507699622108-4be3abd695ad?w=1200&q=80">
+  <script>
+  // Third-party scripts (GA4, GetYourGuide, MailerLite) load on first interaction, or 4s after
+  // page load — keeps them off the critical path so they don't block rendering or inflate TBT.
+  window.nzftLater=(function(){
+    var q=[],fired=false;
+    function run(){ if(fired) return; fired=true; q.forEach(function(f){ try{f();}catch(e){} }); q=[]; }
+    ['pointerdown','keydown','touchstart','scroll'].forEach(function(ev){ addEventListener(ev,run,{once:true,passive:true}); });
+    addEventListener('load',function(){ setTimeout(run,4000); });
+    return function(f){ if(fired) f(); else q.push(f); };
+  })();
+  window.nzftScript=function(src,attrs){
+    var s=document.createElement('script'); s.async=true; s.src=src;
+    for(var k in (attrs||{})) s.setAttribute(k,attrs[k]);
+    document.head.appendChild(s);
+  };
+  </script>
   
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-BHTP34TBYW"></script>
-  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-BHTP34TBYW');</script>
+  <script>
+  window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-BHTP34TBYW');
+  nzftLater(function(){ nzftScript('https://www.googletagmanager.com/gtag/js?id=G-BHTP34TBYW'); });
+  </script>
   
   <script type="application/ld+json">
   [
@@ -239,7 +256,7 @@
 </script>
 
   <!-- GetYourGuide affiliate tracking -->
-  <script async defer src="https://widget.getyourguide.com/dist/pa.umd.production.min.js" data-gyg-partner-id="TIXNVKM"></script>
+  <script>nzftLater(function(){ nzftScript('https://widget.getyourguide.com/dist/pa.umd.production.min.js',{'data-gyg-partner-id':'TIXNVKM'}); });</script>
   <style>
     .reviews-section h2 { margin-top: 1.5rem; }
     .reviews-list { display: flex; flex-direction: column; gap: 1rem; margin-bottom: 1.5rem; }
@@ -308,7 +325,7 @@
   <div class="hub-grid">
     
     <a href="/destinations/auckland-with-kids/" class="hub-card">
-      <h3>Auckland</h3>
+      <h2>Auckland</h2>
       <p>NZ's biggest city — beaches, islands, sky-high views and a world-class zoo</p>
       
       <div class="hub-card-meta">
@@ -321,7 +338,7 @@
     </a>
     
     <a href="/destinations/bay-of-islands-family/" class="hub-card">
-      <h3>Bay of Islands</h3>
+      <h2>Bay of Islands</h2>
       <p>144 islands, dolphins, sailing, and New Zealand's birthplace — all in one bay</p>
       
       <div class="hub-card-meta">
@@ -334,7 +351,7 @@
     </a>
     
     <a href="/destinations/christchurch-with-kids/" class="hub-card">
-      <h3>Christchurch</h3>
+      <h2>Christchurch</h2>
       <p>Gateway to the South Island — and surprisingly great for families</p>
       
       <div class="hub-card-meta">
@@ -347,7 +364,7 @@
     </a>
     
     <a href="/destinations/coromandel-with-kids/" class="hub-card">
-      <h3>Coromandel</h3>
+      <h2>Coromandel</h2>
       <p>Hot Water Beach, Cathedral Cove, and some of NZ's most beautiful beaches within 2.5 hours of Auckland</p>
       
       <div class="hub-card-meta">
@@ -360,7 +377,7 @@
     </a>
     
     <a href="/destinations/dunedin-family-guide/" class="hub-card">
-      <h3>Dunedin</h3>
+      <h2>Dunedin</h2>
       <p>Yellow-eyed penguins, albatross, sea lions, and NZ's most dramatic urban wildlife experience</p>
       
       <div class="hub-card-meta">
@@ -373,7 +390,7 @@
     </a>
     
     <a href="/destinations/fiordland-milford-sound-family/" class="hub-card">
-      <h3>Fiordland & Milford Sound</h3>
+      <h2>Fiordland & Milford Sound</h2>
       <p>The most dramatic scenery in New Zealand — Milford Sound will stop your kids mid-sentence</p>
       
       <div class="hub-card-meta">
@@ -386,7 +403,7 @@
     </a>
     
     <a href="/destinations/gisborne-east-cape-family/" class="hub-card">
-      <h3>Gisborne & East Cape</h3>
+      <h2>Gisborne & East Cape</h2>
       <p>World's first sunrise, surf beaches and remote Maori heartland — worth the drive</p>
       
       <div class="hub-card-meta">
@@ -399,7 +416,7 @@
     </a>
     
     <a href="/destinations/hawkes-bay-family-guide/" class="hub-card">
-      <h3>Hawke's Bay</h3>
+      <h2>Hawke's Bay</h2>
       <p>Art Deco Napier, Cape Kidnappers gannets, and NZ's best fruit — a hidden family gem</p>
       
       <div class="hub-card-meta">
@@ -412,7 +429,7 @@
     </a>
     
     <a href="/destinations/marlborough-blenheim-family/" class="hub-card">
-      <h3>Marlborough & Blenheim</h3>
+      <h2>Marlborough & Blenheim</h2>
       <p>Sunlit sounds, wildlife cruises, and NZ's sunniest wine region — great for families</p>
       
       <div class="hub-card-meta">
@@ -425,7 +442,7 @@
     </a>
     
     <a href="/destinations/nelson-abel-tasman-family/" class="hub-card">
-      <h3>Nelson & Abel Tasman</h3>
+      <h2>Nelson & Abel Tasman</h2>
       <p>NZ's sunniest region — golden beaches, clear water, and the most beautiful coastal walk in the world</p>
       
       <div class="hub-card-meta">
@@ -438,7 +455,7 @@
     </a>
     
     <a href="/destinations/new-plymouth-taranaki-family/" class="hub-card">
-      <h3>New Plymouth & Taranaki</h3>
+      <h2>New Plymouth & Taranaki</h2>
       <p>Volcanic mountain, surf beaches, and NZ's best park — a hidden family gem</p>
       
       <div class="hub-card-meta">
@@ -451,7 +468,7 @@
     </a>
     
     <a href="/destinations/northland-cape-reinga-family/" class="hub-card">
-      <h3>Northland</h3>
+      <h2>Northland</h2>
       <p>Cape Reinga, Ninety Mile Beach, and ancient kauri forests — NZ's subtropical north</p>
       
       <div class="hub-card-meta">
@@ -464,7 +481,7 @@
     </a>
     
     <a href="/destinations/queenstown-with-kids/" class="hub-card">
-      <h3>Queenstown</h3>
+      <h2>Queenstown</h2>
       <p>Adventure capital of the world — with more family fun than you'd expect</p>
       
       <div class="hub-card-meta">
@@ -477,7 +494,7 @@
     </a>
     
     <a href="/destinations/rotorua-family-guide/" class="hub-card">
-      <h3>Rotorua</h3>
+      <h2>Rotorua</h2>
       <p>Geothermal wonder, Maori culture, and more activities per square km than anywhere in NZ</p>
       
       <div class="hub-card-meta">
@@ -490,7 +507,7 @@
     </a>
     
     <a href="/destinations/taupo-with-kids/" class="hub-card">
-      <h3>Taupo</h3>
+      <h2>Taupo</h2>
       <p>Lake Taupo, Huka Falls, and a relaxed pace — perfect mid-island stop</p>
       
       <div class="hub-card-meta">
@@ -503,7 +520,7 @@
     </a>
     
     <a href="/destinations/tauranga-mount-maunganui-family/" class="hub-card">
-      <h3>Tauranga / Mount Maunganui</h3>
+      <h2>Tauranga / Mount Maunganui</h2>
       <p>NZ's most popular beach town — Mount Beach, surf, and the best fish and chips on the coast</p>
       
       <div class="hub-card-meta">
@@ -516,7 +533,7 @@
     </a>
     
     <a href="/destinations/wanaka-with-kids/" class="hub-card">
-      <h3>Wanaka</h3>
+      <h2>Wanaka</h2>
       <p>Queenstown's quieter, more beautiful neighbour — and better for families</p>
       
       <div class="hub-card-meta">
@@ -529,7 +546,7 @@
     </a>
     
     <a href="/destinations/wellington-with-kids/" class="hub-card">
-      <h3>Wellington</h3>
+      <h2>Wellington</h2>
       <p>Te Papa, the coolest little capital in the world, and NZ's best café culture</p>
       
       <div class="hub-card-meta">
@@ -542,7 +559,7 @@
     </a>
     
     <a href="/destinations/west-coast-family-guide/" class="hub-card">
-      <h3>West Coast</h3>
+      <h2>West Coast</h2>
       <p>Glaciers, pancake rocks, wild beaches and gold rush history — NZ's untamed side</p>
       
       <div class="hub-card-meta">
@@ -939,11 +956,40 @@
 
   
   <!-- MailerLite universal embed (enabled by mailerlite_account_id in data/site.json; see MAILERLITE-SETUP.md) -->
-  <script>(function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[]).push(arguments)},l=d.createElement(e),l.async=1,l.src=u,n=d.getElementsByTagName(e)[0],n.parentNode.insertBefore(l,n)})(window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');ml('account','2700226');</script>
+  <script>(function(w,d,e,u,f){w[f]=w[f]||function(){(w[f].q=w[f].q||[]).push(arguments)};nzftLater(function(){var l=d.createElement(e);l.async=1;l.src=u;d.head.appendChild(l);});})(window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');ml('account','2700226');</script>
   
 
-  <!-- Site search (Fuse.js) -->
-  <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js" defer></script>
+
+  <!-- GA4 conversion events: mark affiliate_click / generate_lead / add_to_wishlist as key events in GA4 admin -->
+  <script>
+  (function(){
+    function ev(name, params){ if(window.gtag) gtag('event', name, Object.assign({transport_type:'beacon'}, params||{})); }
+    document.addEventListener('click', function(e){
+      var a = e.target.closest && e.target.closest('a[href]');
+      if(!a) return;
+      var href = a.getAttribute('href') || '';
+      if(/(^|\s)sponsored(\s|$)/.test(a.getAttribute('rel') || '')){
+        var host = ''; try { host = new URL(a.href, location.href).hostname; } catch(x){}
+        ev('affiliate_click', {link_url: a.href, link_domain: host, link_text: (a.textContent || '').trim().slice(0, 80), page_path: location.pathname});
+      } else if(href.indexOf('mailto:') === 0){
+        ev('contact_click', {page_path: location.pathname});
+      }
+    }, true);
+    document.addEventListener('submit', function(e){
+      var f = e.target;
+      if(f.classList && f.classList.contains('newsletter-form')){
+        var t = f.querySelector('input[name=tags]');
+        ev('generate_lead', {method: 'newsletter', form_location: t ? t.value : 'unknown', page_path: location.pathname});
+      }
+    }, true);
+    document.addEventListener('click', function(e){
+      var b = e.target.closest && e.target.closest('.save-btn');
+      if(b && !b.classList.contains('is-saved')) ev('add_to_wishlist', {item_type: b.dataset.type, item_id: b.dataset.slug});
+    }, true);
+  })();
+  </script>
+
+  <!-- Site search (Fuse.js, loaded on first focus) -->
   <script>
   (function(){
     var input = document.getElementById('site-search');
@@ -954,6 +1000,7 @@
     function load(){
       if(fuse || loading) return;
       loading = true;
+      if(!window.Fuse) nzftScript('https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js');
       fetch('/search-index.json').then(function(r){return r.json();}).then(function(data){
         function start(){
           fuse = new Fuse(data, {keys:['title','text'], threshold:0.4, ignoreLocation:true});

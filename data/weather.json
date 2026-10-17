@@ -1,10 +1,10 @@
 {
   "intro": "New Zealand's weather varies dramatically by region and month. This matrix shows the best time to visit each destination — based on actual conditions, not just averages.",
   "rating_key": {
-    "5": { "label": "Excellent", "emoji": "☀️", "color": "#16a34a", "bg": "#dcfce7" },
-    "4": { "label": "Very Good", "emoji": "🌤️", "color": "#ca8a04", "bg": "#fef9c3" },
-    "3": { "label": "OK", "emoji": "⛅", "color": "#d97706", "bg": "#fef3c7" },
-    "2": { "label": "Hit & Miss", "emoji": "🌦️", "color": "#dc2626", "bg": "#fee2e2" },
+    "5": { "label": "Excellent", "emoji": "☀️", "color": "#15803d", "bg": "#dcfce7" },
+    "4": { "label": "Very Good", "emoji": "🌤️", "color": "#854d0e", "bg": "#fef9c3" },
+    "3": { "label": "OK", "emoji": "⛅", "color": "#b45309", "bg": "#fef3c7" },
+    "2": { "label": "Hit & Miss", "emoji": "🌦️", "color": "#b91c1c", "bg": "#fee2e2" },
     "1": { "label": "Avoid", "emoji": "🌧️", "color": "#7c3aed", "bg": "#ede9fe" }
   },
   "months": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],

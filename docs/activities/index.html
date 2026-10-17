@@ -13,7 +13,6 @@
   <link rel="icon" href="/static/img/favicon.svg" type="image/svg+xml">
   <!-- Preconnect for CDN performance -->
   <link rel="preconnect" href="https://images.unsplash.com">
-  <link rel="preconnect" href="https://www.googletagmanager.com">
   <!-- Geo signals for NZ-local search -->
   <meta name="geo.region" content="NZ">
   <meta name="geo.placename" content="New Zealand">
@@ -34,9 +33,27 @@
   <meta name="twitter:title" content="NZ Family Travel — NZ's Family Holiday Planning Platform">
   <meta name="twitter:description" content="Plan your New Zealand family holiday. Compare campervans, find kid-friendly activities, and get honest itineraries from New Zealand parents.">
   <meta name="twitter:image" content="https://images.unsplash.com/photo-1507699622108-4be3abd695ad?w=1200&q=80">
+  <script>
+  // Third-party scripts (GA4, GetYourGuide, MailerLite) load on first interaction, or 4s after
+  // page load — keeps them off the critical path so they don't block rendering or inflate TBT.
+  window.nzftLater=(function(){
+    var q=[],fired=false;
+    function run(){ if(fired) return; fired=true; q.forEach(function(f){ try{f();}catch(e){} }); q=[]; }
+    ['pointerdown','keydown','touchstart','scroll'].forEach(function(ev){ addEventListener(ev,run,{once:true,passive:true}); });
+    addEventListener('load',function(){ setTimeout(run,4000); });
+    return function(f){ if(fired) f(); else q.push(f); };
+  })();
+  window.nzftScript=function(src,attrs){
+    var s=document.createElement('script'); s.async=true; s.src=src;
+    for(var k in (attrs||{})) s.setAttribute(k,attrs[k]);
+    document.head.appendChild(s);
+  };
+  </script>
   
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-BHTP34TBYW"></script>
-  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-BHTP34TBYW');</script>
+  <script>
+  window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-BHTP34TBYW');
+  nzftLater(function(){ nzftScript('https://www.googletagmanager.com/gtag/js?id=G-BHTP34TBYW'); });
+  </script>
   
   <script type="application/ld+json">
   [
@@ -267,7 +284,7 @@
 </script>
 
   <!-- GetYourGuide affiliate tracking -->
-  <script async defer src="https://widget.getyourguide.com/dist/pa.umd.production.min.js" data-gyg-partner-id="TIXNVKM"></script>
+  <script>nzftLater(function(){ nzftScript('https://widget.getyourguide.com/dist/pa.umd.production.min.js',{'data-gyg-partner-id':'TIXNVKM'}); });</script>
   <style>
     .reviews-section h2 { margin-top: 1.5rem; }
     .reviews-list { display: flex; flex-direction: column; gap: 1rem; margin-bottom: 1.5rem; }
@@ -402,7 +419,7 @@
        data-minage="3"
        data-price="50"
        data-rain="true">
-      <h3>Skyline Gondola & Luge</h3>
+      <h2>Skyline Gondola & Luge</h2>
       <p>Queenstown's most iconic family activity — gondola up, luge down</p>
       
       <div class="hub-card-meta">
@@ -419,7 +436,7 @@
        data-minage="0"
        data-price="65"
        data-rain="true">
-      <h3>Te Puia</h3>
+      <h2>Te Puia</h2>
       <p>Geysers, kiwi birds, and living Maori culture in one park</p>
       
       <div class="hub-card-meta">
@@ -436,7 +453,7 @@
        data-minage="0"
        data-price="40"
        data-rain="false">
-      <h3>Wai-O-Tapu Thermal Wonderland</h3>
+      <h2>Wai-O-Tapu Thermal Wonderland</h2>
       <p>Alien-coloured thermal pools that look like they're from another planet</p>
       
       <div class="hub-card-meta">
@@ -453,7 +470,7 @@
        data-minage="2"
        data-price="44"
        data-rain="true">
-      <h3>Agrodome Farm Show</h3>
+      <h2>Agrodome Farm Show</h2>
       <p>NZ farm life made fun — sheepdogs, sheep shearing, and bottle-feeding lambs</p>
       
       <div class="hub-card-meta">
@@ -470,7 +487,7 @@
        data-minage="3"
        data-price="65"
        data-rain="true">
-      <h3>International Antarctic Centre</h3>
+      <h2>International Antarctic Centre</h2>
       <p>Experience Antarctica — without actually going — in a world-class attraction</p>
       
       <div class="hub-card-meta">
@@ -487,7 +504,7 @@
        data-minage="0"
        data-price="0"
        data-rain="false">
-      <h3>Huka Falls</h3>
+      <h2>Huka Falls</h2>
       <p>New Zealand's most visited natural attraction — and it's completely free</p>
       
       <div class="hub-card-meta">
@@ -504,7 +521,7 @@
        data-minage="3"
        data-price="129"
        data-rain="false">
-      <h3>Huka Jet Boat</h3>
+      <h2>Huka Jet Boat</h2>
       <p>NZ's most thrilling 30 minutes — jet boat through a river gorge at full speed</p>
       
       <div class="hub-card-meta">
@@ -521,7 +538,7 @@
        data-minage="5"
        data-price="40"
        data-rain="true">
-      <h3>Waitangi Treaty Grounds</h3>
+      <h2>Waitangi Treaty Grounds</h2>
       <p>Where NZ was founded — and one of the most important historic sites in the country</p>
       
       <div class="hub-card-meta">
@@ -538,7 +555,7 @@
        data-minage="2"
        data-price="120"
        data-rain="false">
-      <h3>Dolphin Watching Cruise</h3>
+      <h2>Dolphin Watching Cruise</h2>
       <p>Wild dolphin encounters in the Bay of Islands — a bucket-list experience for kids</p>
       
       <div class="hub-card-meta">
@@ -555,7 +572,7 @@
        data-minage="4"
        data-price="24"
        data-rain="true">
-      <h3>Puzzling World</h3>
+      <h2>Puzzling World</h2>
       <p>Wanaka's quirkiest attraction — illusions, mazes, and mind-bending puzzle rooms</p>
       
       <div class="hub-card-meta">
@@ -572,7 +589,7 @@
        data-minage="0"
        data-price="32"
        data-rain="true">
-      <h3>Christchurch Gondola</h3>
+      <h2>Christchurch Gondola</h2>
       <p>360° views of Christchurch, Banks Peninsula, and the Southern Alps</p>
       
       <div class="hub-card-meta">
@@ -589,7 +606,7 @@
        data-minage="0"
        data-price="32"
        data-rain="false">
-      <h3>Orana Wildlife Park</h3>
+      <h2>Orana Wildlife Park</h2>
       <p>NZ's only open-range zoo — where giraffes eat from your hand</p>
       
       <div class="hub-card-meta">
@@ -606,7 +623,7 @@
        data-minage="0"
        data-price="0"
        data-rain="true">
-      <h3>Te Papa Museum</h3>
+      <h2>Te Papa Museum</h2>
       <p>NZ's national museum — free, world-class, and kids can spend all day here</p>
       
       <div class="hub-card-meta">
@@ -623,7 +640,7 @@
        data-minage="0"
        data-price="12"
        data-rain="true">
-      <h3>Wellington Cable Car</h3>
+      <h2>Wellington Cable Car</h2>
       <p>Wellington's iconic red cable car — one of NZ's most recognisable experiences</p>
       
       <div class="hub-card-meta">
@@ -640,7 +657,7 @@
        data-minage="0"
        data-price="70"
        data-rain="false">
-      <h3>Abel Tasman Water Taxi & Beach Day</h3>
+      <h2>Abel Tasman Water Taxi & Beach Day</h2>
       <p>Golden beaches and clear water in NZ's sunniest national park — all via water taxi</p>
       
       <div class="hub-card-meta">
@@ -657,7 +674,7 @@
        data-minage="0"
        data-price="0"
        data-rain="false">
-      <h3>Hot Water Beach</h3>
+      <h2>Hot Water Beach</h2>
       <p>Dig your own hot pool in the sand — one of NZ's most unique experiences</p>
       
       <div class="hub-card-meta">
@@ -674,7 +691,7 @@
        data-minage="0"
        data-price="95"
        data-rain="true">
-      <h3>Milford Sound Nature Cruise</h3>
+      <h2>Milford Sound Nature Cruise</h2>
       <p>The most dramatic 2 hours in New Zealand — sheer peaks, waterfalls, and wildlife</p>
       
       <div class="hub-card-meta">
@@ -691,7 +708,7 @@
        data-minage="0"
        data-price="22"
        data-rain="false">
-      <h3>Zealandia Wildlife Sanctuary</h3>
+      <h2>Zealandia Wildlife Sanctuary</h2>
       <p>See tuatara, kiwi, and rare native birds in their natural habitat — in the middle of Wellington</p>
       
       <div class="hub-card-meta">
@@ -708,7 +725,7 @@
        data-minage="0"
        data-price="42"
        data-rain="true">
-      <h3>Driving Creek Railway</h3>
+      <h2>Driving Creek Railway</h2>
       <p>A narrow-gauge mountain railway through a sculpture park — unique and brilliant for kids</p>
       
       <div class="hub-card-meta">
@@ -725,7 +742,7 @@
        data-minage="5"
        data-price="99"
        data-rain="false">
-      <h3>Cape Reinga and Ninety Mile Beach Tour</h3>
+      <h2>Cape Reinga and Ninety Mile Beach Tour</h2>
       <p>Drive Ninety Mile Beach, sandboard the dunes, and stand at the very tip of New Zealand</p>
       
       <div class="hub-card-meta">
@@ -742,7 +759,7 @@
        data-minage="7"
        data-price="95"
        data-rain="false">
-      <h3>Surf Lesson at Mount Maunganui</h3>
+      <h2>Surf Lesson at Mount Maunganui</h2>
       <p>Learn to surf on NZ's best beginner beach — boards and wetsuits provided</p>
       
       <div class="hub-card-meta">
@@ -759,7 +776,7 @@
        data-minage="5"
        data-price="85"
        data-rain="false">
-      <h3>Cape Kidnappers Gannet Colony Tour</h3>
+      <h2>Cape Kidnappers Gannet Colony Tour</h2>
       <p>10,000 gannets nesting at the world's most accessible mainland gannet colony</p>
       
       <div class="hub-card-meta">
@@ -776,7 +793,7 @@
        data-minage="5"
        data-price="60"
        data-rain="true">
-      <h3>Royal Albatross Centre — Taiaroa Head</h3>
+      <h2>Royal Albatross Centre — Taiaroa Head</h2>
       <p>The world's only mainland albatross colony — see royal albatross nesting and soaring</p>
       
       <div class="hub-card-meta">
@@ -1173,11 +1190,40 @@
 
   
   <!-- MailerLite universal embed (enabled by mailerlite_account_id in data/site.json; see MAILERLITE-SETUP.md) -->
-  <script>(function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[]).push(arguments)},l=d.createElement(e),l.async=1,l.src=u,n=d.getElementsByTagName(e)[0],n.parentNode.insertBefore(l,n)})(window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');ml('account','2700226');</script>
+  <script>(function(w,d,e,u,f){w[f]=w[f]||function(){(w[f].q=w[f].q||[]).push(arguments)};nzftLater(function(){var l=d.createElement(e);l.async=1;l.src=u;d.head.appendChild(l);});})(window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');ml('account','2700226');</script>
   
 
-  <!-- Site search (Fuse.js) -->
-  <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js" defer></script>
+
+  <!-- GA4 conversion events: mark affiliate_click / generate_lead / add_to_wishlist as key events in GA4 admin -->
+  <script>
+  (function(){
+    function ev(name, params){ if(window.gtag) gtag('event', name, Object.assign({transport_type:'beacon'}, params||{})); }
+    document.addEventListener('click', function(e){
+      var a = e.target.closest && e.target.closest('a[href]');
+      if(!a) return;
+      var href = a.getAttribute('href') || '';
+      if(/(^|\s)sponsored(\s|$)/.test(a.getAttribute('rel') || '')){
+        var host = ''; try { host = new URL(a.href, location.href).hostname; } catch(x){}
+        ev('affiliate_click', {link_url: a.href, link_domain: host, link_text: (a.textContent || '').trim().slice(0, 80), page_path: location.pathname});
+      } else if(href.indexOf('mailto:') === 0){
+        ev('contact_click', {page_path: location.pathname});
+      }
+    }, true);
+    document.addEventListener('submit', function(e){
+      var f = e.target;
+      if(f.classList && f.classList.contains('newsletter-form')){
+        var t = f.querySelector('input[name=tags]');
+        ev('generate_lead', {method: 'newsletter', form_location: t ? t.value : 'unknown', page_path: location.pathname});
+      }
+    }, true);
+    document.addEventListener('click', function(e){
+      var b = e.target.closest && e.target.closest('.save-btn');
+      if(b && !b.classList.contains('is-saved')) ev('add_to_wishlist', {item_type: b.dataset.type, item_id: b.dataset.slug});
+    }, true);
+  })();
+  </script>
+
+  <!-- Site search (Fuse.js, loaded on first focus) -->
   <script>
   (function(){
     var input = document.getElementById('site-search');
@@ -1188,6 +1234,7 @@
     function load(){
       if(fuse || loading) return;
       loading = true;
+      if(!window.Fuse) nzftScript('https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js');
       fetch('/search-index.json').then(function(r){return r.json();}).then(function(data){
         function start(){
           fuse = new Fuse(data, {keys:['title','text'], threshold:0.4, ignoreLocation:true});

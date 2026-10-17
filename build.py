@@ -24,6 +24,57 @@ env = Environment(loader=FileSystemLoader(str(LAYOUTS)), autoescape=False)
 env.filters['url_encode'] = quote_plus
 env.filters['tojson'] = lambda v: json.dumps(v, ensure_ascii=False)
 
+# --- Responsive images ------------------------------------------------------
+# Local JPGs get WebP copies (full + 640w) at build time; Unsplash URLs get
+# width-stepped, auto-format variants. Templates use |img_src / |img_srcset.
+UNSPLASH = "https://images.unsplash.com/"
+UNSPLASH_WIDTHS = (480, 800, 1200)
+
+
+def img_src(url, small=False):
+    if not url:
+        return url
+    if url.startswith(UNSPLASH):
+        return f"{url.split('?')[0]}?w={800 if small else 1200}&q=75&auto=format"
+    if url.startswith("/static/img/") and url.endswith(".jpg"):
+        return f"{url[:-4]}{'-640' if small else ''}.webp"
+    return url
+
+
+def img_srcset(url):
+    if not url:
+        return ""
+    if url.startswith(UNSPLASH):
+        base = url.split("?")[0]
+        return ", ".join(f"{base}?w={w}&q=75&auto=format {w}w" for w in UNSPLASH_WIDTHS)
+    if url.startswith("/static/img/") and url.endswith(".jpg"):
+        return f"{url[:-4]}-640.webp 640w, {url[:-4]}.webp 1200w"
+    return ""
+
+
+def make_webp_variants(static_out: Path):
+    from PIL import Image
+    for jpg in (static_out / "img").rglob("*.jpg"):
+        with Image.open(jpg) as im:
+            im = im.convert("RGB")
+            for suffix, width in (("", 1200), ("-640", 640)):
+                out = jpg.with_name(jpg.stem + suffix + ".webp")
+                w, h = im.size
+                if w > width:
+                    r = im.resize((width, round(h * width / w)), Image.LANCZOS)
+                else:
+                    r = im
+                r.save(out, "WEBP", quality=72, method=6)
+
+
+def minify_css(css: str) -> str:
+    import re
+    css = re.sub(r"/\*.*?\*/", "", css, flags=re.S)
+    css = re.sub(r"\s+", " ", css)
+    css = re.sub(r"\s*([{}:;,>])\s*", r"\1", css)
+    return css.replace(";}", "}").strip()
+
+
 def _to_iso_date(s):
     for fmt in ('%B %Y', '%b %Y', '%Y-%m-%d', '%d %B %Y'):
         try: return datetime.strptime(str(s), fmt).strftime('%Y-%m-01' if fmt.endswith('%Y') else '%Y-%m-%d')
@@ -31,6 +82,25 @@ def _to_iso_date(s):
     return str(s)
 
 env.filters['to_iso_date'] = _to_iso_date
+def clip(text, limit=158):
+    """Trim to <= limit chars at a word boundary (never mid-word, no ellipsis)."""
+    text = " ".join(str(text).split())
+    if len(text) <= limit:
+        return text
+    cut = text[:limit].rsplit(" ", 1)[0].rstrip(" ,;:-–—")
+    return cut
+
+
+def lead(text):
+    """First clause of 'Name — detail' / 'Name (detail)' strings."""
+    import re
+    return re.split(r"\s+[—–-]\s+|\s*\(|:\s", str(text), maxsplit=1)[0].strip()
+
+
+env.filters['clip'] = clip
+env.filters['lead'] = lead
+env.filters['img_src'] = img_src
+env.filters['img_srcset'] = img_srcset
 
 REDIRECT_TMPL = (
     '<!DOCTYPE html><html><head>'
@@ -101,6 +171,9 @@ def build():
 
     if STATIC.exists():
         shutil.copytree(STATIC, OUT / "static")
+        make_webp_variants(OUT / "static")
+        css_out = OUT / "static" / "css" / "style.css"
+        css_out.write_text(minify_css(css_out.read_text(encoding="utf8")), encoding="utf8")
 
     # Copy standalone tool HTML pages (e.g. calculators) into docs/tools/<name>/
     tools_src = ROOT / "tools"

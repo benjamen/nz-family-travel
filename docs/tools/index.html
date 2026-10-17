@@ -13,7 +13,6 @@
   <link rel="icon" href="/static/img/favicon.svg" type="image/svg+xml">
   <!-- Preconnect for CDN performance -->
   <link rel="preconnect" href="https://images.unsplash.com">
-  <link rel="preconnect" href="https://www.googletagmanager.com">
   <!-- Geo signals for NZ-local search -->
   <meta name="geo.region" content="NZ">
   <meta name="geo.placename" content="New Zealand">
@@ -34,9 +33,27 @@
   <meta name="twitter:title" content="NZ Family Travel — NZ's Family Holiday Planning Platform">
   <meta name="twitter:description" content="Plan your New Zealand family holiday. Compare campervans, find kid-friendly activities, and get honest itineraries from New Zealand parents.">
   <meta name="twitter:image" content="https://images.unsplash.com/photo-1507699622108-4be3abd695ad?w=1200&q=80">
+  <script>
+  // Third-party scripts (GA4, GetYourGuide, MailerLite) load on first interaction, or 4s after
+  // page load — keeps them off the critical path so they don't block rendering or inflate TBT.
+  window.nzftLater=(function(){
+    var q=[],fired=false;
+    function run(){ if(fired) return; fired=true; q.forEach(function(f){ try{f();}catch(e){} }); q=[]; }
+    ['pointerdown','keydown','touchstart','scroll'].forEach(function(ev){ addEventListener(ev,run,{once:true,passive:true}); });
+    addEventListener('load',function(){ setTimeout(run,4000); });
+    return function(f){ if(fired) f(); else q.push(f); };
+  })();
+  window.nzftScript=function(src,attrs){
+    var s=document.createElement('script'); s.async=true; s.src=src;
+    for(var k in (attrs||{})) s.setAttribute(k,attrs[k]);
+    document.head.appendChild(s);
+  };
+  </script>
   
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-BHTP34TBYW"></script>
-  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-BHTP34TBYW');</script>
+  <script>
+  window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-BHTP34TBYW');
+  nzftLater(function(){ nzftScript('https://www.googletagmanager.com/gtag/js?id=G-BHTP34TBYW'); });
+  </script>
   
   <script type="application/ld+json">
   [
@@ -176,7 +193,7 @@
 </script>
 
   <!-- GetYourGuide affiliate tracking -->
-  <script async defer src="https://widget.getyourguide.com/dist/pa.umd.production.min.js" data-gyg-partner-id="TIXNVKM"></script>
+  <script>nzftLater(function(){ nzftScript('https://widget.getyourguide.com/dist/pa.umd.production.min.js',{'data-gyg-partner-id':'TIXNVKM'}); });</script>
   <style>
     .reviews-section h2 { margin-top: 1.5rem; }
     .reviews-list { display: flex; flex-direction: column; gap: 1rem; margin-bottom: 1.5rem; }
@@ -245,70 +262,70 @@
   <div class="hub-grid">
     
     <a href="/tools/family-holiday-planner/" class="hub-card">
-      <h3>NZ Family Holiday Planner — Personalised Trip Recommender</h3>
+      <h2>NZ Family Holiday Planner — Personalised Trip Recommender</h2>
       <p>Tell us about your family — kids' ages, interests, how long you have — and get three personalised NZ holiday recommendat…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/tools/nz-best-month-to-visit/" class="hub-card">
-      <h3>Best Month to Visit NZ — Weather, Prices & Crowds by Month</h3>
+      <h2>Best Month to Visit NZ — Weather, Prices & Crowds by Month</h2>
       <p>Compare NZ weather, prices, and crowd levels for every month of the year. Find the best time for your family holiday bas…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/tools/nz-driving-times/" class="hub-card">
-      <h3>NZ Driving Times Chart — Realistic Family Road Trip Times</h3>
+      <h2>NZ Driving Times Chart — Realistic Family Road Trip Times</h2>
       <p>Realistic NZ drive times and distances for the key routes, with a kid-friendly stop on every leg. From Auckland to Rotor…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/tools/nz-family-packing-list/" class="hub-card">
-      <h3>NZ Family Packing List Generator</h3>
+      <h2>NZ Family Packing List Generator</h2>
       <p>Customised NZ packing lists by destination, season, and ages of your kids. Cover all the essentials — don't forget the s…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/tools/nz-family-travel-budget-calculator/" class="hub-card">
-      <h3>NZ Family Holiday Budget Calculator 2026 — Free Tool</h3>
+      <h2>NZ Family Holiday Budget Calculator 2026 — Free Tool</h2>
       <p>Free NZ family holiday budget calculator. Choose your accommodation, activity level and island to see an estimated total…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/tools/nz-school-holidays-2026/" class="hub-card">
-      <h3>NZ School Holidays 2026-2027 — Family Travel Planner</h3>
+      <h2>NZ School Holidays 2026-2027 — Family Travel Planner</h2>
       <p>NZ school holiday dates for 2026 and 2027 with crowd levels, accommodation price impacts, and expert booking advice for …</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/tools/nz-school-holidays-2027/" class="hub-card">
-      <h3>NZ School Holidays 2027: Term Dates + Calendar Download</h3>
+      <h2>NZ School Holidays 2027: Term Dates + Calendar Download</h2>
       <p>NZ school holidays 2027: 10–26 Apr, 3–18 Jul, 25 Sep–10 Oct, summer from 18 Dec. Official dates plus a free calendar fil…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/tools/nz-ski-holiday-cost-calculator/" class="hub-card">
-      <h3>NZ Ski Holiday Cost Calculator 2026 — Family Trip Budget</h3>
+      <h2>NZ Ski Holiday Cost Calculator 2026 — Family Trip Budget</h2>
       <p>Free NZ ski holiday cost calculator with 2026 lift pass, gear hire and accommodation prices for Queenstown, Wanaka and M…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/tools/nz-trip-cost-by-destination/" class="hub-card">
-      <h3>NZ Trip Cost by Destination — Family Cost Estimator</h3>
+      <h2>NZ Trip Cost by Destination — Family Cost Estimator</h2>
       <p>Pick a New Zealand destination, your nights and family size to estimate trip costs for Queenstown, Rotorua, Bay of Islan…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/tools/road-trip-cost-calculator/" class="hub-card">
-      <h3>NZ Family Road Trip Cost Calculator</h3>
+      <h2>NZ Family Road Trip Cost Calculator</h2>
       <p>Budget your NZ family road trip — fuel, accommodation, food, and activity costs by route and trip length.</p>
       
       <span class="hub-link">View details →</span>
@@ -699,11 +716,40 @@
 
   
   <!-- MailerLite universal embed (enabled by mailerlite_account_id in data/site.json; see MAILERLITE-SETUP.md) -->
-  <script>(function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[]).push(arguments)},l=d.createElement(e),l.async=1,l.src=u,n=d.getElementsByTagName(e)[0],n.parentNode.insertBefore(l,n)})(window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');ml('account','2700226');</script>
+  <script>(function(w,d,e,u,f){w[f]=w[f]||function(){(w[f].q=w[f].q||[]).push(arguments)};nzftLater(function(){var l=d.createElement(e);l.async=1;l.src=u;d.head.appendChild(l);});})(window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');ml('account','2700226');</script>
   
 
-  <!-- Site search (Fuse.js) -->
-  <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js" defer></script>
+
+  <!-- GA4 conversion events: mark affiliate_click / generate_lead / add_to_wishlist as key events in GA4 admin -->
+  <script>
+  (function(){
+    function ev(name, params){ if(window.gtag) gtag('event', name, Object.assign({transport_type:'beacon'}, params||{})); }
+    document.addEventListener('click', function(e){
+      var a = e.target.closest && e.target.closest('a[href]');
+      if(!a) return;
+      var href = a.getAttribute('href') || '';
+      if(/(^|\s)sponsored(\s|$)/.test(a.getAttribute('rel') || '')){
+        var host = ''; try { host = new URL(a.href, location.href).hostname; } catch(x){}
+        ev('affiliate_click', {link_url: a.href, link_domain: host, link_text: (a.textContent || '').trim().slice(0, 80), page_path: location.pathname});
+      } else if(href.indexOf('mailto:') === 0){
+        ev('contact_click', {page_path: location.pathname});
+      }
+    }, true);
+    document.addEventListener('submit', function(e){
+      var f = e.target;
+      if(f.classList && f.classList.contains('newsletter-form')){
+        var t = f.querySelector('input[name=tags]');
+        ev('generate_lead', {method: 'newsletter', form_location: t ? t.value : 'unknown', page_path: location.pathname});
+      }
+    }, true);
+    document.addEventListener('click', function(e){
+      var b = e.target.closest && e.target.closest('.save-btn');
+      if(b && !b.classList.contains('is-saved')) ev('add_to_wishlist', {item_type: b.dataset.type, item_id: b.dataset.slug});
+    }, true);
+  })();
+  </script>
+
+  <!-- Site search (Fuse.js, loaded on first focus) -->
   <script>
   (function(){
     var input = document.getElementById('site-search');
@@ -714,6 +760,7 @@
     function load(){
       if(fuse || loading) return;
       loading = true;
+      if(!window.Fuse) nzftScript('https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js');
       fetch('/search-index.json').then(function(r){return r.json();}).then(function(data){
         function start(){
           fuse = new Fuse(data, {keys:['title','text'], threshold:0.4, ignoreLocation:true});

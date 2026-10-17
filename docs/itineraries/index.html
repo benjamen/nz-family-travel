@@ -13,7 +13,6 @@
   <link rel="icon" href="/static/img/favicon.svg" type="image/svg+xml">
   <!-- Preconnect for CDN performance -->
   <link rel="preconnect" href="https://images.unsplash.com">
-  <link rel="preconnect" href="https://www.googletagmanager.com">
   <!-- Geo signals for NZ-local search -->
   <meta name="geo.region" content="NZ">
   <meta name="geo.placename" content="New Zealand">
@@ -34,9 +33,27 @@
   <meta name="twitter:title" content="NZ Family Travel — NZ's Family Holiday Planning Platform">
   <meta name="twitter:description" content="Plan your New Zealand family holiday. Compare campervans, find kid-friendly activities, and get honest itineraries from New Zealand parents.">
   <meta name="twitter:image" content="https://images.unsplash.com/photo-1507699622108-4be3abd695ad?w=1200&q=80">
+  <script>
+  // Third-party scripts (GA4, GetYourGuide, MailerLite) load on first interaction, or 4s after
+  // page load — keeps them off the critical path so they don't block rendering or inflate TBT.
+  window.nzftLater=(function(){
+    var q=[],fired=false;
+    function run(){ if(fired) return; fired=true; q.forEach(function(f){ try{f();}catch(e){} }); q=[]; }
+    ['pointerdown','keydown','touchstart','scroll'].forEach(function(ev){ addEventListener(ev,run,{once:true,passive:true}); });
+    addEventListener('load',function(){ setTimeout(run,4000); });
+    return function(f){ if(fired) f(); else q.push(f); };
+  })();
+  window.nzftScript=function(src,attrs){
+    var s=document.createElement('script'); s.async=true; s.src=src;
+    for(var k in (attrs||{})) s.setAttribute(k,attrs[k]);
+    document.head.appendChild(s);
+  };
+  </script>
   
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-BHTP34TBYW"></script>
-  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-BHTP34TBYW');</script>
+  <script>
+  window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-BHTP34TBYW');
+  nzftLater(function(){ nzftScript('https://www.googletagmanager.com/gtag/js?id=G-BHTP34TBYW'); });
+  </script>
   
   <script type="application/ld+json">
   [
@@ -260,7 +277,7 @@
 </script>
 
   <!-- GetYourGuide affiliate tracking -->
-  <script async defer src="https://widget.getyourguide.com/dist/pa.umd.production.min.js" data-gyg-partner-id="TIXNVKM"></script>
+  <script>nzftLater(function(){ nzftScript('https://widget.getyourguide.com/dist/pa.umd.production.min.js',{'data-gyg-partner-id':'TIXNVKM'}); });</script>
   <style>
     .reviews-section h2 { margin-top: 1.5rem; }
     .reviews-list { display: flex; flex-direction: column; gap: 1rem; margin-bottom: 1.5rem; }
@@ -331,7 +348,7 @@
   <div class="hub-grid">
     
     <a href="/itineraries/7-day-north-island-family-road-trip/" class="hub-card">
-      <h3>7-Day North Island Family Road Trip</h3>
+      <h2>7-Day North Island Family Road Trip</h2>
       <p>NZ's classic North Island loop — geothermal parks, lakes, and the capital city</p>
       
       <div class="hub-card-meta">
@@ -344,7 +361,7 @@
     </a>
     
     <a href="/itineraries/10-day-south-island-family-road-trip/" class="hub-card">
-      <h3>10-Day South Island Family Road Trip</h3>
+      <h2>10-Day South Island Family Road Trip</h2>
       <p>NZ's most spectacular drive — glaciers, seals, Alps, and the adventure capital</p>
       
       <div class="hub-card-meta">
@@ -357,7 +374,7 @@
     </a>
     
     <a href="/itineraries/queenstown-wanaka-family-weekend/" class="hub-card">
-      <h3>Queenstown & Wanaka Family Long Weekend</h3>
+      <h2>Queenstown & Wanaka Family Long Weekend</h2>
       <p>The perfect South Island long weekend — adventure in Queenstown, calm in Wanaka</p>
       
       <div class="hub-card-meta">
@@ -370,7 +387,7 @@
     </a>
     
     <a href="/itineraries/5-day-wellington-nelson-itinerary/" class="hub-card">
-      <h3>5-Day Wellington to Nelson Family Road Trip</h3>
+      <h2>5-Day Wellington to Nelson Family Road Trip</h2>
       <p>Two of NZ's most underrated destinations — linked by the spectacular Interislander ferry</p>
       
       <div class="hub-card-meta">
@@ -383,7 +400,7 @@
     </a>
     
     <a href="/itineraries/4-day-coromandel-family-road-trip/" class="hub-card">
-      <h3>4-Day Coromandel Family Road Trip from Auckland</h3>
+      <h2>4-Day Coromandel Family Road Trip from Auckland</h2>
       <p>Auckland's backyard — world-class beaches and geothermal wonders in 4 days</p>
       
       <div class="hub-card-meta">
@@ -396,7 +413,7 @@
     </a>
     
     <a href="/itineraries/3-day-auckland-family-itinerary/" class="hub-card">
-      <h3>3-Day Auckland Family Itinerary</h3>
+      <h2>3-Day Auckland Family Itinerary</h2>
       <p>Make the most of Auckland with kids — from the waterfront to volcanic peaks</p>
       
       <div class="hub-card-meta">
@@ -409,7 +426,7 @@
     </a>
     
     <a href="/itineraries/14-day-full-nz-family-road-trip/" class="hub-card">
-      <h3>14-Day Full NZ Family Road Trip</h3>
+      <h2>14-Day Full NZ Family Road Trip</h2>
       <p>The complete NZ family experience — geothermal parks, alpine lakes, fiords, and farm shows</p>
       
       <div class="hub-card-meta">
@@ -422,7 +439,7 @@
     </a>
     
     <a href="/itineraries/bay-of-islands-northland-family-5-days/" class="hub-card">
-      <h3>Bay of Islands & Northland Family Road Trip — 5 Days</h3>
+      <h2>Bay of Islands & Northland Family Road Trip — 5 Days</h2>
       <p>The classic Northland loop — dolphins, sand dunes, ancient forests, and Cape Reinga</p>
       
       <div class="hub-card-meta">
@@ -435,7 +452,7 @@
     </a>
     
     <a href="/itineraries/rotorua-taupo-family-5-days/" class="hub-card">
-      <h3>Rotorua & Taupo Family Road Trip — 5 Days</h3>
+      <h2>Rotorua & Taupo Family Road Trip — 5 Days</h2>
       <p>The best of NZ's volcanic interior — geysers, Maori culture, skydiving lakes, and Hobbiton</p>
       
       <div class="hub-card-meta">
@@ -448,7 +465,7 @@
     </a>
     
     <a href="/itineraries/nelson-queenstown-south-island-9-days/" class="hub-card">
-      <h3>Nelson to Queenstown — 9-Day South Island Family Road Trip</h3>
+      <h2>Nelson to Queenstown — 9-Day South Island Family Road Trip</h2>
       <p>Wild beaches, glaciers, gold rush history, and NZ's adventure capital in 9 stunning days</p>
       
       <div class="hub-card-meta">
@@ -461,7 +478,7 @@
     </a>
     
     <a href="/itineraries/north-island-10-day-family-road-trip/" class="hub-card">
-      <h3>North Island 10-Day Family Road Trip — Auckland to Wellington</h3>
+      <h2>North Island 10-Day Family Road Trip — Auckland to Wellington</h2>
       <p>The ultimate North Island circuit for families — everything from dolphins to volcanoes to hobbit holes</p>
       
       <div class="hub-card-meta">
@@ -474,7 +491,7 @@
     </a>
     
     <a href="/itineraries/south-island-budget-family-7-days/" class="hub-card">
-      <h3>South Island Budget Family Road Trip — 7 Days Under $3,000</h3>
+      <h2>South Island Budget Family Road Trip — 7 Days Under $3,000</h2>
       <p>7 days, family of 4, under $3,000 total — Kaikoura, Christchurch, Mt Cook, and Queenstown</p>
       
       <div class="hub-card-meta">
@@ -487,7 +504,7 @@
     </a>
     
     <a href="/itineraries/rotorua-day-trip-from-auckland/" class="hub-card">
-      <h3>Rotorua Day Trip from Auckland — 1 Day with Kids</h3>
+      <h2>Rotorua Day Trip from Auckland — 1 Day with Kids</h2>
       <p>Auckland to Rotorua and back in a day — geysers, mud pools, and the Lady Knox eruption</p>
       
       <div class="hub-card-meta">
@@ -500,7 +517,7 @@
     </a>
     
     <a href="/itineraries/queenstown-1-day-family/" class="hub-card">
-      <h3>Queenstown with Kids — Best 1-Day Itinerary</h3>
+      <h2>Queenstown with Kids — Best 1-Day Itinerary</h2>
       <p>One perfect day in Queenstown — luge, lake views, and gold rush Arrowtown</p>
       
       <div class="hub-card-meta">
@@ -513,7 +530,7 @@
     </a>
     
     <a href="/itineraries/christchurch-3-day-family/" class="hub-card">
-      <h3>Christchurch with Kids — 3-Day Family Itinerary</h3>
+      <h2>Christchurch with Kids — 3-Day Family Itinerary</h2>
       <p>Discover Christchurch's post-quake renaissance — a vibrant, family-friendly city with great beaches nearby</p>
       
       <div class="hub-card-meta">
@@ -526,7 +543,7 @@
     </a>
     
     <a href="/itineraries/rotorua-3-day-family-weekend/" class="hub-card">
-      <h3>Rotorua Family Weekend — 3 Days</h3>
+      <h2>Rotorua Family Weekend — 3 Days</h2>
       <p>The definitive 3-day Rotorua family itinerary — geysers, glowworms, Hobbiton, and hot pools</p>
       
       <div class="hub-card-meta">
@@ -539,7 +556,7 @@
     </a>
     
     <a href="/itineraries/auckland-northland-5-days/" class="hub-card">
-      <h3>Auckland & Northland Family Trip — 5 Days</h3>
+      <h2>Auckland & Northland Family Trip — 5 Days</h2>
       <p>Auckland city highlights and a Northland road trip in 5 days — perfect for families flying into Auckland</p>
       
       <div class="hub-card-meta">
@@ -552,7 +569,7 @@
     </a>
     
     <a href="/itineraries/queenstown-wanaka-5-days/" class="hub-card">
-      <h3>Queenstown & Wanaka Family Trip — 5 Days</h3>
+      <h2>Queenstown & Wanaka Family Trip — 5 Days</h2>
       <p>5 days in NZ's most scenic corner — Queenstown, Wanaka, Arrowtown, and a day at Mt Cook</p>
       
       <div class="hub-card-meta">
@@ -565,7 +582,7 @@
     </a>
     
     <a href="/itineraries/fiordland-milford-sound-family-6-days/" class="hub-card">
-      <h3>6-Day Fiordland & Milford Sound Family Trip</h3>
+      <h2>6-Day Fiordland & Milford Sound Family Trip</h2>
       <p>NZ’s most dramatic landscapes — fiords, waterfalls, and glowworms with the kids</p>
       
       <div class="hub-card-meta">
@@ -578,7 +595,7 @@
     </a>
     
     <a href="/itineraries/north-island-campervan-family-12-days/" class="hub-card">
-      <h3>12-Day North Island Campervan Family Road Trip</h3>
+      <h2>12-Day North Island Campervan Family Road Trip</h2>
       <p>The ultimate family campervan adventure — geothermal parks, beaches, and the full North Island loop</p>
       
       <div class="hub-card-meta">
@@ -591,7 +608,7 @@
     </a>
     
     <a href="/itineraries/abel-tasman-family-4-days/" class="hub-card">
-      <h3>4-Day Abel Tasman Family Adventure</h3>
+      <h2>4-Day Abel Tasman Family Adventure</h2>
       <p>Golden sand beaches, kayaking, and crystal-clear waters in NZ’s sunniest national park</p>
       
       <div class="hub-card-meta">
@@ -604,7 +621,7 @@
     </a>
     
     <a href="/itineraries/hawkes-bay-napier-family-4-days/" class="hub-card">
-      <h3>4-Day Hawke's Bay & Napier Family Trip</h3>
+      <h2>4-Day Hawke's Bay & Napier Family Trip</h2>
       <p>Gannets on sea cliffs, Art Deco architecture, splash parks, and NZ’s fruit bowl</p>
       
       <div class="hub-card-meta">
@@ -1001,11 +1018,40 @@
 
   
   <!-- MailerLite universal embed (enabled by mailerlite_account_id in data/site.json; see MAILERLITE-SETUP.md) -->
-  <script>(function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[]).push(arguments)},l=d.createElement(e),l.async=1,l.src=u,n=d.getElementsByTagName(e)[0],n.parentNode.insertBefore(l,n)})(window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');ml('account','2700226');</script>
+  <script>(function(w,d,e,u,f){w[f]=w[f]||function(){(w[f].q=w[f].q||[]).push(arguments)};nzftLater(function(){var l=d.createElement(e);l.async=1;l.src=u;d.head.appendChild(l);});})(window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');ml('account','2700226');</script>
   
 
-  <!-- Site search (Fuse.js) -->
-  <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js" defer></script>
+
+  <!-- GA4 conversion events: mark affiliate_click / generate_lead / add_to_wishlist as key events in GA4 admin -->
+  <script>
+  (function(){
+    function ev(name, params){ if(window.gtag) gtag('event', name, Object.assign({transport_type:'beacon'}, params||{})); }
+    document.addEventListener('click', function(e){
+      var a = e.target.closest && e.target.closest('a[href]');
+      if(!a) return;
+      var href = a.getAttribute('href') || '';
+      if(/(^|\s)sponsored(\s|$)/.test(a.getAttribute('rel') || '')){
+        var host = ''; try { host = new URL(a.href, location.href).hostname; } catch(x){}
+        ev('affiliate_click', {link_url: a.href, link_domain: host, link_text: (a.textContent || '').trim().slice(0, 80), page_path: location.pathname});
+      } else if(href.indexOf('mailto:') === 0){
+        ev('contact_click', {page_path: location.pathname});
+      }
+    }, true);
+    document.addEventListener('submit', function(e){
+      var f = e.target;
+      if(f.classList && f.classList.contains('newsletter-form')){
+        var t = f.querySelector('input[name=tags]');
+        ev('generate_lead', {method: 'newsletter', form_location: t ? t.value : 'unknown', page_path: location.pathname});
+      }
+    }, true);
+    document.addEventListener('click', function(e){
+      var b = e.target.closest && e.target.closest('.save-btn');
+      if(b && !b.classList.contains('is-saved')) ev('add_to_wishlist', {item_type: b.dataset.type, item_id: b.dataset.slug});
+    }, true);
+  })();
+  </script>
+
+  <!-- Site search (Fuse.js, loaded on first focus) -->
   <script>
   (function(){
     var input = document.getElementById('site-search');
@@ -1016,6 +1062,7 @@
     function load(){
       if(fuse || loading) return;
       loading = true;
+      if(!window.Fuse) nzftScript('https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js');
       fetch('/search-index.json').then(function(r){return r.json();}).then(function(data){
         function start(){
           fuse = new Fuse(data, {keys:['title','text'], threshold:0.4, ignoreLocation:true});

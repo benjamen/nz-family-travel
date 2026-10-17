@@ -76,7 +76,7 @@
 <!-- Activity hero image -->
 {% if activity.media and activity.media.image %}
 <div class="activity-hero-img">
-  <img src="{{ activity.media.image.url }}" alt="{{ activity.media.image.alt }}" width="1200" height="630" loading="eager">
+  <img src="{{ activity.media.image.url|img_src }}" srcset="{{ activity.media.image.url|img_srcset }}" sizes="(min-width:1200px) 1200px, 100vw" alt="{{ activity.media.image.alt }}" width="1200" height="630" fetchpriority="high" decoding="async">
 </div>
 {% endif %}
 

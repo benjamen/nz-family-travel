@@ -56,7 +56,7 @@
 
 {% if tool.hero_image %}
 <div class="guide-hero-img">
-  <img src="{{ tool.hero_image.url }}" alt="{{ tool.hero_image.alt }}" width="1200" height="630" loading="eager">
+  <img src="{{ tool.hero_image.url|img_src }}" srcset="{{ tool.hero_image.url|img_srcset }}" sizes="(min-width:1200px) 1200px, 100vw" alt="{{ tool.hero_image.alt }}" width="1200" height="630" fetchpriority="high" decoding="async">
   {% if tool.hero_image.credit %}<span class="img-credit">📷 {{ tool.hero_image.credit }}</span>{% endif %}
 </div>
 {% endif %}

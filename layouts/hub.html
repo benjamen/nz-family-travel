@@ -109,7 +109,7 @@
        data-minage="{{ item.min_age | default(0) }}"
        data-price="{{ item.price.adult if item.price else 0 }}"
        data-rain="{{ 'true' if item.rain_safe else 'false' }}"{% endif %}>
-      <h3>{{ item[item_name_field] }}</h3>
+      <h2>{{ item[item_name_field] }}</h2>
       <p>{{ item[item_desc_field][:120] }}{% if item[item_desc_field]|length > 120 %}…{% endif %}</p>
       {% if hub_type == "destinations" %}
       <div class="hub-card-meta">

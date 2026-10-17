@@ -49,7 +49,7 @@
 .park-card .pc-price { font-weight: 700; color: #2563eb; font-size: .92rem; margin-bottom: .75rem; }
 .park-highlights { list-style: none; padding: 0; margin: 0 0 .9rem; }
 .park-highlights li { font-size: .82rem; color: #374151; padding: .15rem 0; }
-.park-highlights li::before { content: '✓ '; color: #16a34a; font-weight: 700; }
+.park-highlights li::before { content: '✓ '; color: #15803d; font-weight: 700; }
 .pc-book {
   display: block; text-align: center; background: #2563eb; color: #fff;
   padding: .55rem 1rem; border-radius: 8px; font-weight: 700; font-size: .88rem;
@@ -69,7 +69,7 @@
   border-radius: 10px;
   padding: 1rem;
 }
-.tip-card h4 { margin: 0 0 .4rem; font-size: .92rem; color: #166534; }
+.tip-card h3 { margin: 0 0 .4rem; font-size: .92rem; color: #166534; }
 .tip-card p { margin: 0; font-size: .85rem; color: #374151; line-height: 1.6; }
 
 .faq-list { display: flex; flex-direction: column; }
@@ -181,7 +181,7 @@
   <div class="tips-grid">
     {% for tip in holiday_parks.tips %}
     <div class="tip-card">
-      <h4>{{ tip.title }}</h4>
+      <h3>{{ tip.title }}</h3>
       <p>{{ tip.body }}</p>
     </div>
     {% endfor %}

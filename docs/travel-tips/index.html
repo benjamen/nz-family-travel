@@ -13,7 +13,6 @@
   <link rel="icon" href="/static/img/favicon.svg" type="image/svg+xml">
   <!-- Preconnect for CDN performance -->
   <link rel="preconnect" href="https://images.unsplash.com">
-  <link rel="preconnect" href="https://www.googletagmanager.com">
   <!-- Geo signals for NZ-local search -->
   <meta name="geo.region" content="NZ">
   <meta name="geo.placename" content="New Zealand">
@@ -34,9 +33,27 @@
   <meta name="twitter:title" content="NZ Family Travel — NZ's Family Holiday Planning Platform">
   <meta name="twitter:description" content="Plan your New Zealand family holiday. Compare campervans, find kid-friendly activities, and get honest itineraries from New Zealand parents.">
   <meta name="twitter:image" content="https://images.unsplash.com/photo-1507699622108-4be3abd695ad?w=1200&q=80">
+  <script>
+  // Third-party scripts (GA4, GetYourGuide, MailerLite) load on first interaction, or 4s after
+  // page load — keeps them off the critical path so they don't block rendering or inflate TBT.
+  window.nzftLater=(function(){
+    var q=[],fired=false;
+    function run(){ if(fired) return; fired=true; q.forEach(function(f){ try{f();}catch(e){} }); q=[]; }
+    ['pointerdown','keydown','touchstart','scroll'].forEach(function(ev){ addEventListener(ev,run,{once:true,passive:true}); });
+    addEventListener('load',function(){ setTimeout(run,4000); });
+    return function(f){ if(fired) f(); else q.push(f); };
+  })();
+  window.nzftScript=function(src,attrs){
+    var s=document.createElement('script'); s.async=true; s.src=src;
+    for(var k in (attrs||{})) s.setAttribute(k,attrs[k]);
+    document.head.appendChild(s);
+  };
+  </script>
   
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-BHTP34TBYW"></script>
-  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-BHTP34TBYW');</script>
+  <script>
+  window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-BHTP34TBYW');
+  nzftLater(function(){ nzftScript('https://www.googletagmanager.com/gtag/js?id=G-BHTP34TBYW'); });
+  </script>
   
   <script type="application/ld+json">
   [
@@ -1842,7 +1859,7 @@
 </script>
 
   <!-- GetYourGuide affiliate tracking -->
-  <script async defer src="https://widget.getyourguide.com/dist/pa.umd.production.min.js" data-gyg-partner-id="TIXNVKM"></script>
+  <script>nzftLater(function(){ nzftScript('https://widget.getyourguide.com/dist/pa.umd.production.min.js',{'data-gyg-partner-id':'TIXNVKM'}); });</script>
   <style>
     .reviews-section h2 { margin-top: 1.5rem; }
     .reviews-list { display: flex; flex-direction: column; gap: 1rem; margin-bottom: 1.5rem; }
@@ -1911,1736 +1928,1736 @@
   <div class="hub-grid">
     
     <a href="/travel-tips/auckland-beaches-kids/" class="hub-card">
-      <h3>Best Auckland Beaches for Families with Kids (2026 Guide)</h3>
+      <h2>Best Auckland Beaches for Families with Kids (2026 Guide)</h2>
       <p>Auckland has more coastline per capita than almost any city in the world — 102 beaches within 90 minutes of the CBD, spa…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/auckland-day-trips-families/" class="hub-card">
-      <h3>Best Auckland Day Trips for Families — Within 2 Hours of the CBD</h3>
+      <h2>Best Auckland Day Trips for Families — Within 2 Hours of the CBD</h2>
       <p>Looking for a quick escape from Auckland city with your family? You don't have to go far to find stunning beaches, adven…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/bay-of-islands-with-kids-activities/" class="hub-card">
-      <h3>Bay of Islands with Kids — Family Activities Guide 2026</h3>
+      <h2>Bay of Islands with Kids — Family Activities Guide 2026</h2>
       <p>The Bay of Islands is 246 islands, three small towns (Paihia, Russell, Kerikeri), and some of the warmest, clearest wate…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/best-beaches-nz-kids/" class="hub-card">
-      <h3>Best Beaches in NZ with Kids — Top Family Beaches by Region (2026)</h3>
+      <h2>Best Beaches in NZ with Kids — Top Family Beaches by Region (2026)</h2>
       <p>New Zealand has over 15,000km of coastline with some of the Pacific's most stunning family beaches — calm lagoons, volca…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/best-holiday-parks-nz-families/" class="hub-card">
-      <h3>Best NZ Holiday Parks for Families 2026 — Real Prices</h3>
+      <h2>Best NZ Holiday Parks for Families 2026 — Real Prices</h2>
       <p>Holiday parks are the backbone of NZ family travel — they offer more space than a motel room, a kitchen to feed hungry k…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/best-nz-beach-holidays-families/" class="hub-card">
-      <h3>Best NZ Beach Holidays for Families 2026 — Where to Go</h3>
+      <h2>Best NZ Beach Holidays for Families 2026 — Where to Go</h2>
       <p>New Zealand has over 15,000km of coastline and some of the Pacific's most beautiful beaches — many of them uncrowded, cl…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/campervan-vs-hotel-nz-families/" class="hub-card">
-      <h3>NZ Campervan vs Hotel for Families — Which Saves Money? 2026</h3>
+      <h2>NZ Campervan vs Hotel for Families — Which Saves Money? 2026</h2>
       <p>The campervan vs hotel debate is the most common question from families planning a first NZ road trip. The honest answer…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/campervan-vs-rental-car-nz/" class="hub-card">
-      <h3>Campervan vs Rental Car for NZ Family Road Trips — The Real Comparison</h3>
+      <h2>Campervan vs Rental Car for NZ Family Road Trips — The Real Comparison</h2>
       <p>When planning a family road trip in New Zealand, one of the most significant decisions is whether to rent a campervan or…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/camping-nz-with-kids/" class="hub-card">
-      <h3>Camping in NZ with Kids — Complete Guide 2026</h3>
+      <h2>Camping in NZ with Kids — Complete Guide 2026</h2>
       <p>New Zealand has some of the world's best camping — DOC campgrounds in national parks, freedom camping on beaches, and a …</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/day-trips-from-auckland-with-kids/" class="hub-card">
-      <h3>Day Trips from Auckland with Kids — 15 Family Drives Under 2 Hours</h3>
+      <h2>Day Trips from Auckland with Kids — 15 Family Drives Under 2 Hours</h2>
       <p>Auckland is surrounded by world-class family day trips — black-sand surf beaches, glowworm caves, hot pools you dig your…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/first-family-trip-to-nz/" class="hub-card">
-      <h3>First Family Trip to New Zealand — Planning Guide 2026</h3>
+      <h2>First Family Trip to New Zealand — Planning Guide 2026</h2>
       <p>New Zealand rewards families who plan well and frustrates those who don't. The country is genuinely spectacular, the peo…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/free-things-to-do-auckland-with-kids/" class="hub-card">
-      <h3>Free Things to Do in Auckland with Kids — 2026 Guide</h3>
+      <h2>Free Things to Do in Auckland with Kids — 2026 Guide</h2>
       <p>Auckland is New Zealand's most expensive city, and family holidays here can get costly fast. But the city sits on a harb…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/is-new-zealand-expensive-for-families/" class="hub-card">
-      <h3>Is New Zealand Expensive for Families? — Honest 2026 Answer</h3>
+      <h2>Is New Zealand Expensive for Families? — Honest 2026 Answer</h2>
       <p>New Zealand has a reputation for being expensive — and in some ways, that reputation is deserved. But the full picture i…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/jucy-vs-britz-campervan-comparison/" class="hub-card">
-      <h3>Jucy vs Britz Campervan — NZ Family Comparison 2026</h3>
+      <h2>Jucy vs Britz Campervan — NZ Family Comparison 2026</h2>
       <p>Jucy and Britz are two of NZ's most popular campervan hire companies, but they target very different travellers. Jucy is…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/north-vs-south-island-families/" class="hub-card">
-      <h3>North Island vs South Island for Families — Which to Choose First?</h3>
+      <h2>North Island vs South Island for Families — Which to Choose First?</h2>
       <p>When planning a family trip to New Zealand, the choice between the North and South Islands can be overwhelming, with bot…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/nz-3-day-north-island-family-itinerary/" class="hub-card">
-      <h3>3-Day North Island Family Itinerary — Auckland to Rotorua</h3>
+      <h2>3-Day North Island Family Itinerary — Auckland to Rotorua</h2>
       <p>Three days is tight but doable for a North Island taste. This itinerary gets you from Auckland to Rotorua (the highlight…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/nz-5-day-north-island-family-itinerary/" class="hub-card">
-      <h3>5-Day North Island Family Road Trip — Auckland to Wellington</h3>
+      <h2>5-Day North Island Family Road Trip — Auckland to Wellington</h2>
       <p>Five days gives you a proper North Island experience without rush. This itinerary covers the geothermal highlights (Roto…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/nz-7-day-north-island-family-itinerary/" class="hub-card">
-      <h3>7-Day North Island Family Road Trip — Complete Loop Guide</h3>
+      <h2>7-Day North Island Family Road Trip — Complete Loop Guide</h2>
       <p>Seven days is the sweet spot for a proper North Island family experience. This itinerary covers the big family highlight…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/nz-beaches-kids-summer/" class="hub-card">
-      <h3>Best NZ Beaches for Families — Safest, Most Fun, by Region</h3>
+      <h2>Best NZ Beaches for Families — Safest, Most Fun, by Region</h2>
       <p>With over 15,000 kilometres of coastline, New Zealand is a beach lover's paradise, but not all beaches are created equal…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/nz-campervan-guide-families/" class="hub-card">
-      <h3>NZ Campervan Guide for Families — Complete Hire Guide 2026</h3>
+      <h2>NZ Campervan Guide for Families — Complete Hire Guide 2026</h2>
       <p>A campervan holiday in New Zealand is one of the best family travel experiences in the world. This guide covers everythi…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/nz-easter-holiday-ideas-families/" class="hub-card">
-      <h3>NZ Easter Holiday Ideas for Families 2026</h3>
+      <h2>NZ Easter Holiday Ideas for Families 2026</h2>
       <p>Easter falls in autumn in New Zealand — mild, settled weather and one of the best long weekends of the year for a family…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/nz-easter-school-holidays-2027/" class="hub-card">
-      <h3>NZ Easter School Holidays 2027 — Family Ideas, Dates, Events & Costs</h3>
+      <h2>NZ Easter School Holidays 2027 — Family Ideas, Dates, Events & Costs</h2>
       <p>Easter 2027 is early: Good Friday is 26 March and Easter Monday is 29 March, and state schools also close on Easter Tues…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/nz-family-campervan-review/" class="hub-card">
-      <h3>NZ Family Campervan Honest Review — Is It Worth It?</h3>
+      <h2>NZ Family Campervan Honest Review — Is It Worth It?</h2>
       <p>Campervanning around New Zealand with kids is something many families dream about — and the reality is genuinely good, b…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/nz-family-holiday-bucket-list/" class="hub-card">
-      <h3>NZ Family Bucket List — 50 Things to Do with Kids</h3>
+      <h2>NZ Family Bucket List — 50 Things to Do with Kids</h2>
       <p>New Zealand punches well above its weight for family experiences. This is our definitive list of 50 things every family …</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/nz-family-road-trip-hub/" class="hub-card">
-      <h3>NZ Family Road Trip Guide 2026 — Routes, Costs & Tips for Travelling with Kids</h3>
+      <h2>NZ Family Road Trip Guide 2026 — Routes, Costs & Tips for Travelling with Kids</h2>
       <p>A NZ road trip with kids is one of the easiest big adventures you can take as a family — driving distances are short, th…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/nz-family-travel-budget-guide/" class="hub-card">
-      <h3>How to Do NZ on a Family Budget — Real Costs and Where to Cut</h3>
+      <h2>How to Do NZ on a Family Budget — Real Costs and Where to Cut</h2>
       <p>With the average family of four spending over $8,000 on a two-week NZ holiday, many parents think they can't afford to t…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/nz-family-travel-costs/" class="hub-card">
-      <h3>How Much Does a NZ Family Holiday Cost? — 2026 Budget Guide</h3>
+      <h2>How Much Does a NZ Family Holiday Cost? — 2026 Budget Guide</h2>
       <p>New Zealand is not a cheap destination, but it's not as expensive as most families fear — if you plan right. Here's a de…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/nz-family-travel-december/" class="hub-card">
-      <h3>NZ in December with Kids — What to Expect (Weather, Crowds, Costs)</h3>
+      <h2>NZ in December with Kids — What to Expect (Weather, Crowds, Costs)</h2>
       <p>December is the most popular time to travel in NZ, with the Christmas school holidays bringing large crowds to popular d…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/nz-family-travel-insurance-guide/" class="hub-card">
-      <h3>NZ Family Travel Insurance Guide 2026 — What You Need</h3>
+      <h2>NZ Family Travel Insurance Guide 2026 — What You Need</h2>
       <p>Travel insurance is one of those things most NZ families skip for domestic trips and underestimate for overseas travel. …</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/nz-flying-with-kids-domestic/" class="hub-card">
-      <h3>Flying Domestic in NZ with Kids — Air NZ Tips, Baggage, and Seat Selection</h3>
+      <h2>Flying Domestic in NZ with Kids — Air NZ Tips, Baggage, and Seat Selection</h2>
       <p>As a parent, flying domestically in NZ with kids can be a daunting task, especially when it comes to choosing the right …</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/nz-holiday-parks-complete-guide/" class="hub-card">
-      <h3>NZ Holiday Parks — The Complete Family Guide (TOP 10 vs Freedom Camping)</h3>
+      <h2>NZ Holiday Parks — The Complete Family Guide (TOP 10 vs Freedom Camping)</h2>
       <p>When planning a family road trip in New Zealand, choosing the right accommodation can make all the difference. With over…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/nz-holiday-with-babies/" class="hub-card">
-      <h3>NZ Holiday with a Baby (0–12 Months) — What Works 2026</h3>
+      <h2>NZ Holiday with a Baby (0–12 Months) — What Works 2026</h2>
       <p>Travelling New Zealand with a baby is absolutely doable — and often easier than parents expect. NZ is a genuinely baby-f…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/nz-in-april/" class="hub-card">
-      <h3>NZ Family Holiday in April — School Holidays & Autumn</h3>
+      <h2>NZ Family Holiday in April — School Holidays & Autumn</h2>
       <p>April brings NZ's autumn school holidays — including Easter — making it the second-busiest travel period of the year. Bu…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/nz-in-august/" class="hub-card">
-      <h3>NZ Family Holiday in August — Ski Season & Winter Value</h3>
+      <h2>NZ Family Holiday in August — Ski Season & Winter Value</h2>
       <p>August is one of New Zealand's most underrated months for family travel. The July school holidays are over, the ski fiel…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/nz-in-december/" class="hub-card">
-      <h3>NZ Family Holiday in December 2026 — What to Expect</h3>
+      <h2>NZ Family Holiday in December 2026 — What to Expect</h2>
       <p>December is the start of New Zealand's summer — long days, warm temperatures, and school holidays in the last two weeks.…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/nz-in-february/" class="hub-card">
-      <h3>NZ Family Holiday in February — The Smart Month to Visit</h3>
+      <h2>NZ Family Holiday in February — The Smart Month to Visit</h2>
       <p>February is arguably the best month for NZ family travel. School holidays end around late January, meaning from early Fe…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/nz-in-january/" class="hub-card">
-      <h3>NZ Family Holiday in January — Peak Season Guide 2026</h3>
+      <h2>NZ Family Holiday in January — Peak Season Guide 2026</h2>
       <p>January is New Zealand's peak month — the most expensive, most crowded, and also the most spectacular. School holidays, …</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/nz-in-july/" class="hub-card">
-      <h3>NZ Family Holiday July 2026 — Ski Season, School Holidays & Costs</h3>
+      <h2>NZ Family Holiday July 2026 — Ski Season, School Holidays & Costs</h2>
       <p>July is the heart of a New Zealand winter — and it is one of the most rewarding (and most misunderstood) months for a fa…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/nz-in-june/" class="hub-card">
-      <h3>NZ Family Holiday in June — Winter & Queen's Birthday</h3>
+      <h2>NZ Family Holiday in June — Winter & Queen's Birthday</h2>
       <p>June kicks off New Zealand's ski season and includes the Queen's Birthday long weekend — one of the busiest winter trave…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/nz-in-march/" class="hub-card">
-      <h3>NZ Family Holiday in March 2026 — Autumn Starts, Crowds End</h3>
+      <h2>NZ Family Holiday in March 2026 — Autumn Starts, Crowds End</h2>
       <p>March is the transition month — summer lingers, but schools are back and crowds are gone. It is consistently one of the …</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/nz-in-may/" class="hub-card">
-      <h3>NZ Family Holiday in May 2026 — Autumn Quiet Season Guide</h3>
+      <h2>NZ Family Holiday in May 2026 — Autumn Quiet Season Guide</h2>
       <p>May is New Zealand's quiet season — the summer crowds are long gone, school holiday families have returned home, and the…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/nz-in-november/" class="hub-card">
-      <h3>NZ Family Holiday in November 2026 — Early Summer Sweet Spot</h3>
+      <h2>NZ Family Holiday in November 2026 — Early Summer Sweet Spot</h2>
       <p>November is what travel insiders call the 'shoulder season sweet spot' — it has genuine summer weather across most of NZ…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/nz-in-october/" class="hub-card">
-      <h3>NZ Family Holiday in October 2026 — Spring at Its Best</h3>
+      <h2>NZ Family Holiday in October 2026 — Spring at Its Best</h2>
       <p>October is one of the best months to visit New Zealand with kids — and one of the least booked. Spring school holidays s…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/nz-in-september/" class="hub-card">
-      <h3>NZ Family Holiday in September — Spring School Holidays 2026</h3>
+      <h2>NZ Family Holiday in September — Spring School Holidays 2026</h2>
       <p>September is when New Zealand shakes off winter and the country starts waking up. Lambs appear in the paddocks, cherry b…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/nz-maori-culture-kids/" class="hub-card">
-      <h3>Experiencing Maori Culture in NZ with Kids — Best Cultural Experiences</h3>
+      <h2>Experiencing Maori Culture in NZ with Kids — Best Cultural Experiences</h2>
       <p>Experiencing Maori culture is a must-do for any family traveling to New Zealand. With many options available, it can be …</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/nz-road-trip-snacks-kids/" class="hub-card">
-      <h3>Best Road Trip Snacks for Kids in NZ — No-Mess, No-Meltdown Options</h3>
+      <h2>Best Road Trip Snacks for Kids in NZ — No-Mess, No-Meltdown Options</h2>
       <p>Long road trips with kids can be challenging, especially when it comes to snacks. A well-stocked snack bag can make all …</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/nz-school-holiday-activities-kids/" class="hub-card">
-      <h3>Best School Holiday Activities for Kids in NZ — 2026 Guide</h3>
+      <h2>Best School Holiday Activities for Kids in NZ — 2026 Guide</h2>
       <p>New Zealand has four school holiday blocks a year — two weeks in April, two in July, two in October, and six weeks over …</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/nz-school-holiday-survival-guide/" class="hub-card">
-      <h3>NZ School Holiday Survival Guide for Parents — 2026</h3>
+      <h2>NZ School Holiday Survival Guide for Parents — 2026</h2>
       <p>New Zealand has four school holiday breaks per year — two weeks each in April, July, and September, and six weeks over s…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/nz-school-holidays-2025-2027/" class="hub-card">
-      <h3>NZ School Holiday Dates 2025–2027 — Planning Guide</h3>
+      <h2>NZ School Holiday Dates 2025–2027 — Planning Guide</h2>
       <p>New Zealand has four school holiday breaks a year, and the Ministry of Education sets the term dates nationally, so ever…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/nz-school-holidays-july-2026-activities/" class="hub-card">
-      <h3>NZ School Holidays July 2026 — Activities, Dates & Ideas for Families</h3>
+      <h2>NZ School Holidays July 2026 — Activities, Dates & Ideas for Families</h2>
       <p>The July school holidays are the big mid-winter break in New Zealand — two weeks when families across the country head f…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/nz-school-holidays-travel-tips/" class="hub-card">
-      <h3>NZ School Holidays Travel Tips — How to Beat the Crowds and Save Money</h3>
+      <h2>NZ School Holidays Travel Tips — How to Beat the Crowds and Save Money</h2>
       <p>Travelling during NZ school holidays can be a costly affair, with prices for accommodation and activities often inflated…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/nz-summer-holidays-with-kids/" class="hub-card">
-      <h3>NZ Summer Holidays with Kids — The Complete 2026/27 Guide</h3>
+      <h2>NZ Summer Holidays with Kids — The Complete 2026/27 Guide</h2>
       <p>New Zealand summer — roughly November to March — is peak family travel season. Schools break in mid-December, the weathe…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/nz-summer-school-holidays-2026-2027/" class="hub-card">
-      <h3>NZ Summer School Holidays 2026/27 — Family Ideas, Costs & Booking Guide</h3>
+      <h2>NZ Summer School Holidays 2026/27 — Family Ideas, Costs & Booking Guide</h2>
       <p>Summer is the big one — six glorious weeks from mid-December to late January, with the warmest beach weather of the year…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/nz-vs-bali-families/" class="hub-card">
-      <h3>NZ vs Bali for Families — Which Should You Choose in 2026?</h3>
+      <h2>NZ vs Bali for Families — Which Should You Choose in 2026?</h2>
       <p>NZ and Bali are both popular family destinations for Australian and New Zealand-based families — but they're very differ…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/nz-west-coast-with-kids/" class="hub-card">
-      <h3>NZ West Coast Road Trip with Kids — Pancake Rocks, Glaciers, and Rainforest</h3>
+      <h2>NZ West Coast Road Trip with Kids — Pancake Rocks, Glaciers, and Rainforest</h2>
       <p>The NZ West Coast is a nature lover's paradise, but what's it like to travel with kids? We share our top tips and inside…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/nz-winter-school-holidays-activities/" class="hub-card">
-      <h3>NZ Winter School Holidays 2026 — 50 Activities for Families (July)</h3>
+      <h2>NZ Winter School Holidays 2026 — 50 Activities for Families (July)</h2>
       <p>The winter school holidays run Saturday 27 June to Sunday 12 July 2026 — two weeks slap in the middle of peak ski season…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/nz-with-babies-travel-guide/" class="hub-card">
-      <h3>NZ Family Holiday with a Baby — Complete Guide 2026</h3>
+      <h2>NZ Family Holiday with a Baby — Complete Guide 2026</h2>
       <p>Travelling New Zealand with a baby is genuinely doable — and often more relaxing than you'd think. NZ is an exceptionall…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/nz-with-primary-school-kids/" class="hub-card">
-      <h3>New Zealand with Primary School Kids (5–10) — 2026 Guide</h3>
+      <h2>New Zealand with Primary School Kids (5–10) — 2026 Guide</h2>
       <p>Primary school-aged children aged 5 to 10 are arguably the best travel companions for a New Zealand holiday. They can wa…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/nz-with-teenagers-travel-guide/" class="hub-card">
-      <h3>NZ Family Holiday with Teenagers — What Works 2026</h3>
+      <h2>NZ Family Holiday with Teenagers — What Works 2026</h2>
       <p>Getting teenagers excited about a family holiday is half the battle. The good news: New Zealand is genuinely impressive …</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/nz-with-toddlers-complete-guide/" class="hub-card">
-      <h3>New Zealand with Toddlers — Complete Guide (1–4 Years)</h3>
+      <h2>New Zealand with Toddlers — Complete Guide (1–4 Years)</h2>
       <p>Travelling New Zealand with toddlers aged 1 to 4 is one of the most rewarding — and occasionally challenging — family tr…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/nz-with-toddlers-travel-guide/" class="hub-card">
-      <h3>NZ Family Holiday with Toddlers — Honest Guide 2026</h3>
+      <h2>NZ Family Holiday with Toddlers — Honest Guide 2026</h2>
       <p>Toddlers and New Zealand can be a brilliant combination — or a nightmare, depending on how you plan it. The key is manag…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/nz-with-tweens-travel-guide/" class="hub-card">
-      <h3>NZ with Tweens (10-13) — Family Travel Guide 2026</h3>
+      <h2>NZ with Tweens (10-13) — Family Travel Guide 2026</h2>
       <p>Travelling New Zealand with tweens aged 10 to 13 hits a sweet spot — they're old enough for most adventure activities, t…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/queenstown-vs-wanaka-families/" class="hub-card">
-      <h3>Queenstown vs Wanaka for Families — Which Should You Choose?</h3>
+      <h2>Queenstown vs Wanaka for Families — Which Should You Choose?</h2>
       <p>If you're planning a family trip to the South Island, you're likely weighing up Queenstown and Wanaka as your base. With…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/queenstown-with-kids-5-days/" class="hub-card">
-      <h3>Queenstown with Kids — The Perfect 5-Day Family Itinerary</h3>
+      <h2>Queenstown with Kids — The Perfect 5-Day Family Itinerary</h2>
       <p>Queenstown has a reputation as an adrenaline capital for thrill-seeking adults, but it's also one of New Zealand's best …</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/queenstown-with-kids-cost/" class="hub-card">
-      <h3>Queenstown with Kids — Honest Cost Breakdown 2026</h3>
+      <h2>Queenstown with Kids — Honest Cost Breakdown 2026</h2>
       <p>Queenstown is New Zealand's most expensive destination, and travelling there with kids requires realistic budgeting. Thi…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/rainy-day-activities-nz-kids/" class="hub-card">
-      <h3>Rainy Day Activities for Kids in New Zealand — 2026 Guide</h3>
+      <h2>Rainy Day Activities for Kids in New Zealand — 2026 Guide</h2>
       <p>New Zealand's weather is famously unpredictable. You can book a Queenstown gondola and wake up to horizontal sleet, or p…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/rotorua-geothermal-guide-families/" class="hub-card">
-      <h3>Rotorua Geothermal Parks Guide — Te Puia vs Wai-O-Tapu vs Hell's Gate</h3>
+      <h2>Rotorua Geothermal Parks Guide — Te Puia vs Wai-O-Tapu vs Hell's Gate</h2>
       <p>Rotorua is home to some of New Zealand's most impressive geothermal wonders, but which park is best for your family? Wit…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/rotorua-vs-queenstown-families/" class="hub-card">
-      <h3>Rotorua vs Queenstown for Families — Which to Choose? (2026)</h3>
+      <h2>Rotorua vs Queenstown for Families — Which to Choose? (2026)</h2>
       <p>Rotorua vs Queenstown is the most common dilemma for first-time NZ family visitors. Both are iconic. Both have world-cla…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/rotorua-with-kids-cost/" class="hub-card">
-      <h3>Rotorua with Kids — Honest Cost Breakdown 2026</h3>
+      <h2>Rotorua with Kids — Honest Cost Breakdown 2026</h2>
       <p>Rotorua is New Zealand's most family-friendly destination — genuinely entertaining for kids of all ages, with a reasonab…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/school-holiday-activities-auckland-winter-2026/" class="hub-card">
-      <h3>Auckland Winter School Holidays 2026 — Family Activities & Ideas</h3>
+      <h2>Auckland Winter School Holidays 2026 — Family Activities & Ideas</h2>
       <p>Auckland in July is mild by NZ standards but undeniably wet, so the winter school holidays here are all about a good ind…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/school-holiday-activities-christchurch-winter-2026/" class="hub-card">
-      <h3>Christchurch Winter School Holidays 2026 — Family Activities & Ideas</h3>
+      <h2>Christchurch Winter School Holidays 2026 — Family Activities & Ideas</h2>
       <p>Christchurch leans into winter better than most NZ cities — crisp, frosty mornings, the Southern Alps a day trip away, a…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/school-holiday-activities-wellington-winter-2026/" class="hub-card">
-      <h3>Wellington Winter School Holidays 2026 — Family Activities & Ideas</h3>
+      <h2>Wellington Winter School Holidays 2026 — Family Activities & Ideas</h2>
       <p>Wellington does winter with style — the wind and rain are real, but so are the world-class indoor attractions, and most …</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/skiing-nz-with-kids/" class="hub-card">
-      <h3>Skiing in NZ with Kids — Best Fields, Ages & Costs</h3>
+      <h2>Skiing in NZ with Kids — Best Fields, Ages & Costs</h2>
       <p>New Zealand has world-class skiing accessible to families, and the South Island resorts in particular are genuinely begi…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/south-island-family-road-trip/" class="hub-card">
-      <h3>South Island Family Road Trip NZ — The Complete Guide & Itinerary</h3>
+      <h2>South Island Family Road Trip NZ — The Complete Guide & Itinerary</h2>
       <p>A South Island road trip is the great New Zealand family adventure — and it's far more manageable with kids than most pa…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/taupo-hot-pools-guide/" class="hub-card">
-      <h3>Taupo Hot Pools Guide for Families — AC Baths vs Thermal Explorer Highway</h3>
+      <h2>Taupo Hot Pools Guide for Families — AC Baths vs Thermal Explorer Highway</h2>
       <p>Taupo is a haven for families seeking a relaxing getaway, with numerous hot pools to choose from. The AC Baths and Therm…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/things-to-do-auckland-with-kids/" class="hub-card">
-      <h3>Things to Do in Auckland with Kids — 2026 Family Guide</h3>
+      <h2>Things to Do in Auckland with Kids — 2026 Family Guide</h2>
       <p>Auckland is New Zealand's largest city and its most visited, with more family activities per square kilometre than anywh…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/things-to-do-christchurch-with-kids/" class="hub-card">
-      <h3>Things to Do in Christchurch with Kids — 2026 Family Guide</h3>
+      <h2>Things to Do in Christchurch with Kids — 2026 Family Guide</h2>
       <p>Christchurch is the most changed city in New Zealand. The 2011 earthquake demolished the centre and what has grown back …</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/things-to-do-dunedin-with-kids/" class="hub-card">
-      <h3>Things to Do in Dunedin with Kids — 2026 Family Guide</h3>
+      <h2>Things to Do in Dunedin with Kids — 2026 Family Guide</h2>
       <p>Dunedin is the most underrated city in New Zealand for families. It has a free world-class museum, the steepest street i…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/things-to-do-hamilton-with-kids/" class="hub-card">
-      <h3>Things to Do in Hamilton with Kids — 2026 Family Guide</h3>
+      <h2>Things to Do in Hamilton with Kids — 2026 Family Guide</h2>
       <p>Hamilton doesn't get much tourist attention — most families drive through it on the way to Rotorua or the Coromandel. Th…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/things-to-do-northland-with-kids/" class="hub-card">
-      <h3>Things to Do in Northland with Kids — 2026 Family Guide</h3>
+      <h2>Things to Do in Northland with Kids — 2026 Family Guide</h2>
       <p>Northland is New Zealand's northernmost region — warm, subtropical, and the most culturally significant part of the coun…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/things-to-do-queenstown-with-kids/" class="hub-card">
-      <h3>Things to Do in Queenstown with Kids — 2026 Family Guide</h3>
+      <h2>Things to Do in Queenstown with Kids — 2026 Family Guide</h2>
       <p>Queenstown markets itself as the adventure capital of the world, which is mostly true and mostly aimed at adults. The tr…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/things-to-do-rotorua-with-kids/" class="hub-card">
-      <h3>Things to Do in Rotorua with Kids — 2026 Family Guide</h3>
+      <h2>Things to Do in Rotorua with Kids — 2026 Family Guide</h2>
       <p>Most families arrive in Rotorua expecting the smell to be the problem. It isn't — your kids forget about the sulphur wit…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/things-to-do-tauranga-with-kids/" class="hub-card">
-      <h3>Things to Do in Tauranga with Kids — 2026 Family Guide</h3>
+      <h2>Things to Do in Tauranga with Kids — 2026 Family Guide</h2>
       <p>Tauranga is New Zealand's fastest-growing city and one of its best-kept family secrets. The Bay of Plenty climate is the…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/things-to-do-wanaka-with-kids/" class="hub-card">
-      <h3>Things to Do in Wanaka with Kids — 2026 Family Guide</h3>
+      <h2>Things to Do in Wanaka with Kids — 2026 Family Guide</h2>
       <p>Wanaka is 1 hour from Queenstown and shares similar scenery — lake, mountains, Southern Alps — but with about a quarter …</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/things-to-do-wellington-with-kids/" class="hub-card">
-      <h3>Things to Do in Wellington with Kids — 2026 Family Guide</h3>
+      <h2>Things to Do in Wellington with Kids — 2026 Family Guide</h2>
       <p>Wellington has a reputation as the windy, rainy city — and that reputation is earned. What it doesn't tell you is that T…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/auckland-with-kids-budget-family-guide-2026-08/" class="hub-card">
-      <h3>Auckland Budget Guide</h3>
+      <h2>Auckland Budget Guide</h2>
       <p>Auckland, New Zealand's largest city, is a fantastic destination for families with its beautiful beaches, islands, and w…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/auckland-with-kids-hidden-gems-families/" class="hub-card">
-      <h3>Auckland's Hidden Gems</h3>
+      <h2>Auckland's Hidden Gems</h2>
       <p>Auckland, New Zealand's largest city, is full of surprises for families. While many visitors flock to the city's well-kn…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/auckland-with-kids-june-family-guide/" class="hub-card">
-      <h3>Auckland in June</h3>
+      <h2>Auckland in June</h2>
       <p>June is a great time to visit Auckland with kids, with mild winter weather and a range of exciting activities to enjoy. …</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/auckland-with-kids-may-family-guide/" class="hub-card">
-      <h3>Auckland May</h3>
+      <h2>Auckland May</h2>
       <p>Auckland in May is a great time to visit with kids, with mild autumn weather, fewer crowds, and a range of activities to…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/auckland-with-kids-october-family-guide/" class="hub-card">
-      <h3>October in Auckland with Kids: Weather, Events & Tips 2026</h3>
+      <h2>October in Auckland with Kids: Weather, Events & Tips 2026</h2>
       <p>October is springtime in Auckland – mild temperatures, blooming gardens and plenty of family-friendly events. This guide…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/auckland-with-kids-september-family-guide/" class="hub-card">
-      <h3>September in Auckland with Kids – Weather, Events, Tips & Budget Guide 2026</h3>
+      <h2>September in Auckland with Kids – Weather, Events, Tips & Budget Guide 2026</h2>
       <p>September is the start of spring in Auckland, offering mild weather, blooming parks and fewer crowds. It’s the perfect t…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/bay-of-islands-family-august-family-guide/" class="hub-card">
-      <h3>August Family Holiday in the Bay of Islands – Guide 2026</h3>
+      <h2>August Family Holiday in the Bay of Islands – Guide 2026</h2>
       <p>August brings crisp mornings and sunny afternoons to the Bay of Islands, making it a perfect time for families to explor…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/bay-of-islands-family-budget-family-guide-2026-07/" class="hub-card">
-      <h3>Bay of Islands Budget</h3>
+      <h2>Bay of Islands Budget</h2>
       <p>The Bay of Islands is a dream destination for many families, with its stunning beaches, dolphin watching cruises, and ri…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/bay-of-islands-family-family-deals-2026-08/" class="hub-card">
-      <h3>Bay of Islands Deals</h3>
+      <h2>Bay of Islands Deals</h2>
       <p>The Bay of Islands is a top destination for family holidays in New Zealand, with its stunning beaches, dolphin watching …</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/bay-of-islands-family-hidden-gems-families/" class="hub-card">
-      <h3>Bay of Islands Hidden Gems</h3>
+      <h2>Bay of Islands Hidden Gems</h2>
       <p>The Bay of Islands is a haven for families, with its stunning beaches, dolphin watching cruises, and rich history. Howev…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/bay-of-islands-family-july-family-guide/" class="hub-card">
-      <h3>Bay of Islands July</h3>
+      <h2>Bay of Islands July</h2>
       <p>The Bay of Islands is a fantastic winter destination for families, with temperatures ranging from 10-16 degrees Celsius.…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/bay-of-islands-family-june-family-guide/" class="hub-card">
-      <h3>Bay of Islands June</h3>
+      <h2>Bay of Islands June</h2>
       <p>June in the Bay of Islands is a great time to visit with kids, with mild winter weather, fewer crowds, and a range of ex…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/cape-kidnappers-gannet-tour-family-review-2026-08/" class="hub-card">
-      <h3>Cape Kidnappers Tour Review</h3>
+      <h2>Cape Kidnappers Tour Review</h2>
       <p>The Cape Kidnappers Gannet Colony Tour is a unique wildlife experience that brings you up close to over 10,000 nesting g…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/cape-reinga-tour-northland-family-review-2026-08/" class="hub-card">
-      <h3>Cape Reinga Tour Review</h3>
+      <h2>Cape Reinga Tour Review</h2>
       <p>The Cape Reinga and Ninety Mile Beach Tour is a must-do for many NZ families. But what's it really like with kids? We sh…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/christchurch-gondola-family-review-2026-07/" class="hub-card">
-      <h3>Christchurch Gondola Review</h3>
+      <h2>Christchurch Gondola Review</h2>
       <p>The Christchurch Gondola is a must-visit attraction for families, offering breathtaking 360-degree views of the city and…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/christchurch-with-kids-budget-family-guide-2026-06/" class="hub-card">
-      <h3>Christchurch on Budget</h3>
+      <h2>Christchurch on Budget</h2>
       <p>Christchurch is a surprisingly great destination for families, with a wide range of activities and attractions to suit a…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/christchurch-with-kids-hidden-gems-families/" class="hub-card">
-      <h3>Christchurch Hidden Gems</h3>
+      <h2>Christchurch Hidden Gems</h2>
       <p>Christchurch is a city full of surprises, with a wide range of activities and attractions to suit all ages and budgets. …</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/christchurch-with-kids-july-family-guide/" class="hub-card">
-      <h3>Christchurch in July</h3>
+      <h2>Christchurch in July</h2>
       <p>Christchurch is a great destination for families in July, with plenty of indoor and outdoor activities to enjoy. The cit…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/christchurch-with-kids-june-family-guide/" class="hub-card">
-      <h3>Christchurch in June</h3>
+      <h2>Christchurch in June</h2>
       <p>Christchurch is a fantastic destination for families in June, offering a mix of indoor and outdoor activities that cater…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/christchurch-with-kids-october-family-guide/" class="hub-card">
-      <h3>October in Christchurch with Kids: Weather, Activities & Family Tips 2026</h3>
+      <h2>October in Christchurch with Kids: Weather, Activities & Family Tips 2026</h2>
       <p>October is springtime in Christchurch, and the city bursts into colour while the days grow longer. With a mix of free pa…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/christchurch-with-kids-september-family-guide/" class="hub-card">
-      <h3>September with Kids in Christchurch: Weather, Events & Family Tips</h3>
+      <h2>September with Kids in Christchurch: Weather, Events & Family Tips</h2>
       <p>Christchurch awakens in spring, offering longer days, blooming gardens and a relaxed vibe perfect for families. With a $…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/coromandel-with-kids-august-family-guide/" class="hub-card">
-      <h3>Coromandel in Aug</h3>
+      <h2>Coromandel in Aug</h2>
       <p>The Coromandel Peninsula is a top destination for families in New Zealand, offering stunning beaches, exciting activitie…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/coromandel-with-kids-budget-family-guide-2026-08/" class="hub-card">
-      <h3>Coromandel on a Budget</h3>
+      <h2>Coromandel on a Budget</h2>
       <p>The Coromandel Peninsula is a dream destination for many New Zealand families, with its stunning beaches, hot water spri…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/coromandel-with-kids-family-deals-2026-08/" class="hub-card">
-      <h3>Coromandel Family Deals</h3>
+      <h2>Coromandel Family Deals</h2>
       <p>The Coromandel Peninsula is a top destination for families, with its stunning beaches, hot water springs, and exciting a…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/coromandel-with-kids-hidden-gems-families/" class="hub-card">
-      <h3>Coromandel Hidden Gems</h3>
+      <h2>Coromandel Hidden Gems</h2>
       <p>The Coromandel Peninsula is a treasure trove of family-friendly activities and stunning natural beauty. While many visit…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/coromandel-with-kids-july-family-guide/" class="hub-card">
-      <h3>Coromandel in July</h3>
+      <h2>Coromandel in July</h2>
       <p>The Coromandel Peninsula is a stunning winter destination for families, with its beautiful beaches, outdoor activities, …</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/coromandel-with-kids-june-family-guide/" class="hub-card">
-      <h3>Coromandel in June</h3>
+      <h2>Coromandel in June</h2>
       <p>The Coromandel Peninsula is a fantastic destination for a family holiday in June. With mild winter weather, fewer crowds…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/coromandel-with-kids-october-family-guide/" class="hub-card">
-      <h3>October Family Holiday in Coromandel 2026 – Weather, Activities & Tips</h3>
+      <h2>October Family Holiday in Coromandel 2026 – Weather, Activities & Tips</h2>
       <p>October brings spring warmth to the Coromandel, making it ideal for families seeking beaches, walks and a touch of histo…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/coromandel-with-kids-september-family-guide/" class="hub-card">
-      <h3>September in Coromandel with Kids – Weather, Activities & Family Tips 2026</h3>
+      <h2>September in Coromandel with Kids – Weather, Activities & Family Tips 2026</h2>
       <p>September brings early spring to the Coromandel, offering comfortable temperatures and quieter beaches – perfect for fam…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/dolphins-bay-of-islands-family-review-2026-08/" class="hub-card">
-      <h3>Dolphin Watching Cruise in the Bay of Islands – A Family Review</h3>
+      <h2>Dolphin Watching Cruise in the Bay of Islands – A Family Review</h2>
       <p>A dolphin watching cruise in the Bay of Islands is a highlight for many Kiwi families, but what does the experience real…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/dunedin-family-guide-august-family-guide/" class="hub-card">
-      <h3>Dunedin with Kids</h3>
+      <h2>Dunedin with Kids</h2>
       <p>Dunedin is a fantastic winter destination for families, with its unique wildlife, stunning architecture, and plenty of i…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/dunedin-family-guide-budget-family-guide-2026-06/" class="hub-card">
-      <h3>Dunedin Family Budget</h3>
+      <h2>Dunedin Family Budget</h2>
       <p>Dunedin is a city that offers a unique blend of wildlife, culture, and history, making it an ideal destination for famil…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/dunedin-family-guide-hidden-gems-families/" class="hub-card">
-      <h3>Dunedin Hidden Gems</h3>
+      <h2>Dunedin Hidden Gems</h2>
       <p>Dunedin is a treasure trove of family-friendly activities, but some of its best experiences remain hidden from mainstrea…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/dunedin-family-guide-july-family-guide/" class="hub-card">
-      <h3>Dunedin July Fun</h3>
+      <h2>Dunedin July Fun</h2>
       <p>Dunedin is a fantastic destination for a family holiday in July, with its unique wildlife, rich history, and exciting at…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/dunedin-family-guide-october-family-guide/" class="hub-card">
-      <h3>October Family Holiday in Dunedin 2026: Wildlife, History & Fun</h3>
+      <h2>October Family Holiday in Dunedin 2026: Wildlife, History & Fun</h2>
       <p>October brings spring sunshine to Dunedin, making it perfect for spotting wildlife and exploring the city’s Victorian ch…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/dunedin-family-guide-september-family-guide/" class="hub-card">
-      <h3>September Family Holiday in Dunedin: Wildlife, History & Fun</h3>
+      <h2>September Family Holiday in Dunedin: Wildlife, History & Fun</h2>
       <p>September brings spring blossoms and crisp sea breezes to Dunedin, making it an ideal time for families to explore the c…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/fiordland-milford-sound-family-august-family-guide/" class="hub-card">
-      <h3>August in Fiordland</h3>
+      <h2>August in Fiordland</h2>
       <p>August is a great time to visit Fiordland & Milford Sound with kids, with mild winter weather and fewer crowds. The regi…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/fiordland-milford-sound-family-budget-family-guide-2026-08/" class="hub-card">
-      <h3>Fiordland on a Budget</h3>
+      <h2>Fiordland on a Budget</h2>
       <p>Milford Sound is a must-visit destination for any family, with its breathtaking scenery and unique wildlife. However, it…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/fiordland-milford-sound-family-family-deals-2026-08/" class="hub-card">
-      <h3>Fiordland Family Deals</h3>
+      <h2>Fiordland Family Deals</h2>
       <p>Fiordland & Milford Sound offer a unique and breathtaking experience for families, with its dramatic scenery and wide ra…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/fiordland-milford-sound-family-hidden-gems-families/" class="hub-card">
-      <h3>Fiordland's Hidden Gems</h3>
+      <h2>Fiordland's Hidden Gems</h2>
       <p>Fiordland and Milford Sound are a nature lover's paradise, with towering cliffs, stunning waterfalls, and picturesque la…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/fiordland-milford-sound-family-july-family-guide/" class="hub-card">
-      <h3>Fiordland July</h3>
+      <h2>Fiordland July</h2>
       <p>Fiordland & Milford Sound are breathtaking in July, with the winter landscapes offering a serene and peaceful atmosphere…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/fiordland-milford-sound-family-september-family-guide/" class="hub-card">
-      <h3>September in Fiordland & Milford Sound: Family Guide 2026</h3>
+      <h2>September in Fiordland & Milford Sound: Family Guide 2026</h2>
       <p>September brings spring’s first thaw to Fiordland, turning the dramatic scenery into a playground of mist‑kissed peaks a…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/free-things-to-do-with-kids-auckland/" class="hub-card">
-      <h3>Free Things to Do With Kids in Auckland</h3>
+      <h2>Free Things to Do With Kids in Auckland</h2>
       <p>When we first started exploring Auckland as a family, I was amazed at how much you can do without spending a thing. New …</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/free-things-to-do-with-kids-christchurch/" class="hub-card">
-      <h3>Free Things to Do With Kids in Christchurch</h3>
+      <h2>Free Things to Do With Kids in Christchurch</h2>
       <p>Christchurch has reinvented itself as one of New Zealand's most family-friendly cities, and the best part is how much of…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/free-things-to-do-with-kids-dunedin/" class="hub-card">
-      <h3>Free Things to Do With Kids in Dunedin</h3>
+      <h2>Free Things to Do With Kids in Dunedin</h2>
       <p>Dunedin packs a huge amount of family fun into a compact, walkable city — and some of its very best attractions are free…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/free-things-to-do-with-kids-gisborne/" class="hub-card">
-      <h3>Free Things to Do with Kids in Gisborne / Tairāwhiti — Family Guide 2026</h3>
+      <h2>Free Things to Do with Kids in Gisborne / Tairāwhiti — Family Guide 2026</h2>
       <p>Gisborne is the first city in the world to see the sun each day — and it greets visitors with some of the quietest, most…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/free-things-to-do-with-kids-hamilton/" class="hub-card">
-      <h3>Free Things to Do With Kids in Hamilton</h3>
+      <h2>Free Things to Do With Kids in Hamilton</h2>
       <p>Hamilton is one of the most underrated family cities in New Zealand, and a big part of why is how much of it is free. Th…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/free-things-to-do-with-kids-napier/" class="hub-card">
-      <h3>Free Things to Do With Kids in Napier</h3>
+      <h2>Free Things to Do With Kids in Napier</h2>
       <p>Napier is one of the prettiest small cities in New Zealand, rebuilt in glorious Art Deco style after the 1931 earthquake…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/free-things-to-do-with-kids-nelson/" class="hub-card">
-      <h3>Free Things to Do With Kids in Nelson</h3>
+      <h2>Free Things to Do With Kids in Nelson</h2>
       <p>Sunny Nelson is a brilliant family base at the top of the South Island, and so much of its appeal is free. Tahunanui is …</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/free-things-to-do-with-kids-new-plymouth/" class="hub-card">
-      <h3>Free Things to Do with Kids in New Plymouth — Family Guide 2026</h3>
+      <h2>Free Things to Do with Kids in New Plymouth — Family Guide 2026</h2>
       <p>New Plymouth has a secret: one of the most generous free-activity lineups of any NZ city. Brooklands Zoo is one of the l…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/free-things-to-do-with-kids-palmerston-north/" class="hub-card">
-      <h3>Free Things to Do with Kids in Palmerston North — Family Guide 2026</h3>
+      <h2>Free Things to Do with Kids in Palmerston North — Family Guide 2026</h2>
       <p>Palmerston North — 'Palmy' to locals — sits at the heart of the lower North Island with a surprisingly strong free-activ…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/free-things-to-do-with-kids-queenstown/" class="hub-card">
-      <h3>Free Things to Do With Kids in Queenstown</h3>
+      <h2>Free Things to Do With Kids in Queenstown</h2>
       <p>Queenstown has a reputation as an expensive adventure capital, but as a family we've learned it's surprisingly easy to f…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/free-things-to-do-with-kids-rotorua/" class="hub-card">
-      <h3>Free Things to Do With Kids in Rotorua</h3>
+      <h2>Free Things to Do With Kids in Rotorua</h2>
       <p>Rotorua is famous for its bubbling mud pools and geysers, and the good news for families is that a surprising amount of …</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/free-things-to-do-with-kids-taupo/" class="hub-card">
-      <h3>Free Things to Do with Kids in Taupō — Family Guide 2026</h3>
+      <h2>Free Things to Do with Kids in Taupō — Family Guide 2026</h2>
       <p>Taupō sits on NZ's largest lake with a geothermal heartbeat running right under the town — and some of the country's mos…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/free-things-to-do-with-kids-tauranga/" class="hub-card">
-      <h3>Free Things to Do With Kids in Tauranga</h3>
+      <h2>Free Things to Do With Kids in Tauranga</h2>
       <p>Tauranga and Mount Maunganui are a family beach paradise, and the very best of it — the sand, the surf, the coastal walk…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/free-things-to-do-with-kids-wellington/" class="hub-card">
-      <h3>Free Things to Do With Kids in Wellington</h3>
+      <h2>Free Things to Do With Kids in Wellington</h2>
       <p>Wellington might be New Zealand's compact capital, but it punches well above its weight when it comes to free family fun…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/free-things-to-do-with-kids-whangarei/" class="hub-card">
-      <h3>Free Things to Do with Kids in Whangārei — Family Guide 2026</h3>
+      <h2>Free Things to Do with Kids in Whangārei — Family Guide 2026</h2>
       <p>Whangārei is one of our favourite stop-offs heading north — just two hours up State Highway 1 from Auckland, and the per…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/gisborne-east-cape-family-august-family-guide/" class="hub-card">
-      <h3>Gisborne & East Cape August</h3>
+      <h2>Gisborne & East Cape August</h2>
       <p>Gisborne and the East Cape are perfect for a family holiday in August, with mild winter weather and plenty of outdoor ac…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/gisborne-east-cape-family-budget-family-guide-2026-08/" class="hub-card">
-      <h3>Gisborne & East Cape Budget</h3>
+      <h2>Gisborne & East Cape Budget</h2>
       <p>Gisborne and the East Cape are a hidden gem for family travel in New Zealand, offering a unique blend of culture, advent…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/gisborne-east-cape-family-family-deals-2026-06/" class="hub-card">
-      <h3>Gisborne Family Deals</h3>
+      <h2>Gisborne Family Deals</h2>
       <p>Planning a family holiday in Gisborne and East Cape can be affordable with the right deals and discounts. The region off…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/gisborne-east-cape-family-hidden-gems-families/" class="hub-card">
-      <h3>Gisborne Hidden Gems</h3>
+      <h2>Gisborne Hidden Gems</h2>
       <p>Gisborne and the East Cape are a treasure trove of family-friendly activities and hidden gems waiting to be uncovered. F…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/gisborne-east-cape-family-july-family-guide/" class="hub-card">
-      <h3>Gisborne & East Cape July</h3>
+      <h2>Gisborne & East Cape July</h2>
       <p>Gisborne and the East Cape are perfect for a family winter escape in July, with mild temperatures, fewer crowds, and ple…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/gisborne-east-cape-family-june-family-guide/" class="hub-card">
-      <h3>Gisborne & East Cape June</h3>
+      <h2>Gisborne & East Cape June</h2>
       <p>Gisborne and the East Cape are a hidden gem for family travel in New Zealand. In June, the region offers a unique blend …</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/gisborne-east-cape-family-september-family-guide/" class="hub-card">
-      <h3>September Family Holiday in Gisborne & East Cape 2026</h3>
+      <h2>September Family Holiday in Gisborne & East Cape 2026</h2>
       <p>September brings spring sunshine to the East Coast, making it an ideal time for families to explore Gisborne’s surf beac…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/hamilton-waikato-with-kids-august-family-guide/" class="hub-card">
-      <h3>Hamilton & Waikato in Aug</h3>
+      <h2>Hamilton & Waikato in Aug</h2>
       <p>Hamilton and Waikato is a hidden gem for family travel, offering a mix of city and rural experiences. In August, the reg…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/hamilton-waikato-with-kids-budget-family-guide-2026-06/" class="hub-card">
-      <h3>Hamilton & Waikato on Budget</h3>
+      <h2>Hamilton & Waikato on Budget</h2>
       <p>Hamilton and Waikato, often overlooked, is a hidden gem for family travel in New Zealand. With its beautiful gardens, ex…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/hamilton-waikato-with-kids-family-deals-2026-07/" class="hub-card">
-      <h3>Hamilton & Waikato Deals</h3>
+      <h2>Hamilton & Waikato Deals</h2>
       <p>Hamilton & Waikato is a hidden gem for family holidays, offering a mix of city attractions and rural adventures. With th…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/hamilton-waikato-with-kids-hidden-gems-families/" class="hub-card">
-      <h3>Hidden Gems Waikato</h3>
+      <h2>Hidden Gems Waikato</h2>
       <p>Hamilton & Waikato is a treasure trove of family-friendly activities waiting to be uncovered. While many flock to the ty…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/hamilton-waikato-with-kids-october-family-guide/" class="hub-card">
-      <h3>October Family Fun in Hamilton & Waikato – 2026 Guide</h3>
+      <h2>October Family Fun in Hamilton & Waikato – 2026 Guide</h2>
       <p>October brings spring to Hamilton and the wider Waikato, with blooming gardens and comfortable temperatures perfect for …</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/hamilton-waikato-with-kids-september-family-guide/" class="hub-card">
-      <h3>September Family Holiday in Hamilton & Waikato 2026</h3>
+      <h2>September Family Holiday in Hamilton & Waikato 2026</h2>
       <p>September brings spring to the Waikato, with blooming gardens and crisp mornings perfect for family outings. From Hobbit…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/hawkes-bay-family-guide-august-family-guide/" class="hub-card">
-      <h3>Hawke's Bay in Aug</h3>
+      <h2>Hawke's Bay in Aug</h2>
       <p>Hawke's Bay is a hidden family gem in August, with warm and dry weather, perfect for outdoor activities like visiting th…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/hawkes-bay-family-guide-budget-family-guide-2026-06/" class="hub-card">
-      <h3>Hawke's Bay Family Budget</h3>
+      <h2>Hawke's Bay Family Budget</h2>
       <p>Hawke's Bay is a hidden family gem, with Art Deco Napier, Cape Kidnappers gannets and NZ's best fruit. For a family of f…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/hawkes-bay-family-guide-family-deals-2026-07/" class="hub-card">
-      <h3>Hawke's Bay Family Deals</h3>
+      <h2>Hawke's Bay Family Deals</h2>
       <p>Hawke's Bay is a hidden family gem, offering a mix of Art Deco architecture, stunning beaches, and exciting outdoor acti…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/hawkes-bay-family-guide-hidden-gems-families/" class="hub-card">
-      <h3>Hawke's Bay Hidden Gems</h3>
+      <h2>Hawke's Bay Hidden Gems</h2>
       <p>Hawke's Bay is a treasure trove of family-friendly activities and hidden gems waiting to be uncovered. From the stunning…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/hawkes-bay-family-guide-july-family-guide/" class="hub-card">
-      <h3>Hawke's Bay July</h3>
+      <h2>Hawke's Bay July</h2>
       <p>Hawke's Bay is a hidden family gem in winter, offering a unique blend of culture, nature, and adventure. In July, the re…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/hawkes-bay-family-guide-june-family-guide/" class="hub-card">
-      <h3>June in Hawke's Bay</h3>
+      <h2>June in Hawke's Bay</h2>
       <p>Hawke's Bay is a wonderful destination for a family holiday in June. With mild winter weather, averaging 12-17°C, it's a…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/hawkes-bay-family-guide-may-family-guide/" class="hub-card">
-      <h3>Hawke's Bay in May</h3>
+      <h2>Hawke's Bay in May</h2>
       <p>May is a great time to visit Hawke's Bay with kids, with mild autumn weather and a range of exciting activities to enjoy…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/huka-falls-taupo-family-review-2026-08/" class="hub-card">
-      <h3>Huka Falls Taupo</h3>
+      <h2>Huka Falls Taupo</h2>
       <p>Huka Falls is a natural wonder that will leave your family in awe. Located in Taupo, this spectacular attraction is a mu…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/international-antarctic-centre-christchurch-family-review-2026-07/" class="hub-card">
-      <h3>Antarctic Centre Review</h3>
+      <h2>Antarctic Centre Review</h2>
       <p>The International Antarctic Centre in Christchurch is a must-visit attraction for families. With its unique blend of int…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/marlborough-blenheim-family-august-family-guide/" class="hub-card">
-      <h3>Marlborough in Aug</h3>
+      <h2>Marlborough in Aug</h2>
       <p>Marlborough is a fantastic destination for families in August, with its sunny weather and plenty of outdoor activities t…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/marlborough-blenheim-family-budget-family-guide-2026-07/" class="hub-card">
-      <h3>Marlborough on Budget</h3>
+      <h2>Marlborough on Budget</h2>
       <p>Marlborough is the perfect destination for a family holiday, with its sun-kissed Sounds, exciting wildlife cruises, and …</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/marlborough-blenheim-family-hidden-gems-families/" class="hub-card">
-      <h3>Marlborough Hidden Gems</h3>
+      <h2>Marlborough Hidden Gems</h2>
       <p>Marlborough is a haven for families, with its sun-kissed Sounds, exciting wildlife cruises, and delicious food scene. Wh…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/marlborough-blenheim-family-july-family-guide/" class="hub-card">
-      <h3>Marlborough July Fun</h3>
+      <h2>Marlborough July Fun</h2>
       <p>Marlborough is the South Island's sunniest region, making it an ideal destination for families in July. With a range of …</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/marlborough-blenheim-family-june-family-guide/" class="hub-card">
-      <h3>June in Marlborough</h3>
+      <h2>June in Marlborough</h2>
       <p>Marlborough and Blenheim are perfect for a family holiday in June, offering mild winter weather, exciting events, and pl…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/marlborough-blenheim-family-may-family-guide/" class="hub-card">
-      <h3>Marlborough May</h3>
+      <h2>Marlborough May</h2>
       <p>May is a great time to visit Marlborough and Blenheim with kids, with mild autumn weather and plenty of family-friendly …</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/marlborough-blenheim-family-september-family-guide/" class="hub-card">
-      <h3>September Family Holiday in Marlborough & Blenheim 2026</h3>
+      <h2>September Family Holiday in Marlborough & Blenheim 2026</h2>
       <p>September brings the first warm days to New Zealand's sunniest wine region, making Marlborough and Blenheim perfect for …</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/milford-sound-cruise-family-review-2026-08/" class="hub-card">
-      <h3>Milford Sound Nature Cruise – Honest Family Review & Tips</h3>
+      <h2>Milford Sound Nature Cruise – Honest Family Review & Tips</h2>
       <p>A Milford Sound cruise is a bucket‑list moment for many Kiwis, but how does it hold up when you bring the kids? We’ve ta…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/mount-maunganui-surf-lesson-family-review-2026-08/" class="hub-card">
-      <h3>Surf Lessons at Mt Maunganui</h3>
+      <h2>Surf Lessons at Mt Maunganui</h2>
       <p>If you're looking for a fun and exciting activity to do with your family in Tauranga, consider taking a surf lesson at M…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/nelson-abel-tasman-family-august-family-guide/" class="hub-card">
-      <h3>Nelson & Abel Tasman</h3>
+      <h2>Nelson & Abel Tasman</h2>
       <p>Nelson and Abel Tasman are perfect for a family holiday in August, with sunny weather, golden beaches, and clear water. …</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/nelson-abel-tasman-family-budget-family-guide-2026-07/" class="hub-card">
-      <h3>Nelson & Abel Tasman Budget</h3>
+      <h2>Nelson & Abel Tasman Budget</h2>
       <p>Nelson, the sunniest city in New Zealand, and Abel Tasman National Park offer a perfect blend of relaxation and adventur…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/nelson-abel-tasman-family-family-deals-2026-08/" class="hub-card">
-      <h3>Nelson Deals</h3>
+      <h2>Nelson Deals</h2>
       <p>Nelson is the sunniest city in New Zealand and the gateway to Abel Tasman National Park, offering a relaxed and family-f…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/nelson-abel-tasman-family-hidden-gems-families/" class="hub-card">
-      <h3>Nelson & Abel Tasman Hidden Gems</h3>
+      <h2>Nelson & Abel Tasman Hidden Gems</h2>
       <p>Nelson and Abel Tasman are renowned for their stunning beaches and scenic coastal walks, but there's more to this beauti…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/nelson-abel-tasman-family-july-family-guide/" class="hub-card">
-      <h3>Nelson July Fun</h3>
+      <h2>Nelson July Fun</h2>
       <p>Nelson is the sunniest region in New Zealand, making it an ideal destination for a family holiday in July. With its stun…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/nelson-abel-tasman-family-june-family-guide/" class="hub-card">
-      <h3>Nelson in June</h3>
+      <h2>Nelson in June</h2>
       <p>Nelson is the sunniest city in New Zealand and the perfect winter destination for families. In June, the weather is mild…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/nelson-abel-tasman-family-may-family-guide/" class="hub-card">
-      <h3>Nelson & Abel Tasman in May</h3>
+      <h2>Nelson & Abel Tasman in May</h2>
       <p>May is a great time to visit Nelson and Abel Tasman with kids, with mild autumn weather, fewer crowds, and lower prices.…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/new-plymouth-taranaki-family-august-family-guide/" class="hub-card">
-      <h3>New Plymouth August</h3>
+      <h2>New Plymouth August</h2>
       <p>New Plymouth is a hidden family gem, boasting a volcanic mountain, stunning surf beaches, and NZ's best park. In August,…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/new-plymouth-taranaki-family-budget-family-guide-2026-07/" class="hub-card">
-      <h3>New Plymouth Budget Guide</h3>
+      <h2>New Plymouth Budget Guide</h2>
       <p>New Plymouth and Taranaki are a hidden gem for family holidays, offering a mix of natural beauty, adventure, and culture…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/new-plymouth-taranaki-family-family-deals-2026-08/" class="hub-card">
-      <h3>Best Family Deals in New Plymouth & Taranaki – August 2026</h3>
+      <h2>Best Family Deals in New Plymouth & Taranaki – August 2026</h2>
       <p>New Plymouth offers volcano‑view hikes, surf‑side walks and one of the country’s most loved parks – all at family‑friend…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/new-plymouth-taranaki-family-hidden-gems-families/" class="hub-card">
-      <h3>New Plymouth Hidden Gems</h3>
+      <h2>New Plymouth Hidden Gems</h2>
       <p>New Plymouth and Taranaki are a treasure trove of family-friendly activities and stunning natural beauty, waiting to be …</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/new-plymouth-taranaki-family-july-family-guide/" class="hub-card">
-      <h3>New Plymouth July</h3>
+      <h2>New Plymouth July</h2>
       <p>New Plymouth and Taranaki are a hidden gem for family holidays in July. With mild winter weather, fewer crowds, and a ra…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/new-plymouth-taranaki-family-june-family-guide/" class="hub-card">
-      <h3>New Plymouth June</h3>
+      <h2>New Plymouth June</h2>
       <p>New Plymouth is a hidden family gem in June, with mild winter weather, fewer crowds, and plenty of free activities to en…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/new-plymouth-taranaki-family-october-family-guide/" class="hub-card">
-      <h3>October in New Plymouth & Taranaki: Family Guide 2026</h3>
+      <h2>October in New Plymouth & Taranaki: Family Guide 2026</h2>
       <p>October brings spring sunshine to New Plymouth, making it ideal for outdoor adventures with kids. From volcanic hikes to…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/new-plymouth-taranaki-family-september-family-guide/" class="hub-card">
-      <h3>September in New Plymouth & Taranaki with Kids – 2026 Guide</h3>
+      <h2>September in New Plymouth & Taranaki with Kids – 2026 Guide</h2>
       <p>Spring arrives in New Plymouth with mild days, blooming gardens and fewer crowds – perfect for families. This guide show…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/northland-cape-reinga-family-august-family-guide/" class="hub-card">
-      <h3>August Family Holiday in Northland 2026: Kids, Coast & Kauri</h3>
+      <h2>August Family Holiday in Northland 2026: Kids, Coast & Kauri</h2>
       <p>August brings crisp winter sunshine to Northland, perfect for families who love open beaches and ancient forests. With m…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/northland-cape-reinga-family-budget-family-guide-2026-08/" class="hub-card">
-      <h3>Northland on Budget</h3>
+      <h2>Northland on Budget</h2>
       <p>Northland is a unique and exciting destination for families, offering a mix of stunning natural beauty, rich Maori histo…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/northland-cape-reinga-family-hidden-gems-families/" class="hub-card">
-      <h3>Northland's Hidden Gems</h3>
+      <h2>Northland's Hidden Gems</h2>
       <p>Northland, New Zealand, is a treasure trove of natural wonders and historical sites, but some of its best spots are off …</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/northland-cape-reinga-family-july-family-guide/" class="hub-card">
-      <h3>Northland in July</h3>
+      <h2>Northland in July</h2>
       <p>Northland is a fantastic winter destination for families, with mild temperatures and plenty of sunshine. In July, you ca…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/northland-cape-reinga-family-june-family-guide/" class="hub-card">
-      <h3>June in Northland</h3>
+      <h2>June in Northland</h2>
       <p>Northland in June is a hidden gem for family travel. With mild winter weather and smaller crowds, it's an ideal time to …</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/northland-cape-reinga-family-october-family-guide/" class="hub-card">
-      <h3>October Family Holiday in Northland 2026: Kids, Coast & Kauri</h3>
+      <h2>October Family Holiday in Northland 2026: Kids, Coast & Kauri</h2>
       <p>October brings mild sunshine and blossoming native flora to Northland, making it ideal for families eager to explore coa…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/northland-cape-reinga-family-september-family-guide/" class="hub-card">
-      <h3>September Family Holiday in Northland 2026: Weather, Activities & Practical Tips</h3>
+      <h2>September Family Holiday in Northland 2026: Weather, Activities & Practical Tips</h2>
       <p>September is the start of spring in New Zealand, and Northland bursts into colour while still offering low crowds and mi…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/orana-wildlife-park-christchurch-family-review-2026-07/" class="hub-card">
-      <h3>Orana Wildlife Park Review</h3>
+      <h2>Orana Wildlife Park Review</h2>
       <p>Orana Wildlife Park in Christchurch is a must-visit for families, offering an unforgettable experience with its open-ran…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/puzzling-world-wanaka-family-review-2026-05/" class="hub-card">
-      <h3>Puzzling World Wanaka</h3>
+      <h2>Puzzling World Wanaka</h2>
       <p>Puzzling World in Wanaka is a unique attraction that's fun for the whole family. With its 3D illusion rooms, holographic…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/queenstown-with-kids-august-family-guide/" class="hub-card">
-      <h3>Queenstown in Aug</h3>
+      <h2>Queenstown in Aug</h2>
       <p>Queenstown is a year-round destination, but August is a great time to visit with kids. The winter season is in full swin…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/queenstown-with-kids-budget-family-guide-2026-08/" class="hub-card">
-      <h3>How to Visit Queenstown on a Family Budget (3‑Day Guide)</h3>
+      <h2>How to Visit Queenstown on a Family Budget (3‑Day Guide)</h2>
       <p>Queenstown may be known for extreme sports, but with a bit of planning you can experience the thrills without breaking t…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/queenstown-with-kids-family-deals-2026-06/" class="hub-card">
-      <h3>Queenstown Family Deals</h3>
+      <h2>Queenstown Family Deals</h2>
       <p>Queenstown is an ideal destination for families, offering a range of exciting activities and stunning scenery. With some…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/queenstown-with-kids-hidden-gems-families/" class="hub-card">
-      <h3>Queenstown Hidden Gems</h3>
+      <h2>Queenstown Hidden Gems</h2>
       <p>Queenstown is renowned for its adventure activities, but it also boasts a treasure trove of hidden gems that are perfect…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/queenstown-with-kids-july-family-guide/" class="hub-card">
-      <h3>Queenstown in July</h3>
+      <h2>Queenstown in July</h2>
       <p>Queenstown is a winter wonderland in July, with snow-capped mountains, crisp air, and plenty of family-friendly activiti…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/queenstown-with-kids-june-family-guide/" class="hub-card">
-      <h3>Queenstown June Fun</h3>
+      <h2>Queenstown June Fun</h2>
       <p>Queenstown is an excellent destination for a family holiday in June, with crisp winter weather and a range of activities…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/queenstown-with-kids-may-family-guide/" class="hub-card">
-      <h3>Queenstown May</h3>
+      <h2>Queenstown May</h2>
       <p>May is a fantastic time to visit Queenstown with kids, with mild autumn weather and a range of exciting activities to en…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/rotorua-family-guide-budget-family-guide-2026-07/" class="hub-card">
-      <h3>Rotorua on a Budget</h3>
+      <h2>Rotorua on a Budget</h2>
       <p>Rotorua is a fantastic destination for families, with geothermal wonders, Maori culture, and plenty of activities to kee…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/rotorua-family-guide-hidden-gems-families/" class="hub-card">
-      <h3>Rotorua Hidden Gems</h3>
+      <h2>Rotorua Hidden Gems</h2>
       <p>Rotorua is a treasure trove of geothermal wonders, Maori culture, and exciting activities for families. While many visit…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/rotorua-family-guide-july-family-guide/" class="hub-card">
-      <h3>Rotorua July Fun</h3>
+      <h2>Rotorua July Fun</h2>
       <p>Rotorua is an ideal destination for a family holiday in July, offering a mix of geothermal wonders, Maori culture, and o…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/rotorua-family-guide-june-family-guide/" class="hub-card">
-      <h3>Rotorua in June</h3>
+      <h2>Rotorua in June</h2>
       <p>June is a fantastic time to visit Rotorua with kids, with mild winter weather and a range of exciting activities to enjo…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/rotorua-family-guide-october-family-guide/" class="hub-card">
-      <h3>October in Rotorua with Kids: Weather, Events & Family Tips</h3>
+      <h2>October in Rotorua with Kids: Weather, Events & Family Tips</h2>
       <p>October is springtime in Rotorua, offering mild weather and blooming gardens – perfect for families eager to explore geo…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/rotorua-family-guide-september-family-guide/" class="hub-card">
-      <h3>September Family Holiday in Rotorua 2026: Weather & Tips</h3>
+      <h2>September Family Holiday in Rotorua 2026: Weather & Tips</h2>
       <p>Rotorua bursts into spring in September, offering milder temps and fewer crowds – perfect for families eager to explore …</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/royal-albatross-centre-dunedin-family-review-2026-10/" class="hub-card">
-      <h3>Royal Albatross Centre at Taiaroa Head – Family Review & Tips</h3>
+      <h2>Royal Albatross Centre at Taiaroa Head – Family Review & Tips</h2>
       <p>The Royal Albatross Centre on the Otago Peninsula offers a rare chance to see the world’s largest flying birds up close.…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/taupo-with-kids-budget-family-guide-2026-08/" class="hub-card">
-      <h3>Taupo on a Budget</h3>
+      <h2>Taupo on a Budget</h2>
       <p>Taupo is a fantastic mid-island stop for families, offering a mix of free activities, stunning natural beauty, and excit…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/taupo-with-kids-family-deals-2026-08/" class="hub-card">
-      <h3>Best Family Deals in Taupo – August 2026</h3>
+      <h2>Best Family Deals in Taupo – August 2026</h2>
       <p>Taupo sits at the heart of the North Island, offering stunning waterfalls, a massive lake and a relaxed pace that suits …</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/taupo-with-kids-hidden-gems-families/" class="hub-card">
-      <h3>Taupo Hidden Gems</h3>
+      <h2>Taupo Hidden Gems</h2>
       <p>Taupo is a treasure trove of family-friendly activities, but some of its best spots remain hidden from mainstream guides…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/taupo-with-kids-july-family-guide/" class="hub-card">
-      <h3>Taupo in July</h3>
+      <h2>Taupo in July</h2>
       <p>Taupo is a wonderful destination for a family holiday in July, with its mild winter weather and plenty of indoor and out…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/taupo-with-kids-june-family-guide/" class="hub-card">
-      <h3>Taupo in June</h3>
+      <h2>Taupo in June</h2>
       <p>Taupo is a great mid-island stop, offering a mix of free and paid activities for families, including the spectacular Huk…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/taupo-with-kids-october-family-guide/" class="hub-card">
-      <h3>October Family Holiday Guide to Taupo – Weather, Activities & Tips 2026</h3>
+      <h2>October Family Holiday Guide to Taupo – Weather, Activities & Tips 2026</h2>
       <p>October is the perfect time to explore Taupo with the family. Mild autumn weather, fewer crowds and a host of free natur…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/taupo-with-kids-september-family-guide/" class="hub-card">
-      <h3>September in Taupo with Kids: Weather, Activities & Family Tips 2026</h3>
+      <h2>September in Taupo with Kids: Weather, Activities & Family Tips 2026</h2>
       <p>September is the start of spring in Taupo, offering mild days, fewer crowds and plenty of free natural wonders. This gui…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/tauranga-mount-maunganui-family-august-family-guide/" class="hub-card">
-      <h3>Tauranga in Aug</h3>
+      <h2>Tauranga in Aug</h2>
       <p>Tauranga and Mount Maunganui are perfect for a family holiday in August. With mild winter weather and low crowds, you ca…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/tauranga-mount-maunganui-family-budget-family-guide-2026-07/" class="hub-card">
-      <h3>Mount Maunganui Budget Guide</h3>
+      <h2>Mount Maunganui Budget Guide</h2>
       <p>Tauranga and Mount Maunganui are a classic Kiwi summer holiday destination, offering a range of activities and experienc…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/tauranga-mount-maunganui-family-family-deals-2026-08/" class="hub-card">
-      <h3>Tauranga Deals</h3>
+      <h2>Tauranga Deals</h2>
       <p>Tauranga and Mount Maunganui are a haven for families, with plenty of activities, beautiful beaches, and a range of acco…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/tauranga-mount-maunganui-family-hidden-gems-families/" class="hub-card">
-      <h3>Tauranga's Hidden Gems</h3>
+      <h2>Tauranga's Hidden Gems</h2>
       <p>Tauranga and Mount Maunganui are a haven for family holidays, with their beautiful beaches, warm weather, and plenty of …</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/tauranga-mount-maunganui-family-july-family-guide/" class="hub-card">
-      <h3>Tauranga in July</h3>
+      <h2>Tauranga in July</h2>
       <p>Tauranga and Mount Maunganui are fantastic destinations for a family holiday in July. With mild winter weather, average …</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/tauranga-mount-maunganui-family-june-family-guide/" class="hub-card">
-      <h3>June in Tauranga</h3>
+      <h2>June in Tauranga</h2>
       <p>Tauranga and Mount Maunganui are a classic Kiwi summer holiday spot, but June is a great time to visit with kids. The we…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/tauranga-mount-maunganui-family-october-family-guide/" class="hub-card">
-      <h3>October Family Holiday Guide to Tauranga & Mount Maunganui 2026</h3>
+      <h2>October Family Holiday Guide to Tauranga & Mount Maunganui 2026</h2>
       <p>October is springtime on the Bay of Plenty, when the surf is gentle, the crowds are light and the town buzzes with festi…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/tauranga-mount-maunganui-family-september-family-guide/" class="hub-card">
-      <h3>September Family Holiday Guide to Tauranga & Mount Maunganui 2026</h3>
+      <h2>September Family Holiday Guide to Tauranga & Mount Maunganui 2026</h2>
       <p>Spring is just arriving on the Bay of Plenty, and September offers mild weather, fewer crowds and plenty of family‑frien…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/te-papa-wellington-family-review-2026-08/" class="hub-card">
-      <h3>Te Papa Museum Review</h3>
+      <h2>Te Papa Museum Review</h2>
       <p>Te Papa Museum in Wellington is a must-visit destination for families, offering six floors of interactive exhibits, NZ h…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/te-puia-rotorua-family-review-2026-07/" class="hub-card">
-      <h3>Te Puia Review</h3>
+      <h2>Te Puia Review</h2>
       <p>Te Puia in Rotorua is a must-visit for families, offering an unforgettable experience with its stunning geysers, kiwi ho…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/wai-o-tapu-rotorua-family-review-2026-07/" class="hub-card">
-      <h3>Wai-O-Tapu Review</h3>
+      <h2>Wai-O-Tapu Review</h2>
       <p>Wai-O-Tapu Thermal Wonderland is a must-visit attraction for families in Rotorua, NZ. With its stunning geothermal pools…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/wanaka-with-kids-august-family-guide/" class="hub-card">
-      <h3>Wanaka in Aug</h3>
+      <h2>Wanaka in Aug</h2>
       <p>Wanaka in August is a winter wonderland, perfect for families who love skiing and the outdoors. With a budget of $250-45…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/wanaka-with-kids-budget-family-guide-2026-08/" class="hub-card">
-      <h3>Wanaka on Budget</h3>
+      <h2>Wanaka on Budget</h2>
       <p>Wanaka is a stunning destination that offers a mix of relaxation, adventure, and family-friendly activities. With some p…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/wanaka-with-kids-hidden-gems-families/" class="hub-card">
-      <h3>Wanaka Hidden Gems</h3>
+      <h2>Wanaka Hidden Gems</h2>
       <p>Wanaka, the quieter and more beautiful neighbour of Queenstown, is a haven for families seeking adventure and relaxation…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/wanaka-with-kids-july-family-guide/" class="hub-card">
-      <h3>Wanaka July Fun</h3>
+      <h2>Wanaka July Fun</h2>
       <p>Wanaka in July is a winter wonderland, perfect for families who love skiing and the great outdoors. With Treble Cone Ski…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/wellington-cable-car-family-review-2026-08/" class="hub-card">
-      <h3>Wellington Cable Car Review</h3>
+      <h2>Wellington Cable Car Review</h2>
       <p>The Wellington Cable Car is a must-do activity for families visiting Wellington. This iconic attraction has been running…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/wellington-with-kids-august-family-guide/" class="hub-card">
-      <h3>Wellington August</h3>
+      <h2>Wellington August</h2>
       <p>Wellington is a fantastic destination for families in August, with its vibrant cultural scene, stunning natural beauty a…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/wellington-with-kids-family-deals-2026-07/" class="hub-card">
-      <h3>Wellington Family Deals</h3>
+      <h2>Wellington Family Deals</h2>
       <p>Wellington is a fantastic destination for families, with a wide range of activities and attractions to suit all ages. Wi…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/wellington-with-kids-hidden-gems-families/" class="hub-card">
-      <h3>Wellington Hidden Gems</h3>
+      <h2>Wellington Hidden Gems</h2>
       <p>Wellington, the coolest little capital in the world, is full of surprises for families. While many visitors flock to Te …</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/wellington-with-kids-july-family-guide/" class="hub-card">
-      <h3>Wellington in July</h3>
+      <h2>Wellington in July</h2>
       <p>Wellington is a fantastic destination for families, offering a wide range of activities and attractions to suit all ages…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/wellington-with-kids-june-family-guide/" class="hub-card">
-      <h3>June in Wellington</h3>
+      <h2>June in Wellington</h2>
       <p>Wellington is a fantastic destination for families in June, with plenty of indoor and outdoor activities to enjoy. The c…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/west-coast-family-guide-august-family-guide/" class="hub-card">
-      <h3>West Coast in Aug</h3>
+      <h2>West Coast in Aug</h2>
       <p>The West Coast is a great destination for families in August, with mild winter weather and fewer crowds. Enjoy the stunn…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/west-coast-family-guide-family-deals-2026-08/" class="hub-card">
-      <h3>West Coast Deals</h3>
+      <h2>West Coast Deals</h2>
       <p>The West Coast is a fantastic destination for families, with its stunning natural beauty, outdoor activities, and rich h…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/west-coast-family-guide-hidden-gems-families/" class="hub-card">
-      <h3>West Coast Hidden Gems</h3>
+      <h2>West Coast Hidden Gems</h2>
       <p>The West Coast of New Zealand is a treasure trove of natural wonders, from the famous Punakaiki Pancake Rocks to the stu…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/west-coast-family-guide-july-family-guide/" class="hub-card">
-      <h3>West Coast July</h3>
+      <h2>West Coast July</h2>
       <p>The West Coast of New Zealand is a fantastic destination for families, even in the winter month of July. With its stunni…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/west-coast-family-guide-june-family-guide/" class="hub-card">
-      <h3>West Coast June</h3>
+      <h2>West Coast June</h2>
       <p>June is a great time to visit the West Coast with kids, with mild winter weather, fewer crowds and exciting family activ…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/west-coast-family-guide-may-family-guide/" class="hub-card">
-      <h3>West Coast May</h3>
+      <h2>West Coast May</h2>
       <p>The West Coast of New Zealand is a great destination for families in May, with mild weather and plenty of outdoor activi…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/west-coast-family-guide-october-family-guide/" class="hub-card">
-      <h3>October West Coast Family Adventure: Glaciers, Pancake Rocks & More</h3>
+      <h2>October West Coast Family Adventure: Glaciers, Pancake Rocks & More</h2>
       <p>October is spring on the West Coast, when waterfalls roar and the glaciers still hold winter snow. Families can enjoy ic…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/west-coast-family-guide-september-family-guide/" class="hub-card">
-      <h3>September Family Adventure on NZ's West Coast – 2026 Guide</h3>
+      <h2>September Family Adventure on NZ's West Coast – 2026 Guide</h2>
       <p>Spring is just waking up on the West Coast, and September offers dramatic scenery with fewer crowds. This guide shows yo…</p>
       
       <span class="hub-link">View details →</span>
     </a>
     
     <a href="/travel-tips/zealandia-wellington-family-review-2026-08/" class="hub-card">
-      <h3>Zealandia Wildlife Sanctuary Family Review: What Kids Really Think</h3>
+      <h2>Zealandia Wildlife Sanctuary Family Review: What Kids Really Think</h2>
       <p>Zealandia sits just a short drive from Wellington’s city centre and promises a predator‑free haven where native birds an…</p>
       
       <span class="hub-link">View details →</span>
@@ -4031,11 +4048,40 @@
 
   
   <!-- MailerLite universal embed (enabled by mailerlite_account_id in data/site.json; see MAILERLITE-SETUP.md) -->
-  <script>(function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[]).push(arguments)},l=d.createElement(e),l.async=1,l.src=u,n=d.getElementsByTagName(e)[0],n.parentNode.insertBefore(l,n)})(window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');ml('account','2700226');</script>
+  <script>(function(w,d,e,u,f){w[f]=w[f]||function(){(w[f].q=w[f].q||[]).push(arguments)};nzftLater(function(){var l=d.createElement(e);l.async=1;l.src=u;d.head.appendChild(l);});})(window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');ml('account','2700226');</script>
   
 
-  <!-- Site search (Fuse.js) -->
-  <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js" defer></script>
+
+  <!-- GA4 conversion events: mark affiliate_click / generate_lead / add_to_wishlist as key events in GA4 admin -->
+  <script>
+  (function(){
+    function ev(name, params){ if(window.gtag) gtag('event', name, Object.assign({transport_type:'beacon'}, params||{})); }
+    document.addEventListener('click', function(e){
+      var a = e.target.closest && e.target.closest('a[href]');
+      if(!a) return;
+      var href = a.getAttribute('href') || '';
+      if(/(^|\s)sponsored(\s|$)/.test(a.getAttribute('rel') || '')){
+        var host = ''; try { host = new URL(a.href, location.href).hostname; } catch(x){}
+        ev('affiliate_click', {link_url: a.href, link_domain: host, link_text: (a.textContent || '').trim().slice(0, 80), page_path: location.pathname});
+      } else if(href.indexOf('mailto:') === 0){
+        ev('contact_click', {page_path: location.pathname});
+      }
+    }, true);
+    document.addEventListener('submit', function(e){
+      var f = e.target;
+      if(f.classList && f.classList.contains('newsletter-form')){
+        var t = f.querySelector('input[name=tags]');
+        ev('generate_lead', {method: 'newsletter', form_location: t ? t.value : 'unknown', page_path: location.pathname});
+      }
+    }, true);
+    document.addEventListener('click', function(e){
+      var b = e.target.closest && e.target.closest('.save-btn');
+      if(b && !b.classList.contains('is-saved')) ev('add_to_wishlist', {item_type: b.dataset.type, item_id: b.dataset.slug});
+    }, true);
+  })();
+  </script>
+
+  <!-- Site search (Fuse.js, loaded on first focus) -->
   <script>
   (function(){
     var input = document.getElementById('site-search');
@@ -4046,6 +4092,7 @@
     function load(){
       if(fuse || loading) return;
       loading = true;
+      if(!window.Fuse) nzftScript('https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js');
       fetch('/search-index.json').then(function(r){return r.json();}).then(function(data){
         function start(){
           fuse = new Fuse(data, {keys:['title','text'], threshold:0.4, ignoreLocation:true});
